@@ -689,12 +689,14 @@ npx shadcn-ui@latest add badge
 ### Step 4.2: Create Block Card Component
 
 **File: `src/components/blocks/BlockCard.tsx`**
+
 ```typescript
-import Image from "next/image"
+import { Img } from "@page-speed/img";
 import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { BlockMetadata } from "@/types/blocks"
+import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 
 interface BlockCardProps {
   block: BlockMetadata
@@ -706,12 +708,11 @@ export function BlockCard({ block }: BlockCardProps) {
       <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group">
         {/* Thumbnail Preview */}
         <div className="relative w-full h-48 bg-slate-100 dark:bg-slate-900 overflow-hidden rounded-t-lg">
-          <Image
+          <Img
             src={block.thumbnail.desktop}
             alt={block.title}
-            fill
             className="object-cover group-hover:scale-105 transition-transform"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            optixFlowConfig={{ apiKey: optixFlowApiKey }}
           />
         </div>
 
@@ -867,11 +868,13 @@ export function CodeDisplay({
 ### Step 4.5: Create Block Preview Component
 
 **File: `src/components/blocks/BlockPreview.tsx`**
+
 ```typescript
 "use client"
 
 import { BlockMetadata } from "@/types/blocks"
-import Image from "next/image"
+import { optixFlowApiKey } from "@/lib/media";
+import { Img } from "@page-speed/img";
 
 interface BlockPreviewProps {
   block: BlockMetadata
@@ -894,13 +897,13 @@ export function BlockPreview({ block, viewport }: BlockPreviewProps) {
           minHeight: "400px",
         }}
       >
-        <Image
+        <Img
           src={thumbnailUrl}
           alt={block.title}
           width={viewport === "mobile" ? 375 : 1280}
           height={viewport === "mobile" ? 812 : 600}
           className="w-full h-auto"
-          priority
+          optixFlowConfig={{ apiKey: optixFlowApiKey }}
         />
       </div>
     </div>
@@ -911,6 +914,7 @@ export function BlockPreview({ block, viewport }: BlockPreviewProps) {
 ### Step 4.6: Create Block Details Page Component
 
 **File: `src/components/blocks/BlockDetails.tsx`**
+
 ```typescript
 "use client"
 

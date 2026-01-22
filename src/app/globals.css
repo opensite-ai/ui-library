@@ -78,8 +78,8 @@
      TYPOGRAPHY
      ============================================ */
 
-    --font-sans: ui-sans-serif, system-ui, sans-serif;
-    --font-mono: ui-monospace, monospace;
+    --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 
     --text-xs: 0.75rem;
     --text-sm: 0.875rem;
