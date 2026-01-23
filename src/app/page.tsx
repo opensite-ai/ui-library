@@ -6,9 +6,8 @@
 import type { Metadata } from "next";
 import { getAllCategories, getBlockStats } from "@/lib/registry";
 import { CategoryGrid } from "@/components/category-grid";
-import { SearchBar } from "@/components/search-bar";
 import { openGraphImgUrl } from "@/lib/media";
-import { Badge, Section } from "@opensite/ui";
+import { DynamicIcon, Pressable, Section } from "@opensite/ui";
 import { HomepageHero } from "@/components/homepage-hero";
 
 export const metadata: Metadata = {
@@ -31,8 +30,8 @@ export default function HomePage() {
     <div className="">
       <HomepageHero />
 
-      <Section className="space-y-8">
-        <div className="text-center space-y-4">
+      <Section background="gray" className="border-b border-t border-muted">
+        <div className="text-center space-y-4 pb-12">
           <div className="text-3xl md:text-4xl font-bold">
             Browse by Category
           </div>
@@ -45,33 +44,32 @@ export default function HomePage() {
       </Section>
 
       {/* CTA */}
-      <section className="text-center space-y-6 py-12">
-        <h2 className="text-3xl md:text-4xl font-bold">
+      <Section
+        className="text-center space-y-6 "
+        spacing="xl"
+        pattern="dashedGridBasic"
+      >
+        <h2 className="text-3xl! md:text-5xl! font-bold pb-4">
           Ready to Build Something Amazing?
         </h2>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
           Start using OpenSite UI components in your next project and create
           stunning websites in minutes.
         </p>
-        <div className="flex flex-wrap gap-4 justify-center">
-          <a
-            href="https://docs.opensite.ai"
+        <div className="flex flex-wrap gap-4 pt-8 justify-center">
+          <Pressable
+            href="https://github.com/opensite-ai"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-accent text-accent-foreground font-medium hover:bg-accent/90 transition-colors"
+            componentType="a"
+            variant="default"
+            size="lg"
           >
-            View Documentation
-          </a>
-          <a
-            href="https://github.com/opensite"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 transition-colors"
-          >
-            View on GitHub
-          </a>
+            OpenSite Open Source on GitHub
+            <DynamicIcon name="line-md/github-loop" />
+          </Pressable>
         </div>
-      </section>
+      </Section>
     </div>
   );
 }

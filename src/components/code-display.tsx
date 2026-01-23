@@ -37,7 +37,7 @@ export function CodeDisplay({
           "absolute top-3 right-3 p-2 rounded-md transition-all",
           "bg-muted hover:bg-accent hover:text-accent-foreground",
           "opacity-0 group-hover:opacity-100",
-          "focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring"
+          "focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring",
         )}
         aria-label="Copy code"
       >
@@ -51,10 +51,10 @@ export function CodeDisplay({
       {/* Code Block */}
       <pre
         className={cn(
-          "overflow-x-auto p-4 rounded-lg",
+          "overflow-x-auto pt-12! p-4 rounded-lg",
           "bg-muted text-foreground",
           "border border-border",
-          "text-sm leading-relaxed"
+          "text-sm leading-relaxed",
         )}
       >
         <code className="font-mono">{code}</code>

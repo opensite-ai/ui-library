@@ -38,7 +38,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
     <div id="preview-root"></div>
   </body>
 </html>`,
-    []
+    [],
   );
 
   useEffect(() => {
@@ -80,7 +80,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
 
         if (!styleTag.textContent?.trim()) {
           document
-            .querySelectorAll("style, link[rel=\"stylesheet\"]")
+            .querySelectorAll('style, link[rel="stylesheet"]')
             .forEach((node) => {
               doc.head.appendChild(node.cloneNode(true));
             });
@@ -146,7 +146,9 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
           <div className="absolute inset-0 flex items-center justify-center bg-white/80 backdrop-blur-sm z-10">
             <div className="text-center space-y-2">
               <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-gray-300 border-r-gray-900" />
-              <p className="text-sm text-muted-foreground">Loading preview...</p>
+              <p className="text-sm text-muted-foreground">
+                Loading preview...
+              </p>
             </div>
           </div>
         )}
@@ -170,20 +172,17 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
           loading="lazy"
         />
 
-        {mountNode && PreviewComponent && createPortal(<PreviewComponent />, mountNode)}
-
-        {/* View Mode Label */}
-        <div className="absolute top-2 right-2 px-3 py-1 rounded-full bg-gray-900 text-white text-xs font-medium z-20 pointer-events-none">
-          {viewMode === "desktop" ? "💻 Desktop" : "📱 Mobile"}
-        </div>
+        {mountNode &&
+          PreviewComponent &&
+          createPortal(<PreviewComponent />, mountNode)}
       </div>
 
       {/* Preview Info */}
       <div className="text-sm text-muted-foreground">
         <p>
           Showing live {viewMode} render of{" "}
-          <span className="font-medium text-foreground">{block.title}</span>
-          {" "}— rendered in an isolated iframe environment.
+          <span className="font-medium text-foreground">{block.title}</span> —
+          rendered in an isolated iframe environment.
         </p>
       </div>
     </div>

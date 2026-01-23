@@ -45,12 +45,12 @@ const HomepageHero = ({ className }: HomepageHeroProps) => {
 
   const stats = [
     {
-      icon: <DynamicIcon name="icon-park-solid/page-template" />,
+      icon: <DynamicIcon name="mynaui/layout-solid" size={42} />,
       title: "600+",
       description: "Blocks",
     },
     {
-      icon: <DynamicIcon name="icon-park-solid/lightning" />,
+      icon: <DynamicIcon name="simple-icons/pagespeedinsights" size={42} />,
       title: "97%-100%",
       description: "Google Speed Avg",
     },
@@ -78,13 +78,13 @@ const HomepageHero = ({ className }: HomepageHeroProps) => {
 
   return (
     <Section
-      className={cn("relative w-screen overflow-hidden py-32", className)}
+      className={cn("h-screen relative w-screen overflow-hidden", className)}
       background="white"
     >
       <div className="relative flex flex-col lg:flex-row">
-        <div className="space-y-12 lg:w-1/2">
+        <div className="space-y-2 lg:w-1/2">
           <Badge>Semantic UI + AI</Badge>
-          <h1 className="mt-1 max-w-lg text-6xl font-medium lg:text-7xl">
+          <h1 className="mt-1 max-w-lg text-6xl font-medium lg:text-7xl!">
             Powering
             <span className="px-4 font-bold text-primary">Intelligent</span>
             Design
@@ -100,7 +100,7 @@ const HomepageHero = ({ className }: HomepageHeroProps) => {
           <ul className="mt-18 flex flex-wrap gap-9">
             {stats.map((stat, index) => (
               <li key={stat.title} className="flex items-center gap-4">
-                <div className="flex size-4 items-center justify-center rounded-lg bg-accent/10 md:size-10 p-6 text-primary">
+                <div className="flex items-center justify-center  text-black/30">
                   {stat.icon}
                 </div>
                 <div>

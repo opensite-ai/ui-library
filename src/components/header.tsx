@@ -11,10 +11,9 @@ import { DynamicIcon } from "@opensite/ui";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-muted shadow-xs bg-white backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between gap-4">
-          {/* Logo */}
           <Link
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
@@ -41,7 +40,7 @@ export function Header() {
               Categories
             </Link>
             <a
-              href="https://github.com/opensite"
+              href="https://github.com/opensite-ai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"

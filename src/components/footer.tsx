@@ -6,48 +6,47 @@
 import Link from "next/link";
 import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { Img } from "@page-speed/img";
+import { Section } from "@opensite/ui";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full border-t border-border bg-background">
-      <div className="container mx-auto px-4 py-12">
+    <Section
+      background="dark"
+      patternOpacity={0.1}
+      pattern="dashedGridBasic"
+      spacing="sm"
+    >
+      <div className="">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Img
-                src={logoPlaceholders.darkHorizontalLogo}
+                src={logoPlaceholders.lightHorizontalLogo}
                 alt="OpenSite Logo"
                 className="h-14 w-auto object-contain"
                 optixFlowConfig={{ apiKey: optixFlowApiKey }}
               />
             </Link>
-            <p className="text-sm text-muted-foreground">
-              A comprehensive component library for building beautiful websites
-              with AI.
+            <p className="text-sm text-white/90 text-balance">
+              Delivering the world's first Semantic UI site builder
             </p>
           </div>
 
-          {/* Components */}
           <div className="space-y-4">
-            <div className="text-sm font-semibold text-foreground uppercase">
-              Components
-            </div>
+            <div className="text-sm font-semibold  uppercase">Components</div>
             <ul className="space-y-2">
               <li>
-                <Link
-                  href="/"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Browse All
+                <Link href="/" className="text-sm  transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
                 <Link
                   href="/categories"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm   transition-colors"
                 >
                   Categories
                 </Link>
@@ -57,26 +56,24 @@ export function Footer() {
 
           {/* Resources */}
           <div className="space-y-4">
-            <div className="text-sm font-semibold text-foreground uppercase">
-              Resources
-            </div>
+            <div className="text-sm font-semibold  uppercase">Resources</div>
             <ul className="space-y-2">
               <li>
                 <a
                   href="https://docs.opensite.ai"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm   transition-colors"
                 >
                   Documentation
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/opensite"
+                  href="https://github.com/opensite-ai"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm   transition-colors"
                 >
                   GitHub
                 </a>
@@ -86,9 +83,9 @@ export function Footer() {
                   href="https://labs.dashtrack.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-sm   transition-colors"
                 >
-                  DashTrack Labs
+                  Client Portal
                 </a>
               </li>
             </ul>
@@ -96,30 +93,22 @@ export function Footer() {
 
           {/* Legal */}
           <div className="space-y-4">
-            <div className="text-sm font-semibold text-foreground uppercase">
-              Legal
-            </div>
+            <div className="text-sm font-semibold uppercase">Legal</div>
             <ul className="space-y-2">
               <li>
-                <Link
-                  href="/privacy"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
+                <Link href="/privacy" className="text-sm  transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/terms"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
+                <Link href="/terms" className="text-sm  transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/license"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  href="https://github.com/opensite-ai/opensite-ui/blob/master/LICENSE"
+                  className="text-sm  transition-colors"
                 >
                   License
                 </Link>
@@ -129,12 +118,12 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <p className="text-center text-sm text-muted-foreground">
+        <div className="pt-24">
+          <p className="text-center text-sm opacity-50">
             © {currentYear} OpenSite. All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
+    </Section>
   );
 }
