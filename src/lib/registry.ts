@@ -31,7 +31,10 @@ function loadRegistry(): BlocksRegistry {
       return cachedRegistry;
     }
 
-    cachedRegistry = JSON.parse(readFileSync(generatedPath, "utf-8"));
+    const parsedRegistry = JSON.parse(
+      readFileSync(generatedPath, "utf-8")
+    ) as BlocksRegistry | null;
+    cachedRegistry = parsedRegistry ?? { blocks: [] };
     return cachedRegistry;
   } catch (error) {
     console.error("Failed to load blocks registry:", error);
