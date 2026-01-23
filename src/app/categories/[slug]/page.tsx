@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { getCategoryBySlug, getBlocksByCategory } from "@/lib/registry";
 import { BlockCard } from "@/components/block-card";
 import { Breadcrumb } from "@/components/breadcrumb";
+import { Badge } from "@opensite/ui";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -53,13 +54,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       {/* Header */}
       <div className="space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold">{category.name}</h1>
-        <p className="text-xl text-muted-foreground max-w-3xl">
-          {category.description}
-        </p>
-        <div className="text-sm text-muted-foreground">
-          {category.blockCount} {category.blockCount === 1 ? "component" : "components"}
-        </div>
+        <Badge variant="default" className="px-4!">
+          {category.blockCount}{" "}
+          {category.blockCount === 1 ? "component" : "components"}
+        </Badge>
+        <h1 className="text-4xl!">{category.name}</h1>
       </div>
 
       {/* Blocks Grid */}

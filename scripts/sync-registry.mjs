@@ -11,8 +11,8 @@ const overridesPath = path.join(repoRoot, "src/data/registry-overrides.json");
 const outputPath = path.join(repoRoot, "src/data/registry.generated.json");
 
 const PLACEHOLDER_THUMBNAIL = {
-  desktop: "/placeholder-desktop.png",
-  mobile: "/placeholder-mobile.png",
+  desktop: "https://cdn.ing/assets/i/r/287646/ob4iqx5aibk1tdym49ybx2swtppo/isometric-data-stack-layers-dark-tech-illustration.png",
+  mobile: "https://cdn.ing/assets/i/r/287650/oj637ssn1crip2uhna398g3eud94/placeholder-mobile.png",
 };
 
 const BLOCKS_COMPONENTS_DIR = path.join(opensiteUiPath, "components", "blocks");

@@ -7,7 +7,7 @@ import Link from "next/link";
 import type { Block } from "@/types/blocks";
 import { cn, encodeBlockId } from "@/lib/utils";
 import { Img } from "@page-speed/img";
-import { optixFlowApiKey } from "@/lib/media";
+import { geometricPlaceholderImgs, optixFlowApiKey } from "@/lib/media";
 
 interface BlockCardProps {
   block: Block;
@@ -27,7 +27,7 @@ export function BlockCard({ block, className }: BlockCardProps) {
       {/* Thumbnail */}
       <div className="relative aspect-video w-full overflow-hidden bg-muted">
         <Img
-          src={block.thumbnail.desktop}
+          src={block.thumbnail.desktop || geometricPlaceholderImgs.one.desktop}
           alt={block.title}
           className="object-cover transition-transform duration-300 group-hover:scale-105"
           optixFlowConfig={{ apiKey: optixFlowApiKey }}

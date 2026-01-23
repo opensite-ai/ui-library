@@ -6,6 +6,7 @@
 import type { Block, Category, BlocksRegistry } from "@/types/blocks";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
+import { geometricPlaceholderImgs } from "./media";
 
 /**
  * Load the blocks registry
@@ -59,8 +60,8 @@ function normalizeBlock(rawBlock: any): Block {
     description: rawBlock.description || "",
     thumbnail: rawBlock.thumbnail ||
       rawBlock.preview || {
-        desktop: "/placeholder-desktop.png",
-        mobile: "/placeholder-mobile.png",
+        desktop: geometricPlaceholderImgs.one.desktop,
+        mobile: geometricPlaceholderImgs.one.mobile,
       },
     preview: rawBlock.preview || rawBlock.thumbnail,
     componentPath: rawBlock.componentPath || "",
