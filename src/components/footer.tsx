@@ -18,16 +18,11 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Img
-                src={logoPlaceholders.logoMark}
+                src={logoPlaceholders.darkHorizontalLogo}
                 alt="OpenSite Logo"
-                width={32}
-                height={32}
-                className="h-8 w-auto"
+                className="h-14 w-auto object-contain"
                 optixFlowConfig={{ apiKey: optixFlowApiKey }}
               />
-              <span className="text-lg font-semibold text-foreground">
-                OpenSite UI
-              </span>
             </Link>
             <p className="text-sm text-muted-foreground">
               A comprehensive component library for building beautiful websites
@@ -37,9 +32,9 @@ export function Footer() {
 
           {/* Components */}
           <div className="space-y-4">
-            <h3 className="text-sm font-semibold text-foreground">
+            <div className="text-sm font-semibold text-foreground uppercase">
               Components
-            </h3>
+            </div>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -57,20 +52,14 @@ export function Footer() {
                   Categories
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/search"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Search
-                </Link>
-              </li>
             </ul>
           </div>
 
           {/* Resources */}
           <div className="space-y-4">
-            <h3 className="text-sm font-semibold text-foreground">Resources</h3>
+            <div className="text-sm font-semibold text-foreground uppercase">
+              Resources
+            </div>
             <ul className="space-y-2">
               <li>
                 <a
@@ -107,7 +96,9 @@ export function Footer() {
 
           {/* Legal */}
           <div className="space-y-4">
-            <h3 className="text-sm font-semibold text-foreground">Legal</h3>
+            <div className="text-sm font-semibold text-foreground uppercase">
+              Legal
+            </div>
             <ul className="space-y-2">
               <li>
                 <Link

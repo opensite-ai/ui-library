@@ -5,7 +5,6 @@
 
 import { searchBlocks } from "@/lib/registry";
 import { BlockCard } from "@/components/block-card";
-import { SearchBar } from "@/components/search-bar";
 import { Breadcrumb } from "@/components/breadcrumb";
 
 interface SearchPageProps {
@@ -30,30 +29,17 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   return (
     <div className="container mx-auto px-4 py-12 space-y-8">
       {/* Breadcrumb */}
-      <Breadcrumb
-        items={[
-          { label: "Home", href: "/" },
-          { label: "Search" },
-        ]}
-      />
-
-      {/* Search Header */}
-      <div className="space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold">Search Components</h1>
-        <div className="max-w-2xl">
-          <SearchBar defaultValue={query} placeholder="Search for components..." />
-        </div>
-      </div>
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Search" }]} />
 
       {/* Results */}
       {query ? (
         <div className="space-y-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-semibold">
+            <div className="text-2xl font-semibold">
               {results.length > 0
                 ? `${results.length} ${results.length === 1 ? "result" : "results"} for "${query}"`
                 : `No results for "${query}"`}
-            </h2>
+            </div>
           </div>
 
           {results.length > 0 ? (

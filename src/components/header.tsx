@@ -7,6 +7,7 @@ import Link from "next/link";
 import { SearchBar } from "./search-bar";
 import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { Img } from "@page-speed/img";
+import { DynamicIcon } from "@opensite/ui";
 
 export function Header() {
   return (
@@ -19,31 +20,20 @@ export function Header() {
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
             <Img
-              src={logoPlaceholders.logoMark}
+              src={logoPlaceholders.darkHorizontalLogo}
               alt="OpenSite Logo"
-              width={32}
-              height={32}
-              className="h-8 w-auto"
+              className="h-10 object-contain w-auto"
               optixFlowConfig={{ apiKey: optixFlowApiKey }}
             />
-            <span className="hidden sm:inline-block text-lg font-semibold text-foreground">
-              OpenSite UI
-            </span>
           </Link>
 
           {/* Search Bar - Desktop */}
           <div className="hidden md:block flex-1 max-w-md">
-            <SearchBar placeholder="Search 600+ blocks..." />
+            <SearchBar placeholder="Search library..." />
           </div>
 
           {/* Navigation Links */}
           <nav className="flex items-center gap-6">
-            <Link
-              href="/"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Browse
-            </Link>
             <Link
               href="/categories"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -56,7 +46,7 @@ export function Header() {
               rel="noopener noreferrer"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              GitHub
+              <DynamicIcon name="line-md/github-loop" className="h-5 w-5" />
             </a>
           </nav>
         </div>

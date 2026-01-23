@@ -234,3 +234,24 @@ export const openGraphImgUrl =
 
 export const bannerUrl =
   "https://cdn.ing/assets/i/r/287629/vjb0sf84r4uce7te4310t19di8n8/opensite-component-library-dark-hero-banner-grid.png";
+
+export const geometricPlaceholderImgs = {
+  one: {
+    desktop:
+      "https://cdn.ing/assets/i/r/287649/sh0q7z4n7xgij6jgkmx2cs65fies/placeholder-desktop.png",
+    mobile:
+      "https://cdn.ing/assets/i/r/287650/oj637ssn1crip2uhna398g3eud94/placeholder-mobile.png",
+  },
+  two: {
+    desktop:
+      "https://cdn.ing/assets/i/r/287648/p2tmfmw6jf7jiv2481pxvfwflt8b/preview-desktop-2.png",
+    mobile:
+      "https://cdn.ing/assets/i/r/287647/79x8cykli491ggxq54jmil7nbjpe/minimal-ui-panel-with-heart-menu-and-close-icons.png",
+  },
+  three: {
+    desktop:
+      "https://cdn.ing/assets/i/r/287646/ob4iqx5aibk1tdym49ybx2swtppo/isometric-data-stack-layers-dark-tech-illustration.png",
+    mobile:
+      "https://cdn.ing/assets/i/r/287645/6yt05l4b1b0dsocplfqso5jim91r/abstract-tech-stack-dark-theme-geometric-background.png",
+  },
+};

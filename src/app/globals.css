@@ -57,9 +57,9 @@
     /* Light text on secondary */
 
     /* UI Element Colors */
-    --muted: 150 2.56% 85%;
+    --muted: 36 27.78% 92.94%;
     /* Muted backgrounds */
-    --muted-foreground: 150 2.56% 35%;
+    --muted-foreground: 150 2.56% 15.29%;
     /* Muted text */
 
     --accent: 164.13 100% 30.39%;
@@ -506,4 +506,25 @@ html {
 /* Focus Visible */
 *:focus-visible {
   @apply outline-none ring-2 ring-ring ring-offset-2;
+}
+
+@theme inline {
+  --animate-orbit: orbit calc(var(--duration)*1s) linear infinite;
+  @keyframes orbit {
+  0% {
+    transform: rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg));
+    }
+  100% {
+    transform: rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg));
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

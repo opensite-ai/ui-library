@@ -23,7 +23,7 @@ function loadRegistry(): BlocksRegistry {
       process.cwd(),
       "src",
       "data",
-      "registry.generated.json"
+      "registry.generated.json",
     );
 
     if (!existsSync(generatedPath)) {
@@ -32,7 +32,7 @@ function loadRegistry(): BlocksRegistry {
     }
 
     const parsedRegistry = JSON.parse(
-      readFileSync(generatedPath, "utf-8")
+      readFileSync(generatedPath, "utf-8"),
     ) as BlocksRegistry | null;
     cachedRegistry = parsedRegistry ?? { blocks: [] };
     return cachedRegistry;
@@ -52,12 +52,16 @@ function normalizeBlock(rawBlock: any): Block {
     name: rawBlock.name || rawBlock.title || "",
     title: rawBlock.title || rawBlock.name || "",
     category: rawBlock.category || "Uncategorized",
-    categorySlug: rawBlock.categorySlug || rawBlock.category?.toLowerCase().replace(/\s+/g, "-") || "uncategorized",
+    categorySlug:
+      rawBlock.categorySlug ||
+      rawBlock.category?.toLowerCase().replace(/\s+/g, "-") ||
+      "uncategorized",
     description: rawBlock.description || "",
-    thumbnail: rawBlock.thumbnail || rawBlock.preview || {
-      desktop: "/placeholder-desktop.png",
-      mobile: "/placeholder-mobile.png",
-    },
+    thumbnail: rawBlock.thumbnail ||
+      rawBlock.preview || {
+        desktop: "/placeholder-desktop.png",
+        mobile: "/placeholder-mobile.png",
+      },
     preview: rawBlock.preview || rawBlock.thumbnail,
     componentPath: rawBlock.componentPath || "",
     code: rawBlock.code || "",
@@ -107,7 +111,9 @@ export function getAllCategories(): Category[] {
     category.blockCount += 1;
   });
 
-  return Array.from(categoryMap.values()).sort((a, b) => a.order - b.order);
+  return Array.from(categoryMap.values()).sort((a, b) =>
+    a.name.localeCompare(b.name),
+  );
 }
 
 /**
@@ -143,7 +149,7 @@ export function searchBlocks(query: string): Block[] {
     const descMatch = block.description.toLowerCase().includes(lowerQuery);
     const categoryMatch = block.category.toLowerCase().includes(lowerQuery);
     const tagsMatch = block.tags?.some((tag) =>
-      tag.toLowerCase().includes(lowerQuery)
+      tag.toLowerCase().includes(lowerQuery),
     );
 
     return titleMatch || descMatch || categoryMatch || tagsMatch;

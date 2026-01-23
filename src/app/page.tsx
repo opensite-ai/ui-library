@@ -8,6 +8,8 @@ import { getAllCategories, getBlockStats } from "@/lib/registry";
 import { CategoryGrid } from "@/components/category-grid";
 import { SearchBar } from "@/components/search-bar";
 import { openGraphImgUrl } from "@/lib/media";
+import { Badge, Section } from "@opensite/ui";
+import { HomepageHero } from "@/components/homepage-hero";
 
 export const metadata: Metadata = {
   title: "OpenSite UI Component Library - 600+ Production-Ready Blocks",
@@ -26,64 +28,21 @@ export default function HomePage() {
   const stats = getBlockStats();
 
   return (
-    <div className="container mx-auto px-4 py-12 space-y-16">
-      {/* Hero Section */}
-      <section className="text-center space-y-6 py-12">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-          Beautiful UI Components
-          <span className="block text-accent mt-2">Built with AI</span>
-        </h1>
-        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Browse 600+ production-ready components and blocks for building modern
-          websites with OpenSite AI.
-        </p>
+    <div className="">
+      <HomepageHero />
 
-        {/* Search */}
-        <div className="max-w-xl mx-auto pt-4">
-          <SearchBar placeholder="Search components..." />
-        </div>
-      </section>
-
-      {/* Stats */}
-      <section className="grid gap-8 sm:grid-cols-3 max-w-4xl mx-auto">
-        <div className="text-center p-6 rounded-lg bg-card border border-border">
-          <div className="text-4xl font-bold text-accent mb-2">
-            {stats.totalBlocks}+
-          </div>
-          <div className="text-sm text-muted-foreground">
-            UI Components
-          </div>
-        </div>
-        <div className="text-center p-6 rounded-lg bg-card border border-border">
-          <div className="text-4xl font-bold text-accent mb-2">
-            {stats.totalCategories}
-          </div>
-          <div className="text-sm text-muted-foreground">
-            Categories
-          </div>
-        </div>
-        <div className="text-center p-6 rounded-lg bg-card border border-border">
-          <div className="text-4xl font-bold text-accent mb-2">
-            100%
-          </div>
-          <div className="text-sm text-muted-foreground">
-            Open Source
-          </div>
-        </div>
-      </section>
-
-      {/* Categories */}
-      <section className="space-y-8">
+      <Section className="space-y-8">
         <div className="text-center space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <div className="text-3xl md:text-4xl font-bold">
             Browse by Category
-          </h2>
+          </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our organized collection of components across {stats.totalCategories} categories
+            Explore our organized collection of components across{" "}
+            {stats.totalCategories} categories
           </p>
         </div>
         <CategoryGrid categories={categories} />
-      </section>
+      </Section>
 
       {/* CTA */}
       <section className="text-center space-y-6 py-12">

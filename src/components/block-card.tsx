@@ -44,9 +44,9 @@ export function BlockCard({ block, className }: BlockCardProps) {
         </div>
 
         {/* Title */}
-        <h3 className="font-semibold text-lg text-foreground group-hover:text-accent transition-colors">
+        <div className="font-semibold text-lg text-foreground group-hover:text-accent transition-colors">
           {block.title}
-        </h3>
+        </div>
 
         {/* Description */}
         <p className="text-sm text-muted-foreground line-clamp-2">
