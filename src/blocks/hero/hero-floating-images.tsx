@@ -26,7 +26,6 @@ export default function Demo() {
       ]}
       optixFlowConfig={{ apiKey: optixFlowApiKey }}
       className="flex items-center justify-center"
-      spacing="xl"
     >
       <div className="flex flex-col justify-center">
         <Badge className="mb-6 w-fit" variant="secondary">
