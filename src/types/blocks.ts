@@ -16,9 +16,12 @@ export interface BlockThumbnail {
  */
 export interface PropSchema {
   type: "string" | "number" | "boolean" | "array" | "object";
+  typeLabel?: string;
   description: string;
   required?: boolean;
   default?: unknown;
+  items?: PropSchema;
+  fields?: Record<string, PropSchema>;
 }
 
 /**
@@ -71,7 +74,16 @@ export interface Category {
 /**
  * Registry structure from @opensite/ui
  */
+export interface RegistryMetadata {
+  exportedAt?: string;
+  syncedAt?: string;
+  totalBlocks?: number;
+  version?: string;
+  source?: string;
+}
+
 export interface BlocksRegistry {
+  metadata?: RegistryMetadata;
   blocks: Block[];
 }
 

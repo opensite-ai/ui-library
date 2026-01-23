@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { openGraphImgUrl } from "@/lib/media";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,9 +16,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OpenSite UI - Component Library & Blocks",
+  title: {
+    default: "OpenSite UI - Component Library & Blocks",
+    template: "%s | OpenSite UI",
+  },
   description:
-    "Browse 600+ beautiful, production-ready UI components and blocks for building modern websites with OpenSite AI.",
+    "Browse 600+ beautiful, production-ready UI components and blocks for building modern websites with OpenSite AI. Discover headers, footers, CTAs, testimonials, and more.",
+  keywords: [
+    "UI components",
+    "React components",
+    "component library",
+    "design blocks",
+    "OpenSite",
+    "website builder",
+    "Next.js components",
+  ],
+  authors: [{ name: "OpenSite" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://ui.opensite.dev",
+    siteName: "OpenSite UI",
+    title: "OpenSite UI - Component Library & Blocks",
+    description:
+      "Browse 600+ beautiful, production-ready UI components and blocks for building modern websites with OpenSite AI.",
+    images: [
+      {
+        url: openGraphImgUrl,
+        width: 1200,
+        height: 630,
+        alt: "OpenSite UI Component Library",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "OpenSite UI - Component Library & Blocks",
+    description:
+      "Browse 600+ beautiful, production-ready UI components and blocks for building modern websites.",
+    images: [openGraphImgUrl],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

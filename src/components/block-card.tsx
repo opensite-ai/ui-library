@@ -5,7 +5,7 @@
 
 import Link from "next/link";
 import type { Block } from "@/types/blocks";
-import { cn } from "@/lib/utils";
+import { cn, encodeBlockId } from "@/lib/utils";
 import { Img } from "@page-speed/img";
 import { optixFlowApiKey } from "@/lib/media";
 
@@ -17,7 +17,7 @@ interface BlockCardProps {
 export function BlockCard({ block, className }: BlockCardProps) {
   return (
     <Link
-      href={`/blocks/${block.id}`}
+      href={`/blocks/${encodeBlockId(block.id)}`}
       className={cn(
         "group block rounded-lg border border-border bg-card overflow-hidden transition-all duration-200",
         "hover:border-accent hover:shadow-lg",

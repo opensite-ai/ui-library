@@ -6,6 +6,7 @@
 import { NextResponse } from "next/server";
 import { getBlockById } from "@/lib/registry";
 import type { ApiResponse, BlockResponseData } from "@/types/blocks";
+import { decodeBlockId } from "@/lib/utils";
 
 export async function GET(
   request: Request,
@@ -13,7 +14,7 @@ export async function GET(
 ) {
   try {
     const { id } = await params;
-    const block = getBlockById(id);
+    const block = getBlockById(decodeBlockId(id));
 
     if (!block) {
       const errorResponse: ApiResponse<BlockResponseData> = {

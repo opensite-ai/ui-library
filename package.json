@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:registry": "node scripts/sync-registry.mjs"
   },
   "dependencies": {
     "@opensite/hooks": "^2.0.3",
-    "@opensite/ui": "^0.4.5",
+    "@opensite/ui": "0.4.8",
     "@page-speed/forms": "^0.3.5",
     "@page-speed/hooks": "^0.4.5",
     "@page-speed/img": "^0.4.5",

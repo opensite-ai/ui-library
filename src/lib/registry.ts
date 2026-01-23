@@ -3,35 +3,40 @@
  * Loads blocks from @opensite/ui and provides utility functions
  */
 
-import type {
-  Block,
-  Category,
-  BlocksRegistry,
-} from "@/types/blocks";
-
-/**
- * Mock registry data
- * TODO: Replace with actual @opensite/ui registry import when available
- * For now, we'll use a placeholder structure that matches the expected format
- */
-const mockRegistry: BlocksRegistry = {
-  blocks: [],
-};
+import type { Block, Category, BlocksRegistry } from "@/types/blocks";
+import { existsSync, readFileSync } from "fs";
+import { join } from "path";
 
 /**
  * Load the blocks registry
  * In production, this would import from @opensite/ui
  */
-function loadRegistry(): BlocksRegistry {
-  try {
-    // TODO: Import actual registry from @opensite/ui
-    // const registry = require('@opensite/ui/registry.json');
-    // return registry;
+let cachedRegistry: BlocksRegistry | null = null;
 
-    return mockRegistry;
+function loadRegistry(): BlocksRegistry {
+  if (cachedRegistry) {
+    return cachedRegistry;
+  }
+
+  try {
+    const generatedPath = join(
+      process.cwd(),
+      "src",
+      "data",
+      "registry.generated.json"
+    );
+
+    if (!existsSync(generatedPath)) {
+      cachedRegistry = { blocks: [] };
+      return cachedRegistry;
+    }
+
+    cachedRegistry = JSON.parse(readFileSync(generatedPath, "utf-8"));
+    return cachedRegistry;
   } catch (error) {
     console.error("Failed to load blocks registry:", error);
-    return { blocks: [] };
+    cachedRegistry = { blocks: [] };
+    return cachedRegistry;
   }
 }
 

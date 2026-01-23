@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![OpenSite UI Library](https://octane.cdn.ing/api/v1/images/transform?url=https://cdn.ing/assets/i/r/287629/vjb0sf84r4uce7te4310t19di8n8/opensite-component-library-dark-hero-banner-grid.png)
 
-## Getting Started
+# OpenSite UI Library
 
-First, run the development server:
+A comprehensive showcase and documentation platform for the `@opensite/ui` component library.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Adding New Components
+
+When adding a new component to the showcase, you need to update three files:
+
+### 1. Create Showcase File
+
+Create a showcase example in `src/blocks/[category]/[component-name].tsx` that imports and demonstrates the actual component from `@opensite/ui`:
+
+```tsx
+import { YourComponent } from "@opensite/ui/blocks/category/your-component";
+import { imagePlaceholders, optixFlowApiKey } from "@/lib/media";
+
+export default function Demo() {
+  return (
+    <YourComponent
+      // Add example props here
+      optixFlowConfig={{ apiKey: optixFlowApiKey }}
+    />
+  );
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Register in Registry (`src/lib/registry.ts`)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Add the component metadata to the `productionBlocks` array:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```typescript
+{
+  id: "category/component-name",
+  name: "ComponentName",
+  title: "Display Title",
+  category: "Category",
+  categorySlug: "category",
+  description: "Component description",
+  thumbnail: {
+    desktop: "url-to-thumbnail",
+    mobile: "url-to-mobile-thumbnail",
+  },
+  componentPath: "blocks/category/component-name.tsx",
+  code: getShowcaseCode("blocks/category/component-name.tsx"),
+  dependencies: ["@opensite/ui", "@page-speed/img"],
+  tags: ["tag1", "tag2"],
+  propsSchema: {
+    propName: {
+      type: "string",
+      required: false,
+      description: "Prop description",
+      default: "default value",
+    },
+    // Add more props
+  },
+}
+```
 
-## Learn More
+### 3. Register in Component Registry (`src/lib/component-registry.ts`)
 
-To learn more about Next.js, take a look at the following resources:
+Import and register the component for live preview:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```typescript
+const YourComponent = dynamic(
+  () => import("@/blocks/category/component-name")
+);
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+export const componentRegistry: Record<string, ComponentType<any>> = {
+  // ... existing components
+  "category/component-name": YourComponent,
+};
+```
 
-## Deploy on Vercel
+## Architecture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Preview System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The showcase uses an iframe-based preview system that renders actual components:
+
+- **Desktop Preview**: 16:9 aspect ratio, full width
+- **Mobile Preview**: 9:16 aspect ratio (375px × 667px iPhone-style viewport)
+- **Live Rendering**: Components are rendered in isolation at `/preview/[id]` route
+- **Viewport Simulation**: Proper viewport meta tags for mobile rendering
+
+### URL Encoding
+
+Block IDs contain slashes (e.g., `hero/hero-floating-images`) but Next.js routes use single segments. The system encodes IDs for URLs:
+
+- **Registry ID**: `hero/hero-floating-images` (semantic format)
+- **Encoded URL**: `hero--hero-floating-images` (URL-safe format)
+- **Route**: `/blocks/hero--hero-floating-images`
+
+Encoding/decoding utilities are provided in `src/lib/utils.ts`.
+

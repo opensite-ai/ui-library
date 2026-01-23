@@ -5,67 +5,95 @@
 @custom-variant dark (&:is(.dark *));
 @config "../../tailwind.config.ts";
 
+/* ============================================
+   ALMAROSE FONT FACES
+   ============================================ */
+
+@font-face {
+  font-family: "Almarose";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://octane.cdn.ing/api/v1/fonts/transform?url=https://toastability-production.s3.amazonaws.com/li59922u5pgsr5shfd7kmq7d4xpp")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Almarose";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://octane.cdn.ing/api/v1/fonts/transform?url=https://toastability-production.s3.amazonaws.com/92e00y71v0s1alu0ld1to7nd7k0v")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Almarose";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://octane.cdn.ing/api/v1/fonts/transform?url=https://toastability-production.s3.amazonaws.com/6jwxn790e5qd8fhb6f3zzngz1ikp")
+    format("woff2");
+}
+
 @layer base {
   :root {
     /* ============================================
-     COLOR SYSTEM - Delo Brand
+     COLOR SYSTEM - OpenSite UI Brand
      ============================================ */
 
     /* Base Colors (HSL format: hue saturation lightness) */
-    --background: 0 0% 100%;
-    /* White background */
-    --foreground: 222.2 84% 4.9%;
-    /* Dark text color */
+    --background: 36 27.78% 92.94%;
+    /* Creme light background */
+    --foreground: 150 2.56% 15.29%;
+    /* Dark with subtle green tint */
 
-    /* Brand Colors - Teal/Cyan Accent */
-    --primary: 174 72% 56%;
-    /* Teal primary (matches accent-500 #14b8a6) */
-    --primary-foreground: 0 0% 100%;
-    /* White text on primary */
+    /* Brand Colors - Green Primary */
+    --primary: 164.13 100% 30.39%;
+    /* Shade of green */
+    --primary-foreground: 36 27.78% 92.94%;
+    /* Creme light text on primary */
 
-    --secondary: 210 40% 96.1%;
-    /* Light gray secondary */
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    /* Dark text on secondary */
+    --secondary: 150 2.56% 25%;
+    /* Dark secondary */
+    --secondary-foreground: 36 27.78% 92.94%;
+    /* Light text on secondary */
 
     /* UI Element Colors */
-    --muted: 210 40% 96.1%;
+    --muted: 150 2.56% 85%;
     /* Muted backgrounds */
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 150 2.56% 35%;
     /* Muted text */
 
-    --accent: 174 72% 56%;
-    /* Teal accent (same as primary) */
-    --accent-foreground: 0 0% 100%;
-    /* White text on accent */
+    --accent: 164.13 100% 30.39%;
+    /* Green accent (same as primary) */
+    --accent-foreground: 36 27.78% 92.94%;
+    /* Light text on accent */
 
     /* Semantic Colors */
     --destructive: 0 84.2% 60.2%;
     /* Error/danger color */
-    --destructive-foreground: 210 40% 98%;
-    /* Text on destructive */
+    --destructive-foreground: 36 27.78% 92.94%;
+    /* Light text on destructive */
     --warning: 38 92% 50%;
     /* Warning color */
-    --warning-foreground: 0 0% 10%;
-    /* Text on warning */
+    --warning-foreground: 150 2.56% 15.29%;
+    /* Dark text on warning */
 
     /* Border & Input */
-    --border: 214.3 31.8% 91.4%;
+    --border: 150 2.56% 75%;
     /* Border color */
-    --input: 214.3 31.8% 91.4%;
+    --input: 150 2.56% 75%;
     /* Input border */
-    --ring: 174 72% 56%;
-    /* Focus ring (teal) */
+    --ring: 164.13 100% 30.39%;
+    /* Focus ring (green) */
 
     /* Card & Popover */
     --card: 0 0% 100%;
     /* Card background */
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 150 2.56% 15.29%;
     /* Card text */
 
     --popover: 0 0% 100%;
     /* Popover background */
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 150 2.56% 15.29%;
     /* Popover text */
 
     /* Derived Utility Colors */
@@ -78,7 +106,8 @@
      TYPOGRAPHY
      ============================================ */
 
-    --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    --font-sans: "Almarose", var(--font-geist-sans), ui-sans-serif, system-ui,
+      sans-serif;
     --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 
     --text-xs: 0.75rem;
@@ -156,7 +185,7 @@
      ============================================ */
 
     --button-font-family: inherit;
-    --button-font-weight: 500;
+    --button-font-weight: 600;
     --button-letter-spacing: 0;
     --button-line-height: 1.25;
     --button-text-transform: none;
@@ -287,36 +316,36 @@
    ============================================ */
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 150 2.56% 15.29%;
+    --foreground: 36 27.78% 92.94%;
 
-    --primary: 174 72% 56%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 164.13 100% 30.39%;
+    --primary-foreground: 36 27.78% 92.94%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 150 2.56% 25%;
+    --secondary-foreground: 36 27.78% 92.94%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 150 2.56% 25%;
+    --muted-foreground: 150 2.56% 65%;
 
-    --accent: 174 72% 56%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 164.13 100% 30.39%;
+    --accent-foreground: 36 27.78% 92.94%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 36 27.78% 92.94%;
 
     --warning: 45 96% 60%;
-    --warning-foreground: 0 0% 10%;
+    --warning-foreground: 150 2.56% 15.29%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 174 72% 56%;
+    --border: 150 2.56% 35%;
+    --input: 150 2.56% 35%;
+    --ring: 164.13 100% 30.39%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 150 2.56% 20%;
+    --card-foreground: 36 27.78% 92.94%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 150 2.56% 20%;
+    --popover-foreground: 36 27.78% 92.94%;
   }
 
   /* ============================================
@@ -423,14 +452,15 @@
    CUSTOM STYLES
    ============================================ */
 
-/* Typography */
+/* Typography - Almarose Font System */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  @apply font-bold tracking-tight;
+  font-weight: 600; /* Almarose semibold for headings */
+  @apply tracking-tight;
 }
 
 h1 {
@@ -447,6 +477,25 @@ h3 {
 
 h4 {
   @apply text-2xl md:text-3xl leading-snug;
+}
+
+/* Body text uses Almarose 400 (default) */
+body {
+  font-weight: 400;
+}
+
+/* Buttons use Almarose 600 (semibold) */
+button {
+  font-weight: 600;
+}
+
+/* Badges, tags, eyebrows use Almarose 300 (light) */
+.badge,
+.tag,
+.eyebrow,
+[class*="badge"],
+[class*="tag"] {
+  font-weight: 300;
 }
 
 /* Smooth Scroll */

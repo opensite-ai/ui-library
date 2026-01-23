@@ -1,6 +1,6 @@
 {
-  "name": "OpenSite UI",
-  "short_name": "UI",
+  "name": "OpenSite AI",
+  "short_name": "OpenSite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#449975",
-  "background_color": "#449975",
+  "theme_color": "#f2eee8",
+  "background_color": "#f2eee8",
   "display": "standalone"
 }

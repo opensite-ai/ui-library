@@ -1,10 +1,10 @@
 export const logoPlaceholders = {
   logoMark:
-    "https://cdn.ing/assets/i/r/285975/eud79qeya11q5w6ueyhklueardyx/monochrome-rounded-square-app-icon-circular-emblem.png",
+    "https://cdn.ing/assets/i/r/287631/wxxrauibz6awz30652tjm28onj6q/mark-dark.png",
   darkHorizontalLogo:
-    "https://cdn.ing/assets/i/r/285986/5ivxh3ivywsmm6uslf3te38r6tg1/logo-dark.png",
+    "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
   lightHorizontalLogo:
-    "https://cdn.ing/assets/i/r/285985/vs7w9ov4y1afgp95pb7nqkvnchq6/logo-light.png",
+    "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
 };
 
 export const imagePlaceholders = [
@@ -228,3 +228,9 @@ export const architectureShowcase = {
 };
 
 export const optixFlowApiKey = "os-63539e4d-a827-422e-be1a-153aff7f4e7f";
+
+export const openGraphImgUrl =
+  "https://cdn.ing/assets/i/r/287630/kkps5wmo8svmwo5tze1x7rsyzyng/opensite-component-library-dark-hero-banner.jpg";
+
+export const bannerUrl =
+  "https://cdn.ing/assets/i/r/287629/vjb0sf84r4uce7te4310t19di8n8/opensite-component-library-dark-hero-banner-grid.png";

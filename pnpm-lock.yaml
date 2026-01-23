@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: ^0.4.5
-        version: 0.4.5(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 0.4.8
+        version: 0.4.8(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/forms':
         specifier: ^0.3.5
         version: 0.3.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -476,8 +476,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/ui@0.4.5':
-    resolution: {integrity: sha512-EXOEqWoQdA8+Jdv36PBmYM/iEHy4WQffE5dy+NsZzmAHBeXn4/SmQvgjIBqfFXE+RpxgvNLXj8BHEnTLcEj7Zg==}
+  '@opensite/ui@0.4.8':
+    resolution: {integrity: sha512-jY1LeSU58ueHTr0avtZq0W+/8t7v0JQ4y5SdeVREfCpmO1B8ZxwUQjC0i+8jh9WpOc11ODP+zvFn9yACVqxdlQ==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       react: '>=16.8.0'
@@ -3295,7 +3295,7 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/ui@0.4.5(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@0.4.8(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 0.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.3.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)

@@ -3,9 +3,23 @@
  * Main landing page with hero, stats, and category grid
  */
 
+import type { Metadata } from "next";
 import { getAllCategories, getBlockStats } from "@/lib/registry";
 import { CategoryGrid } from "@/components/category-grid";
 import { SearchBar } from "@/components/search-bar";
+import { openGraphImgUrl } from "@/lib/media";
+
+export const metadata: Metadata = {
+  title: "OpenSite UI Component Library - 600+ Production-Ready Blocks",
+  description:
+    "Discover 600+ beautiful, production-ready UI components and blocks for building modern websites. Browse headers, footers, CTAs, testimonials, forms, and more. Built for OpenSite AI.",
+  openGraph: {
+    title: "OpenSite UI Component Library - 600+ Production-Ready Blocks",
+    description:
+      "Discover 600+ beautiful, production-ready UI components and blocks for building modern websites.",
+    images: [openGraphImgUrl],
+  },
+};
 
 export default function HomePage() {
   const categories = getAllCategories();

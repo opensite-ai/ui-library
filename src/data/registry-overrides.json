@@ -1,0 +1,22 @@
+{
+  "blocks": {
+    "hero-floating-images": {
+      "title": "Hero Floating Images",
+      "componentPath": "blocks/hero/hero-floating-images.tsx",
+      "thumbnail": {
+        "desktop": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn",
+        "mobile": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn"
+      },
+      "preview": {
+        "desktop": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn",
+        "mobile": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn"
+      },
+      "dependencies": ["@opensite/ui", "@page-speed/img", "@page-speed/lightbox"],
+      "defaultProps": {
+        "zoomIconName": "lucide/zoom-in",
+        "enableLightbox": true,
+        "spacing": "lg"
+      }
+    }
+  }
+}

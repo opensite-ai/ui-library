@@ -6,6 +6,7 @@
 import { NextResponse } from "next/server";
 import { getBlockById } from "@/lib/registry";
 import type { ApiResponse, UsageResponseData } from "@/types/blocks";
+import { decodeBlockId } from "@/lib/utils";
 
 // In-memory usage tracking (replace with database in production)
 const usageTracker = new Map<string, number>();
@@ -16,32 +17,33 @@ export async function POST(
 ) {
   try {
     const { id } = await params;
-    const block = getBlockById(id);
+    const blockId = decodeBlockId(id);
+    const block = getBlockById(blockId);
 
     if (!block) {
       const errorResponse: ApiResponse<UsageResponseData> = {
         success: false,
         data: {
-          blockId: id,
+          blockId: blockId,
           usageCount: 0,
           timestamp: new Date().toISOString(),
         },
         timestamp: new Date().toISOString(),
-        error: `Block '${id}' not found`,
+        error: `Block '${blockId}' not found`,
       };
 
       return NextResponse.json(errorResponse, { status: 404 });
     }
 
     // Increment usage count
-    const currentCount = usageTracker.get(id) || 0;
+    const currentCount = usageTracker.get(blockId) || 0;
     const newCount = currentCount + 1;
-    usageTracker.set(id, newCount);
+    usageTracker.set(blockId, newCount);
 
     const response: ApiResponse<UsageResponseData> = {
       success: true,
       data: {
-        blockId: id,
+        blockId: blockId,
         usageCount: newCount,
         timestamp: new Date().toISOString(),
       },
