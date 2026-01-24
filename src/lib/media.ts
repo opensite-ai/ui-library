@@ -227,7 +227,7 @@ export const architectureShowcase = {
   ],
 };
 
-export const optixFlowApiKey = "os-63539e4d-a827-422e-be1a-153aff7f4e7f";
+export const optixFlowApiKey = process.env.OPTIX_FLOW_API_KEY;
 
 export const openGraphImgUrl =
   "https://cdn.ing/assets/i/r/287630/kkps5wmo8svmwo5tze1x7rsyzyng/opensite-component-library-dark-hero-banner.jpg";
