@@ -26,15 +26,73 @@
       "title": "Stats Impact Grid",
       "componentPath": "blocks/stats/stats-impact-grid.tsx",
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/stats/stats-impact-grid.tsx",
-      "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/287654/3g3ozwigqke2sdu77ap8l66qjyvf/stats-impact-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/287655/io3oa1mnsvnn5w8jewjhbjawcarm/stats-impact-mobile.jpg"
-      },
-      "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/287654/3g3ozwigqke2sdu77ap8l66qjyvf/stats-impact-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/287655/io3oa1mnsvnn5w8jewjhbjawcarm/stats-impact-mobile.jpg"
-      }
+      "demoPath": "src/blocks/stats/stats-impact-grid.tsx"
+    },
+    "stats-simple-grid": {
+      "title": "Stats Simple Grid",
+      "componentPath": "blocks/stats/stats-simple-grid.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-simple-grid.tsx"
+    },
+    "stats-icon-cards": {
+      "title": "Stats Icon Cards",
+      "componentPath": "blocks/stats/stats-icon-cards.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-icon-cards.tsx"
+    },
+    "stats-timeline-tabs": {
+      "title": "Stats Timeline Tabs",
+      "componentPath": "blocks/stats/stats-timeline-tabs.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-timeline-tabs.tsx"
+    },
+    "stats-primary-secondary": {
+      "title": "Stats Primary Secondary",
+      "componentPath": "blocks/stats/stats-primary-secondary.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-primary-secondary.tsx"
+    },
+    "stats-growth-timeline": {
+      "title": "Stats Growth Timeline",
+      "componentPath": "blocks/stats/stats-growth-timeline.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-growth-timeline.tsx"
+    },
+    "stats-circular-progress": {
+      "title": "Stats Circular Progress",
+      "componentPath": "blocks/stats/stats-circular-progress.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-circular-progress.tsx"
+    },
+    "stats-card-group": {
+      "title": "Stats Card Group",
+      "componentPath": "blocks/stats/stats-card-group.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-card-group.tsx"
+    },
+    "stats-animated-counter": {
+      "title": "Stats Animated Counter",
+      "componentPath": "blocks/stats/stats-animated-counter.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-animated-counter.tsx"
+    },
+    "stats-number-ticker": {
+      "title": "Stats Number Ticker",
+      "componentPath": "blocks/stats/stats-number-ticker.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-number-ticker.tsx"
+    },
+    "stats-milestone-sidebar": {
+      "title": "Stats Milestone Sidebar",
+      "componentPath": "blocks/stats/stats-milestone-sidebar.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-milestone-sidebar.tsx"
+    },
+    "stats-bar-comparison": {
+      "title": "Stats Bar Comparison",
+      "componentPath": "blocks/stats/stats-bar-comparison.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-bar-comparison.tsx"
     }
   }
 }
