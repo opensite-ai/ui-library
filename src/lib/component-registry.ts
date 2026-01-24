@@ -14,7 +14,28 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/hero/hero-floating-images"),
   "stats-impact-grid": () =>
     import("@/blocks/stats/stats-impact-grid"),
-  // Add more components here as they are created
+  "stats-simple-grid": () =>
+    import("@/blocks/stats/stats-simple-grid"),
+  "stats-icon-cards": () =>
+    import("@/blocks/stats/stats-icon-cards"),
+  "stats-timeline-tabs": () =>
+    import("@/blocks/stats/stats-timeline-tabs"),
+  "stats-primary-secondary": () =>
+    import("@/blocks/stats/stats-primary-secondary"),
+  "stats-growth-timeline": () =>
+    import("@/blocks/stats/stats-growth-timeline"),
+  "stats-circular-progress": () =>
+    import("@/blocks/stats/stats-circular-progress"),
+  "stats-card-group": () =>
+    import("@/blocks/stats/stats-card-group"),
+  "stats-animated-counter": () =>
+    import("@/blocks/stats/stats-animated-counter"),
+  "stats-number-ticker": () =>
+    import("@/blocks/stats/stats-number-ticker"),
+  "stats-milestone-sidebar": () =>
+    import("@/blocks/stats/stats-milestone-sidebar"),
+  "stats-bar-comparison": () =>
+    import("@/blocks/stats/stats-bar-comparison"),
 };
 
 export const componentRegistry = Object.fromEntries(
