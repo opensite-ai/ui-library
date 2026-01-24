@@ -6,7 +6,7 @@
 
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { createPortal } from "react-dom";
 import type { Block } from "@/types/blocks";
 import { ResponsiveToggle, type ViewMode } from "./responsive-toggle";
@@ -22,6 +22,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
   const [viewMode, setViewMode] = useState<ViewMode>("desktop");
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const [mountNode, setMountNode] = useState<HTMLElement | null>(null);
+  const [captureHeight, setCaptureHeight] = useState<number | null>(null);
 
   const PreviewComponent = useMemo(() => getComponent(block.id), [block.id]);
   const error = PreviewComponent ? null : "Component not registered";
@@ -119,6 +120,60 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
     }
   }, [viewMode, mountNode]);
 
+  useEffect(() => {
+    if (viewMode !== "capture") {
+      setCaptureHeight(null);
+      return;
+    }
+
+    const doc = iframeRef.current?.contentDocument;
+    if (!doc) {
+      return;
+    }
+
+    const updateHeight = () => {
+      const nextHeight = Math.max(
+        doc.documentElement.scrollHeight,
+        doc.body.scrollHeight,
+      );
+      setCaptureHeight(nextHeight);
+    };
+
+    updateHeight();
+
+    if (typeof ResizeObserver === "undefined") {
+      return;
+    }
+
+    const observer = new ResizeObserver(() => {
+      updateHeight();
+    });
+    observer.observe(doc.body);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [viewMode, mountNode]);
+
+  const containerStyle = useMemo(() => {
+    const isMobile = viewMode === "mobile";
+    const isCapture = viewMode === "capture";
+
+    return {
+      width: isMobile ? "375px" : "100%",
+      maxWidth: isMobile ? "375px" : "1920px",
+      maxHeight: isCapture ? undefined : isMobile ? "667px" : "1080px",
+      aspectRatio: isCapture ? undefined : isMobile ? "9/16" : "16/9",
+      height: isCapture
+        ? captureHeight
+          ? `${captureHeight}px`
+          : "600px"
+        : undefined,
+    } as CSSProperties;
+  }, [viewMode, captureHeight]);
+
+  const viewLabel = viewMode === "capture" ? "desktop (fit)" : viewMode;
+
   return (
     <div className={cn("space-y-4", className)}>
       {/* Controls */}
@@ -130,16 +185,12 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
       {/* Preview Container */}
       <div
         className={cn(
-          "relative overflow-auto rounded-lg border border-border bg-white",
+          "relative rounded-lg border border-border bg-white",
           "transition-all duration-300",
           viewMode === "mobile" ? "mx-auto" : "w-full",
+          viewMode === "capture" ? "overflow-hidden" : "overflow-auto",
         )}
-        style={{
-          width: viewMode === "mobile" ? "375px" : "100%",
-          maxWidth: viewMode === "mobile" ? "375px" : "1920px",
-          aspectRatio: viewMode === "mobile" ? "9/16" : "16/9",
-          maxHeight: viewMode === "mobile" ? "667px" : "1080px",
-        }}
+        style={containerStyle}
       >
         {/* Loading Indicator */}
         {isLoading && (
@@ -170,6 +221,11 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
           sandbox="allow-scripts allow-same-origin"
           className="w-full h-full border-0 min-h-full bg-white"
           loading="lazy"
+          style={
+            viewMode === "capture"
+              ? { height: captureHeight ? `${captureHeight}px` : "600px" }
+              : undefined
+          }
         />
 
         {mountNode &&
@@ -180,7 +236,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
       {/* Preview Info */}
       <div className="text-sm text-muted-foreground">
         <p>
-          Showing live {viewMode} render of{" "}
+          Showing live {viewLabel} render of{" "}
           <span className="font-medium text-foreground">{block.title}</span> —
           rendered in an isolated iframe environment.
         </p>

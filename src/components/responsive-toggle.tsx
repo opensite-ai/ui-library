@@ -5,11 +5,10 @@
 
 "use client";
 
-import { Monitor, Smartphone } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Pressable } from "@opensite/ui";
+import { DynamicIcon, Pressable } from "@opensite/ui";
 
-export type ViewMode = "desktop" | "mobile";
+export type ViewMode = "desktop" | "mobile" | "capture";
 
 interface ResponsiveToggleProps {
   value: ViewMode;
@@ -36,10 +35,10 @@ export function ResponsiveToggle({
         aria-label="Desktop view"
         aria-pressed={value === "desktop"}
         componentType="button"
-        variant={value === "desktop" ? "default" : "outline"}
-        className="rounded-md! px-3!"
+        variant={value === "desktop" ? "default" : "ghost"}
+        className="rounded-md! hover:bg-black px-2.5!"
       >
-        <Monitor className="h-4 w-4" />
+        <DynamicIcon name="lucide/monitor" size={24} />
       </Pressable>
 
       <Pressable
@@ -47,10 +46,24 @@ export function ResponsiveToggle({
         aria-label="Mobile view"
         aria-pressed={value === "mobile"}
         componentType="button"
-        variant={value === "mobile" ? "default" : "outline"}
-        className="rounded-md! px-3!"
+        variant={value === "mobile" ? "default" : "ghost"}
+        className="rounded-md! hover:bg-black px-2!"
       >
-        <Smartphone className="h-4 w-4" />
+        <DynamicIcon name="lucide/smartphone" size={24} />
+      </Pressable>
+
+      <Pressable
+        onClick={() => onChange("capture")}
+        aria-label="Capture view"
+        aria-pressed={value === "capture"}
+        componentType="button"
+        variant={value === "capture" ? "default" : "ghost"}
+        className="rounded-md! hover:bg-black  px-2!"
+      >
+        <DynamicIcon
+          name="material-symbols/fit-page-height-outline"
+          size={24}
+        />
       </Pressable>
     </div>
   );

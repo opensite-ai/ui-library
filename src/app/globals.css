@@ -452,60 +452,57 @@
    CUSTOM STYLES
    ============================================ */
 
-/* Typography - Almarose Font System */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600; /* Almarose semibold for headings */
-  @apply tracking-tight;
-}
+@layer base {
+  /* Typography - Almarose Font System */
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-weight: 600; /* Almarose semibold for headings */
+    @apply tracking-tight;
+  }
 
-h1 {
-  @apply text-2xl md:text-3xl lg:text-5xl leading-tight;
-}
+  :where(h1) {
+    @apply text-2xl md:text-3xl lg:text-5xl leading-tight;
+  }
 
-h2 {
-  @apply text-xl md:text-2xl leading-tight;
-}
+  :where(h2) {
+    @apply text-xl md:text-2xl leading-tight;
+  }
 
-h3 {
-  @apply text-lg md:text-xl leading-snug;
-}
+  :where(h3) {
+    @apply text-lg md:text-xl leading-snug;
+  }
 
-h4 {
-  @apply text-lg md:text-xl leading-snug;
-}
+  :where(h4) {
+    @apply text-lg md:text-xl leading-snug;
+  }
 
-/* Body text uses Almarose 400 (default) */
-body {
-  font-weight: 400;
-}
+  /* Body text uses Almarose 400 (default) */
+  body {
+    font-weight: 400;
+  }
 
-/* Buttons use Almarose 600 (semibold) */
-button {
-  font-weight: 600;
-}
+  /* Buttons use Almarose 600 (semibold) */
+  button {
+    font-weight: 600;
+  }
 
-/* Badges, tags, eyebrows use Almarose 300 (light) */
-.badge,
-.tag,
-.eyebrow,
-[class*="badge"],
-[class*="tag"] {
-  font-weight: 300;
-}
+  /* Badges, tags, eyebrows use Almarose 300 (light) */
+  .badge,
+  .tag,
+  .eyebrow,
+  [class*="badge"],
+  [class*="tag"] {
+    font-weight: 300;
+  }
 
-/* Smooth Scroll */
-html {
-  scroll-behavior: smooth;
-}
+  /* Smooth Scroll */
+  html {
+    scroll-behavior: smooth;
+  }
 
-/* Focus Visible */
-*:focus-visible {
-  @apply outline-none ring-2 ring-ring ring-offset-2;
+  /* Focus Visible */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2;
+  }
 }
 
 @theme inline {

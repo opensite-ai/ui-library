@@ -4,18 +4,36 @@
       "title": "Hero Floating Images",
       "componentPath": "blocks/hero/hero-floating-images.tsx",
       "thumbnail": {
-        "desktop": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn",
-        "mobile": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn"
+        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
       },
       "preview": {
-        "desktop": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn",
-        "mobile": "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn"
+        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui", "@page-speed/img", "@page-speed/lightbox"],
+      "dependencies": [
+        "@opensite/ui",
+        "@page-speed/img",
+        "@page-speed/lightbox"
+      ],
       "defaultProps": {
         "zoomIconName": "lucide/zoom-in",
         "enableLightbox": true,
         "spacing": "lg"
+      }
+    },
+    "stats-impact-grid": {
+      "title": "Stats Impact Grid",
+      "componentPath": "blocks/stats/stats-impact-grid.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-impact-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/287654/3g3ozwigqke2sdu77ap8l66qjyvf/stats-impact-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287655/io3oa1mnsvnn5w8jewjhbjawcarm/stats-impact-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/287654/3g3ozwigqke2sdu77ap8l66qjyvf/stats-impact-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287655/io3oa1mnsvnn5w8jewjhbjawcarm/stats-impact-mobile.jpg"
       }
     }
   }

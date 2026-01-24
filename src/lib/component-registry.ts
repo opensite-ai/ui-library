@@ -12,6 +12,8 @@ type ComponentLoader = () => Promise<{ default: ComponentType<any> }>;
 export const componentLoaders: Record<string, ComponentLoader> = {
   "hero-floating-images": () =>
     import("@/blocks/hero/hero-floating-images"),
+  "stats-impact-grid": () =>
+    import("@/blocks/stats/stats-impact-grid"),
   // Add more components here as they are created
 };
 
