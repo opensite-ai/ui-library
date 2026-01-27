@@ -25,12 +25,12 @@ export function BlockCard({ block, className }: BlockCardProps) {
       )}
     >
       {/* Thumbnail */}
-      <div className="relative aspect-video w-full overflow-hidden bg-muted">
+      <div className="relative aspect-video  w-full overflow-hidden bg-white">
         <Img
           src={block.thumbnail.desktop || geometricPlaceholderImgs.one.desktop}
           alt={block.title}
           className="object-cover transition-transform duration-300 group-hover:scale-105"
-          optixFlowConfig={{ apiKey: optixFlowApiKey }}
+          optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
         />
       </div>
 
