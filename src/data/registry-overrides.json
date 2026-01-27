@@ -25,72 +25,168 @@
     "stats-impact-grid": {
       "title": "Stats Impact Grid",
       "componentPath": "blocks/stats/stats-impact-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288940/71bf2g13yafem6q5lp74mo32vswj/stats-impact-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288940/71bf2g13yafem6q5lp74mo32vswj/stats-impact-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-impact-grid.tsx"
     },
     "stats-simple-grid": {
       "title": "Stats Simple Grid",
       "componentPath": "blocks/stats/stats-simple-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288948/6lxanoy3dgk4cmpokifjxfzbln7v/stats-simple-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288949/6uyhqrb9o62330c3hrzadhqhk8qh/stats-simple-grid-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288948/6lxanoy3dgk4cmpokifjxfzbln7v/stats-simple-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288949/6uyhqrb9o62330c3hrzadhqhk8qh/stats-simple-grid-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-simple-grid.tsx"
     },
     "stats-icon-cards": {
       "title": "Stats Icon Cards",
       "componentPath": "blocks/stats/stats-icon-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288938/urt7yb9mjarmi4emo69k4gdz6bi3/stats-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288939/hyynr6l3xvzxygjo0ovp3rk4j3on/stats-icon-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288938/urt7yb9mjarmi4emo69k4gdz6bi3/stats-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288939/hyynr6l3xvzxygjo0ovp3rk4j3on/stats-icon-cards-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-icon-cards.tsx"
     },
     "stats-timeline-tabs": {
       "title": "Stats Timeline Tabs",
       "componentPath": "blocks/stats/stats-timeline-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288950/qqma1bduvtkiw0emx54p8faznbq8/stats-timeline-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288951/0n55r6asbot6nldpwksguhmqa8e0/stats-timeline-tabs-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288950/qqma1bduvtkiw0emx54p8faznbq8/stats-timeline-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288951/0n55r6asbot6nldpwksguhmqa8e0/stats-timeline-tabs-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-timeline-tabs.tsx"
     },
     "stats-primary-secondary": {
       "title": "Stats Primary Secondary",
       "componentPath": "blocks/stats/stats-primary-secondary.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288946/bsfdnq1evrm3yh18diynkhbzy5p0/stats-primary-secondary-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288947/dfoy9qym72kwb09pt2bihg4u0qev/stats-primary-secondary-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288946/bsfdnq1evrm3yh18diynkhbzy5p0/stats-primary-secondary-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288947/dfoy9qym72kwb09pt2bihg4u0qev/stats-primary-secondary-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-primary-secondary.tsx"
     },
     "stats-growth-timeline": {
       "title": "Stats Growth Timeline",
       "componentPath": "blocks/stats/stats-growth-timeline.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288936/otkldz7km9w9q43k1f1moppu0frk/stats-growth-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288937/toqnx92kq668q01mbqfi7enlxqbp/stats-growth-timeline-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288936/otkldz7km9w9q43k1f1moppu0frk/stats-growth-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288937/toqnx92kq668q01mbqfi7enlxqbp/stats-growth-timeline-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-growth-timeline.tsx"
     },
     "stats-circular-progress": {
       "title": "Stats Circular Progress",
       "componentPath": "blocks/stats/stats-circular-progress.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288934/fmr3zi2q1zsd628mldxv04exv2s6/stats-circular-progress-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288935/xn1o1ztka52gs1lb7m18cc0rnvnk/stats-circular-progress-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288934/fmr3zi2q1zsd628mldxv04exv2s6/stats-circular-progress-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288935/xn1o1ztka52gs1lb7m18cc0rnvnk/stats-circular-progress-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-circular-progress.tsx"
     },
     "stats-card-group": {
       "title": "Stats Card Group",
       "componentPath": "blocks/stats/stats-card-group.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288932/5buz4db6pgoluc9omsplob8yvavj/stats-card-group-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288933/x5f9vc44qyvfdhraqsq2hw65kb46/stats-card-group-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288932/5buz4db6pgoluc9omsplob8yvavj/stats-card-group-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288933/x5f9vc44qyvfdhraqsq2hw65kb46/stats-card-group-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-card-group.tsx"
     },
     "stats-animated-counter": {
       "title": "Stats Animated Counter",
       "componentPath": "blocks/stats/stats-animated-counter.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288928/2dihbv54sh18i33vb0x430kdzlkd/stats-animated-counter-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288929/q0mz3rzjtncypcevls5kl4n9myl4/stats-animated-counter-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288928/2dihbv54sh18i33vb0x430kdzlkd/stats-animated-counter-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288929/q0mz3rzjtncypcevls5kl4n9myl4/stats-animated-counter-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-animated-counter.tsx"
     },
     "stats-number-ticker": {
       "title": "Stats Number Ticker",
       "componentPath": "blocks/stats/stats-number-ticker.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288944/ca3col5wx2hgmrrqmbnk3cmzz69q/stats-number-ticker-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288945/w4qfcfre8mppb87n3be8nq4of2gb/stats-number-ticker-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288944/ca3col5wx2hgmrrqmbnk3cmzz69q/stats-number-ticker-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288945/w4qfcfre8mppb87n3be8nq4of2gb/stats-number-ticker-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-number-ticker.tsx"
     },
     "stats-milestone-sidebar": {
       "title": "Stats Milestone Sidebar",
       "componentPath": "blocks/stats/stats-milestone-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288942/i4phziz7u7qi7d18e8yhgmmlhcoy/stats-milestone-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288943/p2hrvhjs7we5ihjnuflw2caj1qul/stats-milestone-sidebar-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288942/i4phziz7u7qi7d18e8yhgmmlhcoy/stats-milestone-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288943/p2hrvhjs7we5ihjnuflw2caj1qul/stats-milestone-sidebar-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-milestone-sidebar.tsx"
     },
     "stats-bar-comparison": {
       "title": "Stats Bar Comparison",
       "componentPath": "blocks/stats/stats-bar-comparison.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288930/pxzc1pdqynjduhm6z3j8eb6irlvg/stats-bar-comparison-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288931/c05qqffxc9bnl0f5tarsidnvpiey/stats-bar-comparison-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288930/pxzc1pdqynjduhm6z3j8eb6irlvg/stats-bar-comparison-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288931/c05qqffxc9bnl0f5tarsidnvpiey/stats-bar-comparison-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-bar-comparison.tsx"
     },

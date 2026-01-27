@@ -20,8 +20,7 @@ export default function Demo() {
           description: "Enterprise-grade reliability",
         },
         {
-          value: 2500000,
-          prefix: "$",
+          value: 480,
           label: "Processed",
           description: "Transactions this month",
         },
