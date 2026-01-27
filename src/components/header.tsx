@@ -22,7 +22,7 @@ export function Header() {
               src={logoPlaceholders.darkHorizontalLogo}
               alt="OpenSite Logo"
               className="h-10 object-contain w-auto"
-              optixFlowConfig={{ apiKey: optixFlowApiKey }}
+              optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
             />
           </Link>
 

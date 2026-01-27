@@ -279,7 +279,7 @@ export default function Demo() {
           className: "rounded-lg shadow-lg",
         },
       ]}
-      optixFlowConfig={{ apiKey: optixFlowApiKey }}
+      optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
       className="flex items-center justify-center"
       spacing="xl"
     >

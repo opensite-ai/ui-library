@@ -27,7 +27,7 @@ export function Footer() {
                 src={logoPlaceholders.lightHorizontalLogo}
                 alt="OpenSite Logo"
                 className="h-14 w-auto object-contain"
-                optixFlowConfig={{ apiKey: optixFlowApiKey }}
+                optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
               />
             </Link>
             <p className="text-sm text-white/90 text-balance">

@@ -20,7 +20,7 @@ export default function Demo() {
   return (
     <YourComponent
       // Add example props here
-      optixFlowConfig={{ apiKey: optixFlowApiKey }}
+      optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
     />
   );
 }

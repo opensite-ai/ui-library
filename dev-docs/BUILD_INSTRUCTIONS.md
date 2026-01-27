@@ -712,7 +712,7 @@ export function BlockCard({ block }: BlockCardProps) {
             src={block.thumbnail.desktop}
             alt={block.title}
             className="object-cover group-hover:scale-105 transition-transform"
-            optixFlowConfig={{ apiKey: optixFlowApiKey }}
+            optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
           />
         </div>
 
@@ -903,7 +903,7 @@ export function BlockPreview({ block, viewport }: BlockPreviewProps) {
           width={viewport === "mobile" ? 375 : 1280}
           height={viewport === "mobile" ? 812 : 600}
           className="w-full h-auto"
-          optixFlowConfig={{ apiKey: optixFlowApiKey }}
+          optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
         />
       </div>
     </div>
