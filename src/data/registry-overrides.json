@@ -100,12 +100,6 @@
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-company-profile.tsx"
     },
-    "about-culture-tabs": {
-      "title": "About Culture Tabs",
-      "componentPath": "blocks/about/about-culture-tabs.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-culture-tabs.tsx"
-    },
     "about-developer-profile": {
       "title": "About Developer Profile",
       "componentPath": "blocks/about/about-developer-profile.tsx",
@@ -117,12 +111,6 @@
       "componentPath": "blocks/about/about-developer-story.tsx",
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-story.tsx"
-    },
-    "about-expandable-values": {
-      "title": "About Expandable Values",
-      "componentPath": "blocks/about/about-expandable-values.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-expandable-values.tsx"
     },
     "about-interactive-tabs": {
       "title": "About Interactive Tabs",
@@ -154,23 +142,11 @@
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-features.tsx"
     },
-    "about-mission-principles": {
-      "title": "About Mission Principles",
-      "componentPath": "blocks/about/about-mission-principles.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-mission-principles.tsx"
-    },
     "about-network-spotlight": {
       "title": "About Network Spotlight",
       "componentPath": "blocks/about/about-network-spotlight.tsx",
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx"
-    },
-    "about-split-hero": {
-      "title": "About Split Hero",
-      "componentPath": "blocks/about/about-split-hero.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-split-hero.tsx"
     },
     "about-startup-team": {
       "title": "About Startup Team",
@@ -219,18 +195,6 @@
       "componentPath": "blocks/about/about-vision-gallery.tsx",
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx"
-    },
-    "alternating-blocks": {
-      "title": "Alternating Blocks",
-      "componentPath": "blocks/about/alternating-blocks.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/alternating-blocks.tsx"
-    },
-    "community-initiatives": {
-      "title": "Community Initiatives",
-      "componentPath": "blocks/about/community-initiatives.tsx",
-      "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/community-initiatives.tsx"
     }
   }
 }
