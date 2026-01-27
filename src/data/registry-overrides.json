@@ -93,6 +93,108 @@
       "componentPath": "blocks/stats/stats-bar-comparison.tsx",
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-bar-comparison.tsx"
+    },
+    "about-company-profile": {
+      "title": "About Company Profile",
+      "componentPath": "blocks/about/about-company-profile.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-company-profile.tsx"
+    },
+    "about-developer-profile": {
+      "title": "About Developer Profile",
+      "componentPath": "blocks/about/about-developer-profile.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-developer-profile.tsx"
+    },
+    "about-developer-story": {
+      "title": "About Developer Story",
+      "componentPath": "blocks/about/about-developer-story.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-developer-story.tsx"
+    },
+    "about-interactive-tabs": {
+      "title": "About Interactive Tabs",
+      "componentPath": "blocks/about/about-interactive-tabs.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
+    },
+    "about-location-info-hero": {
+      "title": "About Location Info Hero",
+      "componentPath": "blocks/about/about-location-info-hero.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-location-info-hero.tsx"
+    },
+    "about-minimal-story": {
+      "title": "About Minimal Story",
+      "componentPath": "blocks/about/about-minimal-story.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-minimal-story.tsx"
+    },
+    "about-mission-dual-image": {
+      "title": "About Mission Dual Image",
+      "componentPath": "blocks/about/about-mission-dual-image.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
+    },
+    "about-mission-features": {
+      "title": "About Mission Features",
+      "componentPath": "blocks/about/about-mission-features.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-mission-features.tsx"
+    },
+    "about-network-spotlight": {
+      "title": "About Network Spotlight",
+      "componentPath": "blocks/about/about-network-spotlight.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-network-spotlight.tsx"
+    },
+    "about-startup-team": {
+      "title": "About Startup Team",
+      "componentPath": "blocks/about/about-startup-team.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-startup-team.tsx"
+    },
+    "about-stats-showcase": {
+      "title": "About Stats Showcase",
+      "componentPath": "blocks/about/about-stats-showcase.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-stats-showcase.tsx"
+    },
+    "about-stats-sidebar": {
+      "title": "About Stats Sidebar",
+      "componentPath": "blocks/about/about-stats-sidebar.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-stats-sidebar.tsx"
+    },
+    "about-story-expertise": {
+      "title": "About Story Expertise",
+      "componentPath": "blocks/about/about-story-expertise.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-expertise.tsx"
+    },
+    "about-story-gallery": {
+      "title": "About Story Gallery",
+      "componentPath": "blocks/about/about-story-gallery.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-gallery.tsx"
+    },
+    "about-story-hero": {
+      "title": "About Story Hero",
+      "componentPath": "blocks/about/about-story-hero.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-hero.tsx"
+    },
+    "about-streamline-team": {
+      "title": "About Streamline Team",
+      "componentPath": "blocks/about/about-streamline-team.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-streamline-team.tsx"
+    },
+    "about-vision-gallery": {
+      "title": "About Vision Gallery",
+      "componentPath": "blocks/about/about-vision-gallery.tsx",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-vision-gallery.tsx"
     }
   }
 }
