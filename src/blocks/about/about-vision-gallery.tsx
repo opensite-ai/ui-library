@@ -1,0 +1,39 @@
+import { AboutVisionGallery } from "@opensite/ui/blocks/about/about-vision-gallery";
+
+export default function Demo() {
+  return (
+    <AboutVisionGallery
+      title="Shaping the Future of Digital"
+      subtitle="We combine creativity, technology, and strategy to build experiences that inspire and endure."
+      images={[
+        {
+          src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop",
+          alt: "Team collaboration",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop",
+          alt: "Modern workspace",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop",
+          alt: "Creative session",
+        },
+      ]}
+      primarySectionTitle="Our Mission"
+      primarySectionContent={`We exist to democratize access to world-class digital experiences. Every business, regardless of size, deserves technology that empowers growth and creates meaningful connections with their audience.
+
+Our approach combines deep technical expertise with genuine partnership. We don't just build products—we build relationships that last.`}
+      secondarySectionTitle="Our Story"
+      secondarySectionLinkText="Since 2010,"
+      secondarySectionLinkUrl="/timeline"
+      secondarySectionContent="we've been on a mission to transform how businesses connect with their customers. What started as a small consultancy has grown into a global team of innovators, united by a shared belief in the power of great design and technology."
+      ctaTitle={`Ready to build something\namazing together?`}
+      ctaAction={{
+        label: "Start a Conversation",
+        href: "/contact",
+        variant: "default",
+        size: "lg",
+      }}
+    />
+  );
+}
