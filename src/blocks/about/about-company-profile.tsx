@@ -14,29 +14,26 @@ export default function Demo() {
         alt: "Creative workspace",
       }}
       breakout={{
-        value: "15+",
-        label: "Years of Excellence",
+        title: "15+ Years of Excellence",
         description: "Delivering innovative solutions since 2009",
+        action: {
+          label: "Learn More",
+          href: "#",
+        },
       }}
       companiesTitle="Trusted by Industry Leaders"
       companies={[
         {
-          logo: {
-            src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-            alt: "Partner company logo",
-          },
+          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
+          alt: "Partner company logo",
         },
         {
-          logo: {
-            src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-            alt: "Partner company logo",
-          },
+          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
+          alt: "Partner company logo",
         },
         {
-          logo: {
-            src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-            alt: "Partner company logo",
-          },
+          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
+          alt: "Partner company logo",
         },
       ]}
       achievementsTitle="Our Impact"
