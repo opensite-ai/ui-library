@@ -21,21 +21,6 @@ export default function Demo() {
           href: "#",
         },
       }}
-      companiesTitle="Trusted by Industry Leaders"
-      companies={[
-        {
-          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-          alt: "Partner company logo",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-          alt: "Partner company logo",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=120&h=40&fit=crop",
-          alt: "Partner company logo",
-        },
-      ]}
       achievementsTitle="Our Impact"
       achievementsDescription="Measurable results that speak to our commitment to excellence"
       achievements={[

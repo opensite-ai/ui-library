@@ -23,7 +23,7 @@ export default function Demo() {
         {
           label: "Learn More",
           href: "/partners",
-          variant: "outline",
+          variant: "link",
           asButton: true,
         },
       ]}
@@ -35,7 +35,8 @@ export default function Demo() {
         icon: <DynamicIcon name="lucide/award" size={24} />,
         label: "Featured Partner",
         title: "Acme Corporation",
-        description: "Achieved 300% growth in their first year as a certified partner.",
+        description:
+          "Achieved 300% growth in their first year as a certified partner.",
       }}
       background="dark"
       spacing="lg"

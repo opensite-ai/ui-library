@@ -210,12 +210,12 @@
     --button-padding-y-lg: 0.5rem;
 
     /* Default Variant */
-    --button-default-bg: hsl(var(--foreground));
+    --button-default-bg: hsl(var(--primary));
     --button-default-fg: hsl(var(--primary-foreground));
-    --button-default-border: hsl(var(--primary-foreground));
+    --button-default-border: hsl(var(--primary));
     --button-default-border-width: 0px;
     --button-default-shadow: var(--button-shadow);
-    --button-default-hover-bg: hsl(var(--foreground) / 0.9);
+    --button-default-hover-bg: hsl(var(--primary) / 0.9);
     --button-default-hover-fg: hsl(var(--primary-foreground));
     --button-default-hover-border: hsl(var(--accent));
     --button-default-shadow-hover: var(--button-shadow-hover);
@@ -233,7 +233,7 @@
 
     /* Outline Variant */
     --button-outline-bg: hsl(var(--background));
-    --button-outline-fg: inherit;
+    --button-outline-fg: hsl(var(--foreground));
     --button-outline-border: hsl(var(--border));
     --button-outline-border-width: 1px;
     --button-outline-shadow: var(--button-shadow);
