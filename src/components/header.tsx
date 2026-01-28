@@ -39,6 +39,12 @@ export function Header() {
             >
               Categories
             </Link>
+            <Link
+              href="/patterns"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Patterns
+            </Link>
             <a
               href="https://github.com/opensite-ai"
               target="_blank"
