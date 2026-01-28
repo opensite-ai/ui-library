@@ -4,6 +4,8 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <BlogFilteredResults
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={1}
       heading="Tech Insights & Tutorials"
       description="Filter and discover content tailored to your interests. Stay ahead with the latest in technology, design, and business innovation."
       allContentHeading="All Articles"

@@ -129,6 +129,34 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/blog/blog-related-articles"),
   "blog-tech-insights": () =>
     import("@/blocks/blog/blog-tech-insights"),
+
+  // Carousel blocks
+  "carousel-animated-sections": () =>
+    import("@/blocks/carousel/carousel-animated-sections"),
+  "carousel-autoplay-progress": () =>
+    import("@/blocks/carousel/carousel-autoplay-progress"),
+  "carousel-auto-progress-slides": () =>
+    import("@/blocks/carousel/carousel-auto-progress-slides"),
+  "carousel-feature-badge": () =>
+    import("@/blocks/carousel/carousel-feature-badge"),
+  "carousel-fullscreen-scroll-fx": () =>
+    import("@/blocks/carousel/carousel-fullscreen-scroll-fx"),
+  "carousel-gallery-thumbnails": () =>
+    import("@/blocks/carousel/carousel-gallery-thumbnails"),
+  "carousel-horizontal-cards": () =>
+    import("@/blocks/carousel/carousel-horizontal-cards"),
+  "carousel-image-hero": () =>
+    import("@/blocks/carousel/carousel-image-hero"),
+  "carousel-multi-step-showcase": () =>
+    import("@/blocks/carousel/carousel-multi-step-showcase"),
+  "carousel-portfolio-hero": () =>
+    import("@/blocks/carousel/carousel-portfolio-hero"),
+  "carousel-product-feature-showcase": () =>
+    import("@/blocks/carousel/carousel-product-feature-showcase"),
+  "carousel-progress-slider": () =>
+    import("@/blocks/carousel/carousel-progress-slider"),
+  "carousel-scrolling-feature-showcase": () =>
+    import("@/blocks/carousel/carousel-scrolling-feature-showcase"),
 };
 
 export const componentRegistry = Object.fromEntries(

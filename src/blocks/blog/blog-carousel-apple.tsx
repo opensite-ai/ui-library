@@ -51,7 +51,7 @@ export default function Demo() {
       actionType="link"
       enableLayoutAnimations={true}
       background="dark"
-      pattern="circuitBoardFadeTopLeft"
+      pattern="dashedGridFadeTopLeft"
       patternOpacity={0.15}
     />
   );

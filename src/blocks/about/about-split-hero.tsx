@@ -10,7 +10,7 @@ export default function Demo() {
       description="Enhance your business growth with increased visibility, advanced analytics, and priority support that scales with your success."
       ctaAction={{
         label: "Upgrade to Premium",
-        href: "/upgrade",
+        href: "#",
         variant: "default",
         size: "lg",
       }}

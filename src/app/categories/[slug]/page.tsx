@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 import { getCategoryBySlug, getBlocksByCategory } from "@/lib/registry";
 import { BlockCard } from "@/components/block-card";
 import { Breadcrumb } from "@/components/breadcrumb";
-import { Badge } from "@opensite/ui";
+import { Badge, DynamicIcon, Pressable } from "@opensite/ui";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -43,14 +43,30 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="container mx-auto px-4 py-12 space-y-8">
-      {/* Breadcrumb */}
-      <Breadcrumb
-        items={[
-          { label: "Home", href: "/" },
-          { label: "Categories", href: "/categories" },
-          { label: category.name },
-        ]}
-      />
+      <div className="flex items-start justify-between gap-4">
+        {/* Breadcrumb */}
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Categories", href: "/categories" },
+            { label: category.name },
+          ]}
+        />
+
+        <Pressable
+          href={`/api/categories/${slug}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          componentType="button"
+          variant="default"
+          color="primary"
+          className=""
+          size="lg"
+        >
+          View API
+          <DynamicIcon className="" name="mynaui/api-solid" />
+        </Pressable>
+      </div>
 
       {/* Header */}
       <div className="space-y-4">

@@ -558,12 +558,12 @@
       "title": "Article Hero Prose",
       "componentPath": "blocks/article/article-hero-prose.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-hero-prose.tsx"
@@ -614,12 +614,12 @@
       "title": "Blog Cards Read Time",
       "componentPath": "blocks/blog/blog-cards-read-time.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289039/fxiksjovvtc1ax99dz0pvtqbinkm/blog-cards-read-time-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289040/wzjl8rhzpbrqp4h2glbwb6j79e7k/blog-cards-read-time-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289039/fxiksjovvtc1ax99dz0pvtqbinkm/blog-cards-read-time-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289040/wzjl8rhzpbrqp4h2glbwb6j79e7k/blog-cards-read-time-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-cards-read-time.tsx"
@@ -628,12 +628,12 @@
       "title": "Blog Cards Tagline CTA",
       "componentPath": "blocks/blog/blog-cards-tagline-cta.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289037/dliy8285arwy51vif3l2r41b3dlr/blog-cards-tagline-cta-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289038/0ctigvmiij64bdu3hi4e5cq71r84/blog-cards-tagline-cta-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289037/dliy8285arwy51vif3l2r41b3dlr/blog-cards-tagline-cta-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289038/0ctigvmiij64bdu3hi4e5cq71r84/blog-cards-tagline-cta-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-cards-tagline-cta.tsx"
@@ -642,12 +642,12 @@
       "title": "Blog Carousel Apple",
       "componentPath": "blocks/blog/blog-carousel-apple.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289049/59tcotkcdz7lgaf1lma9w0tf2i3s/blog-carousel-apple-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289050/239jbb4c2yn5m2gqdj0i9s0g8xzt/blog-carousel-apple-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289049/59tcotkcdz7lgaf1lma9w0tf2i3s/blog-carousel-apple-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289050/239jbb4c2yn5m2gqdj0i9s0g8xzt/blog-carousel-apple-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-carousel-apple.tsx"
@@ -656,12 +656,12 @@
       "title": "Blog Category Overlay",
       "componentPath": "blocks/blog/blog-category-overlay.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289041/sit5hcfahlcas6x4gteh9s4ku8si/blog-category-overlay-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289042/v33nsz7ia6qtmuczwt4ekg3yp1p4/blog-category-overlay-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289041/sit5hcfahlcas6x4gteh9s4ku8si/blog-category-overlay-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289042/v33nsz7ia6qtmuczwt4ekg3yp1p4/blog-category-overlay-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-category-overlay.tsx"
@@ -670,12 +670,12 @@
       "title": "Blog Featured Popular",
       "componentPath": "blocks/blog/blog-featured-popular.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289043/j82rplpq97adxj2rz70mi15nz5pu/blog-featured-popular-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289043/j82rplpq97adxj2rz70mi15nz5pu/blog-featured-popular-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-featured-popular.tsx"
@@ -684,12 +684,12 @@
       "title": "Blog Filtered Results",
       "componentPath": "blocks/blog/blog-filtered-results.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-filtered-results.tsx"
@@ -712,12 +712,12 @@
       "title": "Blog Grid Nine Posts",
       "componentPath": "blocks/blog/blog-grid-nine-posts.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289053/685jc9awca7gzkfnf0pyt1ck2otg/blog-grid-nine-posts-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289054/f29qybwcou2r5epplxqz6h9vceep/blog-grid-nine-posts-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289053/685jc9awca7gzkfnf0pyt1ck2otg/blog-grid-nine-posts-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289054/f29qybwcou2r5epplxqz6h9vceep/blog-grid-nine-posts-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-grid-nine-posts.tsx"
@@ -726,12 +726,12 @@
       "title": "Blog Horizontal Cards",
       "componentPath": "blocks/blog/blog-horizontal-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289047/4anidn99fztkdrgbdr00bhdvodhe/blog-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289047/4anidn99fztkdrgbdr00bhdvodhe/blog-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-horizontal-cards.tsx"
@@ -768,12 +768,12 @@
       "title": "Blog Related Articles",
       "componentPath": "blocks/blog/blog-related-articles.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289045/302tw35wkqc33u0n0mtxxo0kqie6/blog-related-articles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289045/302tw35wkqc33u0n0mtxxo0kqie6/blog-related-articles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-related-articles.tsx"
@@ -791,6 +791,188 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-tech-insights.tsx"
+    },
+    "carousel-animated-sections": {
+      "title": "Carousel Animated Sections",
+      "componentPath": "blocks/carousel/carousel-animated-sections.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-animated-sections.tsx"
+    },
+    "carousel-autoplay-progress": {
+      "title": "Carousel Autoplay Progress",
+      "componentPath": "blocks/carousel/carousel-autoplay-progress.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-autoplay-progress.tsx"
+    },
+    "carousel-auto-progress-slides": {
+      "title": "Carousel Auto Progress Slides",
+      "componentPath": "blocks/carousel/carousel-auto-progress-slides.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289067/nc0w7rixu020dd88lny396d7t312/carousel-auto-progress-slides-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289068/p8gtmwv7jky6bbufqqd3v9bp99nx/carousel-auto-progress-slides-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289067/nc0w7rixu020dd88lny396d7t312/carousel-auto-progress-slides-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289068/p8gtmwv7jky6bbufqqd3v9bp99nx/carousel-auto-progress-slides-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-auto-progress-slides.tsx"
+    },
+    "carousel-feature-badge": {
+      "title": "Carousel Feature Badge",
+      "componentPath": "blocks/carousel/carousel-feature-badge.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-feature-badge.tsx"
+    },
+    "carousel-fullscreen-scroll-fx": {
+      "title": "Carousel Fullscreen Scroll FX",
+      "componentPath": "blocks/carousel/carousel-fullscreen-scroll-fx.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-fullscreen-scroll-fx.tsx"
+    },
+    "carousel-gallery-thumbnails": {
+      "title": "Carousel Gallery Thumbnails",
+      "componentPath": "blocks/carousel/carousel-gallery-thumbnails.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-gallery-thumbnails.tsx"
+    },
+    "carousel-horizontal-cards": {
+      "title": "Carousel Horizontal Cards",
+      "componentPath": "blocks/carousel/carousel-horizontal-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-horizontal-cards.tsx"
+    },
+    "carousel-image-hero": {
+      "title": "Carousel Image Hero",
+      "componentPath": "blocks/carousel/carousel-image-hero.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-image-hero.tsx"
+    },
+    "carousel-multi-step-showcase": {
+      "title": "Carousel Multi-Step Showcase",
+      "componentPath": "blocks/carousel/carousel-multi-step-showcase.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-multi-step-showcase.tsx"
+    },
+    "carousel-portfolio-hero": {
+      "title": "Carousel Portfolio Hero",
+      "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
+    },
+    "carousel-product-feature-showcase": {
+      "title": "Carousel Product Feature Showcase",
+      "componentPath": "blocks/carousel/carousel-product-feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-product-feature-showcase.tsx"
+    },
+    "carousel-progress-slider": {
+      "title": "Carousel Progress Slider",
+      "componentPath": "blocks/carousel/carousel-progress-slider.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx"
+    },
+    "carousel-scrolling-feature-showcase": {
+      "title": "Carousel Scrolling Feature Showcase",
+      "componentPath": "blocks/carousel/carousel-scrolling-feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
     }
   }
 }

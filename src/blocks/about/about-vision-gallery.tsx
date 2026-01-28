@@ -27,7 +27,7 @@ export default function Demo() {
       ctaTitle={`Ready to build something\namazing together?`}
       ctaAction={{
         label: "Start a Conversation",
-        href: "/contact",
+        href: "#",
         variant: "default",
         size: "lg",
       }}

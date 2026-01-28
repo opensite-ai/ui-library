@@ -24,8 +24,7 @@ export default function Demo() {
               "The freedom to innovate here is unmatched. I've learned more in six months than in years elsewhere.",
             author: "Sarah Chen",
             role: "Senior Product Designer",
-            avatar:
-              imagePlaceholders[67],
+            avatar: imagePlaceholders[67],
           },
         },
         {
@@ -43,8 +42,7 @@ export default function Demo() {
               "Working across teams is seamless. Everyone is genuinely invested in helping each other succeed.",
             author: "Marcus Johnson",
             role: "Engineering Lead",
-            avatar:
-              imagePlaceholders[102],
+            avatar: imagePlaceholders[102],
           },
         },
         {
@@ -62,8 +60,7 @@ export default function Demo() {
               "The mentorship and learning opportunities have accelerated my career beyond what I imagined possible.",
             author: "Priya Patel",
             role: "Data Scientist",
-            avatar:
-              imagePlaceholders[38],
+            avatar: imagePlaceholders[38],
           },
         },
         {
@@ -81,8 +78,7 @@ export default function Demo() {
               "I can be a dedicated professional and a present parent. That balance has transformed my life.",
             author: "Alex Rivera",
             role: "Marketing Director",
-            avatar:
-              imagePlaceholders[77],
+            avatar: imagePlaceholders[77],
           },
         },
       ]}
@@ -91,13 +87,13 @@ export default function Demo() {
       actions={[
         {
           label: "View Open Positions",
-          href: "/careers",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Learn About Benefits",
-          href: "/benefits",
+          href: "#",
           variant: "outline",
         },
       ]}
