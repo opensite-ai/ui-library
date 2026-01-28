@@ -13,7 +13,7 @@ export default function Demo() {
         { label: "Design", value: "design" },
         { label: "Operations", value: "operations" },
       ]}
-      teamTitle="Leadership Team"
+      teamTitle="Team Member Directory"
       teamMembers={[
         {
           name: "Sarah Chen",
