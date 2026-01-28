@@ -796,12 +796,12 @@
       "title": "Carousel Animated Sections",
       "componentPath": "blocks/carousel/carousel-animated-sections.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289109/kn7njl53hgft99n489wb3azustqt/carousel-animated-sections-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289109/kn7njl53hgft99n489wb3azustqt/carousel-animated-sections-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-animated-sections.tsx"
@@ -810,12 +810,12 @@
       "title": "Carousel Autoplay Progress",
       "componentPath": "blocks/carousel/carousel-autoplay-progress.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-autoplay-progress.tsx"
