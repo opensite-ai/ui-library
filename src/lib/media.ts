@@ -135,7 +135,7 @@ export const imagePlaceholders = [
   "https://toastability-production.s3.amazonaws.com/9eddibiq5ovc9cvs3ekijkrjpahg",
   "https://toastability-production.s3.amazonaws.com/3ghn8dz3g9qtt4pf4nwbriaydvzb",
   "https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw",
-  "https://toastability-production.s3.amazonaws.com/4eqmdeanxfk6jzvigo42y5ryv2c8",
+  "https://cdn.ing/assets/i/r/289100/qx79hnpbzbm229nfaeceafv6b3a8/cooking-citrus-and-pistachio-bundt-cake-on-rusty-t-2024-10-18-04-31-33-utc.webp",
   "https://toastability-production.s3.amazonaws.com/9ughnl9wnko2vdboib8n3wl3cxsy",
   "https://toastability-production.s3.amazonaws.com/4xjcgtlwseruezhoh3o1ga4umhj4",
   "https://toastability-production.s3.amazonaws.com/xwh1zzxgyd887thfm1j9lu9qnd6c",

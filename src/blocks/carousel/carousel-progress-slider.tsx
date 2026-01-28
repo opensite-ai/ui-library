@@ -43,7 +43,6 @@ export default function Demo() {
           image: imagePlaceholders[101],
         },
       ]}
-      autoAdvanceInterval={5000}
     />
   );
 }

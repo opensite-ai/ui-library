@@ -41,6 +41,9 @@ export default function Demo() {
       autoPlay={true}
       autoPlayInterval={6000}
       showThumbnails={true}
+      pattern="squareAltGrid"
+      patternOpacity={0.25}
+      background="dark"
     />
   );
 }
