@@ -75,6 +75,18 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/about/about-streamline-team"),
   "about-vision-gallery": () =>
     import("@/blocks/about/about-vision-gallery"),
+  "about-culture-tabs": () =>
+    import("@/blocks/about/about-culture-tabs"),
+  "about-expandable-values": () =>
+    import("@/blocks/about/about-expandable-values"),
+  "about-mission-principles": () =>
+    import("@/blocks/about/about-mission-principles"),
+  "about-split-hero": () =>
+    import("@/blocks/about/about-split-hero"),
+  "alternating-blocks": () =>
+    import("@/blocks/about/alternating-blocks"),
+  "community-initiatives": () =>
+    import("@/blocks/about/community-initiatives"),
 };
 
 export const componentRegistry = Object.fromEntries(
