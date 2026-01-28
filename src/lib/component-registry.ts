@@ -87,6 +87,48 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/about/alternating-blocks"),
   "community-initiatives": () =>
     import("@/blocks/about/community-initiatives"),
+  "article-breadcrumb-social": () =>
+    import("@/blocks/article/article-breadcrumb-social"),
+  "article-chapters-author": () =>
+    import("@/blocks/article/article-chapters-author"),
+  "article-compact-toc": () =>
+    import("@/blocks/article/article-compact-toc"),
+  "article-hero-prose": () =>
+    import("@/blocks/article/article-hero-prose"),
+  "article-sidebar-sticky": () =>
+    import("@/blocks/article/article-sidebar-sticky"),
+  "article-split-animated": () =>
+    import("@/blocks/article/article-split-animated"),
+  "article-toc-sidebar": () =>
+    import("@/blocks/article/article-toc-sidebar"),
+
+  // Blog blocks
+  "blog-cards-read-time": () =>
+    import("@/blocks/blog/blog-cards-read-time"),
+  "blog-cards-tagline-cta": () =>
+    import("@/blocks/blog/blog-cards-tagline-cta"),
+  "blog-carousel-apple": () =>
+    import("@/blocks/blog/blog-carousel-apple"),
+  "blog-category-overlay": () =>
+    import("@/blocks/blog/blog-category-overlay"),
+  "blog-featured-popular": () =>
+    import("@/blocks/blog/blog-featured-popular"),
+  "blog-filtered-results": () =>
+    import("@/blocks/blog/blog-filtered-results"),
+  "blog-grid-author-cards": () =>
+    import("@/blocks/blog/blog-grid-author-cards"),
+  "blog-grid-nine-posts": () =>
+    import("@/blocks/blog/blog-grid-nine-posts"),
+  "blog-horizontal-cards": () =>
+    import("@/blocks/blog/blog-horizontal-cards"),
+  "blog-horizontal-timeline": () =>
+    import("@/blocks/blog/blog-horizontal-timeline"),
+  "blog-masonry-featured": () =>
+    import("@/blocks/blog/blog-masonry-featured"),
+  "blog-related-articles": () =>
+    import("@/blocks/blog/blog-related-articles"),
+  "blog-tech-insights": () =>
+    import("@/blocks/blog/blog-tech-insights"),
 };
 
 export const componentRegistry = Object.fromEntries(

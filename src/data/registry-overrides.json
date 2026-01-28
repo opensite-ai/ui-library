@@ -511,6 +511,286 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx"
+    },
+    "article-breadcrumb-social": {
+      "title": "Article Breadcrumb Social",
+      "componentPath": "blocks/article/article-breadcrumb-social.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
+    },
+    "article-chapters-author": {
+      "title": "Article Chapters Author",
+      "componentPath": "blocks/article/article-chapters-author.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-chapters-author.tsx"
+    },
+    "article-compact-toc": {
+      "title": "Article Compact TOC",
+      "componentPath": "blocks/article/article-compact-toc.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-compact-toc.tsx"
+    },
+    "article-hero-prose": {
+      "title": "Article Hero Prose",
+      "componentPath": "blocks/article/article-hero-prose.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-hero-prose.tsx"
+    },
+    "article-sidebar-sticky": {
+      "title": "Article Sidebar Sticky",
+      "componentPath": "blocks/article/article-sidebar-sticky.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
+    },
+    "article-split-animated": {
+      "title": "Article Split Animated",
+      "componentPath": "blocks/article/article-split-animated.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-split-animated.tsx"
+    },
+    "article-toc-sidebar": {
+      "title": "Article TOC Sidebar",
+      "componentPath": "blocks/article/article-toc-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-toc-sidebar.tsx"
+    },
+    "blog-cards-read-time": {
+      "title": "Blog Cards Read Time",
+      "componentPath": "blocks/blog/blog-cards-read-time.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-cards-read-time.tsx"
+    },
+    "blog-cards-tagline-cta": {
+      "title": "Blog Cards Tagline CTA",
+      "componentPath": "blocks/blog/blog-cards-tagline-cta.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-cards-tagline-cta.tsx"
+    },
+    "blog-carousel-apple": {
+      "title": "Blog Carousel Apple",
+      "componentPath": "blocks/blog/blog-carousel-apple.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-carousel-apple.tsx"
+    },
+    "blog-category-overlay": {
+      "title": "Blog Category Overlay",
+      "componentPath": "blocks/blog/blog-category-overlay.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-category-overlay.tsx"
+    },
+    "blog-featured-popular": {
+      "title": "Blog Featured Popular",
+      "componentPath": "blocks/blog/blog-featured-popular.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-featured-popular.tsx"
+    },
+    "blog-filtered-results": {
+      "title": "Blog Filtered Results",
+      "componentPath": "blocks/blog/blog-filtered-results.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-filtered-results.tsx"
+    },
+    "blog-grid-author-cards": {
+      "title": "Blog Grid Author Cards",
+      "componentPath": "blocks/blog/blog-grid-author-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-grid-author-cards.tsx"
+    },
+    "blog-grid-nine-posts": {
+      "title": "Blog Grid Nine Posts",
+      "componentPath": "blocks/blog/blog-grid-nine-posts.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-grid-nine-posts.tsx"
+    },
+    "blog-horizontal-cards": {
+      "title": "Blog Horizontal Cards",
+      "componentPath": "blocks/blog/blog-horizontal-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-horizontal-cards.tsx"
+    },
+    "blog-horizontal-timeline": {
+      "title": "Blog Horizontal Timeline",
+      "componentPath": "blocks/blog/blog-horizontal-timeline.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-horizontal-timeline.tsx"
+    },
+    "blog-masonry-featured": {
+      "title": "Blog Masonry Featured",
+      "componentPath": "blocks/blog/blog-masonry-featured.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-masonry-featured.tsx"
+    },
+    "blog-related-articles": {
+      "title": "Blog Related Articles",
+      "componentPath": "blocks/blog/blog-related-articles.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-related-articles.tsx"
+    },
+    "blog-tech-insights": {
+      "title": "Blog Tech Insights",
+      "componentPath": "blocks/blog/blog-tech-insights.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-tech-insights.tsx"
     }
   }
 }
