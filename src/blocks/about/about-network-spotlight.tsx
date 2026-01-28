@@ -1,5 +1,6 @@
 import { AboutNetworkSpotlight } from "@opensite/ui/blocks/about/about-network-spotlight";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -28,7 +29,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=500&fit=crop",
+        src: imagePlaceholders[16],
         alt: "Partner collaboration meeting",
       }}
       spotlightCard={{

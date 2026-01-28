@@ -1,4 +1,5 @@
 import { CommunityInitiatives } from "@opensite/ui/blocks/about/community-initiatives";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -25,7 +26,7 @@ export default function Demo() {
                 { value: "85%", label: "Retention Rate" },
               ],
               image:
-                "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop",
+                imagePlaceholders[12],
             },
             {
               id: "growth",
@@ -39,7 +40,7 @@ export default function Demo() {
                 { value: "92%", label: "Satisfaction" },
               ],
               image:
-                "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+                imagePlaceholders[16],
             },
           ],
         },
@@ -61,7 +62,7 @@ export default function Demo() {
                 { value: "78%", label: "Career Placement" },
               ],
               image:
-                "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop",
+                imagePlaceholders[29],
             },
             {
               id: "nonprofit",
@@ -95,7 +96,7 @@ export default function Demo() {
                 { value: "40+", label: "Events/Year" },
               ],
               image:
-                "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop",
+                imagePlaceholders[52],
             },
             {
               id: "learning",
@@ -129,7 +130,7 @@ export default function Demo() {
                 { value: "98%", label: "Screen Reader" },
               ],
               image:
-                "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop",
+                imagePlaceholders[34],
             },
             {
               id: "workplace",

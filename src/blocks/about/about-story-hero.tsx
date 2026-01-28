@@ -1,4 +1,5 @@
 import { AboutStoryHero } from "@opensite/ui/blocks/about/about-story-hero";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -9,7 +10,7 @@ export default function Demo() {
 
 We believe that great products come from understanding people first. That's why we invest deeply in research, collaborate closely with our clients, and never stop iterating until we get it right.`}
       heroImage={{
-        src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=700&h=500&fit=crop",
+        src: imagePlaceholders[12],
         alt: "Team working together",
       }}
       teamInfo={{

@@ -1,4 +1,5 @@
 import { StatsCardGroup } from "@opensite/ui/blocks/stats/stats-card-group";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -23,23 +24,23 @@ export default function Demo() {
       ]}
       avatars={[
         {
-          src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+          src: imagePlaceholders[109],
           alt: "Customer avatar",
         },
         {
-          src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+          src: imagePlaceholders[102],
           alt: "Customer avatar",
         },
         {
-          src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+          src: imagePlaceholders[67],
           alt: "Customer avatar",
         },
         {
-          src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+          src: imagePlaceholders[77],
           alt: "Customer avatar",
         },
         {
-          src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+          src: imagePlaceholders[88],
           alt: "Customer avatar",
         },
       ]}

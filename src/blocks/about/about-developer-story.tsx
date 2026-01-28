@@ -1,4 +1,8 @@
-import { logoPlaceholders, imagePlaceholders } from "@/lib/media";
+import {
+  logoPlaceholders,
+  imagePlaceholders,
+  brandLogoPlaceholders,
+} from "@/lib/media";
 import { AboutDeveloperStory } from "@opensite/ui/blocks/about/about-developer-story";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -28,15 +32,15 @@ export default function Demo() {
       ]}
       logos={[
         {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.black[0],
           alt: "Company logo",
         },
         {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.black[1],
           alt: "Company logo",
         },
         {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.black[2],
           alt: "Company logo",
         },
       ]}

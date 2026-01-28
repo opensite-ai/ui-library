@@ -1,4 +1,5 @@
 import { AboutInteractiveTabs } from "@opensite/ui/blocks/about/about-interactive-tabs";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -14,7 +15,7 @@ export default function Demo() {
             description:
               "We begin by deeply understanding your business, goals, and challenges. Through stakeholder interviews, market research, and competitive analysis, we uncover insights that inform every decision.",
             image: {
-              src: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+              src: imagePlaceholders[16],
               alt: "Discovery phase workshop",
             },
           },
@@ -27,7 +28,7 @@ export default function Demo() {
             description:
               "Armed with insights, we craft solutions that balance aesthetics with functionality. Our iterative design process ensures every element serves a purpose and resonates with your audience.",
             image: {
-              src: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+              src: imagePlaceholders[27],
               alt: "Design process",
             },
           },
@@ -40,7 +41,7 @@ export default function Demo() {
             description:
               "Our engineering team brings designs to life using modern technologies and best practices. We prioritize performance, accessibility, and maintainability in every line of code.",
             image: {
-              src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+              src: imagePlaceholders[38],
               alt: "Development phase",
             },
           },
@@ -53,7 +54,7 @@ export default function Demo() {
             description:
               "Launch is just the beginning. We ensure smooth deployment, provide comprehensive training, and offer ongoing support to maximize the impact of your investment.",
             image: {
-              src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+              src: imagePlaceholders[49],
               alt: "Project delivery",
             },
           },

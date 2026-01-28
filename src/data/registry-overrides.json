@@ -193,138 +193,322 @@
     "about-company-profile": {
       "title": "About Company Profile",
       "componentPath": "blocks/about/about-company-profile.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-company-profile.tsx"
     },
     "about-developer-profile": {
       "title": "About Developer Profile",
       "componentPath": "blocks/about/about-developer-profile.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-profile.tsx"
     },
     "about-developer-story": {
       "title": "About Developer Story",
       "componentPath": "blocks/about/about-developer-story.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-story.tsx"
     },
     "about-interactive-tabs": {
       "title": "About Interactive Tabs",
       "componentPath": "blocks/about/about-interactive-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
     },
     "about-location-info-hero": {
       "title": "About Location Info Hero",
       "componentPath": "blocks/about/about-location-info-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-location-info-hero.tsx"
     },
     "about-minimal-story": {
       "title": "About Minimal Story",
       "componentPath": "blocks/about/about-minimal-story.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288985/uohf2h5x28ks7oz7urmuiot4tow8/founder-letter-about-page-with-office-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288985/uohf2h5x28ks7oz7urmuiot4tow8/founder-letter-about-page-with-office-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-minimal-story.tsx"
     },
     "about-mission-dual-image": {
       "title": "About Mission Dual Image",
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
     },
     "about-mission-features": {
       "title": "About Mission Features",
       "componentPath": "blocks/about/about-mission-features.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-features.tsx"
     },
     "about-network-spotlight": {
       "title": "About Network Spotlight",
       "componentPath": "blocks/about/about-network-spotlight.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx"
     },
     "about-startup-team": {
       "title": "About Startup Team",
       "componentPath": "blocks/about/about-startup-team.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289016/72d9p48bkwv0vufjcszal1a0ajdv/about-startup-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289016/72d9p48bkwv0vufjcszal1a0ajdv/about-startup-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-startup-team.tsx"
     },
     "about-stats-showcase": {
       "title": "About Stats Showcase",
       "componentPath": "blocks/about/about-stats-showcase.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-showcase.tsx"
     },
     "about-stats-sidebar": {
       "title": "About Stats Sidebar",
       "componentPath": "blocks/about/about-stats-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-sidebar.tsx"
     },
     "about-story-expertise": {
       "title": "About Story Expertise",
       "componentPath": "blocks/about/about-story-expertise.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-expertise.tsx"
     },
     "about-story-gallery": {
       "title": "About Story Gallery",
       "componentPath": "blocks/about/about-story-gallery.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-gallery.tsx"
     },
     "about-story-hero": {
       "title": "About Story Hero",
       "componentPath": "blocks/about/about-story-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289001/jacnqg4889w53zpi3fuus6r8auyw/about-story-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289001/jacnqg4889w53zpi3fuus6r8auyw/about-story-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-hero.tsx"
     },
     "about-streamline-team": {
       "title": "About Streamline Team",
       "componentPath": "blocks/about/about-streamline-team.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-streamline-team.tsx"
     },
     "about-vision-gallery": {
       "title": "About Vision Gallery",
       "componentPath": "blocks/about/about-vision-gallery.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx"
     },
     "about-culture-tabs": {
       "title": "About Culture Tabs",
       "componentPath": "blocks/about/about-culture-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-culture-tabs.tsx"
     },
     "about-expandable-values": {
       "title": "About Expandable Values",
       "componentPath": "blocks/about/about-expandable-values.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-expandable-values.tsx"
     },
     "about-mission-principles": {
       "title": "About Mission Principles",
       "componentPath": "blocks/about/about-mission-principles.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-principles.tsx"
     },
     "about-split-hero": {
       "title": "About Split Hero",
       "componentPath": "blocks/about/about-split-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-split-hero.tsx"
     },
     "alternating-blocks": {
       "title": "Alternating Blocks",
       "componentPath": "blocks/about/alternating-blocks.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289006/ve7asunbik4wjsz2b9sdjf01l2wn/alternating-blocks-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289007/1xi5156id33mlrlq4ckv2e0mnsbk/alternating-blocks-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289006/ve7asunbik4wjsz2b9sdjf01l2wn/alternating-blocks-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289007/1xi5156id33mlrlq4ckv2e0mnsbk/alternating-blocks-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/alternating-blocks.tsx"
     },
     "community-initiatives": {
       "title": "Community Initiatives",
       "componentPath": "blocks/about/community-initiatives.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx"
     }

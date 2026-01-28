@@ -1,5 +1,6 @@
 import { AboutMissionFeatures } from "@opensite/ui/blocks/about/about-mission-features";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -9,11 +10,11 @@ export default function Demo() {
       missionLabel="Our Mission"
       missionText="To empower businesses with technology that simplifies complexity, amplifies creativity, and accelerates success in an ever-evolving digital landscape."
       mainImage={{
-        src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop",
+        src: imagePlaceholders[12],
         alt: "Team working together",
       }}
       missionBackgroundImage={{
-        src: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
+        src: imagePlaceholders[85],
         alt: "Abstract background",
       }}
       featuresTitle="What Sets Us Apart"

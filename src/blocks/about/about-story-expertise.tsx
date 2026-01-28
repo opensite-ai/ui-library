@@ -1,5 +1,6 @@
 import { AboutStoryExpertise } from "@opensite/ui/blocks/about/about-story-expertise";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -26,7 +27,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=500&fit=crop",
+        src: imagePlaceholders[12],
         alt: "Team collaboration",
       }}
       highlight={{

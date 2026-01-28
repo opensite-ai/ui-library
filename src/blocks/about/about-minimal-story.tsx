@@ -1,4 +1,5 @@
 import { AboutMinimalStory } from "@opensite/ui/blocks/about/about-minimal-story";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -7,7 +8,7 @@ export default function Demo() {
         name: "Jessica Martinez",
         role: "Founder & CEO",
         avatar: {
-          src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
+          src: imagePlaceholders[72],
           alt: "Jessica Martinez",
         },
       }}
@@ -22,7 +23,7 @@ Today, we serve thousands of businesses worldwide, but our mission remains uncha
 
 Thank you for being part of our journey.`}
       featuredImage={{
-        src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop",
+        src: imagePlaceholders[12],
         alt: "Team collaboration",
       }}
     />

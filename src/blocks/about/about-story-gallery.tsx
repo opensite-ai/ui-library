@@ -1,4 +1,5 @@
 import { AboutStoryGallery } from "@opensite/ui/blocks/about/about-story-gallery";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -9,27 +10,27 @@ export default function Demo() {
 These moments capture the spirit of who we are—a team that celebrates wins together, learns from challenges, and never stops pushing forward.`}
       images={[
         {
-          src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop",
+          src: imagePlaceholders[12],
           alt: "Team collaboration session",
         },
         {
-          src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop",
+          src: imagePlaceholders[27],
           alt: "Office celebration",
         },
         {
-          src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop",
+          src: imagePlaceholders[45],
           alt: "Modern workspace",
         },
         {
-          src: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+          src: imagePlaceholders[16],
           alt: "Team workshop",
         },
         {
-          src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=300&fit=crop",
+          src: imagePlaceholders[63],
           alt: "Conference presentation",
         },
         {
-          src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop",
+          src: imagePlaceholders[94],
           alt: "Team building event",
         },
       ]}

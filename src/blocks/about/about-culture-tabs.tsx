@@ -1,5 +1,6 @@
 import { AboutCultureTabs } from "@opensite/ui/blocks/about/about-culture-tabs";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -14,9 +15,9 @@ export default function Demo() {
           description:
             "We believe in challenging the status quo and pushing boundaries. Our teams have the freedom to experiment, fail fast, and iterate toward breakthrough solutions. Every idea is valued, and creativity is encouraged at every level.",
           images: [
-            "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop",
+            imagePlaceholders[12],
+            imagePlaceholders[23],
+            imagePlaceholders[34],
           ],
           testimonial: {
             quote:
@@ -24,7 +25,7 @@ export default function Demo() {
             author: "Sarah Chen",
             role: "Senior Product Designer",
             avatar:
-              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop",
+              imagePlaceholders[67],
           },
         },
         {
@@ -33,9 +34,9 @@ export default function Demo() {
           description:
             "We break down silos and build bridges. Our open-door policy and cross-functional teams ensure that the best ideas rise to the top, regardless of where they come from. Collaboration isn't just encouraged—it's how we work.",
           images: [
-            "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop",
+            imagePlaceholders[78],
+            imagePlaceholders[89],
+            imagePlaceholders[91],
           ],
           testimonial: {
             quote:
@@ -43,7 +44,7 @@ export default function Demo() {
             author: "Marcus Johnson",
             role: "Engineering Lead",
             avatar:
-              "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop",
+              imagePlaceholders[102],
           },
         },
         {
@@ -52,9 +53,9 @@ export default function Demo() {
           description:
             "We invest in our people's development through mentorship programs, learning budgets, and regular skill-building workshops. Your growth is our growth, and we're committed to helping you reach your full potential.",
           images: [
-            "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop",
+            imagePlaceholders[5],
+            imagePlaceholders[16],
+            imagePlaceholders[27],
           ],
           testimonial: {
             quote:
@@ -62,7 +63,7 @@ export default function Demo() {
             author: "Priya Patel",
             role: "Data Scientist",
             avatar:
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=80&h=80&fit=crop",
+              imagePlaceholders[38],
           },
         },
         {
@@ -71,9 +72,9 @@ export default function Demo() {
           description:
             "We understand that your best work happens when you're at your best. Flexible schedules, remote options, and generous time-off policies ensure you can be present for what matters most in your life.",
           images: [
-            "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600&h=400&fit=crop",
-            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
+            imagePlaceholders[49],
+            imagePlaceholders[58],
+            imagePlaceholders[69],
           ],
           testimonial: {
             quote:
@@ -81,7 +82,7 @@ export default function Demo() {
             author: "Alex Rivera",
             role: "Marketing Director",
             avatar:
-              "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop",
+              imagePlaceholders[77],
           },
         },
       ]}
@@ -101,12 +102,12 @@ export default function Demo() {
         },
       ]}
       ctaImages={[
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=200&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=200&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=200&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+        imagePlaceholders[12],
+        imagePlaceholders[23],
+        imagePlaceholders[34],
+        imagePlaceholders[45],
+        imagePlaceholders[56],
+        imagePlaceholders[67],
       ]}
       spacing="xl"
     />

@@ -1,11 +1,12 @@
 import { AboutDeveloperProfile } from "@opensite/ui/blocks/about/about-developer-profile";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
     <AboutDeveloperProfile
       avatar={{
-        src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+        src: imagePlaceholders[81],
         alt: "Alex Thompson",
       }}
       name="Alex Thompson"

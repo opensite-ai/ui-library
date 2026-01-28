@@ -1,4 +1,5 @@
 import { AboutCompanyProfile } from "@opensite/ui/blocks/about/about-company-profile";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -6,11 +7,11 @@ export default function Demo() {
       title="Building the Future of Digital Experiences"
       description="We combine cutting-edge technology with human-centered design to create solutions that transform how businesses connect with their audiences. Our team of experts brings decades of combined experience across multiple industries."
       mainImage={{
-        src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop",
+        src: imagePlaceholders[12],
         alt: "Team collaboration in modern office",
       }}
       secondaryImage={{
-        src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=500&fit=crop",
+        src: imagePlaceholders[45],
         alt: "Creative workspace",
       }}
       breakout={{
@@ -35,6 +36,10 @@ export default function Demo() {
         {
           value: "50M+",
           label: "Users Reached",
+        },
+        {
+          value: "320+",
+          label: "Projects Launched",
         },
       ]}
     />

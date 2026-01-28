@@ -1,4 +1,5 @@
 import { AboutSplitHero } from "@opensite/ui/blocks/about/about-split-hero";
+import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,10 +14,15 @@ export default function Demo() {
         variant: "default",
         size: "lg",
       }}
-      imageSrc="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&h=1600&fit=crop"
+      imageSrc={imagePlaceholders[85]}
       imageAlt="Enterprise team collaboration"
       background="dark"
-      spacing="none"
+      pattern="gridDotsBasic"
+      patternOpacity={0.15}
+      directionConfig={{
+        desktop: "mediaRight",
+        mobile: "mediaTop",
+      }}
     />
   );
 }
