@@ -1462,12 +1462,12 @@
       "title": "Carousel Feature Badge",
       "componentPath": "blocks/carousel/carousel-feature-badge.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289200/gj8qep2lxp05ragqilq91ekh7d98/carousel-feature-badge-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289200/gj8qep2lxp05ragqilq91ekh7d98/carousel-feature-badge-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-feature-badge.tsx"
@@ -1476,12 +1476,12 @@
       "title": "Carousel Fullscreen Scroll FX",
       "componentPath": "blocks/carousel/carousel-fullscreen-scroll-fx.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289203/8gc46addhzx6krnm7vob5q7u43wj/carousel-fullscreen-scroll-fx-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289202/5a73inav6zwmsuxr6gfpzb5og55g/carousel-fullscreen-fx-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289203/8gc46addhzx6krnm7vob5q7u43wj/carousel-fullscreen-scroll-fx-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289202/5a73inav6zwmsuxr6gfpzb5og55g/carousel-fullscreen-fx-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-fullscreen-scroll-fx.tsx"
@@ -1490,12 +1490,12 @@
       "title": "Carousel Gallery Thumbnails",
       "componentPath": "blocks/carousel/carousel-gallery-thumbnails.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289204/zu4idgda2ywsx08gps209prl3tvl/carousel-gallery-thumbnails-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289205/j55tdxyy1l8bpftgu06dcxmj9fs7/carousel-gallery-thumbnails-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289204/zu4idgda2ywsx08gps209prl3tvl/carousel-gallery-thumbnails-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289205/j55tdxyy1l8bpftgu06dcxmj9fs7/carousel-gallery-thumbnails-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-gallery-thumbnails.tsx"
@@ -1504,12 +1504,12 @@
       "title": "Carousel Horizontal Cards",
       "componentPath": "blocks/carousel/carousel-horizontal-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289206/ej36a8ethqiefiialvzxkct29z3a/carousel-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289207/1ragesux520loxrrswmz7mp474oy/carousel-horizontal-cards-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289206/ej36a8ethqiefiialvzxkct29z3a/carousel-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289207/1ragesux520loxrrswmz7mp474oy/carousel-horizontal-cards-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-horizontal-cards.tsx"
@@ -1518,12 +1518,12 @@
       "title": "Carousel Image Hero",
       "componentPath": "blocks/carousel/carousel-image-hero.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289208/n0zkw4w86vuwct7olskqb9ale6oo/carousel-image-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289209/ob0ewnxckivfda0flbteftetxgpy/carousel-image-hero-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289208/n0zkw4w86vuwct7olskqb9ale6oo/carousel-image-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289209/ob0ewnxckivfda0flbteftetxgpy/carousel-image-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-image-hero.tsx"
@@ -1532,12 +1532,12 @@
       "title": "Carousel Multi-Step Showcase",
       "componentPath": "blocks/carousel/carousel-multi-step-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289210/hvruho22wlsn1ezax8ngk4i29nsl/carousel-multi-step-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289211/ny1yq020x55usk9jog1tko8dgbmg/carousel-multi-step-showcase-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289210/hvruho22wlsn1ezax8ngk4i29nsl/carousel-multi-step-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289211/ny1yq020x55usk9jog1tko8dgbmg/carousel-multi-step-showcase-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-multi-step-showcase.tsx"
@@ -1546,12 +1546,12 @@
       "title": "Carousel Portfolio Hero",
       "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
@@ -1560,12 +1560,12 @@
       "title": "Carousel Product Feature Showcase",
       "componentPath": "blocks/carousel/carousel-product-feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289214/olx55rx7yf4w4qjsvag4t8ma6afc/carousel-product-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289215/vyum0n5jfn4xbi9owy9gidgxqquu/carousel-product-feature-showcase-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289214/olx55rx7yf4w4qjsvag4t8ma6afc/carousel-product-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289215/vyum0n5jfn4xbi9owy9gidgxqquu/carousel-product-feature-showcase-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-product-feature-showcase.tsx"
@@ -1574,12 +1574,12 @@
       "title": "Carousel Progress Slider",
       "componentPath": "blocks/carousel/carousel-progress-slider.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289216/zgl3b3bcdvgiz784wmnrdqp5mit2/carousel-progress-slider-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289217/66hy2n2n71upjhrm7dvy9wp8lew2/carousel-progress-slider-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289216/zgl3b3bcdvgiz784wmnrdqp5mit2/carousel-progress-slider-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289217/66hy2n2n71upjhrm7dvy9wp8lew2/carousel-progress-slider-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx"
@@ -1588,12 +1588,12 @@
       "title": "Carousel Scrolling Feature Showcase",
       "componentPath": "blocks/carousel/carousel-scrolling-feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
