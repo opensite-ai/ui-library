@@ -1364,12 +1364,12 @@
       "title": "Blog Horizontal Timeline",
       "componentPath": "blocks/blog/blog-horizontal-timeline.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-horizontal-timeline.tsx"
