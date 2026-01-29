@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@opensite/hooks": "^2.0.3",
-    "@opensite/ui": "0.8.6",
+    "@opensite/ui": "0.8.8",
     "@page-speed/forms": "^0.3.5",
     "@page-speed/hooks": "^0.4.5",
     "@page-speed/img": "^0.4.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
-    "next": "16.1.4",
+    "next": "16.1.5",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "tailwind-merge": "^3.4.0"
