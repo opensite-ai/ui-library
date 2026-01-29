@@ -2111,6 +2111,78 @@
       "preview": "",
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-split-hero"
+    },
+    "process-expandable-timeline": {
+      "title": "Process Expandable Timeline",
+      "componentPath": "blocks/process/process-expandable-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-expandable-timeline"
+    },
+    "process-hover-cards": {
+      "title": "Process Hover Cards",
+      "componentPath": "blocks/process/process-hover-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-hover-cards"
+    },
+    "process-icon-timeline": {
+      "title": "Process Icon Timeline",
+      "componentPath": "blocks/process/process-icon-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-icon-timeline"
+    },
+    "process-mission-principles": {
+      "title": "Process Mission Principles",
+      "componentPath": "blocks/process/process-mission-principles.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-mission-principles"
+    },
+    "process-numbered-services": {
+      "title": "Process Numbered Services",
+      "componentPath": "blocks/process/process-numbered-services.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-numbered-services"
+    },
+    "process-roadmap-timeline": {
+      "title": "Process Roadmap Timeline",
+      "componentPath": "blocks/process/process-roadmap-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-roadmap-timeline"
+    },
+    "process-scroll-image": {
+      "title": "Process Scroll Image",
+      "componentPath": "blocks/process/process-scroll-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-scroll-image"
+    },
+    "process-steps-grid": {
+      "title": "Process Steps Grid",
+      "componentPath": "blocks/process/process-steps-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-steps-grid"
+    },
+    "process-sticky-steps": {
+      "title": "Process Sticky Steps",
+      "componentPath": "blocks/process/process-sticky-steps.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-sticky-steps"
     }
   }
 }

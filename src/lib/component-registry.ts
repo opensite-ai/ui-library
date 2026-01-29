@@ -405,6 +405,26 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/faq/faq-profile-sidebar"),
   "faq-split-hero": () =>
     import("@/blocks/faq/faq-split-hero"),
+
+  // Process blocks
+  "process-expandable-timeline": () =>
+    import("@/blocks/process/process-expandable-timeline"),
+  "process-hover-cards": () =>
+    import("@/blocks/process/process-hover-cards"),
+  "process-icon-timeline": () =>
+    import("@/blocks/process/process-icon-timeline"),
+  "process-mission-principles": () =>
+    import("@/blocks/process/process-mission-principles"),
+  "process-numbered-services": () =>
+    import("@/blocks/process/process-numbered-services"),
+  "process-roadmap-timeline": () =>
+    import("@/blocks/process/process-roadmap-timeline"),
+  "process-scroll-image": () =>
+    import("@/blocks/process/process-scroll-image"),
+  "process-steps-grid": () =>
+    import("@/blocks/process/process-steps-grid"),
+  "process-sticky-steps": () =>
+    import("@/blocks/process/process-sticky-steps"),
 };
 
 export const componentRegistry = Object.fromEntries(
