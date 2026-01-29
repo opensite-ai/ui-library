@@ -12,12 +12,14 @@ export default function Demo() {
             {
               id: "payment-methods",
               question: "What payment methods do you accept?",
-              answer: "We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, and wire transfers for Enterprise plans. All payments are processed securely.",
+              answer:
+                "We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, and wire transfers for Enterprise plans. All payments are processed securely.",
             },
             {
               id: "invoices",
               question: "How do I access my invoices?",
-              answer: "View and download all invoices from your account settings under the Billing section. Invoices are also emailed automatically after each payment.",
+              answer:
+                "View and download all invoices from your account settings under the Billing section. Invoices are also emailed automatically after each payment.",
             },
           ],
         },
@@ -27,12 +29,14 @@ export default function Demo() {
             {
               id: "api-access",
               question: "Is API access available?",
-              answer: "Yes, all plans include API access with rate limits based on your plan tier. Full API documentation is available in our developer portal.",
+              answer:
+                "Yes, all plans include API access with rate limits based on your plan tier. Full API documentation is available in our developer portal.",
             },
             {
               id: "templates",
               question: "Can I create custom templates?",
-              answer: "Professional and Enterprise plans allow you to create unlimited custom templates for projects, tasks, and reports. Save time with reusable workflows.",
+              answer:
+                "Professional and Enterprise plans allow you to create unlimited custom templates for projects, tasks, and reports. Save time with reusable workflows.",
             },
           ],
         },
@@ -42,17 +46,19 @@ export default function Demo() {
             {
               id: "data-encryption",
               question: "Is my data encrypted?",
-              answer: "Yes, all data is encrypted in transit (TLS 1.3) and at rest (AES-256). We also support customer-managed encryption keys for Enterprise customers.",
+              answer:
+                "Yes, all data is encrypted in transit (TLS 1.3) and at rest (AES-256). We also support customer-managed encryption keys for Enterprise customers.",
             },
             {
               id: "compliance",
               question: "What compliance certifications do you have?",
-              answer: "We are SOC 2 Type II certified and compliant with GDPR, CCPA, HIPAA, and ISO 27001 standards. Compliance documentation is available upon request.",
+              answer:
+                "We are SOC 2 Type II certified and compliant with GDPR, CCPA, HIPAA, and ISO 27001 standards. Compliance documentation is available upon request.",
             },
           ],
         },
       ]}
-      spacing="xl"
+      background="gray"
     />
   );
 }

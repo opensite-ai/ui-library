@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <FeatureImageCardsThreeColumn
       title="Featured Solutions"
-      features={[
+      cards={[
         {
           iconName: "lucide/zap",
           badgeText: "Most Popular",

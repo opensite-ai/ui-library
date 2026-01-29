@@ -5,13 +5,13 @@ export default function Demo() {
   return (
     <FeatureBentoImageGrid
       title="Platform Features"
-      features={[
+      items={[
         {
           iconName: "lucide/atom",
           iconBadge: "AI",
           title: "AI-Powered Development",
           linkText: "Explore AI Features",
-          link: "/features/ai",
+          link: "#",
           imageSrc: imagePlaceholders[42],
           imageAlt: "AI development tools",
           size: "large",
@@ -21,7 +21,7 @@ export default function Demo() {
           iconBadge: "Security",
           title: "Enterprise Security",
           linkText: "View Security",
-          link: "/features/security",
+          link: "#",
           imageSrc: imagePlaceholders[65],
           imageAlt: "Security features",
           size: "small",
@@ -31,7 +31,7 @@ export default function Demo() {
           iconBadge: "Analytics",
           title: "Real-Time Analytics",
           linkText: "See Analytics",
-          link: "/features/analytics",
+          link: "#",
           imageSrc: imagePlaceholders[88],
           imageAlt: "Analytics dashboard",
           size: "small",
@@ -41,7 +41,7 @@ export default function Demo() {
           iconBadge: "Performance",
           title: "Lightning Fast",
           linkText: "Check Performance",
-          link: "/features/performance",
+          link: "#",
           imageSrc: imagePlaceholders[106],
           imageAlt: "Performance metrics",
           size: "large",

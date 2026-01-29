@@ -11,8 +11,164 @@ type ComponentLoader = () => Promise<{ default: ComponentType<any> }>;
 
 export const componentLoaders: Record<string, ComponentLoader> = {
   // Hero blocks
+  "hero-ad-campaign-expert": () =>
+    import("@/blocks/hero/hero-ad-campaign-expert"),
+  "hero-adaptable-product-grid": () =>
+    import("@/blocks/hero/hero-adaptable-product-grid"),
+  "hero-agency-animated-images": () =>
+    import("@/blocks/hero/hero-agency-animated-images"),
+  "hero-ai-powered-carousel": () =>
+    import("@/blocks/hero/hero-ai-powered-carousel"),
+  "hero-announcement-badge": () =>
+    import("@/blocks/hero/hero-announcement-badge"),
+  "hero-architecture-fullscreen": () =>
+    import("@/blocks/hero/hero-architecture-fullscreen"),
+  "hero-badge-image-split": () =>
+    import("@/blocks/hero/hero-badge-image-split"),
+  "hero-badge-shadow-overlay": () =>
+    import("@/blocks/hero/hero-badge-shadow-overlay"),
+  "hero-billing-platform-logos": () =>
+    import("@/blocks/hero/hero-billing-platform-logos"),
+  "hero-business-carousel-dots": () =>
+    import("@/blocks/hero/hero-business-carousel-dots"),
+  "hero-business-operations-mosaic": () =>
+    import("@/blocks/hero/hero-business-operations-mosaic"),
+  "hero-centered-gradient-cta": () =>
+    import("@/blocks/hero/hero-centered-gradient-cta"),
+  "hero-centered-image-grid": () =>
+    import("@/blocks/hero/hero-centered-image-grid"),
+  "hero-centered-screenshot": () =>
+    import("@/blocks/hero/hero-centered-screenshot"),
+  "hero-coming-soon-countdown": () =>
+    import("@/blocks/hero/hero-coming-soon-countdown"),
+  "hero-community-survey-cta": () =>
+    import("@/blocks/hero/hero-community-survey-cta"),
+  "hero-conversation-intelligence": () =>
+    import("@/blocks/hero/hero-conversation-intelligence"),
+  "hero-conversion-video-play": () =>
+    import("@/blocks/hero/hero-conversion-video-play"),
+  "hero-creative-studio-stacked": () =>
+    import("@/blocks/hero/hero-creative-studio-stacked"),
+  "hero-crm-streamlined": () =>
+    import("@/blocks/hero/hero-crm-streamlined"),
+  "hero-customer-support-layered": () =>
+    import("@/blocks/hero/hero-customer-support-layered"),
+  "hero-dashed-border-features": () =>
+    import("@/blocks/hero/hero-dashed-border-features"),
+  "hero-design-carousel-portfolio": () =>
+    import("@/blocks/hero/hero-design-carousel-portfolio"),
+  "hero-design-showcase-logos": () =>
+    import("@/blocks/hero/hero-design-showcase-logos"),
+  "hero-design-system-3d": () =>
+    import("@/blocks/hero/hero-design-system-3d"),
+  "hero-developer-tools-code": () =>
+    import("@/blocks/hero/hero-developer-tools-code"),
+  "hero-digital-agency-fullscreen": () =>
+    import("@/blocks/hero/hero-digital-agency-fullscreen"),
+  "hero-ecommerce-product-showcase": () =>
+    import("@/blocks/hero/hero-ecommerce-product-showcase"),
+  "hero-enterprise-security": () =>
+    import("@/blocks/hero/hero-enterprise-security"),
+  "hero-event-registration": () =>
+    import("@/blocks/hero/hero-event-registration"),
+  "hero-feature-cards-grid": () =>
+    import("@/blocks/hero/hero-feature-cards-grid"),
   "hero-floating-images": () =>
     import("@/blocks/hero/hero-floating-images"),
+  "hero-fullscreen-background-image": () =>
+    import("@/blocks/hero/hero-fullscreen-background-image"),
+  "hero-fullscreen-logo-cta": () =>
+    import("@/blocks/hero/hero-fullscreen-logo-cta"),
+  "hero-gradient-avatars-rating": () =>
+    import("@/blocks/hero/hero-gradient-avatars-rating"),
+  "hero-gradient-client-focused": () =>
+    import("@/blocks/hero/hero-gradient-client-focused"),
+  "hero-grid-pattern-efficiency": () =>
+    import("@/blocks/hero/hero-grid-pattern-efficiency"),
+  "hero-grid-pattern-solutions": () =>
+    import("@/blocks/hero/hero-grid-pattern-solutions"),
+  "hero-hiring-animated-text": () =>
+    import("@/blocks/hero/hero-hiring-animated-text"),
+  "hero-image-left-content": () =>
+    import("@/blocks/hero/hero-image-left-content"),
+  "hero-image-slider": () =>
+    import("@/blocks/hero/hero-image-slider"),
+  "hero-innovation-image-grid": () =>
+    import("@/blocks/hero/hero-innovation-image-grid"),
+  "hero-logo-centered-screenshot": () =>
+    import("@/blocks/hero/hero-logo-centered-screenshot"),
+  "hero-marketplace-scattered-images": () =>
+    import("@/blocks/hero/hero-marketplace-scattered-images"),
+  "hero-mental-health-team": () =>
+    import("@/blocks/hero/hero-mental-health-team"),
+  "hero-mentorship-video-split": () =>
+    import("@/blocks/hero/hero-mentorship-video-split"),
+  "hero-minimal-centered-dark": () =>
+    import("@/blocks/hero/hero-minimal-centered-dark"),
+  "hero-mobile-app-download": () =>
+    import("@/blocks/hero/hero-mobile-app-download"),
+  "hero-newsletter-minimal": () =>
+    import("@/blocks/hero/hero-newsletter-minimal"),
+  "hero-overlay-cta-grid": () =>
+    import("@/blocks/hero/hero-overlay-cta-grid"),
+  "hero-pattern-badge-logos": () =>
+    import("@/blocks/hero/hero-pattern-badge-logos"),
+  "hero-pattern-logo-tech-stack": () =>
+    import("@/blocks/hero/hero-pattern-logo-tech-stack"),
+  "hero-platform-features-grid": () =>
+    import("@/blocks/hero/hero-platform-features-grid"),
+  "hero-portfolio-creative": () =>
+    import("@/blocks/hero/hero-portfolio-creative"),
+  "hero-premium-split-avatars": () =>
+    import("@/blocks/hero/hero-premium-split-avatars"),
+  "hero-presentation-platform-video": () =>
+    import("@/blocks/hero/hero-presentation-platform-video"),
+  "hero-pricing-comparison": () =>
+    import("@/blocks/hero/hero-pricing-comparison"),
+  "hero-product-showcase-floating": () =>
+    import("@/blocks/hero/hero-product-showcase-floating"),
+  "hero-productivity-launcher-video": () =>
+    import("@/blocks/hero/hero-productivity-launcher-video"),
+  "hero-saas-dashboard-preview": () =>
+    import("@/blocks/hero/hero-saas-dashboard-preview"),
+  "hero-shared-inbox-layered": () =>
+    import("@/blocks/hero/hero-shared-inbox-layered"),
+  "hero-simple-centered-image": () =>
+    import("@/blocks/hero/hero-simple-centered-image"),
+  "hero-software-growth-video-dialog": () =>
+    import("@/blocks/hero/hero-software-growth-video-dialog"),
+  "hero-spiral-pattern-cards": () =>
+    import("@/blocks/hero/hero-spiral-pattern-cards"),
+  "hero-split-geometric-shapes": () =>
+    import("@/blocks/hero/hero-split-geometric-shapes"),
+  "hero-split-icon-cards": () =>
+    import("@/blocks/hero/hero-split-icon-cards"),
+  "hero-split-image-newsletter": () =>
+    import("@/blocks/hero/hero-split-image-newsletter"),
+  "hero-split-spiral-shapes": () =>
+    import("@/blocks/hero/hero-split-spiral-shapes"),
+  "hero-startup-launch-cta": () =>
+    import("@/blocks/hero/hero-startup-launch-cta"),
+  "hero-stats-social-proof": () =>
+    import("@/blocks/hero/hero-stats-social-proof"),
+  "hero-task-timer-animated": () =>
+    import("@/blocks/hero/hero-task-timer-animated"),
+  "hero-tech-carousel": () =>
+    import("@/blocks/hero/hero-tech-carousel"),
+  "hero-testimonial-image-grid": () =>
+    import("@/blocks/hero/hero-testimonial-image-grid"),
+  "hero-therapy-testimonial-grid": () =>
+    import("@/blocks/hero/hero-therapy-testimonial-grid"),
+  "hero-ui-library-showcase": () =>
+    import("@/blocks/hero/hero-ui-library-showcase"),
+  "hero-video-background-dark": () =>
+    import("@/blocks/hero/hero-video-background-dark"),
+  "hero-video-dialog-gradient": () =>
+    import("@/blocks/hero/hero-video-dialog-gradient"),
+  "hero-video-overlay-stars": () =>
+    import("@/blocks/hero/hero-video-overlay-stars"),
+  "hero-welcome-asymmetric-images": () =>
+    import("@/blocks/hero/hero-welcome-asymmetric-images"),
 
   // Stats blocks
   "stats-impact-grid": () =>

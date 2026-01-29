@@ -76,7 +76,7 @@ export default function Demo() {
           imageAlt: "Monitoring dashboard",
         },
       ]}
-      defaultSlide="development"
+      defaultTab="development"
       spacing="xl"
     />
   );

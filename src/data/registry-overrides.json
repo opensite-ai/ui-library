@@ -1,5 +1,253 @@
 {
   "blocks": {
+    "hero-ad-campaign-expert": {
+      "title": "Hero Ad Campaign Expert",
+      "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ad-campaign-expert"
+    },
+    "hero-adaptable-product-grid": {
+      "title": "Hero Adaptable Product Grid",
+      "componentPath": "blocks/hero/hero-adaptable-product-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-adaptable-product-grid"
+    },
+    "hero-agency-animated-images": {
+      "title": "Hero Agency Animated Images",
+      "componentPath": "blocks/hero/hero-agency-animated-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-agency-animated-images"
+    },
+    "hero-ai-powered-carousel": {
+      "title": "Hero AI Powered Carousel",
+      "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ai-powered-carousel"
+    },
+    "hero-announcement-badge": {
+      "title": "Hero Announcement Badge",
+      "componentPath": "blocks/hero/hero-announcement-badge.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-announcement-badge"
+    },
+    "hero-architecture-fullscreen": {
+      "title": "Hero Architecture Fullscreen",
+      "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-architecture-fullscreen"
+    },
+    "hero-badge-image-split": {
+      "title": "Hero Badge Image Split",
+      "componentPath": "blocks/hero/hero-badge-image-split.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-badge-image-split"
+    },
+    "hero-badge-shadow-overlay": {
+      "title": "Hero Badge Shadow Overlay",
+      "componentPath": "blocks/hero/hero-badge-shadow-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-badge-shadow-overlay"
+    },
+    "hero-billing-platform-logos": {
+      "title": "Hero Billing Platform Logos",
+      "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-billing-platform-logos"
+    },
+    "hero-business-carousel-dots": {
+      "title": "Hero Business Carousel Dots",
+      "componentPath": "blocks/hero/hero-business-carousel-dots.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-business-carousel-dots"
+    },
+    "hero-business-operations-mosaic": {
+      "title": "Hero Business Operations Mosaic",
+      "componentPath": "blocks/hero/hero-business-operations-mosaic.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-business-operations-mosaic"
+    },
+    "hero-centered-gradient-cta": {
+      "title": "Hero Centered Gradient CTA",
+      "componentPath": "blocks/hero/hero-centered-gradient-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-gradient-cta"
+    },
+    "hero-centered-image-grid": {
+      "title": "Hero Centered Image Grid",
+      "componentPath": "blocks/hero/hero-centered-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-image-grid"
+    },
+    "hero-centered-screenshot": {
+      "title": "Hero Centered Screenshot",
+      "componentPath": "blocks/hero/hero-centered-screenshot.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-screenshot"
+    },
+    "hero-coming-soon-countdown": {
+      "title": "Hero Coming Soon Countdown",
+      "componentPath": "blocks/hero/hero-coming-soon-countdown.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-coming-soon-countdown"
+    },
+    "hero-community-survey-cta": {
+      "title": "Hero Community Survey CTA",
+      "componentPath": "blocks/hero/hero-community-survey-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-community-survey-cta"
+    },
+    "hero-conversation-intelligence": {
+      "title": "Hero Conversation Intelligence",
+      "componentPath": "blocks/hero/hero-conversation-intelligence.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-conversation-intelligence"
+    },
+    "hero-conversion-video-play": {
+      "title": "Hero Conversion Video Play",
+      "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-conversion-video-play"
+    },
+    "hero-creative-studio-stacked": {
+      "title": "Hero Creative Studio Stacked",
+      "componentPath": "blocks/hero/hero-creative-studio-stacked.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-creative-studio-stacked"
+    },
+    "hero-crm-streamlined": {
+      "title": "Hero CRM Streamlined",
+      "componentPath": "blocks/hero/hero-crm-streamlined.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-crm-streamlined"
+    },
+    "hero-customer-support-layered": {
+      "title": "Hero Customer Support Layered",
+      "componentPath": "blocks/hero/hero-customer-support-layered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-customer-support-layered"
+    },
+    "hero-dashed-border-features": {
+      "title": "Hero Dashed Border Features",
+      "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-dashed-border-features"
+    },
+    "hero-design-carousel-portfolio": {
+      "title": "Hero Design Carousel Portfolio",
+      "componentPath": "blocks/hero/hero-design-carousel-portfolio.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-carousel-portfolio"
+    },
+    "hero-design-showcase-logos": {
+      "title": "Hero Design Showcase Logos",
+      "componentPath": "blocks/hero/hero-design-showcase-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-showcase-logos"
+    },
+    "hero-design-system-3d": {
+      "title": "Hero Design System 3D",
+      "componentPath": "blocks/hero/hero-design-system-3d.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-system-3d"
+    },
+    "hero-developer-tools-code": {
+      "title": "Hero Developer Tools Code",
+      "componentPath": "blocks/hero/hero-developer-tools-code.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-developer-tools-code"
+    },
+    "hero-digital-agency-fullscreen": {
+      "title": "Hero Digital Agency Fullscreen",
+      "componentPath": "blocks/hero/hero-digital-agency-fullscreen.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-digital-agency-fullscreen"
+    },
+    "hero-ecommerce-product-showcase": {
+      "title": "Hero Ecommerce Product Showcase",
+      "componentPath": "blocks/hero/hero-ecommerce-product-showcase.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ecommerce-product-showcase"
+    },
+    "hero-enterprise-security": {
+      "title": "Hero Enterprise Security",
+      "componentPath": "blocks/hero/hero-enterprise-security.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-enterprise-security"
+    },
+    "hero-event-registration": {
+      "title": "Hero Event Registration",
+      "componentPath": "blocks/hero/hero-event-registration.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-event-registration"
+    },
+    "hero-feature-cards-grid": {
+      "title": "Hero Feature Cards Grid",
+      "componentPath": "blocks/hero/hero-feature-cards-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-feature-cards-grid"
+    },
     "hero-floating-images": {
       "title": "Hero Floating Images",
       "componentPath": "blocks/hero/hero-floating-images.tsx",
@@ -21,6 +269,382 @@
         "enableLightbox": true,
         "spacing": "lg"
       }
+    },
+    "hero-fullscreen-background-image": {
+      "title": "Hero Fullscreen Background Image",
+      "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-fullscreen-background-image"
+    },
+    "hero-fullscreen-logo-cta": {
+      "title": "Hero Fullscreen Logo CTA",
+      "componentPath": "blocks/hero/hero-fullscreen-logo-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-fullscreen-logo-cta"
+    },
+    "hero-gradient-avatars-rating": {
+      "title": "Hero Gradient Avatars Rating",
+      "componentPath": "blocks/hero/hero-gradient-avatars-rating.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-gradient-avatars-rating"
+    },
+    "hero-gradient-client-focused": {
+      "title": "Hero Gradient Client Focused",
+      "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-gradient-client-focused"
+    },
+    "hero-grid-pattern-efficiency": {
+      "title": "Hero Grid Pattern Efficiency",
+      "componentPath": "blocks/hero/hero-grid-pattern-efficiency.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-grid-pattern-efficiency"
+    },
+    "hero-grid-pattern-solutions": {
+      "title": "Hero Grid Pattern Solutions",
+      "componentPath": "blocks/hero/hero-grid-pattern-solutions.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-grid-pattern-solutions"
+    },
+    "hero-hiring-animated-text": {
+      "title": "Hero Hiring Animated Text",
+      "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-hiring-animated-text"
+    },
+    "hero-image-left-content": {
+      "title": "Hero Image Left Content",
+      "componentPath": "blocks/hero/hero-image-left-content.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-image-left-content"
+    },
+    "hero-image-slider": {
+      "title": "Hero Image Slider",
+      "componentPath": "blocks/hero/hero-image-slider.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-image-slider"
+    },
+    "hero-innovation-image-grid": {
+      "title": "Hero Innovation Image Grid",
+      "componentPath": "blocks/hero/hero-innovation-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-innovation-image-grid"
+    },
+    "hero-logo-centered-screenshot": {
+      "title": "Hero Logo Centered Screenshot",
+      "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-logo-centered-screenshot"
+    },
+    "hero-marketplace-scattered-images": {
+      "title": "Hero Marketplace Scattered Images",
+      "componentPath": "blocks/hero/hero-marketplace-scattered-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-marketplace-scattered-images"
+    },
+    "hero-mental-health-team": {
+      "title": "Hero Mental Health Team",
+      "componentPath": "blocks/hero/hero-mental-health-team.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mental-health-team"
+    },
+    "hero-mentorship-video-split": {
+      "title": "Hero Mentorship Video Split",
+      "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mentorship-video-split"
+    },
+    "hero-minimal-centered-dark": {
+      "title": "Hero Minimal Centered Dark",
+      "componentPath": "blocks/hero/hero-minimal-centered-dark.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-minimal-centered-dark"
+    },
+    "hero-mobile-app-download": {
+      "title": "Hero Mobile App Download",
+      "componentPath": "blocks/hero/hero-mobile-app-download.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mobile-app-download"
+    },
+    "hero-newsletter-minimal": {
+      "title": "Hero Newsletter Minimal",
+      "componentPath": "blocks/hero/hero-newsletter-minimal.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-newsletter-minimal"
+    },
+    "hero-overlay-cta-grid": {
+      "title": "Hero Overlay CTA Grid",
+      "componentPath": "blocks/hero/hero-overlay-cta-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-overlay-cta-grid"
+    },
+    "hero-pattern-badge-logos": {
+      "title": "Hero Pattern Badge Logos",
+      "componentPath": "blocks/hero/hero-pattern-badge-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pattern-badge-logos"
+    },
+    "hero-pattern-logo-tech-stack": {
+      "title": "Hero Pattern Logo Tech Stack",
+      "componentPath": "blocks/hero/hero-pattern-logo-tech-stack.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pattern-logo-tech-stack"
+    },
+    "hero-platform-features-grid": {
+      "title": "Hero Platform Features Grid",
+      "componentPath": "blocks/hero/hero-platform-features-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-platform-features-grid"
+    },
+    "hero-portfolio-creative": {
+      "title": "Hero Portfolio Creative",
+      "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-portfolio-creative"
+    },
+    "hero-premium-split-avatars": {
+      "title": "Hero Premium Split Avatars",
+      "componentPath": "blocks/hero/hero-premium-split-avatars.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-premium-split-avatars"
+    },
+    "hero-presentation-platform-video": {
+      "title": "Hero Presentation Platform Video",
+      "componentPath": "blocks/hero/hero-presentation-platform-video.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-presentation-platform-video"
+    },
+    "hero-pricing-comparison": {
+      "title": "Hero Pricing Comparison",
+      "componentPath": "blocks/hero/hero-pricing-comparison.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pricing-comparison"
+    },
+    "hero-product-showcase-floating": {
+      "title": "Hero Product Showcase Floating",
+      "componentPath": "blocks/hero/hero-product-showcase-floating.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-product-showcase-floating"
+    },
+    "hero-productivity-launcher-video": {
+      "title": "Hero Productivity Launcher Video",
+      "componentPath": "blocks/hero/hero-productivity-launcher-video.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-productivity-launcher-video"
+    },
+    "hero-saas-dashboard-preview": {
+      "title": "Hero SaaS Dashboard Preview",
+      "componentPath": "blocks/hero/hero-saas-dashboard-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-saas-dashboard-preview"
+    },
+    "hero-shared-inbox-layered": {
+      "title": "Hero Shared Inbox Layered",
+      "componentPath": "blocks/hero/hero-shared-inbox-layered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-shared-inbox-layered"
+    },
+    "hero-simple-centered-image": {
+      "title": "Hero Simple Centered Image",
+      "componentPath": "blocks/hero/hero-simple-centered-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-simple-centered-image"
+    },
+    "hero-software-growth-video-dialog": {
+      "title": "Hero Software Growth Video Dialog",
+      "componentPath": "blocks/hero/hero-software-growth-video-dialog.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-software-growth-video-dialog"
+    },
+    "hero-spiral-pattern-cards": {
+      "title": "Hero Spiral Pattern Cards",
+      "componentPath": "blocks/hero/hero-spiral-pattern-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-spiral-pattern-cards"
+    },
+    "hero-split-geometric-shapes": {
+      "title": "Hero Split Geometric Shapes",
+      "componentPath": "blocks/hero/hero-split-geometric-shapes.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-geometric-shapes"
+    },
+    "hero-split-icon-cards": {
+      "title": "Hero Split Icon Cards",
+      "componentPath": "blocks/hero/hero-split-icon-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-icon-cards"
+    },
+    "hero-split-image-newsletter": {
+      "title": "Hero Split Image Newsletter",
+      "componentPath": "blocks/hero/hero-split-image-newsletter.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-image-newsletter"
+    },
+    "hero-split-spiral-shapes": {
+      "title": "Hero Split Spiral Shapes",
+      "componentPath": "blocks/hero/hero-split-spiral-shapes.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-spiral-shapes"
+    },
+    "hero-startup-launch-cta": {
+      "title": "Hero Startup Launch CTA",
+      "componentPath": "blocks/hero/hero-startup-launch-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-startup-launch-cta"
+    },
+    "hero-stats-social-proof": {
+      "title": "Hero Stats Social Proof",
+      "componentPath": "blocks/hero/hero-stats-social-proof.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-stats-social-proof"
+    },
+    "hero-task-timer-animated": {
+      "title": "Hero Task Timer Animated",
+      "componentPath": "blocks/hero/hero-task-timer-animated.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-task-timer-animated"
+    },
+    "hero-tech-carousel": {
+      "title": "Hero Tech Carousel",
+      "componentPath": "blocks/hero/hero-tech-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-tech-carousel"
+    },
+    "hero-testimonial-image-grid": {
+      "title": "Hero Testimonial Image Grid",
+      "componentPath": "blocks/hero/hero-testimonial-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-testimonial-image-grid"
+    },
+    "hero-therapy-testimonial-grid": {
+      "title": "Hero Therapy Testimonial Grid",
+      "componentPath": "blocks/hero/hero-therapy-testimonial-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-therapy-testimonial-grid"
+    },
+    "hero-ui-library-showcase": {
+      "title": "Hero UI Library Showcase",
+      "componentPath": "blocks/hero/hero-ui-library-showcase.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ui-library-showcase"
+    },
+    "hero-video-background-dark": {
+      "title": "Hero Video Background Dark",
+      "componentPath": "blocks/hero/hero-video-background-dark.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-background-dark"
+    },
+    "hero-video-dialog-gradient": {
+      "title": "Hero Video Dialog Gradient",
+      "componentPath": "blocks/hero/hero-video-dialog-gradient.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-dialog-gradient"
+    },
+    "hero-video-overlay-stars": {
+      "title": "Hero Video Overlay Stars",
+      "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-overlay-stars"
+    },
+    "hero-welcome-asymmetric-images": {
+      "title": "Hero Welcome Asymmetric Images",
+      "componentPath": "blocks/hero/hero-welcome-asymmetric-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-welcome-asymmetric-images"
     },
     "stats-impact-grid": {
       "title": "Stats Impact Grid",

@@ -10,22 +10,26 @@ export default function Demo() {
         {
           id: "implementation",
           question: "How long does implementation take?",
-          answer: "Most teams are up and running within a week. Our onboarding specialists guide you through setup, data migration, and team training to ensure a smooth transition.",
+          answer:
+            "Most teams are up and running within a week. Our onboarding specialists guide you through setup, data migration, and team training to ensure a smooth transition.",
         },
         {
           id: "scalability",
           question: "Can the platform scale with my business?",
-          answer: "Absolutely. Our infrastructure is built to scale from startups to enterprises. Automatic scaling handles traffic spikes, and you can add unlimited users and storage.",
+          answer:
+            "Absolutely. Our infrastructure is built to scale from startups to enterprises. Automatic scaling handles traffic spikes, and you can add unlimited users and storage.",
         },
         {
           id: "custom-dev",
           question: "Do you offer custom development?",
-          answer: "Yes, Enterprise customers can request custom features, integrations, and workflows. Our professional services team works with you to build tailored solutions.",
+          answer:
+            "Yes, Enterprise customers can request custom features, integrations, and workflows. Our professional services team works with you to build tailored solutions.",
         },
         {
           id: "sla",
           question: "What are your SLA guarantees?",
-          answer: "We guarantee 99.9% uptime with redundant infrastructure. Enterprise plans include priority support with 1-hour response times and dedicated account management.",
+          answer:
+            "We guarantee 99.9% uptime with redundant infrastructure. Enterprise plans include priority support with 1-hour response times and dedicated account management.",
         },
       ]}
       profileImage={imagePlaceholders[18]}
@@ -39,7 +43,9 @@ export default function Demo() {
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      spacing="xl"
+      pattern="circuitBoardFadeBottom"
+      patternOpacity={0.75}
+      background="white"
     />
   );
 }

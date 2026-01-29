@@ -10,22 +10,26 @@ export default function Demo() {
         {
           id: "billing-cycle",
           question: "When will I be charged?",
-          answer: "Billing occurs on the same day each month or year, depending on your plan. You'll receive an invoice via email 3 days before each billing cycle.",
+          answer:
+            "Billing occurs on the same day each month or year, depending on your plan. You'll receive an invoice via email 3 days before each billing cycle.",
         },
         {
           id: "refunds",
           question: "What is your refund policy?",
-          answer: "We offer a 30-day money-back guarantee. If you're not satisfied, contact us within 30 days of your initial purchase for a full refund.",
+          answer:
+            "We offer a 30-day money-back guarantee. If you're not satisfied, contact us within 30 days of your initial purchase for a full refund.",
         },
         {
           id: "upgrades",
           question: "How do plan upgrades work?",
-          answer: "Upgrades take effect immediately. You'll be charged a prorated amount for the remainder of your billing cycle at the new plan rate.",
+          answer:
+            "Upgrades take effect immediately. You'll be charged a prorated amount for the remainder of your billing cycle at the new plan rate.",
         },
         {
           id: "downgrade",
           question: "Can I downgrade my plan?",
-          answer: "Yes, downgrades take effect at the end of your current billing cycle. You'll continue to have access to your current plan features until then.",
+          answer:
+            "Yes, downgrades take effect at the end of your current billing cycle. You'll continue to have access to your current plan features until then.",
         },
       ]}
       helpHeading="Need More Help?"
@@ -36,7 +40,9 @@ export default function Demo() {
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      spacing="xl"
+      pattern="circuitBoardFadeTop"
+      patternOpacity={0.042}
+      background="secondary"
     />
   );
 }

@@ -11,32 +11,39 @@ export default function Demo() {
         {
           id: "account",
           question: "How do I reset my password?",
-          answer: "Click 'Forgot Password' on the login page, enter your email, and we'll send you a secure reset link. The link expires after 24 hours for security.",
+          answer:
+            "Click 'Forgot Password' on the login page, enter your email, and we'll send you a secure reset link. The link expires after 24 hours for security.",
         },
         {
           id: "roles",
           question: "What user roles are available?",
-          answer: "We offer Admin, Manager, Member, and Guest roles. Each role has specific permissions for viewing, editing, and managing content and team members.",
+          answer:
+            "We offer Admin, Manager, Member, and Guest roles. Each role has specific permissions for viewing, editing, and managing content and team members.",
         },
         {
           id: "notifications",
           question: "Can I customize notification settings?",
-          answer: "Yes, you have granular control over email, push, and in-app notifications. Set preferences for mentions, updates, deadlines, and more.",
+          answer:
+            "Yes, you have granular control over email, push, and in-app notifications. Set preferences for mentions, updates, deadlines, and more.",
         },
         {
           id: "export",
           question: "Can I export my data?",
-          answer: "Yes, export your data anytime in CSV, Excel, or JSON formats. Enterprise plans also support automated exports and API-based data retrieval.",
+          answer:
+            "Yes, export your data anytime in CSV, Excel, or JSON formats. Enterprise plans also support automated exports and API-based data retrieval.",
         },
       ]}
       supportText="Still have questions?"
       supportAction={{
         label: "Contact Support",
-        href: "/support",
+        href: "#",
         variant: "default",
-        iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        asButton: true,
+        iconAfter: <DynamicIcon name="lucide/arrow-up-right" />,
       }}
-      spacing="xl"
+      pattern="architect"
+      patternOpacity={0.08}
+      background="gray"
     />
   );
 }
