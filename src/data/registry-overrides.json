@@ -973,6 +973,384 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
+    },
+    "feature-icon-grid-accent": {
+      "title": "Feature Icon Grid Accent",
+      "componentPath": "blocks/features/feature-icon-grid-accent.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-accent.tsx"
+    },
+    "feature-split-image": {
+      "title": "Feature Split Image",
+      "componentPath": "blocks/features/feature-split-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-split-image.tsx"
+    },
+    "feature-split-image-reverse": {
+      "title": "Feature Split Image Reverse",
+      "componentPath": "blocks/features/feature-split-image-reverse.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-split-image-reverse.tsx"
+    },
+    "feature-numbered-cards": {
+      "title": "Feature Numbered Cards",
+      "componentPath": "blocks/features/feature-numbered-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-numbered-cards.tsx"
+    },
+    "feature-integration-cards": {
+      "title": "Feature Integration Cards",
+      "componentPath": "blocks/features/feature-integration-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-integration-cards.tsx"
+    },
+    "feature-checklist-three-column": {
+      "title": "Feature Checklist Three Column",
+      "componentPath": "blocks/features/feature-checklist-three-column.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-checklist-three-column.tsx"
+    },
+    "feature-icon-grid-muted": {
+      "title": "Feature Icon Grid Muted",
+      "componentPath": "blocks/features/feature-icon-grid-muted.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-muted.tsx"
+    },
+    "feature-icon-grid-bordered": {
+      "title": "Feature Icon Grid Bordered",
+      "componentPath": "blocks/features/feature-icon-grid-bordered.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-bordered.tsx"
+    },
+    "feature-three-column-values": {
+      "title": "Feature Three Column Values",
+      "componentPath": "blocks/features/feature-three-column-values.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-three-column-values.tsx"
+    },
+    "feature-capabilities-grid": {
+      "title": "Feature Capabilities Grid",
+      "componentPath": "blocks/features/feature-capabilities-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-capabilities-grid.tsx"
+    },
+    "feature-badge-grid-six": {
+      "title": "Feature Badge Grid Six",
+      "componentPath": "blocks/features/feature-badge-grid-six.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-badge-grid-six.tsx"
+    },
+    "feature-utility-cards-grid": {
+      "title": "Feature Utility Cards Grid",
+      "componentPath": "blocks/features/feature-utility-cards-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-utility-cards-grid.tsx"
+    },
+    "feature-card-grid-linked": {
+      "title": "Feature Card Grid Linked",
+      "componentPath": "blocks/features/feature-card-grid-linked.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-card-grid-linked.tsx"
+    },
+    "feature-pattern-grid-links": {
+      "title": "Feature Pattern Grid Links",
+      "componentPath": "blocks/features/feature-pattern-grid-links.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-pattern-grid-links.tsx"
+    },
+    "feature-image-cards-three-column": {
+      "title": "Feature Image Cards Three Column",
+      "componentPath": "blocks/features/feature-image-cards-three-column.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-image-cards-three-column.tsx"
+    },
+    "feature-category-image-cards": {
+      "title": "Feature Category Image Cards",
+      "componentPath": "blocks/features/feature-category-image-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-category-image-cards.tsx"
+    },
+    "feature-stats-highlight": {
+      "title": "Feature Stats Highlight",
+      "componentPath": "blocks/features/feature-stats-highlight.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-stats-highlight.tsx"
+    },
+    "feature-checklist-image": {
+      "title": "Feature Checklist Image",
+      "componentPath": "blocks/features/feature-checklist-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-checklist-image.tsx"
+    },
+    "feature-accordion-image": {
+      "title": "Feature Accordion Image",
+      "componentPath": "blocks/features/feature-accordion-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-accordion-image.tsx"
+    },
+    "feature-icon-tabs-content": {
+      "title": "Feature Icon Tabs Content",
+      "componentPath": "blocks/features/feature-icon-tabs-content.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-tabs-content.tsx"
+    },
+    "feature-tabbed-content-image": {
+      "title": "Feature Tabbed Content Image",
+      "componentPath": "blocks/features/feature-tabbed-content-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-tabbed-content-image.tsx"
+    },
+    "feature-bento-image-grid": {
+      "title": "Feature Bento Image Grid",
+      "componentPath": "blocks/features/feature-bento-image-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-bento-image-grid.tsx"
+    },
+    "feature-bento-utilities": {
+      "title": "Feature Bento Utilities",
+      "componentPath": "blocks/features/feature-bento-utilities.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-bento-utilities.tsx"
+    },
+    "feature-carousel-progress": {
+      "title": "Feature Carousel Progress",
+      "componentPath": "blocks/features/feature-carousel-progress.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-carousel-progress.tsx"
+    },
+    "feature-image-overlay-badge": {
+      "title": "Feature Image Overlay Badge",
+      "componentPath": "blocks/features/feature-image-overlay-badge.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-image-overlay-badge.tsx"
+    },
+    "feature-animated-carousel": {
+      "title": "Feature Animated Carousel",
+      "componentPath": "blocks/features/feature-animated-carousel.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-animated-carousel.tsx"
+    },
+    "feature-showcase": {
+      "title": "Feature Showcase",
+      "componentPath": "blocks/features/feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-showcase.tsx"
     }
   }
 }

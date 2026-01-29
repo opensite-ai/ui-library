@@ -10,16 +10,15 @@ export default function Demo() {
       actions={[
         {
           label: "Start Free Trial",
-          href: "#trial",
+          href: "#",
           variant: "default",
           size: "lg",
         },
         {
           label: "Watch Demo",
-          href: "#demo",
+          href: "#",
           variant: "outline",
           size: "lg",
-          className: "border-white text-white hover:bg-white/10",
         },
       ]}
       images={[
@@ -41,6 +40,9 @@ export default function Demo() {
         },
       ]}
       autoPlayInterval={5500}
+      pattern="diagonalCrossFadeCenter"
+      patternOpacity={0.8}
+      background="dark"
     />
   );
 }

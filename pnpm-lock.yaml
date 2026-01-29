@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 0.7.7
-        version: 0.7.7(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 0.8.4
+        version: 0.8.4(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/forms':
         specifier: ^0.3.5
         version: 0.3.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -479,8 +479,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/ui@0.7.7':
-    resolution: {integrity: sha512-97FyBsgXFynz5Y26Nrfqj5yTY+sJwJSD6sRHkV3RB3Zsw4ZuFrYzMfSgb/I4WVL6bn47ddDNKiVKfdNwNeLR+w==}
+  '@opensite/ui@0.8.4':
+    resolution: {integrity: sha512-TL7yogSeIqBR6dfiwERxaGeRFmEnTRbuozPSP4i8phAV3PyZ0QpozVI6uFsXosknBSeAveIXTMumaywVlQMkPw==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@tailwindcss/typography': '>=0.5.0'
@@ -3316,7 +3316,7 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/ui@0.7.7(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@0.8.4(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 0.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.3.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)

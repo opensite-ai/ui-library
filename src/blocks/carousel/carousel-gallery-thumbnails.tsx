@@ -38,7 +38,7 @@ export default function Demo() {
           alt: "Fitness center with state-of-the-art equipment",
         },
       ]}
-      autoPlay={true}
+      autoPlay
       autoPlayInterval={6000}
       showThumbnails={true}
       pattern="squareAltGrid"

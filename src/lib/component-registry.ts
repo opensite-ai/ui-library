@@ -157,6 +157,62 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/carousel/carousel-progress-slider"),
   "carousel-scrolling-feature-showcase": () =>
     import("@/blocks/carousel/carousel-scrolling-feature-showcase"),
+
+  // Feature blocks
+  "feature-icon-grid-accent": () =>
+    import("@/blocks/features/feature-icon-grid-accent"),
+  "feature-split-image": () =>
+    import("@/blocks/features/feature-split-image"),
+  "feature-split-image-reverse": () =>
+    import("@/blocks/features/feature-split-image-reverse"),
+  "feature-numbered-cards": () =>
+    import("@/blocks/features/feature-numbered-cards"),
+  "feature-integration-cards": () =>
+    import("@/blocks/features/feature-integration-cards"),
+  "feature-checklist-three-column": () =>
+    import("@/blocks/features/feature-checklist-three-column"),
+  "feature-icon-grid-muted": () =>
+    import("@/blocks/features/feature-icon-grid-muted"),
+  "feature-icon-grid-bordered": () =>
+    import("@/blocks/features/feature-icon-grid-bordered"),
+  "feature-three-column-values": () =>
+    import("@/blocks/features/feature-three-column-values"),
+  "feature-capabilities-grid": () =>
+    import("@/blocks/features/feature-capabilities-grid"),
+  "feature-badge-grid-six": () =>
+    import("@/blocks/features/feature-badge-grid-six"),
+  "feature-utility-cards-grid": () =>
+    import("@/blocks/features/feature-utility-cards-grid"),
+  "feature-card-grid-linked": () =>
+    import("@/blocks/features/feature-card-grid-linked"),
+  "feature-pattern-grid-links": () =>
+    import("@/blocks/features/feature-pattern-grid-links"),
+  "feature-image-cards-three-column": () =>
+    import("@/blocks/features/feature-image-cards-three-column"),
+  "feature-category-image-cards": () =>
+    import("@/blocks/features/feature-category-image-cards"),
+  "feature-stats-highlight": () =>
+    import("@/blocks/features/feature-stats-highlight"),
+  "feature-checklist-image": () =>
+    import("@/blocks/features/feature-checklist-image"),
+  "feature-accordion-image": () =>
+    import("@/blocks/features/feature-accordion-image"),
+  "feature-icon-tabs-content": () =>
+    import("@/blocks/features/feature-icon-tabs-content"),
+  "feature-tabbed-content-image": () =>
+    import("@/blocks/features/feature-tabbed-content-image"),
+  "feature-bento-image-grid": () =>
+    import("@/blocks/features/feature-bento-image-grid"),
+  "feature-bento-utilities": () =>
+    import("@/blocks/features/feature-bento-utilities"),
+  "feature-carousel-progress": () =>
+    import("@/blocks/features/feature-carousel-progress"),
+  "feature-image-overlay-badge": () =>
+    import("@/blocks/features/feature-image-overlay-badge"),
+  "feature-animated-carousel": () =>
+    import("@/blocks/features/feature-animated-carousel"),
+  "feature-showcase": () =>
+    import("@/blocks/features/feature-showcase"),
 };
 
 export const componentRegistry = Object.fromEntries(

@@ -1,5 +1,6 @@
 import { CarouselPortfolioHero } from "@opensite/ui/blocks/carousel/carousel-portfolio-hero";
 import { imagePlaceholders } from "@/lib/media";
+import { DynamicIcon } from "@opensite/ui";
 
 export default function Demo() {
   return (
@@ -9,14 +10,16 @@ export default function Demo() {
           id: 1,
           image: imagePlaceholders[19],
           title: "Brand Identity Redesign",
-          description: "Complete visual transformation for a global tech startup",
+          description:
+            "Complete visual transformation for a global tech startup",
           tag: "Branding",
         },
         {
           id: 2,
           image: imagePlaceholders[37],
           title: "E-Commerce Platform",
-          description: "Award-winning shopping experience with AI-powered recommendations",
+          description:
+            "Award-winning shopping experience with AI-powered recommendations",
           tag: "Web Design",
         },
         {
@@ -30,30 +33,35 @@ export default function Demo() {
           id: 4,
           image: imagePlaceholders[72],
           title: "Sustainability Campaign",
-          description: "Multi-channel marketing initiative driving environmental change",
+          description:
+            "Multi-channel marketing initiative driving environmental change",
           tag: "Marketing",
         },
         {
           id: 5,
           image: imagePlaceholders[91],
           title: "SaaS Dashboard",
-          description: "Enterprise analytics platform serving Fortune 500 clients",
+          description:
+            "Enterprise analytics platform serving Fortune 500 clients",
           tag: "Product Design",
         },
       ]}
       actions={[
         {
           label: "View All Projects",
-          href: "#portfolio",
+          href: "#",
           variant: "default",
           size: "lg",
+          asButton: true,
         },
         {
           label: "Get In Touch",
-          href: "#contact",
-          variant: "outline",
+          href: "#",
+          variant: "link",
           size: "lg",
-          className: "border-white text-white hover:bg-white/10",
+          asButton: true,
+          className: "text-white hover:text-white/75",
+          iconAfter: <DynamicIcon name="lucide/arrow-up-right" />,
         },
       ]}
       autoPlayInterval={6000}
