@@ -10,7 +10,8 @@ export default function Demo() {
         {
           number: "01",
           title: "Digital Strategy & Consulting",
-          description: "Strategic guidance to align technology with business goals. We analyze your market position, identify opportunities, and create actionable roadmaps for digital transformation.",
+          description:
+            "Strategic guidance to align technology with business goals. We analyze your market position, identify opportunities, and create actionable roadmaps for digital transformation.",
           capabilities: [
             "Market Analysis",
             "Technology Roadmap",
@@ -21,14 +22,16 @@ export default function Demo() {
           ],
           action: {
             label: "Explore Strategy Services",
-            href: "/services/strategy",
-            variant: "ghost",
+            href: "#",
+            variant: "outline",
+            asButton: true,
           },
         },
         {
           number: "02",
           title: "Product Design & UX",
-          description: "User-centered design that drives engagement and conversion. From research to prototyping, we create experiences that users love and businesses profit from.",
+          description:
+            "User-centered design that drives engagement and conversion. From research to prototyping, we create experiences that users love and businesses profit from.",
           capabilities: [
             "User Research",
             "Wireframing",
@@ -39,14 +42,16 @@ export default function Demo() {
           ],
           action: {
             label: "View Design Portfolio",
-            href: "/services/design",
-            variant: "ghost",
+            href: "#",
+            variant: "outline",
+            asButton: true,
           },
         },
         {
           number: "03",
           title: "Custom Software Development",
-          description: "Scalable, secure applications built with modern technologies. Our engineering team delivers robust solutions that grow with your business.",
+          description:
+            "Scalable, secure applications built with modern technologies. Our engineering team delivers robust solutions that grow with your business.",
           capabilities: [
             "Web Applications",
             "Mobile Apps",
@@ -57,14 +62,16 @@ export default function Demo() {
           ],
           action: {
             label: "See Development Work",
-            href: "/services/development",
-            variant: "ghost",
+            href: "#",
+            variant: "outline",
+            asButton: true,
           },
         },
         {
           number: "04",
           title: "Quality Assurance & Testing",
-          description: "Comprehensive testing strategies to ensure flawless performance. We catch issues before your users do, maintaining quality across all platforms.",
+          description:
+            "Comprehensive testing strategies to ensure flawless performance. We catch issues before your users do, maintaining quality across all platforms.",
           capabilities: [
             "Automated Testing",
             "Manual QA",
@@ -75,13 +82,15 @@ export default function Demo() {
           ],
           action: {
             label: "Learn About QA Process",
-            href: "/services/qa",
-            variant: "ghost",
+            href: "#",
+            variant: "outline",
+            asButton: true,
           },
         },
       ]}
-      spacing="xl"
-      background="default"
+      pattern="diagonalCrossFadeTopLeft"
+      patternOpacity={1}
+      background="gray"
     />
   );
 }
