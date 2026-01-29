@@ -20,6 +20,24 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
+      images={[
+        {
+          src: imagePlaceholders[28],
+          alt: "Modern design showcase",
+        },
+        {
+          src: imagePlaceholders[45],
+          alt: "Creative workspace",
+        },
+        {
+          src: imagePlaceholders[67],
+          alt: "Bold visual identity",
+        },
+        {
+          src: imagePlaceholders[89],
+          alt: "Contemporary aesthetics",
+        },
+      ]}
       spacing="xl"
     />
   );
