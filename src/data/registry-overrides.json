@@ -1351,6 +1351,142 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-showcase.tsx"
+    },
+    "faq-simple-accordion": {
+      "title": "FAQ Simple Accordion",
+      "componentPath": "blocks/faq/faq-simple-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-simple-accordion"
+    },
+    "faq-static-list": {
+      "title": "FAQ Static List",
+      "componentPath": "blocks/faq/faq-static-list.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-static-list"
+    },
+    "faq-centered-accordion": {
+      "title": "FAQ Centered Accordion",
+      "componentPath": "blocks/faq/faq-centered-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-centered-accordion"
+    },
+    "faq-badge-support": {
+      "title": "FAQ Badge Support",
+      "componentPath": "blocks/faq/faq-badge-support.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-badge-support"
+    },
+    "faq-numbered-list": {
+      "title": "FAQ Numbered List",
+      "componentPath": "blocks/faq/faq-numbered-list.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-numbered-list"
+    },
+    "faq-numbered-grid": {
+      "title": "FAQ Numbered Grid",
+      "componentPath": "blocks/faq/faq-numbered-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-numbered-grid"
+    },
+    "faq-split-help": {
+      "title": "FAQ Split Help",
+      "componentPath": "blocks/faq/faq-split-help.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-split-help"
+    },
+    "faq-categorized-sections": {
+      "title": "FAQ Categorized Sections",
+      "componentPath": "blocks/faq/faq-categorized-sections.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-categorized-sections"
+    },
+    "faq-muted-cards": {
+      "title": "FAQ Muted Cards",
+      "componentPath": "blocks/faq/faq-muted-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-muted-cards"
+    },
+    "faq-bordered-badge": {
+      "title": "FAQ Bordered Badge",
+      "componentPath": "blocks/faq/faq-bordered-badge.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-bordered-badge"
+    },
+    "faq-gradient-categories": {
+      "title": "FAQ Gradient Categories",
+      "componentPath": "blocks/faq/faq-gradient-categories.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-gradient-categories"
+    },
+    "faq-sidebar-navigation": {
+      "title": "FAQ Sidebar Navigation",
+      "componentPath": "blocks/faq/faq-sidebar-navigation.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-sidebar-navigation"
+    },
+    "faq-card-categories": {
+      "title": "FAQ Card Categories",
+      "componentPath": "blocks/faq/faq-card-categories.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-card-categories"
+    },
+    "faq-icon-benefits": {
+      "title": "FAQ Icon Benefits",
+      "componentPath": "blocks/faq/faq-icon-benefits.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-icon-benefits"
+    },
+    "faq-rounded-cards": {
+      "title": "FAQ Rounded Cards",
+      "componentPath": "blocks/faq/faq-rounded-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-rounded-cards"
+    },
+    "faq-profile-sidebar": {
+      "title": "FAQ Profile Sidebar",
+      "componentPath": "blocks/faq/faq-profile-sidebar.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-profile-sidebar"
+    },
+    "faq-split-hero": {
+      "title": "FAQ Split Hero",
+      "componentPath": "blocks/faq/faq-split-hero.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-split-hero"
     }
   }
 }

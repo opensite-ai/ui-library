@@ -26,26 +26,6 @@ export default function Demo() {
         { id: "performance", title: "Performance Metrics" },
         { id: "summary", title: "Summary" },
       ]}
-      socialLinks={[
-        {
-          platform: "twitter",
-          href: "https://twitter.com/share",
-          icon: undefined,
-          "aria-label": "Share on Twitter",
-        },
-        {
-          platform: "facebook",
-          href: "https://facebook.com/share",
-          icon: undefined,
-          "aria-label": "Share on Facebook",
-        },
-        {
-          platform: "linkedin",
-          href: "https://linkedin.com/share",
-          icon: undefined,
-          "aria-label": "Share on LinkedIn",
-        },
-      ]}
       enableTocTracking={true}
       enableBackToTop={true}
     >
