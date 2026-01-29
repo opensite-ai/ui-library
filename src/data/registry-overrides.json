@@ -1979,136 +1979,238 @@
     "faq-simple-accordion": {
       "title": "FAQ Simple Accordion",
       "componentPath": "blocks/faq/faq-simple-accordion.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-simple-accordion"
     },
     "faq-static-list": {
       "title": "FAQ Static List",
       "componentPath": "blocks/faq/faq-static-list.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-static-list"
     },
     "faq-centered-accordion": {
       "title": "FAQ Centered Accordion",
       "componentPath": "blocks/faq/faq-centered-accordion.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-centered-accordion"
     },
     "faq-badge-support": {
       "title": "FAQ Badge Support",
       "componentPath": "blocks/faq/faq-badge-support.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-badge-support"
     },
     "faq-numbered-list": {
       "title": "FAQ Numbered List",
       "componentPath": "blocks/faq/faq-numbered-list.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-numbered-list"
     },
     "faq-numbered-grid": {
       "title": "FAQ Numbered Grid",
       "componentPath": "blocks/faq/faq-numbered-grid.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-numbered-grid"
     },
     "faq-split-help": {
       "title": "FAQ Split Help",
       "componentPath": "blocks/faq/faq-split-help.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-split-help"
     },
     "faq-categorized-sections": {
       "title": "FAQ Categorized Sections",
       "componentPath": "blocks/faq/faq-categorized-sections.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289173/d97gbjgrs23swf979ao0ob2t7bxq/cleanshot-2026-01-29-at-14-57-04.png",
+        "mobile": "https://cdn.ing/assets/i/r/289171/0pjedqt6kjmi8k4wjik9r3l2it1s/blocks-faq-categorized-sections-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289173/d97gbjgrs23swf979ao0ob2t7bxq/cleanshot-2026-01-29-at-14-57-04.png",
+        "mobile": "https://cdn.ing/assets/i/r/289171/0pjedqt6kjmi8k4wjik9r3l2it1s/blocks-faq-categorized-sections-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-categorized-sections"
     },
     "faq-muted-cards": {
       "title": "FAQ Muted Cards",
       "componentPath": "blocks/faq/faq-muted-cards.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-muted-cards"
     },
     "faq-bordered-badge": {
       "title": "FAQ Bordered Badge",
       "componentPath": "blocks/faq/faq-bordered-badge.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289177/uyirq3o9r5mjw9mduv4efn0sa3wp/blocks-faq-bordered-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289176/erqjhw6rakrzesto8b728j3xcla2/blocks-faq-bordered-badge-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289177/uyirq3o9r5mjw9mduv4efn0sa3wp/blocks-faq-bordered-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289176/erqjhw6rakrzesto8b728j3xcla2/blocks-faq-bordered-badge-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-bordered-badge"
     },
     "faq-gradient-categories": {
       "title": "FAQ Gradient Categories",
       "componentPath": "blocks/faq/faq-gradient-categories.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
+        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
+        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-gradient-categories"
     },
     "faq-sidebar-navigation": {
       "title": "FAQ Sidebar Navigation",
       "componentPath": "blocks/faq/faq-sidebar-navigation.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289185/mb4mh8wawy3qi5s5gexhghjw3g6v/cleanshot-2026-01-29-at-15-12-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289185/mb4mh8wawy3qi5s5gexhghjw3g6v/cleanshot-2026-01-29-at-15-12-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-sidebar-navigation"
     },
     "faq-card-categories": {
       "title": "FAQ Card Categories",
       "componentPath": "blocks/faq/faq-card-categories.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289188/ncm5rtqzvjuuouzt6g0jb5mfbkk2/cleanshot-2026-01-29-at-15-14-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/289186/6nmr2mhyq2kjkuttftkmyhny95uj/blocks-faq-card-categories-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289188/ncm5rtqzvjuuouzt6g0jb5mfbkk2/cleanshot-2026-01-29-at-15-14-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/289186/6nmr2mhyq2kjkuttftkmyhny95uj/blocks-faq-card-categories-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-card-categories"
     },
     "faq-icon-benefits": {
       "title": "FAQ Icon Benefits",
       "componentPath": "blocks/faq/faq-icon-benefits.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-icon-benefits"
     },
     "faq-rounded-cards": {
       "title": "FAQ Rounded Cards",
       "componentPath": "blocks/faq/faq-rounded-cards.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-rounded-cards"
     },
     "faq-profile-sidebar": {
       "title": "FAQ Profile Sidebar",
       "componentPath": "blocks/faq/faq-profile-sidebar.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-profile-sidebar"
     },
     "faq-split-hero": {
       "title": "FAQ Split Hero",
       "componentPath": "blocks/faq/faq-split-hero.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289196/xk66t2zn1us5qilsefy3mvtsetc6/blocks-faq-split-hero-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289196/xk66t2zn1us5qilsefy3mvtsetc6/blocks-faq-split-hero-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-split-hero"
     },
