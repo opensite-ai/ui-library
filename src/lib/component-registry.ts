@@ -213,6 +213,42 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/features/feature-animated-carousel"),
   "feature-showcase": () =>
     import("@/blocks/features/feature-showcase"),
+
+  // FAQ blocks
+  "faq-simple-accordion": () =>
+    import("@/blocks/faq/faq-simple-accordion"),
+  "faq-static-list": () =>
+    import("@/blocks/faq/faq-static-list"),
+  "faq-centered-accordion": () =>
+    import("@/blocks/faq/faq-centered-accordion"),
+  "faq-badge-support": () =>
+    import("@/blocks/faq/faq-badge-support"),
+  "faq-numbered-list": () =>
+    import("@/blocks/faq/faq-numbered-list"),
+  "faq-numbered-grid": () =>
+    import("@/blocks/faq/faq-numbered-grid"),
+  "faq-split-help": () =>
+    import("@/blocks/faq/faq-split-help"),
+  "faq-categorized-sections": () =>
+    import("@/blocks/faq/faq-categorized-sections"),
+  "faq-muted-cards": () =>
+    import("@/blocks/faq/faq-muted-cards"),
+  "faq-bordered-badge": () =>
+    import("@/blocks/faq/faq-bordered-badge"),
+  "faq-gradient-categories": () =>
+    import("@/blocks/faq/faq-gradient-categories"),
+  "faq-sidebar-navigation": () =>
+    import("@/blocks/faq/faq-sidebar-navigation"),
+  "faq-card-categories": () =>
+    import("@/blocks/faq/faq-card-categories"),
+  "faq-icon-benefits": () =>
+    import("@/blocks/faq/faq-icon-benefits"),
+  "faq-rounded-cards": () =>
+    import("@/blocks/faq/faq-rounded-cards"),
+  "faq-profile-sidebar": () =>
+    import("@/blocks/faq/faq-profile-sidebar"),
+  "faq-split-hero": () =>
+    import("@/blocks/faq/faq-split-hero"),
 };
 
 export const componentRegistry = Object.fromEntries(

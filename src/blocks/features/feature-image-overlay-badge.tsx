@@ -11,13 +11,13 @@ export default function Demo() {
       actions={[
         {
           label: "Read Full Story",
-          href: "/case-studies",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View All Stories",
-          href: "/customers",
+          href: "#",
           variant: "outline",
         },
       ]}
@@ -26,9 +26,8 @@ export default function Demo() {
       avatarSrc={imagePlaceholders[13]}
       avatarBadgeText="Featured"
       overlayTitle="TechCorp reduces deployment time by 90%"
-      overlayLinkText="Read their journey →"
-      overlayLinkUrl="/case-studies/techcorp"
-      spacing="xl"
+      overlayLinkText="Read their journey"
+      overlayLinkUrl="#"
     />
   );
 }

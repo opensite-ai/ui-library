@@ -71,7 +71,6 @@ export default function Demo() {
         },
       ]}
       defaultTab="performance"
-      spacing="xl"
     />
   );
 }
