@@ -782,12 +782,12 @@
       "title": "Blog Tech Insights",
       "componentPath": "blocks/blog/blog-tech-insights.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289113/pctzj2fqzonzgjla0jigkf5jjh1t/blocks-blog-tech-insights-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289113/pctzj2fqzonzgjla0jigkf5jjh1t/blocks-blog-tech-insights-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-tech-insights.tsx"
