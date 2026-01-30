@@ -1616,12 +1616,12 @@
       "title": "Feature Split Image",
       "componentPath": "blocks/features/feature-split-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289313/3imbqksj5yhfgeop6sgbw24m1aac/blocks-feature-split-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289312/pxyvnu91kert01wml60ozqonap1k/blocks-feature-split-image-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289313/3imbqksj5yhfgeop6sgbw24m1aac/blocks-feature-split-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289312/pxyvnu91kert01wml60ozqonap1k/blocks-feature-split-image-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-split-image.tsx"
@@ -1630,12 +1630,12 @@
       "title": "Feature Split Image Reverse",
       "componentPath": "blocks/features/feature-split-image-reverse.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289315/cxe0w62hitnljab36f6wfoftcvgb/blocks-feature-split-image-reverse-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289314/6nj285eo82mz6rrikarg06jojp5p/blocks-feature-split-image-reverse-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289315/cxe0w62hitnljab36f6wfoftcvgb/blocks-feature-split-image-reverse-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289314/6nj285eo82mz6rrikarg06jojp5p/blocks-feature-split-image-reverse-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-split-image-reverse.tsx"
@@ -1966,12 +1966,12 @@
       "title": "Feature Showcase",
       "componentPath": "blocks/features/feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289311/av416wwilsnwm5z4ps4fxs9nyfwj/blocks-feature-showcase-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289310/nehkkbekyt2oriqedheam3m9kzae/blocks-feature-showcase-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289311/av416wwilsnwm5z4ps4fxs9nyfwj/blocks-feature-showcase-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289310/nehkkbekyt2oriqedheam3m9kzae/blocks-feature-showcase-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-showcase.tsx"
