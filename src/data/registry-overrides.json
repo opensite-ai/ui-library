@@ -1140,12 +1140,12 @@
       "title": "Article Breadcrumb Social",
       "componentPath": "blocks/article/article-breadcrumb-social.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
@@ -1168,12 +1168,12 @@
       "title": "Article Compact TOC",
       "componentPath": "blocks/article/article-compact-toc.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-compact-toc.tsx"
@@ -1196,12 +1196,12 @@
       "title": "Article Sidebar Sticky",
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
