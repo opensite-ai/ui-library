@@ -1,0 +1,33 @@
+import { NavbarFullscreenMenu } from "@opensite/ui/blocks/navbars/navbar-fullscreen-menu";
+import { brandLogoPlaceholders } from "@/lib/media";
+
+export default function Demo() {
+  return (
+    <NavbarFullscreenMenu
+      logo={{
+        url: "/",
+        src: brandLogoPlaceholders.black[0],
+        title: "Creative Studio",
+        alt: "Creative Studio Logo",
+      }}
+      menuItems={[
+        { label: "Services", href: "#" },
+        { label: "Branding", href: "#" },
+        { label: "Web Design", href: "#" },
+        { label: "Development", href: "#" },
+        { label: "Work", href: "#" },
+        { label: "Case Studies", href: "#" },
+        { label: "Portfolio", href: "#" },
+        { label: "About", href: "#" },
+        { label: "Our Story", href: "#" },
+        { label: "Team", href: "#" },
+        { label: "Contact", href: "#" },
+      ]}
+      socialLinks={[
+        { label: "Twitter", href: "https://twitter.com" },
+        { label: "Instagram", href: "https://instagram.com" },
+        { label: "LinkedIn", href: "https://linkedin.com" },
+      ]}
+    />
+  );
+}

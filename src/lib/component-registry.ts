@@ -425,6 +425,80 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/process/process-steps-grid"),
   "process-sticky-steps": () =>
     import("@/blocks/process/process-sticky-steps"),
+
+  // LinkPage blocks
+  "link-page-bento-layout": () =>
+    import("@/blocks/link-page/link-page-bento-layout"),
+  "link-page-grid-cards": () =>
+    import("@/blocks/link-page/link-page-grid-cards"),
+  "link-page-minimal-profile": () =>
+    import("@/blocks/link-page/link-page-minimal-profile"),
+  "link-page-newsletter-social": () =>
+    import("@/blocks/link-page/link-page-newsletter-social"),
+  "link-tree-block": () =>
+    import("@/blocks/link-page/link-tree-block"),
+
+  // Gallery blocks
+  "auto-scroll-carousel": () => import("@/blocks/gallery/auto-scroll-carousel"),
+  "blur-vignette-grid": () => import("@/blocks/gallery/blur-vignette-grid"),
+  "carousel-badge-cards": () => import("@/blocks/gallery/carousel-badge-cards"),
+  "carousel-demo-link": () => import("@/blocks/gallery/carousel-demo-link"),
+  "carousel-gradient-overlay": () => import("@/blocks/gallery/carousel-gradient-overlay"),
+  "carousel-gradient-text": () => import("@/blocks/gallery/carousel-gradient-text"),
+  "carousel-icon-sidebar": () => import("@/blocks/gallery/carousel-icon-sidebar"),
+  "carousel-icon-tabs": () => import("@/blocks/gallery/carousel-icon-tabs"),
+  "carousel-scale-focus": () => import("@/blocks/gallery/carousel-scale-focus"),
+  "carousel-sidebar-resources": () => import("@/blocks/gallery/carousel-sidebar-resources"),
+  "carousel-tabs-content": () => import("@/blocks/gallery/carousel-tabs-content"),
+  "expandable-case-study-cards": () => import("@/blocks/gallery/expandable-case-study-cards"),
+  "interior-carousel": () => import("@/blocks/gallery/interior-carousel"),
+  "masonry-motion-grid": () => import("@/blocks/gallery/masonry-motion-grid"),
+  "service-hover-carousel": () => import("@/blocks/gallery/service-hover-carousel"),
+  "testimonial-carousel-cards": () => import("@/blocks/gallery/testimonial-carousel-cards"),
+
+  // NavBar blocks
+  "navbar-animated-preview": () =>
+    import("@/blocks/navbars/navbar-animated-preview"),
+  "navbar-centered-menu": () =>
+    import("@/blocks/navbars/navbar-centered-menu"),
+  "navbar-dark-icons": () =>
+    import("@/blocks/navbars/navbar-dark-icons"),
+  "navbar-dropdown-menu": () =>
+    import("@/blocks/navbars/navbar-dropdown-menu"),
+  "navbar-education-platform": () =>
+    import("@/blocks/navbars/navbar-education-platform"),
+  "navbar-enterprise-mega": () =>
+    import("@/blocks/navbars/navbar-enterprise-mega"),
+  "navbar-feature-grid": () =>
+    import("@/blocks/navbars/navbar-feature-grid"),
+  "navbar-floating-pill": () =>
+    import("@/blocks/navbars/navbar-floating-pill"),
+  "navbar-fullscreen-menu": () =>
+    import("@/blocks/navbars/navbar-fullscreen-menu"),
+  "navbar-icon-links": () =>
+    import("@/blocks/navbars/navbar-icon-links"),
+  "navbar-image-preview": () =>
+    import("@/blocks/navbars/navbar-image-preview"),
+  "navbar-mega-menu": () =>
+    import("@/blocks/navbars/navbar-mega-menu"),
+  "navbar-multi-column-groups": () =>
+    import("@/blocks/navbars/navbar-multi-column-groups"),
+  "navbar-platform-resources": () =>
+    import("@/blocks/navbars/navbar-platform-resources"),
+  "navbar-search-focused": () =>
+    import("@/blocks/navbars/navbar-search-focused"),
+  "navbar-sidebar-mobile": () =>
+    import("@/blocks/navbars/navbar-sidebar-mobile"),
+  "navbar-simple-links": () =>
+    import("@/blocks/navbars/navbar-simple-links"),
+  "navbar-split-cta": () =>
+    import("@/blocks/navbars/navbar-split-cta"),
+  "navbar-sticky-compact": () =>
+    import("@/blocks/navbars/navbar-sticky-compact"),
+  "navbar-tabbed-sections": () =>
+    import("@/blocks/navbars/navbar-tabbed-sections"),
+  "navbar-transparent-overlay": () =>
+    import("@/blocks/navbars/navbar-transparent-overlay"),
 };
 
 export const componentRegistry = Object.fromEntries(

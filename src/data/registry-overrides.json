@@ -2183,6 +2183,342 @@
       "preview": "",
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-sticky-steps"
+    },
+    "link-page-bento-layout": {
+      "title": "Link Page Bento Layout",
+      "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-bento-layout"
+    },
+    "link-page-grid-cards": {
+      "title": "Link Page Grid Cards",
+      "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-grid-cards"
+    },
+    "link-page-minimal-profile": {
+      "title": "Link Page Minimal Profile",
+      "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-minimal-profile"
+    },
+    "link-page-newsletter-social": {
+      "title": "Link Page Newsletter Social",
+      "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-newsletter-social"
+    },
+    "link-tree-block": {
+      "title": "Link Tree Block",
+      "componentPath": "blocks/link-page/link-tree-block.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-tree-block"
+    },
+    "navbar-animated-preview": {
+      "title": "NavBar Animated Preview",
+      "componentPath": "blocks/navbars/navbar-animated-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-animated-preview"
+    },
+    "navbar-centered-menu": {
+      "title": "NavBar Centered Menu",
+      "componentPath": "blocks/navbars/navbar-centered-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-centered-menu"
+    },
+    "navbar-dark-icons": {
+      "title": "NavBar Dark Icons",
+      "componentPath": "blocks/navbars/navbar-dark-icons.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-dark-icons"
+    },
+    "navbar-dropdown-menu": {
+      "title": "NavBar Dropdown Menu",
+      "componentPath": "blocks/navbars/navbar-dropdown-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-dropdown-menu"
+    },
+    "navbar-education-platform": {
+      "title": "NavBar Education Platform",
+      "componentPath": "blocks/navbars/navbar-education-platform.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-education-platform"
+    },
+    "navbar-enterprise-mega": {
+      "title": "NavBar Enterprise Mega",
+      "componentPath": "blocks/navbars/navbar-enterprise-mega.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-enterprise-mega"
+    },
+    "navbar-feature-grid": {
+      "title": "NavBar Feature Grid",
+      "componentPath": "blocks/navbars/navbar-feature-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-feature-grid"
+    },
+    "navbar-floating-pill": {
+      "title": "NavBar Floating Pill",
+      "componentPath": "blocks/navbars/navbar-floating-pill.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-floating-pill"
+    },
+    "navbar-fullscreen-menu": {
+      "title": "NavBar Fullscreen Menu",
+      "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-fullscreen-menu"
+    },
+    "navbar-icon-links": {
+      "title": "NavBar Icon Links",
+      "componentPath": "blocks/navbars/navbar-icon-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-icon-links"
+    },
+    "navbar-image-preview": {
+      "title": "NavBar Image Preview",
+      "componentPath": "blocks/navbars/navbar-image-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-image-preview"
+    },
+    "navbar-mega-menu": {
+      "title": "NavBar Mega Menu",
+      "componentPath": "blocks/navbars/navbar-mega-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-mega-menu"
+    },
+    "navbar-multi-column-groups": {
+      "title": "NavBar Multi Column Groups",
+      "componentPath": "blocks/navbars/navbar-multi-column-groups.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-multi-column-groups"
+    },
+    "navbar-platform-resources": {
+      "title": "NavBar Platform Resources",
+      "componentPath": "blocks/navbars/navbar-platform-resources.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-platform-resources"
+    },
+    "navbar-search-focused": {
+      "title": "NavBar Search Focused",
+      "componentPath": "blocks/navbars/navbar-search-focused.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-search-focused"
+    },
+    "navbar-sidebar-mobile": {
+      "title": "NavBar Sidebar Mobile",
+      "componentPath": "blocks/navbars/navbar-sidebar-mobile.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-sidebar-mobile"
+    },
+    "navbar-simple-links": {
+      "title": "NavBar Simple Links",
+      "componentPath": "blocks/navbars/navbar-simple-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-simple-links"
+    },
+    "navbar-split-cta": {
+      "title": "NavBar Split CTA",
+      "componentPath": "blocks/navbars/navbar-split-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-split-cta"
+    },
+    "navbar-sticky-compact": {
+      "title": "NavBar Sticky Compact",
+      "componentPath": "blocks/navbars/navbar-sticky-compact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-sticky-compact"
+    },
+    "navbar-tabbed-sections": {
+      "title": "NavBar Tabbed Sections",
+      "componentPath": "blocks/navbars/navbar-tabbed-sections.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-tabbed-sections"
+    },
+    "navbar-transparent-overlay": {
+      "title": "NavBar Transparent Overlay",
+      "componentPath": "blocks/navbars/navbar-transparent-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-transparent-overlay"
+    },
+    "auto-scroll-carousel": {
+      "title": "Auto Scroll Carousel",
+      "componentPath": "blocks/gallery/auto-scroll-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/auto-scroll-carousel"
+    },
+    "blur-vignette-grid": {
+      "title": "Blur Vignette Grid",
+      "componentPath": "blocks/gallery/blur-vignette-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/blur-vignette-grid"
+    },
+    "carousel-badge-cards": {
+      "title": "Carousel Badge Cards",
+      "componentPath": "blocks/gallery/carousel-badge-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-badge-cards"
+    },
+    "carousel-demo-link": {
+      "title": "Carousel Demo Link",
+      "componentPath": "blocks/gallery/carousel-demo-link.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-demo-link"
+    },
+    "carousel-gradient-overlay": {
+      "title": "Carousel Gradient Overlay",
+      "componentPath": "blocks/gallery/carousel-gradient-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-gradient-overlay"
+    },
+    "carousel-gradient-text": {
+      "title": "Carousel Gradient Text",
+      "componentPath": "blocks/gallery/carousel-gradient-text.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-gradient-text"
+    },
+    "carousel-icon-sidebar": {
+      "title": "Carousel Icon Sidebar",
+      "componentPath": "blocks/gallery/carousel-icon-sidebar.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-icon-sidebar"
+    },
+    "carousel-icon-tabs": {
+      "title": "Carousel Icon Tabs",
+      "componentPath": "blocks/gallery/carousel-icon-tabs.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-icon-tabs"
+    },
+    "carousel-scale-focus": {
+      "title": "Carousel Scale Focus",
+      "componentPath": "blocks/gallery/carousel-scale-focus.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-scale-focus"
+    },
+    "carousel-sidebar-resources": {
+      "title": "Carousel Sidebar Resources",
+      "componentPath": "blocks/gallery/carousel-sidebar-resources.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-sidebar-resources"
+    },
+    "carousel-tabs-content": {
+      "title": "Carousel Tabs Content",
+      "componentPath": "blocks/gallery/carousel-tabs-content.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-tabs-content"
+    },
+    "expandable-case-study-cards": {
+      "title": "Expandable Case Study Cards",
+      "componentPath": "blocks/gallery/expandable-case-study-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/expandable-case-study-cards"
+    },
+    "interior-carousel": {
+      "title": "Interior Carousel",
+      "componentPath": "blocks/gallery/interior-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/interior-carousel"
+    },
+    "masonry-motion-grid": {
+      "title": "Masonry Motion Grid",
+      "componentPath": "blocks/gallery/masonry-motion-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/masonry-motion-grid"
+    },
+    "service-hover-carousel": {
+      "title": "Service Hover Carousel",
+      "componentPath": "blocks/gallery/service-hover-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/service-hover-carousel"
+    },
+    "testimonial-carousel-cards": {
+      "title": "Testimonial Carousel Cards",
+      "componentPath": "blocks/gallery/testimonial-carousel-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/testimonial-carousel-cards"
     }
   }
 }
