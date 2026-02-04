@@ -13,7 +13,8 @@ export default function Demo() {
         {
           id: "1",
           title: "AI-Powered Analytics",
-          summary: "Transform your data into actionable insights with our advanced machine learning platform. Real-time processing and predictive analytics.",
+          summary:
+            "Transform your data into actionable insights with our advanced machine learning platform. Real-time processing and predictive analytics.",
           url: "/solutions/analytics",
           image: imagePlaceholders[30],
           imageAlt: "Analytics platform interface",
@@ -21,7 +22,8 @@ export default function Demo() {
         {
           id: "2",
           title: "Cloud Infrastructure",
-          summary: "Scalable, secure, and reliable cloud infrastructure designed for enterprise workloads. Auto-scaling and 99.99% uptime SLA.",
+          summary:
+            "Scalable, secure, and reliable cloud infrastructure designed for enterprise workloads. Auto-scaling and 99.99% uptime SLA.",
           url: "/solutions/cloud",
           image: imagePlaceholders[31],
           imageAlt: "Cloud infrastructure dashboard",
@@ -29,7 +31,8 @@ export default function Demo() {
         {
           id: "3",
           title: "Security Suite",
-          summary: "Comprehensive security platform with real-time threat detection, compliance management, and zero-trust architecture.",
+          summary:
+            "Comprehensive security platform with real-time threat detection, compliance management, and zero-trust architecture.",
           url: "/solutions/security",
           image: imagePlaceholders[32],
           imageAlt: "Security monitoring dashboard",
@@ -37,7 +40,8 @@ export default function Demo() {
         {
           id: "4",
           title: "Data Integration",
-          summary: "Seamlessly connect all your data sources with our universal integration platform. Support for 200+ enterprise applications.",
+          summary:
+            "Seamlessly connect all your data sources with our universal integration platform. Support for 200+ enterprise applications.",
           url: "/solutions/integration",
           image: imagePlaceholders[33],
           imageAlt: "Data integration workflow",
@@ -45,7 +49,8 @@ export default function Demo() {
         {
           id: "5",
           title: "Business Intelligence",
-          summary: "Interactive dashboards and real-time reporting tools that empower data-driven decision making across your organization.",
+          summary:
+            "Interactive dashboards and real-time reporting tools that empower data-driven decision making across your organization.",
           url: "/solutions/bi",
           image: imagePlaceholders[34],
           imageAlt: "Business intelligence dashboard",
@@ -53,7 +58,8 @@ export default function Demo() {
       ]}
       readMoreText="Learn more"
       background="white"
-      spacing="section"
+      spacing="lg"
+      pattern="p6"
     />
   );
 }

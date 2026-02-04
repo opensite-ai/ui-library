@@ -24,7 +24,9 @@ export default function Demo() {
       gridColumns={5}
       gridGap="gap-4"
       background="white"
-      spacing="section"
+      spacing="lg"
+      pattern="gridFadeTopRight"
+      patternOpacity={0.8}
     />
   );
 }

@@ -10,61 +10,63 @@ export default function Demo() {
           id: "1",
           title: "Web Development",
           price: "$5,000",
-          image: imagePlaceholders[130],
+          image: imagePlaceholders[30],
           imageAlt: "Web development service",
-          hoverImage: imagePlaceholders[131],
+          hoverImage: imagePlaceholders[11],
           hoverImageAlt: "Web development in action",
           tag: "Popular",
-          href: "/services/web-development",
+          href: "#",
         },
         {
           id: "2",
           title: "Mobile App Design",
           price: "$7,500",
-          image: imagePlaceholders[132],
+          image: imagePlaceholders[32],
           imageAlt: "Mobile app design service",
-          hoverImage: imagePlaceholders[133],
+          hoverImage: imagePlaceholders[33],
           hoverImageAlt: "Mobile app design process",
           tag: "Trending",
-          href: "/services/mobile-app-design",
+          href: "#",
         },
         {
           id: "3",
           title: "Cloud Infrastructure",
           price: "$10,000",
-          image: imagePlaceholders[134],
+          image: imagePlaceholders[34],
           imageAlt: "Cloud infrastructure service",
-          hoverImage: imagePlaceholders[135],
+          hoverImage: imagePlaceholders[35],
           hoverImageAlt: "Cloud infrastructure setup",
           tag: "Enterprise",
-          href: "/services/cloud-infrastructure",
+          href: "#",
         },
         {
           id: "4",
           title: "AI Integration",
           price: "$15,000",
-          image: imagePlaceholders[136],
+          image: imagePlaceholders[36],
           imageAlt: "AI integration service",
-          hoverImage: imagePlaceholders[137],
+          hoverImage: imagePlaceholders[37],
           hoverImageAlt: "AI integration implementation",
           tag: "New",
-          href: "/services/ai-integration",
+          href: "#",
         },
         {
           id: "5",
           title: "Security Audit",
           price: "$8,000",
-          image: imagePlaceholders[138],
+          image: imagePlaceholders[38],
           imageAlt: "Security audit service",
-          hoverImage: imagePlaceholders[139],
+          hoverImage: imagePlaceholders[39],
           hoverImageAlt: "Security audit process",
           tag: "Essential",
-          href: "/services/security-audit",
+          href: "#",
         },
       ]}
       pricePrefix="Starting at"
-      background="white"
-      spacing="section"
+      background="dark"
+      spacing="py-6 md:py-40"
+      pattern="architect"
+      patternOpacity={1}
     />
   );
 }

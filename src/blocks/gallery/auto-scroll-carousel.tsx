@@ -8,7 +8,7 @@ export default function Demo() {
       description="Our team of data scientists and AI engineers transform complex datasets into actionable insights that drive business growth and innovation."
       action={{
         label: "Explore our solutions",
-        href: "/solutions",
+        href: "#",
       }}
       images={[
         { src: imagePlaceholders[0], alt: "Team collaboration" },
@@ -24,9 +24,11 @@ export default function Demo() {
         { src: imagePlaceholders[10], alt: "Creative workspace" },
         { src: imagePlaceholders[11], alt: "Team collaboration" },
       ]}
-      autoScrollSpeed={0.9}
-      background="white"
-      spacing="section"
+      autoScrollSpeed={0.5}
+      background="gray"
+      spacing="pt-6 pb-20 md:pt-32 md:pb-32"
+      pattern="gridDotsBasic"
+      patternOpacity={1}
     />
   );
 }

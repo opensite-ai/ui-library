@@ -4,6 +4,8 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <CarouselScaleFocus
+      title="Architectural Highlights"
+      description="A curated selection of stunning architectural designs that showcase innovation, creativity, and functionality in modern construction."
       images={[
         {
           src: imagePlaceholders[80],
@@ -35,8 +37,10 @@ export default function Demo() {
         },
       ]}
       startIndex={1}
-      background="white"
-      spacing="section"
+      background="dark"
+      spacing="xl"
+      pattern="dashedGridBasic"
+      patternOpacity={0.15}
     />
   );
 }

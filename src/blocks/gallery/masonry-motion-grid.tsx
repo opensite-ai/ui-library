@@ -4,6 +4,8 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <MasonryMotionGrid
+      title="Media Gallery"
+      description="Explore our media gallery featuring a collection of stunning images arranged in a visually engaging layout. Each image is thoughtfully placed to create a harmonious balance of aesthetics and motion."
       column1Images={[
         {
           src: imagePlaceholders[0],
@@ -75,8 +77,10 @@ export default function Demo() {
       animationDuration={0.5}
       animationDelayMultiplier={0.1}
       showDuplicateGrid={true}
-      background="white"
-      spacing="section"
+      background="dark"
+      spacing="xl"
+      pattern="gridDotsBasic"
+      patternOpacity={0.2}
     />
   );
 }

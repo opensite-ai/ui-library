@@ -51,8 +51,10 @@ export default function Demo() {
       ]}
       viewAllText="View all resources"
       viewAllHref="/resources"
-      background="white"
-      spacing="section"
+      background="gray"
+      spacing="xl"
+      pattern="gridFadeBottomRight"
+      patternOpacity={0.6}
     />
   );
 }

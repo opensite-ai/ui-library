@@ -17,8 +17,10 @@ export default function Demo() {
         imagePlaceholders[127],
       ]}
       loop={true}
-      background="white"
-      spacing="section"
+      background="gray"
+      spacing="pt-10 pb-20 md:pt-32 md:pb-32"
+      pattern="gridFadeTop"
+      patternOpacity={1}
     />
   );
 }

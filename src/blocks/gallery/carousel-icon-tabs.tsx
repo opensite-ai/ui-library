@@ -44,7 +44,9 @@ export default function Demo() {
         },
       ]}
       background="white"
-      spacing="section"
+      spacing="lg"
+      pattern="gridFadeBottomLeft"
+      patternOpacity={0.7}
     />
   );
 }
