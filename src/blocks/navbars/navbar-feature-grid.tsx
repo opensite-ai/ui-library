@@ -42,12 +42,13 @@ export default function Demo() {
           href: "#",
         },
       ]}
+      menu={[
+        { title: "Products", url: "#products" },
+        { title: "Resources", url: "#resources" },
+        { title: "Pricing", url: "#pricing" },
+        { title: "Contact", url: "#contact" },
+      ]}
       authActions={[
-        {
-          label: "Log In",
-          variant: "ghost",
-          href: "#",
-        },
         {
           label: "Try It Free",
           variant: "default",

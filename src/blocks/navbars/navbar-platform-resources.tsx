@@ -43,33 +43,41 @@ export default function Demo() {
         },
         {
           label: "Resources",
-          layout: "multi-section",
-          dropdownGroups: [
+          layout: "simple-list",
+          links: [
             {
-              label: "Documentation",
-              links: [
-                { label: "Getting Started", url: "#" },
-                { label: "API Reference", url: "#" },
-                { label: "Tutorials", url: "#" },
-              ],
+              label: "Getting Started",
+              description: "Learn the basics",
+              url: "#",
+              iconName: "lucide/book-open",
             },
             {
-              label: "Community",
-              links: [
-                { label: "Forum", url: "#" },
-                { label: "Discord", url: "#" },
-                { label: "GitHub", url: "#" },
-              ],
+              label: "API Reference",
+              description: "Complete API documentation",
+              url: "#",
+              iconName: "lucide/file-code",
             },
             {
-              label: "Support",
-              links: [
-                { label: "Help Center", url: "#" },
-                { label: "Contact Us", url: "#" },
-                { label: "Status Page", url: "#" },
-              ],
+              label: "Tutorials",
+              description: "Step-by-step guides",
+              url: "#",
+              iconName: "lucide/graduation-cap",
+            },
+            {
+              label: "Help Center",
+              description: "Get support",
+              url: "#",
+              iconName: "lucide/life-buoy",
             },
           ],
+        },
+        {
+          label: "Pricing",
+          href: "#pricing",
+        },
+        {
+          label: "Company",
+          href: "#company",
         },
       ]}
       actions={[

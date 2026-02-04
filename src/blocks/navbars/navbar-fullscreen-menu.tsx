@@ -24,9 +24,17 @@ export default function Demo() {
         { label: "Contact", href: "#" },
       ]}
       socialLinks={[
-        { label: "Twitter", href: "https://twitter.com" },
-        { label: "Instagram", href: "https://instagram.com" },
-        { label: "LinkedIn", href: "https://linkedin.com" },
+        { platformName: "x", label: "twitter", href: "https://twitter.com" },
+        {
+          platformName: "instagram",
+          label: "instagram",
+          href: "https://instagram.com",
+        },
+        {
+          platformName: "linkedin",
+          label: "linkedin",
+          href: "https://linkedin.com",
+        },
       ]}
     />
   );

@@ -1,5 +1,5 @@
 import { NavbarEducationPlatform } from "@opensite/ui/blocks/navbars/navbar-education-platform";
-import { brandLogoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -9,6 +9,11 @@ export default function Demo() {
         src: brandLogoPlaceholders.black[0],
         title: "EduTech",
         alt: "EduTech Logo",
+      }}
+      featuredImage={{
+        src: imagePlaceholders[10],
+        alt: "Latest platform updates",
+        href: "#updates",
       }}
       features={[
         {
