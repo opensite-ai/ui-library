@@ -147,13 +147,14 @@ export function searchBlocks(query: string): Block[] {
 
   return blocks.filter((block) => {
     const titleMatch = block.title.toLowerCase().includes(lowerQuery);
+    const idMatch = block.id.toLowerCase().includes(lowerQuery);
     const descMatch = block.description.toLowerCase().includes(lowerQuery);
     const categoryMatch = block.category.toLowerCase().includes(lowerQuery);
     const tagsMatch = block.tags?.some((tag) =>
       tag.toLowerCase().includes(lowerQuery),
     );
 
-    return titleMatch || descMatch || categoryMatch || tagsMatch;
+    return titleMatch || idMatch || descMatch || categoryMatch || tagsMatch;
   });
 }
 
