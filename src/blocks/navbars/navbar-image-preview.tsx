@@ -1,9 +1,13 @@
 import { NavbarImagePreview } from "@opensite/ui/blocks/navbars/navbar-image-preview";
 import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarImagePreview
+    <>
+      <NavbarImagePreview
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -58,8 +62,14 @@ export default function Demo() {
           label: "Get a Quote",
           variant: "default",
           href: "#",
+          asButton: true,
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

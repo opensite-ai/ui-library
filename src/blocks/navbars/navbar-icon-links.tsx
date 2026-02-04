@@ -1,10 +1,14 @@
 import { NavbarIconLinks } from "@opensite/ui/blocks/navbars/navbar-icon-links";
 import { brandLogoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarIconLinks
+    <>
+      <NavbarIconLinks
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -52,6 +56,11 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/user" size={16} />,
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

@@ -1,9 +1,13 @@
 import { NavbarSplitCta } from "@opensite/ui/blocks/navbars/navbar-split-cta";
 import { brandLogoPlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarSplitCta
+    <>
+      <NavbarSplitCta
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -16,14 +20,25 @@ export default function Demo() {
         { title: "Pricing", url: "#" },
         { title: "Company", url: "#" },
       ]}
-      primaryCta={{
-        label: "Start Free Trial",
-        url: "#",
-      }}
-      secondaryCta={{
-        label: "Book a Demo",
-        url: "#",
-      }}
-    />
+      authActions={[
+        {
+          label: "Start Free Trial",
+          href: "#",
+          asButton: true,
+          variant: "link",
+        },
+        {
+          label: "Book a Demo",
+          href: "#",
+          asButton: true,
+          variant: "default",
+        },
+      ]}
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

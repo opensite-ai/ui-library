@@ -50,78 +50,90 @@ export default async function BlockPage({ params }: BlockPageProps) {
   }
 
   return (
-    <div className="container mx-auto px-4 py-12 space-y-8">
+    <div className="container mx-auto px-4 py-12 space-y-4">
       {/* Breadcrumb */}
-      <Breadcrumb
-        items={[
-          { label: "Home", href: "/" },
-          { label: block.category, href: `/categories/${block.categorySlug}` },
-          { label: block.title },
-        ]}
-      />
+      <div className="flex items-start justify-between gap-4">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            {
+              label: block.category,
+              href: `/categories/${block.categorySlug}`,
+            },
+            { label: block.title },
+          ]}
+        />
 
-      {/* Header */}
-      <div className="space-y-4">
-        <div className="flex items-start justify-between gap-4">
-          <div className="space-y-2">
-            <h1 className="text-xl font-bold">{block.title}</h1>
-            <p className="text-xl text-muted-foreground">{block.description}</p>
-          </div>
-          <Pressable
-            href={`/api/blocks/${encodeBlockId(block.id)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            componentType="button"
-            variant="default"
-            color="primary"
-            className=""
-            size="lg"
-          >
-            View API
-            <DynamicIcon className="" name="mynaui/api-solid" />
-          </Pressable>
-        </div>
-
-        {/* Metadata */}
-        <div className="flex flex-wrap gap-4 text-sm">
-          {block.tags?.map((tag) => (
-            <span
-              key={tag}
-              className="inline-flex items-center rounded-md bg-accent/10 px-3 py-1 text-accent font-light"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
+        <Pressable
+          href={`/api/blocks/${encodeBlockId(block.id)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          componentType="button"
+          variant="default"
+          color="primary"
+          className=""
+          size="lg"
+        >
+          View API
+          <DynamicIcon className="" name="mynaui/api-solid" />
+        </Pressable>
       </div>
 
       {/* Tabs */}
       <BlockDetailTabs block={block} />
 
-      {/* Performance Info */}
-      {block.performance && (
-        <div className="mt-8 p-6 rounded-lg bg-muted/30 border border-border">
-          <h3 className="text-lg font-semibold mb-4">Performance Metrics</h3>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {block.performance.bundleSize && (
-              <div>
-                <div className="text-sm text-muted-foreground">Bundle Size</div>
-                <div className="text-xl font-semibold">
-                  {block.performance.bundleSize}
-                </div>
-              </div>
-            )}
-            {block.performance.renderTime && (
-              <div>
-                <div className="text-sm text-muted-foreground">Render Time</div>
-                <div className="text-xl font-semibold">
-                  {block.performance.renderTime}
-                </div>
-              </div>
-            )}
+      <div className="mt-8 p-6 rounded-lg bg-muted/30 border border-border space-y-6">
+        <div>
+          <h3 className="text-lg font-semibold mb-2">Block Summary</h3>
+          <p className="text-xl text-muted-foreground">{block.description}</p>
+        </div>
+
+        {/* Metadata */}
+        <div>
+          <h3 className="text-lg font-semibold mb-2">Tags</h3>
+          <div className="flex flex-wrap gap-4 text-sm">
+            {block.tags?.map((tag) => (
+              <span
+                key={tag}
+                className="inline-flex items-center rounded-md bg-accent/10 px-3 py-1 text-accent font-light"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
-      )}
+
+        {block.performance?.bundleSize ||
+          (block.performance?.renderTime && (
+            <div>
+              <h3 className="text-lg font-semibold mb-2">
+                Performance Metrics
+              </h3>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {block.performance.bundleSize && (
+                  <div>
+                    <div className="text-sm text-muted-foreground">
+                      Bundle Size
+                    </div>
+                    <div className="text-xl font-semibold">
+                      {block.performance.bundleSize}
+                    </div>
+                  </div>
+                )}
+                {block.performance.renderTime && (
+                  <div>
+                    <div className="text-sm text-muted-foreground">
+                      Render Time
+                    </div>
+                    <div className="text-xl font-semibold">
+                      {block.performance.renderTime}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+      </div>
     </div>
   );
 }

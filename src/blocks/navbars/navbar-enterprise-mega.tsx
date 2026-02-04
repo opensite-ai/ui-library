@@ -1,9 +1,12 @@
 import { NavbarEnterpriseMega } from "@opensite/ui/blocks/navbars/navbar-enterprise-mega";
 import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <div className="min-h-screen">
+    <>
       <NavbarEnterpriseMega
         background="white"
         spacing="none"
@@ -239,12 +242,10 @@ export default function Demo() {
           },
         ]}
       />
-      <div className="pt-20 px-8">
-        <h2 className="text-2xl font-bold mt-8">Content Below Navbar</h2>
-        <p className="text-muted-foreground">
-          This content appears below the fixed navbar.
-        </p>
-      </div>
-    </div>
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

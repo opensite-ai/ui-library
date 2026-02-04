@@ -1,9 +1,13 @@
 import { NavbarMegaMenu } from "@opensite/ui/blocks/navbars/navbar-mega-menu";
 import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarMegaMenu
+    <>
+      <NavbarMegaMenu
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -110,6 +114,11 @@ export default function Demo() {
           href: "#",
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

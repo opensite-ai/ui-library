@@ -1,9 +1,13 @@
 import { NavbarMultiColumnGroups } from "@opensite/ui/blocks/navbars/navbar-multi-column-groups";
 import { brandLogoPlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarMultiColumnGroups
+    <>
+      <NavbarMultiColumnGroups
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -96,16 +100,23 @@ export default function Demo() {
       ]}
       authActions={[
         {
-          label: "Sign In",
-          variant: "ghost",
+          label: "Login",
+          variant: "link",
+          asButton: true,
           href: "#",
         },
         {
-          label: "Start Free Trial",
+          label: "Get Started",
           variant: "default",
           href: "#",
+          asButton: true,
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

@@ -1,9 +1,13 @@
 import { NavbarSidebarMobile } from "@opensite/ui/blocks/navbars/navbar-sidebar-mobile";
 import { brandLogoPlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarSidebarMobile
+    <>
+      <NavbarSidebarMobile
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -18,17 +22,17 @@ export default function Demo() {
         {
           title: "Projects",
           items: [
-            { title: "All Projects", url: "#" },
-            { title: "Recent", url: "#" },
-            { title: "Favorites", url: "#" },
+            { title: "All Projects", url: "#", icon: "lucide/package" },
+            { title: "Recent", url: "#", icon: "lucide/code-2" },
+            { title: "Favorites", url: "#", icon: "lucide/file-text" },
           ],
         },
         {
           title: "Team",
           items: [
-            { title: "Members", url: "#" },
-            { title: "Invitations", url: "#" },
-            { title: "Settings", url: "#" },
+            { title: "Members", url: "#", icon: "lucide/users" },
+            { title: "Invitations", url: "#", icon: "lucide/mail" },
+            { title: "Settings", url: "#", icon: "lucide/settings" },
           ],
         },
         {
@@ -38,9 +42,9 @@ export default function Demo() {
         {
           title: "Settings",
           items: [
-            { title: "Profile", url: "#" },
-            { title: "Billing", url: "#" },
-            { title: "Preferences", url: "#" },
+            { title: "Profile", url: "#", icon: "lucide/user" },
+            { title: "Billing", url: "#", icon: "lucide/credit-card" },
+            { title: "Preferences", url: "#", icon: "lucide/sliders" },
           ],
         },
       ]}
@@ -51,6 +55,11 @@ export default function Demo() {
           href: "#",
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }

@@ -1,9 +1,13 @@
 import { NavbarStickyCompact } from "@opensite/ui/blocks/navbars/navbar-sticky-compact";
 import { brandLogoPlaceholders } from "@/lib/media";
+import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
+import FeatureShowcase from "@/blocks/features/feature-showcase";
+import FaqSplitHelp from "@/blocks/faq/faq-split-help";
 
 export default function Demo() {
   return (
-    <NavbarStickyCompact
+    <>
+      <NavbarStickyCompact
       logo={{
         url: "/",
         src: brandLogoPlaceholders.black[0],
@@ -18,18 +22,18 @@ export default function Demo() {
       ]}
       authActions={[
         {
-          label: "Login",
-          variant: "ghost",
-          size: "sm",
-          href: "#",
-        },
-        {
           label: "Sign Up",
-          variant: "default",
-          size: "sm",
+          variant: "outline",
           href: "#",
+          asButton: true,
+          size: "sm",
         },
       ]}
-    />
+      />
+
+      <CarouselAnimatedSections />
+      <FeatureShowcase />
+      <FaqSplitHelp />
+    </>
   );
 }
