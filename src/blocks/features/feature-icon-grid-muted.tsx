@@ -32,13 +32,17 @@ export default function Demo() {
         },
         {
           iconName: "lucide/bell",
-          title: "Smart Notifications",
+          title: "Highlight a Feature",
           description:
             "Intelligent alerts that surface what matters most and reduce notification fatigue.",
+          className: "col-span-1 md:col-span-2 bg-black text-white",
+          titleClassName: "text-white",
         },
       ]}
       spacing="xl"
       background="muted"
+      pattern="grid1"
+      patternOpacity={1}
     />
   );
 }

@@ -49,9 +49,9 @@ export default function Demo() {
         },
       ]}
       background="gray"
-      spacing="lg"
+      spacing="py-8 md:py-40"
       pattern="waves"
-      patternOpacity={0.1}
+      patternOpacity={0.04}
     />
   );
 }

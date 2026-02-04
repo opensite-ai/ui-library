@@ -4,12 +4,15 @@
  */
 
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export interface BreadcrumbItem {
-  label: string;
+  label: ReactNode;
   href?: string;
+  current?: boolean;
+  className?: string;
 }
 
 interface BreadcrumbProps {
@@ -18,6 +21,8 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumb({ items, className }: BreadcrumbProps) {
+  const hasExplicitCurrent = items.some((item) => item.current === true);
+
   return (
     <nav
       aria-label="Breadcrumb"
@@ -26,6 +31,16 @@ export function Breadcrumb({ items, className }: BreadcrumbProps) {
       <ol className="flex items-center gap-2">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
+          const isCurrent =
+            item.current ?? (!hasExplicitCurrent && index === items.length - 1);
+          const linkClassName = cn(
+            "text-muted-foreground hover:text-foreground transition-colors",
+            item.className,
+          );
+          const textClassName = cn(
+            isCurrent ? "text-foreground font-medium" : "text-muted-foreground",
+            item.className,
+          );
 
           return (
             <li key={index} className="flex items-center gap-2">
@@ -33,21 +48,14 @@ export function Breadcrumb({ items, className }: BreadcrumbProps) {
                 <ChevronRight className="h-4 w-4 text-muted-foreground" />
               )}
 
-              {item.href && !isLast ? (
-                <Link
-                  href={item.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
+              {item.href && !isCurrent ? (
+                <Link href={item.href} className={linkClassName}>
                   {item.label}
                 </Link>
               ) : (
                 <span
-                  className={cn(
-                    isLast
-                      ? "text-foreground font-medium"
-                      : "text-muted-foreground"
-                  )}
-                  aria-current={isLast ? "page" : undefined}
+                  className={textClassName}
+                  aria-current={isCurrent ? "page" : undefined}
                 >
                   {item.label}
                 </span>

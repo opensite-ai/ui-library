@@ -46,10 +46,11 @@ export default function Demo() {
       ]}
       action={{
         label: "Explore All Features",
-        href: "/features",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
+      background="white"
       spacing="xl"
     />
   );

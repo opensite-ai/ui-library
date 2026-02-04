@@ -13,7 +13,7 @@ export default function Demo() {
           title: "Slack",
           description:
             "Get real-time notifications and updates directly in your Slack channels.",
-          link: "/integrations/slack",
+          link: "#",
           linkLabel: "Connect Slack",
         },
         {
@@ -22,7 +22,7 @@ export default function Demo() {
           title: "GitHub",
           description:
             "Sync your repositories and automate workflows with GitHub Actions.",
-          link: "/integrations/github",
+          link: "#",
           linkLabel: "Connect GitHub",
         },
         {
@@ -31,7 +31,7 @@ export default function Demo() {
           title: "Google Workspace",
           description:
             "Integrate with Gmail, Calendar, and Drive for seamless productivity.",
-          link: "/integrations/google",
+          link: "#",
           linkLabel: "Connect Google",
         },
         {
@@ -40,7 +40,7 @@ export default function Demo() {
           title: "Salesforce",
           description:
             "Sync customer data and automate your sales workflow end-to-end.",
-          link: "/integrations/salesforce",
+          link: "#",
           linkLabel: "Connect Salesforce",
         },
         {
@@ -49,7 +49,7 @@ export default function Demo() {
           title: "Stripe",
           description:
             "Process payments and manage subscriptions with our Stripe integration.",
-          link: "/integrations/stripe",
+          link: "#",
           linkLabel: "Connect Stripe",
         },
         {
@@ -58,11 +58,14 @@ export default function Demo() {
           title: "Zapier",
           description:
             "Automate workflows by connecting to 5,000+ apps through Zapier.",
-          link: "/integrations/zapier",
+          link: "#",
           linkLabel: "Connect Zapier",
         },
       ]}
+      background="dark"
       spacing="xl"
+      pattern="circuitBoardBasic"
+      patternOpacity={0.3}
     />
   );
 }

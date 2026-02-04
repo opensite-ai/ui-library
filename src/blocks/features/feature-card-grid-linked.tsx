@@ -5,6 +5,7 @@ export default function Demo() {
   return (
     <FeatureCardGridLinked
       title="Explore Our Solutions"
+      description="Discover tailored solutions designed to meet the unique needs of different industries and user groups. Whether you're an enterprise, developer, startup, or looking to optimize your content with AEO, we have the right tools and services for you."
       pattern="circles"
       patternOpacity={0.42}
       background="muted"

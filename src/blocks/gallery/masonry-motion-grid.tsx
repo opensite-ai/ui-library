@@ -78,7 +78,7 @@ export default function Demo() {
       animationDelayMultiplier={0.1}
       showDuplicateGrid={true}
       background="dark"
-      spacing="xl"
+      spacing="py-12 md:py-40"
       pattern="gridDotsBasic"
       patternOpacity={0.2}
     />

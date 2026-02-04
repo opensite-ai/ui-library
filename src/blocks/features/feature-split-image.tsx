@@ -12,17 +12,20 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Components",
-          href: "/components",
+          href: "#",
           variant: "outline",
         },
       ]}
+      background="white"
       spacing="xl"
+      pattern="gridFadeTopLeft"
+      patternOpacity={0.6}
     />
   );
 }

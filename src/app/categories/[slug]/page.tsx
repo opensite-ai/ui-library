@@ -79,7 +79,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       {/* Blocks Grid */}
       {blocks.length > 0 ? (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {blocks.map((block) => (
             <BlockCard key={block.id} block={block} />
           ))}

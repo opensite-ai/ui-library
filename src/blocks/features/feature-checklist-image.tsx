@@ -12,13 +12,13 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Schedule Demo",
-          href: "/demo",
+          href: "#",
           variant: "outline",
         },
       ]}
@@ -26,11 +26,11 @@ export default function Demo() {
         "Zero-config deployment to global edge network",
         "Automatic SSL certificates and custom domains",
         "Built-in CI/CD with GitHub, GitLab, and Bitbucket",
-        "Real-time collaboration and preview environments",
-        "Enterprise-grade security and compliance",
-        "24/7 expert support with < 1 hour response time",
       ]}
-      spacing="xl"
+      spacing="py-6 md:py-32"
+      background="dark"
+      pattern="waves"
+      patternOpacity={0.4}
     />
   );
 }

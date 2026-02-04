@@ -25,7 +25,9 @@ export default function Demo() {
             "We hold ourselves to the highest standards and never settle for good enough.",
         },
       ]}
-      spacing="xl"
+      background="gray"
+      pattern="gridDotsBasic"
+      patternOpacity={1}
     />
   );
 }

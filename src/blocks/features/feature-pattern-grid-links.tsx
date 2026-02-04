@@ -9,7 +9,7 @@ export default function Demo() {
           title: "Component Library",
           description:
             "200+ production-ready components with full TypeScript support and documentation.",
-          link: "/components",
+          link: "#",
           linkLabel: "Browse Components",
         },
         {
@@ -17,7 +17,7 @@ export default function Demo() {
           title: "Design System",
           description:
             "Comprehensive design tokens, patterns, and guidelines for consistent UX.",
-          link: "/design-system",
+          link: "#",
           linkLabel: "View Design System",
         },
         {
@@ -25,7 +25,7 @@ export default function Demo() {
           title: "Documentation",
           description:
             "In-depth guides, tutorials, and API references to help you get started.",
-          link: "/docs",
+          link: "#",
           linkLabel: "Read the Docs",
         },
         {
@@ -33,12 +33,54 @@ export default function Demo() {
           title: "Community",
           description:
             "Join thousands of developers building amazing products with our platform.",
-          link: "/community",
+          link: "#",
           linkLabel: "Join Community",
         },
+        {
+          iconName: "lucide/layout-template",
+          title: "Templates",
+          description:
+            "Launch faster with pre-built templates for dashboards, marketing sites, and apps.",
+          link: "#",
+          linkLabel: "Browse Templates",
+        },
+        {
+          iconName: "lucide/plug",
+          title: "Integrations",
+          description:
+            "Connect your stack with first-class integrations for analytics, auth, and payments.",
+          link: "#",
+          linkLabel: "See Integrations",
+        },
+        {
+          iconName: "lucide/activity",
+          title: "Analytics",
+          description:
+            "Track adoption, performance, and engagement with real-time dashboards.",
+          link: "#",
+          linkLabel: "View Analytics",
+        },
+        {
+          iconName: "lucide/accessibility",
+          title: "Accessibility",
+          description:
+            "WCAG-aligned components with keyboard support, ARIA labels, and focus states.",
+          link: "#",
+          linkLabel: "Accessibility Guide",
+        },
+        {
+          iconName: "lucide/headset",
+          title: "Support",
+          description:
+            "Priority support, migration help, and best-practice reviews from our team.",
+          link: "#",
+          linkLabel: "Contact Support",
+        },
       ]}
+      background="white"
       spacing="xl"
       pattern="dots"
+      patternOpacity={0.7}
     />
   );
 }

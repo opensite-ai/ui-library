@@ -5,6 +5,8 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <FeatureIconTabsContent
+      heading="Key Features"
+      description="Discover the standout features that set our platform apart. From blazing-fast performance to enterprise-grade security, see how we deliver exceptional value to our users."
       tabs={[
         {
           value: "performance",
@@ -20,7 +22,7 @@ export default function Demo() {
             actions: [
               {
                 label: "View Benchmarks",
-                href: "/benchmarks",
+                href: "#",
                 variant: "default",
                 iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
               },
@@ -41,7 +43,7 @@ export default function Demo() {
             actions: [
               {
                 label: "Security Docs",
-                href: "/security",
+                href: "#",
                 variant: "default",
                 iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
               },
@@ -62,7 +64,7 @@ export default function Demo() {
             actions: [
               {
                 label: "Learn More",
-                href: "/scalability",
+                href: "#",
                 variant: "default",
                 iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
               },

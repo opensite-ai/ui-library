@@ -5,13 +5,14 @@ export default function Demo() {
     <FeatureCarouselProgress
       badge="Platform Features"
       title="Everything You Need in One Place"
-      carouselLabel="Explore Features"
+      description="Our platform offers a comprehensive suite of features designed to help you build, deploy, and scale modern applications with ease and confidence."
+      carouselLabel="Explore Our Features"
       slides={[
         {
           iconName: "lucide/code",
           title: "Modern Development",
           description:
-            "Built with the latest frameworks and tools. TypeScript, React, and Tailwind CSS come preconfigured for optimal developer experience.",
+            "Built with the latest frameworks and tools, updated regularly for features and security. TypeScript, React, and Tailwind CSS come preconfigured for optimal developer experience.",
         },
         {
           iconName: "lucide/rocket",
@@ -38,7 +39,7 @@ export default function Demo() {
             "Built-in tools for code review, project management, and team communication. Keep everyone aligned and productive.",
         },
       ]}
-      spacing="xl"
+      background="dark"
     />
   );
 }

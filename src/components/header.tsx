@@ -4,12 +4,20 @@
  */
 
 import Link from "next/link";
+import { Suspense } from "react";
 import { SearchBar } from "./search-bar";
 import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { Img } from "@page-speed/img";
 import { DynamicIcon } from "@opensite/ui";
 
 export function Header() {
+  const searchFallback = (
+    <div
+      className="h-[42px] w-full rounded-lg border border-border bg-muted/40"
+      aria-hidden="true"
+    />
+  );
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-muted shadow-xs bg-white backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto px-4">
@@ -28,7 +36,9 @@ export function Header() {
 
           {/* Search Bar - Desktop */}
           <div className="hidden md:block flex-1 max-w-md">
-            <SearchBar placeholder="Search library..." />
+            <Suspense fallback={searchFallback}>
+              <SearchBar placeholder="Search library..." />
+            </Suspense>
           </div>
 
           {/* Navigation Links */}
@@ -58,7 +68,9 @@ export function Header() {
 
         {/* Search Bar - Mobile */}
         <div className="md:hidden pb-4">
-          <SearchBar placeholder="Search blocks..." />
+          <Suspense fallback={searchFallback}>
+            <SearchBar placeholder="Search blocks..." />
+          </Suspense>
         </div>
       </div>
     </header>

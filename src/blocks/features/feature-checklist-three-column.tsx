@@ -30,7 +30,7 @@ export default function Demo() {
             "Touch-optimized for mobile devices",
             "Consistent experience across platforms",
           ],
-          link: "/features/responsive",
+          link: "#",
           linkLabel: "Learn more",
         },
         {
@@ -45,7 +45,7 @@ export default function Demo() {
             "Lighthouse score of 95+",
             "Optimized assets and images",
           ],
-          link: "/features/performance",
+          link: "#",
           linkLabel: "See benchmarks",
         },
         {
@@ -60,10 +60,11 @@ export default function Demo() {
             "Storybook documentation",
             "Copy-paste code examples",
           ],
-          link: "/features/dx",
+          link: "#",
           linkLabel: "Explore docs",
         },
       ]}
+      background="white"
       spacing="xl"
     />
   );

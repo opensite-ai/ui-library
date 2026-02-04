@@ -12,16 +12,17 @@ export default function Demo() {
       actions={[
         {
           label: "See Performance",
-          href: "/performance",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Pricing",
-          href: "/pricing",
+          href: "#",
           variant: "outline",
         },
       ]}
+      background="gray"
       spacing="xl"
     />
   );

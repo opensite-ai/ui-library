@@ -10,7 +10,7 @@ export default function Demo() {
       description="A comprehensive suite of tools designed to simplify your workflow and accelerate development."
       learnMoreAction={{
         label: "View All Tools",
-        href: "/tools",
+        href: "#",
         variant: "link",
       }}
       utilities={[
@@ -43,7 +43,10 @@ export default function Demo() {
           imageAlt: "Asset optimizer interface",
         },
       ]}
+      background="gray"
       spacing="xl"
+      pattern="waves"
+      patternOpacity={0.5}
     />
   );
 }

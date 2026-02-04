@@ -5,6 +5,10 @@ export default function Demo() {
   return (
     <FeatureBentoImageGrid
       title="Platform Features"
+      description="Discover the powerful capabilities that make our platform the choice of leading teams worldwide."
+      background="gray"
+      pattern="gridDotsBasic"
+      patternOpacity={0.4}
       items={[
         {
           iconName: "lucide/atom",

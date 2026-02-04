@@ -33,6 +33,7 @@ export default function Demo() {
           imageAlt: "API management",
         },
       ]}
+      background="dark"
       spacing="xl"
     />
   );

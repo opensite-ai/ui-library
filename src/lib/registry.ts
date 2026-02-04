@@ -97,8 +97,17 @@ export function getAllCategories(): Category[] {
   const blocks = getAllBlocks();
   const categoryMap = new Map<string, Category>();
 
+  const permanentSkip = new Set<string>(["background-pattern-hero"]);
+  const inProgressCategories = new Set<string>([
+    "industries",
+    "project-detail",
+  ]);
+
   blocks.forEach((block, index) => {
     const slug = block.categorySlug;
+    if (permanentSkip.has(slug) || inProgressCategories.has(slug)) {
+      return;
+    }
     if (!categoryMap.has(slug)) {
       categoryMap.set(slug, {
         slug,

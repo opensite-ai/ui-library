@@ -7,10 +7,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getBlockById } from "@/lib/registry";
 import { Breadcrumb } from "@/components/breadcrumb";
+import { BlockIdCopyHotkey } from "@/components/block-id-copy-hotkey";
+import { Badge } from "@/components/ui/badge";
 import { BlockDetailTabs } from "@/components/block-detail-tabs";
 import { openGraphImgUrl } from "@/lib/media";
 import { decodeBlockId, encodeBlockId } from "@/lib/utils";
 import { DynamicIcon, Pressable } from "@opensite/ui";
+import { Kbd, KbdKey } from "@/components/ui/kbd";
 
 interface BlockPageProps {
   params: Promise<{
@@ -60,7 +63,22 @@ export default async function BlockPage({ params }: BlockPageProps) {
               label: block.category,
               href: `/categories/${block.categorySlug}`,
             },
-            { label: block.title },
+            { label: block.title, current: true },
+            {
+              label: (
+                <div className="flex items-center gap-2">
+                  <div className="font-bold opacity-70 uppercase text-xs">
+                    Copy ID
+                  </div>
+                  <Kbd className="text-sm flex items-center px-3 py-1">
+                    <KbdKey>ctrl</KbdKey>
+                    <KbdKey>⌘</KbdKey>
+                    <KbdKey>c</KbdKey>
+                  </Kbd>
+                </div>
+              ),
+              current: false,
+            },
           ]}
         />
 
@@ -81,6 +99,7 @@ export default async function BlockPage({ params }: BlockPageProps) {
 
       {/* Tabs */}
       <BlockDetailTabs block={block} />
+      <BlockIdCopyHotkey blockId={id} />
 
       <div className="mt-8 p-6 rounded-lg bg-muted/30 border border-border space-y-6">
         <div>

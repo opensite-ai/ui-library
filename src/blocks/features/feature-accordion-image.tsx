@@ -37,7 +37,9 @@ export default function Demo() {
         },
       ]}
       defaultValue="item-0"
-      spacing="xl"
+      background="white"
+      pattern="gridFadeBottomLeft"
+      patternOpacity={1}
     />
   );
 }

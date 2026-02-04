@@ -6,8 +6,7 @@
 import Link from "next/link";
 import type { Category } from "@/types/blocks";
 import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
-import { Badge } from "@opensite/ui";
+import { Badge, DynamicIcon } from "@opensite/ui";
 
 interface CategoryGridProps {
   categories: Category[];
@@ -18,7 +17,7 @@ export function CategoryGrid({ categories, className }: CategoryGridProps) {
   return (
     <div
       className={cn(
-        "grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3",
+        "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
         className,
       )}
     >
@@ -35,16 +34,19 @@ export function CategoryGrid({ categories, className }: CategoryGridProps) {
           {/* Header */}
           <div className="flex items-start justify-between">
             <div className="flex flex-col gap-1">
-              <div className="text-xl font-semibold text-foreground group-hover:text-accent transition-colors">
+              <div className="text-md mb-2 font-semibold text-foreground group-hover:text-accent transition-colors">
                 {category.name}
               </div>
 
-              <Badge variant="default" className="rounded-md!">
+              <Badge variant="default" className="rounded-xl!">
                 {category.blockCount}{" "}
                 {category.blockCount === 1 ? "block" : "blocks"}
               </Badge>
             </div>
-            <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all" />
+            <DynamicIcon
+              name="lucide/arrow-up-right"
+              className="h-5 w-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all"
+            />
           </div>
         </Link>
       ))}

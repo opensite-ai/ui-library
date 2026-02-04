@@ -68,6 +68,10 @@ export default function Demo() {
           ),
         },
       ]}
+      background="white"
+      spacing="xl"
+      pattern="architect"
+      patternOpacity={0.8}
     />
   );
 }

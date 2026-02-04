@@ -63,7 +63,7 @@ export default function Demo() {
       background="dark"
       pattern="gridDotsBasic"
       patternOpacity={0.25}
-      spacing="py-6 md:py-40"
+      spacing="py-12 md:py-40"
     />
   );
 }

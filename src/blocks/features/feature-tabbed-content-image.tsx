@@ -5,6 +5,11 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <FeatureTabbedContentImage
+      title="Complete Development Platform"
+      description="From development to deployment and monitoring, everything you need to build and ship modern applications."
+      background="dark"
+      pattern="dashedGridFadeTop"
+      patternOpacity={0.2}
       slides={[
         {
           id: "development",
@@ -13,7 +18,7 @@ export default function Demo() {
           description:
             "Comprehensive development environment with everything you need to ship quality code quickly.",
           features: [
-            "Hot module replacement for instant feedback",
+            "Hot module replacement for instant feedback and everything you need to ship quality code quickly.",
             "Built-in TypeScript support and type checking",
             "Integrated testing framework with coverage reports",
             "Component library with 200+ pre-built blocks",
@@ -21,7 +26,7 @@ export default function Demo() {
           actions: [
             {
               label: "Start Building",
-              href: "/docs/getting-started",
+              href: "#",
               variant: "default",
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
@@ -44,7 +49,7 @@ export default function Demo() {
           actions: [
             {
               label: "View Deployment Guide",
-              href: "/docs/deployment",
+              href: "#",
               variant: "default",
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
@@ -67,7 +72,7 @@ export default function Demo() {
           actions: [
             {
               label: "Explore Monitoring",
-              href: "/features/monitoring",
+              href: "#",
               variant: "default",
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
@@ -77,7 +82,6 @@ export default function Demo() {
         },
       ]}
       defaultTab="development"
-      spacing="xl"
     />
   );
 }

@@ -31,6 +31,9 @@ export default function Demo() {
             "24/7 assistance from experienced developers who know your codebase.",
         },
       ]}
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={0.15}
+      background="dark"
     />
   );
 }

@@ -46,6 +46,7 @@ export default function Demo() {
           isDashed: true,
         },
       ]}
+      background="white"
       spacing="xl"
     />
   );
