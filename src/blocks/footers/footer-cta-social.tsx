@@ -32,8 +32,6 @@ export default function Demo() {
         },
       ]}
       copyright="© 2026 InnovateTech Solutions. All rights reserved worldwide."
-      attributionText="Website by OpenSite"
-      attributionHref="https://opensite.ai"
       patternOpacity={0.1}
     />
   );

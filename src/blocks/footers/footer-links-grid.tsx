@@ -54,8 +54,6 @@ export default function Demo() {
         },
       ]}
       copyright="TechSolutions Inc."
-      attributionText="Powered by OpenSite"
-      attributionHref="https://opensite.ai"
       bottomLinks={[
         { text: "Privacy Policy", url: "/privacy" },
         { text: "Terms of Service", url: "/terms" },

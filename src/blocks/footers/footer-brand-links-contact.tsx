@@ -69,8 +69,6 @@ export default function Demo() {
         { href: "https://instagram.com", label: "Instagram" },
       ]}
       copyright="© 2026 Modern Commerce Inc. All rights reserved."
-      attributionText="Powered by Opensite AI"
-      attributionHref="https://opensite.ai"
       legalLinks={[
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },

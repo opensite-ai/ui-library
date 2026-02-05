@@ -49,8 +49,6 @@ export default function Demo() {
       location="New York, NY"
       locationLabel="Proudly based in"
       copyright="© 2026 Stellar Design Agency. All rights reserved."
-      attributionText="Built with OpenSite"
-      attributionHref="https://opensite.ai"
       background="white"
       pattern="dashedGridFadeCenter"
       patternOpacity={1}

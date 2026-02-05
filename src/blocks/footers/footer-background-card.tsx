@@ -56,8 +56,6 @@ export default function Demo() {
         timezone: "PST (UTC-8)",
       }}
       copyright="© 2026 Your Agency. All rights reserved."
-      attributionText="Powered by Opensite AI"
-      attributionHref="https://opensite.ai"
       bottomLinks={[
         { text: "Privacy Policy", url: "#" },
         { text: "Terms of Service", url: "#" },

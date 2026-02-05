@@ -55,8 +55,6 @@ export default function Demo() {
       newsletterButtonText="Subscribe"
       socialTitle="Follow Us"
       copyright="CloudBase Inc."
-      attributionText="Built with OpenSite"
-      attributionHref="https://opensite.ai"
       legalLinks={[
         { name: "Privacy Policy", href: "/privacy" },
         { name: "Terms of Service", href: "/terms" },

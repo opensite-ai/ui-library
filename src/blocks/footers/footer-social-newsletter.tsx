@@ -81,8 +81,6 @@ export default function Demo() {
       privacyLinkText="Privacy Policy"
       privacyLinkUrl="#privacy"
       copyright="CloudSync Corporation"
-      attributionText="Built with OpenSite"
-      attributionHref="https://opensite.ai"
       background="muted"
       spacing="xl"
     />

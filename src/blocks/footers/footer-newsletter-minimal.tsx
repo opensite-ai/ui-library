@@ -31,8 +31,6 @@ export default function Demo() {
       newsletterPlaceholder="YOUR EMAIL ADDRESS"
       brandText="DESIGN STUDIO"
       copyright="© 2024 Design Studio Co. Creative excellence since 2015."
-      attributionText="Site crafted with OpenSite"
-      attributionHref="https://opensite.ai"
       location="San Francisco, California & Remote Worldwide"
       background="dark"
       spacing="xl"

@@ -60,8 +60,6 @@ export default function Demo() {
         { text: "Cookie Policy", href: "#cookies" },
         { text: "Accessibility", href: "#accessibility" },
       ]}
-      attributionText="Powered by OpenSite"
-      attributionHref="https://opensite.ai"
       background="gray"
     />
   );

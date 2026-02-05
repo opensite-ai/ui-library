@@ -69,8 +69,6 @@ export default function Demo() {
         },
       ]}
       copyright="TechStart Inc"
-      attributionText="Built with Opensite AI"
-      attributionHref="https://opensite.ai"
       legalLinks={[
         { name: "Privacy Policy", href: "#" },
         { name: "Terms of Service", href: "#" },

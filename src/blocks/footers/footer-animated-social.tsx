@@ -15,8 +15,6 @@ export default function Demo() {
         { label: "Behance", href: "https://behance.net" },
       ]}
       copyright="© 2026 Creative Studio. All rights reserved."
-      attributionText="Built with Opensite AI"
-      attributionHref="https://opensite.ai"
       background="dark"
       spacing="xl"
       pattern="dots"

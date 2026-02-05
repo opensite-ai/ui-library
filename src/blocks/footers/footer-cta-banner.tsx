@@ -71,8 +71,6 @@ export default function Demo() {
       newsletterPlaceholder="Enter your email"
       newsletterButtonText="Subscribe"
       copyright="© 2026 GrowthHub Inc. All rights reserved."
-      attributionText="Powered by OpenSite"
-      attributionHref="https://opensite.ai"
       legalLinks={[
         { name: "Privacy Policy", href: "/privacy" },
         { name: "Terms of Service", href: "/terms" },
