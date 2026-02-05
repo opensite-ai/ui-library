@@ -6,7 +6,7 @@ export default function Demo() {
     <FooterSocialNewsletter
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.black[4],
+        src: brandLogoPlaceholders.white[4],
         alt: "CloudSync Logo",
         title: "CloudSync",
       }}
@@ -79,9 +79,11 @@ export default function Demo() {
       newsletterButtonText="Subscribe"
       privacyConsentText="By subscribing, you agree to our"
       privacyLinkText="Privacy Policy"
-      privacyLinkUrl="#privacy"
-      copyright="CloudSync Corporation"
-      background="muted"
+      privacyLinkUrl="#"
+      copyright="CloudSync LLC"
+      pattern="dotPattern2"
+      patternOpacity={0.75}
+      background="dark"
       spacing="xl"
     />
   );
