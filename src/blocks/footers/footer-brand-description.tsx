@@ -6,7 +6,7 @@ export default function Demo() {
     <FooterBrandDescription
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.black[3],
+        src: brandLogoPlaceholders.white[3],
         alt: "TechStart Logo",
         title: "TechStart",
       }}
