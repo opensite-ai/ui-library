@@ -73,6 +73,9 @@ export default function Demo() {
         },
       ]}
       defaultTab="performance"
+      background="white"
+      pattern="gridFadeTop"
+      patternOpacity={0.75}
     />
   );
 }

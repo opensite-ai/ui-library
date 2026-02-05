@@ -27,10 +27,9 @@ export default function Demo() {
         "Automatic SSL certificates and custom domains",
         "Built-in CI/CD with GitHub, GitLab, and Bitbucket",
       ]}
-      spacing="py-6 md:py-32"
       background="dark"
-      pattern="waves"
-      patternOpacity={0.4}
+      pattern="architect"
+      patternOpacity={1}
     />
   );
 }

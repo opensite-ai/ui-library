@@ -1,17 +1,21 @@
 import { imagePlaceholders } from "@/lib/media";
+import { DynamicIcon } from "@opensite/ui";
 import { FeatureUtilityCardsGrid } from "@opensite/ui/blocks/features/feature-utility-cards-grid";
 
 export default function Demo() {
   return (
     <FeatureUtilityCardsGrid
-      label="POWERFUL UTILITIES"
+      label="Industry Specific Tools"
       labelIconName="lucide/sparkles"
       title="Everything You Need in One Place"
       description="A comprehensive suite of tools designed to simplify your workflow and accelerate development."
       learnMoreAction={{
-        label: "View All Tools",
+        label: "All Tools",
         href: "#",
         variant: "link",
+        asButton: true,
+        iconAfter: <DynamicIcon name="lucide/arrow-up-right" size={20} />,
+        className: "flex items-center gap-2 font-bold  uppercase",
       }}
       utilities={[
         {
@@ -44,9 +48,6 @@ export default function Demo() {
         },
       ]}
       background="gray"
-      spacing="xl"
-      pattern="waves"
-      patternOpacity={0.5}
     />
   );
 }

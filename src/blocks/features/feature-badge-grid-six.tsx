@@ -51,7 +51,6 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       background="white"
-      spacing="xl"
     />
   );
 }

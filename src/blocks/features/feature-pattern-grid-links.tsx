@@ -3,6 +3,8 @@ import { FeaturePatternGridLinks } from "@opensite/ui/blocks/features/feature-pa
 export default function Demo() {
   return (
     <FeaturePatternGridLinks
+      title="Client Resources"
+      description="Explore our comprehensive resources designed to help you make the most of our platform and accelerate your development process."
       features={[
         {
           iconName: "lucide/code-2",
