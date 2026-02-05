@@ -51,22 +51,18 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          icon: "simple-icons/twitter",
           href: "https://twitter.com/growthhub",
           label: "Follow GrowthHub on Twitter",
         },
         {
-          icon: "simple-icons/linkedin",
           href: "https://linkedin.com/company/growthhub",
           label: "Connect with GrowthHub on LinkedIn",
         },
         {
-          icon: "simple-icons/github",
           href: "https://github.com/growthhub",
           label: "View GrowthHub on GitHub",
         },
         {
-          icon: "simple-icons/youtube",
           href: "https://youtube.com/@growthhub",
           label: "Subscribe to GrowthHub on YouTube",
         },
@@ -83,8 +79,6 @@ export default function Demo() {
         { name: "Cookie Policy", href: "/cookies" },
       ]}
       background="dark"
-      spacing="xl"
-      pattern="topography"
       patternOpacity={0.15}
     />
   );

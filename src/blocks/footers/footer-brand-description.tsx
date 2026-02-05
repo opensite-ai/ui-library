@@ -68,7 +68,7 @@ export default function Demo() {
           ],
         },
       ]}
-      copyright="© 2026 TechStart Inc. All rights reserved."
+      copyright="TechStart Inc"
       attributionText="Built with Opensite AI"
       attributionHref="https://opensite.ai"
       legalLinks={[

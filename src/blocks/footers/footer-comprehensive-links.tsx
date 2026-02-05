@@ -56,18 +56,54 @@ export default function Demo() {
         },
       ]}
       articleLinks={[
-        { label: "Getting Started with Cloud Migration: A Complete Guide", href: "/blog/cloud-migration-guide" },
-        { label: "10 Best Practices for API Security in 2026", href: "/blog/api-security-practices" },
-        { label: "How AI is Transforming Modern Software Development", href: "/blog/ai-software-development" },
-        { label: "The Future of Microservices Architecture", href: "/blog/microservices-future" },
-        { label: "Building Scalable Applications with Kubernetes", href: "/blog/kubernetes-scalability" },
-        { label: "Data Privacy Compliance: GDPR and Beyond", href: "/blog/data-privacy-compliance" },
-        { label: "Optimizing Database Performance at Scale", href: "/blog/database-optimization" },
-        { label: "Serverless Architecture: Pros and Cons", href: "/blog/serverless-architecture" },
-        { label: "DevOps Best Practices for 2026", href: "/blog/devops-best-practices" },
-        { label: "Machine Learning Model Deployment Strategies", href: "/blog/ml-deployment" },
-        { label: "Understanding Zero Trust Security", href: "/blog/zero-trust-security" },
-        { label: "Building Real-Time Analytics Dashboards", href: "/blog/realtime-analytics" },
+        {
+          label: "Getting Started with Cloud Migration: A Complete Guide",
+          href: "/blog/cloud-migration-guide",
+        },
+        {
+          label: "10 Best Practices for API Security in 2026",
+          href: "/blog/api-security-practices",
+        },
+        {
+          label: "How AI is Transforming Modern Software Development",
+          href: "/blog/ai-software-development",
+        },
+        {
+          label: "The Future of Microservices Architecture",
+          href: "/blog/microservices-future",
+        },
+        {
+          label: "Building Scalable Applications with Kubernetes",
+          href: "/blog/kubernetes-scalability",
+        },
+        {
+          label: "Data Privacy Compliance: GDPR and Beyond",
+          href: "/blog/data-privacy-compliance",
+        },
+        {
+          label: "Optimizing Database Performance at Scale",
+          href: "/blog/database-optimization",
+        },
+        {
+          label: "Serverless Architecture: Pros and Cons",
+          href: "/blog/serverless-architecture",
+        },
+        {
+          label: "DevOps Best Practices for 2026",
+          href: "/blog/devops-best-practices",
+        },
+        {
+          label: "Machine Learning Model Deployment Strategies",
+          href: "/blog/ml-deployment",
+        },
+        {
+          label: "Understanding Zero Trust Security",
+          href: "/blog/zero-trust-security",
+        },
+        {
+          label: "Building Real-Time Analytics Dashboards",
+          href: "/blog/realtime-analytics",
+        },
       ]}
       articleSectionTitle="Latest Articles & Resources"
       contact={{
@@ -76,11 +112,23 @@ export default function Demo() {
         address: "1234 Innovation Drive, Silicon Valley, CA 94025",
       }}
       socialLinks={[
-        { platform: "linkedin", href: "https://linkedin.com/company/techventure", label: "Follow us on LinkedIn" },
-        { platform: "x", href: "https://x.com/techventure", label: "Follow us on X" },
-        { platform: "facebook", href: "https://facebook.com/techventure", label: "Follow us on Facebook" },
-        { platform: "youtube", href: "https://youtube.com/@techventure", label: "Subscribe on YouTube" },
-        { platform: "instagram", href: "https://instagram.com/techventure", label: "Follow us on Instagram" },
+        {
+          href: "https://linkedin.com/company/techventure",
+          label: "Follow us on LinkedIn",
+        },
+        { href: "https://x.com/techventure", label: "Follow us on X" },
+        {
+          href: "https://facebook.com/techventure",
+          label: "Follow us on Facebook",
+        },
+        {
+          href: "https://youtube.com/@techventure",
+          label: "Subscribe on YouTube",
+        },
+        {
+          href: "https://instagram.com/techventure",
+          label: "Follow us on Instagram",
+        },
       ]}
       companyName="TechVenture Solutions"
       bottomLinks={[

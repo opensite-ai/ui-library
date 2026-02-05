@@ -54,29 +54,24 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          icon: "simple-icons/x",
-          href: "https://twitter.com/cloudsync",
-          label: "Follow us on X",
+          href: "https://linkedin.com/company/innovatetech",
+          label: "Connect with InnovateTech on LinkedIn",
         },
         {
-          icon: "simple-icons/linkedin",
-          href: "https://linkedin.com/company/cloudsync",
-          label: "Connect on LinkedIn",
+          href: "https://twitter.com/innovatetech",
+          label: "Follow InnovateTech on Twitter",
         },
         {
-          icon: "simple-icons/github",
-          href: "https://github.com/cloudsync",
-          label: "Star us on GitHub",
+          href: "https://facebook.com/innovatetech",
+          label: "Like InnovateTech on Facebook",
         },
         {
-          icon: "simple-icons/discord",
-          href: "https://discord.gg/cloudsync",
-          label: "Join our Discord",
+          href: "https://instagram.com/innovatetech",
+          label: "Follow InnovateTech on Instagram",
         },
         {
-          icon: "simple-icons/youtube",
-          href: "https://youtube.com/@cloudsync",
-          label: "Subscribe on YouTube",
+          href: "https://youtube.com/@innovatetech",
+          label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
       newsletterLabel="Subscribe to our newsletter"
@@ -85,7 +80,7 @@ export default function Demo() {
       privacyConsentText="By subscribing, you agree to our"
       privacyLinkText="Privacy Policy"
       privacyLinkUrl="#privacy"
-      copyright="© 2026 CloudSync Corporation. All rights reserved."
+      copyright="CloudSync Corporation"
       attributionText="Built with OpenSite"
       attributionHref="https://opensite.ai"
       background="muted"

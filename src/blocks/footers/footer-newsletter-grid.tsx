@@ -44,10 +44,10 @@ export default function Demo() {
         },
       ]}
       socialLinks={[
-        { icon: "simple-icons/linkedin", href: "https://linkedin.com/company/dataflow", label: "LinkedIn" },
-        { icon: "simple-icons/twitter", href: "https://twitter.com/dataflow", label: "Twitter" },
-        { icon: "simple-icons/youtube", href: "https://youtube.com/@dataflow", label: "YouTube" },
-        { icon: "simple-icons/github", href: "https://github.com/dataflow", label: "GitHub" },
+        { href: "https://instagram.com/fashionstore", label: "Instagram" },
+        { href: "https://facebook.com/fashionstore", label: "Facebook" },
+        { href: "https://pinterest.com/fashionstore", label: "Pinterest" },
+        { href: "https://tiktok.com/@fashionstore", label: "TikTok" },
       ]}
       newsletterTitle="Subscribe to Insights"
       newsletterPlaceholder="Enter your business email"

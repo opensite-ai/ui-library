@@ -44,29 +44,24 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          icon: "simple-icons/x",
-          href: "https://twitter.com/appflow",
-          label: "Follow us on X (Twitter)",
+          href: "https://linkedin.com/company/innovatetech",
+          label: "Connect with InnovateTech on LinkedIn",
         },
         {
-          icon: "simple-icons/discord",
-          href: "https://discord.gg/appflow",
-          label: "Join our Discord community",
+          href: "https://twitter.com/innovatetech",
+          label: "Follow InnovateTech on Twitter",
         },
         {
-          icon: "simple-icons/github",
-          href: "https://github.com/appflow",
-          label: "Star us on GitHub",
+          href: "https://facebook.com/innovatetech",
+          label: "Like InnovateTech on Facebook",
         },
         {
-          icon: "simple-icons/linkedin",
-          href: "https://linkedin.com/company/appflow",
-          label: "Connect on LinkedIn",
+          href: "https://instagram.com/innovatetech",
+          label: "Follow InnovateTech on Instagram",
         },
         {
-          icon: "simple-icons/youtube",
-          href: "https://youtube.com/@appflow",
-          label: "Subscribe on YouTube",
+          href: "https://youtube.com/@innovatetech",
+          label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
       appLinks={[
@@ -83,9 +78,8 @@ export default function Demo() {
       ]}
       socialLabel="Connect With Us"
       appLabel="Download Our App"
-      copyright="© 2026 AppFlow Technologies. All rights reserved worldwide."
+      copyright="AppFlow Technologies"
       background="dark"
-      spacing="xl"
     />
   );
 }

@@ -43,18 +43,18 @@ export default function Demo() {
         },
       ]}
       socialLinks={[
-        { icon: "simple-icons/github", href: "https://github.com/cloudbase", label: "GitHub" },
-        { icon: "simple-icons/twitter", href: "https://twitter.com/cloudbase", label: "Twitter" },
-        { icon: "simple-icons/linkedin", href: "https://linkedin.com/company/cloudbase", label: "LinkedIn" },
-        { icon: "simple-icons/youtube", href: "https://youtube.com/@cloudbase", label: "YouTube" },
-        { icon: "simple-icons/discord", href: "https://discord.gg/cloudbase", label: "Discord" },
+        { href: "https://github.com/cloudbase", label: "GitHub" },
+        { href: "https://twitter.com/cloudbase", label: "Twitter" },
+        { href: "https://linkedin.com/company/cloudbase", label: "LinkedIn" },
+        { href: "https://youtube.com/@cloudbase", label: "YouTube" },
+        { href: "https://discord.gg/cloudbase", label: "Discord" },
       ]}
       newsletterHeading="Stay Updated"
       newsletterDescription="Get the latest product updates, engineering blog posts, and cloud infrastructure insights delivered to your inbox."
       newsletterPlaceholder="your@email.com"
       newsletterButtonText="Subscribe"
       socialTitle="Follow Us"
-      copyright="© 2024 CloudBase Inc. All rights reserved worldwide."
+      copyright="CloudBase Inc."
       attributionText="Built with OpenSite"
       attributionHref="https://opensite.ai"
       legalLinks={[

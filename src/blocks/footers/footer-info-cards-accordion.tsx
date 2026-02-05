@@ -81,28 +81,23 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          icon: "simple-icons/instagram",
-          link: "https://instagram.com/luxemart",
+          href: "https://instagram.com/luxemart",
           label: "Follow LuxeMart on Instagram",
         },
         {
-          icon: "simple-icons/facebook",
-          link: "https://facebook.com/luxemart",
+          href: "https://facebook.com/luxemart",
           label: "Like LuxeMart on Facebook",
         },
         {
-          icon: "simple-icons/twitter",
-          link: "https://twitter.com/luxemart",
+          href: "https://twitter.com/luxemart",
           label: "Follow LuxeMart on Twitter",
         },
         {
-          icon: "simple-icons/pinterest",
-          link: "https://pinterest.com/luxemart",
+          href: "https://pinterest.com/luxemart",
           label: "Follow LuxeMart on Pinterest",
         },
         {
-          icon: "simple-icons/youtube",
-          link: "https://youtube.com/@luxemart",
+          href: "https://youtube.com/@luxemart",
           label: "Subscribe to LuxeMart on YouTube",
         },
       ]}
@@ -129,12 +124,10 @@ export default function Demo() {
           dark: brandLogoPlaceholders.white[3],
         },
         logoUrl: "/",
-        description: "LuxeMart is your premier destination for curated luxury goods and timeless fashion. We partner with the world's most prestigious brands to bring you exceptional quality, craftsmanship, and style. Every purchase is backed by our 30-day satisfaction guarantee and white-glove customer service.",
+        description:
+          "LuxeMart is your premier destination for curated luxury goods and timeless fashion. We partner with the world's most prestigious brands to bring you exceptional quality, craftsmanship, and style. Every purchase is backed by our 30-day satisfaction guarantee and white-glove customer service.",
       }}
-      copyright="© 2026 LuxeMart Corporation. All rights reserved."
-      background="white"
-      spacing="xl"
-      pattern="diagonal-lines"
+      copyright="LuxeMart Corporation"
       patternOpacity={0.05}
     />
   );

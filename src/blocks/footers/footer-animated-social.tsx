@@ -8,11 +8,11 @@ export default function Demo() {
       ctaText="Start Your Project"
       ctaUrl="#contact"
       socialLinks={[
-        { name: "LinkedIn", href: "https://linkedin.com" },
-        { name: "Twitter", href: "https://twitter.com" },
-        { name: "GitHub", href: "https://github.com" },
-        { name: "Dribbble", href: "https://dribbble.com" },
-        { name: "Behance", href: "https://behance.net" },
+        { label: "LinkedIn", href: "https://linkedin.com" },
+        { label: "Twitter", href: "https://twitter.com" },
+        { label: "GitHub", href: "https://github.com" },
+        { label: "Dribbble", href: "https://dribbble.com" },
+        { label: "Behance", href: "https://behance.net" },
       ]}
       copyright="© 2026 Creative Studio. All rights reserved."
       attributionText="Built with Opensite AI"

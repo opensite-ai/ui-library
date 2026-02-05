@@ -63,10 +63,10 @@ export default function Demo() {
       ]}
       socialTitle="Follow Us"
       socialLinks={[
-        { icon: "simple-icons/facebook", href: "https://facebook.com", label: "Facebook" },
-        { icon: "simple-icons/twitter", href: "https://twitter.com", label: "Twitter" },
-        { icon: "simple-icons/linkedin", href: "https://linkedin.com", label: "LinkedIn" },
-        { icon: "simple-icons/instagram", href: "https://instagram.com", label: "Instagram" },
+        { href: "https://facebook.com", label: "Facebook" },
+        { href: "https://twitter.com", label: "Twitter" },
+        { href: "https://linkedin.com", label: "LinkedIn" },
+        { href: "https://instagram.com", label: "Instagram" },
       ]}
       copyright="© 2026 Modern Commerce Inc. All rights reserved."
       attributionText="Powered by Opensite AI"

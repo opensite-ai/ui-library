@@ -43,29 +43,24 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          icon: "simple-icons/instagram",
-          link: "https://instagram.com/brand",
-          label: "Follow us on Instagram",
+          href: "https://linkedin.com/company/innovatetech",
+          label: "Connect with InnovateTech on LinkedIn",
         },
         {
-          icon: "simple-icons/facebook",
-          link: "https://facebook.com/brand",
-          label: "Like us on Facebook",
+          href: "https://twitter.com/innovatetech",
+          label: "Follow InnovateTech on Twitter",
         },
         {
-          icon: "simple-icons/pinterest",
-          link: "https://pinterest.com/brand",
-          label: "Follow us on Pinterest",
+          href: "https://facebook.com/innovatetech",
+          label: "Like InnovateTech on Facebook",
         },
         {
-          icon: "simple-icons/tiktok",
-          link: "https://tiktok.com/@brand",
-          label: "Watch us on TikTok",
+          href: "https://instagram.com/innovatetech",
+          label: "Follow InnovateTech on Instagram",
         },
         {
-          icon: "simple-icons/x",
-          link: "https://twitter.com/brand",
-          label: "Follow us on X",
+          href: "https://youtube.com/@innovatetech",
+          label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
       paymentMethods={[

@@ -65,10 +65,10 @@ export default function Demo() {
         },
       ]}
       socialLinks={[
-        { icon: "simple-icons/instagram", link: "https://instagram.com/fashionstore", label: "Instagram" },
-        { icon: "simple-icons/facebook", link: "https://facebook.com/fashionstore", label: "Facebook" },
-        { icon: "simple-icons/pinterest", link: "https://pinterest.com/fashionstore", label: "Pinterest" },
-        { icon: "simple-icons/tiktok", link: "https://tiktok.com/@fashionstore", label: "TikTok" },
+        { href: "https://instagram.com/fashionstore", label: "Instagram" },
+        { href: "https://facebook.com/fashionstore", label: "Facebook" },
+        { href: "https://pinterest.com/fashionstore", label: "Pinterest" },
+        { href: "https://tiktok.com/@fashionstore", label: "TikTok" },
       ]}
       logo={{
         light: brandLogoPlaceholders.black[2],

@@ -53,7 +53,7 @@ export default function Demo() {
           ],
         },
       ]}
-      copyright="© 2026 TechVision Inc. All rights reserved."
+      copyright="TechVision Inc."
       bottomLinks={[
         { text: "Terms of Service", href: "#terms" },
         { text: "Privacy Policy", href: "#privacy" },
@@ -63,7 +63,6 @@ export default function Demo() {
       attributionText="Powered by OpenSite"
       attributionHref="https://opensite.ai"
       background="gray"
-      spacing="xl"
     />
   );
 }
