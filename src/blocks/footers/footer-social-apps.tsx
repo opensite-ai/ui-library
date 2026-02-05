@@ -6,7 +6,7 @@ export default function Demo() {
     <FooterSocialApps
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.black[2],
+        src: brandLogoPlaceholders.white[2],
         alt: "AppFlow Logo",
         title: "AppFlow",
       }}
@@ -14,31 +14,31 @@ export default function Demo() {
         {
           title: "Platform",
           links: [
-            { name: "Mobile Apps", href: "#mobile" },
-            { name: "Web Apps", href: "#web" },
-            { name: "Desktop Apps", href: "#desktop" },
-            { name: "Extensions", href: "#extensions" },
-            { name: "Marketplace", href: "#marketplace" },
+            { name: "Mobile Apps", href: "#" },
+            { name: "Web Apps", href: "#" },
+            { name: "Desktop Apps", href: "#" },
+            { name: "Extensions", href: "#" },
+            { name: "Marketplace", href: "#" },
           ],
         },
         {
           title: "Developers",
           links: [
-            { name: "API Documentation", href: "#api-docs" },
-            { name: "SDK Downloads", href: "#sdk" },
-            { name: "Code Examples", href: "#examples" },
-            { name: "Developer Forum", href: "#forum" },
-            { name: "GitHub Repos", href: "#github" },
+            { name: "API Documentation", href: "#" },
+            { name: "SDK Downloads", href: "#" },
+            { name: "Code Examples", href: "#" },
+            { name: "Developer Forum", href: "#" },
+            { name: "GitHub Repos", href: "#" },
           ],
         },
         {
           title: "Company",
           links: [
-            { name: "About", href: "#about" },
-            { name: "Careers", href: "#careers" },
-            { name: "News", href: "#news" },
-            { name: "Brand Assets", href: "#brand" },
-            { name: "Contact", href: "#contact" },
+            { name: "About", href: "#" },
+            { name: "Careers", href: "#" },
+            { name: "News", href: "#" },
+            { name: "Brand Assets", href: "#" },
+            { name: "Contact", href: "#" },
           ],
         },
       ]}
@@ -80,6 +80,8 @@ export default function Demo() {
       appLabel="Download Our App"
       copyright="AppFlow Technologies"
       background="dark"
+      pattern="diagonalCrossFadeTopLeft"
+      patternOpacity={0.2}
     />
   );
 }
