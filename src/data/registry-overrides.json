@@ -2519,6 +2519,158 @@
       "preview": "",
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/gallery/testimonial-carousel-cards"
+    },
+    "footer-accordion-social": {
+      "title": "Footer Accordion Social",
+      "componentPath": "blocks/footers/footer-accordion-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-accordion-social"
+    },
+    "footer-animated-social": {
+      "title": "Footer Animated Social",
+      "componentPath": "blocks/footers/footer-animated-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-animated-social"
+    },
+    "footer-background-card": {
+      "title": "Footer Background Card",
+      "componentPath": "blocks/footers/footer-background-card.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-background-card"
+    },
+    "footer-brand-description": {
+      "title": "Footer Brand Description",
+      "componentPath": "blocks/footers/footer-brand-description.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-brand-description"
+    },
+    "footer-brand-links-contact": {
+      "title": "Footer Brand Links Contact",
+      "componentPath": "blocks/footers/footer-brand-links-contact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-brand-links-contact"
+    },
+    "footer-comprehensive-links": {
+      "title": "Footer Comprehensive Links",
+      "componentPath": "blocks/footers/footer-comprehensive-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-comprehensive-links"
+    },
+    "footer-contact-card": {
+      "title": "Footer Contact Card",
+      "componentPath": "blocks/footers/footer-contact-card.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-contact-card"
+    },
+    "footer-cta-banner": {
+      "title": "Footer CTA Banner",
+      "componentPath": "blocks/footers/footer-cta-banner.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-cta-banner"
+    },
+    "footer-cta-social": {
+      "title": "Footer CTA Social",
+      "componentPath": "blocks/footers/footer-cta-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-cta-social"
+    },
+    "footer-info-cards-accordion": {
+      "title": "Footer Info Cards Accordion",
+      "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-info-cards-accordion"
+    },
+    "footer-links-grid": {
+      "title": "Footer Links Grid",
+      "componentPath": "blocks/footers/footer-links-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-links-grid"
+    },
+    "footer-nav-social": {
+      "title": "Footer Nav Social",
+      "componentPath": "blocks/footers/footer-nav-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-nav-social"
+    },
+    "footer-newsletter-contact": {
+      "title": "Footer Newsletter Contact",
+      "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-contact"
+    },
+    "footer-newsletter-grid": {
+      "title": "Footer Newsletter Grid",
+      "componentPath": "blocks/footers/footer-newsletter-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-grid"
+    },
+    "footer-newsletter-minimal": {
+      "title": "Footer Newsletter Minimal",
+      "componentPath": "blocks/footers/footer-newsletter-minimal.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-minimal"
+    },
+    "footer-simple-centered": {
+      "title": "Footer Simple Centered",
+      "componentPath": "blocks/footers/footer-simple-centered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-simple-centered"
+    },
+    "footer-social-apps": {
+      "title": "Footer Social Apps",
+      "componentPath": "blocks/footers/footer-social-apps.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-social-apps"
+    },
+    "footer-social-newsletter": {
+      "title": "Footer Social Newsletter",
+      "componentPath": "blocks/footers/footer-social-newsletter.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-social-newsletter"
+    },
+    "footer-split-image-accordion": {
+      "title": "Footer Split Image Accordion",
+      "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-split-image-accordion"
     }
   }
 }

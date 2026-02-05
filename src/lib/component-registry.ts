@@ -499,6 +499,46 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/navbars/navbar-tabbed-sections"),
   "navbar-transparent-overlay": () =>
     import("@/blocks/navbars/navbar-transparent-overlay"),
+
+  // Footer blocks
+  "footer-accordion-social": () =>
+    import("@/blocks/footers/footer-accordion-social"),
+  "footer-animated-social": () =>
+    import("@/blocks/footers/footer-animated-social"),
+  "footer-background-card": () =>
+    import("@/blocks/footers/footer-background-card"),
+  "footer-brand-description": () =>
+    import("@/blocks/footers/footer-brand-description"),
+  "footer-brand-links-contact": () =>
+    import("@/blocks/footers/footer-brand-links-contact"),
+  "footer-comprehensive-links": () =>
+    import("@/blocks/footers/footer-comprehensive-links"),
+  "footer-contact-card": () =>
+    import("@/blocks/footers/footer-contact-card"),
+  "footer-cta-banner": () =>
+    import("@/blocks/footers/footer-cta-banner"),
+  "footer-cta-social": () =>
+    import("@/blocks/footers/footer-cta-social"),
+  "footer-info-cards-accordion": () =>
+    import("@/blocks/footers/footer-info-cards-accordion"),
+  "footer-links-grid": () =>
+    import("@/blocks/footers/footer-links-grid"),
+  "footer-nav-social": () =>
+    import("@/blocks/footers/footer-nav-social"),
+  "footer-newsletter-contact": () =>
+    import("@/blocks/footers/footer-newsletter-contact"),
+  "footer-newsletter-grid": () =>
+    import("@/blocks/footers/footer-newsletter-grid"),
+  "footer-newsletter-minimal": () =>
+    import("@/blocks/footers/footer-newsletter-minimal"),
+  "footer-simple-centered": () =>
+    import("@/blocks/footers/footer-simple-centered"),
+  "footer-social-apps": () =>
+    import("@/blocks/footers/footer-social-apps"),
+  "footer-social-newsletter": () =>
+    import("@/blocks/footers/footer-social-newsletter"),
+  "footer-split-image-accordion": () =>
+    import("@/blocks/footers/footer-split-image-accordion"),
 };
 
 export const componentRegistry = Object.fromEntries(

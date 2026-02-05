@@ -31,7 +31,6 @@ export function CategoryGrid({ categories, className }: CategoryGridProps) {
             "transition-all duration-200",
           )}
         >
-          {/* Header */}
           <div className="flex items-start justify-between">
             <div className="flex flex-col gap-1">
               <div className="text-md mb-2 font-semibold text-foreground group-hover:text-accent transition-colors">

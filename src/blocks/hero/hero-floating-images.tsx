@@ -44,10 +44,11 @@ export default function Demo() {
           to life.
         </p>
 
-        <div className="mb-8 flex flex-col gap-4 sm:flex-row">
+        <div className="flex flex-wrap space-x-2 space-y-4">
           <Pressable
             onClick={() => console.log("Clicked")}
             componentType="button"
+            asButton
             size="lg"
             variant="default"
           >
@@ -56,9 +57,10 @@ export default function Demo() {
           </Pressable>
           <Pressable
             onClick={() => console.log("Clicked")}
+            asButton
             size="lg"
             componentType="button"
-            variant="outline"
+            variant="link"
           >
             Our Process
           </Pressable>

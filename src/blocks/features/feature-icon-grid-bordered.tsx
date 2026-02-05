@@ -9,24 +9,28 @@ export default function Demo() {
         {
           iconName: "lucide/timer",
           title: "Lightning Performance",
+          href: "#",
           description:
             "Optimized for speed with sub-second page loads and instant interactions.",
         },
         {
           iconName: "lucide/shield",
           title: "Enterprise Security",
+          href: "#",
           description:
             "Bank-level encryption with compliance certifications and regular audits.",
         },
         {
           iconName: "lucide/zap",
           title: "Innovative Technology",
+          href: "#",
           description:
             "Built on cutting-edge frameworks with future-proof architecture.",
         },
         {
           iconName: "lucide/users",
           title: "Expert Support",
+          href: "#",
           description:
             "24/7 assistance from experienced developers who know your codebase.",
         },
