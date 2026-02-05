@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@opensite/hooks": "2.0.4",
-    "@opensite/ui": "1.4.2",
+    "@opensite/ui": "1.4.3",
     "@page-speed/forms": "^0.3.5",
     "@page-speed/hooks": "^0.4.5",
     "@page-speed/img": "^0.4.5",
