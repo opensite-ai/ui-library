@@ -101,12 +101,13 @@ export default function Demo() {
           label: "Subscribe to LuxeMart on YouTube",
         },
       ]}
-      paymentMethods={[
-        "https://cdn.ing/assets/i/r/289200/visa-logo.svg",
-        "https://cdn.ing/assets/i/r/289201/mastercard-logo.svg",
-        "https://cdn.ing/assets/i/r/289202/amex-logo.svg",
-        "https://cdn.ing/assets/i/r/289203/paypal-logo.svg",
-        "https://cdn.ing/assets/i/r/289204/applepay-logo.svg",
+      paymentPlatforms={[
+        "visa",
+        "mastercard",
+        "venmo",
+        "apple",
+        "google",
+        "paypal",
       ]}
       submenuLinks={[
         { text: "Accessibility", link: "/accessibility" },

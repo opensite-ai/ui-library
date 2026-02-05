@@ -1,12 +1,12 @@
 import { FooterSocialNewsletter } from "@opensite/ui/blocks/footers/footer-social-newsletter";
-import { brandLogoPlaceholders } from "@/lib/media";
+import { logoPlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
     <FooterSocialNewsletter
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.white[4],
+        src: logoPlaceholders.darkHorizontalLogo,
         alt: "CloudSync Logo",
         title: "CloudSync",
       }}
@@ -81,9 +81,9 @@ export default function Demo() {
       privacyLinkText="Privacy Policy"
       privacyLinkUrl="#"
       copyright="CloudSync LLC"
-      pattern="dotPattern2"
-      patternOpacity={0.75}
-      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={1}
+      background="white"
       spacing="xl"
     />
   );

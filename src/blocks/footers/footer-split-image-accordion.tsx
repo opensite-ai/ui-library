@@ -63,13 +63,13 @@ export default function Demo() {
           label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
-      paymentMethods={[
-        "https://cdn.ing/assets/i/r/289200/visa-logo-payment-icon.svg",
-        "https://cdn.ing/assets/i/r/289201/mastercard-logo-payment-icon.svg",
-        "https://cdn.ing/assets/i/r/289202/amex-logo-payment-icon.svg",
-        "https://cdn.ing/assets/i/r/289203/paypal-logo-payment-icon.svg",
-        "https://cdn.ing/assets/i/r/289204/apple-pay-logo-payment-icon.svg",
-        "https://cdn.ing/assets/i/r/289205/google-pay-logo-payment-icon.svg",
+      paymentPlatforms={[
+        "contactless",
+        "bitcoin",
+        "amazon",
+        "samsung",
+        "afterpay",
+        "cashapp",
       ]}
       submenuLinks={[
         { text: "Terms of Service", link: "#" },
