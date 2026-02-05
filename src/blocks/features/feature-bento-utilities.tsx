@@ -19,7 +19,8 @@ export default function Demo() {
         },
         {
           title: "Schema Builder",
-          description: "Visual database designer with automatic migration generation.",
+          description:
+            "Visual database designer with automatic migration generation.",
           badge: "Beta",
           isDashed: false,
         },
@@ -41,13 +42,13 @@ export default function Demo() {
         },
         {
           title: "Performance Profiler",
-          description: "Advanced performance analysis and optimization suggestions.",
+          description:
+            "Advanced performance analysis and optimization suggestions.",
           badge: "Coming Soon",
           isDashed: true,
         },
       ]}
       background="white"
-      spacing="xl"
     />
   );
 }

@@ -5,14 +5,14 @@ export default function Demo() {
   return (
     <FooterContactCard
       logo={{
-        url: "/",
+        url: "#",
         src: brandLogoPlaceholders.black[1],
         alt: "Stellar Design Agency Logo",
         title: "Stellar Design",
       }}
       heading="Let's create something amazing together"
       email="hello@stellardesign.co"
-      phone="+1 (555) 987-6543"
+      phone="(555) 987-6543"
       address="567 Creative Boulevard, Suite 300, New York, NY 10001"
       socialLinks={[
         {
@@ -37,20 +37,20 @@ export default function Demo() {
         },
       ]}
       navLinks={[
-        { name: "Services", href: "/services" },
-        { name: "Portfolio", href: "/portfolio" },
-        { name: "About", href: "/about" },
-        { name: "Case Studies", href: "/case-studies" },
-        { name: "Blog", href: "/blog" },
-        { name: "Careers", href: "/careers" },
-        { name: "Contact", href: "/contact" },
+        { name: "Services", href: "#" },
+        { name: "Portfolio", href: "#" },
+        { name: "About", href: "#" },
+        { name: "Case Studies", href: "#" },
+        { name: "Blog", href: "#" },
+        { name: "Careers", href: "#" },
+        { name: "Contact", href: "#" },
       ]}
       socialTitle="Follow our creative journey"
       location="New York, NY"
       locationLabel="Proudly based in"
-      copyright="© 2026 Stellar Design Agency. All rights reserved."
+      copyright="Stellar Design Agency"
       background="white"
-      pattern="dashedGridFadeCenter"
+      pattern="gridFadeTop"
       patternOpacity={1}
     />
   );
