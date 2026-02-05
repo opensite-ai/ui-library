@@ -130,7 +130,7 @@ export default function Demo() {
           label: "Follow us on Instagram",
         },
       ]}
-      companyName="TechVenture Solutions"
+      copyright="© 2026 TechVenture Solutions. All rights reserved."
       bottomLinks={[
         { label: "Privacy Policy", href: "/privacy" },
         { label: "Terms of Service", href: "/terms" },
