@@ -9,6 +9,152 @@ import { join } from "path";
 import { geometricPlaceholderImgs } from "./media";
 
 /**
+ * Component Filter Configuration for Semantic UI Builder MVP
+ *
+ * Auto-generated from block status markdown files
+ * Generated: 2026-02-05
+ *
+ * STATISTICS:
+ * ============
+ * Total Categories: 32
+ * - Fully Ready (100%): 8 categories (122 blocks)
+ * - Partially Ready: 5 categories (89 ready, 48 not ready)
+ * - Not Ready (0%): 19 categories (294 blocks blocked)
+ *
+ * Total Blocks Ready: 211
+ * Total Blocks Blocked: 342
+ * Overall Completion: 38.2%
+ */
+export const componentFilterConfig: {
+  mode: "whitelist" | "blacklist";
+  blockedCategories: string[];
+  blockedSlugs: string[];
+  allowedSlugs: string[];
+} = {
+  mode: "blacklist",
+
+  /**
+   * Categories with 0% completion - block entire category
+   * Total: 19 categories (294 blocks)
+   */
+  blockedCategories: [
+    "case-studies-list",
+    "case-study-detail",
+    "comparison",
+    "contact",
+    "cta",
+    "industries",
+    "list",
+    "logos",
+    "offer-modal",
+    "pricing",
+    "project-detail",
+    "project-list",
+    "resource-detail",
+    "resource-list",
+    "service-detail",
+    "services-list",
+    "team",
+    "testimonials",
+    "timeline",
+  ],
+
+  /**
+   * Individual blocks from partially-ready categories
+   * Total: 48 blocks across 5 categories
+   */
+  blockedSlugs: [
+    // features (5 blocks not ready out of 27 total)
+    "feature-utility-cards-grid",
+    "feature-bento-utilities",
+    "feature-checklist-three-column",
+    "feature-integration-cards",
+    "feature-category-image-cards",
+
+    // footers (6 blocks not ready out of 17 total)
+    "footer-background-card",
+    "footer-newsletter-minimal",
+    "footer-nav-social",
+    "footer-newsletter-contact",
+    "footer-accordion-social",
+    "footer-info-cards-accordion",
+
+    // hero (34 blocks not ready out of 79 total)
+    "hero-overlay-cta-grid",
+    "hero-split-icon-cards",
+    "hero-pattern-badge-logos",
+    "hero-logo-centered-screenshot",
+    "hero-pattern-logo-tech-stack",
+    "hero-tech-carousel",
+    "hero-platform-features-grid",
+    "hero-spiral-pattern-cards",
+    "hero-split-spiral-shapes",
+    "hero-marketplace-scattered-images",
+    "hero-badge-shadow-overlay",
+    "hero-video-background-dark",
+    "hero-dashed-border-features",
+    "hero-premium-split-avatars",
+    "hero-task-timer-animated",
+    "hero-presentation-platform-video",
+    "hero-grid-pattern-solutions",
+    "hero-billing-platform-logos",
+    "hero-conversion-video-play",
+    "hero-design-showcase-logos",
+    "hero-productivity-launcher-video",
+    "hero-hiring-animated-text",
+    "hero-centered-gradient-cta",
+    "hero-testimonial-image-grid",
+    "hero-architecture-fullscreen",
+    "hero-therapy-testimonial-grid",
+    "hero-mentorship-video-split",
+    "hero-welcome-asymmetric-images",
+    "hero-startup-launch-cta",
+    "hero-customer-support-layered",
+    "hero-shared-inbox-layered",
+    "hero-conversation-intelligence",
+    "hero-mobile-app-download",
+    "hero-portfolio-creative",
+
+    // link-page (2 blocks not ready out of 5 total)
+    "link-tree-block",
+    "link-page-newsletter-social",
+
+    // process (1 block not ready out of 9 total)
+    "process-roadmap-timeline",
+  ],
+
+  /**
+   * Used when mode is "whitelist" - not currently used
+   * Switch to whitelist mode if you want to explicitly allow only specific blocks
+   */
+  allowedSlugs: [],
+};
+
+/**
+ * Filter blocks based on MVP configuration
+ * Used by both UI showcase and AI agent via API
+ */
+function filterBlocks(blocks: Block[]): Block[] {
+  const { mode, blockedCategories, blockedSlugs, allowedSlugs } =
+    componentFilterConfig;
+
+  return blocks.filter((block) => {
+    // Filter out blocked categories
+    if (blockedCategories.includes(block.categorySlug)) {
+      return false;
+    }
+
+    if (mode === "blacklist") {
+      // Exclude blocked slugs
+      return !blockedSlugs.includes(block.id);
+    } else {
+      // Include only allowed slugs (if list is not empty)
+      return allowedSlugs.length === 0 || allowedSlugs.includes(block.id);
+    }
+  });
+}
+
+/**
  * Load the blocks registry
  * In production, this would import from @opensite/ui
  */
@@ -75,11 +221,12 @@ function normalizeBlock(rawBlock: any): Block {
 }
 
 /**
- * Get all blocks from the registry
+ * Get all blocks from the registry (with MVP filtering applied)
  */
 export function getAllBlocks(): Block[] {
   const registry = loadRegistry();
-  return registry.blocks.map(normalizeBlock);
+  const normalizedBlocks = registry.blocks.map(normalizeBlock);
+  return filterBlocks(normalizedBlocks);
 }
 
 /**
@@ -97,12 +244,14 @@ export function getAllCategories(): Category[] {
   const blocks = getAllBlocks();
   const categoryMap = new Map<string, Category>();
 
-  const permanentSkip = new Set<string>(["background-pattern-hero"]);
-  const inProgressCategories = new Set<string>([]);
+  // Use blockedCategories from componentFilterConfig
+  // Note: background-pattern-hero is also blocked via blockedCategories
+  const { blockedCategories } = componentFilterConfig;
+  const blockedSet = new Set(blockedCategories);
 
   blocks.forEach((block, index) => {
     const slug = block.categorySlug;
-    if (permanentSkip.has(slug) || inProgressCategories.has(slug)) {
+    if (blockedSet.has(slug)) {
       return;
     }
     if (!categoryMap.has(slug)) {

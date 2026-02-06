@@ -12,8 +12,8 @@ importers:
         specifier: 2.0.4
         version: 2.0.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 1.5.1
-        version: 1.5.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 1.5.2
+        version: 1.5.2(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/forms':
         specifier: ^0.3.5
         version: 0.3.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -590,15 +590,15 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/hooks@2.0.5':
-    resolution: {integrity: sha512-YAWwGNLudIwoOuRDsk99uiQ689aC3R6Iq/fc7pXRg198daBLMkDJvOqNOT3bRilbDH1iMtdFCdN/ykpqHi9lWw==}
+  '@opensite/hooks@2.0.6':
+    resolution: {integrity: sha512-03+SOMrCVRvKX9/Z1kVZRlDonVBQ8+frGdvKW5i4tz4y0w7Kzvb4CCTmCU1W3CW0liKD0qHuV/dtpMusuPdfiA==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/ui@1.5.1':
-    resolution: {integrity: sha512-15IfWjmdPnGCy1wzqisMJ5PafwI7Z6UtbfWZzKjW46S6yHbtWorkv1yn+qk7eTs0b46onzM3BaD6cITpMYC86g==}
+  '@opensite/ui@1.5.2':
+    resolution: {integrity: sha512-hIKVC8HqM2mCV6ilV6mVtqEkJ1qoLn9ty0f9mtdqZqruaG/7cPyXibv6beRr9yKDLol9AmOTRbi2c67lAkqEzQ==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@tailwindcss/typography': '>=0.5.0'
@@ -3528,14 +3528,14 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/hooks@2.0.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@opensite/hooks@2.0.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/ui@1.5.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@1.5.2(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
-      '@opensite/hooks': 2.0.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@opensite/hooks': 2.0.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.3.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/img': 0.4.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/lightbox': 0.2.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)

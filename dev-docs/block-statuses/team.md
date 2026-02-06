@@ -1,0 +1,25 @@
+## team
+
+- [ ] team-media-showcase
+- [ ] team-simple-grid
+- [ ] team-social-grid
+- [ ] team-gradient-cards
+- [ ] team-bio-badges
+- [ ] team-expertise-cards
+- [ ] team-compact-grid
+- [ ] team-investor-showcase
+- [ ] team-carousel-experience
+- [ ] team-filterable-search
+- [ ] team-compact-cta
+- [ ] team-hover-highlight
+- [ ] team-social-cards
+- [ ] team-grid-animated
+- [ ] team-department-sections
+- [ ] team-alternating-bios
+- [ ] team-avatar-social
+- [ ] team-hover-overlay
+- [ ] team-role-filter
+- [ ] team-contact-cards
+- [ ] team-large-images
+- [ ] team-skill-badges
+- [ ] team-testimonial-stats

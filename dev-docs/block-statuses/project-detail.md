@@ -1,0 +1,24 @@
+## project-detail
+
+- [ ] project-detail-hero-metadata
+- [ ] project-detail-sidebar-sticky
+- [ ] project-detail-case-study-prose
+- [ ] project-detail-sidebar-navigation
+- [ ] project-detail-fullscreen-hero
+- [ ] project-detail-sculpture-showcase
+- [ ] project-detail-grid-gallery
+- [ ] project-detail-split-materials
+- [ ] project-detail-compact-metadata
+- [ ] project-detail-minimal-centered
+- [ ] project-detail-hover-gallery
+- [ ] project-detail-card-header
+- [ ] project-detail-exhibition-sidebar
+- [ ] project-detail-list-related
+- [ ] project-detail-architecture-carousel
+- [ ] project-detail-fashion-editorial
+- [ ] project-detail-photography-breadcrumb
+- [ ] project-detail-large-hero-featured
+- [ ] project-detail-tabbed-case-study
+- [ ] project-detail-numbered-sections
+- [ ] project-detail-mask-reveal
+- [ ] project-detail-parallax-scroll

@@ -1,0 +1,23 @@
+## navbars
+
+- [x] navbar-dropdown-menu
+- [x] navbar-centered-menu
+- [x] navbar-mega-menu
+- [x] navbar-enterprise-mega
+- [x] navbar-feature-grid
+- [x] navbar-floating-pill
+- [x] navbar-platform-resources
+- [x] navbar-image-preview
+- [x] navbar-dark-icons
+- [x] navbar-animated-preview
+- [x] navbar-multi-column-groups
+- [x] navbar-sidebar-mobile
+- [x] navbar-transparent-overlay
+- [x] navbar-education-platform
+- [x] navbar-sticky-compact
+- [x] navbar-search-focused
+- [x] navbar-simple-links
+- [x] navbar-split-cta
+- [x] navbar-icon-links
+- [x] navbar-tabbed-sections
+- [x] navbar-fullscreen-menu
