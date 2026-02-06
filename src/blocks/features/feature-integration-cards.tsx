@@ -63,9 +63,8 @@ export default function Demo() {
         },
       ]}
       background="dark"
-      spacing="xl"
-      pattern="circuitBoardBasic"
-      patternOpacity={0.3}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.1}
     />
   );
 }

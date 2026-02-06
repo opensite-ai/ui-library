@@ -4,10 +4,11 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <AboutLocationInfoHero
-      headline="Visit Our Studio"
+      headline="A Lively, ultramodern sports parlor and dining establishment."
+      accentColor="hsl(var(--muted))"
       address="123 Innovation Drive, Suite 400, San Francisco, CA 94102"
       addressHref="#"
-      phone="+1 (555) 123-4567"
+      phone="(555) 123-4567"
       phoneHref="tel:+15551234567"
       actions={[
         {
@@ -21,7 +22,7 @@ export default function Demo() {
       ]}
       hoursSections={[
         {
-          label: "Office Hours",
+          label: "Hours",
           hours: [
             { day: "Monday - Friday", time: "9:00 AM - 6:00 PM" },
             { day: "Saturday", time: "10:00 AM - 2:00 PM" },
@@ -29,7 +30,7 @@ export default function Demo() {
           ],
         },
         {
-          label: "Support Hours",
+          label: "Happy Hour",
           hours: [
             { day: "Monday - Friday", time: "8:00 AM - 8:00 PM" },
             { day: "Weekend", time: "10:00 AM - 4:00 PM" },
@@ -38,16 +39,17 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: imagePlaceholders[45],
+          src: imagePlaceholders[134],
           alt: "Office exterior",
         },
         {
-          src: imagePlaceholders[56],
+          src: imagePlaceholders[133],
           alt: "Office interior",
         },
       ]}
-      pattern="dots"
-      patternOpacity={0.05}
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
+      background="dark"
     />
   );
 }

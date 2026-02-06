@@ -10,19 +10,25 @@ export default function Demo() {
       actions={[
         {
           label: "Try It Free",
-          href: "/signup",
+          href: "#",
           variant: "default",
-          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+          iconAfter: <DynamicIcon name="lucide/arrow-right" />,
+          asButton: true,
+          size: "lg",
         },
         {
           label: "See Plans",
-          href: "/pricing",
-          variant: "outline",
+          href: "#",
+          variant: "ghost",
+          asButton: true,
+          size: "lg",
         },
       ]}
       imageSrc={imagePlaceholders[70]}
       imageAlt="Product interface screenshot"
-      spacing="xl"
+      background="gray"
+      pattern="gridBasic"
+      patternOpacity={1}
     />
   );
 }

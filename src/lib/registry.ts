@@ -38,6 +38,7 @@ export const componentFilterConfig: {
    * Total: 19 categories (294 blocks)
    */
   blockedCategories: [
+    "background-pattern-hero", // permanently blocked - internal use only
     "case-studies-list",
     "case-study-detail",
     "comparison",
@@ -68,16 +69,14 @@ export const componentFilterConfig: {
     "feature-utility-cards-grid",
     "feature-bento-utilities",
     "feature-checklist-three-column",
-    "feature-integration-cards",
+    // "feature-integration-cards",
     "feature-category-image-cards",
 
     // footers (6 blocks not ready out of 17 total)
-    "footer-background-card",
-    "footer-newsletter-minimal",
-    "footer-nav-social",
-    "footer-newsletter-contact",
-    "footer-accordion-social",
-    "footer-info-cards-accordion",
+    // "footer-newsletter-minimal",
+    // "footer-newsletter-contact",
+    // "footer-accordion-social",
+    // "footer-info-cards-accordion",
 
     // hero (34 blocks not ready out of 79 total)
     "hero-overlay-cta-grid",

@@ -6,16 +6,16 @@ export default function Demo() {
     <FooterBackgroundCard
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.white[2],
+        src: brandLogoPlaceholders.black[2],
         alt: "Company Logo",
         title: "Your Agency",
       }}
-      backgroundImage={imagePlaceholders[45]}
+      backgroundImage={imagePlaceholders[99]}
       profileImage={imagePlaceholders[72]}
       tagline="Sarah Mitchell"
       personalMessage="With over 15 years of experience in digital strategy and creative direction, I'm dedicated to helping brands tell their story and connect with audiences in meaningful ways. Every project is an opportunity to create something extraordinary."
       ctaText="Let's Work Together"
-      ctaUrl="#contact"
+      ctaUrl="#"
       menuItems={[
         {
           title: "Services",
@@ -50,19 +50,18 @@ export default function Demo() {
       ]}
       contactTitle="Get In Touch"
       contact={{
-        phone: "+1 (555) 123-4567",
+        phone: "(555) 123-4567",
         email: "hello@agency.com",
         location: "San Francisco, CA",
-        timezone: "PST (UTC-8)",
+        timezone: "PST",
       }}
-      copyright="© 2026 Your Agency. All rights reserved."
+      copyright="Your Agency"
       bottomLinks={[
         { text: "Privacy Policy", url: "#" },
         { text: "Terms of Service", url: "#" },
         { text: "Cookies", url: "#" },
       ]}
       background="transparent"
-      spacing="xl"
     />
   );
 }
