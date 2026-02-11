@@ -10,23 +10,25 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Learn More",
-          href: "/about",
-          variant: "outline",
+          href: "#",
+          variant: "link",
         },
       ]}
       images={[
-        { src: imagePlaceholders[34], alt: "Feature 1" },
-        { src: imagePlaceholders[35], alt: "Feature 2" },
-        { src: imagePlaceholders[36], alt: "Feature 3" },
-        { src: imagePlaceholders[37], alt: "Feature 4" },
+        { src: imagePlaceholders[117], alt: "Feature 1" },
+        { src: imagePlaceholders[118], alt: "Feature 2" },
+        { src: imagePlaceholders[119], alt: "Feature 3" },
+        { src: imagePlaceholders[120], alt: "Feature 4" },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="dashedGridFadeCenter"
+      patternOpacity={0.25}
     />
   );
 }

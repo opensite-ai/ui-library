@@ -10,12 +10,12 @@ export default function Demo() {
       actions={[
         {
           label: "Learn More",
-          href: "/features",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      spacing="xl"
+      background="gray"
     />
   );
 }

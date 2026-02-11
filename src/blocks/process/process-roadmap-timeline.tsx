@@ -72,8 +72,8 @@ export default function Demo() {
           ],
         },
       ]}
-      // pattern="diagonalCrossBasic"
-      // patternOpacity={1}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.1}
       background="gradient"
     />
   );

@@ -9,7 +9,7 @@ export default function Demo() {
       description="Shop handcrafted goods, vintage treasures, and one-of-a-kind products from talented makers and collectors."
       action={{
         label: "Browse Marketplace",
-        href: "/marketplace",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
@@ -20,7 +20,6 @@ export default function Demo() {
         { src: imagePlaceholders[38], alt: "Product 4" },
         { src: imagePlaceholders[39], alt: "Product 5" },
       ]}
-      spacing="xl"
     />
   );
 }

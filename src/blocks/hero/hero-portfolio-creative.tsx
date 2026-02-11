@@ -11,6 +11,7 @@ export default function Demo() {
         { src: imagePlaceholders[92], alt: "Brand Identity Project" },
         { src: imagePlaceholders[98], alt: "Web Design Project" },
         { src: imagePlaceholders[99], alt: "Mobile App Project" },
+        { src: imagePlaceholders[100], alt: "Mobile App Project" },
       ]}
       actions={[
         {
@@ -20,7 +21,9 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      spacing="xl"
+      background="gray"
+      pattern="gridFadeTop"
+      patternOpacity={0.9}
     />
   );
 }

@@ -9,13 +9,13 @@ export default function Demo() {
       actions={[
         {
           label: "Start Tracking",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Features",
-          href: "/features",
+          href: "#",
           variant: "outline",
         },
       ]}
@@ -23,7 +23,6 @@ export default function Demo() {
         { src: imagePlaceholders[15], alt: "Timer interface" },
         { src: imagePlaceholders[16], alt: "Task tracking" },
       ]}
-      spacing="xl"
     />
   );
 }

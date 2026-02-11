@@ -6,18 +6,17 @@ export default function Demo() {
   return (
     <HeroBadgeShadowOverlay
       announcementBadge="Premium Experience"
-      announcementText="Create memorable impressions with our premium design system"
+      announcementText="Premium design system"
       heading="Elevate your brand with stunning visuals"
       actions={[
         {
           label: "Explore Now",
-          href: "/explore",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      backgroundImageUrl={imagePlaceholders[40]}
-      spacing="xl"
+      backgroundImageUrl={imagePlaceholders[122]}
     />
   );
 }

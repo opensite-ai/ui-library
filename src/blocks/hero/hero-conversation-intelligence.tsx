@@ -22,8 +22,13 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/play-circle" size={16} />,
         },
       ]}
-      image={{ src: imagePlaceholders[75], alt: "Conversation intelligence dashboard" }}
-      spacing="xl"
+      image={{
+        src: imagePlaceholders[75],
+        alt: "Conversation intelligence dashboard",
+      }}
+      background="dark"
+      pattern="gridFadeCenter"
+      patternOpacity={0.25}
     />
   );
 }

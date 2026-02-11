@@ -17,7 +17,8 @@ export default function Demo() {
         { name: "Tailwind CSS", command: "npm install tailwindcss" },
         { name: "Node.js", command: "nvm install node" },
       ]}
-      spacing="xl"
+      background="gray"
+      pattern="gridFadeBottom"
     />
   );
 }

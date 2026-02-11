@@ -11,25 +11,27 @@ export default function Demo() {
       description="Download our mobile app and access all your favorite features on the go. Available for iOS and Android."
       storeActions={[
         {
-          href: "https://apps.apple.com",
+          href: "#",
           label: "Download on the",
           storePrefix: "Download on the",
           storeName: "App Store",
-          storeIcon: "lucide/apple",
+          storeIcon: "cib/apple",
         },
         {
-          href: "https://play.google.com",
+          href: "#",
           label: "Get it on",
           storePrefix: "Get it on",
           storeName: "Google Play",
-          storeIcon: "lucide/play",
+          storeIcon: "cib/google",
         },
       ]}
       ratingValue="4.9"
       ratingLabel="from 50K+ reviews"
       starCount={5}
-      image={{ src: imagePlaceholders[44], alt: "Mobile app screenshot" }}
-      spacing="xl"
+      image={{ src: imagePlaceholders[110], alt: "Mobile app screenshot" }}
+      background="gray"
+      pattern="crossPattern"
+      patternOpacity={0.15}
     />
   );
 }

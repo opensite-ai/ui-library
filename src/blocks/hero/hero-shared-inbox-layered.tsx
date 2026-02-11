@@ -9,10 +9,15 @@ export default function Demo() {
       heading="Collaborate on every customer conversation"
       description="Shared inbox that brings your team together. Assign emails, add notes, and deliver exceptional customer support together."
       layeredImages={{
-        backgroundImage: { src: imagePlaceholders[113], alt: "Shared inbox background" },
-        foregroundImage: { src: imagePlaceholders[110], alt: "Inbox foreground" },
+        backgroundImage: {
+          src: imagePlaceholders[113],
+          alt: "Shared inbox background",
+        },
+        foregroundImage: {
+          src: imagePlaceholders[110],
+          alt: "Inbox foreground",
+        },
       }}
-      spacing="xl"
     />
   );
 }

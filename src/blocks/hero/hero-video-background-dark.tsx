@@ -21,9 +21,8 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      videoSrc={videoPlaceholders[30]}
+      videoSrc={videoPlaceholders[25]}
       background="dark"
-      spacing="xl"
     />
   );
 }

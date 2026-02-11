@@ -12,7 +12,9 @@ export default function Demo() {
         { src: imagePlaceholders[86], alt: "Support interface 2" },
         { src: imagePlaceholders[87], alt: "Support interface 3" },
       ]}
-      spacing="xl"
+      background="secondary"
+      pattern="gridFadeBottomRight"
+      patternOpacity={0.15}
     />
   );
 }

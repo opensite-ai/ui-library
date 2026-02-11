@@ -9,9 +9,10 @@ export default function Demo() {
       brandSuffix="Community"
       heading="Join an exclusive community"
       description="Connect with like-minded professionals and gain access to premium resources, events, and networking opportunities."
+      image={{ src: imagePlaceholders[125], alt: "Community gathering" }}
       action={{
         label: "Join Now",
-        href: "/join",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
@@ -21,7 +22,9 @@ export default function Demo() {
         { src: imagePlaceholders[9], fallback: "M3" },
       ]}
       socialProofText="5,000+ active members"
-      spacing="xl"
+      background="muted"
+      pattern="architect"
+      patternOpacity={0.25}
     />
   );
 }
