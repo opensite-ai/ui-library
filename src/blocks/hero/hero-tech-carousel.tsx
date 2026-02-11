@@ -11,6 +11,11 @@ export default function Demo() {
         { name: "Next.js", command: "npx create-next-app" },
         { name: "Tailwind CSS", command: "npm install tailwindcss" },
         { name: "Node.js", command: "nvm install node" },
+        { name: "React", command: "npm install react" },
+        { name: "TypeScript", command: "npm install typescript" },
+        { name: "Next.js", command: "npx create-next-app" },
+        { name: "Tailwind CSS", command: "npm install tailwindcss" },
+        { name: "Node.js", command: "nvm install node" },
       ]}
       spacing="xl"
     />

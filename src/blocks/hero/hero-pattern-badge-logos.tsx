@@ -1,4 +1,4 @@
-import { imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroPatternBadgeLogos } from "@opensite/ui/blocks/hero/hero-pattern-badge-logos";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -22,15 +22,16 @@ export default function Demo() {
         },
       ]}
       logos={[
-        { src: imagePlaceholders[68], alt: "Company 1" },
-        { src: imagePlaceholders[69], alt: "Company 2" },
-        { src: imagePlaceholders[71], alt: "Company 3" },
-        { src: imagePlaceholders[72], alt: "Company 4" },
-        { src: imagePlaceholders[73], alt: "Company 5" },
-        { src: imagePlaceholders[74], alt: "Company 6" },
+        { src: brandLogoPlaceholders.black[0], alt: "Company 1" },
+        { src: brandLogoPlaceholders.black[1], alt: "Company 2" },
+        { src: brandLogoPlaceholders.black[2], alt: "Company 3" },
+        { src: brandLogoPlaceholders.black[3], alt: "Company 4" },
+        { src: brandLogoPlaceholders.black[4], alt: "Company 5" },
+        { src: brandLogoPlaceholders.black[5], alt: "Company 6" },
       ]}
-      pattern="dots"
-      spacing="xl"
+      pattern="architect"
+      patternOpacity={0.1}
+      background="muted"
     />
   );
 }

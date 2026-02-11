@@ -85,7 +85,6 @@ export default function Demo() {
         href: "https://opensite.ai",
         iconAfter: <DynamicIcon name="lucide/sparkles" size={16} />,
       }}
-      spacing="xl"
       pattern="dashedGridBasic"
       patternOpacity={0.08}
       background="secondary"

@@ -19,18 +19,12 @@ export default function Demo() {
       }}
       utilities={[
         {
-          title: "Code Generator",
-          description:
-            "Generate boilerplate code from templates with intelligent variable replacement.",
-          image: imagePlaceholders[56],
-          imageAlt: "Code generator interface",
-        },
-        {
           title: "API Explorer",
           description:
             "Interactive API documentation with live testing and code examples in multiple languages.",
           image: imagePlaceholders[77],
           imageAlt: "API explorer interface",
+          href: "#",
         },
         {
           title: "Database Designer",
@@ -38,6 +32,7 @@ export default function Demo() {
             "Visual schema builder with relationship mapping and automatic migration generation.",
           image: imagePlaceholders[93],
           imageAlt: "Database designer interface",
+          href: "#",
         },
         {
           title: "Asset Optimizer",
@@ -45,6 +40,7 @@ export default function Demo() {
             "Compress and optimize images, fonts, and assets automatically during build.",
           image: imagePlaceholders[44],
           imageAlt: "Asset optimizer interface",
+          href: "#",
         },
       ]}
       background="gray"

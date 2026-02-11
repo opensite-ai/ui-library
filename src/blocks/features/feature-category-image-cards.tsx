@@ -15,12 +15,6 @@ export default function Demo() {
           imageAlt: "Authentication features",
         },
         {
-          title: "Real-Time Collaboration",
-          category: "Team Features",
-          imageSrc: imagePlaceholders[63],
-          imageAlt: "Collaboration tools",
-        },
-        {
           title: "Data Analytics",
           category: "Insights & Reporting",
           imageSrc: imagePlaceholders[85],

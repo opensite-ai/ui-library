@@ -65,7 +65,6 @@ export default function Demo() {
         },
       ]}
       background="white"
-      spacing="xl"
     />
   );
 }

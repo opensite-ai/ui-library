@@ -71,9 +71,8 @@ export default function Demo() {
           label: `Subscribe to our YouTube channel: ${platform}`,
         },
       ]}
-      copyright="© 2026 Your Brand. All rights reserved."
+      copyright="Your Brand"
       background="gray"
-      spacing="xl"
     />
   );
 }

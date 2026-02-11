@@ -65,27 +65,14 @@ export const componentFilterConfig: {
    * Total: 48 blocks across 5 categories
    */
   blockedSlugs: [
-    // features (5 blocks not ready out of 27 total)
-    "feature-utility-cards-grid",
-    "feature-bento-utilities",
-    "feature-checklist-three-column",
-    // "feature-integration-cards",
-    "feature-category-image-cards",
-
-    // footers (6 blocks not ready out of 17 total)
-    // "footer-newsletter-minimal",
-    // "footer-newsletter-contact",
-    // "footer-accordion-social",
-    // "footer-info-cards-accordion",
-
     // hero (34 blocks not ready out of 79 total)
-    "hero-overlay-cta-grid",
-    "hero-split-icon-cards",
-    "hero-pattern-badge-logos",
-    "hero-logo-centered-screenshot",
-    "hero-pattern-logo-tech-stack",
-    "hero-tech-carousel",
-    "hero-platform-features-grid",
+    // "hero-overlay-cta-grid",
+
+    // "hero-pattern-badge-logos",
+    // "hero-logo-centered-screenshot",
+    // "hero-pattern-logo-tech-stack",
+    // "hero-tech-carousel",
+    // "hero-platform-features-grid",
     "hero-spiral-pattern-cards",
     "hero-split-spiral-shapes",
     "hero-marketplace-scattered-images",
@@ -115,8 +102,8 @@ export const componentFilterConfig: {
     "hero-portfolio-creative",
 
     // link-page (2 blocks not ready out of 5 total)
-    "link-tree-block",
-    "link-page-newsletter-social",
+    // "link-tree-block",
+    // "link-page-newsletter-social",
 
     // process (1 block not ready out of 9 total)
     "process-roadmap-timeline",

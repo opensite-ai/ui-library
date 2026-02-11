@@ -16,6 +16,7 @@ export default function Demo() {
           imageSrc: imagePlaceholders[46],
           imageAlt: "Code generator",
           showSparkle: true,
+          href: "#",
         },
         {
           title: "Schema Builder",
@@ -23,6 +24,7 @@ export default function Demo() {
             "Visual database designer with automatic migration generation.",
           badge: "Beta",
           isDashed: false,
+          href: "#",
         },
       ]}
       rightColumnCards={[
@@ -31,6 +33,7 @@ export default function Demo() {
           description:
             "Automatically compress and optimize images, fonts, and other assets during build.",
           showSparkle: false,
+          href: "#",
         },
         {
           title: "API Testing",
@@ -39,13 +42,7 @@ export default function Demo() {
           imageSrc: imagePlaceholders[70],
           imageAlt: "API testing",
           showSparkle: true,
-        },
-        {
-          title: "Performance Profiler",
-          description:
-            "Advanced performance analysis and optimization suggestions.",
-          badge: "Coming Soon",
-          isDashed: true,
+          href: "#",
         },
       ]}
       background="white"

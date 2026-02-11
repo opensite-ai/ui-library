@@ -70,13 +70,14 @@ export default function Demo() {
       newsletterLabel="Subscribe to our newsletter"
       newsletterPlaceholder="Enter your email"
       newsletterButtonText="Subscribe"
-      copyright="© 2026 GrowthHub Inc. All rights reserved."
+      copyright="GrowthHub Inc."
       legalLinks={[
         { name: "Privacy Policy", href: "/privacy" },
         { name: "Terms of Service", href: "/terms" },
         { name: "Cookie Policy", href: "/cookies" },
       ]}
       background="dark"
+      pattern="gridFadeCenter"
       patternOpacity={0.15}
     />
   );

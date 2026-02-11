@@ -43,24 +43,6 @@ export default function Demo() {
           link: "#",
           linkLabel: "Connect Salesforce",
         },
-        {
-          icon: brandLogoPlaceholders.black[4],
-          iconAlt: "Integration logo",
-          title: "Stripe",
-          description:
-            "Process payments and manage subscriptions with our Stripe integration.",
-          link: "#",
-          linkLabel: "Connect Stripe",
-        },
-        {
-          icon: brandLogoPlaceholders.black[5],
-          iconAlt: "Integration logo",
-          title: "Zapier",
-          description:
-            "Automate workflows by connecting to 5,000+ apps through Zapier.",
-          link: "#",
-          linkLabel: "Connect Zapier",
-        },
       ]}
       background="dark"
       pattern="diagonalCrossBasic"

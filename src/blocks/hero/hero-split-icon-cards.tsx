@@ -15,6 +15,29 @@ export default function Demo() {
         label: "View Demo",
         href: "/demo",
       }}
+      cardItems={[
+        {
+          title: "New Features",
+          subtitle: "New AI features to automate workflows",
+          icon: "lucide/bot",
+          href: "#",
+        },
+        {
+          title: "Automation",
+          subtitle: "Dedicated agents to help streamline tasks",
+          icon: "lucide/bell",
+          href: "#",
+        },
+        {
+          title: "Performance",
+          subtitle: "Enterprise speed for all business sizes",
+          icon: "lucide/bolt",
+          href: "#",
+        },
+      ]}
+      background="gray"
+      pattern="circuitBoardBasic"
+      patternOpacity={1}
     />
   );
 }

@@ -1,20 +1,24 @@
-import { imagePlaceholders } from "@/lib/media";
+import {
+  brandLogoPlaceholders,
+  imagePlaceholders,
+  logoPlaceholders,
+} from "@/lib/media";
 import { HeroPatternLogoTechStack } from "@opensite/ui/blocks/hero/hero-pattern-logo-tech-stack";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
     <HeroPatternLogoTechStack
-      logo={{ src: imagePlaceholders[75], alt: "Company Logo" }}
+      logo={{ src: logoPlaceholders.darkHorizontalLogo, alt: "Company Logo" }}
       heading="Built with the best technologies"
       description="Powered by cutting-edge tools and frameworks that developers love. Fast, reliable, and scalable."
       techLogos={[
-        { src: imagePlaceholders[76], alt: "React" },
-        { src: imagePlaceholders[77], alt: "TypeScript" },
-        { src: imagePlaceholders[81], alt: "Node.js" },
-        { src: imagePlaceholders[83], alt: "PostgreSQL" },
-        { src: imagePlaceholders[84], alt: "Docker" },
-        { src: imagePlaceholders[87], alt: "AWS" },
+        { src: brandLogoPlaceholders.black[0], alt: "React" },
+        { src: brandLogoPlaceholders.black[1], alt: "TypeScript" },
+        { src: brandLogoPlaceholders.black[2], alt: "Node.js" },
+        { src: brandLogoPlaceholders.black[3], alt: "PostgreSQL" },
+        { src: brandLogoPlaceholders.black[4], alt: "Docker" },
+        { src: brandLogoPlaceholders.black[5], alt: "AWS" },
       ]}
       actions={[
         {
@@ -31,7 +35,8 @@ export default function Demo() {
         },
       ]}
       pattern="grid1"
-      spacing="xl"
+      background="white"
+      patternOpacity={0.9}
     />
   );
 }

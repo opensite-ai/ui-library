@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <FooterNewsletterGrid
       logo={{
-        url: "/",
+        url: "#",
         src: brandLogoPlaceholders.black[3],
         alt: "DataFlow Analytics",
         title: "DataFlow",
@@ -54,9 +54,11 @@ export default function Demo() {
       newsletterButtonText="Get Updates"
       privacyText="By subscribing, you agree to our"
       privacyLinkText="Privacy Policy"
-      privacyLinkUrl="/privacy"
-      copyright="© 2024 DataFlow Analytics Inc. All rights reserved. Enterprise-grade analytics solutions."
-      background="white"
+      privacyLinkUrl="#"
+      copyright="DataFlow Analytics Inc."
+      background="gray"
+      pattern="gridFadeTop"
+      patternOpacity={0.9}
       spacing="lg"
     />
   );
