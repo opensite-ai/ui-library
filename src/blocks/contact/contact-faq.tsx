@@ -1,7 +1,104 @@
 "use client";
 
-import { demoFormConfig } from "@/lib/form-demo-data";
 import { ContactFaq } from "@opensite/ui/blocks/contact/contact-faq";
+import { demoFormConfig } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui/lib/form-field-types";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "name",
+    type: "text",
+    label: "Name",
+    placeholder: "Full Name",
+    required: true,
+    columnSpan: 6,
+  },
+  {
+    name: "email",
+    type: "email",
+    label: "Email",
+    placeholder: "your@email.com",
+    required: true,
+    columnSpan: 6,
+  },
+  {
+    name: "subject",
+    type: "text",
+    label: "Subject",
+    placeholder: "What is this regarding?",
+    required: true,
+    columnSpan: 12,
+  },
+  {
+    name: "priority",
+    type: "radio",
+    label: "Priority Level",
+    required: false,
+    columnSpan: 12,
+    layout: "inline",
+    options: [
+      { value: "low", label: "Low" },
+      { value: "medium", label: "Medium" },
+      { value: "high", label: "High" },
+    ],
+  },
+  {
+    name: "category",
+    type: "select",
+    label: "Question Category",
+    placeholder: "Select a category",
+    required: true,
+    columnSpan: 6,
+    options: [
+      { value: "billing", label: "Billing & Payments" },
+      { value: "technical", label: "Technical Support" },
+      { value: "account", label: "Account Management" },
+      { value: "features", label: "Features & Usage" },
+      { value: "other", label: "Other" },
+    ],
+  },
+  {
+    name: "attachments",
+    type: "file",
+    label: "Attachments (Optional)",
+    placeholder: "Upload supporting documents...",
+    required: false,
+    columnSpan: 6,
+    accept: ".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png",
+    maxSize: 5 * 1024 * 1024,
+    maxFiles: 3,
+    multiple: true,
+  },
+  {
+    name: "message",
+    type: "textarea",
+    label: "Message",
+    placeholder: "Please describe your question in detail...",
+    required: true,
+    rows: 5,
+    columnSpan: 12,
+  },
+  {
+    name: "interests",
+    type: "checkbox-group",
+    label: "I'm also interested in (optional)",
+    required: false,
+    columnSpan: 12,
+    layout: "inline",
+    options: [
+      { value: "newsletter", label: "Newsletter" },
+      { value: "updates", label: "Product Updates" },
+      { value: "webinars", label: "Webinars" },
+    ],
+  },
+  {
+    name: "agreeToTerms",
+    type: "checkbox",
+    label: "I agree to the terms and conditions and privacy policy",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -10,7 +107,10 @@ export default function Demo() {
       description="Can't find the answer you're looking for in our FAQ? Drop us a message and we'll get back to you within 24 hours."
       formHeading="Send Us a Message"
       buttonText="Submit Question"
+      formFields={formFields}
       formConfig={demoFormConfig}
+      successMessage="Thank you for reaching out! We'll get back to you within 24 hours."
+      errorMessage="We encountered an error processing your request. Please try again."
       background="white"
       pattern="gridFadeTop"
       patternOpacity={0.9}
