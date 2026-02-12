@@ -1,4 +1,4 @@
-import { videoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, videoPlaceholders } from "@/lib/media";
 import { HeroConversionVideoPlay } from "@opensite/ui/blocks/hero/hero-conversion-video-play";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -9,14 +9,21 @@ export default function Demo() {
       description="Optimize your conversion funnel with data-driven insights and smart automation. See how top companies boost conversions by 300%."
       primaryAction={{
         label: "Get Started",
-        href: "/signup",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       videoButtonLabel="Watch Demo"
       videoUrl={videoPlaceholders[5]}
       videoDialogTitle="Conversion Optimization Demo"
-      spacing="xl"
+      logos={[
+        { src: brandLogoPlaceholders.black[0], alt: "Partner 1" },
+        { src: brandLogoPlaceholders.black[1], alt: "Partner 2" },
+        { src: brandLogoPlaceholders.black[2], alt: "Partner 3" },
+        { src: brandLogoPlaceholders.black[3], alt: "Partner 4" },
+        { src: brandLogoPlaceholders.black[4], alt: "Partner 5" },
+        { src: brandLogoPlaceholders.black[5], alt: "Partner 6" },
+      ]}
     />
   );
 }

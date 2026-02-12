@@ -67,15 +67,10 @@ export const componentFilterConfig: {
   blockedSlugs: [
     // hero (34 blocks not ready out of 79 total)
     // "hero-logo-centered-screenshot",
-    // "hero-spiral-pattern-cards",
     // "hero-split-spiral-shapes",
     // "hero-marketplace-scattered-images",
-    // "hero-badge-shadow-overlay",
-    // "hero-video-background-dark",
-    // "hero-dashed-border-features",
     // "hero-premium-split-avatars",
     // "hero-task-timer-animated",
-    // "hero-presentation-platform-video",
     // "hero-grid-pattern-solutions",
     // "hero-billing-platform-logos",
     // "hero-conversion-video-play",
@@ -87,7 +82,6 @@ export const componentFilterConfig: {
     // "hero-architecture-fullscreen",
     // "hero-therapy-testimonial-grid",
     // "hero-mentorship-video-split",
-    // "hero-startup-launch-cta",
     // process (1 block not ready out of 9 total)
     // "process-roadmap-timeline",
   ],

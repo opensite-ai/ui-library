@@ -19,6 +19,7 @@ export default function Demo() {
         { src: imagePlaceholders[37], alt: "Product 3" },
         { src: imagePlaceholders[38], alt: "Product 4" },
         { src: imagePlaceholders[39], alt: "Product 5" },
+        { src: imagePlaceholders[40], alt: "Product 6" },
       ]}
     />
   );

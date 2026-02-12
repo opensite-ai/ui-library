@@ -24,7 +24,7 @@ export default function Demo() {
       socialProofText="5,000+ active members"
       background="muted"
       pattern="architect"
-      patternOpacity={0.25}
+      patternOpacity={0.1}
     />
   );
 }

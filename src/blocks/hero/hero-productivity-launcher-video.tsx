@@ -10,23 +10,22 @@ export default function Demo() {
       actions={[
         {
           label: "Download Free",
-          href: "/download",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/download" size={16} />,
         },
         {
           label: "Watch Tour",
-          href: "/tour",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/play-circle" size={16} />,
         },
       ]}
-      videoSrc={videoPlaceholders[20]}
+      videoSrc={videoPlaceholders[18]}
       versionInfo={{
         version: "v2.0",
-        osRequirement: "macOS 12+, Windows 10+",
+        osRequirement: "All platforms",
       }}
-      spacing="xl"
     />
   );
 }

@@ -1,3 +1,4 @@
+import { imagePlaceholders } from "@/lib/media";
 import { HeroSpiralPatternCards } from "@opensite/ui/blocks/hero/hero-spiral-pattern-cards";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -16,6 +17,11 @@ export default function Demo() {
         },
       ]}
       background="gray"
+      images={[
+        { src: imagePlaceholders[120], alt: "Image 1" },
+        { src: imagePlaceholders[121], alt: "Image 2" },
+        { src: imagePlaceholders[122], alt: "Image 3" },
+      ]}
     />
   );
 }

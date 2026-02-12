@@ -1,3 +1,4 @@
+import { imagePlaceholders } from "@/lib/media";
 import { HeroSplitSpiralShapes } from "@opensite/ui/blocks/hero/hero-split-spiral-shapes";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -20,7 +21,13 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      spacing="xl"
+      images={[
+        { src: imagePlaceholders[120], alt: "Image 1" },
+        { src: imagePlaceholders[121], alt: "Image 2" },
+        { src: imagePlaceholders[122], alt: "Image 3" },
+      ]}
+      background="dark"
+      pattern="spotlightRight"
     />
   );
 }

@@ -11,18 +11,18 @@ export default function Demo() {
       actions={[
         {
           label: "Start Creating",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Templates",
-          href: "/templates",
+          href: "#",
           variant: "outline",
         },
       ]}
-      videoSrc={videoPlaceholders[15]}
-      spacing="xl"
+      videoSrc={videoPlaceholders[38]}
+      background="dark"
     />
   );
 }
