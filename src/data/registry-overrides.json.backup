@@ -1,0 +1,2778 @@
+{
+  "blocks": {
+    "hero-ad-campaign-expert": {
+      "title": "Hero Ad Campaign Expert",
+      "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ad-campaign-expert"
+    },
+    "hero-adaptable-product-grid": {
+      "title": "Hero Adaptable Product Grid",
+      "componentPath": "blocks/hero/hero-adaptable-product-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-adaptable-product-grid"
+    },
+    "hero-agency-animated-images": {
+      "title": "Hero Agency Animated Images",
+      "componentPath": "blocks/hero/hero-agency-animated-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-agency-animated-images"
+    },
+    "hero-ai-powered-carousel": {
+      "title": "Hero AI Powered Carousel",
+      "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ai-powered-carousel"
+    },
+    "hero-announcement-badge": {
+      "title": "Hero Announcement Badge",
+      "componentPath": "blocks/hero/hero-announcement-badge.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-announcement-badge"
+    },
+    "hero-architecture-fullscreen": {
+      "title": "Hero Architecture Fullscreen",
+      "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-architecture-fullscreen"
+    },
+    "hero-badge-image-split": {
+      "title": "Hero Badge Image Split",
+      "componentPath": "blocks/hero/hero-badge-image-split.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-badge-image-split"
+    },
+    "hero-badge-shadow-overlay": {
+      "title": "Hero Badge Shadow Overlay",
+      "componentPath": "blocks/hero/hero-badge-shadow-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-badge-shadow-overlay"
+    },
+    "hero-billing-platform-logos": {
+      "title": "Hero Billing Platform Logos",
+      "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-billing-platform-logos"
+    },
+    "hero-business-carousel-dots": {
+      "title": "Hero Business Carousel Dots",
+      "componentPath": "blocks/hero/hero-business-carousel-dots.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-business-carousel-dots"
+    },
+    "hero-business-operations-mosaic": {
+      "title": "Hero Business Operations Mosaic",
+      "componentPath": "blocks/hero/hero-business-operations-mosaic.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-business-operations-mosaic"
+    },
+    "hero-centered-gradient-cta": {
+      "title": "Hero Centered Gradient CTA",
+      "componentPath": "blocks/hero/hero-centered-gradient-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-gradient-cta"
+    },
+    "hero-centered-image-grid": {
+      "title": "Hero Centered Image Grid",
+      "componentPath": "blocks/hero/hero-centered-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-image-grid"
+    },
+    "hero-centered-screenshot": {
+      "title": "Hero Centered Screenshot",
+      "componentPath": "blocks/hero/hero-centered-screenshot.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-centered-screenshot"
+    },
+    "hero-coming-soon-countdown": {
+      "title": "Hero Coming Soon Countdown",
+      "componentPath": "blocks/hero/hero-coming-soon-countdown.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-coming-soon-countdown"
+    },
+    "hero-community-survey-cta": {
+      "title": "Hero Community Survey CTA",
+      "componentPath": "blocks/hero/hero-community-survey-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-community-survey-cta"
+    },
+    "hero-conversation-intelligence": {
+      "title": "Hero Conversation Intelligence",
+      "componentPath": "blocks/hero/hero-conversation-intelligence.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-conversation-intelligence"
+    },
+    "hero-conversion-video-play": {
+      "title": "Hero Conversion Video Play",
+      "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-conversion-video-play"
+    },
+    "hero-creative-studio-stacked": {
+      "title": "Hero Creative Studio Stacked",
+      "componentPath": "blocks/hero/hero-creative-studio-stacked.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-creative-studio-stacked"
+    },
+    "hero-crm-streamlined": {
+      "title": "Hero CRM Streamlined",
+      "componentPath": "blocks/hero/hero-crm-streamlined.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-crm-streamlined"
+    },
+    "hero-customer-support-layered": {
+      "title": "Hero Customer Support Layered",
+      "componentPath": "blocks/hero/hero-customer-support-layered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-customer-support-layered"
+    },
+    "hero-dashed-border-features": {
+      "title": "Hero Dashed Border Features",
+      "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-dashed-border-features"
+    },
+    "hero-design-carousel-portfolio": {
+      "title": "Hero Design Carousel Portfolio",
+      "componentPath": "blocks/hero/hero-design-carousel-portfolio.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-carousel-portfolio"
+    },
+    "hero-design-showcase-logos": {
+      "title": "Hero Design Showcase Logos",
+      "componentPath": "blocks/hero/hero-design-showcase-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-showcase-logos"
+    },
+    "hero-design-system-3d": {
+      "title": "Hero Design System 3D",
+      "componentPath": "blocks/hero/hero-design-system-3d.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-design-system-3d"
+    },
+    "hero-developer-tools-code": {
+      "title": "Hero Developer Tools Code",
+      "componentPath": "blocks/hero/hero-developer-tools-code.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-developer-tools-code"
+    },
+    "hero-digital-agency-fullscreen": {
+      "title": "Hero Digital Agency Fullscreen",
+      "componentPath": "blocks/hero/hero-digital-agency-fullscreen.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-digital-agency-fullscreen"
+    },
+    "hero-ecommerce-product-showcase": {
+      "title": "Hero Ecommerce Product Showcase",
+      "componentPath": "blocks/hero/hero-ecommerce-product-showcase.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ecommerce-product-showcase"
+    },
+    "hero-enterprise-security": {
+      "title": "Hero Enterprise Security",
+      "componentPath": "blocks/hero/hero-enterprise-security.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-enterprise-security"
+    },
+    "hero-event-registration": {
+      "title": "Hero Event Registration",
+      "componentPath": "blocks/hero/hero-event-registration.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-event-registration"
+    },
+    "hero-feature-cards-grid": {
+      "title": "Hero Feature Cards Grid",
+      "componentPath": "blocks/hero/hero-feature-cards-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-feature-cards-grid"
+    },
+    "hero-floating-images": {
+      "title": "Hero Floating Images",
+      "componentPath": "blocks/hero/hero-floating-images.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
+      },
+      "dependencies": [
+        "@opensite/ui",
+        "@page-speed/img",
+        "@page-speed/lightbox"
+      ],
+      "defaultProps": {
+        "zoomIconName": "lucide/zoom-in",
+        "enableLightbox": true,
+        "spacing": "lg"
+      }
+    },
+    "hero-fullscreen-background-image": {
+      "title": "Hero Fullscreen Background Image",
+      "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-fullscreen-background-image"
+    },
+    "hero-fullscreen-logo-cta": {
+      "title": "Hero Fullscreen Logo CTA",
+      "componentPath": "blocks/hero/hero-fullscreen-logo-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-fullscreen-logo-cta"
+    },
+    "hero-gradient-avatars-rating": {
+      "title": "Hero Gradient Avatars Rating",
+      "componentPath": "blocks/hero/hero-gradient-avatars-rating.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-gradient-avatars-rating"
+    },
+    "hero-gradient-client-focused": {
+      "title": "Hero Gradient Client Focused",
+      "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-gradient-client-focused"
+    },
+    "hero-grid-pattern-efficiency": {
+      "title": "Hero Grid Pattern Efficiency",
+      "componentPath": "blocks/hero/hero-grid-pattern-efficiency.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-grid-pattern-efficiency"
+    },
+    "hero-grid-pattern-solutions": {
+      "title": "Hero Grid Pattern Solutions",
+      "componentPath": "blocks/hero/hero-grid-pattern-solutions.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-grid-pattern-solutions"
+    },
+    "hero-hiring-animated-text": {
+      "title": "Hero Hiring Animated Text",
+      "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-hiring-animated-text"
+    },
+    "hero-image-left-content": {
+      "title": "Hero Image Left Content",
+      "componentPath": "blocks/hero/hero-image-left-content.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-image-left-content"
+    },
+    "hero-image-slider": {
+      "title": "Hero Image Slider",
+      "componentPath": "blocks/hero/hero-image-slider.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-image-slider"
+    },
+    "hero-innovation-image-grid": {
+      "title": "Hero Innovation Image Grid",
+      "componentPath": "blocks/hero/hero-innovation-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-innovation-image-grid"
+    },
+    "hero-logo-centered-screenshot": {
+      "title": "Hero Logo Centered Screenshot",
+      "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-logo-centered-screenshot"
+    },
+    "hero-marketplace-scattered-images": {
+      "title": "Hero Marketplace Scattered Images",
+      "componentPath": "blocks/hero/hero-marketplace-scattered-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-marketplace-scattered-images"
+    },
+    "hero-mental-health-team": {
+      "title": "Hero Mental Health Team",
+      "componentPath": "blocks/hero/hero-mental-health-team.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mental-health-team"
+    },
+    "hero-mentorship-video-split": {
+      "title": "Hero Mentorship Video Split",
+      "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mentorship-video-split"
+    },
+    "hero-minimal-centered-dark": {
+      "title": "Hero Minimal Centered Dark",
+      "componentPath": "blocks/hero/hero-minimal-centered-dark.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-minimal-centered-dark"
+    },
+    "hero-mobile-app-download": {
+      "title": "Hero Mobile App Download",
+      "componentPath": "blocks/hero/hero-mobile-app-download.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-mobile-app-download"
+    },
+    "hero-newsletter-minimal": {
+      "title": "Hero Newsletter Minimal",
+      "componentPath": "blocks/hero/hero-newsletter-minimal.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-newsletter-minimal"
+    },
+    "hero-overlay-cta-grid": {
+      "title": "Hero Overlay CTA Grid",
+      "componentPath": "blocks/hero/hero-overlay-cta-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-overlay-cta-grid"
+    },
+    "hero-pattern-badge-logos": {
+      "title": "Hero Pattern Badge Logos",
+      "componentPath": "blocks/hero/hero-pattern-badge-logos.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pattern-badge-logos"
+    },
+    "hero-pattern-logo-tech-stack": {
+      "title": "Hero Pattern Logo Tech Stack",
+      "componentPath": "blocks/hero/hero-pattern-logo-tech-stack.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pattern-logo-tech-stack"
+    },
+    "hero-platform-features-grid": {
+      "title": "Hero Platform Features Grid",
+      "componentPath": "blocks/hero/hero-platform-features-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-platform-features-grid"
+    },
+    "hero-portfolio-creative": {
+      "title": "Hero Portfolio Creative",
+      "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-portfolio-creative"
+    },
+    "hero-premium-split-avatars": {
+      "title": "Hero Premium Split Avatars",
+      "componentPath": "blocks/hero/hero-premium-split-avatars.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-premium-split-avatars"
+    },
+    "hero-presentation-platform-video": {
+      "title": "Hero Presentation Platform Video",
+      "componentPath": "blocks/hero/hero-presentation-platform-video.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-presentation-platform-video"
+    },
+    "hero-pricing-comparison": {
+      "title": "Hero Pricing Comparison",
+      "componentPath": "blocks/hero/hero-pricing-comparison.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-pricing-comparison"
+    },
+    "hero-product-showcase-floating": {
+      "title": "Hero Product Showcase Floating",
+      "componentPath": "blocks/hero/hero-product-showcase-floating.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-product-showcase-floating"
+    },
+    "hero-productivity-launcher-video": {
+      "title": "Hero Productivity Launcher Video",
+      "componentPath": "blocks/hero/hero-productivity-launcher-video.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-productivity-launcher-video"
+    },
+    "hero-saas-dashboard-preview": {
+      "title": "Hero SaaS Dashboard Preview",
+      "componentPath": "blocks/hero/hero-saas-dashboard-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-saas-dashboard-preview"
+    },
+    "hero-shared-inbox-layered": {
+      "title": "Hero Shared Inbox Layered",
+      "componentPath": "blocks/hero/hero-shared-inbox-layered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-shared-inbox-layered"
+    },
+    "hero-simple-centered-image": {
+      "title": "Hero Simple Centered Image",
+      "componentPath": "blocks/hero/hero-simple-centered-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-simple-centered-image"
+    },
+    "hero-software-growth-video-dialog": {
+      "title": "Hero Software Growth Video Dialog",
+      "componentPath": "blocks/hero/hero-software-growth-video-dialog.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-software-growth-video-dialog"
+    },
+    "hero-spiral-pattern-cards": {
+      "title": "Hero Spiral Pattern Cards",
+      "componentPath": "blocks/hero/hero-spiral-pattern-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-spiral-pattern-cards"
+    },
+    "hero-split-geometric-shapes": {
+      "title": "Hero Split Geometric Shapes",
+      "componentPath": "blocks/hero/hero-split-geometric-shapes.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-geometric-shapes"
+    },
+    "hero-split-icon-cards": {
+      "title": "Hero Split Icon Cards",
+      "componentPath": "blocks/hero/hero-split-icon-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-icon-cards"
+    },
+    "hero-split-image-newsletter": {
+      "title": "Hero Split Image Newsletter",
+      "componentPath": "blocks/hero/hero-split-image-newsletter.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-image-newsletter"
+    },
+    "hero-split-spiral-shapes": {
+      "title": "Hero Split Spiral Shapes",
+      "componentPath": "blocks/hero/hero-split-spiral-shapes.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-split-spiral-shapes"
+    },
+    "hero-startup-launch-cta": {
+      "title": "Hero Startup Launch CTA",
+      "componentPath": "blocks/hero/hero-startup-launch-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-startup-launch-cta"
+    },
+    "hero-stats-social-proof": {
+      "title": "Hero Stats Social Proof",
+      "componentPath": "blocks/hero/hero-stats-social-proof.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-stats-social-proof"
+    },
+    "hero-task-timer-animated": {
+      "title": "Hero Task Timer Animated",
+      "componentPath": "blocks/hero/hero-task-timer-animated.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-task-timer-animated"
+    },
+    "hero-tech-carousel": {
+      "title": "Hero Tech Carousel",
+      "componentPath": "blocks/hero/hero-tech-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-tech-carousel"
+    },
+    "hero-testimonial-image-grid": {
+      "title": "Hero Testimonial Image Grid",
+      "componentPath": "blocks/hero/hero-testimonial-image-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-testimonial-image-grid"
+    },
+    "hero-therapy-testimonial-grid": {
+      "title": "Hero Therapy Testimonial Grid",
+      "componentPath": "blocks/hero/hero-therapy-testimonial-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-therapy-testimonial-grid"
+    },
+    "hero-ui-library-showcase": {
+      "title": "Hero UI Library Showcase",
+      "componentPath": "blocks/hero/hero-ui-library-showcase.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-ui-library-showcase"
+    },
+    "hero-video-background-dark": {
+      "title": "Hero Video Background Dark",
+      "componentPath": "blocks/hero/hero-video-background-dark.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-background-dark"
+    },
+    "hero-video-dialog-gradient": {
+      "title": "Hero Video Dialog Gradient",
+      "componentPath": "blocks/hero/hero-video-dialog-gradient.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-dialog-gradient"
+    },
+    "hero-video-overlay-stars": {
+      "title": "Hero Video Overlay Stars",
+      "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-video-overlay-stars"
+    },
+    "hero-welcome-asymmetric-images": {
+      "title": "Hero Welcome Asymmetric Images",
+      "componentPath": "blocks/hero/hero-welcome-asymmetric-images.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/hero/hero-welcome-asymmetric-images"
+    },
+    "stats-impact-grid": {
+      "title": "Stats Impact Grid",
+      "componentPath": "blocks/stats/stats-impact-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288940/71bf2g13yafem6q5lp74mo32vswj/stats-impact-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288940/71bf2g13yafem6q5lp74mo32vswj/stats-impact-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-impact-grid.tsx"
+    },
+    "stats-simple-grid": {
+      "title": "Stats Simple Grid",
+      "componentPath": "blocks/stats/stats-simple-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288948/6lxanoy3dgk4cmpokifjxfzbln7v/stats-simple-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288949/6uyhqrb9o62330c3hrzadhqhk8qh/stats-simple-grid-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288948/6lxanoy3dgk4cmpokifjxfzbln7v/stats-simple-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288949/6uyhqrb9o62330c3hrzadhqhk8qh/stats-simple-grid-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-simple-grid.tsx"
+    },
+    "stats-icon-cards": {
+      "title": "Stats Icon Cards",
+      "componentPath": "blocks/stats/stats-icon-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288938/urt7yb9mjarmi4emo69k4gdz6bi3/stats-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288939/hyynr6l3xvzxygjo0ovp3rk4j3on/stats-icon-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288938/urt7yb9mjarmi4emo69k4gdz6bi3/stats-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288939/hyynr6l3xvzxygjo0ovp3rk4j3on/stats-icon-cards-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-icon-cards.tsx"
+    },
+    "stats-timeline-tabs": {
+      "title": "Stats Timeline Tabs",
+      "componentPath": "blocks/stats/stats-timeline-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288950/qqma1bduvtkiw0emx54p8faznbq8/stats-timeline-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288951/0n55r6asbot6nldpwksguhmqa8e0/stats-timeline-tabs-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288950/qqma1bduvtkiw0emx54p8faznbq8/stats-timeline-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288951/0n55r6asbot6nldpwksguhmqa8e0/stats-timeline-tabs-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-timeline-tabs.tsx"
+    },
+    "stats-primary-secondary": {
+      "title": "Stats Primary Secondary",
+      "componentPath": "blocks/stats/stats-primary-secondary.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288946/bsfdnq1evrm3yh18diynkhbzy5p0/stats-primary-secondary-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288947/dfoy9qym72kwb09pt2bihg4u0qev/stats-primary-secondary-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288946/bsfdnq1evrm3yh18diynkhbzy5p0/stats-primary-secondary-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288947/dfoy9qym72kwb09pt2bihg4u0qev/stats-primary-secondary-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-primary-secondary.tsx"
+    },
+    "stats-growth-timeline": {
+      "title": "Stats Growth Timeline",
+      "componentPath": "blocks/stats/stats-growth-timeline.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288936/otkldz7km9w9q43k1f1moppu0frk/stats-growth-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288937/toqnx92kq668q01mbqfi7enlxqbp/stats-growth-timeline-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288936/otkldz7km9w9q43k1f1moppu0frk/stats-growth-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288937/toqnx92kq668q01mbqfi7enlxqbp/stats-growth-timeline-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-growth-timeline.tsx"
+    },
+    "stats-circular-progress": {
+      "title": "Stats Circular Progress",
+      "componentPath": "blocks/stats/stats-circular-progress.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288934/fmr3zi2q1zsd628mldxv04exv2s6/stats-circular-progress-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288935/xn1o1ztka52gs1lb7m18cc0rnvnk/stats-circular-progress-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288934/fmr3zi2q1zsd628mldxv04exv2s6/stats-circular-progress-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288935/xn1o1ztka52gs1lb7m18cc0rnvnk/stats-circular-progress-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-circular-progress.tsx"
+    },
+    "stats-card-group": {
+      "title": "Stats Card Group",
+      "componentPath": "blocks/stats/stats-card-group.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288932/5buz4db6pgoluc9omsplob8yvavj/stats-card-group-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288933/x5f9vc44qyvfdhraqsq2hw65kb46/stats-card-group-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288932/5buz4db6pgoluc9omsplob8yvavj/stats-card-group-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288933/x5f9vc44qyvfdhraqsq2hw65kb46/stats-card-group-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-card-group.tsx"
+    },
+    "stats-animated-counter": {
+      "title": "Stats Animated Counter",
+      "componentPath": "blocks/stats/stats-animated-counter.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288928/2dihbv54sh18i33vb0x430kdzlkd/stats-animated-counter-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288929/q0mz3rzjtncypcevls5kl4n9myl4/stats-animated-counter-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288928/2dihbv54sh18i33vb0x430kdzlkd/stats-animated-counter-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288929/q0mz3rzjtncypcevls5kl4n9myl4/stats-animated-counter-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-animated-counter.tsx"
+    },
+    "stats-number-ticker": {
+      "title": "Stats Number Ticker",
+      "componentPath": "blocks/stats/stats-number-ticker.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288944/ca3col5wx2hgmrrqmbnk3cmzz69q/stats-number-ticker-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288945/w4qfcfre8mppb87n3be8nq4of2gb/stats-number-ticker-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288944/ca3col5wx2hgmrrqmbnk3cmzz69q/stats-number-ticker-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288945/w4qfcfre8mppb87n3be8nq4of2gb/stats-number-ticker-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-number-ticker.tsx"
+    },
+    "stats-milestone-sidebar": {
+      "title": "Stats Milestone Sidebar",
+      "componentPath": "blocks/stats/stats-milestone-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288942/i4phziz7u7qi7d18e8yhgmmlhcoy/stats-milestone-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288943/p2hrvhjs7we5ihjnuflw2caj1qul/stats-milestone-sidebar-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288942/i4phziz7u7qi7d18e8yhgmmlhcoy/stats-milestone-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288943/p2hrvhjs7we5ihjnuflw2caj1qul/stats-milestone-sidebar-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-milestone-sidebar.tsx"
+    },
+    "stats-bar-comparison": {
+      "title": "Stats Bar Comparison",
+      "componentPath": "blocks/stats/stats-bar-comparison.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288930/pxzc1pdqynjduhm6z3j8eb6irlvg/stats-bar-comparison-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288931/c05qqffxc9bnl0f5tarsidnvpiey/stats-bar-comparison-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288930/pxzc1pdqynjduhm6z3j8eb6irlvg/stats-bar-comparison-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288931/c05qqffxc9bnl0f5tarsidnvpiey/stats-bar-comparison-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/stats/stats-bar-comparison.tsx"
+    },
+    "about-company-profile": {
+      "title": "About Company Profile",
+      "componentPath": "blocks/about/about-company-profile.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-company-profile.tsx"
+    },
+    "about-developer-profile": {
+      "title": "About Developer Profile",
+      "componentPath": "blocks/about/about-developer-profile.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-developer-profile.tsx"
+    },
+    "about-developer-story": {
+      "title": "About Developer Story",
+      "componentPath": "blocks/about/about-developer-story.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-developer-story.tsx"
+    },
+    "about-interactive-tabs": {
+      "title": "About Interactive Tabs",
+      "componentPath": "blocks/about/about-interactive-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
+    },
+    "about-location-info-hero": {
+      "title": "About Location Info Hero",
+      "componentPath": "blocks/about/about-location-info-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-location-info-hero.tsx"
+    },
+    "about-minimal-story": {
+      "title": "About Minimal Story",
+      "componentPath": "blocks/about/about-minimal-story.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288985/uohf2h5x28ks7oz7urmuiot4tow8/founder-letter-about-page-with-office-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288985/uohf2h5x28ks7oz7urmuiot4tow8/founder-letter-about-page-with-office-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-minimal-story.tsx"
+    },
+    "about-mission-dual-image": {
+      "title": "About Mission Dual Image",
+      "componentPath": "blocks/about/about-mission-dual-image.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
+    },
+    "about-mission-features": {
+      "title": "About Mission Features",
+      "componentPath": "blocks/about/about-mission-features.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-mission-features.tsx"
+    },
+    "about-network-spotlight": {
+      "title": "About Network Spotlight",
+      "componentPath": "blocks/about/about-network-spotlight.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-network-spotlight.tsx"
+    },
+    "about-startup-team": {
+      "title": "About Startup Team",
+      "componentPath": "blocks/about/about-startup-team.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289016/72d9p48bkwv0vufjcszal1a0ajdv/about-startup-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289016/72d9p48bkwv0vufjcszal1a0ajdv/about-startup-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-startup-team.tsx"
+    },
+    "about-stats-showcase": {
+      "title": "About Stats Showcase",
+      "componentPath": "blocks/about/about-stats-showcase.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-stats-showcase.tsx"
+    },
+    "about-stats-sidebar": {
+      "title": "About Stats Sidebar",
+      "componentPath": "blocks/about/about-stats-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-stats-sidebar.tsx"
+    },
+    "about-story-expertise": {
+      "title": "About Story Expertise",
+      "componentPath": "blocks/about/about-story-expertise.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-expertise.tsx"
+    },
+    "about-story-gallery": {
+      "title": "About Story Gallery",
+      "componentPath": "blocks/about/about-story-gallery.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-gallery.tsx"
+    },
+    "about-story-hero": {
+      "title": "About Story Hero",
+      "componentPath": "blocks/about/about-story-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289001/jacnqg4889w53zpi3fuus6r8auyw/about-story-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289001/jacnqg4889w53zpi3fuus6r8auyw/about-story-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-story-hero.tsx"
+    },
+    "about-streamline-team": {
+      "title": "About Streamline Team",
+      "componentPath": "blocks/about/about-streamline-team.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-streamline-team.tsx"
+    },
+    "about-vision-gallery": {
+      "title": "About Vision Gallery",
+      "componentPath": "blocks/about/about-vision-gallery.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-vision-gallery.tsx"
+    },
+    "about-culture-tabs": {
+      "title": "About Culture Tabs",
+      "componentPath": "blocks/about/about-culture-tabs.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-culture-tabs.tsx"
+    },
+    "about-expandable-values": {
+      "title": "About Expandable Values",
+      "componentPath": "blocks/about/about-expandable-values.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-expandable-values.tsx"
+    },
+    "about-mission-principles": {
+      "title": "About Mission Principles",
+      "componentPath": "blocks/about/about-mission-principles.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-mission-principles.tsx"
+    },
+    "about-split-hero": {
+      "title": "About Split Hero",
+      "componentPath": "blocks/about/about-split-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/about-split-hero.tsx"
+    },
+    "alternating-blocks": {
+      "title": "Alternating Blocks",
+      "componentPath": "blocks/about/alternating-blocks.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289006/ve7asunbik4wjsz2b9sdjf01l2wn/alternating-blocks-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289007/1xi5156id33mlrlq4ckv2e0mnsbk/alternating-blocks-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289006/ve7asunbik4wjsz2b9sdjf01l2wn/alternating-blocks-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289007/1xi5156id33mlrlq4ckv2e0mnsbk/alternating-blocks-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/alternating-blocks.tsx"
+    },
+    "community-initiatives": {
+      "title": "Community Initiatives",
+      "componentPath": "blocks/about/community-initiatives.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/about/community-initiatives.tsx"
+    },
+    "article-breadcrumb-social": {
+      "title": "Article Breadcrumb Social",
+      "componentPath": "blocks/article/article-breadcrumb-social.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
+    },
+    "article-chapters-author": {
+      "title": "Article Chapters Author",
+      "componentPath": "blocks/article/article-chapters-author.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-chapters-author.tsx"
+    },
+    "article-compact-toc": {
+      "title": "Article Compact TOC",
+      "componentPath": "blocks/article/article-compact-toc.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-compact-toc.tsx"
+    },
+    "article-hero-prose": {
+      "title": "Article Hero Prose",
+      "componentPath": "blocks/article/article-hero-prose.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-hero-prose.tsx"
+    },
+    "article-sidebar-sticky": {
+      "title": "Article Sidebar Sticky",
+      "componentPath": "blocks/article/article-sidebar-sticky.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
+    },
+    "article-split-animated": {
+      "title": "Article Split Animated",
+      "componentPath": "blocks/article/article-split-animated.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-split-animated.tsx"
+    },
+    "article-toc-sidebar": {
+      "title": "Article TOC Sidebar",
+      "componentPath": "blocks/article/article-toc-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/article/article-toc-sidebar.tsx"
+    },
+    "blog-cards-read-time": {
+      "title": "Blog Cards Read Time",
+      "componentPath": "blocks/blog/blog-cards-read-time.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289039/fxiksjovvtc1ax99dz0pvtqbinkm/blog-cards-read-time-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289040/wzjl8rhzpbrqp4h2glbwb6j79e7k/blog-cards-read-time-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289039/fxiksjovvtc1ax99dz0pvtqbinkm/blog-cards-read-time-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289040/wzjl8rhzpbrqp4h2glbwb6j79e7k/blog-cards-read-time-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-cards-read-time.tsx"
+    },
+    "blog-cards-tagline-cta": {
+      "title": "Blog Cards Tagline CTA",
+      "componentPath": "blocks/blog/blog-cards-tagline-cta.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289037/dliy8285arwy51vif3l2r41b3dlr/blog-cards-tagline-cta-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289038/0ctigvmiij64bdu3hi4e5cq71r84/blog-cards-tagline-cta-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289037/dliy8285arwy51vif3l2r41b3dlr/blog-cards-tagline-cta-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289038/0ctigvmiij64bdu3hi4e5cq71r84/blog-cards-tagline-cta-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-cards-tagline-cta.tsx"
+    },
+    "blog-carousel-apple": {
+      "title": "Blog Carousel Apple",
+      "componentPath": "blocks/blog/blog-carousel-apple.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289049/59tcotkcdz7lgaf1lma9w0tf2i3s/blog-carousel-apple-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289050/239jbb4c2yn5m2gqdj0i9s0g8xzt/blog-carousel-apple-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289049/59tcotkcdz7lgaf1lma9w0tf2i3s/blog-carousel-apple-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289050/239jbb4c2yn5m2gqdj0i9s0g8xzt/blog-carousel-apple-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-carousel-apple.tsx"
+    },
+    "blog-category-overlay": {
+      "title": "Blog Category Overlay",
+      "componentPath": "blocks/blog/blog-category-overlay.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289041/sit5hcfahlcas6x4gteh9s4ku8si/blog-category-overlay-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289042/v33nsz7ia6qtmuczwt4ekg3yp1p4/blog-category-overlay-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289041/sit5hcfahlcas6x4gteh9s4ku8si/blog-category-overlay-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289042/v33nsz7ia6qtmuczwt4ekg3yp1p4/blog-category-overlay-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-category-overlay.tsx"
+    },
+    "blog-featured-popular": {
+      "title": "Blog Featured Popular",
+      "componentPath": "blocks/blog/blog-featured-popular.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289043/j82rplpq97adxj2rz70mi15nz5pu/blog-featured-popular-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289043/j82rplpq97adxj2rz70mi15nz5pu/blog-featured-popular-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-featured-popular.tsx"
+    },
+    "blog-filtered-results": {
+      "title": "Blog Filtered Results",
+      "componentPath": "blocks/blog/blog-filtered-results.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-filtered-results.tsx"
+    },
+    "blog-grid-author-cards": {
+      "title": "Blog Grid Author Cards",
+      "componentPath": "blocks/blog/blog-grid-author-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-grid-author-cards.tsx"
+    },
+    "blog-grid-nine-posts": {
+      "title": "Blog Grid Nine Posts",
+      "componentPath": "blocks/blog/blog-grid-nine-posts.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289053/685jc9awca7gzkfnf0pyt1ck2otg/blog-grid-nine-posts-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289054/f29qybwcou2r5epplxqz6h9vceep/blog-grid-nine-posts-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289053/685jc9awca7gzkfnf0pyt1ck2otg/blog-grid-nine-posts-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289054/f29qybwcou2r5epplxqz6h9vceep/blog-grid-nine-posts-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-grid-nine-posts.tsx"
+    },
+    "blog-horizontal-cards": {
+      "title": "Blog Horizontal Cards",
+      "componentPath": "blocks/blog/blog-horizontal-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289047/4anidn99fztkdrgbdr00bhdvodhe/blog-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289047/4anidn99fztkdrgbdr00bhdvodhe/blog-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-horizontal-cards.tsx"
+    },
+    "blog-horizontal-timeline": {
+      "title": "Blog Horizontal Timeline",
+      "componentPath": "blocks/blog/blog-horizontal-timeline.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-horizontal-timeline.tsx"
+    },
+    "blog-masonry-featured": {
+      "title": "Blog Masonry Featured",
+      "componentPath": "blocks/blog/blog-masonry-featured.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-masonry-featured.tsx"
+    },
+    "blog-related-articles": {
+      "title": "Blog Related Articles",
+      "componentPath": "blocks/blog/blog-related-articles.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289045/302tw35wkqc33u0n0mtxxo0kqie6/blog-related-articles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289045/302tw35wkqc33u0n0mtxxo0kqie6/blog-related-articles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-related-articles.tsx"
+    },
+    "blog-tech-insights": {
+      "title": "Blog Tech Insights",
+      "componentPath": "blocks/blog/blog-tech-insights.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289113/pctzj2fqzonzgjla0jigkf5jjh1t/blocks-blog-tech-insights-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289113/pctzj2fqzonzgjla0jigkf5jjh1t/blocks-blog-tech-insights-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/blog/blog-tech-insights.tsx"
+    },
+    "carousel-animated-sections": {
+      "title": "Carousel Animated Sections",
+      "componentPath": "blocks/carousel/carousel-animated-sections.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289109/kn7njl53hgft99n489wb3azustqt/carousel-animated-sections-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289109/kn7njl53hgft99n489wb3azustqt/carousel-animated-sections-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-animated-sections.tsx"
+    },
+    "carousel-autoplay-progress": {
+      "title": "Carousel Autoplay Progress",
+      "componentPath": "blocks/carousel/carousel-autoplay-progress.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-autoplay-progress.tsx"
+    },
+    "carousel-auto-progress-slides": {
+      "title": "Carousel Auto Progress Slides",
+      "componentPath": "blocks/carousel/carousel-auto-progress-slides.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289067/nc0w7rixu020dd88lny396d7t312/carousel-auto-progress-slides-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289068/p8gtmwv7jky6bbufqqd3v9bp99nx/carousel-auto-progress-slides-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289067/nc0w7rixu020dd88lny396d7t312/carousel-auto-progress-slides-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289068/p8gtmwv7jky6bbufqqd3v9bp99nx/carousel-auto-progress-slides-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-auto-progress-slides.tsx"
+    },
+    "carousel-feature-badge": {
+      "title": "Carousel Feature Badge",
+      "componentPath": "blocks/carousel/carousel-feature-badge.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289200/gj8qep2lxp05ragqilq91ekh7d98/carousel-feature-badge-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289200/gj8qep2lxp05ragqilq91ekh7d98/carousel-feature-badge-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-feature-badge.tsx"
+    },
+    "carousel-fullscreen-scroll-fx": {
+      "title": "Carousel Fullscreen Scroll FX",
+      "componentPath": "blocks/carousel/carousel-fullscreen-scroll-fx.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289203/8gc46addhzx6krnm7vob5q7u43wj/carousel-fullscreen-scroll-fx-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289202/5a73inav6zwmsuxr6gfpzb5og55g/carousel-fullscreen-fx-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289203/8gc46addhzx6krnm7vob5q7u43wj/carousel-fullscreen-scroll-fx-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289202/5a73inav6zwmsuxr6gfpzb5og55g/carousel-fullscreen-fx-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-fullscreen-scroll-fx.tsx"
+    },
+    "carousel-gallery-thumbnails": {
+      "title": "Carousel Gallery Thumbnails",
+      "componentPath": "blocks/carousel/carousel-gallery-thumbnails.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289204/zu4idgda2ywsx08gps209prl3tvl/carousel-gallery-thumbnails-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289205/j55tdxyy1l8bpftgu06dcxmj9fs7/carousel-gallery-thumbnails-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289204/zu4idgda2ywsx08gps209prl3tvl/carousel-gallery-thumbnails-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289205/j55tdxyy1l8bpftgu06dcxmj9fs7/carousel-gallery-thumbnails-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-gallery-thumbnails.tsx"
+    },
+    "carousel-horizontal-cards": {
+      "title": "Carousel Horizontal Cards",
+      "componentPath": "blocks/carousel/carousel-horizontal-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289206/ej36a8ethqiefiialvzxkct29z3a/carousel-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289207/1ragesux520loxrrswmz7mp474oy/carousel-horizontal-cards-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289206/ej36a8ethqiefiialvzxkct29z3a/carousel-horizontal-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289207/1ragesux520loxrrswmz7mp474oy/carousel-horizontal-cards-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-horizontal-cards.tsx"
+    },
+    "carousel-image-hero": {
+      "title": "Carousel Image Hero",
+      "componentPath": "blocks/carousel/carousel-image-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289208/n0zkw4w86vuwct7olskqb9ale6oo/carousel-image-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289209/ob0ewnxckivfda0flbteftetxgpy/carousel-image-hero-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289208/n0zkw4w86vuwct7olskqb9ale6oo/carousel-image-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289209/ob0ewnxckivfda0flbteftetxgpy/carousel-image-hero-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-image-hero.tsx"
+    },
+    "carousel-multi-step-showcase": {
+      "title": "Carousel Multi-Step Showcase",
+      "componentPath": "blocks/carousel/carousel-multi-step-showcase.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289210/hvruho22wlsn1ezax8ngk4i29nsl/carousel-multi-step-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289211/ny1yq020x55usk9jog1tko8dgbmg/carousel-multi-step-showcase-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289210/hvruho22wlsn1ezax8ngk4i29nsl/carousel-multi-step-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289211/ny1yq020x55usk9jog1tko8dgbmg/carousel-multi-step-showcase-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-multi-step-showcase.tsx"
+    },
+    "carousel-portfolio-hero": {
+      "title": "Carousel Portfolio Hero",
+      "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
+    },
+    "carousel-product-feature-showcase": {
+      "title": "Carousel Product Feature Showcase",
+      "componentPath": "blocks/carousel/carousel-product-feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289214/olx55rx7yf4w4qjsvag4t8ma6afc/carousel-product-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289215/vyum0n5jfn4xbi9owy9gidgxqquu/carousel-product-feature-showcase-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289214/olx55rx7yf4w4qjsvag4t8ma6afc/carousel-product-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289215/vyum0n5jfn4xbi9owy9gidgxqquu/carousel-product-feature-showcase-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-product-feature-showcase.tsx"
+    },
+    "carousel-progress-slider": {
+      "title": "Carousel Progress Slider",
+      "componentPath": "blocks/carousel/carousel-progress-slider.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289216/zgl3b3bcdvgiz784wmnrdqp5mit2/carousel-progress-slider-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289217/66hy2n2n71upjhrm7dvy9wp8lew2/carousel-progress-slider-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289216/zgl3b3bcdvgiz784wmnrdqp5mit2/carousel-progress-slider-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289217/66hy2n2n71upjhrm7dvy9wp8lew2/carousel-progress-slider-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx"
+    },
+    "carousel-scrolling-feature-showcase": {
+      "title": "Carousel Scrolling Feature Showcase",
+      "componentPath": "blocks/carousel/carousel-scrolling-feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
+    },
+    "feature-icon-grid-accent": {
+      "title": "Feature Icon Grid Accent",
+      "componentPath": "blocks/features/feature-icon-grid-accent.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-accent.tsx"
+    },
+    "feature-split-image": {
+      "title": "Feature Split Image",
+      "componentPath": "blocks/features/feature-split-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-split-image.tsx"
+    },
+    "feature-split-image-reverse": {
+      "title": "Feature Split Image Reverse",
+      "componentPath": "blocks/features/feature-split-image-reverse.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-split-image-reverse.tsx"
+    },
+    "feature-numbered-cards": {
+      "title": "Feature Numbered Cards",
+      "componentPath": "blocks/features/feature-numbered-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-numbered-cards.tsx"
+    },
+    "feature-integration-cards": {
+      "title": "Feature Integration Cards",
+      "componentPath": "blocks/features/feature-integration-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-integration-cards.tsx"
+    },
+    "feature-checklist-three-column": {
+      "title": "Feature Checklist Three Column",
+      "componentPath": "blocks/features/feature-checklist-three-column.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-checklist-three-column.tsx"
+    },
+    "feature-icon-grid-muted": {
+      "title": "Feature Icon Grid Muted",
+      "componentPath": "blocks/features/feature-icon-grid-muted.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-muted.tsx"
+    },
+    "feature-icon-grid-bordered": {
+      "title": "Feature Icon Grid Bordered",
+      "componentPath": "blocks/features/feature-icon-grid-bordered.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-grid-bordered.tsx"
+    },
+    "feature-three-column-values": {
+      "title": "Feature Three Column Values",
+      "componentPath": "blocks/features/feature-three-column-values.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-three-column-values.tsx"
+    },
+    "feature-capabilities-grid": {
+      "title": "Feature Capabilities Grid",
+      "componentPath": "blocks/features/feature-capabilities-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-capabilities-grid.tsx"
+    },
+    "feature-badge-grid-six": {
+      "title": "Feature Badge Grid Six",
+      "componentPath": "blocks/features/feature-badge-grid-six.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-badge-grid-six.tsx"
+    },
+    "feature-utility-cards-grid": {
+      "title": "Feature Utility Cards Grid",
+      "componentPath": "blocks/features/feature-utility-cards-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-utility-cards-grid.tsx"
+    },
+    "feature-card-grid-linked": {
+      "title": "Feature Card Grid Linked",
+      "componentPath": "blocks/features/feature-card-grid-linked.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-card-grid-linked.tsx"
+    },
+    "feature-pattern-grid-links": {
+      "title": "Feature Pattern Grid Links",
+      "componentPath": "blocks/features/feature-pattern-grid-links.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-pattern-grid-links.tsx"
+    },
+    "feature-image-cards-three-column": {
+      "title": "Feature Image Cards Three Column",
+      "componentPath": "blocks/features/feature-image-cards-three-column.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-image-cards-three-column.tsx"
+    },
+    "feature-category-image-cards": {
+      "title": "Feature Category Image Cards",
+      "componentPath": "blocks/features/feature-category-image-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-category-image-cards.tsx"
+    },
+    "feature-stats-highlight": {
+      "title": "Feature Stats Highlight",
+      "componentPath": "blocks/features/feature-stats-highlight.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-stats-highlight.tsx"
+    },
+    "feature-checklist-image": {
+      "title": "Feature Checklist Image",
+      "componentPath": "blocks/features/feature-checklist-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-checklist-image.tsx"
+    },
+    "feature-accordion-image": {
+      "title": "Feature Accordion Image",
+      "componentPath": "blocks/features/feature-accordion-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-accordion-image.tsx"
+    },
+    "feature-icon-tabs-content": {
+      "title": "Feature Icon Tabs Content",
+      "componentPath": "blocks/features/feature-icon-tabs-content.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-icon-tabs-content.tsx"
+    },
+    "feature-tabbed-content-image": {
+      "title": "Feature Tabbed Content Image",
+      "componentPath": "blocks/features/feature-tabbed-content-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-tabbed-content-image.tsx"
+    },
+    "feature-bento-image-grid": {
+      "title": "Feature Bento Image Grid",
+      "componentPath": "blocks/features/feature-bento-image-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-bento-image-grid.tsx"
+    },
+    "feature-bento-utilities": {
+      "title": "Feature Bento Utilities",
+      "componentPath": "blocks/features/feature-bento-utilities.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-bento-utilities.tsx"
+    },
+    "feature-carousel-progress": {
+      "title": "Feature Carousel Progress",
+      "componentPath": "blocks/features/feature-carousel-progress.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-carousel-progress.tsx"
+    },
+    "feature-image-overlay-badge": {
+      "title": "Feature Image Overlay Badge",
+      "componentPath": "blocks/features/feature-image-overlay-badge.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-image-overlay-badge.tsx"
+    },
+    "feature-animated-carousel": {
+      "title": "Feature Animated Carousel",
+      "componentPath": "blocks/features/feature-animated-carousel.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-animated-carousel.tsx"
+    },
+    "feature-showcase": {
+      "title": "Feature Showcase",
+      "componentPath": "blocks/features/feature-showcase.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "src/blocks/features/feature-showcase.tsx"
+    },
+    "faq-simple-accordion": {
+      "title": "FAQ Simple Accordion",
+      "componentPath": "blocks/faq/faq-simple-accordion.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-simple-accordion"
+    },
+    "faq-static-list": {
+      "title": "FAQ Static List",
+      "componentPath": "blocks/faq/faq-static-list.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-static-list"
+    },
+    "faq-centered-accordion": {
+      "title": "FAQ Centered Accordion",
+      "componentPath": "blocks/faq/faq-centered-accordion.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-centered-accordion"
+    },
+    "faq-badge-support": {
+      "title": "FAQ Badge Support",
+      "componentPath": "blocks/faq/faq-badge-support.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-badge-support"
+    },
+    "faq-numbered-list": {
+      "title": "FAQ Numbered List",
+      "componentPath": "blocks/faq/faq-numbered-list.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-numbered-list"
+    },
+    "faq-numbered-grid": {
+      "title": "FAQ Numbered Grid",
+      "componentPath": "blocks/faq/faq-numbered-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-numbered-grid"
+    },
+    "faq-split-help": {
+      "title": "FAQ Split Help",
+      "componentPath": "blocks/faq/faq-split-help.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-split-help"
+    },
+    "faq-categorized-sections": {
+      "title": "FAQ Categorized Sections",
+      "componentPath": "blocks/faq/faq-categorized-sections.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289173/d97gbjgrs23swf979ao0ob2t7bxq/cleanshot-2026-01-29-at-14-57-04.png",
+        "mobile": "https://cdn.ing/assets/i/r/289171/0pjedqt6kjmi8k4wjik9r3l2it1s/blocks-faq-categorized-sections-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289173/d97gbjgrs23swf979ao0ob2t7bxq/cleanshot-2026-01-29-at-14-57-04.png",
+        "mobile": "https://cdn.ing/assets/i/r/289171/0pjedqt6kjmi8k4wjik9r3l2it1s/blocks-faq-categorized-sections-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-categorized-sections"
+    },
+    "faq-muted-cards": {
+      "title": "FAQ Muted Cards",
+      "componentPath": "blocks/faq/faq-muted-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-muted-cards"
+    },
+    "faq-bordered-badge": {
+      "title": "FAQ Bordered Badge",
+      "componentPath": "blocks/faq/faq-bordered-badge.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289177/uyirq3o9r5mjw9mduv4efn0sa3wp/blocks-faq-bordered-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289176/erqjhw6rakrzesto8b728j3xcla2/blocks-faq-bordered-badge-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289177/uyirq3o9r5mjw9mduv4efn0sa3wp/blocks-faq-bordered-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289176/erqjhw6rakrzesto8b728j3xcla2/blocks-faq-bordered-badge-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-bordered-badge"
+    },
+    "faq-gradient-categories": {
+      "title": "FAQ Gradient Categories",
+      "componentPath": "blocks/faq/faq-gradient-categories.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
+        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
+        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-gradient-categories"
+    },
+    "faq-sidebar-navigation": {
+      "title": "FAQ Sidebar Navigation",
+      "componentPath": "blocks/faq/faq-sidebar-navigation.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289185/mb4mh8wawy3qi5s5gexhghjw3g6v/cleanshot-2026-01-29-at-15-12-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289185/mb4mh8wawy3qi5s5gexhghjw3g6v/cleanshot-2026-01-29-at-15-12-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-sidebar-navigation"
+    },
+    "faq-card-categories": {
+      "title": "FAQ Card Categories",
+      "componentPath": "blocks/faq/faq-card-categories.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289188/ncm5rtqzvjuuouzt6g0jb5mfbkk2/cleanshot-2026-01-29-at-15-14-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/289186/6nmr2mhyq2kjkuttftkmyhny95uj/blocks-faq-card-categories-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289188/ncm5rtqzvjuuouzt6g0jb5mfbkk2/cleanshot-2026-01-29-at-15-14-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/289186/6nmr2mhyq2kjkuttftkmyhny95uj/blocks-faq-card-categories-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-card-categories"
+    },
+    "faq-icon-benefits": {
+      "title": "FAQ Icon Benefits",
+      "componentPath": "blocks/faq/faq-icon-benefits.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-icon-benefits"
+    },
+    "faq-rounded-cards": {
+      "title": "FAQ Rounded Cards",
+      "componentPath": "blocks/faq/faq-rounded-cards.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-rounded-cards"
+    },
+    "faq-profile-sidebar": {
+      "title": "FAQ Profile Sidebar",
+      "componentPath": "blocks/faq/faq-profile-sidebar.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-profile-sidebar"
+    },
+    "faq-split-hero": {
+      "title": "FAQ Split Hero",
+      "componentPath": "blocks/faq/faq-split-hero.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/289196/xk66t2zn1us5qilsefy3mvtsetc6/blocks-faq-split-hero-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/289196/xk66t2zn1us5qilsefy3mvtsetc6/blocks-faq-split-hero-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/faq/faq-split-hero"
+    },
+    "process-expandable-timeline": {
+      "title": "Process Expandable Timeline",
+      "componentPath": "blocks/process/process-expandable-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-expandable-timeline"
+    },
+    "process-hover-cards": {
+      "title": "Process Hover Cards",
+      "componentPath": "blocks/process/process-hover-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-hover-cards"
+    },
+    "process-icon-timeline": {
+      "title": "Process Icon Timeline",
+      "componentPath": "blocks/process/process-icon-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-icon-timeline"
+    },
+    "process-mission-principles": {
+      "title": "Process Mission Principles",
+      "componentPath": "blocks/process/process-mission-principles.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-mission-principles"
+    },
+    "process-numbered-services": {
+      "title": "Process Numbered Services",
+      "componentPath": "blocks/process/process-numbered-services.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-numbered-services"
+    },
+    "process-roadmap-timeline": {
+      "title": "Process Roadmap Timeline",
+      "componentPath": "blocks/process/process-roadmap-timeline.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-roadmap-timeline"
+    },
+    "process-scroll-image": {
+      "title": "Process Scroll Image",
+      "componentPath": "blocks/process/process-scroll-image.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-scroll-image"
+    },
+    "process-steps-grid": {
+      "title": "Process Steps Grid",
+      "componentPath": "blocks/process/process-steps-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-steps-grid"
+    },
+    "process-sticky-steps": {
+      "title": "Process Sticky Steps",
+      "componentPath": "blocks/process/process-sticky-steps.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/process/process-sticky-steps"
+    },
+    "link-page-bento-layout": {
+      "title": "Link Page Bento Layout",
+      "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-bento-layout"
+    },
+    "link-page-grid-cards": {
+      "title": "Link Page Grid Cards",
+      "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-grid-cards"
+    },
+    "link-page-minimal-profile": {
+      "title": "Link Page Minimal Profile",
+      "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-minimal-profile"
+    },
+    "link-page-newsletter-social": {
+      "title": "Link Page Newsletter Social",
+      "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-page-newsletter-social"
+    },
+    "link-tree-block": {
+      "title": "Link Tree Block",
+      "componentPath": "blocks/link-page/link-tree-block.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/link-page/link-tree-block"
+    },
+    "navbar-animated-preview": {
+      "title": "NavBar Animated Preview",
+      "componentPath": "blocks/navbars/navbar-animated-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-animated-preview"
+    },
+    "navbar-centered-menu": {
+      "title": "NavBar Centered Menu",
+      "componentPath": "blocks/navbars/navbar-centered-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-centered-menu"
+    },
+    "navbar-dark-icons": {
+      "title": "NavBar Dark Icons",
+      "componentPath": "blocks/navbars/navbar-dark-icons.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-dark-icons"
+    },
+    "navbar-dropdown-menu": {
+      "title": "NavBar Dropdown Menu",
+      "componentPath": "blocks/navbars/navbar-dropdown-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-dropdown-menu"
+    },
+    "navbar-education-platform": {
+      "title": "NavBar Education Platform",
+      "componentPath": "blocks/navbars/navbar-education-platform.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-education-platform"
+    },
+    "navbar-enterprise-mega": {
+      "title": "NavBar Enterprise Mega",
+      "componentPath": "blocks/navbars/navbar-enterprise-mega.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-enterprise-mega"
+    },
+    "navbar-feature-grid": {
+      "title": "NavBar Feature Grid",
+      "componentPath": "blocks/navbars/navbar-feature-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-feature-grid"
+    },
+    "navbar-floating-pill": {
+      "title": "NavBar Floating Pill",
+      "componentPath": "blocks/navbars/navbar-floating-pill.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-floating-pill"
+    },
+    "navbar-fullscreen-menu": {
+      "title": "NavBar Fullscreen Menu",
+      "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-fullscreen-menu"
+    },
+    "navbar-icon-links": {
+      "title": "NavBar Icon Links",
+      "componentPath": "blocks/navbars/navbar-icon-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-icon-links"
+    },
+    "navbar-image-preview": {
+      "title": "NavBar Image Preview",
+      "componentPath": "blocks/navbars/navbar-image-preview.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-image-preview"
+    },
+    "navbar-mega-menu": {
+      "title": "NavBar Mega Menu",
+      "componentPath": "blocks/navbars/navbar-mega-menu.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-mega-menu"
+    },
+    "navbar-multi-column-groups": {
+      "title": "NavBar Multi Column Groups",
+      "componentPath": "blocks/navbars/navbar-multi-column-groups.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-multi-column-groups"
+    },
+    "navbar-platform-resources": {
+      "title": "NavBar Platform Resources",
+      "componentPath": "blocks/navbars/navbar-platform-resources.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-platform-resources"
+    },
+    "navbar-search-focused": {
+      "title": "NavBar Search Focused",
+      "componentPath": "blocks/navbars/navbar-search-focused.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-search-focused"
+    },
+    "navbar-sidebar-mobile": {
+      "title": "NavBar Sidebar Mobile",
+      "componentPath": "blocks/navbars/navbar-sidebar-mobile.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-sidebar-mobile"
+    },
+    "navbar-simple-links": {
+      "title": "NavBar Simple Links",
+      "componentPath": "blocks/navbars/navbar-simple-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-simple-links"
+    },
+    "navbar-split-cta": {
+      "title": "NavBar Split CTA",
+      "componentPath": "blocks/navbars/navbar-split-cta.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-split-cta"
+    },
+    "navbar-sticky-compact": {
+      "title": "NavBar Sticky Compact",
+      "componentPath": "blocks/navbars/navbar-sticky-compact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-sticky-compact"
+    },
+    "navbar-tabbed-sections": {
+      "title": "NavBar Tabbed Sections",
+      "componentPath": "blocks/navbars/navbar-tabbed-sections.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-tabbed-sections"
+    },
+    "navbar-transparent-overlay": {
+      "title": "NavBar Transparent Overlay",
+      "componentPath": "blocks/navbars/navbar-transparent-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/navbars/navbar-transparent-overlay"
+    },
+    "auto-scroll-carousel": {
+      "title": "Auto Scroll Carousel",
+      "componentPath": "blocks/gallery/auto-scroll-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/auto-scroll-carousel"
+    },
+    "blur-vignette-grid": {
+      "title": "Blur Vignette Grid",
+      "componentPath": "blocks/gallery/blur-vignette-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/blur-vignette-grid"
+    },
+    "carousel-badge-cards": {
+      "title": "Carousel Badge Cards",
+      "componentPath": "blocks/gallery/carousel-badge-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-badge-cards"
+    },
+    "carousel-demo-link": {
+      "title": "Carousel Demo Link",
+      "componentPath": "blocks/gallery/carousel-demo-link.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-demo-link"
+    },
+    "carousel-gradient-overlay": {
+      "title": "Carousel Gradient Overlay",
+      "componentPath": "blocks/gallery/carousel-gradient-overlay.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-gradient-overlay"
+    },
+    "carousel-gradient-text": {
+      "title": "Carousel Gradient Text",
+      "componentPath": "blocks/gallery/carousel-gradient-text.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-gradient-text"
+    },
+    "carousel-icon-sidebar": {
+      "title": "Carousel Icon Sidebar",
+      "componentPath": "blocks/gallery/carousel-icon-sidebar.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-icon-sidebar"
+    },
+    "carousel-icon-tabs": {
+      "title": "Carousel Icon Tabs",
+      "componentPath": "blocks/gallery/carousel-icon-tabs.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-icon-tabs"
+    },
+    "carousel-scale-focus": {
+      "title": "Carousel Scale Focus",
+      "componentPath": "blocks/gallery/carousel-scale-focus.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-scale-focus"
+    },
+    "carousel-sidebar-resources": {
+      "title": "Carousel Sidebar Resources",
+      "componentPath": "blocks/gallery/carousel-sidebar-resources.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-sidebar-resources"
+    },
+    "carousel-tabs-content": {
+      "title": "Carousel Tabs Content",
+      "componentPath": "blocks/gallery/carousel-tabs-content.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/carousel-tabs-content"
+    },
+    "expandable-case-study-cards": {
+      "title": "Expandable Case Study Cards",
+      "componentPath": "blocks/gallery/expandable-case-study-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/expandable-case-study-cards"
+    },
+    "interior-carousel": {
+      "title": "Interior Carousel",
+      "componentPath": "blocks/gallery/interior-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/interior-carousel"
+    },
+    "masonry-motion-grid": {
+      "title": "Masonry Motion Grid",
+      "componentPath": "blocks/gallery/masonry-motion-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/masonry-motion-grid"
+    },
+    "service-hover-carousel": {
+      "title": "Service Hover Carousel",
+      "componentPath": "blocks/gallery/service-hover-carousel.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/service-hover-carousel"
+    },
+    "testimonial-carousel-cards": {
+      "title": "Testimonial Carousel Cards",
+      "componentPath": "blocks/gallery/testimonial-carousel-cards.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/testimonial-carousel-cards"
+    },
+    "footer-accordion-social": {
+      "title": "Footer Accordion Social",
+      "componentPath": "blocks/footers/footer-accordion-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-accordion-social"
+    },
+    "footer-animated-social": {
+      "title": "Footer Animated Social",
+      "componentPath": "blocks/footers/footer-animated-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-animated-social"
+    },
+    "footer-background-card": {
+      "title": "Footer Background Card",
+      "componentPath": "blocks/footers/footer-background-card.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-background-card"
+    },
+    "footer-brand-description": {
+      "title": "Footer Brand Description",
+      "componentPath": "blocks/footers/footer-brand-description.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-brand-description"
+    },
+    "footer-brand-links-contact": {
+      "title": "Footer Brand Links Contact",
+      "componentPath": "blocks/footers/footer-brand-links-contact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-brand-links-contact"
+    },
+    "footer-comprehensive-links": {
+      "title": "Footer Comprehensive Links",
+      "componentPath": "blocks/footers/footer-comprehensive-links.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-comprehensive-links"
+    },
+    "footer-contact-card": {
+      "title": "Footer Contact Card",
+      "componentPath": "blocks/footers/footer-contact-card.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-contact-card"
+    },
+    "footer-cta-banner": {
+      "title": "Footer CTA Banner",
+      "componentPath": "blocks/footers/footer-cta-banner.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-cta-banner"
+    },
+    "footer-cta-social": {
+      "title": "Footer CTA Social",
+      "componentPath": "blocks/footers/footer-cta-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-cta-social"
+    },
+    "footer-info-cards-accordion": {
+      "title": "Footer Info Cards Accordion",
+      "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-info-cards-accordion"
+    },
+    "footer-links-grid": {
+      "title": "Footer Links Grid",
+      "componentPath": "blocks/footers/footer-links-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-links-grid"
+    },
+    "footer-nav-social": {
+      "title": "Footer Nav Social",
+      "componentPath": "blocks/footers/footer-nav-social.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-nav-social"
+    },
+    "footer-newsletter-contact": {
+      "title": "Footer Newsletter Contact",
+      "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-contact"
+    },
+    "footer-newsletter-grid": {
+      "title": "Footer Newsletter Grid",
+      "componentPath": "blocks/footers/footer-newsletter-grid.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-grid"
+    },
+    "footer-newsletter-minimal": {
+      "title": "Footer Newsletter Minimal",
+      "componentPath": "blocks/footers/footer-newsletter-minimal.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-newsletter-minimal"
+    },
+    "footer-simple-centered": {
+      "title": "Footer Simple Centered",
+      "componentPath": "blocks/footers/footer-simple-centered.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-simple-centered"
+    },
+    "footer-social-apps": {
+      "title": "Footer Social Apps",
+      "componentPath": "blocks/footers/footer-social-apps.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-social-apps"
+    },
+    "footer-social-newsletter": {
+      "title": "Footer Social Newsletter",
+      "componentPath": "blocks/footers/footer-social-newsletter.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-social-newsletter"
+    },
+    "footer-split-image-accordion": {
+      "title": "Footer Split Image Accordion",
+      "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/footers/footer-split-image-accordion"
+    }
+  }
+}

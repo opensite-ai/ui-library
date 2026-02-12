@@ -5,7 +5,9 @@
       "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-ad-campaign-expert"
     },
     "hero-adaptable-product-grid": {
@@ -13,7 +15,9 @@
       "componentPath": "blocks/hero/hero-adaptable-product-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-adaptable-product-grid"
     },
     "hero-agency-animated-images": {
@@ -21,7 +25,9 @@
       "componentPath": "blocks/hero/hero-agency-animated-images.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-agency-animated-images"
     },
     "hero-ai-powered-carousel": {
@@ -29,7 +35,9 @@
       "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-ai-powered-carousel"
     },
     "hero-announcement-badge": {
@@ -37,7 +45,9 @@
       "componentPath": "blocks/hero/hero-announcement-badge.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-announcement-badge"
     },
     "hero-architecture-fullscreen": {
@@ -45,7 +55,9 @@
       "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-architecture-fullscreen"
     },
     "hero-badge-image-split": {
@@ -53,7 +65,9 @@
       "componentPath": "blocks/hero/hero-badge-image-split.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-badge-image-split"
     },
     "hero-badge-shadow-overlay": {
@@ -61,7 +75,9 @@
       "componentPath": "blocks/hero/hero-badge-shadow-overlay.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-badge-shadow-overlay"
     },
     "hero-billing-platform-logos": {
@@ -69,7 +85,9 @@
       "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-billing-platform-logos"
     },
     "hero-business-carousel-dots": {
@@ -77,7 +95,9 @@
       "componentPath": "blocks/hero/hero-business-carousel-dots.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-business-carousel-dots"
     },
     "hero-business-operations-mosaic": {
@@ -85,7 +105,9 @@
       "componentPath": "blocks/hero/hero-business-operations-mosaic.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-business-operations-mosaic"
     },
     "hero-centered-gradient-cta": {
@@ -93,7 +115,9 @@
       "componentPath": "blocks/hero/hero-centered-gradient-cta.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-centered-gradient-cta"
     },
     "hero-centered-image-grid": {
@@ -101,7 +125,9 @@
       "componentPath": "blocks/hero/hero-centered-image-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-centered-image-grid"
     },
     "hero-centered-screenshot": {
@@ -109,7 +135,9 @@
       "componentPath": "blocks/hero/hero-centered-screenshot.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-centered-screenshot"
     },
     "hero-coming-soon-countdown": {
@@ -117,7 +145,9 @@
       "componentPath": "blocks/hero/hero-coming-soon-countdown.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-coming-soon-countdown"
     },
     "hero-community-survey-cta": {
@@ -125,7 +155,9 @@
       "componentPath": "blocks/hero/hero-community-survey-cta.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-community-survey-cta"
     },
     "hero-conversation-intelligence": {
@@ -133,7 +165,9 @@
       "componentPath": "blocks/hero/hero-conversation-intelligence.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-conversation-intelligence"
     },
     "hero-conversion-video-play": {
@@ -141,7 +175,9 @@
       "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-conversion-video-play"
     },
     "hero-creative-studio-stacked": {
@@ -149,7 +185,9 @@
       "componentPath": "blocks/hero/hero-creative-studio-stacked.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-creative-studio-stacked"
     },
     "hero-crm-streamlined": {
@@ -157,7 +195,9 @@
       "componentPath": "blocks/hero/hero-crm-streamlined.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-crm-streamlined"
     },
     "hero-customer-support-layered": {
@@ -165,7 +205,9 @@
       "componentPath": "blocks/hero/hero-customer-support-layered.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-customer-support-layered"
     },
     "hero-dashed-border-features": {
@@ -173,7 +215,9 @@
       "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-dashed-border-features"
     },
     "hero-design-carousel-portfolio": {
@@ -181,7 +225,9 @@
       "componentPath": "blocks/hero/hero-design-carousel-portfolio.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-design-carousel-portfolio"
     },
     "hero-design-showcase-logos": {
@@ -189,7 +235,9 @@
       "componentPath": "blocks/hero/hero-design-showcase-logos.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-design-showcase-logos"
     },
     "hero-design-system-3d": {
@@ -197,7 +245,9 @@
       "componentPath": "blocks/hero/hero-design-system-3d.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-design-system-3d"
     },
     "hero-developer-tools-code": {
@@ -205,7 +255,9 @@
       "componentPath": "blocks/hero/hero-developer-tools-code.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-developer-tools-code"
     },
     "hero-digital-agency-fullscreen": {
@@ -213,7 +265,9 @@
       "componentPath": "blocks/hero/hero-digital-agency-fullscreen.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-digital-agency-fullscreen"
     },
     "hero-ecommerce-product-showcase": {
@@ -221,7 +275,9 @@
       "componentPath": "blocks/hero/hero-ecommerce-product-showcase.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-ecommerce-product-showcase"
     },
     "hero-enterprise-security": {
@@ -229,7 +285,9 @@
       "componentPath": "blocks/hero/hero-enterprise-security.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-enterprise-security"
     },
     "hero-event-registration": {
@@ -237,7 +295,9 @@
       "componentPath": "blocks/hero/hero-event-registration.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-event-registration"
     },
     "hero-feature-cards-grid": {
@@ -245,7 +305,9 @@
       "componentPath": "blocks/hero/hero-feature-cards-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-feature-cards-grid"
     },
     "hero-floating-images": {
@@ -275,7 +337,9 @@
       "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-fullscreen-background-image"
     },
     "hero-fullscreen-logo-cta": {
@@ -283,7 +347,9 @@
       "componentPath": "blocks/hero/hero-fullscreen-logo-cta.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-fullscreen-logo-cta"
     },
     "hero-gradient-avatars-rating": {
@@ -291,7 +357,9 @@
       "componentPath": "blocks/hero/hero-gradient-avatars-rating.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-gradient-avatars-rating"
     },
     "hero-gradient-client-focused": {
@@ -299,7 +367,9 @@
       "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-gradient-client-focused"
     },
     "hero-grid-pattern-efficiency": {
@@ -307,7 +377,9 @@
       "componentPath": "blocks/hero/hero-grid-pattern-efficiency.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-grid-pattern-efficiency"
     },
     "hero-grid-pattern-solutions": {
@@ -315,7 +387,9 @@
       "componentPath": "blocks/hero/hero-grid-pattern-solutions.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-grid-pattern-solutions"
     },
     "hero-hiring-animated-text": {
@@ -323,7 +397,9 @@
       "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-hiring-animated-text"
     },
     "hero-image-left-content": {
@@ -331,7 +407,9 @@
       "componentPath": "blocks/hero/hero-image-left-content.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-image-left-content"
     },
     "hero-image-slider": {
@@ -339,7 +417,9 @@
       "componentPath": "blocks/hero/hero-image-slider.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-image-slider"
     },
     "hero-innovation-image-grid": {
@@ -347,7 +427,9 @@
       "componentPath": "blocks/hero/hero-innovation-image-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-innovation-image-grid"
     },
     "hero-logo-centered-screenshot": {
@@ -355,7 +437,9 @@
       "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-logo-centered-screenshot"
     },
     "hero-marketplace-scattered-images": {
@@ -363,7 +447,9 @@
       "componentPath": "blocks/hero/hero-marketplace-scattered-images.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-marketplace-scattered-images"
     },
     "hero-mental-health-team": {
@@ -371,7 +457,9 @@
       "componentPath": "blocks/hero/hero-mental-health-team.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-mental-health-team"
     },
     "hero-mentorship-video-split": {
@@ -379,7 +467,9 @@
       "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-mentorship-video-split"
     },
     "hero-minimal-centered-dark": {
@@ -387,7 +477,9 @@
       "componentPath": "blocks/hero/hero-minimal-centered-dark.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-minimal-centered-dark"
     },
     "hero-mobile-app-download": {
@@ -395,7 +487,9 @@
       "componentPath": "blocks/hero/hero-mobile-app-download.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-mobile-app-download"
     },
     "hero-newsletter-minimal": {
@@ -403,7 +497,9 @@
       "componentPath": "blocks/hero/hero-newsletter-minimal.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-newsletter-minimal"
     },
     "hero-overlay-cta-grid": {
@@ -411,7 +507,9 @@
       "componentPath": "blocks/hero/hero-overlay-cta-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-overlay-cta-grid"
     },
     "hero-pattern-badge-logos": {
@@ -419,7 +517,9 @@
       "componentPath": "blocks/hero/hero-pattern-badge-logos.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-pattern-badge-logos"
     },
     "hero-pattern-logo-tech-stack": {
@@ -427,7 +527,9 @@
       "componentPath": "blocks/hero/hero-pattern-logo-tech-stack.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-pattern-logo-tech-stack"
     },
     "hero-platform-features-grid": {
@@ -435,7 +537,9 @@
       "componentPath": "blocks/hero/hero-platform-features-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-platform-features-grid"
     },
     "hero-portfolio-creative": {
@@ -443,7 +547,9 @@
       "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-portfolio-creative"
     },
     "hero-premium-split-avatars": {
@@ -451,7 +557,9 @@
       "componentPath": "blocks/hero/hero-premium-split-avatars.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-premium-split-avatars"
     },
     "hero-presentation-platform-video": {
@@ -459,7 +567,9 @@
       "componentPath": "blocks/hero/hero-presentation-platform-video.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-presentation-platform-video"
     },
     "hero-pricing-comparison": {
@@ -467,7 +577,9 @@
       "componentPath": "blocks/hero/hero-pricing-comparison.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-pricing-comparison"
     },
     "hero-product-showcase-floating": {
@@ -475,7 +587,9 @@
       "componentPath": "blocks/hero/hero-product-showcase-floating.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-product-showcase-floating"
     },
     "hero-productivity-launcher-video": {
@@ -483,7 +597,9 @@
       "componentPath": "blocks/hero/hero-productivity-launcher-video.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-productivity-launcher-video"
     },
     "hero-saas-dashboard-preview": {
@@ -491,7 +607,9 @@
       "componentPath": "blocks/hero/hero-saas-dashboard-preview.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-saas-dashboard-preview"
     },
     "hero-shared-inbox-layered": {
@@ -499,7 +617,9 @@
       "componentPath": "blocks/hero/hero-shared-inbox-layered.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-shared-inbox-layered"
     },
     "hero-simple-centered-image": {
@@ -507,7 +627,9 @@
       "componentPath": "blocks/hero/hero-simple-centered-image.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-simple-centered-image"
     },
     "hero-software-growth-video-dialog": {
@@ -515,7 +637,9 @@
       "componentPath": "blocks/hero/hero-software-growth-video-dialog.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-software-growth-video-dialog"
     },
     "hero-spiral-pattern-cards": {
@@ -523,7 +647,9 @@
       "componentPath": "blocks/hero/hero-spiral-pattern-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-spiral-pattern-cards"
     },
     "hero-split-geometric-shapes": {
@@ -531,7 +657,9 @@
       "componentPath": "blocks/hero/hero-split-geometric-shapes.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-split-geometric-shapes"
     },
     "hero-split-icon-cards": {
@@ -539,7 +667,9 @@
       "componentPath": "blocks/hero/hero-split-icon-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-split-icon-cards"
     },
     "hero-split-image-newsletter": {
@@ -547,7 +677,9 @@
       "componentPath": "blocks/hero/hero-split-image-newsletter.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-split-image-newsletter"
     },
     "hero-split-spiral-shapes": {
@@ -555,7 +687,9 @@
       "componentPath": "blocks/hero/hero-split-spiral-shapes.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-split-spiral-shapes"
     },
     "hero-startup-launch-cta": {
@@ -563,7 +697,9 @@
       "componentPath": "blocks/hero/hero-startup-launch-cta.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-startup-launch-cta"
     },
     "hero-stats-social-proof": {
@@ -571,7 +707,9 @@
       "componentPath": "blocks/hero/hero-stats-social-proof.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-stats-social-proof"
     },
     "hero-task-timer-animated": {
@@ -579,7 +717,9 @@
       "componentPath": "blocks/hero/hero-task-timer-animated.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-task-timer-animated"
     },
     "hero-tech-carousel": {
@@ -587,7 +727,9 @@
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-tech-carousel"
     },
     "hero-testimonial-image-grid": {
@@ -595,7 +737,9 @@
       "componentPath": "blocks/hero/hero-testimonial-image-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-testimonial-image-grid"
     },
     "hero-therapy-testimonial-grid": {
@@ -603,7 +747,9 @@
       "componentPath": "blocks/hero/hero-therapy-testimonial-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-therapy-testimonial-grid"
     },
     "hero-ui-library-showcase": {
@@ -611,7 +757,9 @@
       "componentPath": "blocks/hero/hero-ui-library-showcase.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-ui-library-showcase"
     },
     "hero-video-background-dark": {
@@ -619,7 +767,9 @@
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-video-background-dark"
     },
     "hero-video-dialog-gradient": {
@@ -627,7 +777,9 @@
       "componentPath": "blocks/hero/hero-video-dialog-gradient.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-video-dialog-gradient"
     },
     "hero-video-overlay-stars": {
@@ -635,7 +787,9 @@
       "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-video-overlay-stars"
     },
     "hero-welcome-asymmetric-images": {
@@ -643,7 +797,9 @@
       "componentPath": "blocks/hero/hero-welcome-asymmetric-images.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/hero/hero-welcome-asymmetric-images"
     },
     "stats-impact-grid": {
@@ -657,7 +813,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288940/71bf2g13yafem6q5lp74mo32vswj/stats-impact-grid-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-impact-grid.tsx"
     },
     "stats-simple-grid": {
@@ -671,7 +829,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288948/6lxanoy3dgk4cmpokifjxfzbln7v/stats-simple-grid-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288949/6uyhqrb9o62330c3hrzadhqhk8qh/stats-simple-grid-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-simple-grid.tsx"
     },
     "stats-icon-cards": {
@@ -685,7 +845,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288938/urt7yb9mjarmi4emo69k4gdz6bi3/stats-icon-cards-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288939/hyynr6l3xvzxygjo0ovp3rk4j3on/stats-icon-cards-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-icon-cards.tsx"
     },
     "stats-timeline-tabs": {
@@ -699,7 +861,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288950/qqma1bduvtkiw0emx54p8faznbq8/stats-timeline-tabs-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288951/0n55r6asbot6nldpwksguhmqa8e0/stats-timeline-tabs-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-timeline-tabs.tsx"
     },
     "stats-primary-secondary": {
@@ -713,7 +877,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288946/bsfdnq1evrm3yh18diynkhbzy5p0/stats-primary-secondary-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288947/dfoy9qym72kwb09pt2bihg4u0qev/stats-primary-secondary-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-primary-secondary.tsx"
     },
     "stats-growth-timeline": {
@@ -727,7 +893,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288936/otkldz7km9w9q43k1f1moppu0frk/stats-growth-timeline-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288937/toqnx92kq668q01mbqfi7enlxqbp/stats-growth-timeline-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-growth-timeline.tsx"
     },
     "stats-circular-progress": {
@@ -741,7 +909,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288934/fmr3zi2q1zsd628mldxv04exv2s6/stats-circular-progress-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288935/xn1o1ztka52gs1lb7m18cc0rnvnk/stats-circular-progress-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-circular-progress.tsx"
     },
     "stats-card-group": {
@@ -755,7 +925,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288932/5buz4db6pgoluc9omsplob8yvavj/stats-card-group-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288933/x5f9vc44qyvfdhraqsq2hw65kb46/stats-card-group-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-card-group.tsx"
     },
     "stats-animated-counter": {
@@ -769,7 +941,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288928/2dihbv54sh18i33vb0x430kdzlkd/stats-animated-counter-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288929/q0mz3rzjtncypcevls5kl4n9myl4/stats-animated-counter-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-animated-counter.tsx"
     },
     "stats-number-ticker": {
@@ -783,7 +957,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288944/ca3col5wx2hgmrrqmbnk3cmzz69q/stats-number-ticker-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288945/w4qfcfre8mppb87n3be8nq4of2gb/stats-number-ticker-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-number-ticker.tsx"
     },
     "stats-milestone-sidebar": {
@@ -797,7 +973,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288942/i4phziz7u7qi7d18e8yhgmmlhcoy/stats-milestone-sidebar-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288943/p2hrvhjs7we5ihjnuflw2caj1qul/stats-milestone-sidebar-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-milestone-sidebar.tsx"
     },
     "stats-bar-comparison": {
@@ -811,7 +989,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288930/pxzc1pdqynjduhm6z3j8eb6irlvg/stats-bar-comparison-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288931/c05qqffxc9bnl0f5tarsidnvpiey/stats-bar-comparison-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/stats/stats-bar-comparison.tsx"
     },
     "about-company-profile": {
@@ -825,7 +1005,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-company-profile.tsx"
     },
     "about-developer-profile": {
@@ -839,7 +1021,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-developer-profile.tsx"
     },
     "about-developer-story": {
@@ -853,7 +1037,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-developer-story.tsx"
     },
     "about-interactive-tabs": {
@@ -867,7 +1053,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
     },
     "about-location-info-hero": {
@@ -881,7 +1069,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-location-info-hero.tsx"
     },
     "about-minimal-story": {
@@ -895,7 +1085,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288985/uohf2h5x28ks7oz7urmuiot4tow8/founder-letter-about-page-with-office-analytics-dashboard.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-minimal-story.tsx"
     },
     "about-mission-dual-image": {
@@ -909,7 +1101,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
     },
     "about-mission-features": {
@@ -923,7 +1117,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-mission-features.tsx"
     },
     "about-network-spotlight": {
@@ -937,7 +1133,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx"
     },
     "about-startup-team": {
@@ -951,7 +1149,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289016/72d9p48bkwv0vufjcszal1a0ajdv/about-startup-team-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-startup-team.tsx"
     },
     "about-stats-showcase": {
@@ -965,7 +1165,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-stats-showcase.tsx"
     },
     "about-stats-sidebar": {
@@ -979,7 +1181,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-stats-sidebar.tsx"
     },
     "about-story-expertise": {
@@ -993,7 +1197,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-story-expertise.tsx"
     },
     "about-story-gallery": {
@@ -1007,7 +1213,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-story-gallery.tsx"
     },
     "about-story-hero": {
@@ -1021,7 +1229,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289001/jacnqg4889w53zpi3fuus6r8auyw/about-story-hero-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-story-hero.tsx"
     },
     "about-streamline-team": {
@@ -1035,7 +1245,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-streamline-team.tsx"
     },
     "about-vision-gallery": {
@@ -1049,7 +1261,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx"
     },
     "about-culture-tabs": {
@@ -1063,7 +1277,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-culture-tabs.tsx"
     },
     "about-expandable-values": {
@@ -1077,7 +1293,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-expandable-values.tsx"
     },
     "about-mission-principles": {
@@ -1091,7 +1309,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-mission-principles.tsx"
     },
     "about-split-hero": {
@@ -1105,7 +1325,9 @@
         "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
         "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/about-split-hero.tsx"
     },
     "alternating-blocks": {
@@ -1119,7 +1341,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289006/ve7asunbik4wjsz2b9sdjf01l2wn/alternating-blocks-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289007/1xi5156id33mlrlq4ckv2e0mnsbk/alternating-blocks-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/alternating-blocks.tsx"
     },
     "community-initiatives": {
@@ -1133,7 +1357,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/about/community-initiatives.tsx"
     },
     "article-breadcrumb-social": {
@@ -1147,7 +1373,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
     },
     "article-chapters-author": {
@@ -1161,7 +1389,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-chapters-author.tsx"
     },
     "article-compact-toc": {
@@ -1175,7 +1405,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-compact-toc.tsx"
     },
     "article-hero-prose": {
@@ -1189,7 +1421,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-hero-prose.tsx"
     },
     "article-sidebar-sticky": {
@@ -1203,7 +1437,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
     },
     "article-split-animated": {
@@ -1217,7 +1453,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-split-animated.tsx"
     },
     "article-toc-sidebar": {
@@ -1231,7 +1469,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/article/article-toc-sidebar.tsx"
     },
     "blog-cards-read-time": {
@@ -1245,7 +1485,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289039/fxiksjovvtc1ax99dz0pvtqbinkm/blog-cards-read-time-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289040/wzjl8rhzpbrqp4h2glbwb6j79e7k/blog-cards-read-time-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-cards-read-time.tsx"
     },
     "blog-cards-tagline-cta": {
@@ -1259,7 +1501,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289037/dliy8285arwy51vif3l2r41b3dlr/blog-cards-tagline-cta-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289038/0ctigvmiij64bdu3hi4e5cq71r84/blog-cards-tagline-cta-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-cards-tagline-cta.tsx"
     },
     "blog-carousel-apple": {
@@ -1273,7 +1517,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289049/59tcotkcdz7lgaf1lma9w0tf2i3s/blog-carousel-apple-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289050/239jbb4c2yn5m2gqdj0i9s0g8xzt/blog-carousel-apple-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-carousel-apple.tsx"
     },
     "blog-category-overlay": {
@@ -1287,7 +1533,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289041/sit5hcfahlcas6x4gteh9s4ku8si/blog-category-overlay-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289042/v33nsz7ia6qtmuczwt4ekg3yp1p4/blog-category-overlay-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-category-overlay.tsx"
     },
     "blog-featured-popular": {
@@ -1301,7 +1549,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289043/j82rplpq97adxj2rz70mi15nz5pu/blog-featured-popular-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-featured-popular.tsx"
     },
     "blog-filtered-results": {
@@ -1315,7 +1565,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-filtered-results.tsx"
     },
     "blog-grid-author-cards": {
@@ -1329,7 +1581,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-grid-author-cards.tsx"
     },
     "blog-grid-nine-posts": {
@@ -1343,7 +1597,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289053/685jc9awca7gzkfnf0pyt1ck2otg/blog-grid-nine-posts-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289054/f29qybwcou2r5epplxqz6h9vceep/blog-grid-nine-posts-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-grid-nine-posts.tsx"
     },
     "blog-horizontal-cards": {
@@ -1357,7 +1613,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289047/4anidn99fztkdrgbdr00bhdvodhe/blog-horizontal-cards-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-horizontal-cards.tsx"
     },
     "blog-horizontal-timeline": {
@@ -1371,7 +1629,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-horizontal-timeline.tsx"
     },
     "blog-masonry-featured": {
@@ -1385,7 +1645,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-masonry-featured.tsx"
     },
     "blog-related-articles": {
@@ -1399,7 +1661,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289045/302tw35wkqc33u0n0mtxxo0kqie6/blog-related-articles-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-related-articles.tsx"
     },
     "blog-tech-insights": {
@@ -1413,7 +1677,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289113/pctzj2fqzonzgjla0jigkf5jjh1t/blocks-blog-tech-insights-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/blog/blog-tech-insights.tsx"
     },
     "carousel-animated-sections": {
@@ -1427,7 +1693,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289109/kn7njl53hgft99n489wb3azustqt/carousel-animated-sections-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-animated-sections.tsx"
     },
     "carousel-autoplay-progress": {
@@ -1441,7 +1709,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-autoplay-progress.tsx"
     },
     "carousel-auto-progress-slides": {
@@ -1455,7 +1725,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289067/nc0w7rixu020dd88lny396d7t312/carousel-auto-progress-slides-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289068/p8gtmwv7jky6bbufqqd3v9bp99nx/carousel-auto-progress-slides-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-auto-progress-slides.tsx"
     },
     "carousel-feature-badge": {
@@ -1469,7 +1741,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289200/gj8qep2lxp05ragqilq91ekh7d98/carousel-feature-badge-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-feature-badge.tsx"
     },
     "carousel-fullscreen-scroll-fx": {
@@ -1483,7 +1757,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289203/8gc46addhzx6krnm7vob5q7u43wj/carousel-fullscreen-scroll-fx-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289202/5a73inav6zwmsuxr6gfpzb5og55g/carousel-fullscreen-fx-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-fullscreen-scroll-fx.tsx"
     },
     "carousel-gallery-thumbnails": {
@@ -1497,7 +1773,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289204/zu4idgda2ywsx08gps209prl3tvl/carousel-gallery-thumbnails-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289205/j55tdxyy1l8bpftgu06dcxmj9fs7/carousel-gallery-thumbnails-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-gallery-thumbnails.tsx"
     },
     "carousel-horizontal-cards": {
@@ -1511,7 +1789,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289206/ej36a8ethqiefiialvzxkct29z3a/carousel-horizontal-cards-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289207/1ragesux520loxrrswmz7mp474oy/carousel-horizontal-cards-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-horizontal-cards.tsx"
     },
     "carousel-image-hero": {
@@ -1525,7 +1805,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289208/n0zkw4w86vuwct7olskqb9ale6oo/carousel-image-hero-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289209/ob0ewnxckivfda0flbteftetxgpy/carousel-image-hero-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-image-hero.tsx"
     },
     "carousel-multi-step-showcase": {
@@ -1539,7 +1821,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289210/hvruho22wlsn1ezax8ngk4i29nsl/carousel-multi-step-showcase-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289211/ny1yq020x55usk9jog1tko8dgbmg/carousel-multi-step-showcase-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-multi-step-showcase.tsx"
     },
     "carousel-portfolio-hero": {
@@ -1553,7 +1837,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
     },
     "carousel-product-feature-showcase": {
@@ -1567,7 +1853,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289214/olx55rx7yf4w4qjsvag4t8ma6afc/carousel-product-feature-showcase-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289215/vyum0n5jfn4xbi9owy9gidgxqquu/carousel-product-feature-showcase-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-product-feature-showcase.tsx"
     },
     "carousel-progress-slider": {
@@ -1581,7 +1869,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289216/zgl3b3bcdvgiz784wmnrdqp5mit2/carousel-progress-slider-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289217/66hy2n2n71upjhrm7dvy9wp8lew2/carousel-progress-slider-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx"
     },
     "carousel-scrolling-feature-showcase": {
@@ -1595,7 +1885,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
     },
     "feature-icon-grid-accent": {
@@ -1609,7 +1901,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-icon-grid-accent.tsx"
     },
     "feature-split-image": {
@@ -1623,7 +1917,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-split-image.tsx"
     },
     "feature-split-image-reverse": {
@@ -1637,7 +1933,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-split-image-reverse.tsx"
     },
     "feature-numbered-cards": {
@@ -1651,7 +1949,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-numbered-cards.tsx"
     },
     "feature-integration-cards": {
@@ -1665,7 +1965,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-integration-cards.tsx"
     },
     "feature-checklist-three-column": {
@@ -1679,7 +1981,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-checklist-three-column.tsx"
     },
     "feature-icon-grid-muted": {
@@ -1693,7 +1997,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-icon-grid-muted.tsx"
     },
     "feature-icon-grid-bordered": {
@@ -1707,7 +2013,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-icon-grid-bordered.tsx"
     },
     "feature-three-column-values": {
@@ -1721,7 +2029,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-three-column-values.tsx"
     },
     "feature-capabilities-grid": {
@@ -1735,7 +2045,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-capabilities-grid.tsx"
     },
     "feature-badge-grid-six": {
@@ -1749,7 +2061,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-badge-grid-six.tsx"
     },
     "feature-utility-cards-grid": {
@@ -1763,7 +2077,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-utility-cards-grid.tsx"
     },
     "feature-card-grid-linked": {
@@ -1777,7 +2093,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-card-grid-linked.tsx"
     },
     "feature-pattern-grid-links": {
@@ -1791,7 +2109,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-pattern-grid-links.tsx"
     },
     "feature-image-cards-three-column": {
@@ -1805,7 +2125,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-image-cards-three-column.tsx"
     },
     "feature-category-image-cards": {
@@ -1819,7 +2141,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-category-image-cards.tsx"
     },
     "feature-stats-highlight": {
@@ -1833,7 +2157,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-stats-highlight.tsx"
     },
     "feature-checklist-image": {
@@ -1847,7 +2173,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-checklist-image.tsx"
     },
     "feature-accordion-image": {
@@ -1861,7 +2189,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-accordion-image.tsx"
     },
     "feature-icon-tabs-content": {
@@ -1875,7 +2205,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-icon-tabs-content.tsx"
     },
     "feature-tabbed-content-image": {
@@ -1889,7 +2221,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-tabbed-content-image.tsx"
     },
     "feature-bento-image-grid": {
@@ -1903,7 +2237,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-bento-image-grid.tsx"
     },
     "feature-bento-utilities": {
@@ -1917,7 +2253,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-bento-utilities.tsx"
     },
     "feature-carousel-progress": {
@@ -1931,7 +2269,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-carousel-progress.tsx"
     },
     "feature-image-overlay-badge": {
@@ -1945,7 +2285,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-image-overlay-badge.tsx"
     },
     "feature-animated-carousel": {
@@ -1959,7 +2301,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-animated-carousel.tsx"
     },
     "feature-showcase": {
@@ -1973,7 +2317,9 @@
         "desktop": "",
         "mobile": ""
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "src/blocks/features/feature-showcase.tsx"
     },
     "faq-simple-accordion": {
@@ -1987,7 +2333,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-simple-accordion"
     },
     "faq-static-list": {
@@ -2001,7 +2349,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-static-list"
     },
     "faq-centered-accordion": {
@@ -2015,7 +2365,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-centered-accordion"
     },
     "faq-badge-support": {
@@ -2029,7 +2381,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-badge-support"
     },
     "faq-numbered-list": {
@@ -2043,7 +2397,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-numbered-list"
     },
     "faq-numbered-grid": {
@@ -2057,7 +2413,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-numbered-grid"
     },
     "faq-split-help": {
@@ -2071,7 +2429,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-split-help"
     },
     "faq-categorized-sections": {
@@ -2085,7 +2445,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289173/d97gbjgrs23swf979ao0ob2t7bxq/cleanshot-2026-01-29-at-14-57-04.png",
         "mobile": "https://cdn.ing/assets/i/r/289171/0pjedqt6kjmi8k4wjik9r3l2it1s/blocks-faq-categorized-sections-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-categorized-sections"
     },
     "faq-muted-cards": {
@@ -2099,7 +2461,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-muted-cards"
     },
     "faq-bordered-badge": {
@@ -2113,7 +2477,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289177/uyirq3o9r5mjw9mduv4efn0sa3wp/blocks-faq-bordered-badge-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289176/erqjhw6rakrzesto8b728j3xcla2/blocks-faq-bordered-badge-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-bordered-badge"
     },
     "faq-gradient-categories": {
@@ -2127,7 +2493,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
         "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-gradient-categories"
     },
     "faq-sidebar-navigation": {
@@ -2141,7 +2509,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289185/mb4mh8wawy3qi5s5gexhghjw3g6v/cleanshot-2026-01-29-at-15-12-39.png",
         "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-sidebar-navigation"
     },
     "faq-card-categories": {
@@ -2155,7 +2525,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289188/ncm5rtqzvjuuouzt6g0jb5mfbkk2/cleanshot-2026-01-29-at-15-14-42.png",
         "mobile": "https://cdn.ing/assets/i/r/289186/6nmr2mhyq2kjkuttftkmyhny95uj/blocks-faq-card-categories-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-card-categories"
     },
     "faq-icon-benefits": {
@@ -2169,7 +2541,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-icon-benefits"
     },
     "faq-rounded-cards": {
@@ -2183,7 +2557,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-rounded-cards"
     },
     "faq-profile-sidebar": {
@@ -2197,7 +2573,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-profile-sidebar"
     },
     "faq-split-hero": {
@@ -2211,7 +2589,9 @@
         "desktop": "https://cdn.ing/assets/i/r/289196/xk66t2zn1us5qilsefy3mvtsetc6/blocks-faq-split-hero-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/faq/faq-split-hero"
     },
     "process-expandable-timeline": {
@@ -2219,7 +2599,9 @@
       "componentPath": "blocks/process/process-expandable-timeline.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-expandable-timeline"
     },
     "process-hover-cards": {
@@ -2227,7 +2609,9 @@
       "componentPath": "blocks/process/process-hover-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-hover-cards"
     },
     "process-icon-timeline": {
@@ -2235,7 +2619,9 @@
       "componentPath": "blocks/process/process-icon-timeline.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-icon-timeline"
     },
     "process-mission-principles": {
@@ -2243,7 +2629,9 @@
       "componentPath": "blocks/process/process-mission-principles.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-mission-principles"
     },
     "process-numbered-services": {
@@ -2251,7 +2639,9 @@
       "componentPath": "blocks/process/process-numbered-services.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-numbered-services"
     },
     "process-roadmap-timeline": {
@@ -2259,7 +2649,9 @@
       "componentPath": "blocks/process/process-roadmap-timeline.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-roadmap-timeline"
     },
     "process-scroll-image": {
@@ -2267,7 +2659,9 @@
       "componentPath": "blocks/process/process-scroll-image.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-scroll-image"
     },
     "process-steps-grid": {
@@ -2275,7 +2669,9 @@
       "componentPath": "blocks/process/process-steps-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-steps-grid"
     },
     "process-sticky-steps": {
@@ -2283,7 +2679,9 @@
       "componentPath": "blocks/process/process-sticky-steps.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/process/process-sticky-steps"
     },
     "link-page-bento-layout": {
@@ -2291,7 +2689,9 @@
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/link-page/link-page-bento-layout"
     },
     "link-page-grid-cards": {
@@ -2299,7 +2699,9 @@
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/link-page/link-page-grid-cards"
     },
     "link-page-minimal-profile": {
@@ -2307,7 +2709,9 @@
       "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/link-page/link-page-minimal-profile"
     },
     "link-page-newsletter-social": {
@@ -2315,7 +2719,9 @@
       "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/link-page/link-page-newsletter-social"
     },
     "link-tree-block": {
@@ -2323,7 +2729,9 @@
       "componentPath": "blocks/link-page/link-tree-block.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/link-page/link-tree-block"
     },
     "navbar-animated-preview": {
@@ -2331,7 +2739,9 @@
       "componentPath": "blocks/navbars/navbar-animated-preview.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-animated-preview"
     },
     "navbar-centered-menu": {
@@ -2339,7 +2749,9 @@
       "componentPath": "blocks/navbars/navbar-centered-menu.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-centered-menu"
     },
     "navbar-dark-icons": {
@@ -2347,7 +2759,9 @@
       "componentPath": "blocks/navbars/navbar-dark-icons.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-dark-icons"
     },
     "navbar-dropdown-menu": {
@@ -2355,7 +2769,9 @@
       "componentPath": "blocks/navbars/navbar-dropdown-menu.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-dropdown-menu"
     },
     "navbar-education-platform": {
@@ -2363,7 +2779,9 @@
       "componentPath": "blocks/navbars/navbar-education-platform.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-education-platform"
     },
     "navbar-enterprise-mega": {
@@ -2371,7 +2789,9 @@
       "componentPath": "blocks/navbars/navbar-enterprise-mega.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-enterprise-mega"
     },
     "navbar-feature-grid": {
@@ -2379,7 +2799,9 @@
       "componentPath": "blocks/navbars/navbar-feature-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-feature-grid"
     },
     "navbar-floating-pill": {
@@ -2387,7 +2809,9 @@
       "componentPath": "blocks/navbars/navbar-floating-pill.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-floating-pill"
     },
     "navbar-fullscreen-menu": {
@@ -2395,7 +2819,9 @@
       "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-fullscreen-menu"
     },
     "navbar-icon-links": {
@@ -2403,7 +2829,9 @@
       "componentPath": "blocks/navbars/navbar-icon-links.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-icon-links"
     },
     "navbar-image-preview": {
@@ -2411,7 +2839,9 @@
       "componentPath": "blocks/navbars/navbar-image-preview.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-image-preview"
     },
     "navbar-mega-menu": {
@@ -2419,7 +2849,9 @@
       "componentPath": "blocks/navbars/navbar-mega-menu.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-mega-menu"
     },
     "navbar-multi-column-groups": {
@@ -2427,7 +2859,9 @@
       "componentPath": "blocks/navbars/navbar-multi-column-groups.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-multi-column-groups"
     },
     "navbar-platform-resources": {
@@ -2435,7 +2869,9 @@
       "componentPath": "blocks/navbars/navbar-platform-resources.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-platform-resources"
     },
     "navbar-search-focused": {
@@ -2443,7 +2879,9 @@
       "componentPath": "blocks/navbars/navbar-search-focused.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-search-focused"
     },
     "navbar-sidebar-mobile": {
@@ -2451,7 +2889,9 @@
       "componentPath": "blocks/navbars/navbar-sidebar-mobile.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-sidebar-mobile"
     },
     "navbar-simple-links": {
@@ -2459,7 +2899,9 @@
       "componentPath": "blocks/navbars/navbar-simple-links.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-simple-links"
     },
     "navbar-split-cta": {
@@ -2467,7 +2909,9 @@
       "componentPath": "blocks/navbars/navbar-split-cta.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-split-cta"
     },
     "navbar-sticky-compact": {
@@ -2475,7 +2919,9 @@
       "componentPath": "blocks/navbars/navbar-sticky-compact.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-sticky-compact"
     },
     "navbar-tabbed-sections": {
@@ -2483,7 +2929,9 @@
       "componentPath": "blocks/navbars/navbar-tabbed-sections.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-tabbed-sections"
     },
     "navbar-transparent-overlay": {
@@ -2491,7 +2939,9 @@
       "componentPath": "blocks/navbars/navbar-transparent-overlay.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/navbars/navbar-transparent-overlay"
     },
     "auto-scroll-carousel": {
@@ -2499,7 +2949,9 @@
       "componentPath": "blocks/gallery/auto-scroll-carousel.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/auto-scroll-carousel"
     },
     "blur-vignette-grid": {
@@ -2507,7 +2959,9 @@
       "componentPath": "blocks/gallery/blur-vignette-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/blur-vignette-grid"
     },
     "carousel-badge-cards": {
@@ -2515,7 +2969,9 @@
       "componentPath": "blocks/gallery/carousel-badge-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-badge-cards"
     },
     "carousel-demo-link": {
@@ -2523,7 +2979,9 @@
       "componentPath": "blocks/gallery/carousel-demo-link.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-demo-link"
     },
     "carousel-gradient-overlay": {
@@ -2531,7 +2989,9 @@
       "componentPath": "blocks/gallery/carousel-gradient-overlay.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-gradient-overlay"
     },
     "carousel-gradient-text": {
@@ -2539,7 +2999,9 @@
       "componentPath": "blocks/gallery/carousel-gradient-text.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-gradient-text"
     },
     "carousel-icon-sidebar": {
@@ -2547,7 +3009,9 @@
       "componentPath": "blocks/gallery/carousel-icon-sidebar.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-icon-sidebar"
     },
     "carousel-icon-tabs": {
@@ -2555,7 +3019,9 @@
       "componentPath": "blocks/gallery/carousel-icon-tabs.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-icon-tabs"
     },
     "carousel-scale-focus": {
@@ -2563,7 +3029,9 @@
       "componentPath": "blocks/gallery/carousel-scale-focus.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-scale-focus"
     },
     "carousel-sidebar-resources": {
@@ -2571,7 +3039,9 @@
       "componentPath": "blocks/gallery/carousel-sidebar-resources.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-sidebar-resources"
     },
     "carousel-tabs-content": {
@@ -2579,7 +3049,9 @@
       "componentPath": "blocks/gallery/carousel-tabs-content.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/carousel-tabs-content"
     },
     "expandable-case-study-cards": {
@@ -2587,7 +3059,9 @@
       "componentPath": "blocks/gallery/expandable-case-study-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/expandable-case-study-cards"
     },
     "interior-carousel": {
@@ -2595,7 +3069,9 @@
       "componentPath": "blocks/gallery/interior-carousel.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/interior-carousel"
     },
     "masonry-motion-grid": {
@@ -2603,7 +3079,9 @@
       "componentPath": "blocks/gallery/masonry-motion-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/masonry-motion-grid"
     },
     "service-hover-carousel": {
@@ -2611,7 +3089,9 @@
       "componentPath": "blocks/gallery/service-hover-carousel.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/service-hover-carousel"
     },
     "testimonial-carousel-cards": {
@@ -2619,7 +3099,9 @@
       "componentPath": "blocks/gallery/testimonial-carousel-cards.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/gallery/testimonial-carousel-cards"
     },
     "footer-accordion-social": {
@@ -2627,7 +3109,9 @@
       "componentPath": "blocks/footers/footer-accordion-social.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-accordion-social"
     },
     "footer-animated-social": {
@@ -2635,7 +3119,9 @@
       "componentPath": "blocks/footers/footer-animated-social.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-animated-social"
     },
     "footer-background-card": {
@@ -2643,7 +3129,9 @@
       "componentPath": "blocks/footers/footer-background-card.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-background-card"
     },
     "footer-brand-description": {
@@ -2651,7 +3139,9 @@
       "componentPath": "blocks/footers/footer-brand-description.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-brand-description"
     },
     "footer-brand-links-contact": {
@@ -2659,7 +3149,9 @@
       "componentPath": "blocks/footers/footer-brand-links-contact.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-brand-links-contact"
     },
     "footer-comprehensive-links": {
@@ -2667,7 +3159,9 @@
       "componentPath": "blocks/footers/footer-comprehensive-links.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-comprehensive-links"
     },
     "footer-contact-card": {
@@ -2675,7 +3169,9 @@
       "componentPath": "blocks/footers/footer-contact-card.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-contact-card"
     },
     "footer-cta-banner": {
@@ -2683,7 +3179,9 @@
       "componentPath": "blocks/footers/footer-cta-banner.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-cta-banner"
     },
     "footer-cta-social": {
@@ -2691,7 +3189,9 @@
       "componentPath": "blocks/footers/footer-cta-social.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-cta-social"
     },
     "footer-info-cards-accordion": {
@@ -2699,7 +3199,9 @@
       "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-info-cards-accordion"
     },
     "footer-links-grid": {
@@ -2707,7 +3209,9 @@
       "componentPath": "blocks/footers/footer-links-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-links-grid"
     },
     "footer-nav-social": {
@@ -2715,7 +3219,9 @@
       "componentPath": "blocks/footers/footer-nav-social.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-nav-social"
     },
     "footer-newsletter-contact": {
@@ -2723,7 +3229,9 @@
       "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-newsletter-contact"
     },
     "footer-newsletter-grid": {
@@ -2731,7 +3239,9 @@
       "componentPath": "blocks/footers/footer-newsletter-grid.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-newsletter-grid"
     },
     "footer-newsletter-minimal": {
@@ -2739,7 +3249,9 @@
       "componentPath": "blocks/footers/footer-newsletter-minimal.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-newsletter-minimal"
     },
     "footer-simple-centered": {
@@ -2747,7 +3259,9 @@
       "componentPath": "blocks/footers/footer-simple-centered.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-simple-centered"
     },
     "footer-social-apps": {
@@ -2755,7 +3269,9 @@
       "componentPath": "blocks/footers/footer-social-apps.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-social-apps"
     },
     "footer-social-newsletter": {
@@ -2763,7 +3279,9 @@
       "componentPath": "blocks/footers/footer-social-newsletter.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-social-newsletter"
     },
     "footer-split-image-accordion": {
@@ -2771,8 +3289,43 @@
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
       "thumbnail": "",
       "preview": "",
-      "dependencies": ["@opensite/ui"],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "demoPath": "blocks/footers/footer-split-image-accordion"
+    },
+    "contact-faq": {
+      "title": "Contact FAQ",
+      "componentPath": "blocks/contact/contact-faq.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": [
+        "@opensite/ui",
+        "@page-speed/forms"
+      ],
+      "demoPath": "blocks/contact/contact-faq"
+    },
+    "contact-dark": {
+      "title": "Contact Dark",
+      "componentPath": "blocks/contact/contact-dark.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": [
+        "@opensite/ui",
+        "@page-speed/forms"
+      ],
+      "demoPath": "blocks/contact/contact-dark"
+    },
+    "contact-photography": {
+      "title": "Contact Photography",
+      "componentPath": "blocks/contact/contact-photography.tsx",
+      "thumbnail": "",
+      "preview": "",
+      "dependencies": [
+        "@opensite/ui",
+        "@page-speed/forms"
+      ],
+      "demoPath": "blocks/contact/contact-photography"
     }
   }
 }

@@ -5,7 +5,7 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroLogoCenteredScreenshot
-      logo={{ src: logoPlaceholders.darkHorizontalLogo, alt: "Company Logo" }}
+      logo={{ src: logoPlaceholders.lightHorizontalLogo, alt: "Company Logo" }}
       heading="The platform that powers modern businesses"
       description="Trusted by thousands of companies worldwide to streamline operations and drive growth."
       action={{

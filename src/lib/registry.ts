@@ -42,7 +42,6 @@ export const componentFilterConfig: {
     "case-studies-list",
     "case-study-detail",
     "comparison",
-    "contact",
     "cta",
     "industries",
     "list",
@@ -66,18 +65,10 @@ export const componentFilterConfig: {
    */
   blockedSlugs: [
     // hero (34 blocks not ready out of 79 total)
-    // "hero-logo-centered-screenshot",
-    // "hero-billing-platform-logos",
-    // "hero-conversion-video-play",
-    // "hero-design-showcase-logos",
-    // "hero-productivity-launcher-video",
-    // "hero-hiring-animated-text",
     // "hero-centered-gradient-cta",
     // "hero-testimonial-image-grid",
     // "hero-architecture-fullscreen",
     // "hero-therapy-testimonial-grid",
-    // "hero-mentorship-video-split",
-    // process (1 block not ready out of 9 total)
     // "process-roadmap-timeline",
   ],
 

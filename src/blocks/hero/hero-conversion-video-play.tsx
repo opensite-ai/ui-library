@@ -17,13 +17,16 @@ export default function Demo() {
       videoUrl={videoPlaceholders[5]}
       videoDialogTitle="Conversion Optimization Demo"
       logos={[
-        { src: brandLogoPlaceholders.black[0], alt: "Partner 1" },
-        { src: brandLogoPlaceholders.black[1], alt: "Partner 2" },
-        { src: brandLogoPlaceholders.black[2], alt: "Partner 3" },
-        { src: brandLogoPlaceholders.black[3], alt: "Partner 4" },
-        { src: brandLogoPlaceholders.black[4], alt: "Partner 5" },
-        { src: brandLogoPlaceholders.black[5], alt: "Partner 6" },
+        { src: brandLogoPlaceholders.white[0], alt: "Partner 1" },
+        { src: brandLogoPlaceholders.white[1], alt: "Partner 2" },
+        { src: brandLogoPlaceholders.white[2], alt: "Partner 3" },
+        { src: brandLogoPlaceholders.white[3], alt: "Partner 4" },
+        { src: brandLogoPlaceholders.white[4], alt: "Partner 5" },
+        { src: brandLogoPlaceholders.white[5], alt: "Partner 6" },
       ]}
+      background="dark"
+      pattern="grid1"
+      patternOpacity={0.1}
     />
   );
 }

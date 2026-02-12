@@ -8,7 +8,8 @@ export default function Demo() {
       heading="Real stories, real healing"
       description="Hear from clients who've found support, growth, and healing through our therapy services."
       testimonial={{
-        quote: "Therapy changed my life. I finally feel understood and supported.",
+        quote:
+          "Therapy changed my life. I finally feel understood and supported. Highly recommend to anyone seeking help. Also, the therapists are amazing!",
         author: "Anonymous Client",
         avatar: { src: imagePlaceholders[27], alt: "Client testimonial" },
       }}
@@ -16,22 +17,21 @@ export default function Demo() {
         { src: imagePlaceholders[28], alt: "Therapy session 1" },
         { src: imagePlaceholders[29], alt: "Therapy session 2" },
         { src: imagePlaceholders[30], alt: "Therapy session 3" },
-        { src: imagePlaceholders[31], alt: "Therapy session 4" },
       ]}
       actions={[
         {
           label: "Find Your Therapist",
-          href: "/therapists",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Read More Stories",
-          href: "/testimonials",
+          href: "#",
           variant: "outline",
         },
       ]}
-      spacing="xl"
+      background="muted"
     />
   );
 }

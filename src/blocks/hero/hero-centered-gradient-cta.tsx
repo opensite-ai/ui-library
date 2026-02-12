@@ -11,13 +11,13 @@ export default function Demo() {
         {
           label: "Get Started Free",
           href: "#",
-          variant: "default",
+          variant: "secondary",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Schedule Demo",
           href: "#",
-          variant: "outline",
+          variant: "ghost",
           icon: <DynamicIcon name="lucide/video" size={16} />,
         },
       ]}

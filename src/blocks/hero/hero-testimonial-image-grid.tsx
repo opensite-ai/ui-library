@@ -7,13 +7,12 @@ export default function Demo() {
       heading="Loved by customers worldwide"
       description="See why thousands of businesses trust us to power their operations and drive growth."
       testimonial={{
-        quote: "This platform transformed how we work. Absolutely game-changing.",
+        quote:
+          "This platform transformed how we work. Absolutely game-changing.",
         author: "Sarah Johnson",
         role: "CEO",
         company: "TechCorp",
-        avatars: [
-          { image: imagePlaceholders[24], fallback: "SJ" },
-        ],
+        avatars: [{ image: imagePlaceholders[24], fallback: "SJ" }],
       }}
       gridImages={[
         { src: imagePlaceholders[25], alt: "Customer success story 1" },
@@ -23,9 +22,9 @@ export default function Demo() {
       ]}
       button={{
         text: "Read More Reviews",
-        url: "/reviews",
+        url: "#",
       }}
-      spacing="xl"
+      background="dark"
     />
   );
 }

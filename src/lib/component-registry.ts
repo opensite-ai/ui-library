@@ -539,6 +539,14 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/footers/footer-social-newsletter"),
   "footer-split-image-accordion": () =>
     import("@/blocks/footers/footer-split-image-accordion"),
+
+  // Contact blocks
+  "contact-faq": () =>
+    import("@/blocks/contact/contact-faq"),
+  "contact-dark": () =>
+    import("@/blocks/contact/contact-dark"),
+  "contact-photography": () =>
+    import("@/blocks/contact/contact-photography"),
 };
 
 export const componentRegistry = Object.fromEntries(

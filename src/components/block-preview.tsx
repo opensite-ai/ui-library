@@ -6,7 +6,13 @@
 
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 import { createPortal } from "react-dom";
 import type { Block } from "@/types/blocks";
 import { ResponsiveToggle, type ViewMode } from "./responsive-toggle";
@@ -218,7 +224,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
           ref={iframeRef}
           srcDoc={iframeSrcDoc}
           title={`Live preview of ${block.title}`}
-          sandbox="allow-scripts allow-same-origin"
+          sandbox="allow-scripts allow-same-origin allow-forms"
           className="w-full h-full border-0 min-h-full bg-white"
           loading="lazy"
           style={
