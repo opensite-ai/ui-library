@@ -29,6 +29,7 @@ export default function Demo() {
         { src: brandLogoPlaceholders.black[4], alt: "Partner 5" },
         { src: brandLogoPlaceholders.black[5], alt: "Partner 6" },
       ]}
+      background="gray"
     />
   );
 }

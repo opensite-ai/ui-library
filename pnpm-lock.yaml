@@ -12,8 +12,8 @@ importers:
         specifier: 2.0.4
         version: 2.0.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 1.7.0
-        version: 1.7.0(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 1.7.1
+        version: 1.7.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/forms':
         specifier: ^0.3.5
         version: 0.3.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -597,8 +597,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/ui@1.7.0':
-    resolution: {integrity: sha512-flJfOSC8U11vOGKC8xPUg6JyqPg14JBeScbE6x3ehHAzwyWruLabb0oCcqsyBWB6Zqu1IxJuDvg505cpyAOmdA==}
+  '@opensite/ui@1.7.1':
+    resolution: {integrity: sha512-3zo1lWL/wQo0Ry0AInRTrjcFT+Cz0aakcwkjmj5vnxMsNDhD/hsMDQDKggcmwemesuQjcyoeO5Sb+vcOJUBm8w==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@tailwindcss/typography': '>=0.5.0'
@@ -3533,7 +3533,7 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/ui@1.7.0(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@1.7.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 2.0.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.3.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)

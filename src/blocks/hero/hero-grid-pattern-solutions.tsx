@@ -5,7 +5,7 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroGridPatternSolutions
-      badgeText="Comprehensive Solutions"
+      badgeText="New Version Launched"
       badgeHref="#"
       heading="Complete solutions for every challenge"
       description="From startups to enterprises, we provide comprehensive solutions tailored to your unique needs and goals."
@@ -13,13 +13,14 @@ export default function Demo() {
         { src: imagePlaceholders[10], alt: "For Business" },
         { src: imagePlaceholders[11], alt: "For Developers" },
         { src: imagePlaceholders[12], alt: "For Teams" },
+        { src: imagePlaceholders[13], alt: "For Teams" },
       ]}
       actions={[
         {
           label: "Explore Solutions",
           href: "#",
-          variant: "default",
-          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+          variant: "outline",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" />,
         },
       ]}
       pattern="grid1"

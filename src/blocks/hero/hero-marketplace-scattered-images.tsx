@@ -21,6 +21,9 @@ export default function Demo() {
         { src: imagePlaceholders[39], alt: "Product 5" },
         { src: imagePlaceholders[40], alt: "Product 6" },
       ]}
+      background="gray"
+      pattern="gridDotsBasic"
+      patternOpacity={1}
     />
   );
 }

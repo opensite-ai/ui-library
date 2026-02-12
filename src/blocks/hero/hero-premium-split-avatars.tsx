@@ -14,7 +14,7 @@ export default function Demo() {
         label: "Join Now",
         href: "#",
         variant: "default",
-        iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        iconAfter: <DynamicIcon name="lucide/arrow-right" />,
       }}
       avatars={[
         { src: imagePlaceholders[6], fallback: "M1" },
