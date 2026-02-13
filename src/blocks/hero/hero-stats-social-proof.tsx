@@ -1,3 +1,4 @@
+import { imagePlaceholders } from "@/lib/media";
 import { HeroStatsSocialProof } from "@opensite/ui/blocks/hero/hero-stats-social-proof";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -6,26 +7,34 @@ export default function Demo() {
     <HeroStatsSocialProof
       heading="Trusted by thousands of businesses"
       description="Join the companies already experiencing transformative results with our platform."
+      imageSrc={imagePlaceholders[100]}
+      imageAlt="Banner image"
+      statusCard={{
+        title: "Rated 4.9/5 by over 1,000 users",
+        subtitle: "Based on real user reviews from across the globe",
+        icon: <DynamicIcon name="lucide/star" size={20} />,
+      }}
       stats={[
         { value: "50K+", label: "Active Users" },
         { value: "99.9%", label: "Uptime" },
         { value: "4.9/5", label: "User Rating" },
-        { value: "150+", label: "Countries" },
       ]}
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Case Studies",
-          href: "/case-studies",
+          href: "#",
           variant: "outline",
         },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="gridFadeCenter"
+      patternOpacity={0.15}
     />
   );
 }

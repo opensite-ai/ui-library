@@ -17,7 +17,7 @@ export default function Demo() {
         {
           label: "Schedule Demo",
           href: "#",
-          variant: "ghost",
+          variant: "outline",
           icon: <DynamicIcon name="lucide/video" size={16} />,
         },
       ]}

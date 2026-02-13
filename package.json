@@ -10,9 +10,9 @@
     "sync:registry": "node scripts/sync-registry.mjs"
   },
   "dependencies": {
-    "@opensite/hooks": "2.0.4",
-    "@opensite/ui": "1.7.6",
-    "@page-speed/forms": "^0.3.5",
+    "@opensite/hooks": "2.0.7",
+    "@opensite/ui": "1.8.3",
+    "@page-speed/forms": "0.4.6",
     "@page-speed/hooks": "^0.4.5",
     "@page-speed/img": "^0.4.5",
     "class-variance-authority": "^0.7.1",

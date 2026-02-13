@@ -1,9 +1,10 @@
 "use client";
 
+import * as React from "react";
 import { ContactPhotography } from "@opensite/ui/blocks/contact/contact-photography";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { createDemoFormConfig } from "@/lib/form-demo-data";
 import { imagePlaceholders } from "@/lib/media";
-import type { FormFieldConfig } from "@opensite/ui/lib/form-field-types";
+import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -68,12 +69,28 @@ const formFields: FormFieldConfig[] = [
     label: "Preferred Session Length",
     required: true,
     columnSpan: 12,
-    layout: "inline",
+    layout: "grid",
     options: [
-      { value: "1-hour", label: "1 Hour" },
-      { value: "2-hours", label: "2 Hours" },
-      { value: "half-day", label: "Half Day" },
-      { value: "full-day", label: "Full Day" },
+      {
+        value: "1-hour",
+        label: "1 Hour",
+        description: "Great for quick portraits or product shoots",
+      },
+      {
+        value: "2-hours",
+        label: "2 Hours",
+        description: "Ideal for extended sessions or small events",
+      },
+      {
+        value: "half-day",
+        label: "Half Day",
+        description: "Perfect for medium-sized events or multiple locations",
+      },
+      {
+        value: "full-day",
+        label: "Full Day",
+        description: "Best for large events or comprehensive coverage",
+      },
     ],
   },
   {
@@ -108,7 +125,8 @@ const formFields: FormFieldConfig[] = [
     name: "message",
     type: "textarea",
     label: "Project Details",
-    placeholder: "Tell us about your vision, location, special requests, etc...",
+    placeholder:
+      "Tell us about your vision, location, special requests, etc...",
     required: true,
     rows: 5,
     columnSpan: 12,
@@ -118,33 +136,125 @@ const formFields: FormFieldConfig[] = [
     type: "checkbox-group",
     label: "Additional Services Needed (Optional)",
     required: false,
-    columnSpan: 12,
     options: [
-      { value: "editing", label: "Photo Editing & Retouching" },
-      { value: "printing", label: "Professional Printing" },
-      { value: "album", label: "Photo Album Design" },
-      { value: "video", label: "Videography" },
+      {
+        value: "editing",
+        label: "Photo Editing & Retouching",
+        description: "Enhance your photos with professional editing services",
+      },
+      {
+        value: "printing",
+        label: "Professional Printing",
+        description: "High-quality prints of your photos",
+      },
+      {
+        value: "album",
+        label: "Photo Album Design",
+        description: "Custom-designed photo albums",
+      },
+      {
+        value: "video",
+        label: "Videography",
+        description: "Professional video coverage of your event",
+      },
     ],
   },
   {
     name: "newsletter",
     type: "checkbox",
-    label: "Subscribe to our newsletter for photography tips and special offers",
+    label:
+      "Subscribe to our newsletter for photography tips and special offers",
     required: false,
     columnSpan: 12,
   },
 ];
 
+type SubmissionAudit = {
+  submittedAt: string;
+  formData: Record<string, unknown>;
+  responseData: unknown;
+};
+
+function getStringValue(value: unknown): string {
+  return typeof value === "string" && value.length > 0 ? value : "N/A";
+}
+
 export default function Demo() {
+  const [lastSubmission, setLastSubmission] =
+    React.useState<SubmissionAudit | null>(null);
+  const [submissionCount, setSubmissionCount] = React.useState(0);
+
+  const formConfig = React.useMemo(
+    () => {
+      const customSuccessComponent = (
+        <div className="space-y-4 rounded-lg border border-border bg-muted/30 p-4">
+          <h3 className="text-lg font-semibold">Inquiry received</h3>
+          <p className="text-sm text-muted-foreground">
+            This success panel is rendered via{" "}
+            <code>
+              submissionConfig.behavior=&quot;renderCustomComponent&quot;
+            </code>
+            .
+          </p>
+          <div className="grid gap-2 text-sm sm:grid-cols-2">
+            <p>
+              <span className="font-medium">Project type:</span>{" "}
+              {getStringValue(lastSubmission?.formData["projectType"])}
+            </p>
+            <p>
+              <span className="font-medium">Session length:</span>{" "}
+              {getStringValue(lastSubmission?.formData["sessionLength"])}
+            </p>
+            <p>
+              <span className="font-medium">Email:</span>{" "}
+              {getStringValue(lastSubmission?.formData["email"])}
+            </p>
+            <p>
+              <span className="font-medium">
+                Total submissions this session:
+              </span>{" "}
+              {submissionCount}
+            </p>
+          </div>
+        </div>
+      );
+
+      return createDemoFormConfig({
+        submissionConfig: {
+          behavior: "renderCustomComponent",
+          customComponent: customSuccessComponent,
+          newFormSubmissionAction: {
+            enable: true,
+          },
+          handleFormSubmission: ({ formData, responseData }) => {
+            const audit: SubmissionAudit = {
+              submittedAt: new Date().toISOString(),
+              formData,
+              responseData,
+            };
+            setLastSubmission(audit);
+            setSubmissionCount((current) => current + 1);
+            if (typeof window !== "undefined") {
+              window.sessionStorage.setItem(
+                "showcase-contact-photography-last-submission",
+                JSON.stringify(audit),
+              );
+            }
+          },
+        },
+      });
+    },
+    [lastSubmission, submissionCount],
+  );
+
   return (
     <ContactPhotography
       heading="Ready to Get Started?"
-      description="Our team is here to help you find the perfect solution for your business. Fill out the form and we'll get back to you shortly."
+      description="Showcase mode: this block tests behavior='renderCustomComponent' with callback-driven success content and default new-submission button label."
       buttonText="Submit Inquiry"
       formFields={formFields}
-      formConfig={demoFormConfig}
+      formConfig={formConfig}
       successMessage="Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days."
-      errorMessage="There was a problem submitting your inquiry. Please check your information and try again."
       background="dark"
       pattern="gridFadeTopLeft"
       patternOpacity={0.15}

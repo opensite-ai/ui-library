@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides comprehensive guidelines for creating and maintaining modules in the DashTrack platform ecosystem, designed to support 300+ client websites through ultra-high performance architecture. The platform utilizes a modern rendering pipeline from `customer-sites` (Rails) → `@opensite/blocks` (React rendering runtime) → optimized media components (`@opensite/img`, `@opensite/video`) with robust CDN caching.
+This document provides comprehensive guidelines for creating and maintaining modules in the DashTrack platform ecosystem, designed to support 300+ client websites through ultra-high performance architecture. The platform utilizes a modern rendering pipeline from `customer-sites` (Rails) → `@opensite/blocks` (React rendering runtime) → optimized media components (`@page-speed/img`, `@opensite/video`) with robust CDN caching.
 
 ## Core Architecture Flow
 
@@ -16,7 +16,7 @@ flowchart TD
     C -->|No| E["Legacy React Components"]
     D --> F["toastability-service CDN"]
     E --> F
-    F --> G["@opensite/img Component"]
+    F --> G["@page-speed/img Component"]
     F --> H["@opensite/video Component"]
     F --> I["Optimized CSS/JS Assets"]
     G --> J["Client Browser"]
@@ -25,9 +25,9 @@ flowchart TD
 ```
 
 1. **Entry Point**: `customer-sites` Rails application serves all client websites via dynamic subdomains
-2. **Rendering Engine**: `@opensite/blocks` processes Chai design payloads from `toastability-service/assets/components/:id` 
-3. **Media Optimization**: `@opensite/img` and `@opensite/video` provide responsive, format-optimized media delivery
-4. **Page Building**: `@opensite/builder-sdk` powers the visual page builder in `dt-cms/Source`
+2. **Rendering Engine**: `@opensite/blocks` processes design payloads from `toastability-service/assets/components/:id`
+3. **Media Optimization**: `@page-speed/img` and `@opensite/video` provide responsive, format-optimized media delivery
+4. **Page Building**: `@opensite/ui` powers the semantic UI components for building pages
 5. **CDN Layer**: `toastability-service` provides robust asset caching with strong ETags and Cloudflare integration
 
 ## Core Architecture Principles
@@ -37,13 +37,15 @@ flowchart TD
 Every module must prioritize Core Web Vitals and ultra-fast loading:
 
 **2024 Core Web Vitals Thresholds:**
+
 - **LCP (Largest Contentful Paint)**: ≤ 2.5s (Good), 2.5-4s (Needs Improvement), >4s (Poor)
-- **INP (Interaction to Next Paint)**: ≤ 200ms (Good), 200-500ms (Needs Improvement), >500ms (Poor) 
+- **INP (Interaction to Next Paint)**: ≤ 200ms (Good), 200-500ms (Needs Improvement), >500ms (Poor)
 - **CLS (Cumulative Layout Shift)**: ≤ 0.1 (Good), 0.1-0.25 (Needs Improvement), >0.25 (Poor)
 
 ### 2. Current Rendering Architecture
 
 **Client Site Flow:**
+
 ```typescript
 // customer-sites/app/javascript/chai_pages.tsx
 // Uses @opensite/blocks for modern Chai-based sites
@@ -55,6 +57,7 @@ import { BlocksRenderer, PageBlocksRenderer } from "@opensite/blocks";
 ```
 
 **Module Structure Pattern:**
+
 ```
 @opensite/[module-name]/
 ├── core/                    # Core rendering components
@@ -104,12 +107,12 @@ All modules must be optimized for minimal bundle impact using granular exports:
 // ✅ PREFERRED: Granular imports for minimal bundle size
 import { BlocksRenderer } from "@opensite/blocks/core/blocks-renderer";
 import { fetchDesignPayloadForPage } from "@opensite/blocks/api/fetch-design";
-import { Img } from "@opensite/img/core";
+import { Img } from "@page-speed/img/core";
 import { Video } from "@opensite/video/core";
 
 // ✅ GOOD: Module-level imports
 import { BlocksRenderer } from "@opensite/blocks/core";
-import { Img } from "@opensite/img";
+import { Img } from "@page-speed/img";
 
 // ⚠️ AVOID: Full package imports increase bundle size
 import * from "@opensite/blocks";
@@ -140,6 +143,7 @@ end
 ```
 
 **Performance Requirements:**
+
 - **LCP Optimization**: Preload critical resources, optimize images (WebP), reduce server response time
 - **INP Optimization**: Lightweight event handlers, minimal JavaScript execution, lazy loading
 - **CLS Prevention**: Defined media dimensions, reserved space for dynamic content
@@ -149,6 +153,7 @@ end
 ### 1. Core Rendering Modules
 
 #### `@opensite/blocks` - Primary Site Renderer
+
 **Purpose**: Processes Chai design payloads into React components
 **Used By**: `customer-sites` Rails app for all modern client websites
 
@@ -161,20 +166,23 @@ import { parseDesignPayload } from "@opensite/blocks/utils/design";
 // Fetches payloads from: https://cdn.ing/assets/components/:page_id
 ```
 
-#### `@opensite/img` - Optimized Image Component 
+#### `@page-speed/img` - Optimized Image Component
+
 **Purpose**: Responsive images with format optimization (AVIF, WebP, JPEG)
 **Used By**: `@opensite/blocks` for media rendering
 
 ```typescript
 // Usage pattern for optimal performance
 <Img 
-  mediaId={mediaRecord.id} 
+  src={mediaRecord.file_data_url} 
+  optixFlowConfig={{ apiKey: API_KEY }}
   // Generates <picture> with full srcset variants
-  // Automatically selects optimal format & size
+  // Automatically transforms image to pixel perfect image in the optimal format & caches then streams from CDN
 />
 ```
 
 #### `@opensite/video` - Performance Video Component
+
 **Purpose**: Progressive enhancement video with conditional streaming
 **Used By**: `@opensite/blocks` for video content
 
@@ -186,6 +194,7 @@ import { parseDesignPayload } from "@opensite/blocks/utils/design";
 ### 2. Builder & Development Modules
 
 #### `@opensite/builder-sdk` - Visual Page Builder
+
 **Purpose**: Forked ChaiBuilder with DashTrack customizations  
 **Used By**: `dt-cms/Source` for visual page building
 **Access**: Restricted private npm module
@@ -198,6 +207,7 @@ import { BlockRenderer } from "@opensite/builder-sdk/render";
 ```
 
 #### Supporting Infrastructure Modules
+
 **`@opensite/icons`**: Self-hosted Iconify server (deployed at `icons.opensite.ai`)
 **`@opensite/core`**: Shared rendering runtime utilities
 **`@opensite/component-library`**: Reusable UI components
@@ -793,6 +803,7 @@ export class CompatibilityLayer {
 ### Core Web Vitals Compliance (2024 Standards)
 
 **Target Thresholds for 75th Percentile:**
+
 - **LCP**: ≤ 2.5 seconds (loading performance)
 - **INP**: ≤ 200 milliseconds (interactivity)
 - **CLS**: ≤ 0.1 (visual stability)
@@ -800,7 +811,7 @@ export class CompatibilityLayer {
 ### Bundle Size Limits by Module Type
 
 - **Core Rendering** (`@opensite/blocks`): ≤ 50KB gzipped
-- **Media Components** (`@opensite/img`, `@opensite/video`): ≤ 15KB gzipped each
+- **Media Components** (`@page-speed/img`, `@opensite/video`): ≤ 15KB gzipped each
 - **Builder SDK** (`@opensite/builder-sdk`): ≤ 200KB gzipped (editor-only)
 - **Utility Modules**: ≤ 10KB gzipped per module
 
@@ -815,18 +826,21 @@ export class CompatibilityLayer {
 Every new module must:
 
 ✅ **Performance Requirements**
+
 - [ ] Tree-shakable exports with granular imports
 - [ ] Core Web Vitals compliance testing
 - [ ] Bundle size under category limits
 - [ ] Progressive enhancement where applicable
 
 ✅ **Architecture Compliance**
+
 - [ ] Integration with current rendering pipeline
 - [ ] Strong ETag caching strategy
 - [ ] TypeScript strict mode compatibility
 - [ ] React 18+ SSR compatibility
 
 ✅ **Quality Standards**
+
 - [ ] Performance regression testing
 - [ ] Cross-module integration tests
 - [ ] Bundle analysis in CI/CD

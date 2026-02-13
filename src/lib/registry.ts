@@ -63,14 +63,7 @@ export const componentFilterConfig: {
    * Individual blocks from partially-ready categories
    * Total: 48 blocks across 5 categories
    */
-  blockedSlugs: [
-    // hero (34 blocks not ready out of 79 total)
-    // "hero-centered-gradient-cta",
-    // "hero-testimonial-image-grid",
-    // "hero-architecture-fullscreen",
-    // "hero-therapy-testimonial-grid",
-    // "process-roadmap-timeline",
-  ],
+  blockedSlugs: [],
 
   /**
    * Used when mode is "whitelist" - not currently used
