@@ -9,12 +9,11 @@ export default function Demo() {
       description="Award-winning architecture firm specializing in sustainable, innovative designs that blend form and function seamlessly."
       action={{
         label: "View Projects",
-        href: "/projects",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       backgroundImage={imagePlaceholders[30]}
-      spacing="xl"
     />
   );
 }

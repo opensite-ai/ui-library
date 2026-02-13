@@ -6,12 +6,12 @@ import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
   {
-    name: "fullName",
+    name: "name",
     type: "text",
     label: "Full Name",
     placeholder: "Full Name",
     required: true,
-    columnSpan: 2,
+    columnSpan: 12,
   },
   {
     name: "email",
@@ -19,39 +19,55 @@ const formFields: FormFieldConfig[] = [
     label: "Email Address",
     placeholder: "your@email.com",
     required: true,
-    columnSpan: 2,
+    columnSpan: 6,
   },
   {
     name: "phone",
     type: "tel",
-    label: "Phone Number (Optional)",
+    label: "Phone Number",
     placeholder: "+1 (555) 000-0000",
     required: false,
     columnSpan: 6,
   },
   {
-    name: "inquiryType",
+    name: "subject",
+    // type: "radio",
     type: "select",
     label: "Inquiry Type",
-    placeholder: "Select an option",
     required: true,
-    columnSpan: 6,
+    columnSpan: 12,
+    // layout: "grid",
     options: [
-      { value: "general", label: "General Inquiry" },
-      { value: "support", label: "Technical Support" },
-      { value: "sales", label: "Sales Question" },
-      { value: "partnership", label: "Partnership Opportunity" },
-      { value: "feedback", label: "Feedback" },
+      {
+        value: "general",
+        label: "General Inquiry",
+        description: "Question about our services.",
+      },
+      {
+        value: "support",
+        label: "Support",
+        description: "Assistance from our support team.",
+      },
+      {
+        value: "sales",
+        label: "Sales Question",
+        description: "Question about our pricing or products.",
+      },
+      {
+        value: "partnership",
+        label: "Partnership Opportunity",
+        description: "Opportunity to collaborate with us.",
+      },
     ],
   },
   {
-    name: "message",
+    name: "content",
     type: "textarea",
     label: "Your Message",
     placeholder: "Tell us more about your inquiry...",
     required: true,
     rows: 4,
-    // columnSpan: 12,
+    columnSpan: 12,
   },
 ];
 

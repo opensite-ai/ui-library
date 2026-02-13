@@ -24,12 +24,14 @@ export default function Demo() {
           label: "Get Started",
           href: "#",
           variant: "default",
+          asButton: true,
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Case Studies",
           href: "#",
           variant: "outline",
+          asButton: true,
         },
       ]}
       background="dark"

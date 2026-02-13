@@ -8,7 +8,7 @@ const formFields: FormFieldConfig[] = [
   {
     name: "name",
     type: "text",
-    label: "Name",
+    label: "Full Name",
     placeholder: "Full Name",
     required: true,
     columnSpan: 6,
@@ -30,7 +30,7 @@ const formFields: FormFieldConfig[] = [
     columnSpan: 12,
   },
   {
-    name: "message",
+    name: "content",
     type: "textarea",
     label: "Message",
     placeholder: "Please describe your question in detail...",
