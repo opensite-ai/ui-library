@@ -2737,8 +2737,14 @@
     "navbar-animated-preview": {
       "title": "NavBar Animated Preview",
       "componentPath": "blocks/navbars/navbar-animated-preview.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290168/1eipzn3pqgle6e5gg752thqdk897/navbar-animated-preview-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290169/e4s5xasn4c46y31t4gfu45o32s4w/navbar-animated-preview-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290168/1eipzn3pqgle6e5gg752thqdk897/navbar-animated-preview-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290169/e4s5xasn4c46y31t4gfu45o32s4w/navbar-animated-preview-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2747,8 +2753,14 @@
     "navbar-centered-menu": {
       "title": "NavBar Centered Menu",
       "componentPath": "blocks/navbars/navbar-centered-menu.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290152/r1rsnx5tjtc304cyf3dngmfsqdyh/navbar-centered-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290153/qkha1sruf9hd9z99x0u9rlvvl24t/navbar-centered-menu-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290152/r1rsnx5tjtc304cyf3dngmfsqdyh/navbar-centered-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290153/qkha1sruf9hd9z99x0u9rlvvl24t/navbar-centered-menu-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2757,8 +2769,14 @@
     "navbar-dark-icons": {
       "title": "NavBar Dark Icons",
       "componentPath": "blocks/navbars/navbar-dark-icons.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290166/3813fzr948c969xdumfp3x1tmix7/navbar-dark-icons-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290167/h1pglgjl44uknkj4ms9ixlu27yyb/navbar-dark-icons-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290166/3813fzr948c969xdumfp3x1tmix7/navbar-dark-icons-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290167/h1pglgjl44uknkj4ms9ixlu27yyb/navbar-dark-icons-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2767,8 +2785,14 @@
     "navbar-dropdown-menu": {
       "title": "NavBar Dropdown Menu",
       "componentPath": "blocks/navbars/navbar-dropdown-menu.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290150/uvtfdxd1a01up72dfcwc3i7ju1uc/navbar-dropdown-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290151/dikrnuxap3x28ziukbb1rljc4o5b/navbar-dropdown-menu-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290150/uvtfdxd1a01up72dfcwc3i7ju1uc/navbar-dropdown-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290151/dikrnuxap3x28ziukbb1rljc4o5b/navbar-dropdown-menu-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2777,8 +2801,14 @@
     "navbar-education-platform": {
       "title": "NavBar Education Platform",
       "componentPath": "blocks/navbars/navbar-education-platform.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290176/pty8dwgqae6oa5o3hj8t3xzdbocy/navbar-education-platform-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290177/9jv46cuqhctcng9dl14xsf9fe2rv/navbar-education-platform-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290176/pty8dwgqae6oa5o3hj8t3xzdbocy/navbar-education-platform-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290177/9jv46cuqhctcng9dl14xsf9fe2rv/navbar-education-platform-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2787,8 +2817,14 @@
     "navbar-enterprise-mega": {
       "title": "NavBar Enterprise Mega",
       "componentPath": "blocks/navbars/navbar-enterprise-mega.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290156/ml17i36bnbs054oyxrd8foy268ph/navbar-enterprise-mega-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290157/ary293y3wcg09vlswcsaa2e43rgn/navbar-enterprise-mega-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290156/ml17i36bnbs054oyxrd8foy268ph/navbar-enterprise-mega-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290157/ary293y3wcg09vlswcsaa2e43rgn/navbar-enterprise-mega-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2797,8 +2833,14 @@
     "navbar-feature-grid": {
       "title": "NavBar Feature Grid",
       "componentPath": "blocks/navbars/navbar-feature-grid.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290158/f0p7j5lrcf9qntob6ogyb7va702b/navbar-feature-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290159/n25grc9d5wwne6zfuysz5ovv6o8s/navbar-feature-grid-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290158/f0p7j5lrcf9qntob6ogyb7va702b/navbar-feature-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290159/n25grc9d5wwne6zfuysz5ovv6o8s/navbar-feature-grid-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2807,8 +2849,14 @@
     "navbar-floating-pill": {
       "title": "NavBar Floating Pill",
       "componentPath": "blocks/navbars/navbar-floating-pill.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290160/mioofjoatqnc7e9hfnblqjiwzris/navbar-floating-pill-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290161/fxvu2jhqp97z6zwxdbaxdqto5eav/navbar-floating-pill-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290160/mioofjoatqnc7e9hfnblqjiwzris/navbar-floating-pill-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290161/fxvu2jhqp97z6zwxdbaxdqto5eav/navbar-floating-pill-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2817,8 +2865,14 @@
     "navbar-fullscreen-menu": {
       "title": "NavBar Fullscreen Menu",
       "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2827,8 +2881,14 @@
     "navbar-icon-links": {
       "title": "NavBar Icon Links",
       "componentPath": "blocks/navbars/navbar-icon-links.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2837,8 +2897,14 @@
     "navbar-image-preview": {
       "title": "NavBar Image Preview",
       "componentPath": "blocks/navbars/navbar-image-preview.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290164/b9mreqd4lioiqekpb7alvqs680my/navbar-image-preview-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290165/ihgllx4727whi8oxwdrfjw23l73a/navbar-image-preview-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290164/b9mreqd4lioiqekpb7alvqs680my/navbar-image-preview-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290165/ihgllx4727whi8oxwdrfjw23l73a/navbar-image-preview-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2847,8 +2913,14 @@
     "navbar-mega-menu": {
       "title": "NavBar Mega Menu",
       "componentPath": "blocks/navbars/navbar-mega-menu.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290154/csiof180mle57yg0770kl1w6u5k1/navbar-mega-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290155/tr5ug2c77hvy6jyt2lmogzgjnyue/navbar-mega-menu-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290154/csiof180mle57yg0770kl1w6u5k1/navbar-mega-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290155/tr5ug2c77hvy6jyt2lmogzgjnyue/navbar-mega-menu-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2857,8 +2929,14 @@
     "navbar-multi-column-groups": {
       "title": "NavBar Multi Column Groups",
       "componentPath": "blocks/navbars/navbar-multi-column-groups.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290170/mide7krcnu5dq1ewh50cz1xpkyvh/navbar-multi-column-groups-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290171/5t4r29ny62encci12p0k2xypy62s/navbar-multi-column-groups-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290170/mide7krcnu5dq1ewh50cz1xpkyvh/navbar-multi-column-groups-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290171/5t4r29ny62encci12p0k2xypy62s/navbar-multi-column-groups-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2867,8 +2945,14 @@
     "navbar-platform-resources": {
       "title": "NavBar Platform Resources",
       "componentPath": "blocks/navbars/navbar-platform-resources.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290162/kybbx74ron1gf3j2la1guqpadk51/navbar-platform-resources-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290163/a1vpyknff92o16dgqr2mf014ngmk/navbar-platform-resources-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290162/kybbx74ron1gf3j2la1guqpadk51/navbar-platform-resources-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290163/a1vpyknff92o16dgqr2mf014ngmk/navbar-platform-resources-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2877,8 +2961,14 @@
     "navbar-search-focused": {
       "title": "NavBar Search Focused",
       "componentPath": "blocks/navbars/navbar-search-focused.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290180/kqjhsdz8o9kyu45t71ynz8rarxs0/navbar-search-focused-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290181/6leghzf4wonrdjys1ah4bmqoys99/navbar-search-focused-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290180/kqjhsdz8o9kyu45t71ynz8rarxs0/navbar-search-focused-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290181/6leghzf4wonrdjys1ah4bmqoys99/navbar-search-focused-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2887,8 +2977,14 @@
     "navbar-sidebar-mobile": {
       "title": "NavBar Sidebar Mobile",
       "componentPath": "blocks/navbars/navbar-sidebar-mobile.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290172/ooqi12d1ja2tr0gk1m80jr51apur/navbar-sidebar-mobile-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290173/jqxno5pq9newdrsdgr9ea3to41zx/navbar-sidebar-mobile-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290172/ooqi12d1ja2tr0gk1m80jr51apur/navbar-sidebar-mobile-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290173/jqxno5pq9newdrsdgr9ea3to41zx/navbar-sidebar-mobile-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2897,8 +2993,14 @@
     "navbar-simple-links": {
       "title": "NavBar Simple Links",
       "componentPath": "blocks/navbars/navbar-simple-links.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290182/l8e4x4t2pogqqanbduuct41kjgfp/navbar-simple-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290183/2qlvsq9tbg0jc7ebrz32suekrg3n/navbar-simple-links-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290182/l8e4x4t2pogqqanbduuct41kjgfp/navbar-simple-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290183/2qlvsq9tbg0jc7ebrz32suekrg3n/navbar-simple-links-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2907,8 +3009,14 @@
     "navbar-split-cta": {
       "title": "NavBar Split CTA",
       "componentPath": "blocks/navbars/navbar-split-cta.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290184/0ycscbhxn2vghnbpngg2yyjn8pko/navbar-split-cta-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290185/rdpqu6uc3jsklqf9flj5eoad68dh/navbar-split-cta-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290184/0ycscbhxn2vghnbpngg2yyjn8pko/navbar-split-cta-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290185/rdpqu6uc3jsklqf9flj5eoad68dh/navbar-split-cta-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2917,8 +3025,14 @@
     "navbar-sticky-compact": {
       "title": "NavBar Sticky Compact",
       "componentPath": "blocks/navbars/navbar-sticky-compact.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290178/tin1i4gses01dabto9uezmat03az/navbar-sticky-compact-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290179/869c4ipcp0kfzvm4zxlt536p6qsk/navbar-sticky-compact-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290178/tin1i4gses01dabto9uezmat03az/navbar-sticky-compact-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290179/869c4ipcp0kfzvm4zxlt536p6qsk/navbar-sticky-compact-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2927,8 +3041,14 @@
     "navbar-tabbed-sections": {
       "title": "NavBar Tabbed Sections",
       "componentPath": "blocks/navbars/navbar-tabbed-sections.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2937,8 +3057,14 @@
     "navbar-transparent-overlay": {
       "title": "NavBar Transparent Overlay",
       "componentPath": "blocks/navbars/navbar-transparent-overlay.tsx",
-      "thumbnail": "",
-      "preview": "",
+       "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290174/gvfzbh78ddz3wknqpo5d43nh01h4/navbar-transparent-overlay-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290175/mmgz8uf7ugk0n88esgvfk4evmlzu/navbar-transparent-overlay-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290174/gvfzbh78ddz3wknqpo5d43nh01h4/navbar-transparent-overlay-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290175/mmgz8uf7ugk0n88esgvfk4evmlzu/navbar-transparent-overlay-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
