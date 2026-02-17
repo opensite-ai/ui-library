@@ -2597,8 +2597,14 @@
     "process-expandable-timeline": {
       "title": "Process Expandable Timeline",
       "componentPath": "blocks/process/process-expandable-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290140/ktqs77x8pmbvzqcmds4wjm7f1vin/process-expandable-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290141/o4x8vgleoxt81zgouezs7zxr98jo/process-expandable-timeline-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290140/ktqs77x8pmbvzqcmds4wjm7f1vin/process-expandable-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290141/o4x8vgleoxt81zgouezs7zxr98jo/process-expandable-timeline-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2607,8 +2613,14 @@
     "process-hover-cards": {
       "title": "Process Hover Cards",
       "componentPath": "blocks/process/process-hover-cards.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290136/8lnqm3wrh1h5v1mad68fcp23sfsy/process-hover-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290137/p0xqy09afapn7e5q3y24zmcka56x/process-hover-cards-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290136/8lnqm3wrh1h5v1mad68fcp23sfsy/process-hover-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290137/p0xqy09afapn7e5q3y24zmcka56x/process-hover-cards-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2617,8 +2629,14 @@
     "process-icon-timeline": {
       "title": "Process Icon Timeline",
       "componentPath": "blocks/process/process-icon-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290138/9etsxnrnum79nowgte2gnotvkxpb/process-icon-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290139/51in8dwdbjrg8xov1288gz3joea6/process-icon-timeline-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290138/9etsxnrnum79nowgte2gnotvkxpb/process-icon-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290139/51in8dwdbjrg8xov1288gz3joea6/process-icon-timeline-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2627,8 +2645,14 @@
     "process-mission-principles": {
       "title": "Process Mission Principles",
       "componentPath": "blocks/process/process-mission-principles.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290144/b2dqwll0jgd15sg871oc5jm179gf/process-mission-principles-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290145/kwqos2lgnqoafhm8a1m6ibm1xkbb/process-mission-principles-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290144/b2dqwll0jgd15sg871oc5jm179gf/process-mission-principles-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290145/kwqos2lgnqoafhm8a1m6ibm1xkbb/process-mission-principles-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2637,8 +2661,14 @@
     "process-numbered-services": {
       "title": "Process Numbered Services",
       "componentPath": "blocks/process/process-numbered-services.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290148/w9udd5o1vzabp5x2o463cqo8dy6r/process-numbered-services-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290149/n2r1v3ixw7bjhzbq98serd67v3tz/process-numbered-services-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290148/w9udd5o1vzabp5x2o463cqo8dy6r/process-numbered-services-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290149/n2r1v3ixw7bjhzbq98serd67v3tz/process-numbered-services-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2647,8 +2677,14 @@
     "process-roadmap-timeline": {
       "title": "Process Roadmap Timeline",
       "componentPath": "blocks/process/process-roadmap-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290142/p6keqw6jk6bg1or6m1g8cd78741y/process-roadmap-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290143/2edvdvvfux49k4gcw1dtcyo76iz5/process-roadmap-timeline-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290142/p6keqw6jk6bg1or6m1g8cd78741y/process-roadmap-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290143/2edvdvvfux49k4gcw1dtcyo76iz5/process-roadmap-timeline-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2657,8 +2693,14 @@
     "process-scroll-image": {
       "title": "Process Scroll Image",
       "componentPath": "blocks/process/process-scroll-image.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290134/q6ct6kmig6k9gcc5nt6zcg78l17b/process-scroll-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290135/7hbwlc2gyzhpocqadlmtibfj6l9j/process-scroll-image-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290134/q6ct6kmig6k9gcc5nt6zcg78l17b/process-scroll-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290135/7hbwlc2gyzhpocqadlmtibfj6l9j/process-scroll-image-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2667,8 +2709,14 @@
     "process-steps-grid": {
       "title": "Process Steps Grid",
       "componentPath": "blocks/process/process-steps-grid.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290146/w356c0fghm9wz95uywf3katjyitj/process-steps-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290147/kpsvepqcso1mw5uovmlbdkgmo69j/process-steps-grid-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290146/w356c0fghm9wz95uywf3katjyitj/process-steps-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290147/kpsvepqcso1mw5uovmlbdkgmo69j/process-steps-grid-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
@@ -2677,8 +2725,14 @@
     "process-sticky-steps": {
       "title": "Process Sticky Steps",
       "componentPath": "blocks/process/process-sticky-steps.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290132/wou0hxi50udnbpaha246a88gb6eu/process-sticky-steps-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290133/b1x431k6nuwxq9mjnin8132oxmlv/process-sticky-steps-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290132/wou0hxi50udnbpaha246a88gb6eu/process-sticky-steps-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290133/b1x431k6nuwxq9mjnin8132oxmlv/process-sticky-steps-mobile.png"
+      },
       "dependencies": [
         "@opensite/ui"
       ],
