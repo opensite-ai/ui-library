@@ -21,6 +21,9 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/shopping-bag" size={16} />,
         },
       ]}
+      background="white"
+      pattern="gridFadeTop"
+      patternOpacity={0.9}
     />
   );
 }

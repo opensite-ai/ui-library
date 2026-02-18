@@ -24,7 +24,9 @@ export default function Demo() {
       ]}
       imageSrc={imagePlaceholders[35]}
       imageAlt="Platform dashboard"
-      spacing="xl"
+      background="gray"
+      pattern="dashedGridFadeTopRight"
+      patternOpacity={0.9}
     />
   );
 }
