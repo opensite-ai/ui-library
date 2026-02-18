@@ -9,13 +9,15 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
+      badge="Industry Leader"
       background="dark"
-      spacing="xl"
+      pattern="squareAltGrid"
+      patternOpacity={0.75}
     />
   );
 }

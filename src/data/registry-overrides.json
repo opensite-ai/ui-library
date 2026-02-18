@@ -158,12 +158,12 @@
       "title": "Hero Centered Gradient CTA",
       "componentPath": "blocks/hero/hero-centered-gradient-cta.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290341/u02dl41opywayzfwhamzx2le01ih/cleanshot-2026-02-18-at-08-58-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290342/vhtbpjog2avb5offh7a7msy034be/cleanshot-2026-02-18-at-08-58-23.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290341/u02dl41opywayzfwhamzx2le01ih/cleanshot-2026-02-18-at-08-58-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290342/vhtbpjog2avb5offh7a7msy034be/cleanshot-2026-02-18-at-08-58-23.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-gradient-cta"
@@ -214,12 +214,12 @@
       "title": "Hero Community Survey CTA",
       "componentPath": "blocks/hero/hero-community-survey-cta.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290319/mcbtc7roy705ezykqpl8gczu0xzr/cleanshot-2026-02-18-at-08-30-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/290320/qscyroy5ha32h0pf7ftndxc9urdk/cleanshot-2026-02-18-at-08-31-07.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290319/mcbtc7roy705ezykqpl8gczu0xzr/cleanshot-2026-02-18-at-08-30-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/290320/qscyroy5ha32h0pf7ftndxc9urdk/cleanshot-2026-02-18-at-08-31-07.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-community-survey-cta"
@@ -242,12 +242,12 @@
       "title": "Hero Conversion Video Play",
       "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290336/o2vr3twzbv2erfeoqnx55s4ntecv/cleanshot-2026-02-18-at-08-52-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290335/1nj6chywh9tgtlrh5dd1d6wkmui2/cleanshot-2026-02-18-at-08-52-41.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290336/o2vr3twzbv2erfeoqnx55s4ntecv/cleanshot-2026-02-18-at-08-52-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290335/1nj6chywh9tgtlrh5dd1d6wkmui2/cleanshot-2026-02-18-at-08-52-41.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversion-video-play"
@@ -270,12 +270,12 @@
       "title": "Hero CRM Streamlined",
       "componentPath": "blocks/hero/hero-crm-streamlined.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290332/ohesfnbgakl4kf5mzwzg9ic1rmvk/cleanshot-2026-02-18-at-08-49-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290331/6lp3u8m86rimri4nyn3yb1n78k0s/cleanshot-2026-02-18-at-08-50-10.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290332/ohesfnbgakl4kf5mzwzg9ic1rmvk/cleanshot-2026-02-18-at-08-49-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290331/6lp3u8m86rimri4nyn3yb1n78k0s/cleanshot-2026-02-18-at-08-50-10.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-crm-streamlined"
@@ -326,12 +326,12 @@
       "title": "Hero Design Showcase Logos",
       "componentPath": "blocks/hero/hero-design-showcase-logos.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290338/7jsrni9mxchzobjdjkvvrtuvs243/cleanshot-2026-02-18-at-08-53-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290337/gnpi56pqmr2v174g1zv17oe256id/cleanshot-2026-02-18-at-08-53-35.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290338/7jsrni9mxchzobjdjkvvrtuvs243/cleanshot-2026-02-18-at-08-53-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290337/gnpi56pqmr2v174g1zv17oe256id/cleanshot-2026-02-18-at-08-53-35.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-showcase-logos"
@@ -340,12 +340,12 @@
       "title": "Hero Design System 3D",
       "componentPath": "blocks/hero/hero-design-system-3d.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290350/g2n65xer8r53i9v5hkc16s2o9kyt/cleanshot-2026-02-18-at-09-03-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290349/jor599pzgxbhmrl6ol9aubpjsded/cleanshot-2026-02-18-at-09-03-34.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290350/g2n65xer8r53i9v5hkc16s2o9kyt/cleanshot-2026-02-18-at-09-03-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290349/jor599pzgxbhmrl6ol9aubpjsded/cleanshot-2026-02-18-at-09-03-34.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-system-3d"
@@ -424,12 +424,12 @@
       "title": "Hero Feature Cards Grid",
       "componentPath": "blocks/hero/hero-feature-cards-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290346/4b8j2sc3e9t1hfhthpjdggomau9m/cleanshot-2026-02-18-at-09-01-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/290345/2e6y30oq48t0zammlb4tfd4gjj5a/cleanshot-2026-02-18-at-09-01-17.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290346/4b8j2sc3e9t1hfhthpjdggomau9m/cleanshot-2026-02-18-at-09-01-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/290345/2e6y30oq48t0zammlb4tfd4gjj5a/cleanshot-2026-02-18-at-09-01-17.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-feature-cards-grid"
@@ -488,12 +488,12 @@
       "title": "Hero Gradient Avatars Rating",
       "componentPath": "blocks/hero/hero-gradient-avatars-rating.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290326/etbwj8ay5e67esk15c9ckmb1o0q7/cleanshot-2026-02-18-at-08-45-29.png",
+        "mobile": "https://cdn.ing/assets/i/r/290325/mcamqx25pmyquzxlovj2rw9m0zkt/cleanshot-2026-02-18-at-08-45-40.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290326/etbwj8ay5e67esk15c9ckmb1o0q7/cleanshot-2026-02-18-at-08-45-29.png",
+        "mobile": "https://cdn.ing/assets/i/r/290325/mcamqx25pmyquzxlovj2rw9m0zkt/cleanshot-2026-02-18-at-08-45-40.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-gradient-avatars-rating"
@@ -502,12 +502,12 @@
       "title": "Hero Gradient Client Focused",
       "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290322/h0vfgjsoamp82gnnb0evseb1e3qb/cleanshot-2026-02-18-at-08-33-49.png",
+        "mobile": "https://cdn.ing/assets/i/r/290321/3ip0ie4i2j9dzh4hsu5k45x5nzpx/cleanshot-2026-02-18-at-08-34-01.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290322/h0vfgjsoamp82gnnb0evseb1e3qb/cleanshot-2026-02-18-at-08-33-49.png",
+        "mobile": "https://cdn.ing/assets/i/r/290321/3ip0ie4i2j9dzh4hsu5k45x5nzpx/cleanshot-2026-02-18-at-08-34-01.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-gradient-client-focused"
@@ -530,12 +530,12 @@
       "title": "Hero Grid Pattern Solutions",
       "componentPath": "blocks/hero/hero-grid-pattern-solutions.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290330/y9443v7g1hl98wx3serlvfaqxtii/cleanshot-2026-02-18-at-08-48-38.png",
+        "mobile": "https://cdn.ing/assets/i/r/290329/tewu03d10ia26c0zhupp0w2aeycs/cleanshot-2026-02-18-at-08-49-03.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290330/y9443v7g1hl98wx3serlvfaqxtii/cleanshot-2026-02-18-at-08-48-38.png",
+        "mobile": "https://cdn.ing/assets/i/r/290329/tewu03d10ia26c0zhupp0w2aeycs/cleanshot-2026-02-18-at-08-49-03.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-grid-pattern-solutions"
@@ -628,12 +628,12 @@
       "title": "Hero Mental Health Team",
       "componentPath": "blocks/hero/hero-mental-health-team.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290359/s41b8vh4omhdpu4i7lhgqvlch5tr/cleanshot-2026-02-18-at-09-12-29.png",
+        "mobile": "https://cdn.ing/assets/i/r/290360/13zji87qvokrncnmbwsrbp4uzxtc/cleanshot-2026-02-18-at-09-13-08.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290359/s41b8vh4omhdpu4i7lhgqvlch5tr/cleanshot-2026-02-18-at-09-12-29.png",
+        "mobile": "https://cdn.ing/assets/i/r/290360/13zji87qvokrncnmbwsrbp4uzxtc/cleanshot-2026-02-18-at-09-13-08.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mental-health-team"
@@ -642,12 +642,12 @@
       "title": "Hero Mentorship Video Split",
       "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290318/h9p4m076wb9e0hkukoedkfalcc7o/cleanshot-2026-02-18-at-08-16-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/290317/tr2jb7z8o6c4hjwoqlikm9hk6jsw/cleanshot-2026-02-18-at-08-16-51.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290318/h9p4m076wb9e0hkukoedkfalcc7o/cleanshot-2026-02-18-at-08-16-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/290317/tr2jb7z8o6c4hjwoqlikm9hk6jsw/cleanshot-2026-02-18-at-08-16-51.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mentorship-video-split"
@@ -656,12 +656,12 @@
       "title": "Hero Minimal Centered Dark",
       "componentPath": "blocks/hero/hero-minimal-centered-dark.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290356/f3m3055iz8f576ccgei2hsyqoqxk/cleanshot-2026-02-18-at-09-08-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/290355/8t7ldz8f6jzb5q95964ad7vjaqpu/cleanshot-2026-02-18-at-09-09-12.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290356/f3m3055iz8f576ccgei2hsyqoqxk/cleanshot-2026-02-18-at-09-08-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/290355/8t7ldz8f6jzb5q95964ad7vjaqpu/cleanshot-2026-02-18-at-09-09-12.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-minimal-centered-dark"
@@ -782,12 +782,12 @@
       "title": "Hero Presentation Platform Video",
       "componentPath": "blocks/hero/hero-presentation-platform-video.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290328/jjwd82tdn2t1ufpibcxbo7wxhaum/cleanshot-2026-02-18-at-08-47-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290327/8eyi8ohztc1f9k6nntb3c5alc0in/cleanshot-2026-02-18-at-08-47-56.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290328/jjwd82tdn2t1ufpibcxbo7wxhaum/cleanshot-2026-02-18-at-08-47-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290327/8eyi8ohztc1f9k6nntb3c5alc0in/cleanshot-2026-02-18-at-08-47-56.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-presentation-platform-video"
@@ -810,12 +810,12 @@
       "title": "Hero Product Showcase Floating",
       "componentPath": "blocks/hero/hero-product-showcase-floating.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290353/be22zbvrrqprz6b306evz4ql1xtt/cleanshot-2026-02-18-at-09-07-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/290354/awbnvfo5q8bfyc1b73nzu6savmd4/cleanshot-2026-02-18-at-09-08-13.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290353/be22zbvrrqprz6b306evz4ql1xtt/cleanshot-2026-02-18-at-09-07-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/290354/awbnvfo5q8bfyc1b73nzu6savmd4/cleanshot-2026-02-18-at-09-08-13.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-product-showcase-floating"
@@ -880,12 +880,12 @@
       "title": "Hero Software Growth Video Dialog",
       "componentPath": "blocks/hero/hero-software-growth-video-dialog.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-software-growth-video-dialog"
@@ -978,12 +978,12 @@
       "title": "Hero Stats Social Proof",
       "componentPath": "blocks/hero/hero-stats-social-proof.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290344/lg1h8mu1h1fgl9o85pqn9inygzy6/cleanshot-2026-02-18-at-08-59-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290343/niluxvh23hsyq2j83jp6b4m0blem/cleanshot-2026-02-18-at-08-59-28.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290344/lg1h8mu1h1fgl9o85pqn9inygzy6/cleanshot-2026-02-18-at-08-59-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290343/niluxvh23hsyq2j83jp6b4m0blem/cleanshot-2026-02-18-at-08-59-28.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-stats-social-proof"
@@ -992,12 +992,12 @@
       "title": "Hero Task Timer Animated",
       "componentPath": "blocks/hero/hero-task-timer-animated.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290316/fz9jc5okvgifz1pkckk7jvkzo7fa/cleanshot-2026-02-18-at-07-05-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290315/xqxw9bhctr8t1lwbwsv574ye3zbz/cleanshot-2026-02-18-at-07-05-23.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290316/fz9jc5okvgifz1pkckk7jvkzo7fa/cleanshot-2026-02-18-at-07-05-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290315/xqxw9bhctr8t1lwbwsv574ye3zbz/cleanshot-2026-02-18-at-07-05-23.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-task-timer-animated"
@@ -1020,12 +1020,12 @@
       "title": "Hero Testimonial Image Grid",
       "componentPath": "blocks/hero/hero-testimonial-image-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290348/do85q13ta1010srw4u5teae8yppl/cleanshot-2026-02-18-at-09-02-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/290347/0h6qx647ixl6d1ffirwqz6956g9a/cleanshot-2026-02-18-at-09-02-20.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290348/do85q13ta1010srw4u5teae8yppl/cleanshot-2026-02-18-at-09-02-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/290347/0h6qx647ixl6d1ffirwqz6956g9a/cleanshot-2026-02-18-at-09-02-20.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-testimonial-image-grid"
@@ -1034,12 +1034,12 @@
       "title": "Hero Therapy Testimonial Grid",
       "componentPath": "blocks/hero/hero-therapy-testimonial-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290358/foiz9yxky9f5imn9h0p2o591qz0u/cleanshot-2026-02-18-at-09-10-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290357/oeh58ujgdm0q7lwzheddn2b2jltf/cleanshot-2026-02-18-at-09-10-48.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290358/foiz9yxky9f5imn9h0p2o591qz0u/cleanshot-2026-02-18-at-09-10-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290357/oeh58ujgdm0q7lwzheddn2b2jltf/cleanshot-2026-02-18-at-09-10-48.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-therapy-testimonial-grid"
@@ -1048,12 +1048,12 @@
       "title": "Hero UI Library Showcase",
       "componentPath": "blocks/hero/hero-ui-library-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290324/y0y23ep2ddyq6aa4iw67cetstscp/cleanshot-2026-02-18-at-08-35-05.png",
+        "mobile": "https://cdn.ing/assets/i/r/290323/wjfj3i3e53fqspa0uj5ngry1tbkl/cleanshot-2026-02-18-at-08-35-20.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290324/y0y23ep2ddyq6aa4iw67cetstscp/cleanshot-2026-02-18-at-08-35-05.png",
+        "mobile": "https://cdn.ing/assets/i/r/290323/wjfj3i3e53fqspa0uj5ngry1tbkl/cleanshot-2026-02-18-at-08-35-20.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ui-library-showcase"
@@ -1076,12 +1076,12 @@
       "title": "Hero Video Dialog Gradient",
       "componentPath": "blocks/hero/hero-video-dialog-gradient.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290352/3ruvw7dmg7vm0ovnlchjadflsfrv/cleanshot-2026-02-18-at-09-06-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290351/ayqliqpcf4s5dfe99gamkd70hw8p/cleanshot-2026-02-18-at-09-06-45.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290352/3ruvw7dmg7vm0ovnlchjadflsfrv/cleanshot-2026-02-18-at-09-06-30.png",
+        "mobile": "https://cdn.ing/assets/i/r/290351/ayqliqpcf4s5dfe99gamkd70hw8p/cleanshot-2026-02-18-at-09-06-45.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-dialog-gradient"
@@ -1090,12 +1090,12 @@
       "title": "Hero Video Overlay Stars",
       "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290340/sqea7vkk446xfgnzk4lwx1e38sdl/cleanshot-2026-02-18-at-08-57-11.png",
+        "mobile": "https://cdn.ing/assets/i/r/290339/869rctro6gur2nq38vdo48smt9v5/cleanshot-2026-02-18-at-08-57-21.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290340/sqea7vkk446xfgnzk4lwx1e38sdl/cleanshot-2026-02-18-at-08-57-11.png",
+        "mobile": "https://cdn.ing/assets/i/r/290339/869rctro6gur2nq38vdo48smt9v5/cleanshot-2026-02-18-at-08-57-21.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-overlay-stars"

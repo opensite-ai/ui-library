@@ -1,6 +1,5 @@
 import { imagePlaceholders } from "@/lib/media";
 import { HeroSaasDashboardPreview } from "@opensite/ui/blocks/hero/hero-saas-dashboard-preview";
-import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
@@ -13,18 +12,19 @@ export default function Demo() {
         placeholder: "Enter your email",
         action: {
           label: "Start Free Trial",
-          href: "/signup",
+          href: "#",
           variant: "default",
         },
       }}
       browserPreview={{
-        url: "app.company.com/dashboard",
+        url: "yourbrand.com/showcase",
         image: {
-          src: imagePlaceholders[111],
-          alt: "Dashboard preview",
+          src: imagePlaceholders[83],
+          alt: "Dashboard",
         },
       }}
       spacing="xl"
+      background="dark"
     />
   );
 }

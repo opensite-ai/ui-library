@@ -31,7 +31,9 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      background="muted"
+      background="gray"
+      pattern="dashedGridBasic"
+      patternOpacity={0.9}
     />
   );
 }

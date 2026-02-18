@@ -1,10 +1,14 @@
-import { imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroUiLibraryShowcase } from "@opensite/ui/blocks/hero/hero-ui-library-showcase";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
     <HeroUiLibraryShowcase
+      logo={{
+        src: brandLogoPlaceholders.white[0],
+        alt: "StartupCo Logo",
+      }}
       heading="Beautiful components for modern apps"
       description="A comprehensive UI library with 100+ components. Built with accessibility, performance, and developer experience in mind."
       image={{

@@ -4,7 +4,8 @@ import { HeroVideoOverlayStars } from "@opensite/ui/blocks/hero/hero-video-overl
 export default function Demo() {
   return (
     <HeroVideoOverlayStars
-      heading="Rated 5 stars by our customers"
+      heading="Testimonials"
+      description="Our CRM solution is designed to streamline your business operations and improve efficiency."
       actions={[
         {
           label: "Try It Free",
@@ -12,7 +13,7 @@ export default function Demo() {
           icon: "lucide/arrow-right",
         },
       ]}
-      videoSrc={videoPlaceholders[19]}
+      videoSrc={videoPlaceholders[2]}
       trust={{
         starCount: 5,
         message: "Trusted by 2,500+ customers worldwide",

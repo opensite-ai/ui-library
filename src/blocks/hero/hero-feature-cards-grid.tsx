@@ -42,6 +42,12 @@ export default function Demo() {
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
+        {
+          label: "Talk to Sales",
+          href: "#",
+          variant: "outline",
+          icon: <DynamicIcon name="lucide/phone" size={16} />,
+        },
       ]}
       background="gray"
     />

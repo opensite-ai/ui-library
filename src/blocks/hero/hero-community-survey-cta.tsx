@@ -24,10 +24,15 @@ export default function Demo() {
       }}
       actions={[
         {
-          label: "Take Survey",
+          label: "Get Started",
           href: "#",
           variant: "outline",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        },
+        {
+          label: "Learn More",
+          href: "#",
+          variant: "ghost",
         },
       ]}
       background="dark"

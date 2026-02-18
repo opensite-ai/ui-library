@@ -17,7 +17,9 @@ export default function Demo() {
         },
       ]}
       image={{ src: imagePlaceholders[82], alt: "CRM Dashboard" }}
-      background="gray"
+      background="dark"
+      pattern="crossPattern"
+      patternOpacity={0.9}
     />
   );
 }
