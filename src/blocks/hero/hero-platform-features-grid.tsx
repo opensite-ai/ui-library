@@ -1,4 +1,4 @@
-import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
+import { logoPlaceholders } from "@/lib/media";
 import { HeroPlatformFeaturesGrid } from "@opensite/ui/blocks/hero/hero-platform-features-grid";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -11,7 +11,7 @@ export default function Demo() {
       description="All-in-one solution that combines communication, collaboration, and project management tools in a single platform."
       action={{
         label: "Explore Features",
-        href: "/features",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
@@ -41,7 +41,7 @@ export default function Demo() {
           href: "#",
         },
       ]}
-      background="white"
+      background="gray"
       pattern="dashedGridFadeTop"
       patternOpacity={1}
     />

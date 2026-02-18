@@ -17,7 +17,9 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.2}
     />
   );
 }

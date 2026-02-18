@@ -21,7 +21,9 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.15}
     />
   );
 }

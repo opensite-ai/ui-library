@@ -16,7 +16,9 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      background="gray"
+      background="dark"
+      pattern="gridDotsBasic"
+      patternOpacity={0.1}
       images={[
         { src: imagePlaceholders[120], alt: "Image 1" },
         { src: imagePlaceholders[121], alt: "Image 2" },

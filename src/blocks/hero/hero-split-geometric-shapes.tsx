@@ -38,7 +38,9 @@ export default function Demo() {
           alt: "Contemporary aesthetics",
         },
       ]}
-      spacing="xl"
+      background="white"
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.9}
     />
   );
 }

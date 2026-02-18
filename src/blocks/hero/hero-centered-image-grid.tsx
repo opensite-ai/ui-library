@@ -28,7 +28,9 @@ export default function Demo() {
         { src: imagePlaceholders[66], alt: "Gallery 5" },
         { src: imagePlaceholders[67], alt: "Gallery 6" },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="dashedGridFadeTop"
+      patternOpacity={0.1}
     />
   );
 }

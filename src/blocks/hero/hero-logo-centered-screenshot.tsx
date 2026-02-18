@@ -16,7 +16,7 @@ export default function Demo() {
       }}
       image={{ src: imagePlaceholders[33], alt: "Platform screenshot" }}
       pattern="dashedGridFadeTop"
-      patternOpacity={0.3}
+      patternOpacity={0.15}
       background="dark"
     />
   );
