@@ -63,7 +63,7 @@ export const componentFilterConfig: {
    * Individual blocks from partially-ready categories
    * Total: 48 blocks across 5 categories
    */
-  blockedSlugs: [],
+  blockedSlugs: ["contact-floating-banner"],
 
   /**
    * Used when mode is "whitelist" - not currently used

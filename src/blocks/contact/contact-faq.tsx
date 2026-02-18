@@ -51,7 +51,7 @@ export default function Demo() {
       formConfig={demoFormConfig}
       successMessage="Thank you for reaching out! We'll get back to you within 24 hours."
       background="white"
-      pattern="gridFadeTop"
+      pattern="dashedGridFadeTop"
       patternOpacity={0.9}
       faqHeading="Frequently Asked Questions"
       items={[

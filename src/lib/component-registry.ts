@@ -541,12 +541,90 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/footers/footer-split-image-accordion"),
 
   // Contact blocks
-  "contact-faq": () =>
-    import("@/blocks/contact/contact-faq"),
+  "contact-callback": () =>
+    import("@/blocks/contact/contact-callback"),
+  "contact-card": () =>
+    import("@/blocks/contact/contact-card"),
+  "contact-careers": () =>
+    import("@/blocks/contact/contact-careers"),
+  "contact-catering": () =>
+    import("@/blocks/contact/contact-catering"),
+  "contact-consultation": () =>
+    import("@/blocks/contact/contact-consultation"),
   "contact-dark": () =>
     import("@/blocks/contact/contact-dark"),
+  "contact-demo": () =>
+    import("@/blocks/contact/contact-demo"),
+  "contact-emergency": () =>
+    import("@/blocks/contact/contact-emergency"),
+  "contact-event": () =>
+    import("@/blocks/contact/contact-event"),
+  "contact-faq": () =>
+    import("@/blocks/contact/contact-faq"),
+  "contact-feedback": () =>
+    import("@/blocks/contact/contact-feedback"),
+  "contact-fitness": () =>
+    import("@/blocks/contact/contact-fitness"),
+  "contact-floating-banner": () =>
+    import("@/blocks/contact/contact-floating-banner"),
+  "contact-guest": () =>
+    import("@/blocks/contact/contact-guest"),
+  "contact-help-center": () =>
+    import("@/blocks/contact/contact-help-center"),
+  "contact-image": () =>
+    import("@/blocks/contact/contact-image"),
+  "contact-insurance": () =>
+    import("@/blocks/contact/contact-insurance"),
+  "contact-interview": () =>
+    import("@/blocks/contact/contact-interview"),
+  "contact-locations": () =>
+    import("@/blocks/contact/contact-locations"),
+  "contact-maintenance": () =>
+    import("@/blocks/contact/contact-maintenance"),
+  "contact-map": () =>
+    import("@/blocks/contact/contact-map"),
+  "contact-minimal": () =>
+    import("@/blocks/contact/contact-minimal"),
+  "contact-moving": () =>
+    import("@/blocks/contact/contact-moving"),
+  "contact-multistep": () =>
+    import("@/blocks/contact/contact-multistep"),
+  "contact-partnership": () =>
+    import("@/blocks/contact/contact-partnership"),
   "contact-photography": () =>
     import("@/blocks/contact/contact-photography"),
+  "contact-press": () =>
+    import("@/blocks/contact/contact-press"),
+  "contact-quote": () =>
+    import("@/blocks/contact/contact-quote"),
+  "contact-referral": () =>
+    import("@/blocks/contact/contact-referral"),
+  "contact-report": () =>
+    import("@/blocks/contact/contact-report"),
+  "contact-reservation": () =>
+    import("@/blocks/contact/contact-reservation"),
+  "contact-retreat": () =>
+    import("@/blocks/contact/contact-retreat"),
+  "contact-rsvp": () =>
+    import("@/blocks/contact/contact-rsvp"),
+  "contact-sales": () =>
+    import("@/blocks/contact/contact-sales"),
+  "contact-schedule": () =>
+    import("@/blocks/contact/contact-schedule"),
+  "contact-sponsorship": () =>
+    import("@/blocks/contact/contact-sponsorship"),
+  "contact-support": () =>
+    import("@/blocks/contact/contact-support"),
+  "contact-tenant": () =>
+    import("@/blocks/contact/contact-tenant"),
+  "contact-vendor": () =>
+    import("@/blocks/contact/contact-vendor"),
+  "contact-volunteer": () =>
+    import("@/blocks/contact/contact-volunteer"),
+  "contact-warranty": () =>
+    import("@/blocks/contact/contact-warranty"),
+  "contact-wedding": () =>
+    import("@/blocks/contact/contact-wedding"),
 };
 
 export const componentRegistry = Object.fromEntries(

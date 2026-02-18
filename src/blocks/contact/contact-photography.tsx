@@ -2,7 +2,6 @@
 
 import { ContactPhotography } from "@opensite/ui/blocks/contact/contact-photography";
 import { demoFormConfig } from "@/lib/form-demo-data";
-import { imagePlaceholders } from "@/lib/media";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -121,10 +120,8 @@ export default function Demo() {
       formConfig={demoFormConfig}
       successMessage="Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days."
       background="dark"
-      pattern="gridFadeTopLeft"
+      pattern="dashedGridFadeTopLeft"
       patternOpacity={0.15}
-      imageSrc={imagePlaceholders[111]}
-      imageAlt="Contact us banner"
     />
   );
 }
