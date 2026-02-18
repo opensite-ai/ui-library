@@ -14,7 +14,42 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       disclaimer="We respect your privacy. Unsubscribe anytime."
-      spacing="xl"
+      stats={[
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/briefcase"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "500+",
+          label: "Projects Completed",
+        },
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/users"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "50M+",
+          label: "Users Reached",
+        },
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/star"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "98%",
+          label: "Client Satisfaction",
+        },
+      ]}
+      background="dark"
     />
   );
 }

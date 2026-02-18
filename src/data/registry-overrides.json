@@ -18,12 +18,12 @@
       "title": "Hero Adaptable Product Grid",
       "componentPath": "blocks/hero/hero-adaptable-product-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290366/uv4qtfn3edl45ax81guo40k04i20/cleanshot-2026-02-18-at-09-27-11.png",
+        "mobile": "https://cdn.ing/assets/i/r/290365/5t8td46oq32417ytzaei4p21dah0/cleanshot-2026-02-18-at-09-27-26.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290366/uv4qtfn3edl45ax81guo40k04i20/cleanshot-2026-02-18-at-09-27-11.png",
+        "mobile": "https://cdn.ing/assets/i/r/290365/5t8td46oq32417ytzaei4p21dah0/cleanshot-2026-02-18-at-09-27-26.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-adaptable-product-grid"
@@ -144,12 +144,12 @@
       "title": "Hero Business Operations Mosaic",
       "componentPath": "blocks/hero/hero-business-operations-mosaic.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290370/l68nd6qz93yfx3rxftb9hh0b50h6/cleanshot-2026-02-18-at-09-29-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/290369/qeegvbo5x4phamon5hi1s9tnwhht/cleanshot-2026-02-18-at-09-29-55.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290370/l68nd6qz93yfx3rxftb9hh0b50h6/cleanshot-2026-02-18-at-09-29-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/290369/qeegvbo5x4phamon5hi1s9tnwhht/cleanshot-2026-02-18-at-09-29-55.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-business-operations-mosaic"
@@ -228,12 +228,12 @@
       "title": "Hero Conversation Intelligence",
       "componentPath": "blocks/hero/hero-conversation-intelligence.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290379/ffl9m26q6vzl4iiuupmqdunk0m5x/cleanshot-2026-02-18-at-10-27-17.png",
+        "mobile": "https://cdn.ing/assets/i/r/290378/u3ktjibso64jsprecvrjdvef0582/cleanshot-2026-02-18-at-10-27-33.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290379/ffl9m26q6vzl4iiuupmqdunk0m5x/cleanshot-2026-02-18-at-10-27-17.png",
+        "mobile": "https://cdn.ing/assets/i/r/290378/u3ktjibso64jsprecvrjdvef0582/cleanshot-2026-02-18-at-10-27-33.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversation-intelligence"
@@ -460,12 +460,12 @@
       "title": "Hero Fullscreen Background Image",
       "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290362/xr7mlyaqp04frk4arfnfjerqe0kd/cleanshot-2026-02-18-at-09-24-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290361/2mascl13qbif1vmxitq1fcdhysdy/cleanshot-2026-02-18-at-09-24-56.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290362/xr7mlyaqp04frk4arfnfjerqe0kd/cleanshot-2026-02-18-at-09-24-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290361/2mascl13qbif1vmxitq1fcdhysdy/cleanshot-2026-02-18-at-09-24-56.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-background-image"
@@ -474,12 +474,12 @@
       "title": "Hero Fullscreen Logo CTA",
       "componentPath": "blocks/hero/hero-fullscreen-logo-cta.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290363/c5nc8pif9ds7rr6m3aavpkdk827x/cleanshot-2026-02-18-at-09-25-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290364/ngt64u3y2uvlcbp4g615br2hqiuy/cleanshot-2026-02-18-at-09-26-11.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290363/c5nc8pif9ds7rr6m3aavpkdk827x/cleanshot-2026-02-18-at-09-25-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290364/ngt64u3y2uvlcbp4g615br2hqiuy/cleanshot-2026-02-18-at-09-26-11.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-logo-cta"
@@ -586,12 +586,12 @@
       "title": "Hero Innovation Image Grid",
       "componentPath": "blocks/hero/hero-innovation-image-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290368/butcxgkqfo6ei481n33fqkpc4ms1/cleanshot-2026-02-18-at-09-28-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290367/gltb7cmf3eptn3got56saz2iz0jm/cleanshot-2026-02-18-at-09-28-27.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290368/butcxgkqfo6ei481n33fqkpc4ms1/cleanshot-2026-02-18-at-09-28-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290367/gltb7cmf3eptn3got56saz2iz0jm/cleanshot-2026-02-18-at-09-28-27.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-innovation-image-grid"
@@ -1104,12 +1104,12 @@
       "title": "Hero Welcome Asymmetric Images",
       "componentPath": "blocks/hero/hero-welcome-asymmetric-images.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290372/vqmoy92aft1vrjto6ckfcprc1fg0/cleanshot-2026-02-18-at-09-39-55.png",
+        "mobile": "https://cdn.ing/assets/i/r/290371/do1c747ic1f8nbwez4wfoyg8ik6n/cleanshot-2026-02-18-at-09-40-11.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290372/vqmoy92aft1vrjto6ckfcprc1fg0/cleanshot-2026-02-18-at-09-39-55.png",
+        "mobile": "https://cdn.ing/assets/i/r/290371/do1c747ic1f8nbwez4wfoyg8ik6n/cleanshot-2026-02-18-at-09-40-11.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-welcome-asymmetric-images"

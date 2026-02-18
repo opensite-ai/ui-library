@@ -1,5 +1,5 @@
 import { HeroComingSoonCountdown } from "@opensite/ui/blocks/hero/hero-coming-soon-countdown";
-import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import moment from "moment";
 
 export default function Demo() {
   return (
@@ -8,12 +8,7 @@ export default function Demo() {
       badgeText="Launching Soon"
       heading="Something amazing is on the way"
       description="Be the first to know when we launch. Sign up now for exclusive early access and special launch pricing."
-      countdownItems={[
-        { value: "24", label: "Days" },
-        { value: "15", label: "Hours" },
-        { value: "42", label: "Minutes" },
-        { value: "08", label: "Seconds" },
-      ]}
+      countdownDate={moment().add(3, "weeks").toDate()}
       emailPlaceholder="Enter your email"
       submitAction={{
         label: "Notify Me",
@@ -21,12 +16,12 @@ export default function Demo() {
         variant: "default",
       }}
       socialLinks={[
-        { href: "https://twitter.com", iconName: "lucide/twitter" },
-        { href: "https://facebook.com", iconName: "lucide/facebook" },
-        { href: "https://instagram.com", iconName: "lucide/instagram" },
-        { href: "https://linkedin.com", iconName: "lucide/linkedin" },
+        { href: "https://twitter.com" },
+        { href: "https://facebook.com" },
+        { href: "https://instagram.com" },
+        { href: "https://linkedin.com" },
       ]}
-      background="dark"
+      background="gray"
       spacing="xl"
     />
   );

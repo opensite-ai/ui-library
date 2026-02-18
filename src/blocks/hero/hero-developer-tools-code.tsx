@@ -10,26 +10,38 @@ export default function Demo() {
       actions={[
         {
           label: "Read Docs",
-          href: "/docs",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View GitHub",
-          href: "https://github.com",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/github" size={16} />,
         },
       ]}
       terminalTitle="quickstart.tsx"
       terminalLines={[
-        { text: "import { Hero } from '@opensite/ui';", colorClass: "text-blue-400" },
+        {
+          text: "import { Hero } from '@opensite/ui';",
+          colorClass: "text-blue-400",
+        },
         { text: "", colorClass: "" },
-        { text: "export default function Page() {", colorClass: "text-purple-400" },
-        { text: "  return <Hero heading=\"Hello World\" />;", colorClass: "text-green-400" },
+        {
+          text: "export default function Page() {",
+          colorClass: "text-purple-400",
+        },
+        {
+          text: '  return <Hero heading="Hello World" />;',
+          colorClass: "text-green-400",
+        },
         { text: "}", colorClass: "text-purple-400" },
       ]}
       spacing="xl"
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.25}
     />
   );
 }

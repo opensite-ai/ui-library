@@ -6,19 +6,55 @@ export default function Demo() {
   return (
     <HeroEcommerceProductShowcase
       badgeText="New Collection"
+      badgeIcon="lucide/star"
       heading="Premium products for modern living"
       description="Discover our curated collection of handpicked items designed to elevate your everyday life. Quality craftsmanship, timeless style."
       actions={[
         {
           label: "Shop Now",
-          href: "/shop",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/shopping-bag" size={16} />,
         },
         {
           label: "View Lookbook",
-          href: "/lookbook",
+          href: "#",
           variant: "outline",
+        },
+      ]}
+      stats={[
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/briefcase"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "500+",
+          label: "Projects Completed",
+        },
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/users"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "50M+",
+          label: "Users Reached",
+        },
+        {
+          icon: (
+            <DynamicIcon
+              name="lucide/star"
+              size={24}
+              className="text-primary"
+            />
+          ),
+          value: "98%",
+          label: "Client Satisfaction",
         },
       ]}
       images={[
@@ -27,7 +63,7 @@ export default function Demo() {
         { src: imagePlaceholders[106], alt: "Product 3" },
         { src: imagePlaceholders[107], alt: "Product 4" },
       ]}
-      spacing="xl"
+      background="gray"
     />
   );
 }

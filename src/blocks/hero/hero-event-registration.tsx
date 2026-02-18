@@ -12,13 +12,13 @@ export default function Demo() {
       actions={[
         {
           label: "Register Now",
-          href: "/register",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Agenda",
-          href: "/agenda",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/calendar" size={16} />,
         },
@@ -31,7 +31,6 @@ export default function Demo() {
       image={{ src: imagePlaceholders[108], alt: "Event venue" }}
       locationLabel="San Francisco, CA"
       locationSublabel="September 15-17, 2026"
-      spacing="xl"
     />
   );
 }

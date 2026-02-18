@@ -1,6 +1,5 @@
 import { imagePlaceholders } from "@/lib/media";
 import { HeroMobileAppDownload } from "@opensite/ui/blocks/hero/hero-mobile-app-download";
-import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
