@@ -15,7 +15,15 @@ export default function Demo() {
         subtitle: "Intelligent Automation",
       }}
       imageSrc={imagePlaceholders[75]}
+      avatars={[
+        { src: imagePlaceholders[6], alt: "Avatar 1" },
+        { src: imagePlaceholders[7], alt: "Avatar 2" },
+        { src: imagePlaceholders[9], alt: "Avatar 3" },
+      ]}
+      socialProofText="5,000+ active members"
       background="dark"
+      pattern="dashedGridFadeBottomLeft"
+      patternOpacity={0.25}
       actions={[
         {
           label: "Join Waitlist",

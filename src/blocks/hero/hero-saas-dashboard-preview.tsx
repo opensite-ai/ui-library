@@ -1,5 +1,20 @@
+"use client";
+
 import { imagePlaceholders } from "@/lib/media";
 import { HeroSaasDashboardPreview } from "@opensite/ui/blocks/hero/hero-saas-dashboard-preview";
+import { demoFormConfig } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    label: "Email Address",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -8,14 +23,18 @@ export default function Demo() {
       badgeIcon="lucide/box"
       heading="The operating system for your business"
       description="All-in-one platform to run your business efficiently. From analytics to automation, everything you need is here."
-      emailForm={{
-        placeholder: "Enter your email",
-        action: {
-          label: "Start Free Trial",
-          href: "#",
-          variant: "default",
-        },
+      formFields={formFields}
+      formConfig={{
+        ...demoFormConfig,
+        formLayout: "button-group",
+        buttonGroupSize: "lg",
+      } as any}
+      buttonAction={{
+        label: "Start Free Trial",
+        variant: "default",
       }}
+      successMessage="Welcome aboard! Check your email to get started."
+      helperText="No credit card required. Cancel anytime."
       browserPreview={{
         url: "yourbrand.com/showcase",
         image: {

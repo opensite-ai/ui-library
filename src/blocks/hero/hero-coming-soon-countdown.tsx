@@ -1,5 +1,20 @@
+"use client";
+
 import { HeroComingSoonCountdown } from "@opensite/ui/blocks/hero/hero-coming-soon-countdown";
 import moment from "moment";
+import { demoFormConfig } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    label: "Email Address",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -9,12 +24,18 @@ export default function Demo() {
       heading="Something amazing is on the way"
       description="Be the first to know when we launch. Sign up now for exclusive early access and special launch pricing."
       countdownDate={moment().add(3, "weeks").toDate()}
-      emailPlaceholder="Enter your email"
-      submitAction={{
+      formFields={formFields}
+      formConfig={{
+        ...demoFormConfig,
+        formLayout: "button-group",
+        buttonGroupSize: "lg",
+      } as any}
+      buttonAction={{
         label: "Notify Me",
-        href: "/subscribe",
         variant: "default",
       }}
+      successMessage="Thank you! We'll notify you as soon as we launch."
+      helperText="We respect your privacy. Unsubscribe anytime."
       socialLinks={[
         { href: "https://twitter.com" },
         { href: "https://facebook.com" },
@@ -22,7 +43,6 @@ export default function Demo() {
         { href: "https://linkedin.com" },
       ]}
       background="gray"
-      spacing="xl"
     />
   );
 }

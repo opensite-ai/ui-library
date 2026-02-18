@@ -1,19 +1,38 @@
+"use client";
+
 import { HeroNewsletterMinimal } from "@opensite/ui/blocks/hero/hero-newsletter-minimal";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { demoFormConfig } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    label: "Email Address",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
     <HeroNewsletterMinimal
       heading="Stay in the loop"
       description="Get weekly insights, tips, and updates delivered straight to your inbox. Join 50,000+ subscribers who never miss a beat."
-      inputPlaceholder="Enter your email"
-      submitAction={{
+      formFields={formFields}
+      formConfig={{
+        ...demoFormConfig,
+        formLayout: "button-group",
+        buttonGroupSize: "lg",
+      } as any}
+      buttonAction={{
         label: "Subscribe",
-        href: "/subscribe",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      disclaimer="We respect your privacy. Unsubscribe anytime."
+      successMessage="Thank you for subscribing! Check your inbox for a confirmation email."
       stats={[
         {
           icon: (

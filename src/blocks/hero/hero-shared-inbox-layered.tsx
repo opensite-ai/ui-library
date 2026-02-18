@@ -18,7 +18,7 @@ export default function Demo() {
         {
           label: "Learn More",
           href: "#",
-          variant: "link",
+          variant: "ghost",
         },
       ]}
       layeredImages={{

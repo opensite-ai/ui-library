@@ -10,13 +10,13 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Book Demo",
-          href: "/demo",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/calendar" size={16} />,
         },
@@ -26,7 +26,7 @@ export default function Demo() {
         { src: imagePlaceholders[53], alt: "Business feature 2" },
         { src: imagePlaceholders[54], alt: "Business feature 3" },
       ]}
-      spacing="xl"
+      background="gray"
     />
   );
 }

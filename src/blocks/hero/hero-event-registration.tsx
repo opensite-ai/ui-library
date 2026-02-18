@@ -24,13 +24,55 @@ export default function Demo() {
         },
       ]}
       stats={[
-        { value: "2,000+", label: "Attendees" },
-        { value: "50+", label: "Speakers" },
-        { value: "3 Days", label: "Duration" },
+        {
+          value: "2,000+",
+          label: "Attendees",
+          icon: (
+            <DynamicIcon
+              name="lucide/users"
+              size={24}
+              className="text-primary"
+            />
+          ),
+        },
+        {
+          value: "50+",
+          label: "Speakers",
+          icon: (
+            <DynamicIcon
+              name="lucide/mic-vocal"
+              size={24}
+              className="text-primary"
+            />
+          ),
+        },
+        {
+          value: "3 Days",
+          label: "Duration",
+          icon: (
+            <DynamicIcon
+              name="lucide/timer"
+              size={24}
+              className="text-primary"
+            />
+          ),
+        },
+        {
+          value: "Bay Area",
+          label: "Location",
+          icon: (
+            <DynamicIcon
+              name="lucide/map-pin"
+              size={24}
+              className="text-primary"
+            />
+          ),
+        },
       ]}
       image={{ src: imagePlaceholders[108], alt: "Event venue" }}
       locationLabel="San Francisco, CA"
       locationSublabel="September 15-17, 2026"
+      background="dark"
     />
   );
 }

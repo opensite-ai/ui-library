@@ -7,17 +7,17 @@ export default function Demo() {
     <HeroCreativeStudioStacked
       heading="Where creativity meets innovation"
       description="Award-winning creative studio specializing in brand identity, digital experiences, and visual storytelling that makes an impact."
+      videoAction={{
+        label: "Watch Demo",
+        variant: "default",
+        iconAfter: <DynamicIcon name="lucide/play" size={16} />,
+      }}
       actions={[
-        {
-          label: "Get Started",
-          href: "#",
-          variant: "default",
-          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
-        },
         {
           label: "Learn More",
           href: "#",
-          variant: "link",
+          variant: "outline",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
       videoDialog={{
@@ -29,6 +29,9 @@ export default function Demo() {
         { src: imagePlaceholders[79], alt: "Project 2" },
         { src: imagePlaceholders[80], alt: "Project 3" },
       ]}
+      background="dark"
+      pattern="dashedGridFadeTopRight"
+      patternOpacity={0.25}
     />
   );
 }

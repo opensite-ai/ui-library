@@ -5,12 +5,12 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroAgencyAnimatedImages
-      description="Award-Winning Agency"
       heading="Creative solutions for modern brands"
+      description="Discover a platform that empowers you to create, collaborate, and achieve amazing results. Welcome to the future of work."
       actions={[
         {
           label: "View Our Work",
-          href: "/portfolio",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },

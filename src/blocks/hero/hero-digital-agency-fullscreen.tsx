@@ -20,8 +20,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      backgroundImage={imagePlaceholders[102]}
-      spacing="xl"
+      backgroundImage={imagePlaceholders[104]}
     />
   );
 }
