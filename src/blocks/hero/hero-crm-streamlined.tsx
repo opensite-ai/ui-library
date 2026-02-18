@@ -8,14 +8,16 @@ export default function Demo() {
       tagline="Simple CRM"
       heading="Customer relationships made simple"
       description="Manage your entire customer lifecycle in one intuitive platform. From first contact to loyal advocate, we've got you covered."
-      action={{
-        label: "Start Free Trial",
-        href: "/signup",
-        variant: "default",
-        iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
-      }}
+      actions={[
+        {
+          label: "Start Free Trial",
+          href: "#",
+          variant: "default",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        },
+      ]}
       image={{ src: imagePlaceholders[82], alt: "CRM Dashboard" }}
-      spacing="xl"
+      background="gray"
     />
   );
 }

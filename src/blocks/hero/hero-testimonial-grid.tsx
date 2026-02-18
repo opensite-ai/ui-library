@@ -11,9 +11,7 @@ export default function Demo() {
         author: "Alex Thompson",
         role: "CTO",
         company: "TechVentures",
-        avatars: [
-          { image: imagePlaceholders[37], fallback: "AT" },
-        ],
+        avatars: [{ image: imagePlaceholders[37], fallback: "AT" }],
       }}
       gridImages={[
         { src: imagePlaceholders[37], alt: "Customer 1" },
@@ -21,10 +19,12 @@ export default function Demo() {
         { src: imagePlaceholders[39], alt: "Customer 3" },
         { src: imagePlaceholders[40], alt: "Customer 4" },
       ]}
-      button={{
-        text: "Read All Reviews",
-        url: "/reviews",
-      }}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+        },
+      ]}
       spacing="xl"
     />
   );

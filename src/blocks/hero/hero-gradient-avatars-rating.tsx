@@ -10,14 +10,14 @@ export default function Demo() {
       actions={[
         {
           label: "Start Free Trial",
-          href: "/signup",
-          variant: "default",
+          href: "#",
+          variant: "outline",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Read Reviews",
-          href: "/reviews",
-          variant: "outline",
+          href: "#",
+          variant: "ghost",
           icon: <DynamicIcon name="lucide/star" size={16} />,
         },
       ]}
@@ -27,10 +27,15 @@ export default function Demo() {
         { src: imagePlaceholders[3], alt: "User 3" },
         { src: imagePlaceholders[4], alt: "User 4" },
       ]}
+      images={[
+        { src: imagePlaceholders[100], alt: "Hero 1" },
+        { src: imagePlaceholders[101], alt: "Hero 2" },
+      ]}
       ratingValue="4.9"
       ratingLabel="10,000+ happy users"
       background="gradient"
-      spacing="xl"
+      pattern="gridFadeTopLeft"
+      patternOpacity={0.15}
     />
   );
 }

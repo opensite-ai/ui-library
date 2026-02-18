@@ -11,13 +11,13 @@ export default function Demo() {
       actions={[
         {
           label: "Explore Components",
-          href: "/components",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Documentation",
-          href: "/docs",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/book-open" size={16} />,
         },
@@ -27,7 +27,7 @@ export default function Demo() {
         { src: imagePlaceholders[101], alt: "Design system component 2" },
         { src: imagePlaceholders[102], alt: "Design system component 3" },
       ]}
-      spacing="xl"
+      background="dark"
     />
   );
 }

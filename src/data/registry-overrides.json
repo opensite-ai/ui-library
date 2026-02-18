@@ -46,12 +46,12 @@
       "title": "Hero AI Powered Carousel",
       "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290306/1jofjurd0w0a6klvuf41y9dq4ukz/cleanshot-2026-02-18-at-04-48-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290305/krz8l4qvoybcgnvf6g872gb4v1jo/cleanshot-2026-02-18-at-04-49-45.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290306/1jofjurd0w0a6klvuf41y9dq4ukz/cleanshot-2026-02-18-at-04-48-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290305/krz8l4qvoybcgnvf6g872gb4v1jo/cleanshot-2026-02-18-at-04-49-45.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ai-powered-carousel"
@@ -60,12 +60,12 @@
       "title": "Hero Announcement Badge",
       "componentPath": "blocks/hero/hero-announcement-badge.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290292/ja8wrtovqlc6yz1ue5upgn4kowq7/cleanshot-2026-02-18-at-04-08-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290291/g61i4jgk0fsw9jrlo181c3vgl9b2/cleanshot-2026-02-18-at-04-08-33.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290292/ja8wrtovqlc6yz1ue5upgn4kowq7/cleanshot-2026-02-18-at-04-08-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290291/g61i4jgk0fsw9jrlo181c3vgl9b2/cleanshot-2026-02-18-at-04-08-33.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-announcement-badge"
@@ -74,12 +74,12 @@
       "title": "Hero Architecture Fullscreen",
       "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290314/ilq1u0mo8yo9x5i60yiobkca12gl/cleanshot-2026-02-18-at-06-09-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/290313/ttulv890j948wehyp6z33ickk1bx/cleanshot-2026-02-18-at-06-10-05.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290314/ilq1u0mo8yo9x5i60yiobkca12gl/cleanshot-2026-02-18-at-06-09-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/290313/ttulv890j948wehyp6z33ickk1bx/cleanshot-2026-02-18-at-06-10-05.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-architecture-fullscreen"
@@ -102,12 +102,12 @@
       "title": "Hero Badge Shadow Overlay",
       "componentPath": "blocks/hero/hero-badge-shadow-overlay.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290232/xmhcvex2y66r8lcdsbkyb322f327/cleanshot-2026-02-18-at-02-58-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290231/izghatv8ulcqat2ubpcks550f6s1/cleanshot-2026-02-18-at-02-58-47.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290232/xmhcvex2y66r8lcdsbkyb322f327/cleanshot-2026-02-18-at-02-58-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290231/izghatv8ulcqat2ubpcks550f6s1/cleanshot-2026-02-18-at-02-58-47.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-badge-shadow-overlay"
@@ -116,12 +116,12 @@
       "title": "Hero Billing Platform Logos",
       "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290308/d4e1e26ctxd9qfqpwql8hikcq2dg/cleanshot-2026-02-18-at-05-05-58.png",
+        "mobile": "https://cdn.ing/assets/i/r/290307/unyo6thq4mxlffg3vl8f71reespo/cleanshot-2026-02-18-at-05-06-11.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290308/d4e1e26ctxd9qfqpwql8hikcq2dg/cleanshot-2026-02-18-at-05-05-58.png",
+        "mobile": "https://cdn.ing/assets/i/r/290307/unyo6thq4mxlffg3vl8f71reespo/cleanshot-2026-02-18-at-05-06-11.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-billing-platform-logos"
@@ -172,12 +172,12 @@
       "title": "Hero Centered Image Grid",
       "componentPath": "blocks/hero/hero-centered-image-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290222/cicdwh2mxwcgbazjgc2tcdj9lx74/cleanshot-2026-02-18-at-02-30-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/290221/cye89vszposa91pet34gmi9ij2wu/cleanshot-2026-02-18-at-02-30-35.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290222/cicdwh2mxwcgbazjgc2tcdj9lx74/cleanshot-2026-02-18-at-02-30-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/290221/cye89vszposa91pet34gmi9ij2wu/cleanshot-2026-02-18-at-02-30-35.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-image-grid"
@@ -298,12 +298,12 @@
       "title": "Hero Dashed Border Features",
       "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290234/j44ri9v8uvlj52hvmxsxi9ie3zxc/cleanshot-2026-02-18-at-03-04-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/290233/9tyimydps0l6dwejth0vhqb22lii/cleanshot-2026-02-18-at-03-04-48.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290234/j44ri9v8uvlj52hvmxsxi9ie3zxc/cleanshot-2026-02-18-at-03-04-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/290233/9tyimydps0l6dwejth0vhqb22lii/cleanshot-2026-02-18-at-03-04-48.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-dashed-border-features"
@@ -312,12 +312,12 @@
       "title": "Hero Design Carousel Portfolio",
       "componentPath": "blocks/hero/hero-design-carousel-portfolio.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290304/rx0t7ysihfk2lhsr9hdnuf1xwd91/cleanshot-2026-02-18-at-04-27-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/290303/b1zjc7oquywndi5knn9wmhh1c2bq/cleanshot-2026-02-18-at-04-27-29.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290304/rx0t7ysihfk2lhsr9hdnuf1xwd91/cleanshot-2026-02-18-at-04-27-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/290303/b1zjc7oquywndi5knn9wmhh1c2bq/cleanshot-2026-02-18-at-04-27-29.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-carousel-portfolio"
@@ -516,12 +516,12 @@
       "title": "Hero Grid Pattern Efficiency",
       "componentPath": "blocks/hero/hero-grid-pattern-efficiency.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290302/e0k56u05o6y7ykl0rtwq7ze7xjtv/cleanshot-2026-02-18-at-04-25-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/290301/ykc8o1kgk2xaic23gwlvq7k0jit5/cleanshot-2026-02-18-at-04-26-02.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290302/e0k56u05o6y7ykl0rtwq7ze7xjtv/cleanshot-2026-02-18-at-04-25-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/290301/ykc8o1kgk2xaic23gwlvq7k0jit5/cleanshot-2026-02-18-at-04-26-02.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-grid-pattern-efficiency"
@@ -544,12 +544,12 @@
       "title": "Hero Hiring Animated Text",
       "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290312/l25s9xt31u0e3wfdqxdlh69l1674/cleanshot-2026-02-18-at-05-44-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/290311/13tu7n36dm6onxs4f4wbq324d8i6/cleanshot-2026-02-18-at-05-44-31.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290312/l25s9xt31u0e3wfdqxdlh69l1674/cleanshot-2026-02-18-at-05-44-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/290311/13tu7n36dm6onxs4f4wbq324d8i6/cleanshot-2026-02-18-at-05-44-31.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-hiring-animated-text"
@@ -600,12 +600,12 @@
       "title": "Hero Logo Centered Screenshot",
       "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290224/cg3a5bh0o4dzsg46rb5qjg8q9ho4/cleanshot-2026-02-18-at-02-31-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/290223/s8sx12gozl3sw5bgqgm9rlwcqr2o/cleanshot-2026-02-18-at-02-32-11.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290224/cg3a5bh0o4dzsg46rb5qjg8q9ho4/cleanshot-2026-02-18-at-02-31-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/290223/s8sx12gozl3sw5bgqgm9rlwcqr2o/cleanshot-2026-02-18-at-02-32-11.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-logo-centered-screenshot"
@@ -614,12 +614,12 @@
       "title": "Hero Marketplace Scattered Images",
       "componentPath": "blocks/hero/hero-marketplace-scattered-images.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290230/n4r0qpmxlquv9zo77wmt0bzpr4kt/cleanshot-2026-02-18-at-02-57-15.png",
+        "mobile": "https://cdn.ing/assets/i/r/290229/9upfyl1fa7jg3wjcy29wth8nx105/cleanshot-2026-02-18-at-02-57-35.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290230/n4r0qpmxlquv9zo77wmt0bzpr4kt/cleanshot-2026-02-18-at-02-57-15.png",
+        "mobile": "https://cdn.ing/assets/i/r/290229/9upfyl1fa7jg3wjcy29wth8nx105/cleanshot-2026-02-18-at-02-57-35.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-marketplace-scattered-images"
@@ -726,12 +726,12 @@
       "title": "Hero Pattern Logo Tech Stack",
       "componentPath": "blocks/hero/hero-pattern-logo-tech-stack.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290226/voswkh09xl0fsefnpavwbpwd6rl5/cleanshot-2026-02-18-at-02-33-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290225/tde0mxqqulf7d8i8wjqvxblrycwx/cleanshot-2026-02-18-at-02-33-31.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290226/voswkh09xl0fsefnpavwbpwd6rl5/cleanshot-2026-02-18-at-02-33-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290225/tde0mxqqulf7d8i8wjqvxblrycwx/cleanshot-2026-02-18-at-02-33-31.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-pattern-logo-tech-stack"
@@ -740,12 +740,12 @@
       "title": "Hero Platform Features Grid",
       "componentPath": "blocks/hero/hero-platform-features-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290296/wvipb14wddxax1xjekblovwq3ji6/cleanshot-2026-02-18-at-04-10-52.png",
+        "mobile": "https://cdn.ing/assets/i/r/290295/1zrq2efvt9syeepxt4vs752q7g9p/cleanshot-2026-02-18-at-04-11-09.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290296/wvipb14wddxax1xjekblovwq3ji6/cleanshot-2026-02-18-at-04-10-52.png",
+        "mobile": "https://cdn.ing/assets/i/r/290295/1zrq2efvt9syeepxt4vs752q7g9p/cleanshot-2026-02-18-at-04-11-09.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-platform-features-grid"
@@ -768,12 +768,12 @@
       "title": "Hero Premium Split Avatars",
       "componentPath": "blocks/hero/hero-premium-split-avatars.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290236/wj93ewjoo5k83mudgor66hhww5ev/cleanshot-2026-02-18-at-03-22-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/290235/5k37o0tswkq1e7rxvju3w920zqlt/cleanshot-2026-02-18-at-03-22-45.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290236/wj93ewjoo5k83mudgor66hhww5ev/cleanshot-2026-02-18-at-03-22-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/290235/5k37o0tswkq1e7rxvju3w920zqlt/cleanshot-2026-02-18-at-03-22-45.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-premium-split-avatars"
@@ -824,12 +824,12 @@
       "title": "Hero Productivity Launcher Video",
       "componentPath": "blocks/hero/hero-productivity-launcher-video.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290310/p9mbyd57q1ae33qrq7kv25w2forx/cleanshot-2026-02-18-at-05-43-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290309/c8xq5jx0mxbzr0x3tmb6mo2fivmw/cleanshot-2026-02-18-at-05-43-27.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290310/p9mbyd57q1ae33qrq7kv25w2forx/cleanshot-2026-02-18-at-05-43-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/290309/c8xq5jx0mxbzr0x3tmb6mo2fivmw/cleanshot-2026-02-18-at-05-43-27.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-productivity-launcher-video"
@@ -866,12 +866,12 @@
       "title": "Hero Simple Centered Image",
       "componentPath": "blocks/hero/hero-simple-centered-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290294/ajrfpoiz611nukir220y4xh9h0am/cleanshot-2026-02-18-at-04-09-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290293/60psymwja5zqlpgpil8zgoqp2i1a/cleanshot-2026-02-18-at-04-09-50.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290294/ajrfpoiz611nukir220y4xh9h0am/cleanshot-2026-02-18-at-04-09-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290293/60psymwja5zqlpgpil8zgoqp2i1a/cleanshot-2026-02-18-at-04-09-50.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-simple-centered-image"
@@ -894,12 +894,12 @@
       "title": "Hero Spiral Pattern Cards",
       "componentPath": "blocks/hero/hero-spiral-pattern-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290298/43jbz6hrp7ni24e2x35dwnjtr3eb/cleanshot-2026-02-18-at-04-12-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/290297/8q6yf85thj7vvdmq2cuhjnvuvg8c/cleanshot-2026-02-18-at-04-12-15.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290298/43jbz6hrp7ni24e2x35dwnjtr3eb/cleanshot-2026-02-18-at-04-12-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/290297/8q6yf85thj7vvdmq2cuhjnvuvg8c/cleanshot-2026-02-18-at-04-12-15.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-spiral-pattern-cards"
@@ -908,12 +908,12 @@
       "title": "Hero Split Geometric Shapes",
       "componentPath": "blocks/hero/hero-split-geometric-shapes.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290300/xcossl5mgscg6786yyuag026zcuo/cleanshot-2026-02-18-at-04-13-08.png",
+        "mobile": "https://cdn.ing/assets/i/r/290299/44k5textl1mmhnsl5orqij5hfq8j/cleanshot-2026-02-18-at-04-13-26.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290300/xcossl5mgscg6786yyuag026zcuo/cleanshot-2026-02-18-at-04-13-08.png",
+        "mobile": "https://cdn.ing/assets/i/r/290299/44k5textl1mmhnsl5orqij5hfq8j/cleanshot-2026-02-18-at-04-13-26.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-geometric-shapes"
@@ -1342,12 +1342,12 @@
       "title": "About Location Info Hero",
       "componentPath": "blocks/about/about-location-info-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290228/rgpkqt5l5ssgjlsgxjcl9iw1yr7p/cleanshot-2026-02-18-at-02-55-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290227/affjjwcx6mdwsw2qz7c7q7s9a20h/cleanshot-2026-02-18-at-02-55-44.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288983/f8l082kjcr1svh53at4i3ju732vp/visit-our-studio-contact-hours-modern-office-cityscape.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288984/ralnuuq4ucm0bpv0vo8iq2nximpr/mobile-contact-and-hours-visit-our-studio-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290228/rgpkqt5l5ssgjlsgxjcl9iw1yr7p/cleanshot-2026-02-18-at-02-55-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290227/affjjwcx6mdwsw2qz7c7q7s9a20h/cleanshot-2026-02-18-at-02-55-44.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-location-info-hero.tsx"

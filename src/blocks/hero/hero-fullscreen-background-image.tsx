@@ -10,13 +10,12 @@ export default function Demo() {
       actions={[
         {
           label: "Explore",
-          href: "/explore",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
       backgroundImage={imagePlaceholders[110]}
-      spacing="xl"
     />
   );
 }

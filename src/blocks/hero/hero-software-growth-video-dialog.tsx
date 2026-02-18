@@ -7,17 +7,17 @@ export default function Demo() {
     <HeroSoftwareGrowthVideoDialog
       heading="Accelerate your growth with data-driven insights"
       description="See how top companies use our platform to scale faster, make smarter decisions, and achieve sustainable growth."
+      videoAction={{
+        label: "Watch Demo",
+        variant: "outline",
+        iconAfter: <DynamicIcon name="lucide/play" size={16} />,
+      }}
       actions={[
         {
-          label: "Start Free Trial",
-          href: "/signup",
-          variant: "default",
+          label: "Get Started",
+          href: "#",
+          variant: "ghost",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
-        },
-        {
-          label: "See Case Studies",
-          href: "/case-studies",
-          variant: "outline",
         },
       ]}
       showcaseImages={[
@@ -30,7 +30,7 @@ export default function Demo() {
         videoUrl: videoPlaceholders[25],
         title: "See how it works",
       }}
-      spacing="xl"
+      background="dark"
     />
   );
 }

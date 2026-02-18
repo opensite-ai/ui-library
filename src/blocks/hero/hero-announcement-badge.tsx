@@ -11,13 +11,13 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "What's New",
-          href: "/changelog",
+          href: "#",
           variant: "outline",
         },
       ]}

@@ -14,18 +14,20 @@ export default function Demo() {
       actions={[
         {
           label: "Browse Components",
-          href: "/components",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Docs",
-          href: "/docs",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/book-open" size={16} />,
         },
       ]}
-      spacing="xl"
+      background="secondary"
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
     />
   );
 }

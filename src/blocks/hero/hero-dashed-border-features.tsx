@@ -42,7 +42,9 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      background="dark"
+      background="white"
+      pattern="gridBasic"
+      patternOpacity={0.9}
     />
   );
 }

@@ -1,4 +1,5 @@
 import { imagePlaceholders } from "@/lib/media";
+import { DynamicIcon } from "@opensite/ui";
 import { HeroTestimonialImageGrid } from "@opensite/ui/blocks/hero/hero-testimonial-image-grid";
 
 export default function Demo() {
@@ -20,11 +21,17 @@ export default function Demo() {
         { src: imagePlaceholders[27], alt: "Customer success story 3" },
         { src: imagePlaceholders[28], alt: "Customer success story 4" },
       ]}
-      button={{
-        text: "Read More Reviews",
-        url: "#",
-      }}
+      actions={[
+        {
+          label: "Get Started",
+          href: "#",
+          variant: "default",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        },
+      ]}
       background="dark"
+      pattern="crossPattern"
+      patternOpacity={0.9}
     />
   );
 }

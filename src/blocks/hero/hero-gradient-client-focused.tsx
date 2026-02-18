@@ -10,20 +10,19 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
-          variant: "default",
+          href: "#",
+          variant: "outline",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Talk to Sales",
-          href: "/contact",
-          variant: "outline",
+          href: "#",
+          variant: "ghost",
           icon: <DynamicIcon name="lucide/phone" size={16} />,
         },
       ]}
       image={{ src: imagePlaceholders[5], alt: "Client success" }}
       background="gradient"
-      spacing="xl"
     />
   );
 }

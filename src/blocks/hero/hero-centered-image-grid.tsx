@@ -10,13 +10,13 @@ export default function Demo() {
       actions={[
         {
           label: "View Gallery",
-          href: "/gallery",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Learn More",
-          href: "/about",
+          href: "#",
           variant: "outline",
         },
       ]}
@@ -31,6 +31,7 @@ export default function Demo() {
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.1}
+      spacing="xl"
     />
   );
 }

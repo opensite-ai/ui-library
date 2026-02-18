@@ -5,6 +5,8 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroStatsSocialProof
+      badge="Industry Expertise"
+      badgeIcon={<DynamicIcon name="lucide/star" size={16} />}
       heading="Trusted by thousands of businesses"
       description="Join the companies already experiencing transformative results with our platform."
       imageSrc={imagePlaceholders[100]}

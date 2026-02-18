@@ -12,14 +12,14 @@ export default function Demo() {
       actions={[
         {
           label: "Get Started",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
       background="dark"
       pattern="gridFadeTop"
-      patternOpacity={0.2}
+      patternOpacity={0.1}
     />
   );
 }

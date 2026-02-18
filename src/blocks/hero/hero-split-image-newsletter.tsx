@@ -20,7 +20,7 @@ export default function Demo() {
         src: imagePlaceholders[13],
         alt: "Newsletter preview",
       }}
-      spacing="xl"
+      background="gray"
     />
   );
 }

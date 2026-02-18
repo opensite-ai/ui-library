@@ -26,11 +26,13 @@ export default function Demo() {
         {
           label: "Take Survey",
           href: "#",
-          variant: "default",
+          variant: "outline",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
       background="dark"
+      pattern="gradientGlowBottom"
+      patternOpacity={1}
     />
   );
 }

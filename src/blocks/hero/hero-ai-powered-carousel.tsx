@@ -12,38 +12,34 @@ export default function Demo() {
       actions={[
         {
           label: "Start Free Trial",
-          href: "/signup",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/sparkles" size={16} />,
         },
         {
           label: "Watch Demo",
-          href: "/demo",
+          href: "#",
           variant: "outline",
           icon: <DynamicIcon name="lucide/play-circle" size={16} />,
         },
       ]}
-      mobileCarouselImages1={[
+      carouselImages1={[
         { src: imagePlaceholders[20], alt: "AI Feature 1" },
         { src: imagePlaceholders[21], alt: "AI Feature 2" },
         { src: imagePlaceholders[22], alt: "AI Feature 3" },
-      ]}
-      mobileCarouselImages2={[
         { src: imagePlaceholders[23], alt: "AI Feature 4" },
         { src: imagePlaceholders[24], alt: "AI Feature 5" },
         { src: imagePlaceholders[25], alt: "AI Feature 6" },
       ]}
-      desktopCarouselImages1={[
-        { src: imagePlaceholders[20], alt: "AI Feature 1" },
-        { src: imagePlaceholders[21], alt: "AI Feature 2" },
-        { src: imagePlaceholders[22], alt: "AI Feature 3" },
+      carouselImages2={[
+        { src: imagePlaceholders[26], alt: "AI Feature 7" },
+        { src: imagePlaceholders[27], alt: "AI Feature 8" },
+        { src: imagePlaceholders[28], alt: "AI Feature 9" },
+        { src: imagePlaceholders[29], alt: "AI Feature 10" },
+        { src: imagePlaceholders[30], alt: "AI Feature 11" },
+        { src: imagePlaceholders[31], alt: "AI Feature 12" },
       ]}
-      desktopCarouselImages2={[
-        { src: imagePlaceholders[23], alt: "AI Feature 4" },
-        { src: imagePlaceholders[24], alt: "AI Feature 5" },
-        { src: imagePlaceholders[25], alt: "AI Feature 6" },
-      ]}
-      spacing="xl"
+      background="gray"
     />
   );
 }

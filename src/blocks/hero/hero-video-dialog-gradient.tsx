@@ -7,17 +7,17 @@ export default function Demo() {
     <HeroVideoDialogGradient
       heading="See our platform in action"
       description="Get a 3-minute walkthrough of our most powerful features and see why teams love working with us."
+      videoAction={{
+        label: "Watch Demo",
+        variant: "outline",
+        iconAfter: <DynamicIcon name="lucide/play" size={16} />,
+      }}
       actions={[
         {
-          label: "Start Free Trial",
-          href: "/signup",
-          variant: "default",
+          label: "Get Started",
+          href: "#",
+          variant: "ghost",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
-        },
-        {
-          label: "Contact Sales",
-          href: "/contact",
-          variant: "outline",
         },
       ]}
       image={{
@@ -28,7 +28,9 @@ export default function Demo() {
         title: "Platform Demo",
         videoUrl: videoPlaceholders[35],
       }}
-      spacing="xl"
+      background="gradient"
+      pattern="circuitBoardFadeTop"
+      patternOpacity={0.1}
     />
   );
 }
