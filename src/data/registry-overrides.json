@@ -3687,56 +3687,98 @@
     "footer-animated-social": {
       "title": "Footer Animated Social",
       "componentPath": "blocks/footers/footer-animated-social.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290442/h3ve2efruaehzhxkx4mvxtkgqe9v/footer-animated-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290443/nw3b24u13k87i3nd2jjlh5bmcb46/footer-animated-social-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290442/h3ve2efruaehzhxkx4mvxtkgqe9v/footer-animated-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290443/nw3b24u13k87i3nd2jjlh5bmcb46/footer-animated-social-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-animated-social"
     },
     "footer-background-card": {
       "title": "Footer Background Card",
       "componentPath": "blocks/footers/footer-background-card.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290440/803ii0wnc443so1iezix0nhcr78f/footer-background-card-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290441/xb6qt4mygsnl5ppcxwtuem321ve5/footer-background-card-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290440/803ii0wnc443so1iezix0nhcr78f/footer-background-card-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290441/xb6qt4mygsnl5ppcxwtuem321ve5/footer-background-card-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-background-card"
     },
     "footer-brand-description": {
       "title": "Footer Brand Description",
       "componentPath": "blocks/footers/footer-brand-description.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290428/rqhsdnwsec12dpln0j7no1g3hioj/footer-brand-description-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290429/re4j7vw6669yuewxh2tmor91a66o/footer-brand-description-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290428/rqhsdnwsec12dpln0j7no1g3hioj/footer-brand-description-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290429/re4j7vw6669yuewxh2tmor91a66o/footer-brand-description-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-brand-description"
     },
     "footer-brand-links-contact": {
       "title": "Footer Brand Links Contact",
       "componentPath": "blocks/footers/footer-brand-links-contact.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290430/l17fqkc0l080er0apkj8mpxg0wcn/footer-brand-links-contact-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290431/w1pv8gbp72vde9d0ns0bhduqooda/footer-brand-links-contact-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290430/l17fqkc0l080er0apkj8mpxg0wcn/footer-brand-links-contact-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290431/w1pv8gbp72vde9d0ns0bhduqooda/footer-brand-links-contact-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-brand-links-contact"
     },
     "footer-comprehensive-links": {
       "title": "Footer Comprehensive Links",
       "componentPath": "blocks/footers/footer-comprehensive-links.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290432/3hjpbxi6f5mc2vjvao1grpsz1lky/footer-comprehensive-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290433/erdxv3f8i8q60txzqb5jmhgz693t/footer-comprehensive-links-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290432/3hjpbxi6f5mc2vjvao1grpsz1lky/footer-comprehensive-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290433/erdxv3f8i8q60txzqb5jmhgz693t/footer-comprehensive-links-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-comprehensive-links"
     },
     "footer-contact-card": {
       "title": "Footer Contact Card",
       "componentPath": "blocks/footers/footer-contact-card.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290438/xuooahpl634i700lrrubw6q40jai/footer-contact-card-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290439/lhp5qyezlzbujgnep3mrtmrlcdo7/footer-contact-card-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290438/xuooahpl634i700lrrubw6q40jai/footer-contact-card-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290439/lhp5qyezlzbujgnep3mrtmrlcdo7/footer-contact-card-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-contact-card"
     },
     "footer-cta-banner": {
       "title": "Footer CTA Banner",
       "componentPath": "blocks/footers/footer-cta-banner.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290436/lz8jhkzb7p3gpfn6m3xgft5ujr3k/footer-cta-banner-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290437/gj4ld9ptbkxsrbvol0joczwy4qp8/footer-cta-banner-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290436/lz8jhkzb7p3gpfn6m3xgft5ujr3k/footer-cta-banner-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290437/gj4ld9ptbkxsrbvol0joczwy4qp8/footer-cta-banner-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-cta-banner"
     },
@@ -3760,12 +3802,12 @@
       "title": "Footer Links Grid",
       "componentPath": "blocks/footers/footer-links-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290463/qrewm3t0s6h7s6inl69zazcjinhy/cleanshot-2026-02-19-at-06-00-39-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290462/74q7s155dgayv3r11uoqqlr52ya1/cleanshot-2026-02-19-at-06-01-01-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290420/cjutkvt4ts74befzbdh97tzeg9mo/footer-links-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290421/v6zexbi4zoh3y6g51974mw2pd7hb/footer-links-grid-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290463/qrewm3t0s6h7s6inl69zazcjinhy/cleanshot-2026-02-19-at-06-00-39-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290462/74q7s155dgayv3r11uoqqlr52ya1/cleanshot-2026-02-19-at-06-01-01-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290420/cjutkvt4ts74befzbdh97tzeg9mo/footer-links-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290421/v6zexbi4zoh3y6g51974mw2pd7hb/footer-links-grid-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-links-grid"
@@ -3789,24 +3831,42 @@
     "footer-newsletter-grid": {
       "title": "Footer Newsletter Grid",
       "componentPath": "blocks/footers/footer-newsletter-grid.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290435/mjet8zuupbeahzt086ya1h8o4r4h/footer-newsletter-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290434/z6bze6kdt95p54j4hisa0l58olon/cleanshot-2026-02-18-at-18-46-19-2x.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290435/mjet8zuupbeahzt086ya1h8o4r4h/footer-newsletter-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290434/z6bze6kdt95p54j4hisa0l58olon/cleanshot-2026-02-18-at-18-46-19-2x.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-newsletter-grid"
     },
     "footer-newsletter-minimal": {
       "title": "Footer Newsletter Minimal",
       "componentPath": "blocks/footers/footer-newsletter-minimal.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290444/r4sw0piidu898r4etokgu7fxkxsv/footer-newsletter-minimal-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290445/8eea8pmmzqmnof64aaaf4qgbaodb/footer-newsletter-minimal-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290444/r4sw0piidu898r4etokgu7fxkxsv/footer-newsletter-minimal-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290445/8eea8pmmzqmnof64aaaf4qgbaodb/footer-newsletter-minimal-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-newsletter-minimal"
     },
     "footer-simple-centered": {
       "title": "Footer Simple Centered",
       "componentPath": "blocks/footers/footer-simple-centered.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290426/jibej0ffj0gy4ibipwxz5yxe987g/footer-simple-centered-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290427/5ute92wezl1cf27w7v3oexc9t89v/footer-simple-centered-mobile.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290426/jibej0ffj0gy4ibipwxz5yxe987g/footer-simple-centered-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290427/5ute92wezl1cf27w7v3oexc9t89v/footer-simple-centered-mobile.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-simple-centered"
     },
@@ -3814,12 +3874,12 @@
       "title": "Footer Social Apps",
       "componentPath": "blocks/footers/footer-social-apps.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290461/niwwffe2r2zuzfxgnu5t3yk2zrir/cleanshot-2026-02-19-at-05-52-33-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290460/4o7jlwo6zse5air9w4ov8nd3cbpb/cleanshot-2026-02-19-at-05-54-01-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290424/4fb98bi74961h1avevtjjk4dy3mi/footer-social-apps-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290425/guuxnowa8mk9y9ow1ppqeldgs57a/footer-social-apps-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290461/niwwffe2r2zuzfxgnu5t3yk2zrir/cleanshot-2026-02-19-at-05-52-33-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290460/4o7jlwo6zse5air9w4ov8nd3cbpb/cleanshot-2026-02-19-at-05-54-01-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290424/4fb98bi74961h1avevtjjk4dy3mi/footer-social-apps-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290425/guuxnowa8mk9y9ow1ppqeldgs57a/footer-social-apps-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-social-apps"
@@ -3828,12 +3888,12 @@
       "title": "Footer Social Newsletter",
       "componentPath": "blocks/footers/footer-social-newsletter.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290465/xpf86wa120ke5q8fta0tfqibv9l8/cleanshot-2026-02-19-at-06-06-50-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290465/xpf86wa120ke5q8fta0tfqibv9l8/cleanshot-2026-02-19-at-06-06-50-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290422/tndi6i4iqhasxhycehikb96alm5m/footer-social-newsletter-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290423/zrjyjftl8ldgkc9049atxviv2a6z/footer-social-newsletter-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290465/xpf86wa120ke5q8fta0tfqibv9l8/cleanshot-2026-02-19-at-06-06-50-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290465/xpf86wa120ke5q8fta0tfqibv9l8/cleanshot-2026-02-19-at-06-06-50-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290422/tndi6i4iqhasxhycehikb96alm5m/footer-social-newsletter-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290423/zrjyjftl8ldgkc9049atxviv2a6z/footer-social-newsletter-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-social-newsletter"
