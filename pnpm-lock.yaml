@@ -12,11 +12,11 @@ importers:
         specifier: 2.0.8
         version: 2.0.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 2.1.1
-        version: 2.1.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 2.1.2
+        version: 2.1.2(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/forms':
-        specifier: 0.5.9
-        version: 0.5.9(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 0.6.2
+        version: 0.6.2(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/hooks':
         specifier: ^0.4.5
         version: 0.4.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -585,8 +585,8 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@opensite/ui@2.1.1':
-    resolution: {integrity: sha512-qexkVMupcQEhE6TatYwWE7YC8BDWEWEvplDcwkVRuff+8IzwjBA1OTIgh2V5KpPW/rnWZC9U6+5/DtRXKVcExA==}
+  '@opensite/ui@2.1.2':
+    resolution: {integrity: sha512-kEbN9jr0RKvsnk27Io+L4UNoMt8lvYDhdTGxlbuO92JDpIn9+TrRU721aWzVeqY/IW+IDW2r8UIfHIuVgESJ5w==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@tailwindcss/typography': '>=0.5.0'
@@ -596,8 +596,8 @@ packages:
       '@tailwindcss/typography':
         optional: true
 
-  '@page-speed/forms@0.5.9':
-    resolution: {integrity: sha512-Di6OVGpCaNJwNsRlBA3W4623gAt1V58NFMeUfarv0sjKOy2pwUop9Nz8DKeVJ5EyYOBeEl7dpvDQ9iH3ZNVJqQ==}
+  '@page-speed/forms@0.6.2':
+    resolution: {integrity: sha512-8FW4F3MmBiD2GEtAqU5q/FFLLxhZsyUYBa8rwVvi57OymbYEZZPQ0rd2bsfCK0P6oR4aAdVtTR9JumQD7P67lw==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       react: '>=16.8.0'
@@ -3593,10 +3593,10 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@opensite/ui@2.1.1(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@2.1.2(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 2.0.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
-      '@page-speed/forms': 0.5.9(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+      '@page-speed/forms': 0.6.2(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/icon': 0.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/img': 0.4.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/lightbox': 0.2.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -3639,9 +3639,10 @@ snapshots:
       - expo-sqlite
       - typescript
 
-  '@page-speed/forms@0.5.9(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@page-speed/forms@0.6.2(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 2.0.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@page-speed/icon': 0.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@radix-ui/react-direction': 1.1.1(@types/react@19.2.9)(react@19.2.3)
       '@radix-ui/react-slot': 1.2.4(@types/react@19.2.9)(react@19.2.3)
       class-variance-authority: 0.7.1

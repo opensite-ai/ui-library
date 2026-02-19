@@ -3,6 +3,8 @@
  * Defines the structure of blocks, categories, and API responses
  */
 
+import { PageSpeedFormConfig } from "@opensite/ui";
+
 /**
  * Thumbnail URLs for a block (desktop and mobile views)
  */
@@ -146,4 +148,10 @@ export interface UsageResponseData {
  */
 export interface SearchResult extends Block {
   relevance?: number;
+}
+
+// TODO add to opensite-ui
+export interface FormConfig extends PageSpeedFormConfig {
+  formLayout: "button-group";
+  buttonGroupSize: "lg";
 }

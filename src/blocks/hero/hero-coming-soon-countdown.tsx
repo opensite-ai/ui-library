@@ -27,9 +27,7 @@ export default function Demo() {
       formFields={formFields}
       formConfig={{
         ...demoFormConfig,
-        formLayout: "button-group",
-        buttonGroupSize: "lg",
-      } as any}
+      }}
       buttonAction={{
         label: "Notify Me",
         variant: "default",

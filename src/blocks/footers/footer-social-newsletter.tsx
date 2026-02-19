@@ -1,5 +1,18 @@
 import { FooterSocialNewsletter } from "@opensite/ui/blocks/footers/footer-social-newsletter";
 import { logoPlaceholders } from "@/lib/media";
+import { demoFormConfig } from "@/lib/form-demo-data";
+import { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    label: "Email Address",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -74,12 +87,10 @@ export default function Demo() {
           label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
-      newsletterLabel="Subscribe to our newsletter"
-      newsletterPlaceholder="Enter your email address"
-      newsletterButtonText="Subscribe"
-      privacyConsentText="By subscribing, you agree to our"
-      privacyLinkText="Privacy Policy"
-      privacyLinkUrl="#"
+      formFields={formFields}
+      formConfig={{
+        ...demoFormConfig,
+      }}
       copyright="CloudSync LLC"
       pattern="gridFadeTop"
       patternOpacity={1}
