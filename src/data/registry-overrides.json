@@ -2940,12 +2940,12 @@
       "title": "NavBar Fullscreen Menu",
       "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/navbars/navbar-fullscreen-menu"
@@ -2954,12 +2954,12 @@
       "title": "NavBar Icon Links",
       "componentPath": "blocks/navbars/navbar-icon-links.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/navbars/navbar-icon-links"
