@@ -28,4 +28,17 @@ export function createDemoFormConfig(
   };
 }
 
+/**
+ * @deprecated Use `demoFormEngineApi` with the new `<FormEngine>` component.
+ * This config may include layout fields that are not part of the clean API shape.
+ */
 export const demoFormConfig: PageSpeedFormConfig = createDemoFormConfig();
+
+/**
+ * FormEngine-compatible API config.
+ * Use this with `<FormEngine api={demoFormEngineApi} ... />`.
+ * Layout settings (formLayout, buttonGroupSize, etc.) live in FormEngine's
+ * `formLayoutSettings` prop — not here.
+ * @see demoFormConfig for legacy Form component usage (deprecated)
+ */
+export const demoFormEngineApi: PageSpeedFormConfig = createDemoFormConfig();

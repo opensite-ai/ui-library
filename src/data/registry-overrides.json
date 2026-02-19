@@ -1,5 +1,339 @@
 {
   "blocks": {
+    "contact-faq": {
+      "title": "Contact FAQ",
+      "componentPath": "blocks/contact/contact-faq.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-faq"
+    },
+    "contact-dark": {
+      "title": "Contact Dark",
+      "componentPath": "blocks/contact/contact-dark.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-dark"
+    },
+    "contact-photography": {
+      "title": "Contact Photography",
+      "componentPath": "blocks/contact/contact-photography.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-photography"
+    },
+    "contact-vendor": {
+      "title": "Contact Vendor Application",
+      "componentPath": "blocks/contact/contact-vendor.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290467/xf02j5wf2h3veskdmo64tja6zzje/cleanshot-2026-02-19-at-06-13-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290466/4mrv0wfwc6e6cutz6zbgeae35ixp/cleanshot-2026-02-19-at-06-14-16-2x.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290467/xf02j5wf2h3veskdmo64tja6zzje/cleanshot-2026-02-19-at-06-13-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290466/4mrv0wfwc6e6cutz6zbgeae35ixp/cleanshot-2026-02-19-at-06-14-16-2x.png"
+      },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-vendor"
+    },
+    "contact-callback": {
+      "title": "Contact Callback Request",
+      "componentPath": "blocks/contact/contact-callback.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-callback"
+    },
+    "contact-card": {
+      "title": "Contact Card Form",
+      "componentPath": "blocks/contact/contact-card.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-card"
+    },
+    "contact-careers": {
+      "title": "Contact Careers Application",
+      "componentPath": "blocks/contact/contact-careers.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-careers"
+    },
+    "contact-catering": {
+      "title": "Contact Catering Inquiry",
+      "componentPath": "blocks/contact/contact-catering.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-catering"
+    },
+    "contact-consultation": {
+      "title": "Contact Consultation Booking",
+      "componentPath": "blocks/contact/contact-consultation.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-consultation"
+    },
+    "contact-demo": {
+      "title": "Contact Demo Request",
+      "componentPath": "blocks/contact/contact-demo.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-demo"
+    },
+    "contact-emergency": {
+      "title": "Contact Emergency",
+      "componentPath": "blocks/contact/contact-emergency.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-emergency"
+    },
+    "contact-event": {
+      "title": "Contact Event Registration",
+      "componentPath": "blocks/contact/contact-event.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-event"
+    },
+    "contact-feedback": {
+      "title": "Contact Feedback",
+      "componentPath": "blocks/contact/contact-feedback.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-feedback"
+    },
+    "contact-fitness": {
+      "title": "Contact Fitness Consultation",
+      "componentPath": "blocks/contact/contact-fitness.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-fitness"
+    },
+    "contact-guest": {
+      "title": "Contact Guest Information",
+      "componentPath": "blocks/contact/contact-guest.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-guest"
+    },
+    "contact-image": {
+      "title": "Contact Image",
+      "componentPath": "blocks/contact/contact-image.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-image"
+    },
+    "contact-insurance": {
+      "title": "Contact Insurance Quote",
+      "componentPath": "blocks/contact/contact-insurance.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-insurance"
+    },
+    "contact-interview": {
+      "title": "Contact Interview Scheduling",
+      "componentPath": "blocks/contact/contact-interview.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-interview"
+    },
+    "contact-locations": {
+      "title": "Contact Locations",
+      "componentPath": "blocks/contact/contact-locations.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-locations"
+    },
+    "contact-maintenance": {
+      "title": "Contact Maintenance Request",
+      "componentPath": "blocks/contact/contact-maintenance.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-maintenance"
+    },
+    "contact-map": {
+      "title": "Contact Map",
+      "componentPath": "blocks/contact/contact-map.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-map"
+    },
+    "contact-minimal": {
+      "title": "Contact Minimal",
+      "componentPath": "blocks/contact/contact-minimal.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-minimal"
+    },
+    "contact-moving": {
+      "title": "Contact Moving Services",
+      "componentPath": "blocks/contact/contact-moving.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-moving"
+    },
+    "contact-multistep": {
+      "title": "Contact Multistep",
+      "componentPath": "blocks/contact/contact-multistep.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-multistep"
+    },
+    "contact-partnership": {
+      "title": "Contact Partnership Inquiry",
+      "componentPath": "blocks/contact/contact-partnership.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-partnership"
+    },
+    "contact-press": {
+      "title": "Contact Press Inquiries",
+      "componentPath": "blocks/contact/contact-press.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-press"
+    },
+    "contact-quote": {
+      "title": "Contact Quote Request",
+      "componentPath": "blocks/contact/contact-quote.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-quote"
+    },
+    "contact-referral": {
+      "title": "Contact Referral",
+      "componentPath": "blocks/contact/contact-referral.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-referral"
+    },
+    "contact-report": {
+      "title": "Contact Report Issue",
+      "componentPath": "blocks/contact/contact-report.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-report"
+    },
+    "contact-reservation": {
+      "title": "Contact Reservation",
+      "componentPath": "blocks/contact/contact-reservation.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-reservation"
+    },
+    "contact-retreat": {
+      "title": "Contact Retreat Registration",
+      "componentPath": "blocks/contact/contact-retreat.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-retreat"
+    },
+    "contact-rsvp": {
+      "title": "Contact RSVP",
+      "componentPath": "blocks/contact/contact-rsvp.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-rsvp"
+    },
+    "contact-sales": {
+      "title": "Contact Sales",
+      "componentPath": "blocks/contact/contact-sales.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-sales"
+    },
+    "contact-schedule": {
+      "title": "Contact Schedule Meeting",
+      "componentPath": "blocks/contact/contact-schedule.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-schedule"
+    },
+    "contact-sponsorship": {
+      "title": "Contact Sponsorship",
+      "componentPath": "blocks/contact/contact-sponsorship.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-sponsorship"
+    },
+    "contact-support": {
+      "title": "Contact Support",
+      "componentPath": "blocks/contact/contact-support.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-support"
+    },
+    "contact-help-center": {
+      "title": "Help Center Contact Cards",
+      "componentPath": "blocks/contact/contact-help-center.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-help-center"
+    },
+    "contact-tenant": {
+      "title": "Contact Tenant Application",
+      "componentPath": "blocks/contact/contact-tenant.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-tenant"
+    },
+    "contact-volunteer": {
+      "title": "Contact Volunteer",
+      "componentPath": "blocks/contact/contact-volunteer.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-volunteer"
+    },
+    "contact-warranty": {
+      "title": "Contact Warranty Claim",
+      "componentPath": "blocks/contact/contact-warranty.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-warranty"
+    },
+    "contact-wedding": {
+      "title": "Contact Wedding Inquiry",
+      "componentPath": "blocks/contact/contact-wedding.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-wedding"
+    },
     "hero-ad-campaign-expert": {
       "title": "Hero Ad Campaign Expert",
       "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
@@ -200,12 +534,12 @@
       "title": "Hero Coming Soon Countdown",
       "componentPath": "blocks/hero/hero-coming-soon-countdown.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290455/rhiz034g76v22c6dpkjs9phmnpqs/cleanshot-2026-02-19-at-03-56-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290454/s2jsui75kg5ow71edyg5qtdfaxyl/cleanshot-2026-02-19-at-03-56-47-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290455/rhiz034g76v22c6dpkjs9phmnpqs/cleanshot-2026-02-19-at-03-56-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290454/s2jsui75kg5ow71edyg5qtdfaxyl/cleanshot-2026-02-19-at-03-56-47-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-coming-soon-countdown"
@@ -684,12 +1018,12 @@
       "title": "Hero Newsletter Minimal",
       "componentPath": "blocks/hero/hero-newsletter-minimal.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290453/ah5y926oavppt9bhfoehmvmu5mdk/cleanshot-2026-02-19-at-03-54-53-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290452/foyhiqvrcotykb6snlghxagwc1ub/cleanshot-2026-02-19-at-03-55-07-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290453/ah5y926oavppt9bhfoehmvmu5mdk/cleanshot-2026-02-19-at-03-54-53-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290452/foyhiqvrcotykb6snlghxagwc1ub/cleanshot-2026-02-19-at-03-55-07-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-newsletter-minimal"
@@ -838,12 +1172,12 @@
       "title": "Hero SaaS Dashboard Preview",
       "componentPath": "blocks/hero/hero-saas-dashboard-preview.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290451/rb4nlzuaqaytmocazqfb41w6m50p/cleanshot-2026-02-19-at-03-49-38-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290450/i7thwrr15st3x9d0plscxmqyar1e/cleanshot-2026-02-19-at-03-50-02-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290451/rb4nlzuaqaytmocazqfb41w6m50p/cleanshot-2026-02-19-at-03-49-38-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290450/i7thwrr15st3x9d0plscxmqyar1e/cleanshot-2026-02-19-at-03-50-02-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-saas-dashboard-preview"
@@ -936,12 +1270,12 @@
       "title": "Hero Split Image Newsletter",
       "componentPath": "blocks/hero/hero-split-image-newsletter.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290449/1edn83krupk1z0qhhck69fkli8n5/cleanshot-2026-02-19-at-03-45-33-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290448/i5nbc6qfwp8f5c5xdk5dl6dc1xty/cleanshot-2026-02-19-at-03-45-52-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290449/1edn83krupk1z0qhhck69fkli8n5/cleanshot-2026-02-19-at-03-45-33-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290448/i5nbc6qfwp8f5c5xdk5dl6dc1xty/cleanshot-2026-02-19-at-03-45-52-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-image-newsletter"
@@ -1062,12 +1396,12 @@
       "title": "Hero Video Background Dark",
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-background-dark"
@@ -1524,12 +1858,12 @@
       "title": "About Culture Tabs",
       "componentPath": "blocks/about/about-culture-tabs.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290459/sty27yddokekq943qh6p4zz4e1a6/cleanshot-2026-02-19-at-05-50-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290458/s901l9ez0u6jncje3i48vuzdxref/cleanshot-2026-02-19-at-05-51-15-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288977/rv7y8fknd5nv2f0okqahdymbxhyd/company-culture-careers-page-with-testimonial-and-team-photos.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288978/19cseq1ai1uqij1dnd5riiqsdt2z/mobile-company-culture-tabs-innovation-first-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290459/sty27yddokekq943qh6p4zz4e1a6/cleanshot-2026-02-19-at-05-50-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290458/s901l9ez0u6jncje3i48vuzdxref/cleanshot-2026-02-19-at-05-51-15-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-culture-tabs.tsx"
@@ -2685,72 +3019,72 @@
     "process-expandable-timeline": {
       "title": "Process Expandable Timeline",
       "componentPath": "blocks/process/process-expandable-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-expandable-timeline"
     },
     "process-hover-cards": {
       "title": "Process Hover Cards",
       "componentPath": "blocks/process/process-hover-cards.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-hover-cards"
     },
     "process-icon-timeline": {
       "title": "Process Icon Timeline",
       "componentPath": "blocks/process/process-icon-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-icon-timeline"
     },
     "process-mission-principles": {
       "title": "Process Mission Principles",
       "componentPath": "blocks/process/process-mission-principles.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-mission-principles"
     },
     "process-numbered-services": {
       "title": "Process Numbered Services",
       "componentPath": "blocks/process/process-numbered-services.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-numbered-services"
     },
     "process-roadmap-timeline": {
       "title": "Process Roadmap Timeline",
       "componentPath": "blocks/process/process-roadmap-timeline.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-roadmap-timeline"
     },
     "process-scroll-image": {
       "title": "Process Scroll Image",
       "componentPath": "blocks/process/process-scroll-image.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-scroll-image"
     },
     "process-steps-grid": {
       "title": "Process Steps Grid",
       "componentPath": "blocks/process/process-steps-grid.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-steps-grid"
     },
     "process-sticky-steps": {
       "title": "Process Sticky Steps",
       "componentPath": "blocks/process/process-sticky-steps.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-sticky-steps"
     },
@@ -2940,12 +3274,12 @@
       "title": "NavBar Fullscreen Menu",
       "componentPath": "blocks/navbars/navbar-fullscreen-menu.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290188/xs5xl2efok5gritv452msypkz3s3/navbar-tabbed-sections-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290189/kbef8vhhujdzy3r1s9hey9ix0r74/navbar-tabbed-sections-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/navbars/navbar-fullscreen-menu"
@@ -2954,12 +3288,12 @@
       "title": "NavBar Icon Links",
       "componentPath": "blocks/navbars/navbar-icon-links.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290190/dyadtk2onqlgelljvple5d6ewjxe/navbar-fullscreen-menu-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290191/2dqtlah0m9h03h3e0xwwsu2u6hwq/navbar-fullscreen-menu-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290457/9hxc4wfq9dy6ed1vvc6mqesbazbn/cleanshot-2026-02-19-at-05-18-03-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/navbars/navbar-icon-links"
@@ -3345,8 +3679,8 @@
     "footer-accordion-social": {
       "title": "Footer Accordion Social",
       "componentPath": "blocks/footers/footer-accordion-social.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-accordion-social"
     },
@@ -3451,16 +3785,16 @@
     "footer-cta-social": {
       "title": "Footer CTA Social",
       "componentPath": "blocks/footers/footer-cta-social.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-cta-social"
     },
     "footer-info-cards-accordion": {
       "title": "Footer Info Cards Accordion",
       "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-info-cards-accordion"
     },
@@ -3481,16 +3815,16 @@
     "footer-nav-social": {
       "title": "Footer Nav Social",
       "componentPath": "blocks/footers/footer-nav-social.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-nav-social"
     },
     "footer-newsletter-contact": {
       "title": "Footer Newsletter Contact",
       "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-newsletter-contact"
     },
@@ -3567,34 +3901,10 @@
     "footer-split-image-accordion": {
       "title": "Footer Split Image Accordion",
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
-      "thumbnail": "",
-      "preview": "",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-split-image-accordion"
-    },
-    "contact-faq": {
-      "title": "Contact FAQ",
-      "componentPath": "blocks/contact/contact-faq.tsx",
-      "thumbnail": "",
-      "preview": "",
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-faq"
-    },
-    "contact-dark": {
-      "title": "Contact Dark",
-      "componentPath": "blocks/contact/contact-dark.tsx",
-      "thumbnail": "",
-      "preview": "",
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-dark"
-    },
-    "contact-photography": {
-      "title": "Contact Photography",
-      "componentPath": "blocks/contact/contact-photography.tsx",
-      "thumbnail": "",
-      "preview": "",
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-photography"
     }
   }
 }

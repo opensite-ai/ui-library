@@ -6,7 +6,7 @@ export default function Demo() {
     <FooterLinksGrid
       logo={{
         url: "/",
-        src: brandLogoPlaceholders.black[0],
+        src: brandLogoPlaceholders.white[0],
         alt: "TechSolutions Logo",
         title: "TechSolutions",
       }}
@@ -60,8 +60,10 @@ export default function Demo() {
         { text: "Cookie Settings", url: "/cookies" },
         { text: "Accessibility", url: "/accessibility" },
       ]}
-      background="white"
+      background="dark"
       spacing="lg"
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
     />
   );
 }

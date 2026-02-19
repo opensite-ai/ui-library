@@ -9,10 +9,10 @@ const formFields: FormFieldConfig[] = [
   {
     name: "email",
     type: "email",
-    label: "Email Address",
     placeholder: "Enter your email",
     required: true,
     columnSpan: 12,
+    className: "w-full",
   },
 ];
 
@@ -24,11 +24,13 @@ export default function Demo() {
       heading="The operating system for your business"
       description="All-in-one platform to run your business efficiently. From analytics to automation, everything you need is here."
       formFields={formFields}
-      formConfig={{
-        ...demoFormConfig,
-        formLayout: "button-group",
-        buttonGroupSize: "lg",
-      } as any}
+      formConfig={
+        {
+          ...demoFormConfig,
+          formLayout: "button-group",
+          buttonGroupSize: "lg",
+        } as any
+      }
       buttonAction={{
         label: "Start Free Trial",
         variant: "default",

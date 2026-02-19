@@ -105,7 +105,9 @@ export default function Demo() {
         imagePlaceholders[56],
         imagePlaceholders[67],
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="dashedGridFadeTopRight"
+      patternOpacity={0.15}
     />
   );
 }
