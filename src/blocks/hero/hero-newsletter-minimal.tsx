@@ -3,8 +3,9 @@
 import { HeroNewsletterMinimal } from "@opensite/ui/blocks/hero/hero-newsletter-minimal";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
 
-const formFields = [
+const formFields: FormFieldConfig[] = [
   {
     name: "email",
     type: "email",
@@ -20,14 +21,16 @@ export default function Demo() {
     <HeroNewsletterMinimal
       heading="Stay in the loop"
       description="Get weekly insights, tips, and updates delivered straight to your inbox. Join 50,000+ subscribers who never miss a beat."
-      formFields={formFields}
-      formConfig={demoFormEngineApi}
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for subscribing! Check your inbox for a confirmation email.",
+      }}
       buttonAction={{
         label: "Subscribe",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      successMessage="Thank you for subscribing! Check your inbox for a confirmation email."
       stats={[
         {
           icon: (

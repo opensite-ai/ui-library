@@ -182,10 +182,12 @@ export default function Demo() {
     <ContactVendor
       heading="Become a Vendor Partner"
       description="We're always looking for reliable vendors to join our supply chain. Tell us about your company and how we can work together to create mutual success."
-      buttonText="Submit Vendor Application"
-      formFields={formFields}
-      formConfig={demoFormEngineApi}
-      successMessage="Thank you for your interest in becoming a vendor partner! Our procurement team will review your application and reach out within 5-7 business days to discuss next steps."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for your interest in becoming a vendor partner! Our procurement team will review your application and reach out within 5-7 business days to discuss next steps.",
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.9}

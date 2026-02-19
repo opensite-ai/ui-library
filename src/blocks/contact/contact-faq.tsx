@@ -47,9 +47,11 @@ export default function Demo() {
       description="Can't find what you're looking for in our FAQ? Send us a message and our team will get back to you within 24 hours."
       formHeading="Send Us a Message"
       buttonText="Submit Question"
-      formFields={formFields}
-      formConfig={demoFormEngineApi}
-      successMessage="Thank you for reaching out! We'll get back to you within 24 hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for reaching out! We'll get back to you within 24 hours.",
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.9}
