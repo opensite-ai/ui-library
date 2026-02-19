@@ -2404,12 +2404,12 @@
       "title": "Feature Icon Grid Accent",
       "componentPath": "blocks/features/feature-icon-grid-accent.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290515/i24mui4n5h2b3yq7bvh799tesiyq/feature-icon-grid-accent-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290514/9nb4cwluni8zfhkctk8fxj4iiuwq/feature-icon-grid-accent-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290515/i24mui4n5h2b3yq7bvh799tesiyq/feature-icon-grid-accent-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290514/9nb4cwluni8zfhkctk8fxj4iiuwq/feature-icon-grid-accent-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-icon-grid-accent.tsx"
@@ -2418,12 +2418,12 @@
       "title": "Feature Split Image",
       "componentPath": "blocks/features/feature-split-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290529/kzqhexjlkx4ejefwtg49jf2gztxs/feature-split-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290528/gu2dpxkou1fubxs32s268zcl7kwv/feature-split-image-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290529/kzqhexjlkx4ejefwtg49jf2gztxs/feature-split-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290528/gu2dpxkou1fubxs32s268zcl7kwv/feature-split-image-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-split-image.tsx"
@@ -2432,12 +2432,12 @@
       "title": "Feature Split Image Reverse",
       "componentPath": "blocks/features/feature-split-image-reverse.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290527/c3gsff6s7qnl0tybm4zj15pzz09t/feature-split-image-reverse-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290526/6ux51igm2bn4svwxfl2rukjlxgke/feature-split-image-reverse-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290527/c3gsff6s7qnl0tybm4zj15pzz09t/feature-split-image-reverse-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290526/6ux51igm2bn4svwxfl2rukjlxgke/feature-split-image-reverse-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-split-image-reverse.tsx"
@@ -2446,12 +2446,12 @@
       "title": "Feature Numbered Cards",
       "componentPath": "blocks/features/feature-numbered-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290517/if8po7o9o0xgneulb0w6hjyyyqq0/feature-numbered-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290516/mebx1ikw5rb0caj637wu057x83fz/feature-numbered-cards-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290517/if8po7o9o0xgneulb0w6hjyyyqq0/feature-numbered-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290516/mebx1ikw5rb0caj637wu057x83fz/feature-numbered-cards-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-numbered-cards.tsx"
@@ -2460,12 +2460,12 @@
       "title": "Feature Integration Cards",
       "componentPath": "blocks/features/feature-integration-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290499/w2avlqv85t2wr1qb4f12koj6fv7w/feature-integration-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290498/zheeyynltal4uogf7om2874n81dp/feature-integration-cards-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290499/w2avlqv85t2wr1qb4f12koj6fv7w/feature-integration-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290498/zheeyynltal4uogf7om2874n81dp/feature-integration-cards-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-integration-cards.tsx"
@@ -2474,12 +2474,12 @@
       "title": "Feature Checklist Three Column",
       "componentPath": "blocks/features/feature-checklist-three-column.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290501/4oly16xatjgt9dws04g2wkxmu16u/feature-checklist-three-column-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290500/qzk0v3r7qir09zhfrpzji49fmvdn/feature-checklist-three-column-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290501/4oly16xatjgt9dws04g2wkxmu16u/feature-checklist-three-column-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290500/qzk0v3r7qir09zhfrpzji49fmvdn/feature-checklist-three-column-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-checklist-three-column.tsx"
@@ -2488,12 +2488,12 @@
       "title": "Feature Icon Grid Muted",
       "componentPath": "blocks/features/feature-icon-grid-muted.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290487/nxbwvthsc5scybc93omyxysclpwb/feature-icon-grid-muted-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290486/2cf0e4wadrm4et4i982eh381ph6u/feature-icon-grid-muted-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290487/nxbwvthsc5scybc93omyxysclpwb/feature-icon-grid-muted-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290486/2cf0e4wadrm4et4i982eh381ph6u/feature-icon-grid-muted-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-icon-grid-muted.tsx"
@@ -2502,12 +2502,12 @@
       "title": "Feature Icon Grid Bordered",
       "componentPath": "blocks/features/feature-icon-grid-bordered.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290525/s5hya5bxhet1spotivn3l5hz1wec/feature-icon-grid-bordered-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290524/gjlymuslr8r1tw9a8jasi3hpfb1w/feature-icon-grid-bordered-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290525/s5hya5bxhet1spotivn3l5hz1wec/feature-icon-grid-bordered-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290524/gjlymuslr8r1tw9a8jasi3hpfb1w/feature-icon-grid-bordered-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-icon-grid-bordered.tsx"
@@ -2516,12 +2516,12 @@
       "title": "Feature Three Column Values",
       "componentPath": "blocks/features/feature-three-column-values.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290513/lsp5zcx7879o3uoage9ms585cw48/feature-three-column-values-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290512/ebkamg1ns2m338ttrt6ek0yefjnk/feature-three-column-values-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290513/lsp5zcx7879o3uoage9ms585cw48/feature-three-column-values-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290512/ebkamg1ns2m338ttrt6ek0yefjnk/feature-three-column-values-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-three-column-values.tsx"
@@ -2530,12 +2530,12 @@
       "title": "Feature Capabilities Grid",
       "componentPath": "blocks/features/feature-capabilities-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290531/x5v2abpq9j7aybg3zgxylcn4zdti/feature-capabilities-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290530/ix6vpdd7n99qiorwkr3fj3i4h8jm/feature-capabilities-grid-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290531/x5v2abpq9j7aybg3zgxylcn4zdti/feature-capabilities-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290530/ix6vpdd7n99qiorwkr3fj3i4h8jm/feature-capabilities-grid-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-capabilities-grid.tsx"
@@ -2544,12 +2544,12 @@
       "title": "Feature Badge Grid Six",
       "componentPath": "blocks/features/feature-badge-grid-six.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290511/lxcpgsw1gca5wk67zd4nn5rgc6b7/feature-badge-grid-six-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290510/3u32gg1mc8dxehhjr8498rsm2khy/feature-badge-grid-six-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290511/lxcpgsw1gca5wk67zd4nn5rgc6b7/feature-badge-grid-six-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290510/3u32gg1mc8dxehhjr8498rsm2khy/feature-badge-grid-six-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-badge-grid-six.tsx"
@@ -2558,12 +2558,12 @@
       "title": "Feature Utility Cards Grid",
       "componentPath": "blocks/features/feature-utility-cards-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290505/ru6fpqhuhdgi2wgkad8kic209zt3/feature-utility-cards-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290504/buh6j1gr0yqn5i62gohmr66tn7x8/feature-utility-cards-grid-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290505/ru6fpqhuhdgi2wgkad8kic209zt3/feature-utility-cards-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290504/buh6j1gr0yqn5i62gohmr66tn7x8/feature-utility-cards-grid-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-utility-cards-grid.tsx"
@@ -2572,12 +2572,12 @@
       "title": "Feature Card Grid Linked",
       "componentPath": "blocks/features/feature-card-grid-linked.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290519/f2akzbogbkwd87jdu1u4yp5m3qku/feature-card-grid-linked-desktop.pngw",
+        "mobile": "https://cdn.ing/assets/i/r/290518/uq8shf3p3wexg2pp8hpcd997fagn/feature-card-grid-linked-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290519/f2akzbogbkwd87jdu1u4yp5m3qku/feature-card-grid-linked-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290518/uq8shf3p3wexg2pp8hpcd997fagn/feature-card-grid-linked-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-card-grid-linked.tsx"
@@ -2586,12 +2586,12 @@
       "title": "Feature Pattern Grid Links",
       "componentPath": "blocks/features/feature-pattern-grid-links.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290509/40d1g111cunmu14zbh6v5zrtue4o/feature-pattern-grid-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290508/deb0tzptizqki891fobp9ysj8iul/feature-pattern-grid-links-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290509/40d1g111cunmu14zbh6v5zrtue4o/feature-pattern-grid-links-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290508/deb0tzptizqki891fobp9ysj8iul/feature-pattern-grid-links-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-pattern-grid-links.tsx"
@@ -2600,12 +2600,12 @@
       "title": "Feature Image Cards Three Column",
       "componentPath": "blocks/features/feature-image-cards-three-column.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290489/ve5mni4o86q5pyue90c2p7drstua/feature-image-cards-three-column-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290488/qm5z8jjoto3m4x4r44u8ga2vkkch/feature-image-cards-three-column-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290489/ve5mni4o86q5pyue90c2p7drstua/feature-image-cards-three-column-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290488/qm5z8jjoto3m4x4r44u8ga2vkkch/feature-image-cards-three-column-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-image-cards-three-column.tsx"
@@ -2614,12 +2614,12 @@
       "title": "Feature Category Image Cards",
       "componentPath": "blocks/features/feature-category-image-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290493/u12pq7n66abhn5uxkyemtzytv3v3/feature-category-image-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290492/zqe0yym602qdjxc76p3k2bdhuftd/feature-category-image-cards-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290493/u12pq7n66abhn5uxkyemtzytv3v3/feature-category-image-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290492/zqe0yym602qdjxc76p3k2bdhuftd/feature-category-image-cards-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-category-image-cards.tsx"
@@ -2628,12 +2628,12 @@
       "title": "Feature Stats Highlight",
       "componentPath": "blocks/features/feature-stats-highlight.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290485/4p3lx85pqh3ahgebkufc9bcub116/feature-stats-highlight-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290484/s5bwyqiukz1v0wktyfvclnuw2lhd/feature-stats-highlight-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290485/4p3lx85pqh3ahgebkufc9bcub116/feature-stats-highlight-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290484/s5bwyqiukz1v0wktyfvclnuw2lhd/feature-stats-highlight-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-stats-highlight.tsx"
@@ -2642,12 +2642,12 @@
       "title": "Feature Checklist Image",
       "componentPath": "blocks/features/feature-checklist-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290523/g81wquhrdc87sgw912urj5norq1l/feature-checklist-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290522/v3amhkyqdlur0cksretvyjvhsa4q/feature-checklist-image-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290523/g81wquhrdc87sgw912urj5norq1l/feature-checklist-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290522/v3amhkyqdlur0cksretvyjvhsa4q/feature-checklist-image-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-checklist-image.tsx"
@@ -2656,12 +2656,12 @@
       "title": "Feature Accordion Image",
       "componentPath": "blocks/features/feature-accordion-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-accordion-image.tsx"
@@ -2670,12 +2670,12 @@
       "title": "Feature Icon Tabs Content",
       "componentPath": "blocks/features/feature-icon-tabs-content.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290497/v7fv84ieer1tavou9o6lb91pwfnn/feature-icon-tabs-content-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290496/0iaugarhjpyj5o0rv6mv95rmrh6j/feature-icon-tabs-content-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290497/v7fv84ieer1tavou9o6lb91pwfnn/feature-icon-tabs-content-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290496/0iaugarhjpyj5o0rv6mv95rmrh6j/feature-icon-tabs-content-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-icon-tabs-content.tsx"
@@ -2684,12 +2684,12 @@
       "title": "Feature Tabbed Content Image",
       "componentPath": "blocks/features/feature-tabbed-content-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290507/zil95zfneqdgkhlcnfgxhhcdeff2/feature-tabbed-content-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290506/cqj6k1n736w6uib90dgr7yrbx0vr/feature-tabbed-content-image-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290507/zil95zfneqdgkhlcnfgxhhcdeff2/feature-tabbed-content-image-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290506/cqj6k1n736w6uib90dgr7yrbx0vr/feature-tabbed-content-image-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-tabbed-content-image.tsx"
@@ -2698,12 +2698,12 @@
       "title": "Feature Bento Image Grid",
       "componentPath": "blocks/features/feature-bento-image-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290491/am2l0778dnboio1kb5a7wv1xb2gp/feature-bento-image-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290490/ga3nbyjgw5x3gy64ju95puogtj5z/feature-bento-image-grid-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290491/am2l0778dnboio1kb5a7wv1xb2gp/feature-bento-image-grid-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290490/ga3nbyjgw5x3gy64ju95puogtj5z/feature-bento-image-grid-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-bento-image-grid.tsx"
@@ -2712,12 +2712,12 @@
       "title": "Feature Bento Utilities",
       "componentPath": "blocks/features/feature-bento-utilities.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290503/vcom16yc41bjjzobfaos97ddso5y/feature-bento-utilities-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290502/rehb786gb6c32sw4xjjlpwf6732a/feature-bento-utilities-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290503/vcom16yc41bjjzobfaos97ddso5y/feature-bento-utilities-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290502/rehb786gb6c32sw4xjjlpwf6732a/feature-bento-utilities-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-bento-utilities.tsx"
@@ -2726,12 +2726,12 @@
       "title": "Feature Carousel Progress",
       "componentPath": "blocks/features/feature-carousel-progress.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290521/x31bb9r4ufra33peu6ujjz8dhwsu/feature-carousel-progress-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290520/8f856nuofnq4z17qtinacz1qcrq9/feature-carousel-progress-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290521/x31bb9r4ufra33peu6ujjz8dhwsu/feature-carousel-progress-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290520/8f856nuofnq4z17qtinacz1qcrq9/feature-carousel-progress-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-carousel-progress.tsx"
@@ -2740,12 +2740,12 @@
       "title": "Feature Image Overlay Badge",
       "componentPath": "blocks/features/feature-image-overlay-badge.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290495/v25jehl6gpwq8req8y7bceuwagcl/feature-image-overlay-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290494/tm7vyl9rm7u1rq2lmpvis7szcxyd/feature-image-overlay-badge-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290495/v25jehl6gpwq8req8y7bceuwagcl/feature-image-overlay-badge-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290494/tm7vyl9rm7u1rq2lmpvis7szcxyd/feature-image-overlay-badge-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-image-overlay-badge.tsx"
@@ -2754,12 +2754,12 @@
       "title": "Feature Animated Carousel",
       "componentPath": "blocks/features/feature-animated-carousel.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290481/l85gtlbsqgy15m6bu94jlubzviki/feature-animated-carousel-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290480/5y4onxoydckfy5ag12zentfm70vh/feature-animated-carousel-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290481/l85gtlbsqgy15m6bu94jlubzviki/feature-animated-carousel-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290480/5y4onxoydckfy5ag12zentfm70vh/feature-animated-carousel-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-animated-carousel.tsx"
@@ -2768,12 +2768,12 @@
       "title": "Feature Showcase",
       "componentPath": "blocks/features/feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290533/olzsx5lkj10vqo845d73kyz5i1je/feature-showcase-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290532/jxylv6cvhbmrtm52silv4mdr1ceo/feature-showcase-mobile.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290533/olzsx5lkj10vqo845d73kyz5i1je/feature-showcase-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/290532/jxylv6cvhbmrtm52silv4mdr1ceo/feature-showcase-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-showcase.tsx"
