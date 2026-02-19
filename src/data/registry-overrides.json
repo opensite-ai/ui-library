@@ -1,5 +1,85 @@
 {
   "blocks": {
+    "banner-announcement-dismissible": {
+      "title": "Banner Announcement Dismissible",
+      "componentPath": "blocks/banner/banner-announcement-dismissible.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-announcement-dismissible"
+    },
+    "banner-countdown-sale": {
+      "title": "Banner Countdown Sale",
+      "componentPath": "blocks/banner/banner-countdown-sale.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-countdown-sale"
+    },
+    "banner-delivery-countdown": {
+      "title": "Banner Delivery Countdown",
+      "componentPath": "blocks/banner/banner-delivery-countdown.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-delivery-countdown"
+    },
+    "banner-event-promo": {
+      "title": "Banner Event Promo",
+      "componentPath": "blocks/banner/banner-event-promo.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-event-promo"
+    },
+    "banner-floating-offer": {
+      "title": "Banner Floating Offer",
+      "componentPath": "blocks/banner/banner-floating-offer.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-floating-offer"
+    },
+    "banner-gdpr-rights": {
+      "title": "Banner GDPR Rights",
+      "componentPath": "blocks/banner/banner-gdpr-rights.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-gdpr-rights"
+    },
+    "banner-privacy-notice": {
+      "title": "Banner Privacy Notice",
+      "componentPath": "blocks/banner/banner-privacy-notice.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-privacy-notice"
+    },
+    "banner-promo-cta": {
+      "title": "Banner Promo CTA",
+      "componentPath": "blocks/banner/banner-promo-cta.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-promo-cta"
+    },
+    "banner-social-follow": {
+      "title": "Banner Social Follow",
+      "componentPath": "blocks/banner/banner-social-follow.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-social-follow"
+    },
+    "banner-survey-incentive": {
+      "title": "Banner Survey Incentive",
+      "componentPath": "blocks/banner/banner-survey-incentive.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/banner/banner-survey-incentive"
+    },
     "contact-faq": {
       "title": "Contact FAQ",
       "componentPath": "blocks/contact/contact-faq.tsx",

@@ -500,6 +500,28 @@ export const componentLoaders: Record<string, ComponentLoader> = {
   "navbar-transparent-overlay": () =>
     import("@/blocks/navbars/navbar-transparent-overlay"),
 
+  // Banner blocks
+  "banner-announcement-dismissible": () =>
+    import("@/blocks/banner/banner-announcement-dismissible"),
+  "banner-countdown-sale": () =>
+    import("@/blocks/banner/banner-countdown-sale"),
+  "banner-delivery-countdown": () =>
+    import("@/blocks/banner/banner-delivery-countdown"),
+  "banner-event-promo": () =>
+    import("@/blocks/banner/banner-event-promo"),
+  "banner-floating-offer": () =>
+    import("@/blocks/banner/banner-floating-offer"),
+  "banner-gdpr-rights": () =>
+    import("@/blocks/banner/banner-gdpr-rights"),
+  "banner-privacy-notice": () =>
+    import("@/blocks/banner/banner-privacy-notice"),
+  "banner-promo-cta": () =>
+    import("@/blocks/banner/banner-promo-cta"),
+  "banner-social-follow": () =>
+    import("@/blocks/banner/banner-social-follow"),
+  "banner-survey-incentive": () =>
+    import("@/blocks/banner/banner-survey-incentive"),
+
   // Footer blocks
   "footer-accordion-social": () =>
     import("@/blocks/footers/footer-accordion-social"),
