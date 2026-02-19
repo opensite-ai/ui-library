@@ -3679,8 +3679,8 @@
     "footer-accordion-social": {
       "title": "Footer Accordion Social",
       "componentPath": "blocks/footers/footer-accordion-social.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290476/0g83pjjvugnp2ygwvaj7r0j5tldf/footer-accordion-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290477/3x1po3d4yh32stkpj9yab18mxhri/footer-accordion-social-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290476/0g83pjjvugnp2ygwvaj7r0j5tldf/footer-accordion-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290477/3x1po3d4yh32stkpj9yab18mxhri/footer-accordion-social-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-accordion-social"
     },
@@ -3785,16 +3785,16 @@
     "footer-cta-social": {
       "title": "Footer CTA Social",
       "componentPath": "blocks/footers/footer-cta-social.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290468/j7nhm7jpjycot4wyrqwgs5ruxjbm/footer-cta-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290469/ohjtl534cg41bgbeoxpnr10stw0s/footer-cta-social-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290468/j7nhm7jpjycot4wyrqwgs5ruxjbm/footer-cta-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290469/ohjtl534cg41bgbeoxpnr10stw0s/footer-cta-social-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-cta-social"
     },
     "footer-info-cards-accordion": {
       "title": "Footer Info Cards Accordion",
       "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290478/40h639xj8aez6xh97ezrg6f1glxi/footer-info-cards-accordion-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290479/bbg7ijdl4pcam8fybob759irdb4t/footer-info-cards-accordion-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290478/40h639xj8aez6xh97ezrg6f1glxi/footer-info-cards-accordion-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290479/bbg7ijdl4pcam8fybob759irdb4t/footer-info-cards-accordion-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-info-cards-accordion"
     },
@@ -3815,16 +3815,16 @@
     "footer-nav-social": {
       "title": "Footer Nav Social",
       "componentPath": "blocks/footers/footer-nav-social.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290470/l9kx50ohh2pfdigy8pkx5wd5cxuj/footer-nav-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290471/mb2xbgcsvteqlqt4nf984gzy1dam/footer-nav-social-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290470/l9kx50ohh2pfdigy8pkx5wd5cxuj/footer-nav-social-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290471/mb2xbgcsvteqlqt4nf984gzy1dam/footer-nav-social-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-nav-social"
     },
     "footer-newsletter-contact": {
       "title": "Footer Newsletter Contact",
       "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290472/fzxskcx1nd55yfkf667u2wux2qcp/footer-newsletter-contact-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290473/cqj4ii000z1lp3k0kds8ah1fhsk6/footer-newsletter-contact-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290472/fzxskcx1nd55yfkf667u2wux2qcp/footer-newsletter-contact-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290473/cqj4ii000z1lp3k0kds8ah1fhsk6/footer-newsletter-contact-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-newsletter-contact"
     },
@@ -3901,8 +3901,8 @@
     "footer-split-image-accordion": {
       "title": "Footer Split Image Accordion",
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-split-image-accordion"
     }
