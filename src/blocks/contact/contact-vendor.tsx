@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactVendor } from "@opensite/ui/blocks/contact/contact-vendor";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -147,7 +147,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Tell us about your company and offerings",
-    placeholder: "Describe your products/services, experience, key differentiators, and why you'd like to work with us...",
+    placeholder:
+      "Describe your products/services, experience, key differentiators, and why you'd like to work with us...",
     required: true,
     rows: 5,
     columnSpan: 12,
@@ -156,7 +157,8 @@ const formFields: FormFieldConfig[] = [
     name: "certifications",
     type: "textarea",
     label: "Certifications and Compliance",
-    placeholder: "List any relevant certifications (ISO, minority-owned, women-owned, veteran-owned, etc.)",
+    placeholder:
+      "List any relevant certifications (ISO, minority-owned, women-owned, veteran-owned, etc.)",
     required: false,
     rows: 3,
     columnSpan: 12,
@@ -182,7 +184,7 @@ export default function Demo() {
       description="We're always looking for reliable vendors to join our supply chain. Tell us about your company and how we can work together to create mutual success."
       buttonText="Submit Vendor Application"
       formFields={formFields}
-      formConfig={demoFormConfig}
+      formConfig={demoFormEngineApi}
       successMessage="Thank you for your interest in becoming a vendor partner! Our procurement team will review your application and reach out within 5-7 business days to discuss next steps."
       background="white"
       pattern="dashedGridFadeTop"

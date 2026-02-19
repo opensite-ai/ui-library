@@ -200,12 +200,12 @@
       "title": "Hero Coming Soon Countdown",
       "componentPath": "blocks/hero/hero-coming-soon-countdown.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290455/rhiz034g76v22c6dpkjs9phmnpqs/cleanshot-2026-02-19-at-03-56-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290454/s2jsui75kg5ow71edyg5qtdfaxyl/cleanshot-2026-02-19-at-03-56-47-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290455/rhiz034g76v22c6dpkjs9phmnpqs/cleanshot-2026-02-19-at-03-56-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290454/s2jsui75kg5ow71edyg5qtdfaxyl/cleanshot-2026-02-19-at-03-56-47-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-coming-soon-countdown"
@@ -684,12 +684,12 @@
       "title": "Hero Newsletter Minimal",
       "componentPath": "blocks/hero/hero-newsletter-minimal.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290453/ah5y926oavppt9bhfoehmvmu5mdk/cleanshot-2026-02-19-at-03-54-53-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290452/foyhiqvrcotykb6snlghxagwc1ub/cleanshot-2026-02-19-at-03-55-07-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290453/ah5y926oavppt9bhfoehmvmu5mdk/cleanshot-2026-02-19-at-03-54-53-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290452/foyhiqvrcotykb6snlghxagwc1ub/cleanshot-2026-02-19-at-03-55-07-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-newsletter-minimal"
@@ -838,12 +838,12 @@
       "title": "Hero SaaS Dashboard Preview",
       "componentPath": "blocks/hero/hero-saas-dashboard-preview.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290451/rb4nlzuaqaytmocazqfb41w6m50p/cleanshot-2026-02-19-at-03-49-38-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290450/i7thwrr15st3x9d0plscxmqyar1e/cleanshot-2026-02-19-at-03-50-02-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290451/rb4nlzuaqaytmocazqfb41w6m50p/cleanshot-2026-02-19-at-03-49-38-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290450/i7thwrr15st3x9d0plscxmqyar1e/cleanshot-2026-02-19-at-03-50-02-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-saas-dashboard-preview"
@@ -936,12 +936,12 @@
       "title": "Hero Split Image Newsletter",
       "componentPath": "blocks/hero/hero-split-image-newsletter.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290449/1edn83krupk1z0qhhck69fkli8n5/cleanshot-2026-02-19-at-03-45-33-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290448/i5nbc6qfwp8f5c5xdk5dl6dc1xty/cleanshot-2026-02-19-at-03-45-52-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290449/1edn83krupk1z0qhhck69fkli8n5/cleanshot-2026-02-19-at-03-45-33-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290448/i5nbc6qfwp8f5c5xdk5dl6dc1xty/cleanshot-2026-02-19-at-03-45-52-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-image-newsletter"
@@ -1062,12 +1062,12 @@
       "title": "Hero Video Background Dark",
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-background-dark"

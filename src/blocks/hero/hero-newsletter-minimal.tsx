@@ -2,14 +2,13 @@
 
 import { HeroNewsletterMinimal } from "@opensite/ui/blocks/hero/hero-newsletter-minimal";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { demoFormConfig } from "@/lib/form-demo-data";
-import type { FormFieldConfig } from "@opensite/ui";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 
-const formFields: FormFieldConfig[] = [
+const formFields = [
   {
     name: "email",
     type: "email",
-    label: "Email Address",
+    className: "w-full",
     placeholder: "Enter your email",
     required: true,
     columnSpan: 12,
@@ -22,11 +21,7 @@ export default function Demo() {
       heading="Stay in the loop"
       description="Get weekly insights, tips, and updates delivered straight to your inbox. Join 50,000+ subscribers who never miss a beat."
       formFields={formFields}
-      formConfig={{
-        ...demoFormConfig,
-        formLayout: "button-group",
-        buttonGroupSize: "lg",
-      } as any}
+      formConfig={demoFormEngineApi}
       buttonAction={{
         label: "Subscribe",
         variant: "default",

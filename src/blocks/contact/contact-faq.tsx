@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactFaq } from "@opensite/ui/blocks/contact/contact-faq";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -48,7 +48,7 @@ export default function Demo() {
       formHeading="Send Us a Message"
       buttonText="Submit Question"
       formFields={formFields}
-      formConfig={demoFormConfig}
+      formConfig={demoFormEngineApi}
       successMessage="Thank you for reaching out! We'll get back to you within 24 hours."
       background="white"
       pattern="dashedGridFadeTop"

@@ -7,10 +7,13 @@ const formFields: FormFieldConfig[] = [
   {
     name: "email",
     type: "email",
-    label: "Email Address",
+    label: "Stay in the know!",
+    description:
+      "Subscribe to our newsletter for the latest updates and insights.",
     placeholder: "Enter your email",
     required: true,
     columnSpan: 12,
+    className: "w-full",
   },
 ];
 

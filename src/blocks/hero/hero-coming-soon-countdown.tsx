@@ -9,7 +9,6 @@ const formFields: FormFieldConfig[] = [
   {
     name: "email",
     type: "email",
-    label: "Email Address",
     placeholder: "Enter your email",
     required: true,
     columnSpan: 12,
