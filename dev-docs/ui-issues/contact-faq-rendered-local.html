@@ -1,0 +1,144 @@
+<div class="">
+  <form
+    action="https://api.dashtrack.com/contacts"
+    method="post"
+    novalidate=""
+    class="space-y-6"
+  >
+    <div class="grid grid-cols-12 gap-6">
+      <div class="col-span-12 md:col-span-6 min-w-0">
+        <div
+          data-slot="field"
+          data-orientation="vertical"
+          class="space-y-1.5"
+          data-field="name"
+        >
+          <div class="flex flex-1 flex-col gap-0.5">
+            <label
+              data-slot="field-label"
+              class="items-center gap-2 group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 select-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50 text-sm font-medium leading-snug mb-1 block"
+              for="name"
+              >Full Name<span class="text-destructive ml-1">*</span></label
+            >
+          </div>
+          <div data-slot="field-control">
+            <div>
+              <input
+                data-slot="input"
+                class="flex h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors outline-none md:text-sm focus-visible:ring-1 focus-visible:ring-ring aria-invalid:border-destructive aria-invalid:ring-1 aria-invalid:ring-destructive disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium autofill:bg-transparent autofill:text-foreground [&amp;:-webkit-autofill]:[-webkit-text-fill-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[caret-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:hover]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:focus]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill]:[transition:background-color_9999s_ease-out,color_9999s_ease-out]"
+                id="name"
+                placeholder="Full Name"
+                aria-label="Full Name"
+                type="text"
+                value=""
+                name="name"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-6 min-w-0">
+        <div
+          data-slot="field"
+          data-orientation="vertical"
+          class="space-y-1.5"
+          data-field="email"
+        >
+          <div class="flex flex-1 flex-col gap-0.5">
+            <label
+              data-slot="field-label"
+              class="items-center gap-2 group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 select-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50 text-sm font-medium leading-snug mb-1 block"
+              for="email"
+              >Email<span class="text-destructive ml-1">*</span></label
+            >
+          </div>
+          <div data-slot="field-control">
+            <div>
+              <input
+                data-slot="input"
+                class="flex h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors outline-none md:text-sm focus-visible:ring-1 focus-visible:ring-ring aria-invalid:border-destructive aria-invalid:ring-1 aria-invalid:ring-destructive disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium autofill:bg-transparent autofill:text-foreground [&amp;:-webkit-autofill]:[-webkit-text-fill-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[caret-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:hover]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:focus]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill]:[transition:background-color_9999s_ease-out,color_9999s_ease-out]"
+                id="email"
+                placeholder="your@email.com"
+                aria-label="Email"
+                type="email"
+                value=""
+                name="email"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 min-w-0">
+        <div
+          data-slot="field"
+          data-orientation="vertical"
+          class="space-y-1.5"
+          data-field="subject"
+        >
+          <div class="flex flex-1 flex-col gap-0.5">
+            <label
+              data-slot="field-label"
+              class="items-center gap-2 group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 select-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50 text-sm font-medium leading-snug mb-1 block"
+              for="subject"
+              >Subject<span class="text-destructive ml-1">*</span></label
+            >
+          </div>
+          <div data-slot="field-control">
+            <div>
+              <input
+                data-slot="input"
+                class="flex h-9 w-full min-w-0 rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors outline-none md:text-sm focus-visible:ring-1 focus-visible:ring-ring aria-invalid:border-destructive aria-invalid:ring-1 aria-invalid:ring-destructive disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium autofill:bg-transparent autofill:text-foreground [&amp;:-webkit-autofill]:[-webkit-text-fill-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[caret-color:hsl(var(--foreground))] [&amp;:-webkit-autofill]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:hover]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill:focus]:[box-shadow:0_0_0px_1000px_hsl(var(--background))_inset] [&amp;:-webkit-autofill]:[transition:background-color_9999s_ease-out,color_9999s_ease-out]"
+                id="subject"
+                placeholder="What is this regarding?"
+                aria-label="Subject"
+                type="text"
+                value=""
+                name="subject"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 min-w-0">
+        <div
+          data-slot="field"
+          data-orientation="vertical"
+          class="space-y-1.5"
+          data-field="content"
+        >
+          <div class="flex flex-1 flex-col gap-0.5">
+            <label
+              data-slot="field-label"
+              class="items-center gap-2 group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 select-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50 text-sm font-medium leading-snug mb-1 block"
+              for="content"
+              >Message<span class="text-destructive ml-1">*</span></label
+            >
+          </div>
+          <div data-slot="field-control">
+            <div>
+              <textarea
+                data-slot="textarea"
+                class="flex field-sizing-content min-h-16 w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:border-destructive aria-invalid:ring-destructive/20 disabled:cursor-not-allowed disabled:opacity-50"
+                name="content"
+                placeholder="Please describe your question in detail..."
+                rows="5"
+                wrap="soft"
+                id="content"
+                aria-label="Message"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      data-slot="button"
+      data-variant="default"
+      data-size="default"
+      class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 py-2 has-[&gt;svg]:px-3 mt-6 w-full"
+      type="submit"
+    >
+      Submit Question
+    </button>
+  </form>
+</div>
