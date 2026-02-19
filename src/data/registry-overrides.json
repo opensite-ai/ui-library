@@ -3099,72 +3099,72 @@
     "process-expandable-timeline": {
       "title": "Process Expandable Timeline",
       "componentPath": "blocks/process/process-expandable-timeline.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290542/797jqaeds60apxki8ozj7yk83aco/process-expandable-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290543/m68kn9r1g7odgfc5hjcfri4y1hyr/process-expandable-timeline-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290542/797jqaeds60apxki8ozj7yk83aco/process-expandable-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290543/m68kn9r1g7odgfc5hjcfri4y1hyr/process-expandable-timeline-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-expandable-timeline"
     },
     "process-hover-cards": {
       "title": "Process Hover Cards",
       "componentPath": "blocks/process/process-hover-cards.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290538/roag3w8ld9hxnei8f3rbzdjjhtbo/process-hover-cards-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290539/u9toe2q9b5q3a5rjekbrs8cvxe68/process-hover-cards-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290538/roag3w8ld9hxnei8f3rbzdjjhtbo/process-hover-cards-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290539/u9toe2q9b5q3a5rjekbrs8cvxe68/process-hover-cards-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-hover-cards"
     },
     "process-icon-timeline": {
       "title": "Process Icon Timeline",
       "componentPath": "blocks/process/process-icon-timeline.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290540/66xs8ag76ntbs8jdiihfp25u4ymw/process-icon-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290541/thew7w1cvf7ac02gox128kdnclpv/process-icon-timeline-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290540/66xs8ag76ntbs8jdiihfp25u4ymw/process-icon-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290541/thew7w1cvf7ac02gox128kdnclpv/process-icon-timeline-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-icon-timeline"
     },
     "process-mission-principles": {
       "title": "Process Mission Principles",
       "componentPath": "blocks/process/process-mission-principles.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290546/3jveaktd5l5nmtmwvrxvl38vuql0/process-mission-principles-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290547/m0i2ea3tku5qiay99z8fze7tja36/process-mission-principles-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290546/3jveaktd5l5nmtmwvrxvl38vuql0/process-mission-principles-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290547/m0i2ea3tku5qiay99z8fze7tja36/process-mission-principles-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-mission-principles"
     },
     "process-numbered-services": {
       "title": "Process Numbered Services",
       "componentPath": "blocks/process/process-numbered-services.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290550/3mvrhubsaqlzfzdr6f1sbn2iehnn/process-numbered-services-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290551/rl3iotg1nyqwpm581eb43mug8wch/process-numbered-services-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290550/3mvrhubsaqlzfzdr6f1sbn2iehnn/process-numbered-services-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290551/rl3iotg1nyqwpm581eb43mug8wch/process-numbered-services-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-numbered-services"
     },
     "process-roadmap-timeline": {
       "title": "Process Roadmap Timeline",
       "componentPath": "blocks/process/process-roadmap-timeline.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290544/flo2gdvcyfdhr20mebtwx53pil5x/process-roadmap-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290545/66ssd8yvzr1ld9orejmytwbyev9s/process-roadmap-timeline-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290544/flo2gdvcyfdhr20mebtwx53pil5x/process-roadmap-timeline-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290545/66ssd8yvzr1ld9orejmytwbyev9s/process-roadmap-timeline-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-roadmap-timeline"
     },
     "process-scroll-image": {
       "title": "Process Scroll Image",
       "componentPath": "blocks/process/process-scroll-image.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290536/680qw4gmev6cjmc12vu3p9d82fcl/process-scroll-image-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290537/vwhw8lhv8s60ppxohpyqe3r9zajy/process-scroll-image-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290536/680qw4gmev6cjmc12vu3p9d82fcl/process-scroll-image-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290537/vwhw8lhv8s60ppxohpyqe3r9zajy/process-scroll-image-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-scroll-image"
     },
     "process-steps-grid": {
       "title": "Process Steps Grid",
       "componentPath": "blocks/process/process-steps-grid.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290548/anj1zqohw7wt62ij5fngz2e06svf/process-steps-grid-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290549/f4cbe3uw695nx0qfamd0erk678pm/process-steps-grid-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290548/anj1zqohw7wt62ij5fngz2e06svf/process-steps-grid-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290549/f4cbe3uw695nx0qfamd0erk678pm/process-steps-grid-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-steps-grid"
     },
     "process-sticky-steps": {
       "title": "Process Sticky Steps",
       "componentPath": "blocks/process/process-sticky-steps.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290534/chi37fdy54oymoo1w9sc7e49mt4a/process-sticky-steps-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290535/4fnc9khpwby3po22n4lt9fpjdqdt/process-sticky-steps-mobile.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290534/chi37fdy54oymoo1w9sc7e49mt4a/process-sticky-steps-desktop.png", "mobile": "https://cdn.ing/assets/i/r/290535/4fnc9khpwby3po22n4lt9fpjdqdt/process-sticky-steps-mobile.png" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/process/process-sticky-steps"
     },
