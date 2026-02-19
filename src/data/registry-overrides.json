@@ -1,5 +1,29 @@
 {
   "blocks": {
+    "contact-faq": {
+      "title": "Contact FAQ",
+      "componentPath": "blocks/contact/contact-faq.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-faq"
+    },
+    "contact-dark": {
+      "title": "Contact Dark",
+      "componentPath": "blocks/contact/contact-dark.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-dark"
+    },
+    "contact-photography": {
+      "title": "Contact Photography",
+      "componentPath": "blocks/contact/contact-photography.tsx",
+      "thumbnail": { "desktop": "", "mobile": "" },
+      "preview": { "desktop": "", "mobile": "" },
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "demoPath": "blocks/contact/contact-photography"
+    },
     "contact-vendor": {
       "title": "Contact Vendor Application",
       "componentPath": "blocks/contact/contact-vendor.tsx",
@@ -11,7 +35,7 @@
         "desktop": "https://cdn.ing/assets/i/r/290467/xf02j5wf2h3veskdmo64tja6zzje/cleanshot-2026-02-19-at-06-13-19-2x.png",
         "mobile": "https://cdn.ing/assets/i/r/290466/4mrv0wfwc6e6cutz6zbgeae35ixp/cleanshot-2026-02-19-at-06-14-16-2x.png"
       },
-      "dependencies": ["@opensite/ui"],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-vendor"
     },
     "hero-ad-campaign-expert": {
@@ -3525,30 +3549,6 @@
       "preview": { "desktop": "", "mobile": "" },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-split-image-accordion"
-    },
-    "contact-faq": {
-      "title": "Contact FAQ",
-      "componentPath": "blocks/contact/contact-faq.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-faq"
-    },
-    "contact-dark": {
-      "title": "Contact Dark",
-      "componentPath": "blocks/contact/contact-dark.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-dark"
-    },
-    "contact-photography": {
-      "title": "Contact Photography",
-      "componentPath": "blocks/contact/contact-photography.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
-      "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-photography"
     }
   }
 }
