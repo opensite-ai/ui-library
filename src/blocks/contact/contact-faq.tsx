@@ -23,11 +23,34 @@ const formFields: FormFieldConfig[] = [
   },
   {
     name: "subject",
-    type: "text",
+    type: "checkbox-group",
     label: "Subject",
     placeholder: "What is this regarding?",
     required: true,
     columnSpan: 12,
+    layout: "grid",
+    options: [
+      {
+        value: "analytics",
+        label: "Analytics",
+        description: "Data insights and reporting.",
+      },
+      {
+        value: "automation",
+        label: "Automation",
+        description: "Workflow automation tools.",
+      },
+      {
+        value: "integration",
+        label: "Integrations",
+        description: "Connect with existing tools.",
+      },
+      {
+        value: "collaboration",
+        label: "Collaboration",
+        description: "Team communication features.",
+      },
+    ],
   },
   {
     name: "content",
@@ -50,11 +73,12 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for reaching out! We'll get back to you within 24 hours.",
+        successMessage:
+          "Thank you for reaching out! We'll get back to you within 24 hours.",
       }}
       background="white"
       pattern="dashedGridFadeTop"
-      patternOpacity={0.9}
+      patternOpacity={1}
       faqHeading="Frequently Asked Questions"
       items={[
         {

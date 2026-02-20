@@ -43,7 +43,7 @@ const formFields: FormFieldConfig[] = [
     label: "Company Name",
     placeholder: "Your company",
     required: true,
-    columnSpan: 6,
+    columnSpan: 12,
   },
   {
     name: "company_size",
@@ -79,7 +79,7 @@ const formFields: FormFieldConfig[] = [
     type: "select",
     label: "Your Role",
     required: false,
-    columnSpan: 12,
+    columnSpan: 6,
     options: [
       {
         value: "executive",
@@ -156,7 +156,7 @@ export default function Demo() {
       formConfig={demoFormConfig}
       successMessage="Thank you for requesting a demo! Our team will reach out within 24 hours to schedule a time that works for you."
       background="dark"
-      pattern="architect"
+      pattern="gradientGlowTop"
       patternOpacity={1}
     />
   );

@@ -72,8 +72,8 @@ export default function Demo() {
       formConfig={demoFormConfig}
       successMessage="Thanks for reaching out! We'll be in touch soon."
       background="gray"
-      pattern="dots"
-      patternOpacity={0.4}
+      pattern="gridFadeTopRight"
+      patternOpacity={0.9}
     />
   );
 }

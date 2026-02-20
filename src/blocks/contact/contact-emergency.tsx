@@ -83,9 +83,7 @@ export default function Demo() {
       formFields={formFields}
       formConfig={demoFormConfig}
       successMessage="Emergency request received! Our team has been notified and will contact you immediately."
-      background="dark"
-      pattern="dashedGridFadeTopLeft"
-      patternOpacity={0.15}
+      background="gray"
     />
   );
 }
