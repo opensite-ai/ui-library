@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactCard } from "@opensite/ui/blocks/contact/contact-card";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormConfig, demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -45,8 +45,6 @@ export default function Demo() {
     <ContactCard
       heading="Get In Touch"
       description="We'd love to hear from you. Send us a message and we'll respond as soon as possible."
-      buttonText="Send Message"
-      formFields={formFields}
       contactOptions={[
         {
           icon: "lucide/phone",
@@ -69,8 +67,16 @@ export default function Demo() {
           href: "#",
         },
       ]}
-      formConfig={demoFormConfig}
-      successMessage="Thanks for reaching out! We'll be in touch soon."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thanks for reaching out! We'll be in touch soon.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Send Message",
+          },
+        },
+      }}
       background="gray"
       pattern="gridFadeTopRight"
       patternOpacity={0.9}

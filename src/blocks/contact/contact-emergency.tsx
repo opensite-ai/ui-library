@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactEmergency } from "@opensite/ui/blocks/contact/contact-emergency";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormConfig, demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -79,10 +79,17 @@ export default function Demo() {
     <ContactEmergency
       heading="Emergency Support"
       description="If you're experiencing an urgent issue, submit this form and our emergency response team will contact you immediately. For life-threatening emergencies, call 911."
-      buttonText="Submit Emergency Request"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Emergency request received! Our team has been notified and will contact you immediately."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Emergency request received! Our team has been notified and will contact you immediately.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Emergency Request",
+          },
+        },
+      }}
       background="gray"
     />
   );

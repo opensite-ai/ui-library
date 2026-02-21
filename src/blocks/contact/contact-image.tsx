@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactImage } from "@opensite/ui/blocks/contact/contact-image";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormConfig, demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -89,7 +89,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Project Details",
-    placeholder: "Tell us about your project goals, target audience, and any specific requirements...",
+    placeholder:
+      "Tell us about your project goals, target audience, and any specific requirements...",
     required: true,
     rows: 5,
     columnSpan: 12,
@@ -101,10 +102,17 @@ export default function Demo() {
     <ContactImage
       heading="Let's Build Something Amazing"
       description="Ready to take your business to the next level? Share your project details with us and we'll craft a custom proposal tailored to your needs."
-      buttonText="Start Your Project"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for reaching out! We'll review your project details and get back to you with a custom proposal within 2-3 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for reaching out! We'll review your project details and get back to you with a custom proposal within 2-3 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Start Your Project",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeBottom"
       patternOpacity={0.4}

@@ -176,7 +176,7 @@ export function BlockPreview({ block, className }: BlockPreviewProps) {
 
   useEffect(() => {
     const doc = iframeRef.current?.contentDocument;
-    if (!doc) {
+    if (!doc || !doc.body) {
       return;
     }
 

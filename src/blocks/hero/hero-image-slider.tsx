@@ -1,6 +1,35 @@
 import { imagePlaceholders } from "@/lib/media";
 import { HeroImageSlider } from "@opensite/ui/blocks/hero/hero-image-slider";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "first_name",
+    type: "text",
+    label: "First Name",
+    placeholder: "First name",
+    required: true,
+    columnSpan: 12,
+  },
+  {
+    name: "last_name",
+    type: "text",
+    label: "Last Name",
+    placeholder: "Last name",
+    required: true,
+    columnSpan: 12,
+  },
+  {
+    name: "email",
+    type: "email",
+    label: "Email Address",
+    placeholder: "your@email.com",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -21,6 +50,13 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/shopping-bag" size={16} />,
         },
       ]}
+      formHeading="Join the list"
+      buttonText="Get Updates"
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thanks for subscribing! We'll keep you updated.",
+      }}
       background="white"
       pattern="gridFadeTop"
       patternOpacity={0.9}

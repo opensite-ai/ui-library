@@ -69,12 +69,16 @@ export default function Demo() {
       heading="Have Questions?"
       description="Can't find what you're looking for in our FAQ? Send us a message and our team will get back to you within 24 hours."
       formHeading="Send Us a Message"
-      buttonText="Submit Question"
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
         successMessage:
           "Thank you for reaching out! We'll get back to you within 24 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Question",
+          },
+        },
       }}
       background="white"
       pattern="dashedGridFadeTop"

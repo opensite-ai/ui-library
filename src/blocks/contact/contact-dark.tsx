@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactDark } from "@opensite/ui/blocks/contact/contact-dark";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormConfig, demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -78,8 +78,6 @@ export default function Demo() {
       description="Have a question or want to work together? Fill out the form below and we'll get back to you within 24 hours."
       contactHeading="Contact Information"
       contactDescription="Reach out to us directly using any of the methods below, or fill out the form and we'll respond within 24 hours."
-      buttonText="Send Message"
-      formFields={formFields}
       contactOptions={[
         {
           icon: "lucide/phone",
@@ -119,8 +117,17 @@ export default function Demo() {
           label: "Follow us on Instagram",
         },
       ]}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for contacting us! We'll get back to you shortly."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for contacting us! We'll get back to you shortly.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Send Message",
+          },
+        },
+      }}
       background="dark"
       pattern="architect"
       patternOpacity={1}
