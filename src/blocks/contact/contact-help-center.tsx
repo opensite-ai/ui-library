@@ -8,8 +8,8 @@ export default function Demo() {
       heading="How Can We Help?"
       description="Can't find the answer you're looking for? Our support team is here to help."
       background="gradient"
-      pattern="architect"
-      patternOpacity={0.8}
+      pattern="dashedGridBasic"
+      patternOpacity={0.15}
       cardTitle="Quick Actions"
       contactItems={[
         {

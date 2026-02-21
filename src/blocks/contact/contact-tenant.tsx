@@ -102,7 +102,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Describe your request or concern",
-    placeholder: "Please provide detailed information about your request, including location if applicable, what happened, and when...",
+    placeholder:
+      "Please provide detailed information about your request, including location if applicable, what happened, and when...",
     required: true,
     rows: 5,
     columnSpan: 12,
@@ -145,7 +146,7 @@ export default function Demo() {
       successMessage="Your request has been received! Our property management team will review it and contact you shortly. Emergency requests are prioritized and handled immediately."
       background="gradient"
       pattern="architect"
-      patternOpacity={0.25}
+      patternOpacity={0.1}
     />
   );
 }
