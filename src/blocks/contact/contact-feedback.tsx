@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactFeedback } from "@opensite/ui/blocks/contact/contact-feedback";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -130,10 +130,16 @@ export default function Demo() {
     <ContactFeedback
       heading="We Value Your Feedback"
       description="Your opinion matters to us! Share your experience and help us improve. All feedback is reviewed by our team and used to enhance our products and services."
-      buttonText="Submit Feedback"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your valuable feedback! We appreciate you taking the time to help us improve."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your valuable feedback! We appreciate you taking the time to help us improve.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Feedback",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.6}

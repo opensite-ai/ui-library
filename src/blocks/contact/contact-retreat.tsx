@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactRetreat } from "@opensite/ui/blocks/contact/contact-retreat";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -226,10 +226,16 @@ export default function Demo() {
     <ContactRetreat
       heading="Plan Your Perfect Retreat"
       description="Create an unforgettable retreat experience at our peaceful sanctuary. Complete the form below and our event specialists will create a custom proposal for you."
-      buttonText="Request Retreat Proposal"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your retreat inquiry! Our event team will review your requirements and send you a detailed proposal within 2-3 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your retreat inquiry! Our event team will review your requirements and send you a detailed proposal within 2-3 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Request Retreat Proposal",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.4}

@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactTenant } from "@opensite/ui/blocks/contact/contact-tenant";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -140,10 +140,16 @@ export default function Demo() {
     <ContactTenant
       heading="Tenant Services"
       description="We're here to make your living experience as comfortable as possible. Submit your request below and our property management team will respond promptly."
-      buttonText="Submit Request"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your request has been received! Our property management team will review it and contact you shortly. Emergency requests are prioritized and handled immediately."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your request has been received! Our property management team will review it and contact you shortly. Emergency requests are prioritized and handled immediately.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Request",
+          },
+        },
+      }}
       background="gradient"
       pattern="architect"
       patternOpacity={0.1}

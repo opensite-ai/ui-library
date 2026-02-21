@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactSales } from "@opensite/ui/blocks/contact/contact-sales";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -123,10 +123,16 @@ export default function Demo() {
     <ContactSales
       heading="Let's Talk About Your Business"
       description="Connect with our sales team to learn how our solutions can help you achieve your goals. We'll work with you to find the perfect plan for your needs."
-      buttonText="Contact Sales"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your interest! A sales representative will reach out to you within 24 hours to discuss your needs."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your interest! A sales representative will reach out to you within 24 hours to discuss your needs.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Contact Sales",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.9}

@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactEvent } from "@opensite/ui/blocks/contact/contact-event";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -213,10 +213,16 @@ export default function Demo() {
     <ContactEvent
       heading="Plan Your Event With Us"
       description="Let us help you create an unforgettable event. Fill out the form below and our event planning team will contact you within 48 hours with ideas and a quote."
-      buttonText="Submit Event Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your event inquiry! Our planning team will review your details and reach out within 48 hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your event inquiry! Our planning team will review your details and reach out within 48 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Event Inquiry",
+          },
+        },
+      }}
       background="gray"
       pattern="dots"
       patternOpacity={0.35}

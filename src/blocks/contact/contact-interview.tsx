@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactInterview } from "@opensite/ui/blocks/contact/contact-interview";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -99,11 +99,10 @@ const formFields: FormFieldConfig[] = [
   },
   {
     name: "location",
-    type: "radio",
+    type: "select",
     label: "Work Location Preference",
     required: true,
-    columnSpan: 12,
-    layout: "grid",
+    columnSpan: 6,
     options: [
       { value: "remote", label: "Remote" },
       { value: "hybrid", label: "Hybrid" },
@@ -119,19 +118,19 @@ const formFields: FormFieldConfig[] = [
     accept: ".pdf,.doc,.docx",
     maxSize: 5 * 1024 * 1024,
     maxFiles: 1,
-    columnSpan: 12,
+    columnSpan: 6,
   },
   {
     name: "portfolio",
     type: "file",
     label: "Portfolio/Work Samples",
-    placeholder: "Upload portfolio or work samples (optional)...",
+    placeholder: "Upload work samples (optional)...",
     required: false,
     accept: ".pdf,.doc,.docx,.zip",
     maxSize: 10 * 1024 * 1024,
     maxFiles: 3,
     multiple: true,
-    columnSpan: 12,
+    columnSpan: 6,
   },
   {
     name: "salary_expectations",
@@ -158,13 +157,19 @@ export default function Demo() {
     <ContactInterview
       heading="Join Our Team"
       description="We're always looking for talented individuals who are passionate about what they do. Apply now and take the next step in your career."
-      buttonText="Submit Application"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for applying! We've received your application and will review it carefully. If your qualifications match our needs, we'll reach out within 1-2 weeks to schedule an interview."
-      background="white"
-      pattern="architect"
-      patternOpacity={0.6}
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for applying! We've received your application and will review it carefully. If your qualifications match our needs, we'll reach out within 1-2 weeks to schedule an interview.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Application",
+          },
+        },
+      }}
+      pattern="circles"
+      patternOpacity={0.9}
+      background="muted"
     />
   );
 }

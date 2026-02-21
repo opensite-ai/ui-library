@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactRsvp } from "@opensite/ui/blocks/contact/contact-rsvp";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -194,10 +194,16 @@ export default function Demo() {
     <ContactRsvp
       heading="RSVP"
       description="We can't wait to celebrate with you! Please respond by March 15th, 2026."
-      buttonText="Submit RSVP"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your RSVP! We're excited to celebrate with you. You'll receive a confirmation email shortly with additional event details."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your RSVP! We're excited to celebrate with you. You'll receive a confirmation email shortly with additional event details.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit RSVP",
+          },
+        },
+      }}
       background="dark"
       pattern="architect"
       patternOpacity={0.15}

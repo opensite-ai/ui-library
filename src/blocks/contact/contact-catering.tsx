@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactCatering } from "@opensite/ui/blocks/contact/contact-catering";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -164,10 +164,16 @@ export default function Demo() {
     <ContactCatering
       heading="Request a Catering Quote"
       description="Planning an event? Let us handle the food! Fill out the form below and we'll provide you with a custom quote within 24 hours."
-      buttonText="Get Quote"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your catering inquiry! We'll review your event details and send you a custom quote within 24 hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your catering inquiry! We'll review your event details and send you a custom quote within 24 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Get Quote",
+          },
+        },
+      }}
       background="gray"
       pattern="dashedGridFadeTopLeft"
       patternOpacity={0.3}

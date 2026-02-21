@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactWarranty } from "@opensite/ui/blocks/contact/contact-warranty";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -160,10 +160,16 @@ export default function Demo() {
     <ContactWarranty
       heading="Warranty Claim"
       description="We stand behind the quality of our products. If you're experiencing an issue covered under warranty, submit your claim below and our support team will process it promptly."
-      buttonText="Submit Warranty Claim"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your warranty claim has been submitted successfully! You'll receive a confirmation email with your claim number. Our team will review your claim and respond within 2-3 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your warranty claim has been submitted successfully! You'll receive a confirmation email with your claim number. Our team will review your claim and respond within 2-3 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Warranty Claim",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.9}

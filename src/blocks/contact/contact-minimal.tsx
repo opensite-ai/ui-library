@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactMinimal } from "@opensite/ui/blocks/contact/contact-minimal";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -45,10 +45,16 @@ export default function Demo() {
     <ContactMinimal
       heading="Get in Touch"
       description="Have a question or want to work together? We'd love to hear from you."
-      buttonText="Send Message"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your message! We'll get back to you soon."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your message! We'll get back to you soon.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Send Message",
+          },
+        },
+      }}
       background="white"
     />
   );

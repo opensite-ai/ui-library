@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactFitness } from "@opensite/ui/blocks/contact/contact-fitness";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -226,10 +226,16 @@ export default function Demo() {
     <ContactFitness
       heading="Start Your Fitness Journey"
       description="Ready to transform your health and fitness? Schedule a free consultation with one of our certified trainers and let's create a personalized plan for you."
-      buttonText="Get Started"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Get Started",
+          },
+        },
+      }}
       background="dark"
       pattern="architect"
       patternOpacity={0.25}

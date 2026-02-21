@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactMultistep } from "@opensite/ui/blocks/contact/contact-multistep";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -182,10 +182,16 @@ export default function Demo() {
     <ContactMultistep
       heading="Let's Work Together"
       description="Tell us about your project and we'll create a custom proposal tailored to your needs. Complete the form to get started."
-      buttonText="Submit Request"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your interest! We'll review your project details and get back to you within 1-2 business days with next steps."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your interest! We'll review your project details and get back to you within 1-2 business days with next steps.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Request",
+          },
+        },
+      }}
       background="white"
       pattern="architect"
       patternOpacity={0.3}

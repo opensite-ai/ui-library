@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactReport } from "@opensite/ui/blocks/contact/contact-report";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -177,10 +177,16 @@ export default function Demo() {
     <ContactReport
       heading="Report an Issue"
       description="Help us improve by reporting bugs, security vulnerabilities, or inappropriate content. We review all reports carefully and take action quickly."
-      buttonText="Submit Report"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your report! We take all issues seriously and will investigate this matter promptly. If you requested follow-up, we'll keep you updated on our progress."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your report! We take all issues seriously and will investigate this matter promptly. If you requested follow-up, we'll keep you updated on our progress.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Report",
+          },
+        },
+      }}
       background="white"
       pattern="architect"
       patternOpacity={0.2}

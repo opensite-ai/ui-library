@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactCallback } from "@opensite/ui/blocks/contact/contact-callback";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -70,10 +70,16 @@ export default function Demo() {
     <ContactCallback
       heading="Request a Callback"
       description="Prefer to talk? Leave your number and our team will call you back at your preferred time. We typically respond within 2-4 hours during business hours."
-      buttonText="Request Callback"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you! We'll call you back during your preferred time window."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you! We'll call you back during your preferred time window.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Request Callback",
+          },
+        },
+      }}
       background="gray"
       pattern="dashedGridFadeTop"
       patternOpacity={1}

@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactPress } from "@opensite/ui/blocks/contact/contact-press";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -163,10 +163,16 @@ export default function Demo() {
     <ContactPress
       heading="Press & Media Inquiries"
       description="Thank you for your interest in covering our story. Complete the form below and our communications team will respond as quickly as possible."
-      buttonText="Submit Media Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for reaching out! Our media relations team will review your inquiry and respond according to your deadline."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for reaching out! Our media relations team will review your inquiry and respond according to your deadline.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Media Inquiry",
+          },
+        },
+      }}
       background="muted"
       pattern="dashedGridFadeTop"
       patternOpacity={0.5}

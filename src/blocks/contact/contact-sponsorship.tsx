@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactSponsorship } from "@opensite/ui/blocks/contact/contact-sponsorship";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -126,10 +126,16 @@ export default function Demo() {
     <ContactSponsorship
       heading="Become a Sponsor"
       description="Join leading organizations in supporting our mission. Your sponsorship helps us create meaningful impact and reach more people in our community."
-      buttonText="Submit Sponsorship Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your interest in sponsoring us! Our partnerships team will review your inquiry and reach out within 2-3 business days to discuss opportunities."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your interest in sponsoring us! Our partnerships team will review your inquiry and reach out within 2-3 business days to discuss opportunities.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Sponsorship Inquiry",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.15}

@@ -72,13 +72,6 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage:
-          "Thank you for reaching out! We'll get back to you within 24 hours.",
-        formLayoutSettings: {
-          submitButtonSetup: {
-            submitLabel: "Submit Question",
-          },
-        },
       }}
       background="white"
       pattern="dashedGridFadeTop"

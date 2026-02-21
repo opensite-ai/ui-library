@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactReservation } from "@opensite/ui/blocks/contact/contact-reservation";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -156,10 +156,16 @@ export default function Demo() {
     <ContactReservation
       heading="Make a Reservation"
       description="Reserve your table today for an unforgettable dining experience. We'll confirm your reservation within 1 hour during business hours."
-      buttonText="Reserve Table"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your reservation request has been received! We'll send you a confirmation email within the hour. See you soon!"
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your reservation request has been received! We'll send you a confirmation email within the hour. See you soon!",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Reserve Table",
+          },
+        },
+      }}
       background="muted"
       pattern="dashedGridFadeTop"
       patternOpacity={0.6}

@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactMap } from "@opensite/ui/blocks/contact/contact-map";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -82,10 +82,16 @@ export default function Demo() {
     <ContactMap
       heading="Contact Us"
       description="We're here to help! Send us a message and we'll respond within 24 hours."
-      buttonText="Send Message"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for contacting us! We'll get back to you within 24 hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for contacting us! We'll get back to you within 24 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Send Message",
+          },
+        },
+      }}
       background="white"
       pattern="dots"
       patternOpacity={0.1}

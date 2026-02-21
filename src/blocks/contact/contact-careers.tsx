@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactCareers } from "@opensite/ui/blocks/contact/contact-careers";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -114,10 +114,16 @@ export default function Demo() {
     <ContactCareers
       heading="Join Our Team"
       description="We're always looking for talented individuals to join our growing team. Submit your application below and we'll review it within 5-7 business days."
-      buttonText="Submit Application"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for applying! We'll review your application and get back to you within 5-7 business days if there's a match."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for applying! We'll review your application and get back to you within 5-7 business days if there's a match.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Application",
+          },
+        },
+      }}
       background="dark"
       pattern="architect"
       patternOpacity={1}

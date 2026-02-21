@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactDemo } from "@opensite/ui/blocks/contact/contact-demo";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -151,10 +151,16 @@ export default function Demo() {
     <ContactDemo
       heading="See It In Action"
       description="Schedule a personalized demo and discover how our platform can transform your workflow. Our team will walk you through key features tailored to your needs."
-      buttonText="Request Demo"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for requesting a demo! Our team will reach out within 24 hours to schedule a time that works for you."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for requesting a demo! Our team will reach out within 24 hours to schedule a time that works for you.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Request Demo",
+          },
+        },
+      }}
       background="dark"
       pattern="gradientGlowTop"
       patternOpacity={1}

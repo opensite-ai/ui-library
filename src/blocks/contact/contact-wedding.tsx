@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactWedding } from "@opensite/ui/blocks/contact/contact-wedding";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -215,10 +215,16 @@ export default function Demo() {
     <ContactWedding
       heading="Let's Plan Your Perfect Day"
       description="Congratulations on your engagement! We're honored that you're considering us for your special day. Tell us about your vision and we'll create a custom proposal tailored to your dream wedding."
-      buttonText="Submit Wedding Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for reaching out! We're excited to learn about your wedding plans. We'll review your inquiry and get back to you within 24-48 hours to schedule a consultation."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for reaching out! We're excited to learn about your wedding plans. We'll review your inquiry and get back to you within 24-48 hours to schedule a consultation.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Wedding Inquiry",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.15}

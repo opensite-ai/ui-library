@@ -1,8 +1,9 @@
 "use client";
 
 import { ContactImage } from "@opensite/ui/blocks/contact/contact-image";
-import { demoFormConfig, demoFormEngineApi } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
+import { imagePlaceholders } from "@/lib/media";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -40,51 +41,26 @@ const formFields: FormFieldConfig[] = [
       {
         value: "web-design",
         label: "Web Design",
-        description: "Custom website design and development.",
+        description: "Site design + development",
       },
       {
         value: "branding",
         label: "Branding",
-        description: "Logo design and brand identity.",
+        description: "Logo design + brand identity",
       },
       {
         value: "marketing",
         label: "Digital Marketing",
-        description: "SEO, PPC, and social media campaigns.",
+        description: "SEO + social media",
       },
       {
         value: "consulting",
         label: "Consulting",
-        description: "Strategy and business consulting.",
+        description: "Strategy business consulting",
       },
     ],
   },
-  {
-    name: "budget",
-    type: "select",
-    label: "Project Budget",
-    required: false,
-    columnSpan: 12,
-    options: [
-      { value: "5k-10k", label: "$5,000 - $10,000" },
-      { value: "10k-25k", label: "$10,000 - $25,000" },
-      { value: "25k-50k", label: "$25,000 - $50,000" },
-      { value: "50k+", label: "$50,000+" },
-    ],
-  },
-  {
-    name: "timeline",
-    type: "radio",
-    label: "Project Timeline",
-    required: true,
-    columnSpan: 12,
-    layout: "grid",
-    options: [
-      { value: "urgent", label: "ASAP (< 1 month)" },
-      { value: "normal", label: "1-3 months" },
-      { value: "flexible", label: "3+ months" },
-    ],
-  },
+
   {
     name: "content",
     type: "textarea",
@@ -100,6 +76,11 @@ const formFields: FormFieldConfig[] = [
 export default function Demo() {
   return (
     <ContactImage
+      image={{
+        src: imagePlaceholders[103],
+        alt: "A person working at a desk"
+      }}
+      eyebrow="Ready to Start?"
       heading="Let's Build Something Amazing"
       description="Ready to take your business to the next level? Share your project details with us and we'll craft a custom proposal tailored to your needs."
       formEngineSetup={{
@@ -113,9 +94,9 @@ export default function Demo() {
           },
         },
       }}
-      background="white"
-      pattern="dashedGridFadeBottom"
-      patternOpacity={0.4}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.9}
+      background="gray"
     />
   );
 }

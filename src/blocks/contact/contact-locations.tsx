@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactLocations } from "@opensite/ui/blocks/contact/contact-locations";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -109,10 +109,16 @@ export default function Demo() {
     <ContactLocations
       heading="Visit Us"
       description="We have offices across the country. Find the location nearest you or schedule a virtual meeting with our team."
-      buttonText="Send Message"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for reaching out! We'll get back to you within 1 business day."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for reaching out! We'll get back to you within 1 business day.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Send Message",
+          },
+        },
+      }}
       background="white"
       pattern="dots"
       patternOpacity={0.3}

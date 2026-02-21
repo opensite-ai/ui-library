@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactReferral } from "@opensite/ui/blocks/contact/contact-referral";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -174,10 +174,16 @@ export default function Demo() {
     <ContactReferral
       heading="Refer a Friend & Earn Rewards"
       description="Know someone who could benefit from our services? Refer them and you'll both receive exclusive rewards when they become a client."
-      buttonText="Submit Referral"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for the referral! We'll reach out to them soon and keep you updated on the status. Your rewards will be processed once they become a client."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for the referral! We'll reach out to them soon and keep you updated on the status. Your rewards will be processed once they become a client.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Referral",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.15}

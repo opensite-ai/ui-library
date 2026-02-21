@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactMoving } from "@opensite/ui/blocks/contact/contact-moving";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -170,10 +170,16 @@ export default function Demo() {
     <ContactMoving
       heading="Get Your Free Moving Quote"
       description="Fill out the form below and receive a detailed moving estimate within 24 hours. Our team is ready to make your move stress-free."
-      buttonText="Get Free Quote"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you! We'll review your moving requirements and send you a detailed quote within 24 hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you! We'll review your moving requirements and send you a detailed quote within 24 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Get Free Quote",
+          },
+        },
+      }}
       background="muted"
       pattern="dashedGridFadeTop"
       patternOpacity={0.8}

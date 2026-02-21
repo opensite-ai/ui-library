@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactMaintenance } from "@opensite/ui/blocks/contact/contact-maintenance";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -166,10 +166,16 @@ export default function Demo() {
     <ContactMaintenance
       heading="Request Maintenance Service"
       description="Our experienced team is ready to help with all your property maintenance needs. Fill out the form and we'll get back to you promptly."
-      buttonText="Submit Request"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your maintenance request has been submitted successfully. We'll contact you within 2 hours to confirm the service appointment."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your maintenance request has been submitted successfully. We'll contact you within 2 hours to confirm the service appointment.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Request",
+          },
+        },
+      }}
       background="gradient"
       pattern="dashedGridFadeTop"
       patternOpacity={0.5}

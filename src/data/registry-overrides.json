@@ -83,8 +83,8 @@
     "contact-faq": {
       "title": "Contact FAQ",
       "componentPath": "blocks/contact/contact-faq.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png", "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png", "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png" },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-faq"
     },
@@ -141,8 +141,8 @@
     "contact-card": {
       "title": "Contact Card Form",
       "componentPath": "blocks/contact/contact-card.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png", "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png", "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png" },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-card"
     },
@@ -191,16 +191,16 @@
     "contact-demo": {
       "title": "Contact Demo Request",
       "componentPath": "blocks/contact/contact-demo.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png", "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png", "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png" },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-demo"
     },
     "contact-emergency": {
       "title": "Contact Emergency",
       "componentPath": "blocks/contact/contact-emergency.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png", "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png", "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png" },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-emergency"
     },
@@ -245,8 +245,8 @@
     "contact-image": {
       "title": "Contact Image",
       "componentPath": "blocks/contact/contact-image.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png", "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png" },
+      "preview": { "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png", "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png" },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-image"
     },

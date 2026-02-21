@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactSupport } from "@opensite/ui/blocks/contact/contact-support";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -93,10 +93,16 @@ export default function Demo() {
     <ContactSupport
       heading="We're Here to Help"
       description="Having trouble? Our support team is standing by to assist you. Describe your issue below and we'll get back to you as soon as possible."
-      buttonText="Submit Support Ticket"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your support ticket has been created! You'll receive a confirmation email with your ticket number. We typically respond within 2-4 hours during business hours."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your support ticket has been created! You'll receive a confirmation email with your ticket number. We typically respond within 2-4 hours during business hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Support Ticket",
+          },
+        },
+      }}
       background="white"
       pattern="dashedGridFadeTop"
       patternOpacity={0.9}

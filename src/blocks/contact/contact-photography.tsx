@@ -1,8 +1,9 @@
 "use client";
 
 import { ContactPhotography } from "@opensite/ui/blocks/contact/contact-photography";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
+import { imagePlaceholders } from "@/lib/media";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -113,12 +114,22 @@ const formFields: FormFieldConfig[] = [
 export default function Demo() {
   return (
     <ContactPhotography
+      image={{
+        src: imagePlaceholders[108],
+        alt: "A person working at a desk"
+      }}
       heading="Ready to Get Started?"
       description="Tell us about your project and we'll put together a custom quote for you. We typically respond within 1-2 business days."
-      buttonText="Submit Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Inquiry",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTopLeft"
       patternOpacity={0.15}

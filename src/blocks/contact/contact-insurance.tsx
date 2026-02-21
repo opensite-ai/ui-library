@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactInsurance } from "@opensite/ui/blocks/contact/contact-insurance";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -132,10 +132,16 @@ export default function Demo() {
     <ContactInsurance
       heading="Get Your Free Quote"
       description="Find the right insurance coverage to protect what matters most. Fill out the form below and receive a personalized quote within 24 hours."
-      buttonText="Get Free Quote"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you! We're preparing your personalized quote and will contact you within 24 hours with your options."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you! We're preparing your personalized quote and will contact you within 24 hours with your options.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Get Free Quote",
+          },
+        },
+      }}
       background="gradient"
       pattern="gridBasic"
       patternOpacity={0.2}

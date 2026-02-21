@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactQuote } from "@opensite/ui/blocks/contact/contact-quote";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -182,10 +182,16 @@ export default function Demo() {
     <ContactQuote
       heading="Request a Custom Quote"
       description="Tell us about your project and we'll provide a detailed proposal with pricing, timeline, and deliverables. Most quotes are delivered within 2-3 business days."
-      buttonText="Get Custom Quote"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your quote request! We'll review your project requirements and send you a detailed proposal within 2-3 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your quote request! We'll review your project requirements and send you a detailed proposal within 2-3 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Get Custom Quote",
+          },
+        },
+      }}
       background="white"
       pattern="architect"
       patternOpacity={0.25}

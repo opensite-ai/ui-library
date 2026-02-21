@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactPartnership } from "@opensite/ui/blocks/contact/contact-partnership";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -164,10 +164,16 @@ export default function Demo() {
     <ContactPartnership
       heading="Become a Partner"
       description="Join our growing network of partners and unlock new revenue opportunities. Fill out the form below to start the conversation."
-      buttonText="Submit Partnership Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your interest in partnering with us! Our partnerships team will review your application and reach out within 3-5 business days."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your interest in partnering with us! Our partnerships team will review your application and reach out within 3-5 business days.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Partnership Inquiry",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.2}

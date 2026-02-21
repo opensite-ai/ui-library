@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactConsultation } from "@opensite/ui/blocks/contact/contact-consultation";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -157,10 +157,16 @@ export default function Demo() {
     <ContactConsultation
       heading="Schedule a Free Consultation"
       description="Book a 30-minute strategy session with our experts. We'll discuss your goals, challenges, and how we can help you succeed."
-      buttonText="Book Consultation"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for booking! We'll confirm your consultation time within 24 hours and send you a calendar invite."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for booking! We'll confirm your consultation time within 24 hours and send you a calendar invite.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Book Consultation",
+          },
+        },
+      }}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.2}

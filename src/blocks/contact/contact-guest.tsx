@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactGuest } from "@opensite/ui/blocks/contact/contact-guest";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -110,13 +110,19 @@ export default function Demo() {
     <ContactGuest
       heading="Book Your Stay"
       description="Experience comfort and luxury at our hotel. Complete the form below to inquire about availability or make a reservation."
-      buttonText="Submit Reservation Inquiry"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your reservation inquiry! Our team will confirm availability and reach out within 4 hours."
-      background="white"
-      pattern="circuitBoardBasic"
-      patternOpacity={0.05}
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your reservation inquiry! Our team will confirm availability and reach out within 4 hours.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Reservation Inquiry",
+          },
+        },
+      }}
+      pattern="waves"
+      patternOpacity={0.15}
+      background="dark"
     />
   );
 }

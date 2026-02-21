@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactVolunteer } from "@opensite/ui/blocks/contact/contact-volunteer";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -179,10 +179,16 @@ export default function Demo() {
     <ContactVolunteer
       heading="Join Our Volunteer Team"
       description="Make a difference in your community! Whether you have a few hours to spare or want to make a long-term commitment, we have opportunities that match your skills and interests."
-      buttonText="Submit Volunteer Application"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Thank you for your interest in volunteering! We'll review your application and reach out within a week to discuss available opportunities and next steps."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Thank you for your interest in volunteering! We'll review your application and reach out within a week to discuss available opportunities and next steps.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Submit Volunteer Application",
+          },
+        },
+      }}
       background="gradient"
       pattern="architect"
       patternOpacity={0.2}

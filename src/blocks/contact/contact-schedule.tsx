@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactSchedule } from "@opensite/ui/blocks/contact/contact-schedule";
-import { demoFormConfig } from "@/lib/form-demo-data";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
@@ -110,10 +110,16 @@ export default function Demo() {
     <ContactSchedule
       heading="Schedule a Meeting"
       description="Book time with our team to discuss your needs. Choose a date and time that works best for you, and we'll send you a calendar invitation with all the details."
-      buttonText="Schedule Appointment"
-      formFields={formFields}
-      formConfig={demoFormConfig}
-      successMessage="Your appointment request has been received! We'll send you a calendar invitation shortly with meeting details and a video conferencing link."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage: "Your appointment request has been received! We'll send you a calendar invitation shortly with meeting details and a video conferencing link.",
+        formLayoutSettings: {
+          submitButtonSetup: {
+            submitLabel: "Schedule Appointment",
+          },
+        },
+      }}
       background="gradient"
       pattern="architect"
       patternOpacity={0.2}
