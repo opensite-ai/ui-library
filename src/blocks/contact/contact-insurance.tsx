@@ -109,7 +109,7 @@ const formFields: FormFieldConfig[] = [
     label: "Currently Insured?",
     required: true,
     columnSpan: 12,
-    layout: "grid",
+    layout: "stacked",
     options: [
       { value: "yes", label: "Yes" },
       { value: "no", label: "No" },
@@ -135,7 +135,8 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you! We're preparing your personalized quote and will contact you within 24 hours with your options.",
+        successMessage:
+          "Thank you! We're preparing your personalized quote and will contact you within 24 hours with your options.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Get Free Quote",

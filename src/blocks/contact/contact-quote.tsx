@@ -137,12 +137,32 @@ const formFields: FormFieldConfig[] = [
     columnSpan: 12,
     layout: "grid",
     options: [
-      { value: "ecommerce", label: "E-commerce", description: "Online store and payments." },
+      {
+        value: "ecommerce",
+        label: "E-commerce",
+        description: "Online store and payments.",
+      },
       { value: "cms", label: "CMS", description: "Content management system." },
-      { value: "booking", label: "Booking System", description: "Appointments and reservations." },
-      { value: "crm", label: "CRM", description: "Customer relationship management." },
-      { value: "analytics", label: "Analytics", description: "Custom tracking and reporting." },
-      { value: "integrations", label: "Third-party Integrations", description: "API connections." },
+      {
+        value: "booking",
+        label: "Booking System",
+        description: "Appointments and reservations.",
+      },
+      {
+        value: "crm",
+        label: "CRM",
+        description: "Customer relationship management.",
+      },
+      {
+        value: "analytics",
+        label: "Analytics",
+        description: "Custom tracking and reporting.",
+      },
+      {
+        value: "integrations",
+        label: "Third-party Integrations",
+        description: "API connections.",
+      },
     ],
   },
   {
@@ -158,7 +178,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Project Description",
-    placeholder: "Tell us about your project goals, challenges, and requirements...",
+    placeholder:
+      "Tell us about your project goals, challenges, and requirements...",
     required: true,
     rows: 5,
     columnSpan: 12,
@@ -185,16 +206,17 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your quote request! We'll review your project requirements and send you a detailed proposal within 2-3 business days.",
+        successMessage:
+          "Thank you for your quote request! We'll review your project requirements and send you a detailed proposal within 2-3 business days.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Get Custom Quote",
           },
         },
       }}
-      background="white"
+      background="muted"
       pattern="architect"
-      patternOpacity={0.25}
+      patternOpacity={0.15}
     />
   );
 }

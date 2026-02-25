@@ -141,7 +141,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Issue Description",
-    placeholder: "Please provide detailed information about the issue, including steps to reproduce, expected behavior, actual behavior, and any error messages...",
+    placeholder:
+      "Please provide detailed information about the issue, including steps to reproduce, expected behavior, actual behavior, and any error messages...",
     required: true,
     rows: 6,
     columnSpan: 12,
@@ -180,16 +181,17 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your report! We take all issues seriously and will investigate this matter promptly. If you requested follow-up, we'll keep you updated on our progress.",
+        successMessage:
+          "Thank you for your report! We take all issues seriously and will investigate this matter promptly. If you requested follow-up, we'll keep you updated on our progress.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Report",
           },
         },
       }}
-      background="white"
-      pattern="architect"
-      patternOpacity={0.2}
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
     />
   );
 }

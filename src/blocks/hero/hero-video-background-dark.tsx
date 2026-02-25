@@ -21,7 +21,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      videoSrc={videoPlaceholders[25]}
+      videoSrc="https://toastability-production.s3.amazonaws.com/uftmd8eopmi6cs99m44bjn10yiu6"
       background="dark"
     />
   );

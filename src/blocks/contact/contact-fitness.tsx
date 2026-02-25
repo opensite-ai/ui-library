@@ -38,45 +38,12 @@ const formFields: FormFieldConfig[] = [
     columnSpan: 6,
   },
   {
-    name: "age",
-    type: "select",
-    label: "Age Range",
-    required: false,
-    columnSpan: 6,
-    options: [
-      {
-        value: "under-18",
-        label: "Under 18",
-      },
-      {
-        value: "18-25",
-        label: "18-25",
-      },
-      {
-        value: "26-35",
-        label: "26-35",
-      },
-      {
-        value: "36-45",
-        label: "36-45",
-      },
-      {
-        value: "46-55",
-        label: "46-55",
-      },
-      {
-        value: "56+",
-        label: "56+",
-      },
-    ],
-  },
-  {
     name: "fitness_level",
     type: "radio",
     label: "Current Fitness Level",
     required: true,
     columnSpan: 12,
-    layout: "grid",
+    layout: "stacked",
     options: [
       {
         value: "beginner",
@@ -214,7 +181,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Tell Us More About Your Goals",
-    placeholder: "What motivates you? What challenges have you faced? What do you hope to achieve?",
+    placeholder:
+      "What motivates you? What challenges have you faced? What do you hope to achieve?",
     required: false,
     rows: 5,
     columnSpan: 12,
@@ -229,16 +197,17 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation.",
+        successMessage:
+          "Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Get Started",
           },
         },
       }}
-      background="dark"
+      background="gray"
       pattern="architect"
-      patternOpacity={0.25}
+      patternOpacity={0.15}
     />
   );
 }

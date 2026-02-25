@@ -57,13 +57,18 @@ export const componentFilterConfig: {
     "team",
     "testimonials",
     "timeline",
+    "banner",
   ],
 
   /**
    * Individual blocks from partially-ready categories
    * Total: 48 blocks across 5 categories
    */
-  blockedSlugs: ["contact-floating-banner", "hero-pricing-comparison"],
+  blockedSlugs: [
+    "contact-floating-banner",
+    "hero-pricing-comparison",
+    "contact-multistep",
+  ],
 
   /**
    * Used when mode is "whitelist" - not currently used

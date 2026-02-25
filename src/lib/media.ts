@@ -246,6 +246,7 @@ export const videoPlaceholders = [
   "https://toastability-production.s3.amazonaws.com/hdlqazy1cp3u3s6df2zoozu9xpox",
   "https://toastability-production.s3.amazonaws.com/6wgxszvzxjuc3n129224urjawa1y",
   "https://toastability-production.s3.amazonaws.com/xa1t8a9usk1uyb4oibb2374yp8lx",
+  "https://toastability-production.s3.amazonaws.com/uftmd8eopmi6cs99m44bjn10yiu6",
 ];
 
 export const architectureShowcase = {

@@ -42,6 +42,9 @@ export default function Demo() {
           label: "Projects Launched",
         },
       ]}
+      pattern="grid1"
+      patternOpacity={1}
+      background="white"
     />
   );
 }

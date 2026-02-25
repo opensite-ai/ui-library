@@ -151,7 +151,8 @@ const formFields: FormFieldConfig[] = [
     name: "skills",
     type: "textarea",
     label: "Relevant Skills and Experience",
-    placeholder: "Tell us about skills, experience, or qualifications that would help you as a volunteer...",
+    placeholder:
+      "Tell us about skills, experience, or qualifications that would help you as a volunteer...",
     required: false,
     rows: 4,
     columnSpan: 12,
@@ -160,7 +161,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Why do you want to volunteer with us?",
-    placeholder: "Share what motivates you and what you hope to gain from volunteering...",
+    placeholder:
+      "Share what motivates you and what you hope to gain from volunteering...",
     required: true,
     rows: 4,
     columnSpan: 12,
@@ -182,16 +184,17 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your interest in volunteering! We'll review your application and reach out within a week to discuss available opportunities and next steps.",
+        successMessage:
+          "Thank you for your interest in volunteering! We'll review your application and reach out within a week to discuss available opportunities and next steps.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Volunteer Application",
           },
         },
       }}
-      background="gradient"
-      pattern="architect"
-      patternOpacity={0.2}
+      pattern="dotPattern2"
+      patternOpacity={1}
+      background="secondary"
     />
   );
 }

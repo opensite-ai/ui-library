@@ -143,14 +143,15 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Your request has been received! Our property management team will review it and contact you shortly. Emergency requests are prioritized and handled immediately.",
+        successMessage:
+          "Your request has been received! Our property management team will review it and contact you shortly. Emergency requests are prioritized and handled immediately.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Request",
           },
         },
       }}
-      background="gradient"
+      background="gray"
       pattern="architect"
       patternOpacity={0.1}
     />

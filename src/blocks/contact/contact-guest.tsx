@@ -58,7 +58,7 @@ const formFields: FormFieldConfig[] = [
     type: "select",
     label: "Number of Guests",
     required: true,
-    columnSpan: 6,
+    columnSpan: 12,
     options: [
       { value: "1", label: "1 Guest" },
       { value: "2", label: "2 Guests" },
@@ -74,7 +74,7 @@ const formFields: FormFieldConfig[] = [
     label: "Room Preference",
     required: true,
     columnSpan: 12,
-    layout: "grid",
+    layout: "stacked",
     options: [
       {
         value: "standard",
@@ -113,7 +113,8 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your reservation inquiry! Our team will confirm availability and reach out within 4 hours.",
+        successMessage:
+          "Thank you for your reservation inquiry! Our team will confirm availability and reach out within 4 hours.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Reservation Inquiry",

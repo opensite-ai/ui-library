@@ -83,8 +83,14 @@
     "contact-faq": {
       "title": "Contact FAQ",
       "componentPath": "blocks/contact/contact-faq.tsx",
-      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png", "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png" },
-      "preview": { "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png", "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-faq"
     },
@@ -141,8 +147,14 @@
     "contact-card": {
       "title": "Contact Card Form",
       "componentPath": "blocks/contact/contact-card.tsx",
-      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png", "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png" },
-      "preview": { "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png", "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-card"
     },
@@ -191,16 +203,28 @@
     "contact-demo": {
       "title": "Contact Demo Request",
       "componentPath": "blocks/contact/contact-demo.tsx",
-      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png", "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png" },
-      "preview": { "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png", "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290624/f7jhma9pk839b8lj6ffa0ir2o27j/cleanshot-2026-02-21-at-15-35-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290623/o3etnz78zbf46y7q053abjck9d95/cleanshot-2026-02-21-at-15-36-06.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-demo"
     },
     "contact-emergency": {
       "title": "Contact Emergency",
       "componentPath": "blocks/contact/contact-emergency.tsx",
-      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png", "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png" },
-      "preview": { "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png", "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290626/98256jfd8ucmaiq2dsxkkzwe0ljs/cleanshot-2026-02-21-at-15-37-25.png",
+        "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-emergency"
     },
@@ -221,48 +245,84 @@
     "contact-feedback": {
       "title": "Contact Feedback",
       "componentPath": "blocks/contact/contact-feedback.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290811/nt3s30ijlt7ogzbmkkz5tqpr99xj/cleanshot-2026-02-25-at-02-02-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290810/7khdr7eo2qgq7qcd4zpdixjei4cr/cleanshot-2026-02-25-at-02-03-12.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290811/nt3s30ijlt7ogzbmkkz5tqpr99xj/cleanshot-2026-02-25-at-02-02-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290810/7khdr7eo2qgq7qcd4zpdixjei4cr/cleanshot-2026-02-25-at-02-03-12.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-feedback"
     },
     "contact-fitness": {
       "title": "Contact Fitness Consultation",
       "componentPath": "blocks/contact/contact-fitness.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290813/2t99w34wsrx5oi4jgoygjanmlj1q/cleanshot-2026-02-25-at-02-05-41.png",
+        "mobile": "https://cdn.ing/assets/i/r/290812/jhjvh0nuok3am3xz8b13hpdunv0i/cleanshot-2026-02-25-at-02-05-54.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290813/2t99w34wsrx5oi4jgoygjanmlj1q/cleanshot-2026-02-25-at-02-05-41.png",
+        "mobile": "https://cdn.ing/assets/i/r/290812/jhjvh0nuok3am3xz8b13hpdunv0i/cleanshot-2026-02-25-at-02-05-54.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-fitness"
     },
     "contact-guest": {
       "title": "Contact Guest Information",
       "componentPath": "blocks/contact/contact-guest.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290815/ibwvax0jd8936tvo2iyn639p84i4/cleanshot-2026-02-25-at-02-08-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290814/t2wlqpx23i9i9xp1ax41njvfc888/cleanshot-2026-02-25-at-02-08-24.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290815/ibwvax0jd8936tvo2iyn639p84i4/cleanshot-2026-02-25-at-02-08-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/290814/t2wlqpx23i9i9xp1ax41njvfc888/cleanshot-2026-02-25-at-02-08-24.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-guest"
     },
     "contact-image": {
       "title": "Contact Image",
       "componentPath": "blocks/contact/contact-image.tsx",
-      "thumbnail": { "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png", "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png" },
-      "preview": { "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png", "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png",
+        "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290618/1mcu6me3f3rsshm2q7zz7aa027ub/cleanshot-2026-02-21-at-15-31-03.png",
+        "mobile": "https://cdn.ing/assets/i/r/290617/ft5shvx5h71lk9cjyn3yjg96eu65/cleanshot-2026-02-21-at-15-31-19.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-image"
     },
     "contact-insurance": {
       "title": "Contact Insurance Quote",
       "componentPath": "blocks/contact/contact-insurance.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290817/ij0jea218e4zf2nynaa1qw6afsl2/cleanshot-2026-02-25-at-02-09-53.png",
+        "mobile": "https://cdn.ing/assets/i/r/290816/6godc5ytd2wyg5j8sndakmbw9q26/cleanshot-2026-02-25-at-02-10-07.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290817/ij0jea218e4zf2nynaa1qw6afsl2/cleanshot-2026-02-25-at-02-09-53.png",
+        "mobile": "https://cdn.ing/assets/i/r/290816/6godc5ytd2wyg5j8sndakmbw9q26/cleanshot-2026-02-25-at-02-10-07.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-insurance"
     },
     "contact-interview": {
       "title": "Contact Interview Scheduling",
       "componentPath": "blocks/contact/contact-interview.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290819/xh2lnayz5r3qx1qq9yxqwwvb3wyu/cleanshot-2026-02-25-at-02-11-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290818/43wvdxtxob5rracqvjyg2vvyf8jr/cleanshot-2026-02-25-at-02-11-20.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290819/xh2lnayz5r3qx1qq9yxqwwvb3wyu/cleanshot-2026-02-25-at-02-11-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290818/43wvdxtxob5rracqvjyg2vvyf8jr/cleanshot-2026-02-25-at-02-11-20.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-interview"
     },
@@ -347,8 +407,14 @@
     "contact-partnership": {
       "title": "Contact Partnership Inquiry",
       "componentPath": "blocks/contact/contact-partnership.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290821/782b9fx35gp04j1a95313qw63t3n/cleanshot-2026-02-25-at-02-12-52.png",
+        "mobile": "https://cdn.ing/assets/i/r/290820/cc7yzflwvsdv67vh0gn48lts4yfd/cleanshot-2026-02-25-at-02-13-02.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290821/782b9fx35gp04j1a95313qw63t3n/cleanshot-2026-02-25-at-02-12-52.png",
+        "mobile": "https://cdn.ing/assets/i/r/290820/cc7yzflwvsdv67vh0gn48lts4yfd/cleanshot-2026-02-25-at-02-13-02.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-partnership"
     },
@@ -369,24 +435,42 @@
     "contact-quote": {
       "title": "Contact Quote Request",
       "componentPath": "blocks/contact/contact-quote.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290823/nq0u0rcma7n0lfl9clhtvnpecu9c/cleanshot-2026-02-25-at-02-17-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/290822/n7n0i5jk26u72yag8sexi0zgqism/cleanshot-2026-02-25-at-02-18-00.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290823/nq0u0rcma7n0lfl9clhtvnpecu9c/cleanshot-2026-02-25-at-02-17-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/290822/n7n0i5jk26u72yag8sexi0zgqism/cleanshot-2026-02-25-at-02-18-00.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-quote"
     },
     "contact-referral": {
       "title": "Contact Referral",
       "componentPath": "blocks/contact/contact-referral.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290825/fng6evy4t7eigg4auwiqmd8qtw8z/cleanshot-2026-02-25-at-02-19-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290824/ilzuibpc3yz7brcfiee8wjkwp27h/cleanshot-2026-02-25-at-02-19-19.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290825/fng6evy4t7eigg4auwiqmd8qtw8z/cleanshot-2026-02-25-at-02-19-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290824/ilzuibpc3yz7brcfiee8wjkwp27h/cleanshot-2026-02-25-at-02-19-19.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-referral"
     },
     "contact-report": {
       "title": "Contact Report Issue",
       "componentPath": "blocks/contact/contact-report.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290827/fsmot5i5v0ic69ltqct1cd9xza8o/cleanshot-2026-02-25-at-02-21-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290826/0olq31rdmt49h96pcpkvqydrqgh7/cleanshot-2026-02-25-at-02-21-56.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290827/fsmot5i5v0ic69ltqct1cd9xza8o/cleanshot-2026-02-25-at-02-21-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/290826/0olq31rdmt49h96pcpkvqydrqgh7/cleanshot-2026-02-25-at-02-21-56.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-report"
     },
@@ -499,16 +583,28 @@
     "contact-tenant": {
       "title": "Contact Tenant Application",
       "componentPath": "blocks/contact/contact-tenant.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290829/6qmttkpm9qor6ouqjvk032q5r1rh/cleanshot-2026-02-25-at-02-38-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290828/505o0grjqmw2ek2gz7z1829pb7w9/cleanshot-2026-02-25-at-02-38-33.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290829/6qmttkpm9qor6ouqjvk032q5r1rh/cleanshot-2026-02-25-at-02-38-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290828/505o0grjqmw2ek2gz7z1829pb7w9/cleanshot-2026-02-25-at-02-38-33.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-tenant"
     },
     "contact-volunteer": {
       "title": "Contact Volunteer",
       "componentPath": "blocks/contact/contact-volunteer.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290831/99pnmteeidpqgf04muqgivygnnbs/cleanshot-2026-02-25-at-02-43-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/290830/ah7l0m5hsv2ohoyhtfzj8kly55wh/cleanshot-2026-02-25-at-02-43-52.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290831/99pnmteeidpqgf04muqgivygnnbs/cleanshot-2026-02-25-at-02-43-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/290830/ah7l0m5hsv2ohoyhtfzj8kly55wh/cleanshot-2026-02-25-at-02-43-52.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-volunteer"
     },
@@ -1602,12 +1698,12 @@
       "title": "Hero Video Background Dark",
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290809/c0bjx5yamyf6afhuc6bdjc89zv4n/cleanshot-2026-02-25-at-01-46-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290447/cdpmvbim1arp6ngzdarh6m5vkivi/cleanshot-2026-02-19-at-03-41-20-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290446/z3gc6erkgs6botmg4awcyq08xngt/cleanshot-2026-02-19-at-03-41-37-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/290809/c0bjx5yamyf6afhuc6bdjc89zv4n/cleanshot-2026-02-25-at-01-46-39.png",
+        "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-background-dark"
@@ -1826,12 +1922,12 @@
       "title": "About Company Profile",
       "componentPath": "blocks/about/about-company-profile.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290807/d7wig6mo10uyjtjrie0a6tvujxxc/cleanshot-2026-02-25-at-01-42-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290806/22ovy90vki8u7hh3job0kosah676/cleanshot-2026-02-25-at-01-42-31.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289012/x8ifl48pxil32uczditmai7vsubp/about-company-profile-desktop-new.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289011/q15aq2pizhczn9k5dh4n5kcr1aam/about-company-profile-mobile-new.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290807/d7wig6mo10uyjtjrie0a6tvujxxc/cleanshot-2026-02-25-at-01-42-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/290806/22ovy90vki8u7hh3job0kosah676/cleanshot-2026-02-25-at-01-42-31.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-company-profile.tsx"

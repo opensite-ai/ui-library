@@ -49,11 +49,6 @@ const formFields: FormFieldConfig[] = [
         label: "Below Average",
         description: "Needs improvement.",
       },
-      {
-        value: "1",
-        label: "Poor",
-        description: "Did not meet expectations.",
-      },
     ],
   },
   {
@@ -98,7 +93,7 @@ const formFields: FormFieldConfig[] = [
     label: "Would you recommend us to others?",
     required: false,
     columnSpan: 12,
-    layout: "grid",
+    layout: "stacked",
     options: [
       {
         value: "yes",
@@ -118,7 +113,8 @@ const formFields: FormFieldConfig[] = [
     name: "content",
     type: "textarea",
     label: "Your Feedback",
-    placeholder: "Tell us what you liked, what could be improved, or any other thoughts...",
+    placeholder:
+      "Tell us what you liked, what could be improved, or any other thoughts...",
     required: true,
     rows: 6,
     columnSpan: 12,
@@ -133,16 +129,17 @@ export default function Demo() {
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your valuable feedback! We appreciate you taking the time to help us improve.",
+        successMessage:
+          "Thank you for your valuable feedback! We appreciate you taking the time to help us improve.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Feedback",
           },
         },
       }}
-      background="white"
+      background="dark"
       pattern="dashedGridFadeTop"
-      patternOpacity={0.6}
+      patternOpacity={0.16}
     />
   );
 }
