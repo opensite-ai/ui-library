@@ -64,6 +64,18 @@ export default function Demo() {
         },
         {
           id: "3",
+          label: "Start Free Trial",
+          description: "Experience our platform with a 14-day free trial.",
+          href: "#",
+          iconName: "lucide/rocket",
+          featured: true,
+          image: {
+            src: imagePlaceholders[93],
+            alt: "Free Trial",
+          },
+        },
+        {
+          id: "3",
           label: "Portfolio",
           href: "https://example.com/portfolio",
           iconName: "lucide/briefcase",
@@ -93,9 +105,9 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/sparkles" size={16} />,
       }}
       spacing="xl"
-      pattern="dashedGridBasic"
-      patternOpacity={0.08}
-      background="secondary"
+      pattern="gridFadeTop"
+      patternOpacity={0.15}
+      background="dark"
     />
   );
 }

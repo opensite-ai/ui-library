@@ -1,8 +1,4 @@
-import {
-  logoPlaceholders,
-  imagePlaceholders,
-  brandLogoPlaceholders,
-} from "@/lib/media";
+import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 import { AboutDeveloperStory } from "@opensite/ui/blocks/about/about-developer-story";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -49,6 +45,9 @@ export default function Demo() {
         { value: "15", label: "Years Experience" },
         { value: "30+", label: "Technologies Mastered" },
       ]}
+      pattern="p6"
+      patternOpacity={1}
+      background="gray"
     />
   );
 }

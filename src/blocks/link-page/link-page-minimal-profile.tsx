@@ -51,28 +51,16 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          id: "1",
-          iconName: "simple-icons/github",
           href: "https://github.com",
-          platform: "GitHub",
         },
         {
-          id: "2",
-          iconName: "simple-icons/linkedin",
           href: "https://linkedin.com",
-          platform: "LinkedIn",
         },
         {
-          id: "3",
-          iconName: "simple-icons/twitter",
           href: "https://twitter.com",
-          platform: "Twitter",
         },
         {
-          id: "4",
-          iconName: "simple-icons/dev",
           href: "https://dev.to",
-          platform: "Dev.to",
         },
       ]}
       footerAction={{

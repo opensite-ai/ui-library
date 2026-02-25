@@ -31,6 +31,9 @@ export default function Demo() {
         variant: "default",
         size: "lg",
       }}
+      pattern="crossPattern"
+      patternOpacity={0.15}
+      background="gray"
     />
   );
 }

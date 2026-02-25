@@ -111,8 +111,14 @@
     "contact-photography": {
       "title": "Contact Photography",
       "componentPath": "blocks/contact/contact-photography.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290837/rr5dvkjwuv2wt7q6it53amlr39cd/cleanshot-2026-02-25-at-04-56-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290836/iu03356ny7x26y97isjuayzpx6xb/cleanshot-2026-02-25-at-04-56-20.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290837/rr5dvkjwuv2wt7q6it53amlr39cd/cleanshot-2026-02-25-at-04-56-07.png",
+        "mobile": "https://cdn.ing/assets/i/r/290836/iu03356ny7x26y97isjuayzpx6xb/cleanshot-2026-02-25-at-04-56-20.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-photography"
     },
@@ -575,8 +581,14 @@
     "contact-help-center": {
       "title": "Help Center Contact Cards",
       "componentPath": "blocks/contact/contact-help-center.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/290834/b580zf517cjkkdzbtvuwkra2ygel/cleanshot-2026-02-25-at-04-40-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290835/bs6wlzfzeqy2le0bludrob6831xv/cleanshot-2026-02-25-at-04-40-42.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/290834/b580zf517cjkkdzbtvuwkra2ygel/cleanshot-2026-02-25-at-04-40-23.png",
+        "mobile": "https://cdn.ing/assets/i/r/290835/bs6wlzfzeqy2le0bludrob6831xv/cleanshot-2026-02-25-at-04-40-42.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-help-center"
     },
@@ -1950,12 +1962,12 @@
       "title": "About Developer Story",
       "componentPath": "blocks/about/about-developer-story.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290839/in5f3qpizkcnkpxwbpiic1vw8gqg/cleanshot-2026-02-25-at-04-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290838/zj14vxefyand4fs2ksymtk70oxhz/cleanshot-2026-02-25-at-04-58-56.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288981/lm5fkoj3e7xj53ircwwcx1qunpko/developer-portfolio-hero-with-metrics-and-office-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288982/dfc7g5syt59kzc58f4lojg0sp72h/developer-portfolio-mobile-hero-with-cta-buttons.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290839/in5f3qpizkcnkpxwbpiic1vw8gqg/cleanshot-2026-02-25-at-04-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290838/zj14vxefyand4fs2ksymtk70oxhz/cleanshot-2026-02-25-at-04-58-56.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-story.tsx"
@@ -2062,12 +2074,12 @@
       "title": "About Stats Showcase",
       "componentPath": "blocks/about/about-stats-showcase.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290850/aut1gp6v4g16yvszz8kf88ce0hym/cleanshot-2026-02-25-at-08-16-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/290851/e9zsypyn21mlakr7nrtrwfkk64ax/cleanshot-2026-02-25-at-08-16-20.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288993/ljnomr6f6n9gaucdj0j45pb0tlix/business-results-kpi-stats-landing-page-with-analytics-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288994/4gb1e0wv3j34nsp4il30mg7xg5il/mobile-analytics-dashboard-with-office-charts-and-kpis.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290850/aut1gp6v4g16yvszz8kf88ce0hym/cleanshot-2026-02-25-at-08-16-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/290851/e9zsypyn21mlakr7nrtrwfkk64ax/cleanshot-2026-02-25-at-08-16-20.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-showcase.tsx"
@@ -2146,12 +2158,12 @@
       "title": "About Vision Gallery",
       "componentPath": "blocks/about/about-vision-gallery.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289004/pflzkjpo5p3obp08y4v5v8jglqb7/about-vision-gallery-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289005/0phgp877nh9z35ey4l0zzv4p0906/about-vision-gallery-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx"
@@ -2174,12 +2186,12 @@
       "title": "About Expandable Values",
       "componentPath": "blocks/about/about-expandable-values.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290833/arzkvvfgv74roz78jc2unsbikka5/cleanshot-2026-02-25-at-04-08-16.png",
+        "mobile": "https://cdn.ing/assets/i/r/290832/7ymisv2akhfqlqkmvt7e1c44v6cs/cleanshot-2026-02-25-at-04-08-36.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289020/eu3izqc3j66r62f0g9k0a9s51qkb/about-expandable-values-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289019/3kx7i1cpwd3xu24vrdjbq9lruvyj/about-expandable-values-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290833/arzkvvfgv74roz78jc2unsbikka5/cleanshot-2026-02-25-at-04-08-16.png",
+        "mobile": "https://cdn.ing/assets/i/r/290832/7ymisv2akhfqlqkmvt7e1c44v6cs/cleanshot-2026-02-25-at-04-08-36.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-expandable-values.tsx"
@@ -3448,12 +3460,12 @@
       "title": "Link Page Bento Layout",
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290088/vik0x9o4qwbg88mn9tednyrzg82n/bento-link-page-desktop-ui-creator-landing-grid.png",
-        "mobile": "https://cdn.ing/assets/i/r/290090/l1cuzt0uv47e1rsoiu3e4zb3e4ce/link-page-bento-layout-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290088/vik0x9o4qwbg88mn9tednyrzg82n/bento-link-page-desktop-ui-creator-landing-grid.png",
-        "mobile": "https://cdn.ing/assets/i/r/290090/l1cuzt0uv47e1rsoiu3e4zb3e4ce/link-page-bento-layout-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-bento-layout"
@@ -3462,12 +3474,12 @@
       "title": "Link Page Grid Cards",
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290091/0j4jsv884g2r7n784xq9qrf4w0er/link-page-grid-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290092/ncgzvjh8bz63gwkc7ihk0qjgd4a1/link-page-grid-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290841/jmx3esr2at4cna7v2tlddsg35q4t/cleanshot-2026-02-25-at-05-26-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290840/s01fz6d6z4s8uep0bz2vhh53hb51/cleanshot-2026-02-25-at-05-27-16.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290091/0j4jsv884g2r7n784xq9qrf4w0er/link-page-grid-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290092/ncgzvjh8bz63gwkc7ihk0qjgd4a1/link-page-grid-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290841/jmx3esr2at4cna7v2tlddsg35q4t/cleanshot-2026-02-25-at-05-26-57.png",
+        "mobile": "https://cdn.ing/assets/i/r/290840/s01fz6d6z4s8uep0bz2vhh53hb51/cleanshot-2026-02-25-at-05-27-16.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-grid-cards"

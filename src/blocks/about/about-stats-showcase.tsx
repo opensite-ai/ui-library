@@ -1,4 +1,4 @@
-import { logoPlaceholders, imagePlaceholders } from "@/lib/media";
+import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 import { AboutStatsShowcase } from "@opensite/ui/blocks/about/about-stats-showcase";
 
 export default function Demo() {
@@ -30,26 +30,24 @@ export default function Demo() {
       logosTitle="Trusted by Leading Organizations"
       logos={[
         {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.white[0],
           alt: "Partner logo",
           name: "Acme",
         },
         {
-          src: logoPlaceholders.darkHorizontalLogo,
-          alt: "Partner logo",
-          name: "Globex",
-        },
-        {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.white[2],
           alt: "Partner logo",
           name: "Initech",
         },
         {
-          src: logoPlaceholders.darkHorizontalLogo,
+          src: brandLogoPlaceholders.white[3],
           alt: "Partner logo",
           name: "Umbrella",
         },
       ]}
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
       benefitsTitle="The Impact We Create"
       benefits={[
         {

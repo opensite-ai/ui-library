@@ -20,7 +20,7 @@ export default function Demo() {
       pattern="gridDotsBasic"
       patternOpacity={0.15}
       directionConfig={{
-        desktop: "mediaRight",
+        desktop: "mediaLeft",
         mobile: "mediaTop",
       }}
     />

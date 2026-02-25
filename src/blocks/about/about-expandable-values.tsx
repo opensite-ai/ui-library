@@ -40,7 +40,8 @@ export default function Demo() {
           id: "empathy",
           icon: <DynamicIcon name="lucide/heart" size={24} />,
           title: "Empathy",
-          shortDescription: "Understanding and caring about others' experiences.",
+          shortDescription:
+            "Understanding and caring about others' experiences.",
           longDescription:
             "We put ourselves in others' shoes—whether they're customers facing a problem, teammates navigating challenges, or communities affected by our work. Empathy shapes our products, our policies, and our culture.",
           examples: [
@@ -98,12 +99,14 @@ export default function Demo() {
       actions={[
         {
           label: "Explore Careers",
-          href: "/careers",
+          href: "#",
           variant: "default",
           size: "lg",
         },
       ]}
-      spacing="xl"
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.05}
     />
   );
 }

@@ -1,6 +1,19 @@
 import { LinkPageNewsletterSocial } from "@opensite/ui/blocks/link-page/link-page-newsletter-social";
 import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    className: "w-full",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -39,14 +52,11 @@ export default function Demo() {
       ]}
       newsletterHeading="Join 10,000+ Marketers"
       newsletterDescription="Get weekly tips on growth marketing and audience building delivered to your inbox every Friday."
-      emailPlaceholder="Enter your email address"
-      buttonText="Subscribe Now"
-      submitAction={{
-        variant: "default",
-      }}
-      submittingLabel="Subscribing..."
-      formConfig={{
-        endpoint: "/api/subscribe",
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for subscribing! Check your inbox for a confirmation email.",
       }}
       links={[
         {

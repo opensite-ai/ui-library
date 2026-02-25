@@ -17,19 +17,36 @@ export default function Demo() {
       }}
       features={[
         {
-          icon: <DynamicIcon name="lucide/zap" size={20} className="text-primary" />,
+          icon: (
+            <DynamicIcon name="lucide/zap" size={20} className="text-primary" />
+          ),
           title: "Agile Methodology",
-          description: "Rapid iterations and continuous delivery keep projects moving forward.",
+          description:
+            "Rapid iterations and continuous delivery keep projects moving forward.",
         },
         {
-          icon: <DynamicIcon name="lucide/users" size={20} className="text-primary" />,
+          icon: (
+            <DynamicIcon
+              name="lucide/users"
+              size={20}
+              className="text-primary"
+            />
+          ),
           title: "Cross-Functional Teams",
-          description: "Designers, developers, and strategists work together from day one.",
+          description:
+            "Designers, developers, and strategists work together from day one.",
         },
         {
-          icon: <DynamicIcon name="lucide/message-circle" size={20} className="text-primary" />,
+          icon: (
+            <DynamicIcon
+              name="lucide/message-circle"
+              size={20}
+              className="text-primary"
+            />
+          ),
           title: "Transparent Communication",
-          description: "Regular updates and open channels keep everyone aligned.",
+          description:
+            "Regular updates and open channels keep everyone aligned.",
         },
       ]}
       teamTitle="Join Our Growing Team"
@@ -37,11 +54,14 @@ export default function Demo() {
       actions={[
         {
           label: "View Open Positions",
-          href: "/careers",
+          href: "#",
           variant: "default",
           size: "lg",
         },
       ]}
+      pattern="circles"
+      patternOpacity={1}
+      background="white"
     />
   );
 }

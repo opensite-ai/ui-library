@@ -1,4 +1,4 @@
-import { imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroEventRegistration } from "@opensite/ui/blocks/hero/hero-event-registration";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -70,9 +70,12 @@ export default function Demo() {
         },
       ]}
       image={{ src: imagePlaceholders[108], alt: "Event venue" }}
+      logo={{ src: brandLogoPlaceholders.white[4], alt: "Event venue" }}
       locationLabel="San Francisco, CA"
       locationSublabel="September 15-17, 2026"
       background="dark"
+      pattern="gridFadeTopRight"
+      patternOpacity={0.15}
     />
   );
 }

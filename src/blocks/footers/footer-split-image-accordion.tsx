@@ -1,11 +1,29 @@
 import { FooterSplitImageAccordion } from "@opensite/ui/blocks/footers/footer-split-image-accordion";
 import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    className: "w-full",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
     <FooterSplitImageAccordion
       newsletterTitle="Join our community and save 20% on your first order"
-      emailPlaceholder="Enter your email"
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for subscribing! Check your inbox for a confirmation email.",
+      }}
       footerLinks={[
         {
           title: "Collections",
@@ -82,15 +100,15 @@ export default function Demo() {
           alt: "Luxury champagne wall with ambient lighting",
         },
         logo: {
-          light: brandLogoPlaceholders.black[5],
-          dark: brandLogoPlaceholders.white[5],
+          src: brandLogoPlaceholders.black[5],
+          url: "/",
+          alt: "Footer Logo",
         },
-        logoUrl: "/",
-        title: "Elevate Your Style",
+        heading: "Elevate Your Style",
         description:
           "Discover curated collections of premium fashion and lifestyle products. Quality craftsmanship meets timeless design.",
       }}
-      copyright="© 2026 Elevate Brand. All rights reserved."
+      copyright="Elevate Brand"
       background="white"
       spacing="none"
     />

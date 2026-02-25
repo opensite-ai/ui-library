@@ -116,14 +116,15 @@ export default function Demo() {
     <ContactPhotography
       image={{
         src: imagePlaceholders[108],
-        alt: "A person working at a desk"
+        alt: "A person working at a desk",
       }}
       heading="Ready to Get Started?"
       description="Tell us about your project and we'll put together a custom quote for you. We typically respond within 1-2 business days."
       formEngineSetup={{
         api: demoFormEngineApi,
         fields: formFields,
-        successMessage: "Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days.",
+        successMessage:
+          "Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days.",
         formLayoutSettings: {
           submitButtonSetup: {
             submitLabel: "Submit Inquiry",
@@ -132,7 +133,7 @@ export default function Demo() {
       }}
       background="dark"
       pattern="dashedGridFadeTopLeft"
-      patternOpacity={0.15}
+      patternOpacity={0.1}
     />
   );
 }

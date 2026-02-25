@@ -5,9 +5,7 @@ export default function Demo() {
   return (
     <AboutStoryGallery
       title="Our Journey in Pictures"
-      description={`From our humble beginnings to where we are today, every milestone tells a story of growth, learning, and unwavering commitment to excellence.
-
-These moments capture the spirit of who we are—a team that celebrates wins together, learns from challenges, and never stops pushing forward.`}
+      description={`From our humble beginnings to where we are today, every milestone tells a story of growth, learning, and unwavering commitment to excellence.`}
       images={[
         {
           src: imagePlaceholders[12],
@@ -34,6 +32,9 @@ These moments capture the spirit of who we are—a team that celebrates wins tog
           alt: "Team building event",
         },
       ]}
+      pattern="squareAltGrid"
+      patternOpacity={1}
+      background="white"
     />
   );
 }
