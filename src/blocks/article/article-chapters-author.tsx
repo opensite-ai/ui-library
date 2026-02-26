@@ -27,22 +27,16 @@ export default function Demo() {
         bio: "Marcus has over 15 years of experience designing large-scale distributed systems. He's the author of three books on software architecture and a frequent speaker at tech conferences.",
         socialLinks: [
           {
-            platform: "twitter",
-            href: "https://twitter.com/marcuschen",
-            icon: undefined,
-            "aria-label": "Follow Marcus on Twitter",
+            href: "https://instagram.com",
           },
           {
-            platform: "linkedin",
-            href: "https://linkedin.com/in/marcuschen",
-            icon: undefined,
-            "aria-label": "Connect with Marcus on LinkedIn",
+            href: "https://twitter.com",
           },
           {
-            platform: "github",
-            href: "https://github.com/marcuschen",
-            icon: undefined,
-            "aria-label": "View Marcus's GitHub",
+            href: "https://linkedin.com",
+          },
+          {
+            href: "https://youtube.com",
           },
         ],
       }}
@@ -99,8 +93,8 @@ export default function Demo() {
         <h2>Chapter 3: Advanced Patterns</h2>
         <p>
           Advanced patterns build upon the fundamentals to address more complex
-          scenarios. These include patterns for concurrency, distributed systems,
-          and enterprise applications.
+          scenarios. These include patterns for concurrency, distributed
+          systems, and enterprise applications.
         </p>
         <blockquote>
           &ldquo;Patterns are not invented, they are discovered.&rdquo; -

@@ -10,7 +10,7 @@ export default function Demo() {
       visionTitle="Our Vision"
       visionContent="A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact."
       primaryImage={{
-        src: imagePlaceholders[12],
+        src: imagePlaceholders[44],
         alt: "Team collaboration",
       }}
       secondaryImage={{
@@ -20,16 +20,23 @@ export default function Demo() {
       actions={[
         {
           label: "Learn Our Story",
-          href: "/story",
+          href: "#",
           variant: "default",
+          size: "lg",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "Meet the Team",
-          href: "/team",
+          href: "#",
           variant: "outline",
+          size: "lg",
+          iconAfter: <DynamicIcon name="lucide/users" size={16} />,
         },
       ]}
+      spacing="xl"
+      background="dark"
+      pattern="architect"
+      patternOpacity={0.33}
     />
   );
 }

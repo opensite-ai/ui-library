@@ -16,34 +16,37 @@ export default function Demo() {
       skills={["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"]}
       socialLinks={[
         {
-          icon: <DynamicIcon name="lucide/github" size={20} />,
-          href: "https://github.com",
-          "aria-label": "GitHub",
+          href: "https://instagram.com",
         },
         {
-          icon: <DynamicIcon name="lucide/linkedin" size={20} />,
-          href: "https://linkedin.com",
-          "aria-label": "LinkedIn",
-        },
-        {
-          icon: <DynamicIcon name="lucide/twitter" size={20} />,
           href: "https://twitter.com",
-          "aria-label": "Twitter",
+        },
+        {
+          href: "https://linkedin.com",
+        },
+        {
+          href: "https://youtube.com",
         },
       ]}
       actions={[
         {
-          label: "Download Resume",
-          href: "/resume.pdf",
+          label: "Contact Me",
+          href: "#",
           variant: "default",
-          icon: <DynamicIcon name="lucide/download" size={16} />,
+          size: "lg",
+          icon: <DynamicIcon name="lucide/send" size={16} />,
         },
         {
-          label: "Contact Me",
-          href: "/contact",
+          label: "Download Resume",
+          href: "#",
           variant: "outline",
+          size: "lg",
+          icon: <DynamicIcon name="lucide/download" size={16} />,
         },
       ]}
+      patternOpacity={0.33}
+      pattern="diagonalCrossFadeCenter"
+      background="dark"
     />
   );
 }

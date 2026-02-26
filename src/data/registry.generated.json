@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-02-25T16:16:41.247Z",
+    "exportedAt": "2026-02-26T01:16:03.328Z",
     "totalBlocks": 605,
-    "version": "2.3.7",
+    "version": "2.4.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-02-25T16:19:53.723Z"
+    "syncedAt": "2026-02-26T01:19:47.874Z"
   },
   "blocks": [
     {
@@ -94,7 +94,7 @@
         "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
       },
       "componentPath": "blocks/about/about-mission-features.tsx",
-      "code": "import { AboutMissionFeatures } from \"@opensite/ui/blocks/about/about-mission-features\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionFeatures\n      title=\"Transforming Ideas Into Impact\"\n      description=\"We partner with forward-thinking organizations to build digital experiences that drive growth and create lasting value.\"\n      missionLabel=\"Our Mission\"\n      missionText=\"To empower businesses with technology that simplifies complexity, amplifies creativity, and accelerates success in an ever-evolving digital landscape.\"\n      mainImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team working together\",\n      }}\n      missionBackgroundImage={{\n        src: imagePlaceholders[85],\n        alt: \"Abstract background\",\n      }}\n      featuresTitle=\"What Sets Us Apart\"\n      featuresDescription=\"Our unique approach combines deep expertise with genuine partnership to deliver exceptional results.\"\n      features={[\n        {\n          icon: <DynamicIcon name=\"lucide/target\" size={24} className=\"text-primary\" />,\n          title: \"Strategic Focus\",\n          description: \"Every project begins with understanding your goals. We align our work with your business objectives to ensure measurable impact.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/zap\" size={24} className=\"text-primary\" />,\n          title: \"Rapid Execution\",\n          description: \"Our agile methodology enables quick iterations and fast time-to-market without compromising on quality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/heart\" size={24} className=\"text-primary\" />,\n          title: \"Human-Centered\",\n          description: \"We design for people first. Every decision is informed by user research and validated through testing.\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { AboutMissionFeatures } from \"@opensite/ui/blocks/about/about-mission-features\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionFeatures\n      title=\"Transforming Ideas Into Impact\"\n      description=\"We partner with forward-thinking organizations to build digital experiences that drive growth and create lasting value.\"\n      missionLabel=\"Our Mission\"\n      missionText=\"To empower businesses with technology that simplifies complexity, amplifies creativity, and accelerates success in an ever-evolving digital landscape.\"\n      mainImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team working together\",\n      }}\n      missionBackgroundImage={{\n        src: imagePlaceholders[85],\n        alt: \"Abstract background\",\n      }}\n      featuresTitle=\"What Sets Us Apart\"\n      featuresDescription=\"Our unique approach combines deep expertise with genuine partnership to deliver exceptional results.\"\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/target\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Strategic Focus\",\n          description:\n            \"Every project begins with understanding your goals. We align our work with your business objectives to ensure measurable impact.\",\n          href: \"#\",\n        },\n        {\n          icon: (\n            <DynamicIcon name=\"lucide/zap\" size={24} className=\"text-primary\" />\n          ),\n          title: \"Rapid Execution\",\n          description:\n            \"Our agile methodology enables quick iterations and fast time-to-market without compromising on quality.\",\n          href: \"#\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/heart\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Human-Centered\",\n          description:\n            \"We design for people first. Every decision is informed by user research and validated through testing.\",\n          href: \"#\",\n        },\n      ]}\n      pattern=\"p6\"\n      patternOpacity={1}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "title": {
           "type": "object",
@@ -326,6 +326,11 @@
         "patternOpacity": {
           "type": "number",
           "description": "Pattern opacity (0-1)",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header",
           "required": false
         }
       },
@@ -1120,12 +1125,12 @@
       "categorySlug": "about",
       "description": "A vision-focused about section with hero title, image gallery grid, two-column vision/creators content, and a team CTA banner. Perfect for companies wanting to share their story, vision, and invite visitors to join their team.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
+        "desktop": "https://cdn.ing/assets/i/r/290859/vv0qt9yjhhe2i73iu2gemwc835kq/cleanshot-2026-02-25-at-10-25-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290858/ngfxkv8xggw9vdavqe7739sc6uv1/cleanshot-2026-02-25-at-10-26-09-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
+        "desktop": "https://cdn.ing/assets/i/r/290859/vv0qt9yjhhe2i73iu2gemwc835kq/cleanshot-2026-02-25-at-10-25-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290858/ngfxkv8xggw9vdavqe7739sc6uv1/cleanshot-2026-02-25-at-10-26-09-2x.png"
       },
       "componentPath": "blocks/about/about-vision-gallery.tsx",
       "code": "import { AboutVisionGallery } from \"@opensite/ui/blocks/about/about-vision-gallery\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutVisionGallery\n      title=\"Shaping the Future of Digital\"\n      subtitle=\"We combine creativity, technology, and strategy to build experiences that inspire and endure.\"\n      images={[\n        {\n          src: imagePlaceholders[12],\n          alt: \"Team collaboration\",\n        },\n        {\n          src: imagePlaceholders[45],\n          alt: \"Modern workspace\",\n        },\n        {\n          src: imagePlaceholders[27],\n          alt: \"Creative session\",\n        },\n      ]}\n      primarySectionTitle=\"Our Mission\"\n      primarySectionContent={`We exist to democratize access to world-class digital experiences. Every business, regardless of size, deserves technology that empowers growth and creates meaningful connections with their audience. Our approach combines deep technical expertise with genuine partnership. We don't just build products—we build relationships that last.`}\n      secondarySectionTitle=\"Our Story\"\n      secondarySectionContent=\"we've been on a mission to transform how businesses connect with their customers. What started as a small consultancy has grown into a global team of innovators, united by a shared belief in the power of great design and technology.\"\n      ctaTitle={`Ready to build something\\namazing together?`}\n      ctaAction={{\n        label: \"Start a Conversation\",\n        href: \"#\",\n        variant: \"default\",\n        size: \"lg\",\n      }}\n      pattern=\"crossPattern\"\n      patternOpacity={0.15}\n      background=\"gray\"\n    />\n  );\n}\n",
@@ -1716,12 +1721,12 @@
       "categorySlug": "about",
       "description": "A minimal story section with centered title, descriptive content, and a multi-image gallery grid. Perfect for companies wanting to share their journey with visual storytelling in a clean, focused layout.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290855/1ravpoxozygb541j1m3da43huncy/cleanshot-2026-02-25-at-09-28-24.png",
+        "mobile": "https://cdn.ing/assets/i/r/290854/p01r5m82vvc91ef2ar8q0ppt1csh/cleanshot-2026-02-25-at-09-29-02.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290855/1ravpoxozygb541j1m3da43huncy/cleanshot-2026-02-25-at-09-28-24.png",
+        "mobile": "https://cdn.ing/assets/i/r/290854/p01r5m82vvc91ef2ar8q0ppt1csh/cleanshot-2026-02-25-at-09-29-02.png"
       },
       "componentPath": "blocks/about/about-story-gallery.tsx",
       "code": "import { AboutStoryGallery } from \"@opensite/ui/blocks/about/about-story-gallery\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryGallery\n      title=\"Our Journey in Pictures\"\n      description={`From our humble beginnings to where we are today, every milestone tells a story of growth, learning, and unwavering commitment to excellence.`}\n      images={[\n        {\n          src: imagePlaceholders[12],\n          alt: \"Team collaboration session\",\n        },\n        {\n          src: imagePlaceholders[27],\n          alt: \"Office celebration\",\n        },\n        {\n          src: imagePlaceholders[45],\n          alt: \"Modern workspace\",\n        },\n        {\n          src: imagePlaceholders[16],\n          alt: \"Team workshop\",\n        },\n        {\n          src: imagePlaceholders[63],\n          alt: \"Conference presentation\",\n        },\n        {\n          src: imagePlaceholders[94],\n          alt: \"Team building event\",\n        },\n      ]}\n      pattern=\"squareAltGrid\"\n      patternOpacity={1}\n      background=\"white\"\n    />\n  );\n}\n",
@@ -1860,12 +1865,12 @@
       "categorySlug": "about",
       "description": "A streamlined about section with overlapping image layout, feature list with icons, and a team CTA banner. Ideal for showcasing workflow benefits and inviting visitors to join the team in a modern, visually appealing design.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291460/lzqlqt9eyr0htgx65ozqdb1t494i/cleanshot-2026-02-25-at-12-57-57-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291459/okq409qdlp1eytyyce1qh6mujafo/cleanshot-2026-02-25-at-12-58-18-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291460/lzqlqt9eyr0htgx65ozqdb1t494i/cleanshot-2026-02-25-at-12-57-57-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291459/okq409qdlp1eytyyce1qh6mujafo/cleanshot-2026-02-25-at-12-58-18-2x.png"
       },
       "componentPath": "blocks/about/about-streamline-team.tsx",
       "code": "import { AboutStreamlineTeam } from \"@opensite/ui/blocks/about/about-streamline-team\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStreamlineTeam\n      title=\"Streamlined for Success\"\n      description=\"We've built our processes and team structure to deliver maximum value with minimum friction. Every role, every workflow, every tool is optimized for efficiency and impact.\"\n      primaryImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      secondaryImage={{\n        src: imagePlaceholders[27],\n        alt: \"Team meeting\",\n      }}\n      features={[\n        {\n          icon: (\n            <DynamicIcon name=\"lucide/zap\" size={20} className=\"text-primary\" />\n          ),\n          title: \"Agile Methodology\",\n          description:\n            \"Rapid iterations and continuous delivery keep projects moving forward.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Cross-Functional Teams\",\n          description:\n            \"Designers, developers, and strategists work together from day one.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/message-circle\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Transparent Communication\",\n          description:\n            \"Regular updates and open channels keep everyone aligned.\",\n        },\n      ]}\n      teamTitle=\"Join Our Growing Team\"\n      teamDescription=\"We're always looking for talented individuals who share our passion for creating exceptional digital experiences.\"\n      actions={[\n        {\n          label: \"View Open Positions\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      pattern=\"circles\"\n      patternOpacity={1}\n      background=\"white\"\n    />\n  );\n}\n",
@@ -2193,7 +2198,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
       },
       "componentPath": "blocks/about/about-developer-profile.tsx",
-      "code": "import { AboutDeveloperProfile } from \"@opensite/ui/blocks/about/about-developer-profile\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperProfile\n      avatar={{\n        src: imagePlaceholders[81],\n        alt: \"Alex Thompson\",\n      }}\n      name=\"Alex Thompson\"\n      role=\"Senior Full-Stack Developer\"\n      bio=\"Passionate about building scalable web applications and mentoring the next generation of developers. With over 10 years of experience in software development, I specialize in creating elegant solutions to complex problems.\"\n      skillsTitle=\"Technical Skills\"\n      skills={[\"React\", \"TypeScript\", \"Node.js\", \"PostgreSQL\", \"AWS\"]}\n      socialLinks={[\n        {\n          icon: <DynamicIcon name=\"lucide/github\" size={20} />,\n          href: \"https://github.com\",\n          \"aria-label\": \"GitHub\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/linkedin\" size={20} />,\n          href: \"https://linkedin.com\",\n          \"aria-label\": \"LinkedIn\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/twitter\" size={20} />,\n          href: \"https://twitter.com\",\n          \"aria-label\": \"Twitter\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Download Resume\",\n          href: \"/resume.pdf\",\n          variant: \"default\",\n          icon: <DynamicIcon name=\"lucide/download\" size={16} />,\n        },\n        {\n          label: \"Contact Me\",\n          href: \"/contact\",\n          variant: \"outline\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { AboutDeveloperProfile } from \"@opensite/ui/blocks/about/about-developer-profile\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperProfile\n      avatar={{\n        src: imagePlaceholders[81],\n        alt: \"Alex Thompson\",\n      }}\n      name=\"Alex Thompson\"\n      role=\"Senior Full-Stack Developer\"\n      bio=\"Passionate about building scalable web applications and mentoring the next generation of developers. With over 10 years of experience in software development, I specialize in creating elegant solutions to complex problems.\"\n      skillsTitle=\"Technical Skills\"\n      skills={[\"React\", \"TypeScript\", \"Node.js\", \"PostgreSQL\", \"AWS\"]}\n      socialLinks={[\n        {\n          icon: <DynamicIcon name=\"lucide/github\" size={20} />,\n          href: \"https://github.com\",\n          \"aria-label\": \"GitHub\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/linkedin\" size={20} />,\n          href: \"https://linkedin.com\",\n          \"aria-label\": \"LinkedIn\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/twitter\" size={20} />,\n          href: \"https://twitter.com\",\n          \"aria-label\": \"Twitter\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Contact Me\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/send\" size={16} />,\n        },\n        {\n          label: \"Download Resume\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/download\" size={16} />,\n        },\n      ]}\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -2259,26 +2264,52 @@
             "type": "object",
             "description": "",
             "fields": {
-              "platform": {
-                "type": "string",
-                "description": "Social platform name",
+              "platformName": {
+                "type": "object",
+                "description": "Social platform name - determines which icon to display.\nIf not provided, the platform is auto-detected from the href URL.",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
-              "label": {
+              "platform": {
                 "type": "object",
-                "description": "Display label for the link",
-                "typeLabel": "ReactNode",
+                "description": "",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
               "href": {
                 "type": "string",
-                "description": "Link URL",
+                "description": "Link URL (required). Platform is auto-detected from this URL if platformName is not set.",
                 "required": true
+              },
+              "label": {
+                "type": "string",
+                "description": "Display label for the link (used for aria-label if not specified)",
+                "required": false
               },
               "icon": {
                 "type": "object",
-                "description": "Platform icon",
+                "description": "Platform icon (ReactNode) - overrides automatic icon selection",
                 "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconNameOverride": {
+                "type": "string",
+                "description": "Icon name override for DynamicIcon (e.g., \"lucide/twitter\")",
+                "required": false
+              },
+              "iconSize": {
+                "type": "number",
+                "description": "Icon size in pixels",
+                "required": false
+              },
+              "iconColor": {
+                "type": "string",
+                "description": "Icon color - accepts any valid CSS color",
+                "required": false
+              },
+              "iconClassName": {
+                "type": "string",
+                "description": "Additional CSS classes for the icon",
                 "required": false
               },
               "\"aria-label\"": {
@@ -2288,7 +2319,7 @@
               },
               "className": {
                 "type": "string",
-                "description": "Additional CSS classes",
+                "description": "Additional CSS classes for the link wrapper",
                 "required": false
               }
             },
@@ -3136,7 +3167,7 @@
         "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
       },
       "componentPath": "blocks/about/about-stats-sidebar.tsx",
-      "code": "import { AboutStatsSidebar } from \"@opensite/ui/blocks/about/about-stats-sidebar\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutStatsSidebar\n      title=\"Our Impact in Numbers\"\n      description=\"We let our results speak for themselves. Here's a snapshot of what we've achieved together with our clients.\"\n      stats={[\n        {\n          icon: <DynamicIcon name=\"lucide/briefcase\" size={24} className=\"text-primary\" />,\n          value: \"500+\",\n          label: \"Projects Completed\",\n          description: \"Across diverse industries and scales\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/users\" size={24} className=\"text-primary\" />,\n          value: \"50M+\",\n          label: \"Users Reached\",\n          description: \"Through the products we've built\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/star\" size={24} className=\"text-primary\" />,\n          value: \"98%\",\n          label: \"Client Satisfaction\",\n          description: \"Based on post-project surveys\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/globe\" size={24} className=\"text-primary\" />,\n          value: \"30+\",\n          label: \"Countries Served\",\n          description: \"Global reach, local understanding\",\n        },\n      ]}\n      features={[\n        {\n          icon: <DynamicIcon name=\"lucide/clock\" size={20} className=\"text-primary\" />,\n          title: \"Fast Turnaround\",\n          description: \"Average project completion 40% faster than industry standard.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/shield-check\" size={20} className=\"text-primary\" />,\n          title: \"Quality Guaranteed\",\n          description: \"Every project backed by our satisfaction guarantee.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/headphones\" size={20} className=\"text-primary\" />,\n          title: \"Dedicated Support\",\n          description: \"24/7 support available for all enterprise clients.\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { AboutStatsSidebar } from \"@opensite/ui/blocks/about/about-stats-sidebar\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutStatsSidebar\n      title=\"Our Impact in Numbers\"\n      description=\"We let our results speak for themselves. Here's a snapshot of what we've achieved together with our clients.\"\n      stats={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/briefcase\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"500+\",\n          label: \"Projects Completed\",\n          description: \"Across diverse industries and scales\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"50M+\",\n          label: \"Users Reached\",\n          description: \"Through the products we've built\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/star\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"98%\",\n          label: \"Client Satisfaction\",\n          description: \"Based on post-project surveys\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/globe\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"30+\",\n          label: \"Countries Served\",\n          description: \"Global reach, local understanding\",\n        },\n      ]}\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/clock\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Fast Turnaround\",\n          description:\n            \"Average project completion 40% faster than industry standard.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/shield-check\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Quality Guaranteed\",\n          description: \"Every project backed by our satisfaction guarantee.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/headphones\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Dedicated Support\",\n          description: \"24/7 support available for all enterprise clients.\",\n        },\n      ]}\n      patternOpacity={0.15}\n      pattern=\"diagonalCrossFadeTop\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "title": {
           "type": "object",
@@ -3567,15 +3598,15 @@
       "categorySlug": "about",
       "description": "A mission/vision section with dual content blocks, CTA button, and a two-column image layout with offset positioning. Perfect for companies wanting to clearly communicate their mission and vision with strong visual support.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291458/qipavnwunako6subb907wjc9ebys/cleanshot-2026-02-25-at-12-55-55-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291458/qipavnwunako6subb907wjc9ebys/cleanshot-2026-02-25-at-12-55-55-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
       },
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
-      "code": "import { AboutMissionDualImage } from \"@opensite/ui/blocks/about/about-mission-dual-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionDualImage\n      missionTitle=\"Our Mission\"\n      missionContent=\"To democratize access to powerful technology by creating intuitive tools that help businesses of all sizes compete and thrive in the digital economy.\"\n      visionTitle=\"Our Vision\"\n      visionContent=\"A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact.\"\n      primaryImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      secondaryImage={{\n        src: imagePlaceholders[45],\n        alt: \"Modern workspace\",\n      }}\n      actions={[\n        {\n          label: \"Learn Our Story\",\n          href: \"/story\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"/team\",\n          variant: \"outline\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { AboutMissionDualImage } from \"@opensite/ui/blocks/about/about-mission-dual-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionDualImage\n      missionTitle=\"Our Mission\"\n      missionContent=\"To democratize access to powerful technology by creating intuitive tools that help businesses of all sizes compete and thrive in the digital economy.\"\n      visionTitle=\"Our Vision\"\n      visionContent=\"A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact.\"\n      primaryImage={{\n        src: imagePlaceholders[44],\n        alt: \"Team collaboration\",\n      }}\n      secondaryImage={{\n        src: imagePlaceholders[45],\n        alt: \"Modern workspace\",\n      }}\n      actions={[\n        {\n          label: \"Learn Our Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/users\" size={16} />,\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={0.33}\n    />\n  );\n}\n",
       "propsSchema": {
         "missionTitle": {
           "type": "object",
@@ -24259,6 +24290,12 @@
                 "typeLabel": "React.ReactNode",
                 "required": false
               },
+              "subtitle": {
+                "type": "object",
+                "description": "Card subtitle content",
+                "typeLabel": "React.ReactNode",
+                "required": false
+              },
               "linkText": {
                 "type": "object",
                 "description": "Link text content",
@@ -24305,6 +24342,11 @@
               "titleClassName": {
                 "type": "string",
                 "description": "Additional CSS classes for the title",
+                "required": false
+              },
+              "subtitleClassName": {
+                "type": "string",
+                "description": "Additional CSS classes for the subtitle",
                 "required": false
               },
               "linkClassName": {
@@ -24405,6 +24447,26 @@
         "patternClassName": {
           "type": "string",
           "description": "Additional CSS classes for the pattern overlay",
+          "required": false
+        },
+        "cardAspectRatios": {
+          "type": "object",
+          "description": "Media card aspect ratios",
+          "fields": {
+            "desktop": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"square\" | \"horizontal\" | \"vertical\"",
+              "required": true
+            },
+            "mobile": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"square\" | \"horizontal\" | \"vertical\"",
+              "required": true
+            }
+          },
+          "typeLabel": "{ desktop: \"square\" | \"horizontal\" | \"vertical\"; mobile: \"square\" | \"horizontal\" | \"vertical\"; }",
           "required": false
         }
       },
@@ -45231,26 +45293,52 @@
             "type": "object",
             "description": "",
             "fields": {
-              "platform": {
-                "type": "string",
-                "description": "Social platform name",
+              "platformName": {
+                "type": "object",
+                "description": "Social platform name - determines which icon to display.\nIf not provided, the platform is auto-detected from the href URL.",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
-              "label": {
+              "platform": {
                 "type": "object",
-                "description": "Display label for the link",
-                "typeLabel": "ReactNode",
+                "description": "",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
               "href": {
                 "type": "string",
-                "description": "Link URL",
+                "description": "Link URL (required). Platform is auto-detected from this URL if platformName is not set.",
                 "required": true
+              },
+              "label": {
+                "type": "string",
+                "description": "Display label for the link (used for aria-label if not specified)",
+                "required": false
               },
               "icon": {
                 "type": "object",
-                "description": "Platform icon",
+                "description": "Platform icon (ReactNode) - overrides automatic icon selection",
                 "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconNameOverride": {
+                "type": "string",
+                "description": "Icon name override for DynamicIcon (e.g., \"lucide/twitter\")",
+                "required": false
+              },
+              "iconSize": {
+                "type": "number",
+                "description": "Icon size in pixels",
+                "required": false
+              },
+              "iconColor": {
+                "type": "string",
+                "description": "Icon color - accepts any valid CSS color",
+                "required": false
+              },
+              "iconClassName": {
+                "type": "string",
+                "description": "Additional CSS classes for the icon",
                 "required": false
               },
               "\"aria-label\"": {
@@ -45260,7 +45348,7 @@
               },
               "className": {
                 "type": "string",
-                "description": "Additional CSS classes",
+                "description": "Additional CSS classes for the link wrapper",
                 "required": false
               }
             },
@@ -46879,12 +46967,12 @@
       "categorySlug": "faq",
       "description": "A responsive two-column grid layout displaying numbered FAQ cards. Features a centered header section with heading and description, followed by numbered question-answer cards arranged in a grid. Maximizes space efficiency while maintaining readability. Ideal for pages with many FAQs.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291530/lym97jsqs6w8lzz8lp1kn2xvlulk/cleanshot-2026-02-25-at-13-47-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291529/iqlol50xbpxl39q5f7nt3frl7cow/cleanshot-2026-02-25-at-13-47-30-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291530/lym97jsqs6w8lzz8lp1kn2xvlulk/cleanshot-2026-02-25-at-13-47-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291529/iqlol50xbpxl39q5f7nt3frl7cow/cleanshot-2026-02-25-at-13-47-30-2x.png"
       },
       "componentPath": "blocks/faq/faq-numbered-grid.tsx",
       "code": "import { FaqNumberedGrid } from \"@opensite/ui/blocks/faq/faq-numbered-grid\";\n\nexport default function Demo() {\n  return (\n    <FaqNumberedGrid\n      heading=\"Platform Features\"\n      description=\"Discover the key features that make our platform the best choice for modern teams.\"\n      items={[\n        {\n          question: \"Real-time collaboration\",\n          answer:\n            \"Work together seamlessly with live updates, comments, mentions, and simultaneous editing. See who's online and what they're working on.\",\n        },\n        {\n          question: \"Advanced analytics\",\n          answer:\n            \"Track performance with customizable dashboards, detailed reports, and actionable insights. Export data and create automated reports.\",\n        },\n        {\n          question: \"Workflow automation\",\n          answer:\n            \"Automate repetitive tasks with triggers, rules, and integrations. Save time and reduce errors with smart automation.\",\n        },\n        {\n          question: \"Enterprise security\",\n          answer:\n            \"Bank-level encryption, SSO, two-factor authentication, audit logs, and compliance with major security standards.\",\n        },\n        {\n          question: \"Mobile access\",\n          answer:\n            \"Native iOS and Android apps with offline mode. Access and edit your work from anywhere, even without internet.\",\n        },\n        {\n          question: \"Custom branding\",\n          answer:\n            \"White-label the platform with your logo, colors, and domain. Create a seamless experience for your team and clients.\",\n        },\n      ]}\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.15}\n      background=\"secondary\"\n    />\n  );\n}\n",
@@ -46992,9 +47080,88 @@
           "description": "Additional CSS classes for the grid",
           "required": false
         },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
+        },
         "itemClassName": {
           "type": "string",
           "description": "Additional CSS classes for grid items",
+          "required": false
+        },
+        "contentClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the content wrapper",
           "required": false
         },
         "numberClassName": {
@@ -68229,6 +68396,26 @@
           },
           "typeLabel": "{ src: string; alt: string; }",
           "required": false
+        },
+        "directionConfig": {
+          "type": "object",
+          "description": "Direction configuration for desktop and mobile layouts",
+          "fields": {
+            "desktop": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"mediaRight\" | \"mediaLeft\"",
+              "required": true
+            },
+            "mobile": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"mediaTop\" | \"mediaBottom\"",
+              "required": true
+            }
+          },
+          "typeLabel": "DirectionConfig",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -69995,26 +70182,52 @@
             "type": "object",
             "description": "",
             "fields": {
-              "platform": {
-                "type": "string",
-                "description": "Social platform name",
+              "platformName": {
+                "type": "object",
+                "description": "Social platform name - determines which icon to display.\nIf not provided, the platform is auto-detected from the href URL.",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
-              "label": {
+              "platform": {
                 "type": "object",
-                "description": "Display label for the link",
-                "typeLabel": "ReactNode",
+                "description": "",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
               "href": {
                 "type": "string",
-                "description": "Link URL",
+                "description": "Link URL (required). Platform is auto-detected from this URL if platformName is not set.",
                 "required": true
+              },
+              "label": {
+                "type": "string",
+                "description": "Display label for the link (used for aria-label if not specified)",
+                "required": false
               },
               "icon": {
                 "type": "object",
-                "description": "Platform icon",
+                "description": "Platform icon (ReactNode) - overrides automatic icon selection",
                 "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconNameOverride": {
+                "type": "string",
+                "description": "Icon name override for DynamicIcon (e.g., \"lucide/twitter\")",
+                "required": false
+              },
+              "iconSize": {
+                "type": "number",
+                "description": "Icon size in pixels",
+                "required": false
+              },
+              "iconColor": {
+                "type": "string",
+                "description": "Icon color - accepts any valid CSS color",
+                "required": false
+              },
+              "iconClassName": {
+                "type": "string",
+                "description": "Additional CSS classes for the icon",
                 "required": false
               },
               "\"aria-label\"": {
@@ -70024,7 +70237,7 @@
               },
               "className": {
                 "type": "string",
-                "description": "Additional CSS classes",
+                "description": "Additional CSS classes for the link wrapper",
                 "required": false
               }
             },
@@ -131093,7 +131306,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290089/ozswoqjtcdb4g21xx81i2tcagjrm/link-tree-block-mobile.png"
       },
       "componentPath": "blocks/link-page/link-tree-block.tsx",
-      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: imagePlaceholders[24],\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          id: \"1\",\n          iconName: \"simple-icons/instagram\",\n          href: \"https://instagram.com\",\n          platform: \"Instagram\",\n        },\n        {\n          id: \"2\",\n          iconName: \"simple-icons/twitter\",\n          href: \"https://twitter.com\",\n          platform: \"Twitter\",\n        },\n        {\n          id: \"3\",\n          iconName: \"simple-icons/linkedin\",\n          href: \"https://linkedin.com\",\n          platform: \"LinkedIn\",\n        },\n        {\n          id: \"4\",\n          iconName: \"simple-icons/dribbble\",\n          href: \"https://dribbble.com\",\n          platform: \"Dribbble\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"https://example.com/featured\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"https://example.com/services\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"https://example.com/testimonials\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"https://example.com/consultation\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: imagePlaceholders[24],\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"https://example.com/featured\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"https://example.com/services\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"https://example.com/testimonials\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"https://example.com/consultation\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "brandName": {
           "type": "object",
@@ -131594,7 +131807,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290096/la9yv6p3ft7t5zlfhshgu9sz8ouc/link-page-minimal-profile-mobile.png"
       },
       "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
-      "code": "import { LinkPageMinimalProfile } from \"@opensite/ui/blocks/link-page/link-page-minimal-profile\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageMinimalProfile\n      name=\"Alex Rivera\"\n      bio=\"Software Engineer & Open Source Contributor\"\n      avatar={{\n        src: imagePlaceholders[38],\n        alt: \"Alex Rivera\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Personal Website\",\n          href: \"https://example.com\",\n          iconName: \"lucide/globe\",\n        },\n        {\n          id: \"2\",\n          label: \"GitHub Projects\",\n          href: \"https://github.com\",\n          iconName: \"simple-icons/github\",\n        },\n        {\n          id: \"3\",\n          label: \"Technical Blog\",\n          href: \"https://example.com/blog\",\n          iconName: \"lucide/pen-line\",\n        },\n        {\n          id: \"4\",\n          label: \"npm Packages\",\n          href: \"https://npmjs.com\",\n          iconName: \"simple-icons/npm\",\n        },\n        {\n          id: \"5\",\n          label: \"Resume / CV\",\n          href: \"https://example.com/resume\",\n          iconName: \"lucide/file-user\",\n        },\n        {\n          id: \"6\",\n          label: \"Email Me\",\n          href: \"mailto:alex@example.com\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://github.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://dev.to\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/link\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"architect\"\n      patternOpacity={0.08}\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageMinimalProfile } from \"@opensite/ui/blocks/link-page/link-page-minimal-profile\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageMinimalProfile\n      name=\"Alex Rivera\"\n      bio=\"Software Engineer & Open Source Contributor\"\n      avatar={{\n        src: imagePlaceholders[38],\n        alt: \"Alex Rivera\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Personal Website\",\n          href: \"https://example.com\",\n          iconName: \"lucide/globe\",\n        },\n        {\n          id: \"2\",\n          label: \"GitHub Projects\",\n          href: \"https://github.com\",\n          iconName: \"simple-icons/github\",\n        },\n        {\n          id: \"3\",\n          label: \"Technical Blog\",\n          href: \"https://example.com/blog\",\n          iconName: \"lucide/pen-line\",\n        },\n        {\n          id: \"4\",\n          label: \"npm Packages\",\n          href: \"https://npmjs.com\",\n          iconName: \"simple-icons/npm\",\n        },\n        {\n          id: \"5\",\n          label: \"Resume / CV\",\n          href: \"https://example.com/resume\",\n          iconName: \"lucide/file-user\",\n        },\n        {\n          id: \"6\",\n          label: \"Email Me\",\n          href: \"mailto:alex@example.com\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://github.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://dev.to\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/link\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"architect\"\n      patternOpacity={0.08}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -131683,26 +131896,52 @@
             "type": "object",
             "description": "",
             "fields": {
-              "platform": {
-                "type": "string",
-                "description": "Social platform name",
+              "platformName": {
+                "type": "object",
+                "description": "Social platform name - determines which icon to display.\nIf not provided, the platform is auto-detected from the href URL.",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
-              "label": {
+              "platform": {
                 "type": "object",
-                "description": "Display label for the link",
-                "typeLabel": "ReactNode",
+                "description": "",
+                "typeLabel": "SocialPlatformName",
                 "required": false
               },
               "href": {
                 "type": "string",
-                "description": "Link URL",
+                "description": "Link URL (required). Platform is auto-detected from this URL if platformName is not set.",
                 "required": true
+              },
+              "label": {
+                "type": "string",
+                "description": "Display label for the link (used for aria-label if not specified)",
+                "required": false
               },
               "icon": {
                 "type": "object",
-                "description": "Platform icon",
+                "description": "Platform icon (ReactNode) - overrides automatic icon selection",
                 "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconNameOverride": {
+                "type": "string",
+                "description": "Icon name override for DynamicIcon (e.g., \"lucide/twitter\")",
+                "required": false
+              },
+              "iconSize": {
+                "type": "number",
+                "description": "Icon size in pixels",
+                "required": false
+              },
+              "iconColor": {
+                "type": "string",
+                "description": "Icon color - accepts any valid CSS color",
+                "required": false
+              },
+              "iconClassName": {
+                "type": "string",
+                "description": "Additional CSS classes for the icon",
                 "required": false
               },
               "\"aria-label\"": {
@@ -131712,7 +131951,7 @@
               },
               "className": {
                 "type": "string",
-                "description": "Additional CSS classes",
+                "description": "Additional CSS classes for the link wrapper",
                 "required": false
               }
             },
@@ -131948,7 +132187,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290094/rhk6gtwsobwxxa1fb4ddofcb0nrw/link-page-newsletter-social-mobile.png"
       },
       "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
-      "code": "import { LinkPageNewsletterSocial } from \"@opensite/ui/blocks/link-page/link-page-newsletter-social\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <LinkPageNewsletterSocial\n      name=\"Jamie Taylor\"\n      bio=\"Marketing Expert & Growth Strategist\"\n      avatar={{\n        src: imagePlaceholders[51],\n        alt: \"Jamie Taylor\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          iconName: \"simple-icons/twitter\",\n          href: \"https://twitter.com\",\n          platform: \"Twitter\",\n        },\n        {\n          id: \"2\",\n          iconName: \"simple-icons/instagram\",\n          href: \"https://instagram.com\",\n          platform: \"Instagram\",\n        },\n        {\n          id: \"3\",\n          iconName: \"simple-icons/linkedin\",\n          href: \"https://linkedin.com\",\n          platform: \"LinkedIn\",\n        },\n        {\n          id: \"4\",\n          iconName: \"simple-icons/tiktok\",\n          href: \"https://tiktok.com\",\n          platform: \"TikTok\",\n        },\n      ]}\n      newsletterHeading=\"Join 10,000+ Marketers\"\n      newsletterDescription=\"Get weekly tips on growth marketing and audience building delivered to your inbox every Friday.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Free Marketing Course\",\n          href: \"https://example.com/course\",\n          iconName: \"lucide/graduation-cap\",\n        },\n        {\n          id: \"2\",\n          label: \"Growth Templates\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/file-spreadsheet\",\n        },\n        {\n          id: \"3\",\n          label: \"1-on-1 Coaching\",\n          href: \"https://example.com/coaching\",\n          iconName: \"lucide/user-plus\",\n        },\n        {\n          id: \"4\",\n          label: \"Podcast Episodes\",\n          href: \"https://example.com/podcast\",\n          iconName: \"lucide/mic\",\n        },\n        {\n          id: \"5\",\n          label: \"Community Forum\",\n          href: \"https://example.com/community\",\n          iconName: \"lucide/users\",\n        },\n      ]}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.08}\n      background=\"secondary\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageNewsletterSocial } from \"@opensite/ui/blocks/link-page/link-page-newsletter-social\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <LinkPageNewsletterSocial\n      name=\"Jamie Taylor\"\n      bio=\"Marketing Expert & Growth Strategist\"\n      avatar={{\n        src: imagePlaceholders[51],\n        alt: \"Jamie Taylor\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      newsletterHeading=\"Join 10,000+ Marketers\"\n      newsletterDescription=\"Get weekly tips on growth marketing and audience building delivered to your inbox every Friday.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Free Marketing Course\",\n          href: \"https://example.com/course\",\n          iconName: \"lucide/graduation-cap\",\n        },\n        {\n          id: \"2\",\n          label: \"Growth Templates\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/file-spreadsheet\",\n        },\n        {\n          id: \"3\",\n          label: \"1-on-1 Coaching\",\n          href: \"https://example.com/coaching\",\n          iconName: \"lucide/user-plus\",\n        },\n        {\n          id: \"4\",\n          label: \"Podcast Episodes\",\n          href: \"https://example.com/podcast\",\n          iconName: \"lucide/mic\",\n        },\n        {\n          id: \"5\",\n          label: \"Community Forum\",\n          href: \"https://example.com/community\",\n          iconName: \"lucide/users\",\n        },\n      ]}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.08}\n      background=\"secondary\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -132401,7 +132640,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290840/s01fz6d6z4s8uep0bz2vhh53hb51/cleanshot-2026-02-25-at-05-27-16.png"
       },
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
-      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      avatar={{\n        src: imagePlaceholders[62],\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          iconName: \"simple-icons/dribbble\",\n          href: \"https://dribbble.com\",\n          platform: \"Dribbble\",\n        },\n        {\n          id: \"2\",\n          iconName: \"simple-icons/behance\",\n          href: \"https://behance.net\",\n          platform: \"Behance\",\n        },\n        {\n          id: \"3\",\n          iconName: \"simple-icons/github\",\n          href: \"https://github.com\",\n          platform: \"GitHub\",\n        },\n        {\n          id: \"4\",\n          iconName: \"simple-icons/twitter\",\n          href: \"https://twitter.com\",\n          platform: \"Twitter\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      avatar={{\n        src: imagePlaceholders[62],\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -132755,7 +132994,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png"
       },
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
-      "code": "import { LinkPageBentoLayout } from \"@opensite/ui/blocks/link-page/link-page-bento-layout\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageBentoLayout\n      name=\"Sarah Mitchell\"\n      bio=\"Creative Director & Content Strategist | Helping brands tell their story\"\n      avatar={{\n        src: imagePlaceholders[45],\n        alt: \"Sarah Mitchell\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          iconName: \"simple-icons/instagram\",\n          href: \"https://instagram.com\",\n          platform: \"Instagram\",\n        },\n        {\n          id: \"2\",\n          iconName: \"simple-icons/twitter\",\n          href: \"https://twitter.com\",\n          platform: \"Twitter\",\n        },\n        {\n          id: \"3\",\n          iconName: \"simple-icons/linkedin\",\n          href: \"https://linkedin.com\",\n          platform: \"LinkedIn\",\n        },\n        {\n          id: \"4\",\n          iconName: \"simple-icons/youtube\",\n          href: \"https://youtube.com\",\n          platform: \"YouTube\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Latest Video Series\",\n          description: \"5 Days of Brand Strategy\",\n          href: \"https://youtube.com/watch\",\n          iconName: \"simple-icons/youtube\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[78],\n            alt: \"Latest Video Series\",\n          },\n        },\n        {\n          id: \"2\",\n          label: \"Download Free Guide\",\n          description: \"The Ultimate Brand Playbook\",\n          href: \"https://example.com/guide\",\n          iconName: \"lucide/download\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[92],\n            alt: \"Brand Playbook\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Start Free Trial\",\n          description: \"Experience our platform with a 14-day free trial.\",\n          href: \"#\",\n          iconName: \"lucide/rocket\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[93],\n            alt: \"Free Trial\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"4\",\n          label: \"Shop Presets\",\n          href: \"https://example.com/shop\",\n          iconName: \"lucide/shopping-bag\",\n        },\n        {\n          id: \"5\",\n          label: \"Book a Call\",\n          href: \"https://example.com/booking\",\n          iconName: \"lucide/calendar\",\n        },\n        {\n          id: \"6\",\n          label: \"Newsletter\",\n          href: \"https://example.com/newsletter\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      footerAction={{\n        label: \"Made with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageBentoLayout } from \"@opensite/ui/blocks/link-page/link-page-bento-layout\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageBentoLayout\n      name=\"Sarah Mitchell\"\n      bio=\"Creative Director & Content Strategist | Helping brands tell their story\"\n      avatar={{\n        src: imagePlaceholders[45],\n        alt: \"Sarah Mitchell\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Latest Video Series\",\n          description: \"5 Days of Brand Strategy\",\n          href: \"#\",\n          iconName: \"simple-icons/youtube\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[78],\n            alt: \"Latest Video Series\",\n          },\n        },\n        {\n          id: \"2\",\n          label: \"Download Free Guide\",\n          description: \"The Ultimate Brand Playbook\",\n          href: \"#\",\n          iconName: \"lucide/download\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[92],\n            alt: \"Brand Playbook\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Start Free Trial\",\n          description: \"Experience our platform with a 14-day free trial.\",\n          href: \"#\",\n          iconName: \"lucide/rocket\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[93],\n            alt: \"Free Trial\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Portfolio\",\n          href: \"#\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"4\",\n          label: \"Shop Presets\",\n          href: \"#\",\n          iconName: \"lucide/shopping-bag\",\n        },\n        {\n          id: \"5\",\n          label: \"Book a Call\",\n          href: \"#\",\n          iconName: \"lucide/calendar\",\n        },\n        {\n          id: \"6\",\n          label: \"Newsletter\",\n          href: \"#\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      footerAction={{\n        label: \"Made with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -133181,15 +133420,15 @@
       "categorySlug": "about",
       "description": "A split-screen hero section with dark theme styling, featuring text content on the left and a large image on the right. Includes brand text with gradient highlight, prominent heading, description, and CTA button. Best for premium/pro tier landing pages, product launches, and upgrade prompts.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png"
       },
       "componentPath": "blocks/about/about-split-hero.tsx",
-      "code": "import { AboutSplitHero } from \"@opensite/ui/blocks/about/about-split-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutSplitHero\n      brandText=\"Enterprise\"\n      brandHighlight=\"PRO\"\n      heading=\"Achieve More with Elite Access Pro\"\n      description=\"Enhance your business growth with increased visibility, advanced analytics, and priority support that scales with your success.\"\n      ctaAction={{\n        label: \"Upgrade to Premium\",\n        href: \"#\",\n        variant: \"default\",\n        size: \"lg\",\n      }}\n      imageSrc={imagePlaceholders[85]}\n      imageAlt=\"Enterprise team collaboration\"\n      background=\"dark\"\n      pattern=\"gridDotsBasic\"\n      patternOpacity={0.15}\n      directionConfig={{\n        desktop: \"mediaLeft\",\n        mobile: \"mediaTop\",\n      }}\n    />\n  );\n}\n",
+      "code": "import { AboutSplitHero } from \"@opensite/ui/blocks/about/about-split-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutSplitHero\n      brandText=\"Enterprise\"\n      brandHighlight=\"PRO\"\n      heading=\"Achieve More with Elite Access Pro\"\n      description=\"Enhance your business growth with increased visibility, advanced analytics, and priority support that scales with your success.\"\n      ctaAction={{\n        label: \"Upgrade to Premium\",\n        href: \"#\",\n        variant: \"default\",\n        size: \"lg\",\n      }}\n      imageSrc={imagePlaceholders[85]}\n      imageAlt=\"Enterprise team collaboration\"\n      background=\"dark\"\n      pattern=\"gridDotsBasic\"\n      patternOpacity={0.15}\n      directionConfig={{\n        desktop: \"mediaLeft\",\n        mobile: \"mediaBottom\",\n      }}\n    />\n  );\n}\n",
       "propsSchema": {
         "brandText": {
           "type": "object",
@@ -133411,15 +133650,15 @@
       "categorySlug": "about",
       "description": "A comprehensive mission statement section with numbered principle cards and a vision callout. Features a two-column grid with mission text on left, principle cards on right, followed by a full-width vision banner. Best for company about pages, mission statements, and values showcases.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291142/wujohbv3x20d67t11sc04qxayqap/cleanshot-2026-02-25-at-12-26-06-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291142/wujohbv3x20d67t11sc04qxayqap/cleanshot-2026-02-25-at-12-26-06-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
       },
       "componentPath": "blocks/about/about-mission-principles.tsx",
-      "code": "import { AboutMissionPrinciples } from \"@opensite/ui/blocks/about/about-mission-principles\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionPrinciples\n      badgeText=\"Our Mission\"\n      missionHeading=\"Empowering People Through Technology\"\n      missionDescription=\"We believe technology should serve humanity—making life simpler, work more meaningful, and connections stronger. Our mission is to build tools that amplify human potential and create opportunities for everyone.\"\n      missionAction={{\n        label: \"Read Our Story\",\n        href: \"/story\",\n        variant: \"default\",\n      }}\n      principles={[\n        {\n          number: \"01\",\n          title: \"Customer-Centric\",\n          description:\n            \"Every decision starts with understanding our customers' needs. We obsess over their experience and measure our success by their success.\",\n        },\n        {\n          number: \"02\",\n          title: \"Built to Last\",\n          description:\n            \"We prioritize long-term value over short-term gains. Quality, security, and reliability are non-negotiable.\",\n        },\n        {\n          number: \"03\",\n          title: \"Inclusive by Design\",\n          description:\n            \"We build for everyone. Accessibility, diversity, and inclusion are embedded in our product development and company culture.\",\n        },\n        {\n          number: \"04\",\n          title: \"Continuous Learning\",\n          description:\n            \"We stay curious and humble. Markets change, technology evolves, and we adapt by listening, learning, and improving every day.\",\n        },\n      ]}\n      visionHeading=\"Our Vision for 2030\"\n      visionDescription=\"By 2030, we aim to be the most trusted platform for teams worldwide—known for innovation, reliability, and positive impact on people's work and lives.\"\n      visionAction={{\n        label: \"View Our Roadmap\",\n        href: \"/roadmap\",\n        variant: \"outline\",\n        size: \"lg\",\n      }}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { AboutMissionPrinciples } from \"@opensite/ui/blocks/about/about-mission-principles\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionPrinciples\n      badgeText=\"Our Mission\"\n      missionHeading=\"Empowering People Through Technology\"\n      missionDescription=\"We believe technology should serve humanity—making life simpler, work more meaningful, and connections stronger. Our mission is to build tools that amplify human potential and create opportunities for everyone.\"\n      missionAction={{\n        label: \"Read Our Story\",\n        href: \"/story\",\n        variant: \"default\",\n      }}\n      principles={[\n        {\n          number: \"01\",\n          title: \"Customer-Centric\",\n          description:\n            \"Every decision starts with understanding our customers' needs. We obsess over their experience and measure our success by their success.\",\n        },\n        {\n          number: \"02\",\n          title: \"Built to Last\",\n          description:\n            \"We prioritize long-term value over short-term gains. Quality, security, and reliability are non-negotiable.\",\n        },\n        {\n          number: \"03\",\n          title: \"Inclusive by Design\",\n          description:\n            \"We build for everyone. Accessibility, diversity, and inclusion are embedded in our product development and company culture.\",\n        },\n        {\n          number: \"04\",\n          title: \"Continuous Learning\",\n          description:\n            \"We stay curious and humble. Markets change, technology evolves, and we adapt by listening, learning, and improving every day.\",\n        },\n      ]}\n      visionHeading=\"Our Vision for 2030\"\n      visionDescription=\"By 2030, we aim to be the most trusted platform for teams worldwide—known for innovation, reliability, and positive impact on people's work and lives.\"\n      visionAction={{\n        label: \"View Our Roadmap\",\n        href: \"/roadmap\",\n        variant: \"outline\",\n        size: \"lg\",\n      }}\n      background=\"gray\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -133991,15 +134230,15 @@
       "categorySlug": "about",
       "description": "A comprehensive community impact section with tabbed categories and detailed initiative cards with metrics. Features a tabbed interface with alternating content/image layout for initiatives, metrics display, and responsive dropdown for mobile. Best for community impact pages, corporate responsibility sections, and values showcases.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291144/ff43lflzmsdbkwnmj3orn0nczflz/cleanshot-2026-02-25-at-12-28-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291144/ff43lflzmsdbkwnmj3orn0nczflz/cleanshot-2026-02-25-at-12-28-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
       },
       "componentPath": "blocks/about/community-initiatives.tsx",
-      "code": "import { CommunityInitiatives } from \"@opensite/ui/blocks/about/community-initiatives\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CommunityInitiatives\n      badgeText=\"Diversity & Inclusion\"\n      heading=\"Building a More Equitable Future\"\n      description=\"We're committed to creating a workplace and community where everyone belongs, thrives, and can reach their full potential.\"\n      categories={[\n        {\n          id: \"workplace\",\n          title: \"Inclusive Workplace\",\n          description:\n            \"Creating an environment where every voice is heard and every person can be their authentic self.\",\n          initiatives: [\n            {\n              id: \"hiring\",\n              title: \"Equitable Hiring Practices\",\n              description:\n                \"We've redesigned our hiring process from the ground up to reduce bias and increase representation. Blind resume reviews, diverse interview panels, and structured interviews ensure every candidate gets a fair evaluation based on merit.\",\n              icon: \"lucide/users\",\n              metrics: [\n                { value: \"45%\", label: \"Diverse Leadership\" },\n                { value: \"60%\", label: \"Women in Tech\" },\n                { value: \"85%\", label: \"Retention Rate\" },\n              ],\n              image:\n                imagePlaceholders[12],\n            },\n            {\n              id: \"growth\",\n              title: \"Career Development Programs\",\n              description:\n                \"Mentorship programs, leadership training, and sponsorship opportunities help underrepresented employees advance their careers. We track promotion rates and close equity gaps through targeted investment in professional development.\",\n              icon: \"lucide/trending-up\",\n              metrics: [\n                { value: \"$2M\", label: \"Annual Investment\" },\n                { value: \"300+\", label: \"Mentorship Pairs\" },\n                { value: \"92%\", label: \"Satisfaction\" },\n              ],\n              image:\n                imagePlaceholders[16],\n            },\n          ],\n        },\n        {\n          id: \"community\",\n          title: \"Community Impact\",\n          description:\n            \"Extending our commitment beyond our walls to make a difference in the broader community.\",\n          initiatives: [\n            {\n              id: \"education\",\n              title: \"Tech Education Partnerships\",\n              description:\n                \"We partner with schools in underserved communities to provide coding bootcamps, STEM workshops, and mentorship programs. Over 5,000 students have participated in our programs, with many going on to successful tech careers.\",\n              icon: \"lucide/graduation-cap\",\n              metrics: [\n                { value: \"5000+\", label: \"Students Reached\" },\n                { value: \"25\", label: \"School Partners\" },\n                { value: \"78%\", label: \"Career Placement\" },\n              ],\n              image:\n                imagePlaceholders[29],\n            },\n            {\n              id: \"nonprofit\",\n              title: \"Nonprofit Technology Support\",\n              description:\n                \"We provide free or discounted access to our platform for nonprofits working on social justice, education, and environmental causes. Our team volunteers technical expertise to help these organizations maximize their impact.\",\n              icon: \"lucide/heart-handshake\",\n              metrics: [\n                { value: \"500+\", label: \"Nonprofit Partners\" },\n                { value: \"$5M\", label: \"Value Donated\" },\n                { value: \"2000+\", label: \"Volunteer Hours\" },\n              ],\n            },\n          ],\n        },\n        {\n          id: \"culture\",\n          title: \"Inclusive Culture\",\n          description:\n            \"Fostering a culture where differences are celebrated and everyone feels they belong.\",\n          initiatives: [\n            {\n              id: \"groups\",\n              title: \"Employee Resource Groups\",\n              description:\n                \"Nine active ERGs representing diverse communities—from Women in Tech to LGBTQ+ Alliance to Black Excellence Network—provide support, networking, and advocacy. Each group receives budget and executive sponsorship.\",\n              icon: \"lucide/users-2\",\n              metrics: [\n                { value: \"9\", label: \"Active ERGs\" },\n                { value: \"65%\", label: \"Employee Participation\" },\n                { value: \"40+\", label: \"Events/Year\" },\n              ],\n              image:\n                imagePlaceholders[52],\n            },\n            {\n              id: \"learning\",\n              title: \"Continuous Learning\",\n              description:\n                \"Regular workshops on unconscious bias, inclusive leadership, and cultural competency keep our entire team learning and growing. These aren't checkbox exercises—they're meaningful conversations that drive real change.\",\n              icon: \"lucide/book-open\",\n              metrics: [\n                { value: \"100%\", label: \"Completion Rate\" },\n                { value: \"24\", label: \"Workshops/Year\" },\n                { value: \"4.8/5\", label: \"Impact Rating\" },\n              ],\n            },\n          ],\n        },\n        {\n          id: \"accessibility\",\n          title: \"Accessibility\",\n          description:\n            \"Making our workplace and products accessible to everyone, regardless of ability.\",\n          initiatives: [\n            {\n              id: \"product\",\n              title: \"Accessible Product Design\",\n              description:\n                \"WCAG 2.1 AA compliance is our baseline, not our ceiling. We employ accessibility experts, conduct regular audits, and test with assistive technologies to ensure our product works for everyone.\",\n              icon: \"lucide/accessibility\",\n              metrics: [\n                { value: \"AA\", label: \"WCAG Level\" },\n                { value: \"100%\", label: \"Keyboard Nav\" },\n                { value: \"98%\", label: \"Screen Reader\" },\n              ],\n              image:\n                imagePlaceholders[34],\n            },\n            {\n              id: \"workplace\",\n              title: \"Accessible Workplace\",\n              description:\n                \"From physical office design to assistive technology budgets to flexible work arrangements, we remove barriers so everyone can contribute their best work. Accommodations are handled with dignity and urgency.\",\n              icon: \"lucide/home\",\n              metrics: [\n                { value: \"$500K\", label: \"Accommodation Budget\" },\n                { value: \"48hr\", label: \"Response Time\" },\n                { value: \"100%\", label: \"Office Accessibility\" },\n              ],\n            },\n          ],\n        },\n      ]}\n      ctaBadgeText=\"We're Hiring\"\n      ctaHeading=\"Join Our Diverse Team\"\n      ctaDescription=\"We're always looking for talented people from all backgrounds who share our commitment to building an inclusive future.\"\n      actions={[\n        {\n          label: \"View Open Positions\",\n          href: \"/careers\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Read Our Impact Report\",\n          href: \"/impact\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { CommunityInitiatives } from \"@opensite/ui/blocks/about/community-initiatives\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CommunityInitiatives\n      badgeText=\"Diversity & Inclusion\"\n      heading=\"Building a More Equitable Future\"\n      description=\"We're committed to creating a workplace and community where everyone belongs, thrives, and can reach their full potential.\"\n      categories={[\n        {\n          id: \"workplace\",\n          title: \"Inclusive Workplace\",\n          description:\n            \"Creating an environment where every voice is heard and every person can be their authentic self.\",\n          initiatives: [\n            {\n              id: \"hiring\",\n              title: \"Equitable Hiring Practices\",\n              description:\n                \"We've redesigned our hiring process from the ground up to reduce bias and increase representation. Blind resume reviews, diverse interview panels, and structured interviews ensure every candidate gets a fair evaluation based on merit.\",\n              icon: \"lucide/users\",\n              metrics: [\n                { value: \"45%\", label: \"Diverse Leadership\" },\n                { value: \"60%\", label: \"Women in Tech\" },\n                { value: \"85%\", label: \"Retention Rate\" },\n              ],\n              image: imagePlaceholders[12],\n            },\n            {\n              id: \"growth\",\n              title: \"Career Development Programs\",\n              description:\n                \"Mentorship programs, leadership training, and sponsorship opportunities help underrepresented employees advance their careers. We track promotion rates and close equity gaps through targeted investment in professional development.\",\n              icon: \"lucide/trending-up\",\n              metrics: [\n                { value: \"$2M\", label: \"Annual Investment\" },\n                { value: \"300+\", label: \"Mentorship Pairs\" },\n                { value: \"92%\", label: \"Satisfaction\" },\n              ],\n              image: imagePlaceholders[16],\n            },\n          ],\n        },\n        {\n          id: \"community\",\n          title: \"Community Impact\",\n          description:\n            \"Extending our commitment beyond our walls to make a difference in the broader community.\",\n          initiatives: [\n            {\n              id: \"education\",\n              title: \"Tech Education Partnerships\",\n              description:\n                \"We partner with schools in underserved communities to provide coding bootcamps, STEM workshops, and mentorship programs. Over 5,000 students have participated in our programs, with many going on to successful tech careers.\",\n              icon: \"lucide/graduation-cap\",\n              metrics: [\n                { value: \"5000+\", label: \"Students Reached\" },\n                { value: \"25\", label: \"School Partners\" },\n                { value: \"78%\", label: \"Career Placement\" },\n              ],\n              image: imagePlaceholders[29],\n            },\n            {\n              id: \"nonprofit\",\n              title: \"Nonprofit Technology Support\",\n              description:\n                \"We provide free or discounted access to our platform for nonprofits working on social justice, education, and environmental causes. Our team volunteers technical expertise to help these organizations maximize their impact.\",\n              icon: \"lucide/heart-handshake\",\n              metrics: [\n                { value: \"500+\", label: \"Nonprofit Partners\" },\n                { value: \"$5M\", label: \"Value Donated\" },\n                { value: \"2000+\", label: \"Volunteer Hours\" },\n              ],\n              image: imagePlaceholders[30],\n            },\n          ],\n        },\n        {\n          id: \"culture\",\n          title: \"Inclusive Culture\",\n          description:\n            \"Fostering a culture where differences are celebrated and everyone feels they belong.\",\n          initiatives: [\n            {\n              id: \"groups\",\n              title: \"Employee Resource Groups\",\n              description:\n                \"Nine active ERGs representing diverse communities—from Women in Tech to LGBTQ+ Alliance to Black Excellence Network—provide support, networking, and advocacy. Each group receives budget and executive sponsorship.\",\n              icon: \"lucide/users-2\",\n              metrics: [\n                { value: \"9\", label: \"Active ERGs\" },\n                { value: \"65%\", label: \"Employee Participation\" },\n                { value: \"40+\", label: \"Events/Year\" },\n              ],\n              image: imagePlaceholders[52],\n            },\n            {\n              id: \"learning\",\n              title: \"Continuous Learning\",\n              description:\n                \"Regular workshops on unconscious bias, inclusive leadership, and cultural competency keep our entire team learning and growing. These aren't checkbox exercises—they're meaningful conversations that drive real change.\",\n              icon: \"lucide/book-open\",\n              metrics: [\n                { value: \"100%\", label: \"Completion Rate\" },\n                { value: \"24\", label: \"Workshops/Year\" },\n                { value: \"4.8/5\", label: \"Impact Rating\" },\n              ],\n            },\n          ],\n        },\n        {\n          id: \"accessibility\",\n          title: \"Accessibility\",\n          description:\n            \"Making our workplace and products accessible to everyone, regardless of ability.\",\n          initiatives: [\n            {\n              id: \"product\",\n              title: \"Accessible Product Design\",\n              description:\n                \"WCAG 2.1 AA compliance is our baseline, not our ceiling. We employ accessibility experts, conduct regular audits, and test with assistive technologies to ensure our product works for everyone.\",\n              icon: \"lucide/accessibility\",\n              metrics: [\n                { value: \"AA\", label: \"WCAG Level\" },\n                { value: \"100%\", label: \"Keyboard Nav\" },\n                { value: \"98%\", label: \"Screen Reader\" },\n              ],\n              image: imagePlaceholders[34],\n            },\n            {\n              id: \"workplace\",\n              title: \"Accessible Workplace\",\n              description:\n                \"From physical office design to assistive technology budgets to flexible work arrangements, we remove barriers so everyone can contribute their best work. Accommodations are handled with dignity and urgency.\",\n              icon: \"lucide/home\",\n              metrics: [\n                { value: \"$500K\", label: \"Accommodation Budget\" },\n                { value: \"48hr\", label: \"Response Time\" },\n                { value: \"100%\", label: \"Office Accessibility\" },\n              ],\n            },\n          ],\n        },\n      ]}\n      ctaBadgeText=\"We're Hiring\"\n      ctaHeading=\"Join Our Diverse Team\"\n      ctaDescription=\"We're always looking for talented people from all backgrounds who share our commitment to building an inclusive future.\"\n      actions={[\n        {\n          label: \"View Open Positions\",\n          href: \"/careers\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Read Our Impact Report\",\n          href: \"/impact\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -135093,12 +135332,12 @@
       "categorySlug": "footer",
       "description": "A split-layout footer with large image, newsletter signup powered by FormEngine, accordion navigation, and payment methods. Features a two-column split with image on left, content on right, and responsive accordion links for mobile. Uses @page-speed/forms/integration for form handling. Best for e-commerce sites, fashion brands, and lifestyle businesses.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290857/h8mkddenw26oqvy0luqdx8ebdvzs/cleanshot-2026-02-25-at-09-32-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290856/9tay8ecufqlkkrodysn5ebszvddq/cleanshot-2026-02-25-at-09-32-43.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290857/h8mkddenw26oqvy0luqdx8ebdvzs/cleanshot-2026-02-25-at-09-32-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290856/9tay8ecufqlkkrodysn5ebszvddq/cleanshot-2026-02-25-at-09-32-43.png"
       },
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
       "code": "import { FooterSplitImageAccordion } from \"@opensite/ui/blocks/footers/footer-split-image-accordion\";\nimport { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterSplitImageAccordion\n      newsletterTitle=\"Join our community and save 20% on your first order\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      footerLinks={[\n        {\n          title: \"Collections\",\n          id: \"collections\",\n          items: [\n            { text: \"New Arrivals\", link: \"#\" },\n            { text: \"Best Sellers\", link: \"#\" },\n            { text: \"Limited Edition\", link: \"#\" },\n            { text: \"Sale Items\", link: \"#\" },\n            { text: \"Gift Cards\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          id: \"customer-care\",\n          items: [\n            { text: \"Contact Us\", link: \"#\" },\n            { text: \"Shipping Info\", link: \"#\" },\n            { text: \"Returns & Exchanges\", link: \"#\" },\n            { text: \"Size Guide\", link: \"#\" },\n            { text: \"FAQ\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"About Us\",\n          id: \"about\",\n          items: [\n            { text: \"Our Story\", link: \"#\" },\n            { text: \"Sustainability\", link: \"#\" },\n            { text: \"Careers\", link: \"#\" },\n            { text: \"Press\", link: \"#\" },\n            { text: \"Store Locations\", link: \"#\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      paymentPlatforms={[\n        \"contactless\",\n        \"bitcoin\",\n        \"amazon\",\n        \"samsung\",\n        \"afterpay\",\n        \"cashapp\",\n      ]}\n      submenuLinks={[\n        { text: \"Terms of Service\", link: \"#\" },\n        { text: \"Privacy Policy\", link: \"#\" },\n        { text: \"Accessibility\", link: \"#\" },\n      ]}\n      footerData={{\n        image: {\n          src: imagePlaceholders[45],\n          alt: \"Luxury champagne wall with ambient lighting\",\n        },\n        logo: {\n          src: brandLogoPlaceholders.black[5],\n          url: \"/\",\n          alt: \"Footer Logo\",\n        },\n        heading: \"Elevate Your Style\",\n        description:\n          \"Discover curated collections of premium fashion and lifestyle products. Quality craftsmanship meets timeless design.\",\n      }}\n      copyright=\"Elevate Brand\"\n      background=\"white\"\n      spacing=\"none\"\n    />\n  );\n}\n",

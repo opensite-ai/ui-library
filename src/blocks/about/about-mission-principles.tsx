@@ -46,7 +46,9 @@ export default function Demo() {
         variant: "outline",
         size: "lg",
       }}
-      spacing="xl"
+      background="gray"
+      pattern="noise"
+      patternOpacity={1}
     />
   );
 }

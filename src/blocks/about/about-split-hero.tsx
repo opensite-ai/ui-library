@@ -21,7 +21,7 @@ export default function Demo() {
       patternOpacity={0.15}
       directionConfig={{
         desktop: "mediaLeft",
-        mobile: "mediaTop",
+        mobile: "mediaBottom",
       }}
     />
   );

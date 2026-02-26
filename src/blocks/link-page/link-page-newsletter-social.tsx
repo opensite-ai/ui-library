@@ -27,27 +27,19 @@ export default function Demo() {
       socialLinks={[
         {
           id: "1",
-          iconName: "simple-icons/twitter",
-          href: "https://twitter.com",
-          platform: "Twitter",
+          href: "https://instagram.com",
         },
         {
           id: "2",
-          iconName: "simple-icons/instagram",
-          href: "https://instagram.com",
-          platform: "Instagram",
+          href: "https://twitter.com",
         },
         {
           id: "3",
-          iconName: "simple-icons/linkedin",
           href: "https://linkedin.com",
-          platform: "LinkedIn",
         },
         {
           id: "4",
-          iconName: "simple-icons/tiktok",
-          href: "https://tiktok.com",
-          platform: "TikTok",
+          href: "https://youtube.com",
         },
       ]}
       newsletterHeading="Join 10,000+ Marketers"

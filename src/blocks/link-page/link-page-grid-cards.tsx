@@ -14,27 +14,19 @@ export default function Demo() {
       socialLinks={[
         {
           id: "1",
-          iconName: "simple-icons/dribbble",
-          href: "https://dribbble.com",
-          platform: "Dribbble",
+          href: "https://instagram.com",
         },
         {
           id: "2",
-          iconName: "simple-icons/behance",
-          href: "https://behance.net",
-          platform: "Behance",
+          href: "https://twitter.com",
         },
         {
           id: "3",
-          iconName: "simple-icons/github",
-          href: "https://github.com",
-          platform: "GitHub",
+          href: "https://linkedin.com",
         },
         {
           id: "4",
-          iconName: "simple-icons/twitter",
-          href: "https://twitter.com",
-          platform: "Twitter",
+          href: "https://youtube.com",
         },
       ]}
       links={[

@@ -25,8 +25,7 @@ export default function Demo() {
                 { value: "60%", label: "Women in Tech" },
                 { value: "85%", label: "Retention Rate" },
               ],
-              image:
-                imagePlaceholders[12],
+              image: imagePlaceholders[12],
             },
             {
               id: "growth",
@@ -39,8 +38,7 @@ export default function Demo() {
                 { value: "300+", label: "Mentorship Pairs" },
                 { value: "92%", label: "Satisfaction" },
               ],
-              image:
-                imagePlaceholders[16],
+              image: imagePlaceholders[16],
             },
           ],
         },
@@ -61,8 +59,7 @@ export default function Demo() {
                 { value: "25", label: "School Partners" },
                 { value: "78%", label: "Career Placement" },
               ],
-              image:
-                imagePlaceholders[29],
+              image: imagePlaceholders[29],
             },
             {
               id: "nonprofit",
@@ -75,6 +72,7 @@ export default function Demo() {
                 { value: "$5M", label: "Value Donated" },
                 { value: "2000+", label: "Volunteer Hours" },
               ],
+              image: imagePlaceholders[30],
             },
           ],
         },
@@ -95,8 +93,7 @@ export default function Demo() {
                 { value: "65%", label: "Employee Participation" },
                 { value: "40+", label: "Events/Year" },
               ],
-              image:
-                imagePlaceholders[52],
+              image: imagePlaceholders[52],
             },
             {
               id: "learning",
@@ -129,8 +126,7 @@ export default function Demo() {
                 { value: "100%", label: "Keyboard Nav" },
                 { value: "98%", label: "Screen Reader" },
               ],
-              image:
-                imagePlaceholders[34],
+              image: imagePlaceholders[34],
             },
             {
               id: "workplace",
@@ -164,7 +160,9 @@ export default function Demo() {
           size: "lg",
         },
       ]}
-      spacing="xl"
+      background="white"
+      pattern="noise"
+      patternOpacity={1}
     />
   );
 }

@@ -2018,12 +2018,12 @@
       "title": "About Mission Dual Image",
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291458/qipavnwunako6subb907wjc9ebys/cleanshot-2026-02-25-at-12-55-55-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289022/lhg45is92ao1wgz87k6rgx6ml9ef/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289021/8rzp33niqxt53eqkms4dho0zszjr/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291458/qipavnwunako6subb907wjc9ebys/cleanshot-2026-02-25-at-12-55-55-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
@@ -2116,12 +2116,12 @@
       "title": "About Story Gallery",
       "componentPath": "blocks/about/about-story-gallery.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290855/1ravpoxozygb541j1m3da43huncy/cleanshot-2026-02-25-at-09-28-24.png",
+        "mobile": "https://cdn.ing/assets/i/r/290854/p01r5m82vvc91ef2ar8q0ppt1csh/cleanshot-2026-02-25-at-09-29-02.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288999/l5o3jehdfulf09afqccf0k9dvsga/company-culture-collage-team-collaboration-office.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289000/gqjegv7mzz11fjsfonqswu1ygy0j/team-collaboration-around-laptops-in-modern-workspace.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/290855/1ravpoxozygb541j1m3da43huncy/cleanshot-2026-02-25-at-09-28-24.png",
+        "mobile": "https://cdn.ing/assets/i/r/290854/p01r5m82vvc91ef2ar8q0ppt1csh/cleanshot-2026-02-25-at-09-29-02.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-gallery.tsx"
@@ -2144,12 +2144,12 @@
       "title": "About Streamline Team",
       "componentPath": "blocks/about/about-streamline-team.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291460/lzqlqt9eyr0htgx65ozqdb1t494i/cleanshot-2026-02-25-at-12-57-57-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291459/okq409qdlp1eytyyce1qh6mujafo/cleanshot-2026-02-25-at-12-58-18-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289002/uum2lftcij5gy7h7jcwju6dgjxbj/about-streamline-team-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289003/k82xf96e9plff3663jqbp8972sqz/about-streamline-team-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291460/lzqlqt9eyr0htgx65ozqdb1t494i/cleanshot-2026-02-25-at-12-57-57-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291459/okq409qdlp1eytyyce1qh6mujafo/cleanshot-2026-02-25-at-12-58-18-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-streamline-team.tsx"
@@ -2158,12 +2158,12 @@
       "title": "About Vision Gallery",
       "componentPath": "blocks/about/about-vision-gallery.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
+        "desktop": "https://cdn.ing/assets/i/r/290859/vv0qt9yjhhe2i73iu2gemwc835kq/cleanshot-2026-02-25-at-10-25-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290858/ngfxkv8xggw9vdavqe7739sc6uv1/cleanshot-2026-02-25-at-10-26-09-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290852/08a3pluxovec8gorwa02c6jz9e2z/cleanshot-2026-02-25-at-08-19-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290853/rowaasaa9jjtmbbj7gblejcypr0j/cleanshot-2026-02-25-at-08-19-30.png"
+        "desktop": "https://cdn.ing/assets/i/r/290859/vv0qt9yjhhe2i73iu2gemwc835kq/cleanshot-2026-02-25-at-10-25-48-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/290858/ngfxkv8xggw9vdavqe7739sc6uv1/cleanshot-2026-02-25-at-10-26-09-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx"
@@ -2200,12 +2200,12 @@
       "title": "About Mission Principles",
       "componentPath": "blocks/about/about-mission-principles.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291142/wujohbv3x20d67t11sc04qxayqap/cleanshot-2026-02-25-at-12-26-06-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289018/rp4xwjvt9jorwcbwayi9qu2b4lh2/about-mission-principles-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289017/wyzywulf046zslsz9os9vktafbek/about-mission-principles-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291142/wujohbv3x20d67t11sc04qxayqap/cleanshot-2026-02-25-at-12-26-06-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-principles.tsx"
@@ -2214,12 +2214,12 @@
       "title": "About Split Hero",
       "componentPath": "blocks/about/about-split-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288991/f466l14rj1q4wfeev5dp4cnafvga/enterprise-upgrade-cta-hero-split-screen-coffee-desk.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288992/ovnigwwfigy6clnm5807rjeoqmy4/enterprise-pro-upgrade-premium-cta-hero-coffee-desk.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-split-hero.tsx"
@@ -2242,12 +2242,12 @@
       "title": "Community Initiatives",
       "componentPath": "blocks/about/community-initiatives.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291144/ff43lflzmsdbkwnmj3orn0nczflz/cleanshot-2026-02-25-at-12-28-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289008/er0pgodw1widkkcpj8uxsh76le5k/community-initiatives-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289009/qoyouzb2b8uy8fn85vlybfrrmzsr/community-initiatives-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291144/ff43lflzmsdbkwnmj3orn0nczflz/cleanshot-2026-02-25-at-12-28-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx"
@@ -3166,12 +3166,12 @@
       "title": "FAQ Numbered Grid",
       "componentPath": "blocks/faq/faq-numbered-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291530/lym97jsqs6w8lzz8lp1kn2xvlulk/cleanshot-2026-02-25-at-13-47-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291529/iqlol50xbpxl39q5f7nt3frl7cow/cleanshot-2026-02-25-at-13-47-30-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289160/2fizfp3upiohfoilzwla44nl4flg/blocks-faq-numbered-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289159/zkrre3dqkkp0fotgf0t0937myqns/blocks-faq-numbered-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291530/lym97jsqs6w8lzz8lp1kn2xvlulk/cleanshot-2026-02-25-at-13-47-15-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291529/iqlol50xbpxl39q5f7nt3frl7cow/cleanshot-2026-02-25-at-13-47-30-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-numbered-grid"
@@ -4300,12 +4300,12 @@
       "title": "Footer Split Image Accordion",
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290857/h8mkddenw26oqvy0luqdx8ebdvzs/cleanshot-2026-02-25-at-09-32-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290856/9tay8ecufqlkkrodysn5ebszvddq/cleanshot-2026-02-25-at-09-32-43.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290474/rn663qh8xum4bo1kmisb160xwhl4/footer-split-image-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290475/fmlcn7k2561d7ajmebom2v4f5dxg/footer-split-image-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/290857/h8mkddenw26oqvy0luqdx8ebdvzs/cleanshot-2026-02-25-at-09-32-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/290856/9tay8ecufqlkkrodysn5ebszvddq/cleanshot-2026-02-25-at-09-32-43.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-split-image-accordion"

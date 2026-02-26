@@ -36,16 +36,16 @@ export default function Demo() {
       ]}
       socialLinks={[
         {
-          platform: "twitter",
-          href: "https://twitter.com/share",
-          icon: undefined,
-          "aria-label": "Share on Twitter",
+          href: "https://instagram.com",
         },
         {
-          platform: "linkedin",
-          href: "https://linkedin.com/share",
-          icon: undefined,
-          "aria-label": "Share on LinkedIn",
+          href: "https://twitter.com",
+        },
+        {
+          href: "https://linkedin.com",
+        },
+        {
+          href: "https://youtube.com",
         },
       ]}
       enableTocTracking={true}

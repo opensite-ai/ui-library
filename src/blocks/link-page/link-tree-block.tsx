@@ -14,28 +14,16 @@ export default function Demo() {
       brandVerified={false}
       socialLinks={[
         {
-          id: "1",
-          iconName: "simple-icons/instagram",
           href: "https://instagram.com",
-          platform: "Instagram",
         },
         {
-          id: "2",
-          iconName: "simple-icons/twitter",
           href: "https://twitter.com",
-          platform: "Twitter",
         },
         {
-          id: "3",
-          iconName: "simple-icons/linkedin",
           href: "https://linkedin.com",
-          platform: "LinkedIn",
         },
         {
-          id: "4",
-          iconName: "simple-icons/dribbble",
-          href: "https://dribbble.com",
-          platform: "Dribbble",
+          href: "https://youtube.com",
         },
       ]}
       links={[
