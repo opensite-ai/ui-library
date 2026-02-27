@@ -1,18 +1,22 @@
 import { ArticleSidebarSticky } from "@opensite/ui/blocks/article/article-sidebar-sticky";
-import { imagePlaceholders } from "@/lib/media";
+import { imagePlaceholders, optixFlowApiKey } from "@/lib/media";
+import { Img } from "@page-speed/img";
 
 export default function Demo() {
   return (
     <ArticleSidebarSticky
-      backHref="#blog"
+      backHref="#"
       backText="Back to Blog"
       title="Mastering React Server Components: A Deep Dive"
       authorName="Emma Thompson"
       authorImage={imagePlaceholders[2]}
-      authorHref="#author"
+      authorHref="#"
       publishDate="January 18, 2026"
       heroImageSrc={imagePlaceholders[56]}
       heroImageAlt="React Server Components architecture"
+      background="white"
+      pattern="gridFadeTop"
+      patternOpacity={1}
     >
       <p className="lead">
         React Server Components represent a fundamental shift in how we build
@@ -43,10 +47,11 @@ export default function Demo() {
         about where code runs and start thinking about when it runs.&rdquo;
       </blockquote>
 
-      <img
+      <Img
         src={imagePlaceholders[69]}
         alt="Server Components data flow"
-        className="my-8 aspect-video w-full rounded-lg object-cover"
+        className="my-8 aspect-video w-full rounded-xl object-cover shadow-lg"
+        optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
       />
 
       <h2>Practical Implementation Patterns</h2>

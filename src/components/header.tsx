@@ -1,19 +1,28 @@
+"use client";
 /**
  * Header Component
  * Main navigation header
  */
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Suspense } from "react";
 import { SearchBar } from "./search-bar";
 import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { Img } from "@page-speed/img";
 import { DynamicIcon } from "@opensite/ui";
+import { shouldHideLayout } from "@/lib/tools";
 
 export function Header() {
+  const pathname = usePathname();
+
+  if (shouldHideLayout(pathname)) {
+    return null;
+  }
+
   const searchFallback = (
     <div
-      className="h-[42px] w-full rounded-lg border border-border bg-muted/40"
+      className="h-10.5 w-full rounded-lg border border-border bg-muted/40"
       aria-hidden="true"
     />
   );

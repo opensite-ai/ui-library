@@ -5,6 +5,9 @@ export default function Demo() {
     <FaqSidebarNavigation
       heading="Knowledge Base"
       description="Navigate through our comprehensive FAQ sections using the sidebar menu."
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.5}
+      background="gray"
       categories={[
         {
           id: "getting-started",

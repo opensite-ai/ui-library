@@ -1,4 +1,17 @@
 import { FooterNewsletterMinimal } from "@opensite/ui/blocks/footers/footer-newsletter-minimal";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
+
+const formFields: FormFieldConfig[] = [
+  {
+    name: "email",
+    type: "email",
+    className: "w-full",
+    placeholder: "Enter your email",
+    required: true,
+    columnSpan: 12,
+  },
+];
 
 export default function Demo() {
   return (
@@ -7,19 +20,22 @@ export default function Demo() {
       supportLabel="Need help with your project?"
       supportEmail="hello@designstudio.co"
       navLinks={[
-        { label: "Work", href: "/work" },
-        { label: "Services", href: "/services" },
-        { label: "About", href: "/about" },
-        { label: "Blog", href: "/blog" },
-        { label: "Careers", href: "/careers" },
-        { label: "Contact", href: "/contact" },
+        { label: "Work", href: "#" },
+        { label: "Services", href: "#" },
+        { label: "About", href: "#" },
+        { label: "Blog", href: "#" },
+        { label: "Careers", href: "#" },
+        { label: "Contact", href: "#" },
       ]}
       socialLinks={[
         { label: "Dribbble", href: "https://dribbble.com/designstudio" },
         { label: "Behance", href: "https://behance.net/designstudio" },
         { label: "Instagram", href: "https://instagram.com/designstudio" },
         { label: "Twitter", href: "https://twitter.com/designstudio" },
-        { label: "LinkedIn", href: "https://linkedin.com/company/designstudio" },
+        {
+          label: "LinkedIn",
+          href: "https://linkedin.com/company/designstudio",
+        },
       ]}
       footerLinks={[
         { label: "Privacy", href: "/privacy" },
@@ -28,12 +44,16 @@ export default function Demo() {
         { label: "Accessibility", href: "/accessibility" },
       ]}
       newsletterLabel="Join our creative community"
-      newsletterPlaceholder="YOUR EMAIL ADDRESS"
-      brandText="DESIGN STUDIO"
-      copyright="© 2024 Design Studio Co. Creative excellence since 2015."
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for subscribing! Check your inbox for a confirmation email.",
+      }}
+      brandText="INDUSTRY STANDARD"
+      copyright="Design Studio Co."
       location="San Francisco, California & Remote Worldwide"
       background="dark"
-      spacing="xl"
     />
   );
 }

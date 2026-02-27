@@ -168,13 +168,10 @@
       "title": "Contact Careers Application",
       "componentPath": "blocks/contact/contact-careers.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290561/4j2dmvv4srrj46nfsxubeb29c6mp/contact-careers-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290562/lh7ghsole7r8ei10xr7ehl9roim4/contact-careers-mobile.png"
+        "desktop": "",
+        "mobile": ""
       },
-      "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290561/4j2dmvv4srrj46nfsxubeb29c6mp/contact-careers-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290562/lh7ghsole7r8ei10xr7ehl9roim4/contact-careers-mobile.png"
-      },
+      "preview": {},
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-careers"
     },
@@ -1948,12 +1945,12 @@
       "title": "About Developer Profile",
       "componentPath": "blocks/about/about-developer-profile.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291538/plz2b91kiirxntgym10ig27uf830/cleanshot-2026-02-25-at-23-08-50-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291537/xv22zlwik0hqs50p6nbu3rpbaf73/cleanshot-2026-02-25-at-23-09-20-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291538/plz2b91kiirxntgym10ig27uf830/cleanshot-2026-02-25-at-23-08-50-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291537/xv22zlwik0hqs50p6nbu3rpbaf73/cleanshot-2026-02-25-at-23-09-20-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-profile.tsx"
@@ -2032,12 +2029,12 @@
       "title": "About Mission Features",
       "componentPath": "blocks/about/about-mission-features.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291534/tsmsqzvjndaa64bh3h1f0unc9eiu/cleanshot-2026-02-25-at-19-06-07-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291533/kqb8f5pjitk3ue35acnhvkrbjkx0/cleanshot-2026-02-25-at-19-06-34-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291534/tsmsqzvjndaa64bh3h1f0unc9eiu/cleanshot-2026-02-25-at-19-06-07-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291533/kqb8f5pjitk3ue35acnhvkrbjkx0/cleanshot-2026-02-25-at-19-06-34-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-features.tsx"
@@ -2088,12 +2085,12 @@
       "title": "About Stats Sidebar",
       "componentPath": "blocks/about/about-stats-sidebar.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291536/64j57yikw5ax35wci5ipb9pxung4/cleanshot-2026-02-25-at-22-02-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291535/4z2pacrvobzg28ywxxgp9sjo402q/cleanshot-2026-02-25-at-22-03-07-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291536/64j57yikw5ax35wci5ipb9pxung4/cleanshot-2026-02-25-at-22-02-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291535/4z2pacrvobzg28ywxxgp9sjo402q/cleanshot-2026-02-25-at-22-03-07-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-sidebar.tsx"
@@ -2312,12 +2309,12 @@
       "title": "Article Sidebar Sticky",
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
@@ -2970,12 +2967,12 @@
       "title": "Feature Accordion Image",
       "componentPath": "blocks/features/feature-accordion-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291542/9nm6nxcar91jud4acpc3itkbfjlf/cleanshot-2026-02-25-at-23-15-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291541/mrtxshc4fkmvktct9vbouhk1wncg/cleanshot-2026-02-25-at-23-19-30-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291542/9nm6nxcar91jud4acpc3itkbfjlf/cleanshot-2026-02-25-at-23-15-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291541/mrtxshc4fkmvktct9vbouhk1wncg/cleanshot-2026-02-25-at-23-19-30-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-accordion-image.tsx"
@@ -3096,12 +3093,12 @@
       "title": "FAQ Simple Accordion",
       "componentPath": "blocks/faq/faq-simple-accordion.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291540/2mxtgsl8lj9g465hnkdit4dh4ngi/cleanshot-2026-02-25-at-23-13-40-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291539/zgbu1q0kr1kzzb2xhyerr0v434aj/cleanshot-2026-02-25-at-23-13-53-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291540/2mxtgsl8lj9g465hnkdit4dh4ngi/cleanshot-2026-02-25-at-23-13-40-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291539/zgbu1q0kr1kzzb2xhyerr0v434aj/cleanshot-2026-02-25-at-23-13-53-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-simple-accordion"
@@ -3138,12 +3135,12 @@
       "title": "FAQ Badge Support",
       "componentPath": "blocks/faq/faq-badge-support.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291561/dij9ph18bkv83nuct58xyepj4ph9/cleanshot-2026-02-26-at-21-31-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291560/zgdzj5p1drum8uvlr1pyjkpqlf6e/cleanshot-2026-02-26-at-21-31-46-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291561/dij9ph18bkv83nuct58xyepj4ph9/cleanshot-2026-02-26-at-21-31-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291560/zgdzj5p1drum8uvlr1pyjkpqlf6e/cleanshot-2026-02-26-at-21-31-46-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-badge-support"

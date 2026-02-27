@@ -9,8 +9,26 @@ export default function Demo() {
       badgeIcon="lucide/sparkles"
       heading="Introducing our latest innovation"
       description="Experience the perfect blend of style, functionality, and cutting-edge technology. Designed to elevate your everyday."
+      userCount={{
+        count: "300+",
+        label: "Websites Powered",
+        avatars: [
+          {
+            src: imagePlaceholders[1],
+            alt: "User Avatar 1",
+          },
+          {
+            src: imagePlaceholders[2],
+            alt: "User Avatar 2",
+          },
+          {
+            src: imagePlaceholders[3],
+            alt: "User Avatar 3",
+          },
+        ],
+      }}
       floatingStat={{
-        label: "CLients",
+        label: "Clients",
         value: "300+",
         icon: "lucide/users",
         position: "top-right",
@@ -20,17 +38,20 @@ export default function Demo() {
           label: "Shop Now",
           href: "#",
           variant: "default",
+          size: "lg",
           iconAfter: <DynamicIcon name="lucide/shopping-bag" size={16} />,
         },
         {
           label: "Learn More",
           href: "#",
+          size: "lg",
           variant: "outline",
         },
       ]}
       productImage={{ src: imagePlaceholders[103], alt: "Product showcase" }}
-      spacing="xl"
-      background="gray"
+      background="dark"
+      pattern="diagonalCrossFadeTopLeft"
+      patternOpacity={0.15}
     />
   );
 }

@@ -15,8 +15,12 @@ We believe that great products come from understanding people first. That's why 
       }}
       teamInfo={{
         title: "200+ Team Members",
-        description: "Designers, engineers, and strategists working together across 12 global offices.",
+        description:
+          "Designers, engineers, and strategists working together across 12 global offices.",
       }}
+      background="gray"
+      pattern="gridBasic"
+      patternOpacity={0.9}
     />
   );
 }

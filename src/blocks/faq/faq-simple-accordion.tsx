@@ -4,6 +4,10 @@ export default function Demo() {
   return (
     <FaqSimpleAccordion
       heading="Frequently Asked Questions"
+      description="Find answers to common questions about our product, billing, and support."
+      pattern="p6"
+      patternOpacity={0.9}
+      background="white"
       items={[
         {
           id: "pricing",

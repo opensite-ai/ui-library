@@ -39,10 +39,11 @@ export default function Demo() {
         href: "#",
         variant: "default",
         asButton: true,
+        size: "lg",
         iconAfter: <DynamicIcon name="lucide/arrow-up-right" />,
       }}
       pattern="architect"
-      patternOpacity={0.08}
+      patternOpacity={0.05}
       background="gray"
     />
   );

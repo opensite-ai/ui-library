@@ -8,7 +8,6 @@ import { notFound } from "next/navigation";
 import { getBlockById } from "@/lib/registry";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { BlockIdCopyHotkey } from "@/components/block-id-copy-hotkey";
-import { Badge } from "@/components/ui/badge";
 import { BlockDetailTabs } from "@/components/block-detail-tabs";
 import { openGraphImgUrl } from "@/lib/media";
 import { decodeBlockId, encodeBlockId } from "@/lib/utils";

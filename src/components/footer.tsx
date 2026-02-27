@@ -1,14 +1,24 @@
+"use client";
+
 /**
  * Footer Component
  * Site footer with links and copyright
  */
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { logoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { Img } from "@page-speed/img";
 import { Section } from "@opensite/ui";
+import { shouldHideLayout } from "@/lib/tools";
 
 export function Footer() {
+  const pathname = usePathname();
+
+  if (shouldHideLayout(pathname)) {
+    return null;
+  }
+
   const currentYear = new Date().getFullYear();
 
   return (

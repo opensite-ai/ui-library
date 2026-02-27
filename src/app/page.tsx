@@ -5,6 +5,7 @@
 
 import type { Metadata } from "next";
 import { getAllCategories, getBlockStats } from "@/lib/registry";
+import { SocialShare } from "@page-speed/social-share";
 import { CategoryGrid } from "@/components/category-grid";
 import { openGraphImgUrl } from "@/lib/media";
 import { DynamicIcon, Pressable, Section } from "@opensite/ui";
@@ -70,6 +71,17 @@ export default function HomePage() {
           </Pressable>
         </div>
       </Section>
+      <div className="flex items-center justify-center py-24 bg-white">
+        <SocialShare
+          variant="combo"
+          postTitle="My Demo Page"
+          shareUrl="https://ui.opensite.dev/"
+          summaryContent="Production-ready component library utilized by the OpenSite Semantic UI engine.Strong enough for an AI agent, but made for a designer. 600+ Blocks 97%-100% Google Speed Avg"
+          imgUrls={[openGraphImgUrl]}
+          hashtags={["react", "webdev"]}
+          disableImageAttachments
+        />
+      </div>
     </div>
   );
 }

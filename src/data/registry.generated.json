@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-02-26T01:16:03.328Z",
+    "exportedAt": "2026-02-27T08:13:35.745Z",
     "totalBlocks": 605,
-    "version": "2.4.6",
+    "version": "2.5.4",
     "source": "@opensite/ui",
-    "syncedAt": "2026-02-26T01:19:47.874Z"
+    "syncedAt": "2026-02-27T09:04:00.093Z"
   },
   "blocks": [
     {
@@ -86,12 +86,12 @@
       "categorySlug": "about",
       "description": "A mission-focused about section featuring a hero title, description, main image, mission statement with background image, and a grid of feature cards with icons. Ideal for company about pages that want to highlight their mission and core values.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291534/tsmsqzvjndaa64bh3h1f0unc9eiu/cleanshot-2026-02-25-at-19-06-07-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291533/kqb8f5pjitk3ue35acnhvkrbjkx0/cleanshot-2026-02-25-at-19-06-34-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288987/bklgpc0k4wwrxzmk2d4kvn9gzll3/mission-and-features-website-section-team-collaboration.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288988/16dtz1tv58ktnj3t3ofibkb8blj6/mobile-mission-section-team-collaboration-agency-ui.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291534/tsmsqzvjndaa64bh3h1f0unc9eiu/cleanshot-2026-02-25-at-19-06-07-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291533/kqb8f5pjitk3ue35acnhvkrbjkx0/cleanshot-2026-02-25-at-19-06-34-2x.png"
       },
       "componentPath": "blocks/about/about-mission-features.tsx",
       "code": "import { AboutMissionFeatures } from \"@opensite/ui/blocks/about/about-mission-features\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionFeatures\n      title=\"Transforming Ideas Into Impact\"\n      description=\"We partner with forward-thinking organizations to build digital experiences that drive growth and create lasting value.\"\n      missionLabel=\"Our Mission\"\n      missionText=\"To empower businesses with technology that simplifies complexity, amplifies creativity, and accelerates success in an ever-evolving digital landscape.\"\n      mainImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team working together\",\n      }}\n      missionBackgroundImage={{\n        src: imagePlaceholders[85],\n        alt: \"Abstract background\",\n      }}\n      featuresTitle=\"What Sets Us Apart\"\n      featuresDescription=\"Our unique approach combines deep expertise with genuine partnership to deliver exceptional results.\"\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/target\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Strategic Focus\",\n          description:\n            \"Every project begins with understanding your goals. We align our work with your business objectives to ensure measurable impact.\",\n          href: \"#\",\n        },\n        {\n          icon: (\n            <DynamicIcon name=\"lucide/zap\" size={24} className=\"text-primary\" />\n          ),\n          title: \"Rapid Execution\",\n          description:\n            \"Our agile methodology enables quick iterations and fast time-to-market without compromising on quality.\",\n          href: \"#\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/heart\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Human-Centered\",\n          description:\n            \"We design for people first. Every decision is informed by user research and validated through testing.\",\n          href: \"#\",\n        },\n      ]}\n      pattern=\"p6\"\n      patternOpacity={1}\n      background=\"gray\"\n    />\n  );\n}\n",
@@ -2190,15 +2190,15 @@
       "categorySlug": "about",
       "description": "A developer portfolio-style profile section with avatar, name, role, social links, bio, skills tags, and contact CTA. Perfect for personal portfolios, team member spotlights, or founder profiles on company about pages.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291538/plz2b91kiirxntgym10ig27uf830/cleanshot-2026-02-25-at-23-08-50-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291537/xv22zlwik0hqs50p6nbu3rpbaf73/cleanshot-2026-02-25-at-23-09-20-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289013/wq0mq5vs2dcz508s0a8gr6cdl67l/about-developer-profile-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289014/hhv9tqnijq8f999qet4awpajt6of/about-developer-profile-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291538/plz2b91kiirxntgym10ig27uf830/cleanshot-2026-02-25-at-23-08-50-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291537/xv22zlwik0hqs50p6nbu3rpbaf73/cleanshot-2026-02-25-at-23-09-20-2x.png"
       },
       "componentPath": "blocks/about/about-developer-profile.tsx",
-      "code": "import { AboutDeveloperProfile } from \"@opensite/ui/blocks/about/about-developer-profile\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperProfile\n      avatar={{\n        src: imagePlaceholders[81],\n        alt: \"Alex Thompson\",\n      }}\n      name=\"Alex Thompson\"\n      role=\"Senior Full-Stack Developer\"\n      bio=\"Passionate about building scalable web applications and mentoring the next generation of developers. With over 10 years of experience in software development, I specialize in creating elegant solutions to complex problems.\"\n      skillsTitle=\"Technical Skills\"\n      skills={[\"React\", \"TypeScript\", \"Node.js\", \"PostgreSQL\", \"AWS\"]}\n      socialLinks={[\n        {\n          icon: <DynamicIcon name=\"lucide/github\" size={20} />,\n          href: \"https://github.com\",\n          \"aria-label\": \"GitHub\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/linkedin\" size={20} />,\n          href: \"https://linkedin.com\",\n          \"aria-label\": \"LinkedIn\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/twitter\" size={20} />,\n          href: \"https://twitter.com\",\n          \"aria-label\": \"Twitter\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Contact Me\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/send\" size={16} />,\n        },\n        {\n          label: \"Download Resume\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/download\" size={16} />,\n        },\n      ]}\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { AboutDeveloperProfile } from \"@opensite/ui/blocks/about/about-developer-profile\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperProfile\n      avatar={{\n        src: imagePlaceholders[81],\n        alt: \"Alex Thompson\",\n      }}\n      name=\"Alex Thompson\"\n      role=\"Senior Full-Stack Developer\"\n      bio=\"Passionate about building scalable web applications and mentoring the next generation of developers. With over 10 years of experience in software development, I specialize in creating elegant solutions to complex problems.\"\n      skillsTitle=\"Technical Skills\"\n      skills={[\"React\", \"TypeScript\", \"Node.js\", \"PostgreSQL\", \"AWS\"]}\n      socialLinks={[\n        {\n          href: \"https://instagram.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://youtube.com\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Contact Me\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/send\" size={16} />,\n        },\n        {\n          label: \"Download Resume\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          icon: <DynamicIcon name=\"lucide/download\" size={16} />,\n        },\n      ]}\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -2987,7 +2987,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289010/t2cumkis3cfumuseghi18kio32g2/about-story-hero-mobile.jpg"
       },
       "componentPath": "blocks/about/about-story-hero.tsx",
-      "code": "import { AboutStoryHero } from \"@opensite/ui/blocks/about/about-story-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryHero\n      subtitle=\"About Us\"\n      title=\"We Build Digital Experiences That Matter\"\n      content={`Founded in 2010, we've grown from a small team with big dreams into a global force for digital innovation. Our mission has always been simple: create technology that empowers people and transforms businesses.\n\nWe believe that great products come from understanding people first. That's why we invest deeply in research, collaborate closely with our clients, and never stop iterating until we get it right.`}\n      heroImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team working together\",\n      }}\n      teamInfo={{\n        title: \"200+ Team Members\",\n        description: \"Designers, engineers, and strategists working together across 12 global offices.\",\n      }}\n    />\n  );\n}\n",
+      "code": "import { AboutStoryHero } from \"@opensite/ui/blocks/about/about-story-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryHero\n      subtitle=\"About Us\"\n      title=\"We Build Digital Experiences That Matter\"\n      content={`Founded in 2010, we've grown from a small team with big dreams into a global force for digital innovation. Our mission has always been simple: create technology that empowers people and transforms businesses.\n\nWe believe that great products come from understanding people first. That's why we invest deeply in research, collaborate closely with our clients, and never stop iterating until we get it right.`}\n      heroImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team working together\",\n      }}\n      teamInfo={{\n        title: \"200+ Team Members\",\n        description:\n          \"Designers, engineers, and strategists working together across 12 global offices.\",\n      }}\n      background=\"gray\"\n      pattern=\"gridBasic\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "title": {
           "type": "object",
@@ -3159,12 +3159,12 @@
       "categorySlug": "about",
       "description": "A stats-focused about section with sticky sidebar title/description, stats grid with icons, and feature list. Perfect for showcasing company metrics and key differentiators in a scannable, organized layout.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291536/64j57yikw5ax35wci5ipb9pxung4/cleanshot-2026-02-25-at-22-02-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291535/4z2pacrvobzg28ywxxgp9sjo402q/cleanshot-2026-02-25-at-22-03-07-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288995/9stf36twcay1twxwg7vhr6aq8fs9/business-impact-metrics-kpi-cards-users-satisfaction.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288996/wers0jx6tfpnj45wftzi14kuj7xq/mobile-stats-cards-our-impact-projects-completed-users-reached.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/291536/64j57yikw5ax35wci5ipb9pxung4/cleanshot-2026-02-25-at-22-02-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291535/4z2pacrvobzg28ywxxgp9sjo402q/cleanshot-2026-02-25-at-22-03-07-2x.png"
       },
       "componentPath": "blocks/about/about-stats-sidebar.tsx",
       "code": "import { AboutStatsSidebar } from \"@opensite/ui/blocks/about/about-stats-sidebar\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutStatsSidebar\n      title=\"Our Impact in Numbers\"\n      description=\"We let our results speak for themselves. Here's a snapshot of what we've achieved together with our clients.\"\n      stats={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/briefcase\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"500+\",\n          label: \"Projects Completed\",\n          description: \"Across diverse industries and scales\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"50M+\",\n          label: \"Users Reached\",\n          description: \"Through the products we've built\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/star\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"98%\",\n          label: \"Client Satisfaction\",\n          description: \"Based on post-project surveys\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/globe\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          value: \"30+\",\n          label: \"Countries Served\",\n          description: \"Global reach, local understanding\",\n        },\n      ]}\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/clock\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Fast Turnaround\",\n          description:\n            \"Average project completion 40% faster than industry standard.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/shield-check\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Quality Guaranteed\",\n          description: \"Every project backed by our satisfaction guarantee.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/headphones\"\n              size={20}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Dedicated Support\",\n          description: \"24/7 support available for all enterprise clients.\",\n        },\n      ]}\n      patternOpacity={0.15}\n      pattern=\"diagonalCrossFadeTop\"\n      background=\"dark\"\n    />\n  );\n}\n",
@@ -8480,16 +8480,6 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "newsletterButtonText": {
-          "type": "string",
-          "description": "Newsletter button text",
-          "required": false
-        },
-        "emailPlaceholder": {
-          "type": "string",
-          "description": "Email input placeholder",
-          "required": false
-        },
         "className": {
           "type": "string",
           "description": "Additional CSS classes for the section",
@@ -8570,30 +8560,6 @@
           "description": "Pattern overlay opacity (0-1)",
           "required": false
         },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig",
-          "required": false
-        },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
-          "required": false
-        },
         "optixFlowConfig": {
           "type": "object",
           "description": "Optional Optix Flow configuration for image optimization",
@@ -8610,6 +8576,76 @@
             }
           },
           "typeLabel": "{ apiKey: string; compression?: number; }",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "buttonAction": {
+          "type": "object",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
+          "required": false
+        },
+        "formSlot": {
+          "type": "object",
+          "description": "Custom slot for the form (overrides form props)",
+          "typeLabel": "React.ReactNode",
           "required": false
         }
       },
@@ -8660,17 +8696,6 @@
         "description": {
           "type": "object",
           "description": "Description content below the heading",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
-        "emailPlaceholder": {
-          "type": "string",
-          "description": "Email input placeholder",
-          "required": false
-        },
-        "buttonText": {
-          "type": "object",
-          "description": "Submit button text",
           "typeLabel": "React.ReactNode",
           "required": false
         },
@@ -8786,28 +8811,68 @@
           "description": "Pattern overlay opacity (0-1)",
           "required": false
         },
-        "formConfig": {
+        "formEngineSetup": {
           "type": "object",
-          "description": "Optional form submission configuration.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
           "required": false
         },
-        "onSubmit": {
+        "buttonAction": {
           "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
           "required": false
         }
       },
@@ -12581,7 +12646,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290812/jhjvh0nuok3am3xz8b13hpdunv0i/cleanshot-2026-02-25-at-02-05-54.png"
       },
       "componentPath": "blocks/contact/contact-fitness.tsx",
-      "code": "\"use client\";\n\nimport { ContactFitness } from \"@opensite/ui/blocks/contact/contact-fitness\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"fitness_level\",\n    type: \"radio\",\n    label: \"Current Fitness Level\",\n    required: true,\n    columnSpan: 12,\n    layout: \"stacked\",\n    options: [\n      {\n        value: \"beginner\",\n        label: \"Beginner\",\n        description: \"Just starting out.\",\n      },\n      {\n        value: \"intermediate\",\n        label: \"Intermediate\",\n        description: \"Some experience.\",\n      },\n      {\n        value: \"advanced\",\n        label: \"Advanced\",\n        description: \"Very experienced.\",\n      },\n    ],\n  },\n  {\n    name: \"goals\",\n    type: \"checkbox-group\",\n    label: \"Fitness Goals\",\n    placeholder: \"Select your goals\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"weight-loss\",\n        label: \"Weight Loss\",\n        description: \"Lose weight and body fat.\",\n      },\n      {\n        value: \"muscle-gain\",\n        label: \"Muscle Gain\",\n        description: \"Build strength and muscle.\",\n      },\n      {\n        value: \"endurance\",\n        label: \"Endurance\",\n        description: \"Improve cardiovascular fitness.\",\n      },\n      {\n        value: \"flexibility\",\n        label: \"Flexibility\",\n        description: \"Increase range of motion.\",\n      },\n      {\n        value: \"general-health\",\n        label: \"General Health\",\n        description: \"Overall wellness and health.\",\n      },\n      {\n        value: \"sports-performance\",\n        label: \"Sports Performance\",\n        description: \"Train for specific sport.\",\n      },\n    ],\n  },\n  {\n    name: \"program_interest\",\n    type: \"select\",\n    label: \"Program Interest\",\n    required: true,\n    columnSpan: 12,\n    options: [\n      {\n        value: \"personal-training\",\n        label: \"Personal Training (1-on-1)\",\n      },\n      {\n        value: \"group-classes\",\n        label: \"Group Fitness Classes\",\n      },\n      {\n        value: \"online-coaching\",\n        label: \"Online Coaching\",\n      },\n      {\n        value: \"nutrition\",\n        label: \"Nutrition Coaching\",\n      },\n      {\n        value: \"membership\",\n        label: \"Gym Membership\",\n      },\n    ],\n  },\n  {\n    name: \"start_date\",\n    type: \"date-picker\",\n    label: \"Preferred Start Date\",\n    placeholder: \"When would you like to start?\",\n    required: false,\n    columnSpan: 6,\n  },\n  {\n    name: \"availability\",\n    type: \"select\",\n    label: \"Preferred Training Time\",\n    required: false,\n    columnSpan: 6,\n    options: [\n      {\n        value: \"morning\",\n        label: \"Morning (6 AM - 10 AM)\",\n      },\n      {\n        value: \"midday\",\n        label: \"Midday (10 AM - 2 PM)\",\n      },\n      {\n        value: \"afternoon\",\n        label: \"Afternoon (2 PM - 6 PM)\",\n      },\n      {\n        value: \"evening\",\n        label: \"Evening (6 PM - 9 PM)\",\n      },\n      {\n        value: \"flexible\",\n        label: \"Flexible\",\n      },\n    ],\n  },\n  {\n    name: \"medical_conditions\",\n    type: \"text\",\n    label: \"Medical Conditions or Injuries (Optional)\",\n    placeholder: \"Any conditions we should know about?\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Tell Us More About Your Goals\",\n    placeholder:\n      \"What motivates you? What challenges have you faced? What do you hope to achieve?\",\n    required: false,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactFitness\n      heading=\"Start Your Fitness Journey\"\n      description=\"Ready to transform your health and fitness? Schedule a free consultation with one of our certified trainers and let's create a personalized plan for you.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Get Started\",\n          },\n        },\n      }}\n      background=\"gray\"\n      pattern=\"architect\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "\"use client\";\n\nimport { ContactFitness } from \"@opensite/ui/blocks/contact/contact-fitness\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"fitness_level\",\n    type: \"radio\",\n    label: \"Current Fitness Level\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"beginner\",\n        label: \"Beginner\",\n        description: \"Just starting out\",\n      },\n      {\n        value: \"intermediate\",\n        label: \"Intermediate\",\n        description: \"Some experience\",\n      },\n      {\n        value: \"experienced\",\n        label: \"Experienced\",\n        description: \"Consistent training\",\n      },\n      {\n        value: \"advanced\",\n        label: \"Advanced\",\n        description: \"Very experienced\",\n      },\n    ],\n  },\n  {\n    name: \"goals\",\n    type: \"checkbox-group\",\n    label: \"Fitness Goals\",\n    placeholder: \"Select your goals\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"weight-loss\",\n        label: \"Weight Loss\",\n        description: \"Lose weight and body fat.\",\n      },\n      {\n        value: \"muscle-gain\",\n        label: \"Muscle Gain\",\n        description: \"Build strength and muscle.\",\n      },\n      {\n        value: \"endurance\",\n        label: \"Endurance\",\n        description: \"Improve cardiovascular fitness.\",\n      },\n      {\n        value: \"flexibility\",\n        label: \"Flexibility\",\n        description: \"Increase range of motion.\",\n      },\n      {\n        value: \"general-health\",\n        label: \"General Health\",\n        description: \"Overall wellness and health.\",\n      },\n      {\n        value: \"sports-performance\",\n        label: \"Sports Performance\",\n        description: \"Train for specific sport.\",\n      },\n    ],\n  },\n  {\n    name: \"program_interest\",\n    type: \"select\",\n    label: \"Program Interest\",\n    required: true,\n    columnSpan: 12,\n    options: [\n      {\n        value: \"personal-training\",\n        label: \"Personal Training (1-on-1)\",\n      },\n      {\n        value: \"group-classes\",\n        label: \"Group Fitness Classes\",\n      },\n      {\n        value: \"online-coaching\",\n        label: \"Online Coaching\",\n      },\n      {\n        value: \"nutrition\",\n        label: \"Nutrition Coaching\",\n      },\n      {\n        value: \"membership\",\n        label: \"Gym Membership\",\n      },\n    ],\n  },\n  {\n    name: \"start_date\",\n    type: \"date-picker\",\n    label: \"Preferred Start Date\",\n    placeholder: \"When would you like to start?\",\n    required: false,\n    columnSpan: 6,\n  },\n  {\n    name: \"availability\",\n    type: \"select\",\n    label: \"Preferred Training Time\",\n    required: false,\n    columnSpan: 6,\n    options: [\n      {\n        value: \"morning\",\n        label: \"Morning (6 AM - 10 AM)\",\n      },\n      {\n        value: \"midday\",\n        label: \"Midday (10 AM - 2 PM)\",\n      },\n      {\n        value: \"afternoon\",\n        label: \"Afternoon (2 PM - 6 PM)\",\n      },\n      {\n        value: \"evening\",\n        label: \"Evening (6 PM - 9 PM)\",\n      },\n      {\n        value: \"flexible\",\n        label: \"Flexible\",\n      },\n    ],\n  },\n  {\n    name: \"medical_conditions\",\n    type: \"text\",\n    label: \"Medical Conditions or Injuries (Optional)\",\n    placeholder: \"Any conditions we should know about?\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Tell Us More About Your Goals\",\n    placeholder:\n      \"What motivates you? What challenges have you faced? What do you hope to achieve?\",\n    required: false,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactFitness\n      heading=\"Start Your Fitness Journey\"\n      description=\"Ready to transform your health and fitness? Schedule a free consultation with one of our certified trainers and let's create a personalized plan for you.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for reaching out! One of our trainers will contact you within 24 hours to schedule your free consultation.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Get Started\",\n          },\n        },\n      }}\n      background=\"muted\"\n      pattern=\"architect\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -24918,12 +24983,12 @@
       "categorySlug": "features",
       "description": "Accordion-based feature display with images that change based on the selected accordion item. Two-column layout with accordion on left and dynamic image on right. Smooth transitions between items.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291542/9nm6nxcar91jud4acpc3itkbfjlf/cleanshot-2026-02-25-at-23-15-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291541/mrtxshc4fkmvktct9vbouhk1wncg/cleanshot-2026-02-25-at-23-19-30-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290483/jgf27y5jv0ogh9y34tid0a4hpl6h/feature-accordion-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290482/fqsg4g79n8rf696epvgzez5qzc1l/feature-accordion-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291542/9nm6nxcar91jud4acpc3itkbfjlf/cleanshot-2026-02-25-at-23-15-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291541/mrtxshc4fkmvktct9vbouhk1wncg/cleanshot-2026-02-25-at-23-19-30-2x.png"
       },
       "componentPath": "blocks/features/feature-accordion-image.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FeatureAccordionImage } from \"@opensite/ui/blocks/features/feature-accordion-image\";\n\nexport default function Demo() {\n  return (\n    <FeatureAccordionImage\n      title=\"Frequently Asked Questions\"\n      description=\"Learn more about our platform's features and capabilities. Find answers to the most common questions about implementation, security, and pricing.\"\n      items={[\n        {\n          title: \"How does the deployment process work?\",\n          content:\n            \"Our platform uses a simple git-based workflow. Push your code to your repository, and we automatically build, test, and deploy to our global edge network. You'll have a production URL in seconds, complete with SSL certificates and custom domain support.\",\n          imageSrc: imagePlaceholders[41],\n          imageAlt: \"Deployment workflow\",\n        },\n        {\n          title: \"What security features are included?\",\n          content:\n            \"We provide enterprise-grade security out of the box: automatic SSL/TLS encryption, DDoS protection, WAF (Web Application Firewall), SOC 2 Type II compliance, and regular penetration testing. All data is encrypted at rest and in transit.\",\n          imageSrc: imagePlaceholders[66],\n          imageAlt: \"Security features\",\n        },\n        {\n          title: \"Can I integrate with my existing tools?\",\n          content:\n            \"Yes! We offer native integrations with 50+ popular tools including Slack, GitHub, Jira, Datadog, and more. Our comprehensive API and webhooks let you build custom integrations for any workflow.\",\n          imageSrc: imagePlaceholders[87],\n          imageAlt: \"Integration options\",\n        },\n        {\n          title: \"What kind of support do you offer?\",\n          content:\n            \"All plans include 24/7 email support with < 24 hour response times. Pro and Enterprise plans get priority support with < 1 hour response times, dedicated Slack channels, and quarterly business reviews with our success team.\",\n          imageSrc: imagePlaceholders[109],\n          imageAlt: \"Support options\",\n        },\n      ]}\n      defaultValue=\"item-0\"\n      background=\"white\"\n      pattern=\"gridFadeBottomLeft\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -30141,34 +30206,34 @@
         "mobile": "https://cdn.ing/assets/i/r/290423/zrjyjftl8ldgkc9049atxviv2a6z/footer-social-newsletter-mobile.png"
       },
       "componentPath": "blocks/footers/footer-social-newsletter.tsx",
-      "code": "import { FooterSocialNewsletter } from \"@opensite/ui/blocks/footers/footer-social-newsletter\";\nimport { logoPlaceholders } from \"@/lib/media\";\nimport { demoFormConfig } from \"@/lib/form-demo-data\";\nimport { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Stay in the know!\",\n    description:\n      \"Subscribe to our newsletter for the latest updates and insights.\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n    className: \"w-full\",\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterSocialNewsletter\n      logo={{\n        url: \"/\",\n        src: logoPlaceholders.darkHorizontalLogo,\n        alt: \"CloudSync Logo\",\n        title: \"CloudSync\",\n      }}\n      sections={[\n        {\n          title: \"Product\",\n          links: [\n            { name: \"Features\", href: \"#features\" },\n            { name: \"Pricing\", href: \"#pricing\" },\n            { name: \"Enterprise\", href: \"#enterprise\" },\n            { name: \"Security\", href: \"#security\" },\n            { name: \"Integrations\", href: \"#integrations\" },\n          ],\n        },\n        {\n          title: \"Resources\",\n          links: [\n            { name: \"Documentation\", href: \"#docs\" },\n            { name: \"API Reference\", href: \"#api\" },\n            { name: \"Guides & Tutorials\", href: \"#guides\" },\n            { name: \"Changelog\", href: \"#changelog\" },\n            { name: \"System Status\", href: \"#status\" },\n          ],\n        },\n        {\n          title: \"Community\",\n          links: [\n            { name: \"Blog\", href: \"#blog\" },\n            { name: \"Events\", href: \"#events\" },\n            { name: \"Developer Forum\", href: \"#forum\" },\n            { name: \"Customer Stories\", href: \"#stories\" },\n            { name: \"Open Source\", href: \"#opensource\" },\n          ],\n        },\n        {\n          title: \"Company\",\n          links: [\n            { name: \"About Us\", href: \"#about\" },\n            { name: \"Careers\", href: \"#careers\" },\n            { name: \"Press\", href: \"#press\" },\n            { name: \"Partners\", href: \"#partners\" },\n            { name: \"Contact\", href: \"#contact\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      formFields={formFields}\n      formConfig={{\n        ...demoFormConfig,\n      }}\n      copyright=\"CloudSync LLC\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={1}\n      background=\"white\"\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { FooterSocialNewsletter } from \"@opensite/ui/blocks/footers/footer-social-newsletter\";\nimport { logoPlaceholders } from \"@/lib/media\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterSocialNewsletter\n      logo={{\n        url: \"/\",\n        src: logoPlaceholders.darkHorizontalLogo,\n        alt: \"CloudSync Logo\",\n      }}\n      sections={[\n        {\n          title: \"Product\",\n          links: [\n            { name: \"Features\", href: \"#features\" },\n            { name: \"Pricing\", href: \"#pricing\" },\n            { name: \"Enterprise\", href: \"#enterprise\" },\n            { name: \"Security\", href: \"#security\" },\n            { name: \"Integrations\", href: \"#integrations\" },\n          ],\n        },\n        {\n          title: \"Resources\",\n          links: [\n            { name: \"Documentation\", href: \"#docs\" },\n            { name: \"API Reference\", href: \"#api\" },\n            { name: \"Guides & Tutorials\", href: \"#guides\" },\n            { name: \"Changelog\", href: \"#changelog\" },\n            { name: \"System Status\", href: \"#status\" },\n          ],\n        },\n        {\n          title: \"Community\",\n          links: [\n            { name: \"Blog\", href: \"#blog\" },\n            { name: \"Events\", href: \"#events\" },\n            { name: \"Developer Forum\", href: \"#forum\" },\n            { name: \"Customer Stories\", href: \"#stories\" },\n            { name: \"Open Source\", href: \"#opensource\" },\n          ],\n        },\n        {\n          title: \"Company\",\n          links: [\n            { name: \"About Us\", href: \"#about\" },\n            { name: \"Careers\", href: \"#careers\" },\n            { name: \"Press\", href: \"#press\" },\n            { name: \"Partners\", href: \"#partners\" },\n            { name: \"Contact\", href: \"#contact\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      copyright=\"CloudSync LLC\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={1}\n      background=\"white\"\n    />\n  );\n}\n",
       "propsSchema": {
         "logo": {
           "type": "object",
           "description": "Logo configuration",
           "fields": {
+            "src": {
+              "type": "string",
+              "description": "",
+              "required": true
+            },
             "url": {
               "type": "string",
               "description": "Logo link URL",
-              "required": true
-            },
-            "src": {
-              "type": "string",
-              "description": "Logo image source",
-              "required": true
+              "required": false
             },
             "alt": {
               "type": "string",
-              "description": "Logo alt text",
-              "required": true
+              "description": "Brand title",
+              "required": false
             },
-            "title": {
+            "className": {
               "type": "string",
-              "description": "Logo title/brand name",
-              "required": true
+              "description": "img tag class name",
+              "required": false
             }
           },
-          "typeLabel": "FooterSocialNewsletterLogo",
+          "typeLabel": "{ src: string; /** Logo link URL */ url?: string; /** Brand title */ alt?: string; /** img tag class name */ className?: string; }",
           "required": false
         },
         "sections": {
@@ -30258,11 +30323,6 @@
         "logoWrapperClassName": {
           "type": "string",
           "description": "Additional CSS classes for the logo wrapper",
-          "required": false
-        },
-        "logoClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the logo image",
           "required": false
         },
         "gridClassName": {
@@ -30368,115 +30428,10 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "formFields": {
-          "type": "array",
-          "description": "Form field configuration",
-          "items": {
-            "type": "object",
-            "description": "",
-            "typeLabel": "FormFieldConfig"
-          },
-          "typeLabel": "FormFieldConfig[]",
-          "required": false
-        },
-        "formConfig": {
+        "formEngineSetup": {
           "type": "object",
-          "description": "Form configuration for submission",
-          "typeLabel": "PageSpeedFormConfig",
-          "required": false
-        },
-        "onSubmit": {
-          "type": "object",
-          "description": "Custom submit handler",
-          "typeLabel": "(values: Record<string, any>) => void | Promise<void>",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Success callback",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Error callback",
-          "typeLabel": "(error: Error) => void",
-          "required": false
-        },
-        "successMessage": {
-          "type": "object",
-          "description": "Success message to display",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
-        "buttonAction": {
-          "type": "object",
-          "description": "Submit button configuration",
-          "fields": {
-            "label": {
-              "type": "object",
-              "description": "Button/link label text or ReactNode",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "icon": {
-              "type": "object",
-              "description": "Icon to display (typically before label)",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "iconAfter": {
-              "type": "object",
-              "description": "Icon to display after the label",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "href": {
-              "type": "string",
-              "description": "URL for link behavior",
-              "required": false
-            },
-            "onClick": {
-              "type": "object",
-              "description": "Click handler for button behavior",
-              "typeLabel": "MouseEventHandler",
-              "required": false
-            },
-            "className": {
-              "type": "string",
-              "description": "Additional CSS classes for the action",
-              "required": false
-            },
-            "children": {
-              "type": "object",
-              "description": "Custom children (overrides label + icon rendering)",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "\"aria-label\"": {
-              "type": "string",
-              "description": "ARIA label for accessibility",
-              "required": false
-            },
-            "asButton": {
-              "type": "boolean",
-              "description": "Render as a button element instead of an anchor/link",
-              "required": false
-            }
-          },
-          "typeLabel": "ActionConfig",
-          "required": false
-        },
-        "helperText": {
-          "type": "object",
-          "description": "Helper text below form",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
-        "formSlot": {
-          "type": "object",
-          "description": "Custom slot for form (overrides form props)",
-          "typeLabel": "React.ReactNode",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
           "required": false
         }
       },
@@ -33338,7 +33293,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290445/8eea8pmmzqmnof64aaaf4qgbaodb/footer-newsletter-minimal-mobile.png"
       },
       "componentPath": "blocks/footers/footer-newsletter-minimal.tsx",
-      "code": "import { FooterNewsletterMinimal } from \"@opensite/ui/blocks/footers/footer-newsletter-minimal\";\n\nexport default function Demo() {\n  return (\n    <FooterNewsletterMinimal\n      heading=\"Let's build something extraordinary together\"\n      supportLabel=\"Need help with your project?\"\n      supportEmail=\"hello@designstudio.co\"\n      navLinks={[\n        { label: \"Work\", href: \"/work\" },\n        { label: \"Services\", href: \"/services\" },\n        { label: \"About\", href: \"/about\" },\n        { label: \"Blog\", href: \"/blog\" },\n        { label: \"Careers\", href: \"/careers\" },\n        { label: \"Contact\", href: \"/contact\" },\n      ]}\n      socialLinks={[\n        { label: \"Dribbble\", href: \"https://dribbble.com/designstudio\" },\n        { label: \"Behance\", href: \"https://behance.net/designstudio\" },\n        { label: \"Instagram\", href: \"https://instagram.com/designstudio\" },\n        { label: \"Twitter\", href: \"https://twitter.com/designstudio\" },\n        { label: \"LinkedIn\", href: \"https://linkedin.com/company/designstudio\" },\n      ]}\n      footerLinks={[\n        { label: \"Privacy\", href: \"/privacy\" },\n        { label: \"Terms\", href: \"/terms\" },\n        { label: \"Cookies\", href: \"/cookies\" },\n        { label: \"Accessibility\", href: \"/accessibility\" },\n      ]}\n      newsletterLabel=\"Join our creative community\"\n      newsletterPlaceholder=\"YOUR EMAIL ADDRESS\"\n      brandText=\"DESIGN STUDIO\"\n      copyright=\"© 2024 Design Studio Co. Creative excellence since 2015.\"\n      location=\"San Francisco, California & Remote Worldwide\"\n      background=\"dark\"\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { FooterNewsletterMinimal } from \"@opensite/ui/blocks/footers/footer-newsletter-minimal\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterNewsletterMinimal\n      heading=\"Let's build something extraordinary together\"\n      supportLabel=\"Need help with your project?\"\n      supportEmail=\"hello@designstudio.co\"\n      navLinks={[\n        { label: \"Work\", href: \"#\" },\n        { label: \"Services\", href: \"#\" },\n        { label: \"About\", href: \"#\" },\n        { label: \"Blog\", href: \"#\" },\n        { label: \"Careers\", href: \"#\" },\n        { label: \"Contact\", href: \"#\" },\n      ]}\n      socialLinks={[\n        { label: \"Dribbble\", href: \"https://dribbble.com/designstudio\" },\n        { label: \"Behance\", href: \"https://behance.net/designstudio\" },\n        { label: \"Instagram\", href: \"https://instagram.com/designstudio\" },\n        { label: \"Twitter\", href: \"https://twitter.com/designstudio\" },\n        {\n          label: \"LinkedIn\",\n          href: \"https://linkedin.com/company/designstudio\",\n        },\n      ]}\n      footerLinks={[\n        { label: \"Privacy\", href: \"/privacy\" },\n        { label: \"Terms\", href: \"/terms\" },\n        { label: \"Cookies\", href: \"/cookies\" },\n        { label: \"Accessibility\", href: \"/accessibility\" },\n      ]}\n      newsletterLabel=\"Join our creative community\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      brandText=\"INDUSTRY STANDARD\"\n      copyright=\"Design Studio Co.\"\n      location=\"San Francisco, California & Remote Worldwide\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -33449,11 +33404,6 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "newsletterPlaceholder": {
-          "type": "string",
-          "description": "Newsletter placeholder",
-          "required": false
-        },
         "brandText": {
           "type": "object",
           "description": "Brand text displayed at the bottom",
@@ -33526,19 +33476,14 @@
           "description": "Additional CSS classes for the newsletter section",
           "required": false
         },
+        "newsletterLabelClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the newsletter heading styles",
+          "required": false
+        },
         "newsletterFormClassName": {
           "type": "string",
           "description": "Additional CSS classes for the newsletter form",
-          "required": false
-        },
-        "newsletterInputClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the newsletter input",
-          "required": false
-        },
-        "newsletterButtonClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the newsletter submit button",
           "required": false
         },
         "bottomGridClassName": {
@@ -33584,12 +33529,12 @@
         },
         "containerClassName": {
           "type": "string",
-          "description": "Section spacing variant Additional CSS classes for the container",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "spacing": {
           "type": "object",
-          "description": "",
+          "description": "Section spacing variant",
           "fields": {},
           "typeLabel": "SectionSpacing",
           "required": false
@@ -33604,30 +33549,6 @@
         "patternOpacity": {
           "type": "number",
           "description": "Pattern opacity (0-1)",
-          "required": false
-        },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration.\nRequires `token` to render the newsletter UI.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig & { token: string }",
-          "required": false
-        },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
           "required": false
         },
         "optixFlowConfig": {
@@ -33646,6 +33567,76 @@
             }
           },
           "typeLabel": "OptixFlowConfig",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "buttonAction": {
+          "type": "object",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
+          "required": false
+        },
+        "formSlot": {
+          "type": "object",
+          "description": "Custom slot for the form (overrides form props)",
+          "typeLabel": "React.ReactNode",
           "required": false
         }
       },
@@ -44297,15 +44288,15 @@
       "categorySlug": "article",
       "description": "A two-column article layout with a sticky sidebar containing author information and a back navigation link. The main content area features prose styling with images and blockquotes. Perfect for documentation-style articles or blog posts where persistent author attribution and navigation are important.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289304/njik3t3drma9rerummmaityq073v/article-sidebar-sticky-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289303/3jslo5qcrez6fw7kgml0wlw8gar9/article-sidebar-sticky-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
+        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
       },
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",
-      "code": "import { ArticleSidebarSticky } from \"@opensite/ui/blocks/article/article-sidebar-sticky\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ArticleSidebarSticky\n      backHref=\"#blog\"\n      backText=\"Back to Blog\"\n      title=\"Mastering React Server Components: A Deep Dive\"\n      authorName=\"Emma Thompson\"\n      authorImage={imagePlaceholders[2]}\n      authorHref=\"#author\"\n      publishDate=\"January 18, 2026\"\n      heroImageSrc={imagePlaceholders[56]}\n      heroImageAlt=\"React Server Components architecture\"\n    >\n      <p className=\"lead\">\n        React Server Components represent a fundamental shift in how we build\n        React applications. This comprehensive guide will help you understand\n        the architecture, benefits, and practical implementation strategies.\n      </p>\n\n      <h2>Understanding Server Components</h2>\n      <p>\n        Server Components are a new type of component that runs exclusively on\n        the server. Unlike traditional React components that render on the\n        client, Server Components never ship JavaScript to the browser.\n      </p>\n      <p>\n        This architectural change enables several key benefits: reduced bundle\n        sizes, direct database access, improved security for sensitive\n        operations, and better performance for data-heavy components.\n      </p>\n\n      <h2>The Mental Model Shift</h2>\n      <p>\n        Traditional React development has conditioned us to think about\n        components as universally executable units that can run anywhere. Server\n        Components challenge this assumption and require a new mental model.\n      </p>\n      <blockquote>\n        &ldquo;The best way to understand Server Components is to stop thinking\n        about where code runs and start thinking about when it runs.&rdquo;\n      </blockquote>\n\n      <img\n        src={imagePlaceholders[69]}\n        alt=\"Server Components data flow\"\n        className=\"my-8 aspect-video w-full rounded-lg object-cover\"\n      />\n\n      <h2>Practical Implementation Patterns</h2>\n      <p>When implementing Server Components, consider these best practices:</p>\n      <ul>\n        <li>\n          Keep Server Components focused on data fetching and heavy computation\n        </li>\n        <li>Use Client Components for interactivity and browser APIs</li>\n        <li>Minimize the Server/Client component boundary crossings</li>\n        <li>Leverage streaming for progressive rendering</li>\n        <li>Cache aggressively but invalidate intelligently</li>\n      </ul>\n\n      <h2>Performance Considerations</h2>\n      <p>\n        Server Components shine in scenarios where you need to fetch large\n        amounts of data or perform expensive computations. By moving this work\n        to the server, you eliminate client-side waterfalls and reduce\n        JavaScript bundle sizes.\n      </p>\n      <p>\n        However, they're not a silver bullet. Interactive components still need\n        client-side JavaScript, and you'll need to carefully architect your\n        component tree to optimize the balance between server and client\n        rendering.\n      </p>\n\n      <h2>Real-World Use Cases</h2>\n      <p>We've seen tremendous success using Server Components for:</p>\n      <ul>\n        <li>Dashboard pages with complex data aggregation</li>\n        <li>E-commerce product pages with dynamic pricing</li>\n        <li>Content-heavy marketing pages</li>\n        <li>Admin interfaces with sensitive operations</li>\n      </ul>\n\n      <h2>Looking Ahead</h2>\n      <p>\n        Server Components are still evolving, with new patterns and best\n        practices emerging regularly. The React team continues to refine the\n        implementation and developer experience.\n      </p>\n      <p>\n        As the ecosystem matures, we expect to see more libraries and frameworks\n        built specifically for Server Components, making them even more powerful\n        and easier to use.\n      </p>\n    </ArticleSidebarSticky>\n  );\n}\n",
+      "code": "import { ArticleSidebarSticky } from \"@opensite/ui/blocks/article/article-sidebar-sticky\";\nimport { imagePlaceholders, optixFlowApiKey } from \"@/lib/media\";\nimport { Img } from \"@page-speed/img\";\n\nexport default function Demo() {\n  return (\n    <ArticleSidebarSticky\n      backHref=\"#\"\n      backText=\"Back to Blog\"\n      title=\"Mastering React Server Components: A Deep Dive\"\n      authorName=\"Emma Thompson\"\n      authorImage={imagePlaceholders[2]}\n      authorHref=\"#\"\n      publishDate=\"January 18, 2026\"\n      heroImageSrc={imagePlaceholders[56]}\n      heroImageAlt=\"React Server Components architecture\"\n      background=\"white\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={1}\n    >\n      <p className=\"lead\">\n        React Server Components represent a fundamental shift in how we build\n        React applications. This comprehensive guide will help you understand\n        the architecture, benefits, and practical implementation strategies.\n      </p>\n\n      <h2>Understanding Server Components</h2>\n      <p>\n        Server Components are a new type of component that runs exclusively on\n        the server. Unlike traditional React components that render on the\n        client, Server Components never ship JavaScript to the browser.\n      </p>\n      <p>\n        This architectural change enables several key benefits: reduced bundle\n        sizes, direct database access, improved security for sensitive\n        operations, and better performance for data-heavy components.\n      </p>\n\n      <h2>The Mental Model Shift</h2>\n      <p>\n        Traditional React development has conditioned us to think about\n        components as universally executable units that can run anywhere. Server\n        Components challenge this assumption and require a new mental model.\n      </p>\n      <blockquote>\n        &ldquo;The best way to understand Server Components is to stop thinking\n        about where code runs and start thinking about when it runs.&rdquo;\n      </blockquote>\n\n      <Img\n        src={imagePlaceholders[69]}\n        alt=\"Server Components data flow\"\n        className=\"my-8 aspect-video w-full rounded-xl object-cover shadow-lg\"\n        optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n      />\n\n      <h2>Practical Implementation Patterns</h2>\n      <p>When implementing Server Components, consider these best practices:</p>\n      <ul>\n        <li>\n          Keep Server Components focused on data fetching and heavy computation\n        </li>\n        <li>Use Client Components for interactivity and browser APIs</li>\n        <li>Minimize the Server/Client component boundary crossings</li>\n        <li>Leverage streaming for progressive rendering</li>\n        <li>Cache aggressively but invalidate intelligently</li>\n      </ul>\n\n      <h2>Performance Considerations</h2>\n      <p>\n        Server Components shine in scenarios where you need to fetch large\n        amounts of data or perform expensive computations. By moving this work\n        to the server, you eliminate client-side waterfalls and reduce\n        JavaScript bundle sizes.\n      </p>\n      <p>\n        However, they're not a silver bullet. Interactive components still need\n        client-side JavaScript, and you'll need to carefully architect your\n        component tree to optimize the balance between server and client\n        rendering.\n      </p>\n\n      <h2>Real-World Use Cases</h2>\n      <p>We've seen tremendous success using Server Components for:</p>\n      <ul>\n        <li>Dashboard pages with complex data aggregation</li>\n        <li>E-commerce product pages with dynamic pricing</li>\n        <li>Content-heavy marketing pages</li>\n        <li>Admin interfaces with sensitive operations</li>\n      </ul>\n\n      <h2>Looking Ahead</h2>\n      <p>\n        Server Components are still evolving, with new patterns and best\n        practices emerging regularly. The React team continues to refine the\n        implementation and developer experience.\n      </p>\n      <p>\n        As the ecosystem matures, we expect to see more libraries and frameworks\n        built specifically for Server Components, making them even more powerful\n        and easier to use.\n      </p>\n    </ArticleSidebarSticky>\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -44330,6 +44321,17 @@
         "titleClassName": {
           "type": "string",
           "description": "Additional CSS classes for the title",
+          "required": false
+        },
+        "summary": {
+          "type": "object",
+          "description": "Optional Summary to be placed below the title",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "summaryClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the summary",
           "required": false
         },
         "authorClassName": {
@@ -44422,6 +44424,12 @@
         "children": {
           "type": "object",
           "description": "Article body content (replaces hardcoded prose)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "sidebarContent": {
+          "type": "object",
+          "description": "Sidebar content",
           "typeLabel": "React.ReactNode",
           "required": false
         },
@@ -45135,7 +45143,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
       },
       "componentPath": "blocks/article/article-compact-toc.tsx",
-      "code": "import { ArticleCompactToc } from \"@opensite/ui/blocks/article/article-compact-toc\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\n/**\n * ArticleCompactToc Demo\n *\n * Key Feature: Mobile-optimized collapsible Table of Contents\n * - TOC appears below the article meta on mobile/tablet screens\n * - Click \"Table of Contents\" button to expand/collapse navigation\n * - Automatically tracks active section as you scroll\n * - Sections are linked and clickable for quick navigation\n *\n * To see the TOC in action: resize your browser to mobile width (< 1024px)\n */\nexport default function Demo() {\n  return (\n    <ArticleCompactToc\n      breadcrumbs={[\n        { label: \"Research\", href: \"#research\" },\n        { label: \"Studies\", href: \"#studies\" },\n      ]}\n      currentPage=\"User Behavior Analysis\"\n      title=\"Understanding User Behavior in Modern Web Applications\"\n      authorName=\"Dr. Jennifer Park\"\n      authorHref=\"#author\"\n      publishDate=\"January 22, 2026\"\n      readTime=\"8 min read\"\n      heroImageSrc={imagePlaceholders[5]}\n      heroImageAlt=\"User behavior analytics visualization\"\n      sections={[\n        { id: \"introduction\", title: \"Introduction\" },\n        { id: \"methodology\", title: \"Methodology\" },\n        { id: \"results\", title: \"Results\" },\n        { id: \"discussion\", title: \"Discussion\" },\n        { id: \"conclusion\", title: \"Conclusion\" },\n      ]}\n      socialLinks={[\n        {\n          platform: \"twitter\",\n          href: \"https://twitter.com/share\",\n          icon: undefined,\n          \"aria-label\": \"Share on Twitter\",\n        },\n        {\n          platform: \"linkedin\",\n          href: \"https://linkedin.com/share\",\n          icon: undefined,\n          \"aria-label\": \"Share on LinkedIn\",\n        },\n      ]}\n      enableTocTracking={true}\n    >\n      <section id=\"introduction\">\n        <h2>Introduction</h2>\n        <p>\n          Understanding user behavior is fundamental to creating effective web\n          applications. This study examines patterns in user interaction and\n          provides insights for improving user experience across desktop,\n          mobile, and tablet devices.\n        </p>\n        <p>\n          Our research focuses on identifying key factors that influence user\n          engagement and satisfaction in modern web applications. We analyzed\n          data from over 10,000 users across diverse demographics, tracking\n          their interactions over a six-month period.\n        </p>\n        <p>\n          The rapid evolution of web technologies and changing user expectations\n          have made it increasingly important to understand how users interact\n          with digital interfaces. This study aims to bridge the gap between\n          theoretical UX principles and real-world user behavior.\n        </p>\n      </section>\n\n      <section id=\"methodology\">\n        <h2>Methodology</h2>\n        <p>\n          We employed a mixed-methods approach combining quantitative analytics\n          with qualitative user interviews. Data was collected from over 10,000\n          users across diverse demographics and device types, including\n          smartphones, tablets, and desktop computers.\n        </p>\n        <p>\n          Statistical analysis was performed using industry-standard tools to\n          ensure reliability and validity of our findings. We tracked user\n          interactions, time on page, bounce rates, conversion metrics, and\n          scroll depth patterns.\n        </p>\n        <img\n          src={imagePlaceholders[18]}\n          alt=\"Research methodology diagram\"\n          className=\"my-8 aspect-video w-full rounded-lg object-cover\"\n        />\n        <p>\n          Our participant pool was carefully selected to represent a wide range\n          of technical proficiency levels, from novice users to power users.\n          This diversity allowed us to identify patterns that apply broadly\n          across user segments.\n        </p>\n      </section>\n\n      <section id=\"results\">\n        <h2>Results</h2>\n        <p>\n          Our findings reveal several key patterns in user behavior that have\n          significant implications for web design and development:\n        </p>\n        <ul>\n          <li>\n            Users prefer intuitive navigation over complex menus, with 78%\n            abandoning sites with confusing navigation\n          </li>\n          <li>\n            Page load time significantly impacts engagement rates - each\n            additional second of load time reduces engagement by 11%\n          </li>\n          <li>\n            Mobile-first design improves overall satisfaction scores by 43%\n            across all device types\n          </li>\n          <li>\n            Clear calls-to-action increase conversion rates by 34% on average\n          </li>\n          <li>\n            Personalized content drives 2.5x more engagement than generic\n            content\n          </li>\n          <li>\n            Accessible design benefits all users, not just those with\n            disabilities\n          </li>\n        </ul>\n        <p>\n          These patterns held true across different age groups and device types,\n          suggesting universal principles for effective web design. The data\n          shows that investing in user experience delivers measurable business\n          results.\n        </p>\n        <p>\n          Interestingly, we found that users form opinions about website\n          credibility within the first 50 milliseconds of exposure, highlighting\n          the importance of first impressions in web design.\n        </p>\n      </section>\n\n      <section id=\"discussion\">\n        <h2>Discussion</h2>\n        <p>\n          These results align with existing literature while providing new\n          insights into emerging user expectations. The implications for web\n          development practices are significant and actionable.\n        </p>\n        <blockquote>\n          &ldquo;User experience is not just about usability—it&apos;s about\n          creating meaningful interactions that resonate with users and drive\n          business outcomes.&rdquo;\n        </blockquote>\n        <p>\n          Our findings suggest that developers should prioritize performance,\n          simplicity, and personalization when building web applications. The\n          data shows clear ROI for investments in UX research and optimization,\n          with companies reporting up to 400% returns on UX investments.\n        </p>\n        <p>\n          The study also revealed that responsive design is no longer optional\n          but essential, as users increasingly expect seamless experiences\n          across all devices. Mobile traffic now accounts for more than 60% of\n          web traffic globally.\n        </p>\n      </section>\n\n      <section id=\"conclusion\">\n        <h2>Conclusion</h2>\n        <p>\n          This study provides actionable insights for developers and designers\n          seeking to improve user experience. Future research should explore the\n          impact of emerging technologies like AI, voice interfaces, and\n          augmented reality on user behavior patterns.\n        </p>\n        <p>\n          By understanding and applying these principles, teams can create web\n          applications that not only meet user expectations but exceed them,\n          driving engagement and business outcomes. The evidence is clear: user\n          experience is a competitive advantage.\n        </p>\n        <p>\n          We recommend that organizations invest in continuous user research,\n          performance optimization, and accessibility improvements. These\n          investments pay dividends in user satisfaction, engagement, and\n          ultimately, business success.\n        </p>\n      </section>\n    </ArticleCompactToc>\n  );\n}\n",
+      "code": "import { ArticleCompactToc } from \"@opensite/ui/blocks/article/article-compact-toc\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\n/**\n * ArticleCompactToc Demo\n *\n * Key Feature: Mobile-optimized collapsible Table of Contents\n * - TOC appears below the article meta on mobile/tablet screens\n * - Click \"Table of Contents\" button to expand/collapse navigation\n * - Automatically tracks active section as you scroll\n * - Sections are linked and clickable for quick navigation\n *\n * To see the TOC in action: resize your browser to mobile width (< 1024px)\n */\nexport default function Demo() {\n  return (\n    <ArticleCompactToc\n      breadcrumbs={[\n        { label: \"Research\", href: \"#research\" },\n        { label: \"Studies\", href: \"#studies\" },\n      ]}\n      currentPage=\"User Behavior Analysis\"\n      title=\"Understanding User Behavior in Modern Web Applications\"\n      authorName=\"Dr. Jennifer Park\"\n      authorHref=\"#author\"\n      publishDate=\"January 22, 2026\"\n      readTime=\"8 min read\"\n      heroImageSrc={imagePlaceholders[5]}\n      heroImageAlt=\"User behavior analytics visualization\"\n      sections={[\n        { id: \"introduction\", title: \"Introduction\" },\n        { id: \"methodology\", title: \"Methodology\" },\n        { id: \"results\", title: \"Results\" },\n        { id: \"discussion\", title: \"Discussion\" },\n        { id: \"conclusion\", title: \"Conclusion\" },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://instagram.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://youtube.com\",\n        },\n      ]}\n      enableTocTracking={true}\n    >\n      <section id=\"introduction\">\n        <h2>Introduction</h2>\n        <p>\n          Understanding user behavior is fundamental to creating effective web\n          applications. This study examines patterns in user interaction and\n          provides insights for improving user experience across desktop,\n          mobile, and tablet devices.\n        </p>\n        <p>\n          Our research focuses on identifying key factors that influence user\n          engagement and satisfaction in modern web applications. We analyzed\n          data from over 10,000 users across diverse demographics, tracking\n          their interactions over a six-month period.\n        </p>\n        <p>\n          The rapid evolution of web technologies and changing user expectations\n          have made it increasingly important to understand how users interact\n          with digital interfaces. This study aims to bridge the gap between\n          theoretical UX principles and real-world user behavior.\n        </p>\n      </section>\n\n      <section id=\"methodology\">\n        <h2>Methodology</h2>\n        <p>\n          We employed a mixed-methods approach combining quantitative analytics\n          with qualitative user interviews. Data was collected from over 10,000\n          users across diverse demographics and device types, including\n          smartphones, tablets, and desktop computers.\n        </p>\n        <p>\n          Statistical analysis was performed using industry-standard tools to\n          ensure reliability and validity of our findings. We tracked user\n          interactions, time on page, bounce rates, conversion metrics, and\n          scroll depth patterns.\n        </p>\n        <img\n          src={imagePlaceholders[18]}\n          alt=\"Research methodology diagram\"\n          className=\"my-8 aspect-video w-full rounded-lg object-cover\"\n        />\n        <p>\n          Our participant pool was carefully selected to represent a wide range\n          of technical proficiency levels, from novice users to power users.\n          This diversity allowed us to identify patterns that apply broadly\n          across user segments.\n        </p>\n      </section>\n\n      <section id=\"results\">\n        <h2>Results</h2>\n        <p>\n          Our findings reveal several key patterns in user behavior that have\n          significant implications for web design and development:\n        </p>\n        <ul>\n          <li>\n            Users prefer intuitive navigation over complex menus, with 78%\n            abandoning sites with confusing navigation\n          </li>\n          <li>\n            Page load time significantly impacts engagement rates - each\n            additional second of load time reduces engagement by 11%\n          </li>\n          <li>\n            Mobile-first design improves overall satisfaction scores by 43%\n            across all device types\n          </li>\n          <li>\n            Clear calls-to-action increase conversion rates by 34% on average\n          </li>\n          <li>\n            Personalized content drives 2.5x more engagement than generic\n            content\n          </li>\n          <li>\n            Accessible design benefits all users, not just those with\n            disabilities\n          </li>\n        </ul>\n        <p>\n          These patterns held true across different age groups and device types,\n          suggesting universal principles for effective web design. The data\n          shows that investing in user experience delivers measurable business\n          results.\n        </p>\n        <p>\n          Interestingly, we found that users form opinions about website\n          credibility within the first 50 milliseconds of exposure, highlighting\n          the importance of first impressions in web design.\n        </p>\n      </section>\n\n      <section id=\"discussion\">\n        <h2>Discussion</h2>\n        <p>\n          These results align with existing literature while providing new\n          insights into emerging user expectations. The implications for web\n          development practices are significant and actionable.\n        </p>\n        <blockquote>\n          &ldquo;User experience is not just about usability—it&apos;s about\n          creating meaningful interactions that resonate with users and drive\n          business outcomes.&rdquo;\n        </blockquote>\n        <p>\n          Our findings suggest that developers should prioritize performance,\n          simplicity, and personalization when building web applications. The\n          data shows clear ROI for investments in UX research and optimization,\n          with companies reporting up to 400% returns on UX investments.\n        </p>\n        <p>\n          The study also revealed that responsive design is no longer optional\n          but essential, as users increasingly expect seamless experiences\n          across all devices. Mobile traffic now accounts for more than 60% of\n          web traffic globally.\n        </p>\n      </section>\n\n      <section id=\"conclusion\">\n        <h2>Conclusion</h2>\n        <p>\n          This study provides actionable insights for developers and designers\n          seeking to improve user experience. Future research should explore the\n          impact of emerging technologies like AI, voice interfaces, and\n          augmented reality on user behavior patterns.\n        </p>\n        <p>\n          By understanding and applying these principles, teams can create web\n          applications that not only meet user expectations but exceed them,\n          driving engagement and business outcomes. The evidence is clear: user\n          experience is a competitive advantage.\n        </p>\n        <p>\n          We recommend that organizations invest in continuous user research,\n          performance optimization, and accessibility improvements. These\n          investments pay dividends in user satisfaction, engagement, and\n          ultimately, business success.\n        </p>\n      </section>\n    </ArticleCompactToc>\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -45467,7 +45475,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
       },
       "componentPath": "blocks/article/article-chapters-author.tsx",
-      "code": "import { ArticleChaptersAuthor } from \"@opensite/ui/blocks/article/article-chapters-author\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ArticleChaptersAuthor\n      breadcrumbs={[\n        { label: \"Resources\", href: \"#resources\" },\n        { label: \"Guides\", href: \"#guides\" },\n      ]}\n      currentPage=\"Design Patterns\"\n      title=\"The Complete Guide to Design Patterns\"\n      subtitle=\"Master the fundamental patterns that power modern software architecture\"\n      heroImageSrc={imagePlaceholders[73]}\n      heroImageAlt=\"Software architecture visualization\"\n      chapters={[\n        { id: \"chapter-1\", number: 1, title: \"The Foundation\" },\n        { id: \"chapter-2\", number: 2, title: \"Building Blocks\" },\n        { id: \"chapter-3\", number: 3, title: \"Advanced Patterns\" },\n        { id: \"chapter-4\", number: 4, title: \"Real-World Applications\" },\n        { id: \"chapter-5\", number: 5, title: \"Future Directions\" },\n      ]}\n      author={{\n        name: \"Dr. Marcus Chen\",\n        role: \"Principal Engineer\",\n        image: imagePlaceholders[88],\n        bio: \"Marcus has over 15 years of experience designing large-scale distributed systems. He's the author of three books on software architecture and a frequent speaker at tech conferences.\",\n        socialLinks: [\n          {\n            platform: \"twitter\",\n            href: \"https://twitter.com/marcuschen\",\n            icon: undefined,\n            \"aria-label\": \"Follow Marcus on Twitter\",\n          },\n          {\n            platform: \"linkedin\",\n            href: \"https://linkedin.com/in/marcuschen\",\n            icon: undefined,\n            \"aria-label\": \"Connect with Marcus on LinkedIn\",\n          },\n          {\n            platform: \"github\",\n            href: \"https://github.com/marcuschen\",\n            icon: undefined,\n            \"aria-label\": \"View Marcus's GitHub\",\n          },\n        ],\n      }}\n      conclusionTitle=\"Ready to Master Design Patterns?\"\n      conclusionDescription=\"Take your software architecture skills to the next level with our comprehensive course and interactive workshops.\"\n      conclusionActions={[\n        {\n          label: \"Enroll in Course\",\n          href: \"#enroll\",\n          variant: \"default\",\n        },\n        {\n          label: \"Download Resources\",\n          href: \"#download\",\n          variant: \"outline\",\n        },\n      ]}\n      enableChapterTracking={true}\n    >\n      <section id=\"chapter-1\">\n        <h2>Chapter 1: The Foundation</h2>\n        <p>\n          Design patterns are reusable solutions to common problems in software\n          design. They represent best practices evolved over time by experienced\n          software developers.\n        </p>\n        <p>\n          Understanding the foundation of design patterns helps you recognize\n          when and how to apply them effectively in your own projects. Each\n          pattern addresses a specific problem and provides a proven solution.\n        </p>\n      </section>\n\n      <section id=\"chapter-2\">\n        <h2>Chapter 2: Building Blocks</h2>\n        <p>\n          The building blocks of design patterns include creational, structural,\n          and behavioral patterns. Each category addresses different aspects of\n          software design.\n        </p>\n        <img\n          src={imagePlaceholders[91]}\n          alt=\"Pattern categories diagram\"\n          className=\"my-8 aspect-video w-full rounded-lg object-cover\"\n        />\n        <p>\n          Creational patterns deal with object creation mechanisms, structural\n          patterns focus on class composition, and behavioral patterns\n          characterize object interaction and responsibility distribution.\n        </p>\n      </section>\n\n      <section id=\"chapter-3\">\n        <h2>Chapter 3: Advanced Patterns</h2>\n        <p>\n          Advanced patterns build upon the fundamentals to address more complex\n          scenarios. These include patterns for concurrency, distributed systems,\n          and enterprise applications.\n        </p>\n        <blockquote>\n          &ldquo;Patterns are not invented, they are discovered.&rdquo; -\n          Christopher Alexander\n        </blockquote>\n        <p>\n          As you gain experience, you'll start recognizing patterns in existing\n          codebases and know when to apply specific patterns to solve particular\n          problems.\n        </p>\n      </section>\n\n      <section id=\"chapter-4\">\n        <h2>Chapter 4: Real-World Applications</h2>\n        <p>\n          Seeing patterns in action helps solidify understanding. This chapter\n          explores how major frameworks and libraries implement design patterns.\n        </p>\n        <ul>\n          <li>React&apos;s use of the Observer pattern with hooks</li>\n          <li>Express.js middleware as Chain of Responsibility</li>\n          <li>Redux implementing the Flux pattern</li>\n          <li>Dependency injection in Angular and NestJS</li>\n          <li>Factory patterns in popular UI libraries</li>\n        </ul>\n      </section>\n\n      <section id=\"chapter-5\">\n        <h2>Chapter 5: Future Directions</h2>\n        <p>\n          As software development evolves, new patterns emerge while others\n          become less relevant. Understanding the principles behind patterns\n          helps you adapt to changing technologies.\n        </p>\n        <p>\n          The rise of functional programming, microservices, and serverless\n          architectures has introduced new patterns and variations on classic\n          ones. Stay curious and keep learning.\n        </p>\n      </section>\n    </ArticleChaptersAuthor>\n  );\n}\n",
+      "code": "import { ArticleChaptersAuthor } from \"@opensite/ui/blocks/article/article-chapters-author\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ArticleChaptersAuthor\n      breadcrumbs={[\n        { label: \"Resources\", href: \"#resources\" },\n        { label: \"Guides\", href: \"#guides\" },\n      ]}\n      currentPage=\"Design Patterns\"\n      title=\"The Complete Guide to Design Patterns\"\n      subtitle=\"Master the fundamental patterns that power modern software architecture\"\n      heroImageSrc={imagePlaceholders[73]}\n      heroImageAlt=\"Software architecture visualization\"\n      chapters={[\n        { id: \"chapter-1\", number: 1, title: \"The Foundation\" },\n        { id: \"chapter-2\", number: 2, title: \"Building Blocks\" },\n        { id: \"chapter-3\", number: 3, title: \"Advanced Patterns\" },\n        { id: \"chapter-4\", number: 4, title: \"Real-World Applications\" },\n        { id: \"chapter-5\", number: 5, title: \"Future Directions\" },\n      ]}\n      author={{\n        name: \"Dr. Marcus Chen\",\n        role: \"Principal Engineer\",\n        image: imagePlaceholders[88],\n        bio: \"Marcus has over 15 years of experience designing large-scale distributed systems. He's the author of three books on software architecture and a frequent speaker at tech conferences.\",\n        socialLinks: [\n          {\n            href: \"https://instagram.com\",\n          },\n          {\n            href: \"https://twitter.com\",\n          },\n          {\n            href: \"https://linkedin.com\",\n          },\n          {\n            href: \"https://youtube.com\",\n          },\n        ],\n      }}\n      conclusionTitle=\"Ready to Master Design Patterns?\"\n      conclusionDescription=\"Take your software architecture skills to the next level with our comprehensive course and interactive workshops.\"\n      conclusionActions={[\n        {\n          label: \"Enroll in Course\",\n          href: \"#enroll\",\n          variant: \"default\",\n        },\n        {\n          label: \"Download Resources\",\n          href: \"#download\",\n          variant: \"outline\",\n        },\n      ]}\n      enableChapterTracking={true}\n    >\n      <section id=\"chapter-1\">\n        <h2>Chapter 1: The Foundation</h2>\n        <p>\n          Design patterns are reusable solutions to common problems in software\n          design. They represent best practices evolved over time by experienced\n          software developers.\n        </p>\n        <p>\n          Understanding the foundation of design patterns helps you recognize\n          when and how to apply them effectively in your own projects. Each\n          pattern addresses a specific problem and provides a proven solution.\n        </p>\n      </section>\n\n      <section id=\"chapter-2\">\n        <h2>Chapter 2: Building Blocks</h2>\n        <p>\n          The building blocks of design patterns include creational, structural,\n          and behavioral patterns. Each category addresses different aspects of\n          software design.\n        </p>\n        <img\n          src={imagePlaceholders[91]}\n          alt=\"Pattern categories diagram\"\n          className=\"my-8 aspect-video w-full rounded-lg object-cover\"\n        />\n        <p>\n          Creational patterns deal with object creation mechanisms, structural\n          patterns focus on class composition, and behavioral patterns\n          characterize object interaction and responsibility distribution.\n        </p>\n      </section>\n\n      <section id=\"chapter-3\">\n        <h2>Chapter 3: Advanced Patterns</h2>\n        <p>\n          Advanced patterns build upon the fundamentals to address more complex\n          scenarios. These include patterns for concurrency, distributed\n          systems, and enterprise applications.\n        </p>\n        <blockquote>\n          &ldquo;Patterns are not invented, they are discovered.&rdquo; -\n          Christopher Alexander\n        </blockquote>\n        <p>\n          As you gain experience, you'll start recognizing patterns in existing\n          codebases and know when to apply specific patterns to solve particular\n          problems.\n        </p>\n      </section>\n\n      <section id=\"chapter-4\">\n        <h2>Chapter 4: Real-World Applications</h2>\n        <p>\n          Seeing patterns in action helps solidify understanding. This chapter\n          explores how major frameworks and libraries implement design patterns.\n        </p>\n        <ul>\n          <li>React&apos;s use of the Observer pattern with hooks</li>\n          <li>Express.js middleware as Chain of Responsibility</li>\n          <li>Redux implementing the Flux pattern</li>\n          <li>Dependency injection in Angular and NestJS</li>\n          <li>Factory patterns in popular UI libraries</li>\n        </ul>\n      </section>\n\n      <section id=\"chapter-5\">\n        <h2>Chapter 5: Future Directions</h2>\n        <p>\n          As software development evolves, new patterns emerge while others\n          become less relevant. Understanding the principles behind patterns\n          helps you adapt to changing technologies.\n        </p>\n        <p>\n          The rise of functional programming, microservices, and serverless\n          architectures has introduced new patterns and variations on classic\n          ones. Stay curious and keep learning.\n        </p>\n      </section>\n    </ArticleChaptersAuthor>\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -46130,15 +46138,15 @@
       "categorySlug": "faq",
       "description": "A clean, minimal FAQ section with collapsible accordion items. Features a bold heading followed by expandable question-answer pairs with smooth animations. Best suited for straightforward FAQ pages where users need quick access to common questions without visual clutter.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291540/2mxtgsl8lj9g465hnkdit4dh4ngi/cleanshot-2026-02-25-at-23-13-40-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291539/zgbu1q0kr1kzzb2xhyerr0v434aj/cleanshot-2026-02-25-at-23-13-53-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289140/is8sr6vdhdpgmj4luis4z0wsg3xy/blocks-faq-simple-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289139/qs8wzoll06gvja3hjo041eogf7lu/blocks-faq-simple-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291540/2mxtgsl8lj9g465hnkdit4dh4ngi/cleanshot-2026-02-25-at-23-13-40-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291539/zgbu1q0kr1kzzb2xhyerr0v434aj/cleanshot-2026-02-25-at-23-13-53-2x.png"
       },
       "componentPath": "blocks/faq/faq-simple-accordion.tsx",
-      "code": "import { FaqSimpleAccordion } from \"@opensite/ui/blocks/faq/faq-simple-accordion\";\n\nexport default function Demo() {\n  return (\n    <FaqSimpleAccordion\n      heading=\"Frequently Asked Questions\"\n      items={[\n        {\n          id: \"pricing\",\n          question: \"What pricing plans do you offer?\",\n          answer:\n            \"We offer three flexible pricing plans to suit businesses of all sizes: Starter ($29/month), Professional ($99/month), and Enterprise (custom pricing). All plans include core features with varying limits on users, storage, and advanced capabilities.\",\n        },\n        {\n          id: \"trial\",\n          question: \"Is there a free trial available?\",\n          answer:\n            \"Yes! We offer a 14-day free trial with full access to all Professional plan features. No credit card required to start your trial, and you can cancel anytime.\",\n        },\n        {\n          id: \"integration\",\n          question: \"What integrations are supported?\",\n          answer:\n            \"We integrate with over 50+ popular tools including Slack, Salesforce, HubSpot, Google Workspace, Microsoft Teams, Zoom, and many more. Our API also allows for custom integrations.\",\n        },\n        {\n          id: \"data-security\",\n          question: \"How do you handle data security?\",\n          answer:\n            \"We take security seriously with SOC 2 Type II certification, end-to-end encryption, regular security audits, and compliance with GDPR, CCPA, and HIPAA standards. Your data is stored in secure, redundant data centers.\",\n        },\n        {\n          id: \"support\",\n          question: \"What kind of support do you provide?\",\n          answer:\n            \"All plans include email support with 24-hour response time. Professional and Enterprise plans get priority support, live chat, phone support, and a dedicated account manager for Enterprise customers.\",\n        },\n        {\n          id: \"cancel\",\n          question: \"Can I cancel my subscription at any time?\",\n          answer:\n            \"Absolutely. You can cancel your subscription at any time from your account settings. There are no cancellation fees, and you'll continue to have access until the end of your billing period.\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { FaqSimpleAccordion } from \"@opensite/ui/blocks/faq/faq-simple-accordion\";\n\nexport default function Demo() {\n  return (\n    <FaqSimpleAccordion\n      heading=\"Frequently Asked Questions\"\n      description=\"Find answers to common questions about our product, billing, and support.\"\n      pattern=\"p6\"\n      patternOpacity={0.9}\n      background=\"white\"\n      items={[\n        {\n          id: \"pricing\",\n          question: \"What pricing plans do you offer?\",\n          answer:\n            \"We offer three flexible pricing plans to suit businesses of all sizes: Starter ($29/month), Professional ($99/month), and Enterprise (custom pricing). All plans include core features with varying limits on users, storage, and advanced capabilities.\",\n        },\n        {\n          id: \"trial\",\n          question: \"Is there a free trial available?\",\n          answer:\n            \"Yes! We offer a 14-day free trial with full access to all Professional plan features. No credit card required to start your trial, and you can cancel anytime.\",\n        },\n        {\n          id: \"integration\",\n          question: \"What integrations are supported?\",\n          answer:\n            \"We integrate with over 50+ popular tools including Slack, Salesforce, HubSpot, Google Workspace, Microsoft Teams, Zoom, and many more. Our API also allows for custom integrations.\",\n        },\n        {\n          id: \"data-security\",\n          question: \"How do you handle data security?\",\n          answer:\n            \"We take security seriously with SOC 2 Type II certification, end-to-end encryption, regular security audits, and compliance with GDPR, CCPA, and HIPAA standards. Your data is stored in secure, redundant data centers.\",\n        },\n        {\n          id: \"support\",\n          question: \"What kind of support do you provide?\",\n          answer:\n            \"All plans include email support with 24-hour response time. Professional and Enterprise plans get priority support, live chat, phone support, and a dedicated account manager for Enterprise customers.\",\n        },\n        {\n          id: \"cancel\",\n          question: \"Can I cancel my subscription at any time?\",\n          answer:\n            \"Absolutely. You can cancel your subscription at any time from your account settings. There are no cancellation fees, and you'll continue to have access until the end of your billing period.\",\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -46240,6 +46248,22 @@
         "accordionContentClassName": {
           "type": "string",
           "description": "Additional CSS classes for accordion content",
+          "required": false
+        },
+        "description": {
+          "type": "object",
+          "description": "Description text below heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "descriptionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the description",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header wrapper",
           "required": false
         }
       },
@@ -46560,15 +46584,15 @@
       "categorySlug": "faq",
       "description": "A comprehensive FAQ section featuring a badge label, centered heading with description, accordion items, and a dedicated support call-to-action section at the bottom. The separator and contact button encourage users to reach out if they can't find their answer. Ideal for customer service pages.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291561/dij9ph18bkv83nuct58xyepj4ph9/cleanshot-2026-02-26-at-21-31-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291560/zgdzj5p1drum8uvlr1pyjkpqlf6e/cleanshot-2026-02-26-at-21-31-46-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289150/d7uwzlt1pgc60orl5izqtsgl8c80/blocks-faq-badge-support-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289149/ctqsia61kx2r6jh0lupx34wgtrhe/blocks-faq-badge-support-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/291561/dij9ph18bkv83nuct58xyepj4ph9/cleanshot-2026-02-26-at-21-31-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/291560/zgdzj5p1drum8uvlr1pyjkpqlf6e/cleanshot-2026-02-26-at-21-31-46-2x.png"
       },
       "componentPath": "blocks/faq/faq-badge-support.tsx",
-      "code": "import { FaqBadgeSupport } from \"@opensite/ui/blocks/faq/faq-badge-support\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqBadgeSupport\n      badge=\"Support\"\n      heading=\"Frequently Asked Questions\"\n      description=\"Can't find what you're looking for? Our support team is here to help.\"\n      items={[\n        {\n          id: \"account\",\n          question: \"How do I reset my password?\",\n          answer:\n            \"Click 'Forgot Password' on the login page, enter your email, and we'll send you a secure reset link. The link expires after 24 hours for security.\",\n        },\n        {\n          id: \"roles\",\n          question: \"What user roles are available?\",\n          answer:\n            \"We offer Admin, Manager, Member, and Guest roles. Each role has specific permissions for viewing, editing, and managing content and team members.\",\n        },\n        {\n          id: \"notifications\",\n          question: \"Can I customize notification settings?\",\n          answer:\n            \"Yes, you have granular control over email, push, and in-app notifications. Set preferences for mentions, updates, deadlines, and more.\",\n        },\n        {\n          id: \"export\",\n          question: \"Can I export my data?\",\n          answer:\n            \"Yes, export your data anytime in CSV, Excel, or JSON formats. Enterprise plans also support automated exports and API-based data retrieval.\",\n        },\n      ]}\n      supportText=\"Still have questions?\"\n      supportAction={{\n        label: \"Contact Support\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" />,\n      }}\n      pattern=\"architect\"\n      patternOpacity={0.08}\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { FaqBadgeSupport } from \"@opensite/ui/blocks/faq/faq-badge-support\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqBadgeSupport\n      badge=\"Support\"\n      heading=\"Frequently Asked Questions\"\n      description=\"Can't find what you're looking for? Our support team is here to help.\"\n      items={[\n        {\n          id: \"account\",\n          question: \"How do I reset my password?\",\n          answer:\n            \"Click 'Forgot Password' on the login page, enter your email, and we'll send you a secure reset link. The link expires after 24 hours for security.\",\n        },\n        {\n          id: \"roles\",\n          question: \"What user roles are available?\",\n          answer:\n            \"We offer Admin, Manager, Member, and Guest roles. Each role has specific permissions for viewing, editing, and managing content and team members.\",\n        },\n        {\n          id: \"notifications\",\n          question: \"Can I customize notification settings?\",\n          answer:\n            \"Yes, you have granular control over email, push, and in-app notifications. Set preferences for mentions, updates, deadlines, and more.\",\n        },\n        {\n          id: \"export\",\n          question: \"Can I export my data?\",\n          answer:\n            \"Yes, export your data anytime in CSV, Excel, or JSON formats. Enterprise plans also support automated exports and API-based data retrieval.\",\n        },\n      ]}\n      supportText=\"Still have questions?\"\n      supportAction={{\n        label: \"Contact Support\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        size: \"lg\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" />,\n      }}\n      pattern=\"architect\"\n      patternOpacity={0.05}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "badge": {
           "type": "object",
@@ -48145,7 +48169,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289183/8xore7yfz3m03ns5w3e7p1var114/blocks-faq-sidebar-navigation-mobile.png"
       },
       "componentPath": "blocks/faq/faq-sidebar-navigation.tsx",
-      "code": "import { FaqSidebarNavigation } from \"@opensite/ui/blocks/faq/faq-sidebar-navigation\";\n\nexport default function Demo() {\n  return (\n    <FaqSidebarNavigation\n      heading=\"Knowledge Base\"\n      description=\"Navigate through our comprehensive FAQ sections using the sidebar menu.\"\n      categories={[\n        {\n          id: \"getting-started\",\n          title: \"Getting Started\",\n          items: [\n            {\n              id: \"signup\",\n              question: \"How do I create an account?\",\n              answer:\n                \"Click 'Sign Up' in the top right corner, enter your details, and verify your email. You can also sign up using Google, Microsoft, or GitHub single sign-on.\",\n            },\n            {\n              id: \"first-project\",\n              question: \"How do I create my first project?\",\n              answer:\n                \"After logging in, click '+ New Project', choose a template or start from scratch, name your project, and invite team members. You'll be guided through setup.\",\n            },\n          ],\n        },\n        {\n          id: \"account-management\",\n          title: \"Account Management\",\n          items: [\n            {\n              id: \"profile\",\n              question: \"How do I update my profile?\",\n              answer:\n                \"Go to Settings > Profile. Update your name, photo, email, timezone, and notification preferences. Changes are saved automatically.\",\n            },\n            {\n              id: \"delete-account\",\n              question: \"Can I delete my account?\",\n              answer:\n                \"Yes, go to Settings > Account > Delete Account. You'll be asked to confirm, and all your data will be permanently deleted within 30 days.\",\n            },\n          ],\n        },\n        {\n          id: \"collaboration\",\n          title: \"Team Collaboration\",\n          items: [\n            {\n              id: \"mentions\",\n              question: \"How do mentions work?\",\n              answer:\n                \"Type @ followed by a team member's name in comments or descriptions. They'll receive a notification and can respond directly in context.\",\n            },\n            {\n              id: \"sharing\",\n              question: \"How do I share projects externally?\",\n              answer:\n                \"Click Share on any project, generate a public link, or invite specific guests via email. Control whether guests can view only or also comment.\",\n            },\n          ],\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { FaqSidebarNavigation } from \"@opensite/ui/blocks/faq/faq-sidebar-navigation\";\n\nexport default function Demo() {\n  return (\n    <FaqSidebarNavigation\n      heading=\"Knowledge Base\"\n      description=\"Navigate through our comprehensive FAQ sections using the sidebar menu.\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.5}\n      background=\"gray\"\n      categories={[\n        {\n          id: \"getting-started\",\n          title: \"Getting Started\",\n          items: [\n            {\n              id: \"signup\",\n              question: \"How do I create an account?\",\n              answer:\n                \"Click 'Sign Up' in the top right corner, enter your details, and verify your email. You can also sign up using Google, Microsoft, or GitHub single sign-on.\",\n            },\n            {\n              id: \"first-project\",\n              question: \"How do I create my first project?\",\n              answer:\n                \"After logging in, click '+ New Project', choose a template or start from scratch, name your project, and invite team members. You'll be guided through setup.\",\n            },\n          ],\n        },\n        {\n          id: \"account-management\",\n          title: \"Account Management\",\n          items: [\n            {\n              id: \"profile\",\n              question: \"How do I update my profile?\",\n              answer:\n                \"Go to Settings > Profile. Update your name, photo, email, timezone, and notification preferences. Changes are saved automatically.\",\n            },\n            {\n              id: \"delete-account\",\n              question: \"Can I delete my account?\",\n              answer:\n                \"Yes, go to Settings > Account > Delete Account. You'll be asked to confirm, and all your data will be permanently deleted within 30 days.\",\n            },\n          ],\n        },\n        {\n          id: \"collaboration\",\n          title: \"Team Collaboration\",\n          items: [\n            {\n              id: \"mentions\",\n              question: \"How do mentions work?\",\n              answer:\n                \"Type @ followed by a team member's name in comments or descriptions. They'll receive a notification and can respond directly in context.\",\n            },\n            {\n              id: \"sharing\",\n              question: \"How do I share projects externally?\",\n              answer:\n                \"Click Share on any project, generate a public link, or invite specific guests via email. Control whether guests can view only or also comment.\",\n            },\n          ],\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -62373,7 +62397,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290354/awbnvfo5q8bfyc1b73nzu6savmd4/cleanshot-2026-02-18-at-09-08-13.png"
       },
       "componentPath": "blocks/hero/hero-product-showcase-floating.tsx",
-      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroProductShowcaseFloating } from \"@opensite/ui/blocks/hero/hero-product-showcase-floating\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroProductShowcaseFloating\n      badgeText=\"New Arrival\"\n      badgeIcon=\"lucide/sparkles\"\n      heading=\"Introducing our latest innovation\"\n      description=\"Experience the perfect blend of style, functionality, and cutting-edge technology. Designed to elevate your everyday.\"\n      floatingStat={{\n        label: \"CLients\",\n        value: \"300+\",\n        icon: \"lucide/users\",\n        position: \"top-right\",\n      }}\n      actions={[\n        {\n          label: \"Shop Now\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/shopping-bag\" size={16} />,\n        },\n        {\n          label: \"Learn More\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      productImage={{ src: imagePlaceholders[103], alt: \"Product showcase\" }}\n      spacing=\"xl\"\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroProductShowcaseFloating } from \"@opensite/ui/blocks/hero/hero-product-showcase-floating\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroProductShowcaseFloating\n      badgeText=\"New Arrival\"\n      badgeIcon=\"lucide/sparkles\"\n      heading=\"Introducing our latest innovation\"\n      description=\"Experience the perfect blend of style, functionality, and cutting-edge technology. Designed to elevate your everyday.\"\n      userCount={{\n        count: \"300+\",\n        label: \"Websites Powered\",\n        avatars: [\n          {\n            src: imagePlaceholders[1],\n            alt: \"User Avatar 1\",\n          },\n          {\n            src: imagePlaceholders[2],\n            alt: \"User Avatar 2\",\n          },\n          {\n            src: imagePlaceholders[3],\n            alt: \"User Avatar 3\",\n          },\n        ],\n      }}\n      floatingStat={{\n        label: \"Clients\",\n        value: \"300+\",\n        icon: \"lucide/users\",\n        position: \"top-right\",\n      }}\n      actions={[\n        {\n          label: \"Shop Now\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/shopping-bag\" size={16} />,\n        },\n        {\n          label: \"Learn More\",\n          href: \"#\",\n          size: \"lg\",\n          variant: \"outline\",\n        },\n      ]}\n      productImage={{ src: imagePlaceholders[103], alt: \"Product showcase\" }}\n      background=\"dark\"\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -62642,6 +62666,11 @@
         "headingClassName": {
           "type": "string",
           "description": "Additional CSS classes for the heading",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header wrapper",
           "required": false
         },
         "descriptionClassName": {
@@ -93632,7 +93661,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290539/u9toe2q9b5q3a5rjekbrs8cvxe68/process-hover-cards-mobile.png"
       },
       "componentPath": "blocks/process/process-hover-cards.tsx",
-      "code": "import { ProcessHoverCards } from \"@opensite/ui/blocks/process/process-hover-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ProcessHoverCards\n      heading=\"How We Work\"\n      description=\"A streamlined approach to delivering exceptional digital experiences\"\n      steps={[\n        {\n          step: \"01\",\n          title: \"Ideate & Define\",\n          description: \"Transform your vision into a clear project scope with detailed requirements, user personas, and success metrics.\",\n          image: imagePlaceholders[42],\n        },\n        {\n          step: \"02\",\n          title: \"Design & Prototype\",\n          description: \"Create stunning interfaces that balance aesthetics with usability, validated through user testing and stakeholder feedback.\",\n          image: imagePlaceholders[67],\n        },\n        {\n          step: \"03\",\n          title: \"Build & Integrate\",\n          description: \"Develop robust solutions using cutting-edge technologies, with seamless integration of APIs, databases, and third-party services.\",\n          image: imagePlaceholders[89],\n        },\n        {\n          step: \"04\",\n          title: \"Test & Refine\",\n          description: \"Ensure quality through comprehensive testing, performance optimization, and iterative improvements based on real-world usage.\",\n          image: imagePlaceholders[103],\n        },\n        {\n          step: \"05\",\n          title: \"Deploy & Scale\",\n          description: \"Launch your product with confidence and scale it efficiently as your user base grows, with ongoing monitoring and support.\",\n          image: imagePlaceholders[28],\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"default\"\n    />\n  );\n}\n",
+      "code": "import { ProcessHoverCards } from \"@opensite/ui/blocks/process/process-hover-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ProcessHoverCards\n      heading=\"How We Work\"\n      description=\"A streamlined approach to delivering exceptional digital experiences\"\n      steps={[\n        {\n          step: \"01\",\n          title: \"Ideate & Define\",\n          description:\n            \"Transform your vision into a clear project scope with detailed requirements, user personas, and success metrics.\",\n          image: imagePlaceholders[42],\n        },\n        {\n          step: \"02\",\n          title: \"Design & Prototype\",\n          description:\n            \"Create stunning interfaces that balance aesthetics with usability, validated through user testing and stakeholder feedback.\",\n          image: imagePlaceholders[67],\n        },\n        {\n          step: \"03\",\n          title: \"Build & Integrate\",\n          description:\n            \"Develop robust solutions using cutting-edge technologies, with seamless integration of APIs, databases, and third-party services.\",\n          image: imagePlaceholders[89],\n        },\n        {\n          step: \"04\",\n          title: \"Test & Refine\",\n          description:\n            \"Ensure quality through comprehensive testing, performance optimization, and iterative improvements based on real-world usage.\",\n          image: imagePlaceholders[103],\n        },\n        {\n          step: \"05\",\n          title: \"Deploy & Scale\",\n          description:\n            \"Launch your product with confidence and scale it efficiently as your user base grows, with ongoing monitoring and support.\",\n          image: imagePlaceholders[28],\n        },\n      ]}\n      background=\"secondary\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -93776,9 +93805,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         }
       },
@@ -94018,7 +94047,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290543/m68kn9r1g7odgfc5hjcfri4y1hyr/process-expandable-timeline-mobile.png"
       },
       "componentPath": "blocks/process/process-expandable-timeline.tsx",
-      "code": "import { ProcessExpandableTimeline } from \"@opensite/ui/blocks/process/process-expandable-timeline\";\n\nexport default function Demo() {\n  return (\n    <ProcessExpandableTimeline\n      heading=\"Our Development Process\"\n      description=\"A comprehensive workflow designed to deliver exceptional results through proven methodologies and continuous collaboration.\"\n      steps={[\n        {\n          title: \"Discovery & Research\",\n          description: \"Deep dive into your business goals, target audience, and competitive landscape.\",\n          expandedContent: \"We conduct stakeholder interviews, user research sessions, and competitive analysis to establish a solid foundation. Our team analyzes market trends, user behavior patterns, and technical requirements to create a comprehensive project roadmap that aligns with your business objectives.\",\n        },\n        {\n          title: \"Strategy & Planning\",\n          description: \"Create a detailed roadmap with milestones, deliverables, and success metrics.\",\n          expandedContent: \"Based on our research findings, we develop a strategic plan that includes information architecture, user flows, technical specifications, and a phased implementation timeline. We establish KPIs and define success criteria to ensure measurable outcomes throughout the project lifecycle.\",\n        },\n        {\n          title: \"Design & Prototyping\",\n          description: \"Craft intuitive interfaces with user-centered design principles.\",\n          expandedContent: \"Our design team creates wireframes, high-fidelity mockups, and interactive prototypes. We conduct usability testing and iterate based on feedback to ensure the design meets user needs and business requirements. Every design decision is validated through data and user testing.\",\n        },\n        {\n          title: \"Development & Implementation\",\n          description: \"Build robust, scalable solutions using modern technologies.\",\n          expandedContent: \"Our engineering team follows agile development practices with regular sprints, code reviews, and automated testing. We implement best practices for security, performance, and scalability while maintaining clean, maintainable code. Continuous integration ensures rapid deployment and quality assurance.\",\n        },\n        {\n          title: \"Testing & Quality Assurance\",\n          description: \"Rigorous testing across devices, browsers, and scenarios.\",\n          expandedContent: \"Comprehensive QA process includes functional testing, performance optimization, security audits, and accessibility compliance checks. We conduct cross-browser testing, mobile responsiveness validation, and load testing to ensure a flawless user experience across all platforms.\",\n        },\n        {\n          title: \"Launch & Optimization\",\n          description: \"Deploy with confidence and continuously improve based on real-world data.\",\n          expandedContent: \"We execute a carefully planned deployment strategy with monitoring and rollback capabilities. Post-launch, we track analytics, gather user feedback, and make data-driven optimizations. Our team provides ongoing support and iterative improvements to maximize performance and user satisfaction.\",\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"white\"\n    />\n  );\n}\n",
+      "code": "import { ProcessExpandableTimeline } from \"@opensite/ui/blocks/process/process-expandable-timeline\";\n\nexport default function Demo() {\n  return (\n    <ProcessExpandableTimeline\n      heading=\"Our Development Process\"\n      description=\"A comprehensive workflow designed to deliver exceptional results through proven methodologies and continuous collaboration.\"\n      steps={[\n        {\n          title: \"Discovery & Research\",\n          description:\n            \"Deep dive into your business goals, target audience, and competitive landscape.\",\n          expandedContent:\n            \"We conduct stakeholder interviews, user research sessions, and competitive analysis to establish a solid foundation. Our team analyzes market trends, user behavior patterns, and technical requirements to create a comprehensive project roadmap that aligns with your business objectives.\",\n        },\n        {\n          title: \"Strategy & Planning\",\n          description:\n            \"Create a detailed roadmap with milestones, deliverables, and success metrics.\",\n          expandedContent:\n            \"Based on our research findings, we develop a strategic plan that includes information architecture, user flows, technical specifications, and a phased implementation timeline. We establish KPIs and define success criteria to ensure measurable outcomes throughout the project lifecycle.\",\n        },\n        {\n          title: \"Design & Prototyping\",\n          description:\n            \"Craft intuitive interfaces with user-centered design principles.\",\n          expandedContent:\n            \"Our design team creates wireframes, high-fidelity mockups, and interactive prototypes. We conduct usability testing and iterate based on feedback to ensure the design meets user needs and business requirements. Every design decision is validated through data and user testing.\",\n        },\n        {\n          title: \"Development & Implementation\",\n          description:\n            \"Build robust, scalable solutions using modern technologies.\",\n          expandedContent:\n            \"Our engineering team follows agile development practices with regular sprints, code reviews, and automated testing. We implement best practices for security, performance, and scalability while maintaining clean, maintainable code. Continuous integration ensures rapid deployment and quality assurance.\",\n        },\n        {\n          title: \"Testing & Quality Assurance\",\n          description:\n            \"Rigorous testing across devices, browsers, and scenarios.\",\n          expandedContent:\n            \"Comprehensive QA process includes functional testing, performance optimization, security audits, and accessibility compliance checks. We conduct cross-browser testing, mobile responsiveness validation, and load testing to ensure a flawless user experience across all platforms.\",\n        },\n        {\n          title: \"Launch & Optimization\",\n          description:\n            \"Deploy with confidence and continuously improve based on real-world data.\",\n          expandedContent:\n            \"We execute a carefully planned deployment strategy with monitoring and rollback capabilities. Post-launch, we track analytics, gather user feedback, and make data-driven optimizations. Our team provides ongoing support and iterative improvements to maximize performance and user satisfaction.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -94167,9 +94196,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         }
       },
@@ -101518,17 +101547,6 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "emailPlaceholder": {
-          "type": "string",
-          "description": "Placeholder text for the email input",
-          "required": false
-        },
-        "buttonText": {
-          "type": "object",
-          "description": "Text/content for the subscribe button",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
         "closeButtonText": {
           "type": "object",
           "description": "Text/content for the close button",
@@ -101574,30 +101592,6 @@
           "description": "Whether clicking outside closes the dialog",
           "required": false
         },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
-          "required": false
-        },
         "className": {
           "type": "string",
           "description": "Additional CSS classes for the dialog content wrapper",
@@ -101623,16 +101617,6 @@
           "description": "Additional CSS classes for the form",
           "required": false
         },
-        "inputClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the email input",
-          "required": false
-        },
-        "submitClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the submit button",
-          "required": false
-        },
         "closeClassName": {
           "type": "string",
           "description": "Additional CSS classes for the close button",
@@ -101642,6 +101626,70 @@
           "type": "string",
           "description": "Background style variant for the section",
           "typeLabel": "SectionBackground",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "buttonAction": {
+          "type": "object",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
           "required": false
         }
       },
@@ -101733,17 +101781,6 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "emailPlaceholder": {
-          "type": "string",
-          "description": "Placeholder text for the email input",
-          "required": false
-        },
-        "buttonText": {
-          "type": "object",
-          "description": "Text for the submit button",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
         "closeButtonSlot": {
           "type": "object",
           "description": "Custom slot for the close button (overrides default close button)",
@@ -101776,30 +101813,6 @@
         "defaultOpen": {
           "type": "boolean",
           "description": "Whether the dialog is open by default (uncontrolled mode)",
-          "required": false
-        },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
           "required": false
         },
         "className": {
@@ -101842,16 +101855,6 @@
           "description": "Additional CSS classes for the form",
           "required": false
         },
-        "inputClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the email input",
-          "required": false
-        },
-        "submitClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the submit button",
-          "required": false
-        },
         "closeClassName": {
           "type": "string",
           "description": "Additional CSS classes for the close button",
@@ -101884,6 +101887,70 @@
           "type": "string",
           "description": "Background style variant for the section",
           "typeLabel": "SectionBackground",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "buttonAction": {
+          "type": "object",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
           "required": false
         }
       },
@@ -102011,17 +102078,6 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "emailPlaceholder": {
-          "type": "string",
-          "description": "Placeholder text for the email input",
-          "required": false
-        },
-        "buttonText": {
-          "type": "object",
-          "description": "Text/content for the submit button",
-          "typeLabel": "React.ReactNode",
-          "required": false
-        },
         "termsUrl": {
           "type": "string",
           "description": "Terms of use link URL",
@@ -102084,30 +102140,6 @@
           "description": "Whether the sheet is open by default (uncontrolled mode)",
           "required": false
         },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for maximum flexibility.\n\nUse this when you need complete control over the submission logic,\nsuch as custom API calls, analytics tracking, or multi-step workflows.\n\nCan be used alone or in combination with `formConfig` for hybrid approaches.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration.\n\n**Universal Usage**: Works with ANY REST API endpoint. Simply provide an `endpoint` URL\nand the form will submit to it in JSON format.",
-          "typeLabel": "PageSpeedFormConfig",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.\n\nCalled after `formConfig` submission and/or `onSubmit` completes successfully.\nUse for showing success messages, redirecting, analytics tracking, etc.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.\n\nReceives the error object for custom error handling, logging, or user notifications.",
-          "typeLabel": "(error: Error) => void",
-          "required": false
-        },
         "className": {
           "type": "string",
           "description": "Additional CSS classes for the sheet content wrapper",
@@ -102141,16 +102173,6 @@
         "formClassName": {
           "type": "string",
           "description": "Additional CSS classes for the form",
-          "required": false
-        },
-        "inputClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the email input",
-          "required": false
-        },
-        "submitClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the submit button",
           "required": false
         },
         "legalClassName": {
@@ -102190,6 +102212,70 @@
           "type": "string",
           "description": "Background style variant for the section",
           "typeLabel": "SectionBackground",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "buttonAction": {
+          "type": "object",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
           "required": false
         }
       },
@@ -131306,7 +131392,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290089/ozswoqjtcdb4g21xx81i2tcagjrm/link-tree-block-mobile.png"
       },
       "componentPath": "blocks/link-page/link-tree-block.tsx",
-      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: imagePlaceholders[24],\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"https://example.com/featured\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"https://example.com/services\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"https://example.com/testimonials\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"https://example.com/consultation\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: imagePlaceholders[24],\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          href: \"https://instagram.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"https://example.com/featured\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"https://example.com/services\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"https://example.com/testimonials\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"https://example.com/consultation\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "brandName": {
           "type": "object",
@@ -135077,7 +135163,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290473/cqj4ii000z1lp3k0kds8ah1fhsk6/footer-newsletter-contact-mobile.png"
       },
       "componentPath": "blocks/footers/footer-newsletter-contact.tsx",
-      "code": "import { FooterNewsletterContact } from \"@opensite/ui/blocks/footers/footer-newsletter-contact\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <FooterNewsletterContact\n      newsletterTitle=\"Newsletter\"\n      newsletterDescription=\"Subscribe to receive exclusive deals, product launches, and insider tips delivered straight to your inbox every week.\"\n      newsletterPlaceholder=\"Enter your email address\"\n      newsletterButtonText=\"Sign Up\"\n      footerLinks={[\n        {\n          title: \"Shop\",\n          items: [\n            { text: \"New Arrivals\", link: \"/shop/new\" },\n            { text: \"Best Sellers\", link: \"/shop/bestsellers\" },\n            { text: \"Sale Items\", link: \"/shop/sale\" },\n            { text: \"Gift Cards\", link: \"/shop/giftcards\" },\n            { text: \"Collections\", link: \"/shop/collections\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          items: [\n            { text: \"Order Tracking\", link: \"/track-order\" },\n            { text: \"Shipping & Returns\", link: \"/shipping\" },\n            { text: \"Size Guide\", link: \"/size-guide\" },\n            { text: \"FAQs\", link: \"/faq\" },\n            { text: \"Contact Us\", link: \"/contact\" },\n          ],\n        },\n        {\n          title: \"About\",\n          items: [\n            { text: \"Our Story\", link: \"/about\" },\n            { text: \"Sustainability\", link: \"/sustainability\" },\n            { text: \"Store Locations\", link: \"/stores\" },\n            { text: \"Careers\", link: \"/careers\" },\n            { text: \"Press\", link: \"/press\" },\n          ],\n        },\n      ]}\n      contactDetails={[\n        {\n          icon: \"lucide/phone\",\n          text: \"+1 (555) 123-4567\",\n          type: \"phone\",\n          link: \"+15551234567\",\n        },\n        {\n          icon: \"lucide/mail\",\n          text: \"support@fashionstore.com\",\n          type: \"email\",\n          link: \"support@fashionstore.com\",\n        },\n        {\n          icon: \"lucide/map-pin\",\n          text: \"123 Fashion Avenue, New York, NY 10001\",\n          type: \"none\",\n        },\n        {\n          icon: \"lucide/clock\",\n          text: \"Mon-Fri: 9AM-8PM EST, Sat-Sun: 10AM-6PM EST\",\n          type: \"none\",\n        },\n      ]}\n      socialLinks={[\n        { href: \"https://instagram.com/fashionstore\", label: \"Instagram\" },\n        { href: \"https://facebook.com/fashionstore\", label: \"Facebook\" },\n        { href: \"https://pinterest.com/fashionstore\", label: \"Pinterest\" },\n        { href: \"https://tiktok.com/@fashionstore\", label: \"TikTok\" },\n      ]}\n      logo={{\n        light: brandLogoPlaceholders.black[2],\n        dark: brandLogoPlaceholders.white[2],\n        url: \"/\",\n      }}\n      copyright=\"© 2024 Fashion Store. All rights reserved. Designed with love in NYC.\"\n      background=\"muted\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { FooterNewsletterContact } from \"@opensite/ui/blocks/footers/footer-newsletter-contact\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterNewsletterContact\n      newsletterTitle=\"Newsletter\"\n      newsletterDescription=\"Subscribe to receive exclusive deals, product launches, and insider tips delivered straight to your inbox every week.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      footerLinks={[\n        {\n          title: \"Shop\",\n          items: [\n            { text: \"New Arrivals\", link: \"/shop/new\" },\n            { text: \"Best Sellers\", link: \"/shop/bestsellers\" },\n            { text: \"Sale Items\", link: \"/shop/sale\" },\n            { text: \"Gift Cards\", link: \"/shop/giftcards\" },\n            { text: \"Collections\", link: \"/shop/collections\" },\n          ],\n        },\n        {\n          title: \"About\",\n          items: [\n            { text: \"Our Story\", link: \"/about\" },\n            { text: \"Sustainability\", link: \"/sustainability\" },\n            { text: \"Store Locations\", link: \"/stores\" },\n            { text: \"Careers\", link: \"/careers\" },\n            { text: \"Press\", link: \"/press\" },\n          ],\n        },\n      ]}\n      contactDetails={[\n        {\n          icon: \"lucide/phone\",\n          label: \"(555) 123-4567\",\n          link: \"+15551234567\",\n        },\n        {\n          icon: \"lucide/mail\",\n          label: \"support@fashionstore.com\",\n          link: \"support@fashionstore.com\",\n        },\n        {\n          icon: \"lucide/map-pin\",\n          label: (\n            <div className=\"space-y-0\">\n              <div>123 Fashion Avenue</div>\n              <div>New York, NY 10001</div>\n            </div>\n          ),\n          link: \"https://maps.app.goo.gl/gJrmVDMHcvEFkr4E7\",\n        },\n        {\n          icon: \"lucide/clock\",\n          label: (\n            <div className=\"space-y-0\">\n              <div>Mon-Fri: 9AM-8PM EST</div>\n              <div>Sat-Sun: 10AM-6PM EST</div>\n              <div className=\"flex flex-row gap-1\">\n                <span className=\"font-semibold\">Happy Hour</span>\n                <span>4-6 PM Daily</span>\n              </div>\n            </div>\n          ),\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      logo={{\n        light: brandLogoPlaceholders.black[2],\n        dark: brandLogoPlaceholders.white[2],\n        url: \"/\",\n      }}\n      copyright=\"Fashion Store.\"\n      background=\"muted\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "newsletterTitle": {
           "type": "string",
@@ -135087,16 +135173,6 @@
         "newsletterDescription": {
           "type": "string",
           "description": "Newsletter description",
-          "required": false
-        },
-        "newsletterPlaceholder": {
-          "type": "string",
-          "description": "Newsletter placeholder text",
-          "required": false
-        },
-        "newsletterButtonText": {
-          "type": "string",
-          "description": "Newsletter button text",
           "required": false
         },
         "footerLinks": {
@@ -135152,16 +135228,17 @@
                 "description": "Icon name in format: prefix/name",
                 "required": true
               },
-              "text": {
-                "type": "string",
+              "label": {
+                "type": "object",
                 "description": "Display text",
+                "typeLabel": "React.ReactNode",
                 "required": true
               },
               "type": {
                 "type": "string",
                 "description": "Link type: \"none\" | \"email\" | \"phone\"",
                 "typeLabel": "\"none\" | \"email\" | \"phone\"",
-                "required": true
+                "required": false
               },
               "link": {
                 "type": "string",
@@ -135283,28 +135360,79 @@
           "typeLabel": "{ apiKey: string; compression?: number; }",
           "required": false
         },
-        "formConfig": {
+        "formEngineSetup": {
           "type": "object",
-          "description": "Optional form submission configuration for newsletter signup.\nRequires `token` to render the newsletter UI.",
-          "typeLabel": "PageSpeedFormConfig & { token: string }",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
           "required": false
         },
-        "onSubmit": {
+        "buttonAction": {
           "type": "object",
-          "description": "Optional custom submission handler for newsletter signup.",
-          "typeLabel": "(email: string) => void | Promise<void>",
+          "description": "Submit button configuration",
+          "fields": {
+            "label": {
+              "type": "object",
+              "description": "Button/link label text or ReactNode",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "icon": {
+              "type": "object",
+              "description": "Icon to display (typically before label)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "iconAfter": {
+              "type": "object",
+              "description": "Icon to display after the label",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "href": {
+              "type": "string",
+              "description": "URL for link behavior",
+              "required": false
+            },
+            "onClick": {
+              "type": "object",
+              "description": "Click handler for button behavior",
+              "typeLabel": "MouseEventHandler",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the action",
+              "required": false
+            },
+            "children": {
+              "type": "object",
+              "description": "Custom children (overrides label + icon rendering)",
+              "typeLabel": "ReactNode",
+              "required": false
+            },
+            "\"aria-label\"": {
+              "type": "string",
+              "description": "ARIA label for accessibility",
+              "required": false
+            },
+            "asButton": {
+              "type": "boolean",
+              "description": "Render as a button element instead of an anchor/link",
+              "required": false
+            }
+          },
+          "typeLabel": "ActionConfig",
           "required": false
         },
-        "onSuccess": {
+        "formSlot": {
           "type": "object",
-          "description": "Optional success callback invoked after successful submission.",
-          "typeLabel": "(data: unknown) => void",
+          "description": "Custom slot for the form (overrides form props)",
+          "typeLabel": "React.ReactNode",
           "required": false
         },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.",
-          "typeLabel": "(error: Error) => void",
+        "newsletterFormClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the newsletter form",
           "required": false
         }
       },
@@ -135761,7 +135889,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290477/3x1po3d4yh32stkpj9yab18mxhri/footer-accordion-social-mobile.png"
       },
       "componentPath": "blocks/footers/footer-accordion-social.tsx",
-      "code": "import { FooterAccordionSocial } from \"@opensite/ui/blocks/footers/footer-accordion-social\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport { usePlatformFromUrl } from \"@opensite/hooks/usePlatformFromUrl\";\n\nexport default function Demo() {\n  const platform = usePlatformFromUrl(\"https://www.youtube.com/@iamthedelo\");\n\n  return (\n    <FooterAccordionSocial\n      logo={{\n        light: brandLogoPlaceholders.black[0],\n        dark: brandLogoPlaceholders.white[0],\n        url: \"/\",\n      }}\n      newsletterTitle=\"Stay Connected With Us\"\n      newsletterDescription=\"Get the latest updates on new collections, exclusive offers, and insider news delivered straight to your inbox.\"\n      footerLinks={[\n        {\n          title: \"Shop\",\n          id: \"shop\",\n          items: [\n            { text: \"New Arrivals\", href: \"#\" },\n            { text: \"Best Sellers\", href: \"#\" },\n            { text: \"Sale Items\", href: \"#\" },\n            { text: \"Gift Cards\", href: \"#\" },\n            { text: \"Collections\", href: \"#\" },\n          ],\n        },\n        {\n          title: \"Company\",\n          id: \"company\",\n          items: [\n            { text: \"About Us\", href: \"#\" },\n            { text: \"Our Story\", href: \"#\" },\n            { text: \"Careers\", href: \"#\" },\n            { text: \"Press\", href: \"#\" },\n            { text: \"Blog\", href: \"#\" },\n          ],\n        },\n        {\n          title: \"Support\",\n          id: \"support\",\n          items: [\n            { text: \"Help Center\", href: \"#\" },\n            { text: \"Shipping Info\", href: \"#\" },\n            { text: \"Returns\", href: \"#\" },\n            { text: \"Size Guide\", href: \"#\" },\n            { text: \"Track Order\", href: \"#\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://facebook.com\",\n          label: \"Follow us on Facebook\",\n        },\n        {\n          href: \"https://instagram.com\",\n          label: \"Follow us on Instagram\",\n        },\n        {\n          href: \"https://twitter.com\",\n          label: \"Follow us on Twitter\",\n        },\n        {\n          href: \"https://pinterest.com\",\n          label: \"Follow us on Pinterest\",\n        },\n        {\n          href: \"https://youtube.com\",\n          label: `Subscribe to our YouTube channel: ${platform}`,\n        },\n      ]}\n      copyright=\"Your Brand\"\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { FooterAccordionSocial } from \"@opensite/ui/blocks/footers/footer-accordion-social\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport { usePlatformFromUrl } from \"@opensite/hooks/usePlatformFromUrl\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  const platform = usePlatformFromUrl(\"https://www.youtube.com/@iamthedelo\");\n\n  return (\n    <FooterAccordionSocial\n      logo={{\n        src: brandLogoPlaceholders.black[0],\n        alt: \"Your Brand Logo\",\n        url: \"/\",\n      }}\n      newsletterTitle=\"Stay In the Loop\"\n      newsletterDescription=\"Get the latest updates on new collections, exclusive offers, and insider news delivered straight to your inbox.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      footerLinks={[\n        {\n          title: \"Shop\",\n          id: \"shop\",\n          items: [\n            { text: \"New Arrivals\", href: \"#\" },\n            { text: \"Best Sellers\", href: \"#\" },\n            { text: \"Sale Items\", href: \"#\" },\n            { text: \"Gift Cards\", href: \"#\" },\n            { text: \"Collections\", href: \"#\" },\n          ],\n        },\n        {\n          title: \"Company\",\n          id: \"company\",\n          items: [\n            { text: \"About Us\", href: \"#\" },\n            { text: \"Our Story\", href: \"#\" },\n            { text: \"Careers\", href: \"#\" },\n            { text: \"Press\", href: \"#\" },\n            { text: \"Blog\", href: \"#\" },\n          ],\n        },\n        {\n          title: \"Support\",\n          id: \"support\",\n          items: [\n            { text: \"Help Center\", href: \"#\" },\n            { text: \"Shipping Info\", href: \"#\" },\n            { text: \"Returns\", href: \"#\" },\n            { text: \"Size Guide\", href: \"#\" },\n            { text: \"Track Order\", href: \"#\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://facebook.com\",\n          label: \"Follow us on Facebook\",\n        },\n        {\n          href: \"https://instagram.com\",\n          label: \"Follow us on Instagram\",\n        },\n        {\n          href: \"https://twitter.com\",\n          label: \"Follow us on Twitter\",\n        },\n        {\n          href: \"https://pinterest.com\",\n          label: \"Follow us on Pinterest\",\n        },\n        {\n          href: \"https://youtube.com\",\n          label: `Subscribe to our YouTube channel: ${platform}`,\n        },\n      ]}\n      copyright=\"Your Brand\"\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "newsletterTitle": {
           "type": "string",
@@ -135851,23 +135979,23 @@
           "type": "object",
           "description": "Logo configuration",
           "fields": {
-            "light": {
-              "type": "string",
-              "description": "",
-              "required": true
-            },
-            "dark": {
+            "src": {
               "type": "string",
               "description": "",
               "required": true
             },
             "url": {
               "type": "string",
-              "description": "",
-              "required": true
+              "description": "Logo link URL",
+              "required": false
+            },
+            "alt": {
+              "type": "string",
+              "description": "Brand title",
+              "required": false
             }
           },
-          "typeLabel": "{ light: string; dark: string; url: string; }",
+          "typeLabel": "{ src: string; /** Logo link URL */ url?: string; /** Brand title */ alt?: string; }",
           "required": false
         },
         "copyright": {
@@ -135896,30 +136024,6 @@
             }
           },
           "typeLabel": "{ apiKey: string; compression?: number; }",
-          "required": false
-        },
-        "formConfig": {
-          "type": "object",
-          "description": "Optional form submission configuration for newsletter signup.\nRequires `token` to render the newsletter UI.",
-          "typeLabel": "PageSpeedFormConfig & { token: string }",
-          "required": false
-        },
-        "onSubmit": {
-          "type": "object",
-          "description": "Optional custom submission handler for newsletter signup.",
-          "typeLabel": "(email: string) => void | Promise<void>",
-          "required": false
-        },
-        "onSuccess": {
-          "type": "object",
-          "description": "Optional success callback invoked after successful submission.",
-          "typeLabel": "(data: unknown) => void",
-          "required": false
-        },
-        "onError": {
-          "type": "object",
-          "description": "Optional error callback invoked if submission fails.",
-          "typeLabel": "(error: Error) => void",
           "required": false
         },
         "background": {
@@ -135955,6 +136059,12 @@
         "patternClassName": {
           "type": "string",
           "description": "Additional CSS classes for the pattern overlay",
+          "required": false
+        },
+        "formEngineSetup": {
+          "type": "object",
+          "description": "Full form engine setup and props",
+          "typeLabel": "FormEngineProps",
           "required": false
         }
       },

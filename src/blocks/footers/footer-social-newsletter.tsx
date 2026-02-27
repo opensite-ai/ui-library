@@ -1,19 +1,16 @@
 import { FooterSocialNewsletter } from "@opensite/ui/blocks/footers/footer-social-newsletter";
 import { logoPlaceholders } from "@/lib/media";
-import { demoFormConfig } from "@/lib/form-demo-data";
-import { FormFieldConfig } from "@opensite/ui";
+import { demoFormEngineApi } from "@/lib/form-demo-data";
+import type { FormFieldConfig } from "@opensite/ui";
 
 const formFields: FormFieldConfig[] = [
   {
     name: "email",
     type: "email",
-    label: "Stay in the know!",
-    description:
-      "Subscribe to our newsletter for the latest updates and insights.",
+    className: "w-full",
     placeholder: "Enter your email",
     required: true,
     columnSpan: 12,
-    className: "w-full",
   },
 ];
 
@@ -24,7 +21,6 @@ export default function Demo() {
         url: "/",
         src: logoPlaceholders.darkHorizontalLogo,
         alt: "CloudSync Logo",
-        title: "CloudSync",
       }}
       sections={[
         {
@@ -90,15 +86,16 @@ export default function Demo() {
           label: "Subscribe to InnovateTech on YouTube",
         },
       ]}
-      formFields={formFields}
-      formConfig={{
-        ...demoFormConfig,
+      formEngineSetup={{
+        api: demoFormEngineApi,
+        fields: formFields,
+        successMessage:
+          "Thank you for subscribing! Check your inbox for a confirmation email.",
       }}
       copyright="CloudSync LLC"
       pattern="gridFadeTop"
       patternOpacity={1}
       background="white"
-      spacing="xl"
     />
   );
 }

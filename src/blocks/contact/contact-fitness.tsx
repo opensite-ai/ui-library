@@ -43,22 +43,27 @@ const formFields: FormFieldConfig[] = [
     label: "Current Fitness Level",
     required: true,
     columnSpan: 12,
-    layout: "stacked",
+    layout: "grid",
     options: [
       {
         value: "beginner",
         label: "Beginner",
-        description: "Just starting out.",
+        description: "Just starting out",
       },
       {
         value: "intermediate",
         label: "Intermediate",
-        description: "Some experience.",
+        description: "Some experience",
+      },
+      {
+        value: "experienced",
+        label: "Experienced",
+        description: "Consistent training",
       },
       {
         value: "advanced",
         label: "Advanced",
-        description: "Very experienced.",
+        description: "Very experienced",
       },
     ],
   },
@@ -205,9 +210,9 @@ export default function Demo() {
           },
         },
       }}
-      background="gray"
+      background="muted"
       pattern="architect"
-      patternOpacity={0.15}
+      patternOpacity={0.1}
     />
   );
 }
