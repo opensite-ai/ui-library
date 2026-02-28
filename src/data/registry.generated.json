@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-02-27T08:13:35.745Z",
+    "exportedAt": "2026-02-27T23:01:00.238Z",
     "totalBlocks": 605,
-    "version": "2.5.4",
+    "version": "2.6.1",
     "source": "@opensite/ui",
-    "syncedAt": "2026-02-27T09:04:00.093Z"
+    "syncedAt": "2026-02-28T00:56:06.329Z"
   },
   "blocks": [
     {
@@ -11410,15 +11410,12 @@
       "categorySlug": "contact",
       "description": "A comprehensive job application form with position selection, resume upload, LinkedIn/portfolio links, availability options, and personal information. Perfect for career pages.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290561/4j2dmvv4srrj46nfsxubeb29c6mp/contact-careers-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290562/lh7ghsole7r8ei10xr7ehl9roim4/contact-careers-mobile.png"
+        "desktop": "",
+        "mobile": ""
       },
-      "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290561/4j2dmvv4srrj46nfsxubeb29c6mp/contact-careers-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290562/lh7ghsole7r8ei10xr7ehl9roim4/contact-careers-mobile.png"
-      },
+      "preview": {},
       "componentPath": "blocks/contact/contact-careers.tsx",
-      "code": "\"use client\";\n\nimport { ContactCareers } from \"@opensite/ui/blocks/contact/contact-careers\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"position\",\n    type: \"select\",\n    label: \"Position of Interest\",\n    required: true,\n    columnSpan: 12,\n    options: [\n      {\n        value: \"engineering\",\n        label: \"Software Engineer\",\n        description: \"Full-stack or specialized roles.\",\n      },\n      {\n        value: \"design\",\n        label: \"Product Designer\",\n        description: \"UI/UX and product design.\",\n      },\n      {\n        value: \"marketing\",\n        label: \"Marketing Manager\",\n        description: \"Digital marketing and content.\",\n      },\n      {\n        value: \"sales\",\n        label: \"Sales Representative\",\n        description: \"B2B or B2C sales roles.\",\n      },\n      {\n        value: \"other\",\n        label: \"Other Position\",\n        description: \"Something else not listed.\",\n      },\n    ],\n  },\n  {\n    name: \"linkedin\",\n    type: \"text\",\n    label: \"LinkedIn Profile\",\n    placeholder: \"https://linkedin.com/in/yourprofile\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"resume\",\n    type: \"file\",\n    label: \"Resume/CV\",\n    placeholder: \"Upload your resume or CV...\",\n    required: true,\n    accept: \".pdf,.doc,.docx\",\n    maxSize: 5 * 1024 * 1024,\n    maxFiles: 1,\n    columnSpan: 12,\n  },\n  {\n    name: \"portfolio\",\n    type: \"text\",\n    label: \"Portfolio URL (Optional)\",\n    placeholder: \"https://yourportfolio.com\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Cover Letter / Why You're Interested\",\n    placeholder: \"Tell us why you'd like to join our team...\",\n    required: true,\n    rows: 6,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactCareers\n      heading=\"Join Our Team\"\n      description=\"We're always looking for talented individuals to join our growing team. Submit your application below and we'll review it within 5-7 business days.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage: \"Thank you for applying! We'll review your application and get back to you within 5-7 business days if there's a match.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Submit Application\",\n          },\n        },\n      }}\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={1}\n    />\n  );\n}\n",
+      "code": "\"use client\";\n\nimport { ContactCareers } from \"@opensite/ui/blocks/contact/contact-careers\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"position\",\n    type: \"select\",\n    label: \"Position of Interest\",\n    required: true,\n    columnSpan: 12,\n    options: [\n      {\n        value: \"engineering\",\n        label: \"Software Engineer\",\n        description: \"Full-stack or specialized roles.\",\n      },\n      {\n        value: \"design\",\n        label: \"Product Designer\",\n        description: \"UI/UX and product design.\",\n      },\n      {\n        value: \"marketing\",\n        label: \"Marketing Manager\",\n        description: \"Digital marketing and content.\",\n      },\n      {\n        value: \"sales\",\n        label: \"Sales Representative\",\n        description: \"B2B or B2C sales roles.\",\n      },\n      {\n        value: \"other\",\n        label: \"Other Position\",\n        description: \"Something else not listed.\",\n      },\n    ],\n  },\n  {\n    name: \"linkedin\",\n    type: \"text\",\n    label: \"LinkedIn Profile\",\n    placeholder: \"https://linkedin.com/in/yourprofile\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"resume\",\n    type: \"file\",\n    label: \"Resume/CV\",\n    placeholder: \"Upload your resume or CV...\",\n    required: true,\n    accept: \".pdf,.doc,.docx\",\n    maxSize: 5 * 1024 * 1024,\n    maxFiles: 1,\n    columnSpan: 12,\n  },\n  {\n    name: \"portfolio\",\n    type: \"text\",\n    label: \"Portfolio URL (Optional)\",\n    placeholder: \"https://yourportfolio.com\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Cover Letter / Why You're Interested\",\n    placeholder: \"Tell us why you'd like to join our team...\",\n    required: true,\n    rows: 6,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactCareers\n      heading=\"Join Our Team\"\n      description=\"We're always looking for talented individuals to join our growing team. Submit your application below and we'll review it within 5-7 business days.\"\n      sidebarTitle=\"Why Work With Us?\"\n      sidebarDescription=\"At our company, we value innovation, collaboration, and growth. We offer competitive salaries, comprehensive benefits, and opportunities for professional development. If you're passionate about making an impact and working with a dynamic team, we'd love to hear from you!\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for applying! We'll review your application and get back to you within 5-7 business days if there's a match.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Submit Application\",\n          },\n        },\n      }}\n      jobListings={[\n        {\n          id: \"1\",\n          title: \"Rust Deveeloper\",\n          description: (\n            <div className=\"flex flex-col gap-4 py-4 pr-4 text-balance\">\n              <h4 className=\"text-xl opacity-75\">\n                Join our team as a Rust Developer and work on cutting-edge\n                projects.\n              </h4>\n\n              <p className=\"text-sm leading-relaxed\">\n                We're looking for a passionate Rust Developer to join our team.\n                You'll work on innovative projects and contribute to our growing\n                codebase.\n              </p>\n            </div>\n          ),\n        },\n        {\n          id: \"2\",\n          title: \"Senior Product Designer\",\n          description: (\n            <div className=\"flex flex-col gap-4 py-4 pr-4 text-balance\">\n              <h4 className=\"text-xl opacity-75\">\n                We're seeking a Senior Product Designer to lead our design\n                efforts and create exceptional user experiences.\n              </h4>\n\n              <p className=\"text-sm leading-relaxed\">\n                As a Senior Product Designer, you'll play a key role in shaping\n                our products and ensuring they meet the needs of our users. Your\n                expertise will help us create intuitive and engaging designs.\n              </p>\n            </div>\n          ),\n        },\n        {\n          id: \"3\",\n          title: \"Marketing Manager\",\n          description: (\n            <div className=\"flex flex-col gap-4 py-4 pr-4 text-balance\">\n              <h4 className=\"text-xl opacity-75\">\n                We're hiring a Marketing Manager to drive our marketing strategy\n                and grow our brand presence.\n              </h4>\n\n              <p className=\"text-sm leading-relaxed\">\n                As a Marketing Manager, you'll be responsible for developing and\n                executing marketing campaigns, managing our online presence, and\n                analyzing performance metrics to optimize our marketing efforts.\n              </p>\n            </div>\n          ),\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -11496,6 +11493,92 @@
           "type": "object",
           "description": "Full form engine setup and props",
           "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "jobListings": {
+          "type": "array",
+          "description": "Array of job listings to display in the sidebar accordion.\nEach item will render as an expandable card showing job details.",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "id": {
+                "type": "string",
+                "description": "Unique identifier for the job listing",
+                "required": true
+              },
+              "title": {
+                "type": "object",
+                "description": "Job title (displayed as accordion trigger)",
+                "typeLabel": "React.ReactNode",
+                "required": true
+              },
+              "description": {
+                "type": "object",
+                "description": "Job description/details (displayed in accordion content)",
+                "typeLabel": "React.ReactNode",
+                "required": true
+              }
+            },
+            "typeLabel": "JobListingItem"
+          },
+          "typeLabel": "JobListingItem[]",
+          "required": false
+        },
+        "sidebarComponent": {
+          "type": "object",
+          "description": "Custom sidebar component that replaces the default job listings accordion.\nUse this for fully custom sidebar content.",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "sidebarTitle": {
+          "type": "string",
+          "description": "Title for the sidebar section",
+          "required": false
+        },
+        "sidebarDescription": {
+          "type": "string",
+          "description": "Description for the sidebar section",
+          "required": false
+        },
+        "sidebarClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the sidebar wrapper",
+          "required": false
+        },
+        "sidebarStickyClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the sticky container inside the sidebar",
+          "required": false
+        },
+        "accordionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the accordion",
+          "required": false
+        },
+        "accordionItemClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for accordion items",
+          "required": false
+        },
+        "accordionTriggerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for accordion triggers",
+          "required": false
+        },
+        "accordionContentClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for accordion content",
+          "required": false
+        },
+        "formCardTitle": {
+          "type": "string",
+          "description": "Title for the form card",
+          "required": false
+        },
+        "formCardDescription": {
+          "type": "string",
+          "description": "Description for the form card",
           "required": false
         }
       },

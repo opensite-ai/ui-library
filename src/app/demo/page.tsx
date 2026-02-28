@@ -3,6 +3,7 @@ import { openGraphImgUrl } from "@/lib/media";
 import Block from "@/blocks/footers/footer-newsletter-minimal";
 import HeroBlock1 from "@/blocks/hero/hero-event-registration";
 import HeroBlock2 from "@/blocks/hero/hero-crm-streamlined";
+import ContactPhotography from "@/blocks/contact/contact-photography";
 
 import { SocialShare } from "@page-speed/social-share";
 
@@ -22,6 +23,7 @@ export default function DemoPage() {
   return (
     <div className="">
       <HeroBlock1 />
+      <ContactPhotography />
       <HeroBlock2 />
       <div className="flex items-center justify-center py-24 bg-white">
         <SocialShare
@@ -29,7 +31,7 @@ export default function DemoPage() {
           postTitle="My Demo Page"
           shareUrl="https://ui.opensite.dev/"
           summaryContent="Production-ready component library utilized by the OpenSite Semantic UI engine.Strong enough for an AI agent, but made for a designer. 600+ Blocks 97%-100% Google Speed Avg"
-          imgUrls={[openGraphImgUrl]}
+          // imgUrls={[openGraphImgUrl]}
           hashtags={["react", "webdev"]}
           disableImageAttachments
         />
