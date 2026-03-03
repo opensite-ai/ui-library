@@ -5,7 +5,6 @@
 
 import type { Metadata } from "next";
 import { getAllCategories, getBlockStats } from "@/lib/registry";
-import { SocialShare } from "@page-speed/social-share";
 import { CategoryGrid } from "@/components/category-grid";
 import { openGraphImgUrl } from "@/lib/media";
 import { DynamicIcon, Pressable, Section } from "@opensite/ui";
@@ -71,7 +70,7 @@ export default function HomePage() {
           </Pressable>
         </div>
       </Section>
-      <div className="flex items-center justify-center py-24 bg-white">
+      {/*<div className="flex items-center justify-center py-24 bg-white">
         <SocialShare
           variant="combo"
           postTitle="My Demo Page"
@@ -81,7 +80,7 @@ export default function HomePage() {
           imgUrls={[openGraphImgUrl]}
           disableImageAttachments={false}
         />
-      </div>
+      </div>*/}
     </div>
   );
 }
