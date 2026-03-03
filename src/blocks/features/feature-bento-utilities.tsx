@@ -45,7 +45,9 @@ export default function Demo() {
           href: "#",
         },
       ]}
-      background="white"
+      background="dark"
+      pattern="gridFadeCenter"
+      patternOpacity={0.15}
     />
   );
 }

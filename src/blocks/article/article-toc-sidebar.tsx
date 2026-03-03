@@ -32,6 +32,9 @@ export default function Demo() {
         },
       ]}
       enableTocTracking={true}
+      background="dark"
+      pattern="dashedGridFadeTop"
+      patternOpacity={0.15}
     >
       <section id="introduction">
         <h2>Introduction</h2>
@@ -41,7 +44,7 @@ export default function Demo() {
           we&apos;ll explore the key principles that enable applications to grow
           gracefully with increasing demand.
         </p>
-        <div className="my-6 rounded-lg border bg-muted/50 p-4">
+        <div className="my-6 rounded-lg border bg-card text-card-foreground p-4">
           <div className="flex items-start gap-3">
             <div className="mt-0.5">
               <svg
@@ -57,8 +60,8 @@ export default function Demo() {
               </svg>
             </div>
             <div>
-              <h3 className="font-semibold">Pro Tip</h3>
-              <p className="mt-1 text-sm text-muted-foreground">
+              <h3 className="font-semibold text-card-foreground">Pro Tip</h3>
+              <p className="mt-1 text-sm text-card-foreground">
                 Start with a simple architecture and evolve it as your needs
                 grow. Premature optimization can lead to unnecessary complexity.
               </p>

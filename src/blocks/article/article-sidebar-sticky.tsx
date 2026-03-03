@@ -15,7 +15,7 @@ export default function Demo() {
       heroImageSrc={imagePlaceholders[56]}
       heroImageAlt="React Server Components architecture"
       background="white"
-      pattern="gridFadeTop"
+      pattern="dashedGridBasic"
       patternOpacity={1}
     >
       <p className="lead">

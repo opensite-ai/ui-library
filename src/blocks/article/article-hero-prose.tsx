@@ -4,6 +4,9 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <ArticleHeroProse
+      background="dark"
+      pattern="gridFadeTopRight"
+      patternOpacity={0.15}
       post={{
         title: "The Evolution of Modern JavaScript: From ES6 to ES2026",
         description:
@@ -17,7 +20,7 @@ export default function Demo() {
       dateFormat="MMMM d, yyyy"
     >
       <h2 className="text-3xl font-extrabold">The JavaScript Revolution</h2>
-      <p className="mt-2 text-lg text-muted-foreground">
+      <p className="mt-2 text-lg">
         JavaScript has come a long way since its humble beginnings in 1995. What
         started as a simple scripting language for adding interactivity to web
         pages has evolved into a powerful, full-stack programming language that
@@ -43,9 +46,7 @@ export default function Demo() {
       />
 
       <h2>Key Innovations Since ES6</h2>
-      <p>
-        Since ES6, each yearly release has brought valuable improvements:
-      </p>
+      <p>Since ES6, each yearly release has brought valuable improvements:</p>
       <ul>
         <li>
           <strong>ES2016:</strong> Exponentiation operator and Array.includes()

@@ -8,6 +8,9 @@ export default function Demo() {
         { label: "Resources", href: "#resources" },
         { label: "Guides", href: "#guides" },
       ]}
+      pattern="squareAltGrid"
+      patternOpacity={0.7}
+      background="muted"
       currentPage="Design Patterns"
       title="The Complete Guide to Design Patterns"
       subtitle="Master the fundamental patterns that power modern software architecture"

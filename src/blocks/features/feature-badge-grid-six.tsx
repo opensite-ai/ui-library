@@ -50,7 +50,9 @@ export default function Demo() {
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      background="white"
+      background="secondary"
+      pattern="dashedGridFadeTop"
+      patternOpacity={0.15}
     />
   );
 }

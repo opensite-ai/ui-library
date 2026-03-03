@@ -2256,12 +2256,12 @@
       "title": "Article Breadcrumb Social",
       "componentPath": "blocks/article/article-breadcrumb-social.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293090/hoh2ao05dwia3s4ap3gitbe3vbxv/cleanshot-2026-03-03-at-13-28-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293089/qr1mwbjz0ww9ox7rx6jnqu4sohwg/cleanshot-2026-03-03-at-13-29-17.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289305/ip0dmd2c5y38t3dbwuurdcgeir9b/article-breadcrumb-social-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289307/niz4y98hwnxr5t3g44s0lluq52q2/blocks-article-breadcrumb-social-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293090/hoh2ao05dwia3s4ap3gitbe3vbxv/cleanshot-2026-03-03-at-13-28-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293089/qr1mwbjz0ww9ox7rx6jnqu4sohwg/cleanshot-2026-03-03-at-13-29-17.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
@@ -2270,12 +2270,12 @@
       "title": "Article Chapters Author",
       "componentPath": "blocks/article/article-chapters-author.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293088/ffidy6dd0oux8j9j98bnnkvdusb2/cleanshot-2026-03-03-at-13-22-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293087/fza7b6gqmv42zwt7exjdv4ddn42c/cleanshot-2026-03-03-at-13-22-54.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289031/sbw37ody77g8z3arzfojyzo2fh27/article-chapters-author-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289032/estvamdg8in1m4azs1z6u2j7av5k/article-chapters-author-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293088/ffidy6dd0oux8j9j98bnnkvdusb2/cleanshot-2026-03-03-at-13-22-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293087/fza7b6gqmv42zwt7exjdv4ddn42c/cleanshot-2026-03-03-at-13-22-54.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-chapters-author.tsx"
@@ -2284,12 +2284,12 @@
       "title": "Article Compact TOC",
       "componentPath": "blocks/article/article-compact-toc.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293092/4v2rlq4p4za5hnsby385in3o2u8w/cleanshot-2026-03-03-at-13-40-01.png",
+        "mobile": "https://cdn.ing/assets/i/r/293091/hv0py46jnstvdhy1i1vbk17kywhv/cleanshot-2026-03-03-at-13-40-18.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289309/bvfytzdqs8095z4yethoya8irnjy/article-compact-toc-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289308/gpakalpid8gckh4e3kmz67jmcat1/article-compact-toc-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293092/4v2rlq4p4za5hnsby385in3o2u8w/cleanshot-2026-03-03-at-13-40-01.png",
+        "mobile": "https://cdn.ing/assets/i/r/293091/hv0py46jnstvdhy1i1vbk17kywhv/cleanshot-2026-03-03-at-13-40-18.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-compact-toc.tsx"
@@ -2298,12 +2298,12 @@
       "title": "Article Hero Prose",
       "componentPath": "blocks/article/article-hero-prose.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293094/4ksu0y47tgsk03h18uq3dknyy3e3/cleanshot-2026-03-03-at-13-41-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/293093/t099stgoambmukt6v1wq0xxvwjwj/cleanshot-2026-03-03-at-13-41-52.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289035/2z86cmssqpgltyrelw2hns4fb829/article-hero-prose-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289036/fy6wukah23jf5yvvtx683fix10ob/article-hero-prose-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293094/4ksu0y47tgsk03h18uq3dknyy3e3/cleanshot-2026-03-03-at-13-41-31.png",
+        "mobile": "https://cdn.ing/assets/i/r/293093/t099stgoambmukt6v1wq0xxvwjwj/cleanshot-2026-03-03-at-13-41-52.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-hero-prose.tsx"
@@ -2312,12 +2312,12 @@
       "title": "Article Sidebar Sticky",
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
+        "desktop": "https://cdn.ing/assets/i/r/293082/8ieqwud2y2uz91buoxj3uzb45enf/cleanshot-2026-03-03-at-13-05-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293081/491xz1v2xe8p4ty1wnj7o0ijwp40/cleanshot-2026-03-03-at-13-05-53.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/291563/wbye9ymqneobq59zip74bz00zi2s/cleanshot-2026-02-26-at-21-59-13.png"
+        "desktop": "https://cdn.ing/assets/i/r/293082/8ieqwud2y2uz91buoxj3uzb45enf/cleanshot-2026-03-03-at-13-05-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293081/491xz1v2xe8p4ty1wnj7o0ijwp40/cleanshot-2026-03-03-at-13-05-53.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
@@ -2326,12 +2326,12 @@
       "title": "Article Split Animated",
       "componentPath": "blocks/article/article-split-animated.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293086/wxm4qvz857xl5ykeldtdvkr0j84i/cleanshot-2026-03-03-at-13-16-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/293085/el52rouxd7894hfqv1czgnpv6k0s/cleanshot-2026-03-03-at-13-16-25.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289029/g7jqdwh3h3pxp0b79wvmhibrtbco/article-split-animated-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289030/3litv81b1l7sl8th2ce2hhpgllmi/article-split-animated-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293086/wxm4qvz857xl5ykeldtdvkr0j84i/cleanshot-2026-03-03-at-13-16-14.png",
+        "mobile": "https://cdn.ing/assets/i/r/293085/el52rouxd7894hfqv1czgnpv6k0s/cleanshot-2026-03-03-at-13-16-25.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-split-animated.tsx"
@@ -2340,12 +2340,12 @@
       "title": "Article TOC Sidebar",
       "componentPath": "blocks/article/article-toc-sidebar.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293075/6sklzdhioqhnbjryewz6wue05qx4/cleanshot-2026-03-03-at-12-00-32.png",
+        "mobile": "https://cdn.ing/assets/i/r/293074/m3131lck7hsql683f9l84ua6wy6d/cleanshot-2026-03-03-at-12-00-44.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289027/aytv574q9ghcea2mrjuv6v61fghh/article-toc-sidebar-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289028/qu87cq82qa0zn6jcmhmkoaqqc7du/article-toc-sidebar-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293075/6sklzdhioqhnbjryewz6wue05qx4/cleanshot-2026-03-03-at-12-00-32.png",
+        "mobile": "https://cdn.ing/assets/i/r/293074/m3131lck7hsql683f9l84ua6wy6d/cleanshot-2026-03-03-at-12-00-44.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-toc-sidebar.tsx"
@@ -2494,12 +2494,12 @@
       "title": "Blog Masonry Featured",
       "componentPath": "blocks/blog/blog-masonry-featured.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293073/wbghpzq115at5dmxt5xu5lcy0b4s/cleanshot-2026-03-03-at-11-09-26.png",
+        "mobile": "https://cdn.ing/assets/i/r/293072/x0gex0m50ezt2iup87wch0vg6viu/cleanshot-2026-03-03-at-11-09-46.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289033/z6s0srg6lcu39gazm4epn8s300yv/blog-masonry-featured-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289034/j5yozhqas8bcvatlgtmytsdzbaf4/blog-masonry-featured-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293073/wbghpzq115at5dmxt5xu5lcy0b4s/cleanshot-2026-03-03-at-11-09-26.png",
+        "mobile": "https://cdn.ing/assets/i/r/293072/x0gex0m50ezt2iup87wch0vg6viu/cleanshot-2026-03-03-at-11-09-46.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-masonry-featured.tsx"
@@ -2662,12 +2662,12 @@
       "title": "Carousel Portfolio Hero",
       "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293083/mkxuuxjr5befbvh1f77yopunm2qe/cleanshot-2026-03-03-at-13-14-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293084/kc7vt08en8cauz937gxihczun58w/cleanshot-2026-03-03-at-13-14-45.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289212/vmcjgb7tfjeemeb0x6w5dxy3utm6/carousel-portfolio-hero-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289213/8ngrll1ucbem3wc5yxeck8x17hnm/carousel-portfolio-hero-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293083/mkxuuxjr5befbvh1f77yopunm2qe/cleanshot-2026-03-03-at-13-14-35.png",
+        "mobile": "https://cdn.ing/assets/i/r/293084/kc7vt08en8cauz937gxihczun58w/cleanshot-2026-03-03-at-13-14-45.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
@@ -2858,12 +2858,12 @@
       "title": "Feature Badge Grid Six",
       "componentPath": "blocks/features/feature-badge-grid-six.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290511/lxcpgsw1gca5wk67zd4nn5rgc6b7/feature-badge-grid-six-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290510/3u32gg1mc8dxehhjr8498rsm2khy/feature-badge-grid-six-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293069/72mds3dykymcyvw54kpaira4u80w/cleanshot-2026-03-03-at-10-34-44.png",
+        "mobile": "https://cdn.ing/assets/i/r/293068/r0x2x9kztwhu16w0uq6rkykn9qjs/cleanshot-2026-03-03-at-10-35-03.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290511/lxcpgsw1gca5wk67zd4nn5rgc6b7/feature-badge-grid-six-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290510/3u32gg1mc8dxehhjr8498rsm2khy/feature-badge-grid-six-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293069/72mds3dykymcyvw54kpaira4u80w/cleanshot-2026-03-03-at-10-34-44.png",
+        "mobile": "https://cdn.ing/assets/i/r/293068/r0x2x9kztwhu16w0uq6rkykn9qjs/cleanshot-2026-03-03-at-10-35-03.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-badge-grid-six.tsx"
@@ -3012,12 +3012,12 @@
       "title": "Feature Bento Image Grid",
       "componentPath": "blocks/features/feature-bento-image-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290491/am2l0778dnboio1kb5a7wv1xb2gp/feature-bento-image-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290490/ga3nbyjgw5x3gy64ju95puogtj5z/feature-bento-image-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293070/fjantr8kpa2nj6ygpiqb8l46jgws/cleanshot-2026-03-03-at-11-04-05.png",
+        "mobile": "https://cdn.ing/assets/i/r/293071/rfqkkwlaawkdubnhysqic8wrp56r/cleanshot-2026-03-03-at-11-04-22.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290491/am2l0778dnboio1kb5a7wv1xb2gp/feature-bento-image-grid-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290490/ga3nbyjgw5x3gy64ju95puogtj5z/feature-bento-image-grid-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293070/fjantr8kpa2nj6ygpiqb8l46jgws/cleanshot-2026-03-03-at-11-04-05.png",
+        "mobile": "https://cdn.ing/assets/i/r/293071/rfqkkwlaawkdubnhysqic8wrp56r/cleanshot-2026-03-03-at-11-04-22.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-bento-image-grid.tsx"
@@ -3026,12 +3026,12 @@
       "title": "Feature Bento Utilities",
       "componentPath": "blocks/features/feature-bento-utilities.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290503/vcom16yc41bjjzobfaos97ddso5y/feature-bento-utilities-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290502/rehb786gb6c32sw4xjjlpwf6732a/feature-bento-utilities-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293067/ld6eadb8c2umb8boqezxlykhmec8/cleanshot-2026-03-03-at-10-22-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/293066/1mzf0bjbdg5vjkcy3phv0cf0l166/cleanshot-2026-03-03-at-10-23-14.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290503/vcom16yc41bjjzobfaos97ddso5y/feature-bento-utilities-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290502/rehb786gb6c32sw4xjjlpwf6732a/feature-bento-utilities-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293067/ld6eadb8c2umb8boqezxlykhmec8/cleanshot-2026-03-03-at-10-22-56.png",
+        "mobile": "https://cdn.ing/assets/i/r/293066/1mzf0bjbdg5vjkcy3phv0cf0l166/cleanshot-2026-03-03-at-10-23-14.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-bento-utilities.tsx"

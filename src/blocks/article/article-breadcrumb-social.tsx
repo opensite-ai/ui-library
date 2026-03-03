@@ -8,6 +8,9 @@ export default function Demo() {
         { label: "Blog", href: "#blog" },
         { label: "Technology", href: "#technology" },
       ]}
+      background="white"
+      pattern="p6"
+      patternOpacity={1}
       currentPage="Building Scalable Web Applications"
       title="Building Scalable Web Applications in 2026"
       author={{

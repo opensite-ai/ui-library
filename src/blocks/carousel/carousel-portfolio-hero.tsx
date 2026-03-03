@@ -54,15 +54,6 @@ export default function Demo() {
           size: "lg",
           asButton: true,
         },
-        {
-          label: "Get In Touch",
-          href: "#",
-          variant: "link",
-          size: "lg",
-          asButton: true,
-          className: "text-white hover:text-white/75",
-          iconAfter: <DynamicIcon name="lucide/arrow-up-right" />,
-        },
       ]}
       autoPlayInterval={6000}
     />

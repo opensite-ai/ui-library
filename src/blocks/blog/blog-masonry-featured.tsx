@@ -5,6 +5,10 @@ export default function Demo() {
   return (
     <BlogMasonryFeatured
       heading="Curated Reads"
+      description="Handpicked articles and insights from our team and community to keep you informed and inspired."
+      background="secondary"
+      pattern="gridFadeTopLeft"
+      patternOpacity={0.15}
       posts={[
         {
           id: "featured",

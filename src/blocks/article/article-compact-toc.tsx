@@ -19,10 +19,13 @@ export default function Demo() {
         { label: "Research", href: "#research" },
         { label: "Studies", href: "#studies" },
       ]}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.7}
+      background="white"
       currentPage="User Behavior Analysis"
       title="Understanding User Behavior in Modern Web Applications"
       authorName="Dr. Jennifer Park"
-      authorHref="#author"
+      authorHref="#"
       publishDate="January 22, 2026"
       readTime="8 min read"
       heroImageSrc={imagePlaceholders[5]}

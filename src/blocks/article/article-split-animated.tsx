@@ -5,6 +5,11 @@ export default function Demo() {
   return (
     <ArticleSplitAnimated
       image={imagePlaceholders[31]}
+      background="dark"
+      // background="white"
+      pattern="gridFadeTop"
+      patternOpacity={0.15}
+      // patternOpacity={1}
       imageAlt="AI-powered development workflow"
       category="Artificial Intelligence"
       categoryHref="#ai"

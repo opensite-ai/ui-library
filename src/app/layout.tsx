@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { openGraphImgUrl } from "@/lib/media";
 import { Toaster } from "@/components/ui/sonner";
-import Accessibilik from "accessibility-react-widget";
+// import Accessibilik from "accessibility-react-widget";
 
 export const metadata: Metadata = {
   title: {
@@ -73,7 +73,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Accessibilik />
+        {/* <Accessibilik /> */}
         <Toaster />
       </body>
     </html>
