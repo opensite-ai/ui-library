@@ -168,10 +168,13 @@
       "title": "Contact Careers Application",
       "componentPath": "blocks/contact/contact-careers.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png",
+        "mobile": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png"
       },
-      "preview": {},
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png",
+        "mobile": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png"
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-careers"
     },
