@@ -58,7 +58,9 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      spacing="xl"
+      background="white"
+      pattern="gridFadeTop"
+      patternOpacity={1}
     />
   );
 }

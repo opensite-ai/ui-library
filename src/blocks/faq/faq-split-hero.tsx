@@ -32,8 +32,9 @@ export default function Demo() {
             "We ship new features and improvements every two weeks. Security patches and bug fixes are deployed immediately. All updates are seamless with no downtime or manual upgrades required.",
         },
       ]}
-      imageSrc={imagePlaceholders[88]}
-      imageAlt="Team collaboration"
+      mediaItem={{
+        image: { src: imagePlaceholders[88], alt: "Team collaboration" },
+      }}
       pattern="diagonalCrossFadeTopLeft"
       patternOpacity={0.09}
       background="dark"

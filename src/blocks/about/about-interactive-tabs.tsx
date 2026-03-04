@@ -60,6 +60,9 @@ export default function Demo() {
           },
         },
       ]}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.9}
+      background="gray"
     />
   );
 }

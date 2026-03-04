@@ -36,12 +36,12 @@ export default function Demo() {
       helpDescription="Our support team is available 24/7 to answer your questions and help you get the most out of our platform."
       helpAction={{
         label: "Contact Support Team",
-        href: "/contact",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      pattern="circuitBoardFadeTop"
-      patternOpacity={0.042}
+      pattern="gridFadeTop"
+      patternOpacity={0.1}
       background="secondary"
     />
   );

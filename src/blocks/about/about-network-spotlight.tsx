@@ -17,13 +17,13 @@ export default function Demo() {
       actions={[
         {
           label: "Become a Partner",
-          href: "/partners/apply",
+          href: "#",
           variant: "default",
           asButton: true,
         },
         {
           label: "Learn More",
-          href: "/partners",
+          href: "#",
           variant: "link",
           asButton: true,
         },
@@ -40,7 +40,7 @@ export default function Demo() {
           "Achieved 300% growth in their first year as a certified partner.",
       }}
       background="dark"
-      spacing="lg"
+      pattern="spotlightLeft"
     />
   );
 }

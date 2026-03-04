@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-03-03T20:35:26.319Z",
+    "exportedAt": "2026-03-04T08:07:03.526Z",
     "totalBlocks": 605,
-    "version": "2.6.9",
+    "version": "2.7.7",
     "source": "@opensite/ui",
-    "syncedAt": "2026-03-03T20:42:58.078Z"
+    "syncedAt": "2026-03-04T08:20:16.480Z"
   },
   "blocks": [
     {
@@ -3353,15 +3353,15 @@
       "categorySlug": "about",
       "description": "An interactive about section with tabbed navigation, dynamic content switching, and optional images per tab. Ideal for showcasing multiple aspects of a company (work, process, values) in an engaging, space-efficient format.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293119/hieks1eg9b4ub0aawfu0znscbet8/cleanshot-2026-03-03-at-20-41-54.png",
+        "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293119/hieks1eg9b4ub0aawfu0znscbet8/cleanshot-2026-03-03-at-20-41-54.png",
+        "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
       },
       "componentPath": "blocks/about/about-interactive-tabs.tsx",
-      "code": "import { AboutInteractiveTabs } from \"@opensite/ui/blocks/about/about-interactive-tabs\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutInteractiveTabs\n      title=\"How We Deliver Results\"\n      subtitle=\"Our proven methodology combines strategic thinking with hands-on execution to transform your vision into reality.\"\n      tabs={[\n        {\n          id: \"discover\",\n          label: \"Discover\",\n          content: {\n            title: \"Understanding Your Vision\",\n            description:\n              \"We begin by deeply understanding your business, goals, and challenges. Through stakeholder interviews, market research, and competitive analysis, we uncover insights that inform every decision.\",\n            image: {\n              src: imagePlaceholders[16],\n              alt: \"Discovery phase workshop\",\n            },\n          },\n        },\n        {\n          id: \"design\",\n          label: \"Design\",\n          content: {\n            title: \"Crafting the Solution\",\n            description:\n              \"Armed with insights, we craft solutions that balance aesthetics with functionality. Our iterative design process ensures every element serves a purpose and resonates with your audience.\",\n            image: {\n              src: imagePlaceholders[27],\n              alt: \"Design process\",\n            },\n          },\n        },\n        {\n          id: \"develop\",\n          label: \"Develop\",\n          content: {\n            title: \"Building with Excellence\",\n            description:\n              \"Our engineering team brings designs to life using modern technologies and best practices. We prioritize performance, accessibility, and maintainability in every line of code.\",\n            image: {\n              src: imagePlaceholders[38],\n              alt: \"Development phase\",\n            },\n          },\n        },\n        {\n          id: \"deliver\",\n          label: \"Deliver\",\n          content: {\n            title: \"Launching Your Success\",\n            description:\n              \"Launch is just the beginning. We ensure smooth deployment, provide comprehensive training, and offer ongoing support to maximize the impact of your investment.\",\n            image: {\n              src: imagePlaceholders[49],\n              alt: \"Project delivery\",\n            },\n          },\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { AboutInteractiveTabs } from \"@opensite/ui/blocks/about/about-interactive-tabs\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutInteractiveTabs\n      title=\"How We Deliver Results\"\n      subtitle=\"Our proven methodology combines strategic thinking with hands-on execution to transform your vision into reality.\"\n      tabs={[\n        {\n          id: \"discover\",\n          label: \"Discover\",\n          content: {\n            title: \"Understanding Your Vision\",\n            description:\n              \"We begin by deeply understanding your business, goals, and challenges. Through stakeholder interviews, market research, and competitive analysis, we uncover insights that inform every decision.\",\n            image: {\n              src: imagePlaceholders[16],\n              alt: \"Discovery phase workshop\",\n            },\n          },\n        },\n        {\n          id: \"design\",\n          label: \"Design\",\n          content: {\n            title: \"Crafting the Solution\",\n            description:\n              \"Armed with insights, we craft solutions that balance aesthetics with functionality. Our iterative design process ensures every element serves a purpose and resonates with your audience.\",\n            image: {\n              src: imagePlaceholders[27],\n              alt: \"Design process\",\n            },\n          },\n        },\n        {\n          id: \"develop\",\n          label: \"Develop\",\n          content: {\n            title: \"Building with Excellence\",\n            description:\n              \"Our engineering team brings designs to life using modern technologies and best practices. We prioritize performance, accessibility, and maintainability in every line of code.\",\n            image: {\n              src: imagePlaceholders[38],\n              alt: \"Development phase\",\n            },\n          },\n        },\n        {\n          id: \"deliver\",\n          label: \"Deliver\",\n          content: {\n            title: \"Launching Your Success\",\n            description:\n              \"Launch is just the beginning. We ensure smooth deployment, provide comprehensive training, and offer ongoing support to maximize the impact of your investment.\",\n            image: {\n              src: imagePlaceholders[49],\n              alt: \"Project delivery\",\n            },\n          },\n        },\n      ]}\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.9}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "title": {
           "type": "object",
@@ -3855,15 +3855,15 @@
       "categorySlug": "about",
       "description": "A two-part about section that pairs a narrative story with CTA buttons alongside a highlighted image card, followed by a grid of expertise tiles. Ideal for trust-building pages that need both brand story and capability proof points.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293115/2ovc61etdk0vhyya9mflrjr6khm1/cleanshot-2026-03-03-at-20-33-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293115/2ovc61etdk0vhyya9mflrjr6khm1/cleanshot-2026-03-03-at-20-33-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "componentPath": "blocks/about/about-story-expertise.tsx",
-      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"/story\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"/team\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description: \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: <DynamicIcon name=\"lucide/layout\" size={24} />,\n          title: \"Product Design\",\n          description: \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/code\" size={24} />,\n          title: \"Engineering\",\n          description: \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/bar-chart\" size={24} />,\n          title: \"Data & Analytics\",\n          description: \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/cloud\" size={24} />,\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"/story\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"/team\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description:\n          \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: <DynamicIcon name=\"lucide/layout\" size={24} />,\n          title: \"Product Design\",\n          description:\n            \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/code\" size={24} />,\n          title: \"Engineering\",\n          description:\n            \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/bar-chart\" size={24} />,\n          title: \"Data & Analytics\",\n          description:\n            \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/cloud\" size={24} />,\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -4198,15 +4198,15 @@
       "categorySlug": "about",
       "description": "A high-contrast, two-column spotlight with a featured image overlay card, highlight list, and dual CTAs. Great for partner network invitations, alliance announcements, or community programs.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293117/0leh9x3j241i0cw3j7evk39xkj1x/cleanshot-2026-03-03-at-20-38-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293117/0leh9x3j241i0cw3j7evk39xkj1x/cleanshot-2026-03-03-at-20-38-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
       },
       "componentPath": "blocks/about/about-network-spotlight.tsx",
-      "code": "import { AboutNetworkSpotlight } from \"@opensite/ui/blocks/about/about-network-spotlight\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutNetworkSpotlight\n      eyebrow=\"Partner Program\"\n      heading=\"Join Our Growing Network\"\n      description=\"Connect with industry leaders, access exclusive resources, and grow your business through our partner ecosystem.\"\n      highlights={[\n        \"Access to co-marketing opportunities and joint campaigns\",\n        \"Priority support and dedicated partner success manager\",\n        \"Revenue sharing and referral commission programs\",\n        \"Early access to new features and beta programs\",\n      ]}\n      actions={[\n        {\n          label: \"Become a Partner\",\n          href: \"/partners/apply\",\n          variant: \"default\",\n          asButton: true,\n        },\n        {\n          label: \"Learn More\",\n          href: \"/partners\",\n          variant: \"link\",\n          asButton: true,\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[16],\n        alt: \"Partner collaboration meeting\",\n      }}\n      spotlightCard={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Featured Partner\",\n        title: \"Acme Corporation\",\n        description:\n          \"Achieved 300% growth in their first year as a certified partner.\",\n      }}\n      background=\"dark\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { AboutNetworkSpotlight } from \"@opensite/ui/blocks/about/about-network-spotlight\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutNetworkSpotlight\n      eyebrow=\"Partner Program\"\n      heading=\"Join Our Growing Network\"\n      description=\"Connect with industry leaders, access exclusive resources, and grow your business through our partner ecosystem.\"\n      highlights={[\n        \"Access to co-marketing opportunities and joint campaigns\",\n        \"Priority support and dedicated partner success manager\",\n        \"Revenue sharing and referral commission programs\",\n        \"Early access to new features and beta programs\",\n      ]}\n      actions={[\n        {\n          label: \"Become a Partner\",\n          href: \"#\",\n          variant: \"default\",\n          asButton: true,\n        },\n        {\n          label: \"Learn More\",\n          href: \"#\",\n          variant: \"link\",\n          asButton: true,\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[16],\n        alt: \"Partner collaboration meeting\",\n      }}\n      spotlightCard={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Featured Partner\",\n        title: \"Acme Corporation\",\n        description:\n          \"Achieved 300% growth in their first year as a certified partner.\",\n      }}\n      background=\"dark\"\n      pattern=\"spotlightLeft\"\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -10700,21 +10700,16 @@
           "fields": {
             "apiKey": {
               "type": "string",
-              "description": "",
+              "description": "API key for OptixFlow service",
               "required": true
             },
             "compression": {
               "type": "number",
-              "description": "",
+              "description": "Compression level (0-100)",
               "required": false
             }
           },
-          "typeLabel": "{ apiKey: string; compression?: number; }",
-          "required": false
-        },
-        "badgeText": {
-          "type": "string",
-          "description": "",
+          "typeLabel": "OptixFlowConfig",
           "required": false
         }
       },
@@ -13660,6 +13655,26 @@
           "description": "Additional CSS classes for the card content",
           "required": false
         },
+        "panelClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the left panel wrapper",
+          "required": false
+        },
+        "contentGridClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the content grid",
+          "required": false
+        },
+        "mapColumnClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the map column wrapper",
+          "required": false
+        },
+        "mapClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the map component wrapper",
+          "required": false
+        },
         "background": {
           "type": "string",
           "description": "Background style for the section",
@@ -13689,6 +13704,610 @@
           "type": "object",
           "description": "Full form engine setup and props",
           "typeLabel": "FormEngineProps",
+          "required": false
+        },
+        "mapProps": {
+          "type": "object",
+          "description": "Geo map configuration and marker data",
+          "fields": {
+            "className": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "mapWrapperClassName": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "mapClassName": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "panelClassName": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "panelPosition": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "PanelPosition",
+              "required": false
+            },
+            "stadiaApiKey": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "mapStyle": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "styleUrl": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "mapLibreCssHref": {
+              "type": "string",
+              "description": "",
+              "required": false
+            },
+            "markers": {
+              "type": "array",
+              "description": "",
+              "items": {
+                "type": "object",
+                "description": "",
+                "fields": {
+                  "id": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "string | number",
+                    "required": false
+                  },
+                  "latitude": {
+                    "type": "number",
+                    "description": "",
+                    "required": true
+                  },
+                  "longitude": {
+                    "type": "number",
+                    "description": "",
+                    "required": true
+                  },
+                  "label": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "eyebrow": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "title": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "summary": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "locationLine": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "hoursLine": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "mediaItems": {
+                    "type": "array",
+                    "description": "",
+                    "items": {
+                      "type": "object",
+                      "description": "",
+                      "fields": {
+                        "id": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "string | number",
+                          "required": false
+                        },
+                        "src": {
+                          "type": "string",
+                          "description": "",
+                          "required": true
+                        },
+                        "type": {
+                          "type": "string",
+                          "description": "",
+                          "typeLabel": "GeoMapMediaType",
+                          "required": false
+                        },
+                        "alt": {
+                          "type": "string",
+                          "description": "",
+                          "required": false
+                        },
+                        "poster": {
+                          "type": "string",
+                          "description": "",
+                          "required": false
+                        }
+                      },
+                      "typeLabel": "GeoMapMediaItem"
+                    },
+                    "typeLabel": "GeoMapMediaItem[]",
+                    "required": false
+                  },
+                  "markerContentComponent": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "actions": {
+                    "type": "array",
+                    "description": "",
+                    "items": {
+                      "type": "object",
+                      "description": "",
+                      "fields": {
+                        "label": {
+                          "type": "object",
+                          "description": "Button/link label text or ReactNode",
+                          "typeLabel": "ReactNode",
+                          "required": false
+                        },
+                        "icon": {
+                          "type": "object",
+                          "description": "Icon to display (typically before label)",
+                          "typeLabel": "ReactNode",
+                          "required": false
+                        },
+                        "iconAfter": {
+                          "type": "object",
+                          "description": "Icon to display after the label",
+                          "typeLabel": "ReactNode",
+                          "required": false
+                        },
+                        "href": {
+                          "type": "string",
+                          "description": "URL for link behavior",
+                          "required": false
+                        },
+                        "onClick": {
+                          "type": "object",
+                          "description": "Click handler for button behavior",
+                          "typeLabel": "MouseEventHandler",
+                          "required": false
+                        },
+                        "className": {
+                          "type": "string",
+                          "description": "Additional CSS classes for the action",
+                          "required": false
+                        },
+                        "children": {
+                          "type": "object",
+                          "description": "Custom children (overrides label + icon rendering)",
+                          "typeLabel": "ReactNode",
+                          "required": false
+                        },
+                        "\"aria-label\"": {
+                          "type": "string",
+                          "description": "ARIA label for accessibility",
+                          "required": false
+                        },
+                        "asButton": {
+                          "type": "boolean",
+                          "description": "Render as a button element instead of an anchor/link",
+                          "required": false
+                        }
+                      },
+                      "typeLabel": "ActionConfig"
+                    },
+                    "typeLabel": "ActionConfig[]",
+                    "required": false
+                  },
+                  "draggable": {
+                    "type": "boolean",
+                    "description": "",
+                    "required": false
+                  },
+                  "pinColor": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  },
+                  "pinClassName": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  },
+                  "markerElement": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode | ((args: { isSelected: boolean }) => React.ReactNode)",
+                    "required": false
+                  }
+                },
+                "typeLabel": "GeoMapMarker"
+              },
+              "typeLabel": "GeoMapMarker[]",
+              "required": false
+            },
+            "clusters": {
+              "type": "array",
+              "description": "",
+              "items": {
+                "type": "object",
+                "description": "",
+                "fields": {
+                  "id": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "string | number",
+                    "required": false
+                  },
+                  "label": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "title": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "summary": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": false
+                  },
+                  "latitude": {
+                    "type": "number",
+                    "description": "",
+                    "required": false
+                  },
+                  "longitude": {
+                    "type": "number",
+                    "description": "",
+                    "required": false
+                  },
+                  "markers": {
+                    "type": "array",
+                    "description": "",
+                    "items": {
+                      "type": "object",
+                      "description": "",
+                      "fields": {
+                        "id": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "string | number",
+                          "required": false
+                        },
+                        "latitude": {
+                          "type": "number",
+                          "description": "",
+                          "required": true
+                        },
+                        "longitude": {
+                          "type": "number",
+                          "description": "",
+                          "required": true
+                        },
+                        "label": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "eyebrow": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "title": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "summary": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "locationLine": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "hoursLine": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "mediaItems": {
+                          "type": "array",
+                          "description": "",
+                          "items": {
+                            "type": "object",
+                            "description": "",
+                            "fields": {
+                              "id": {
+                                "type": "object",
+                                "description": "",
+                                "typeLabel": "string | number",
+                                "required": false
+                              },
+                              "src": {
+                                "type": "string",
+                                "description": "",
+                                "required": true
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "",
+                                "typeLabel": "GeoMapMediaType",
+                                "required": false
+                              },
+                              "alt": {
+                                "type": "string",
+                                "description": "",
+                                "required": false
+                              },
+                              "poster": {
+                                "type": "string",
+                                "description": "",
+                                "required": false
+                              }
+                            },
+                            "typeLabel": "GeoMapMediaItem"
+                          },
+                          "typeLabel": "GeoMapMediaItem[]",
+                          "required": false
+                        },
+                        "markerContentComponent": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode",
+                          "required": false
+                        },
+                        "actions": {
+                          "type": "array",
+                          "description": "",
+                          "items": {
+                            "type": "object",
+                            "description": "",
+                            "fields": {
+                              "label": {
+                                "type": "object",
+                                "description": "Button/link label text or ReactNode",
+                                "typeLabel": "ReactNode",
+                                "required": false
+                              },
+                              "icon": {
+                                "type": "object",
+                                "description": "Icon to display (typically before label)",
+                                "typeLabel": "ReactNode",
+                                "required": false
+                              },
+                              "iconAfter": {
+                                "type": "object",
+                                "description": "Icon to display after the label",
+                                "typeLabel": "ReactNode",
+                                "required": false
+                              },
+                              "href": {
+                                "type": "string",
+                                "description": "URL for link behavior",
+                                "required": false
+                              },
+                              "onClick": {
+                                "type": "object",
+                                "description": "Click handler for button behavior",
+                                "typeLabel": "MouseEventHandler",
+                                "required": false
+                              },
+                              "className": {
+                                "type": "string",
+                                "description": "Additional CSS classes for the action",
+                                "required": false
+                              },
+                              "children": {
+                                "type": "object",
+                                "description": "Custom children (overrides label + icon rendering)",
+                                "typeLabel": "ReactNode",
+                                "required": false
+                              },
+                              "\"aria-label\"": {
+                                "type": "string",
+                                "description": "ARIA label for accessibility",
+                                "required": false
+                              },
+                              "asButton": {
+                                "type": "boolean",
+                                "description": "Render as a button element instead of an anchor/link",
+                                "required": false
+                              }
+                            },
+                            "typeLabel": "ActionConfig"
+                          },
+                          "typeLabel": "ActionConfig[]",
+                          "required": false
+                        },
+                        "draggable": {
+                          "type": "boolean",
+                          "description": "",
+                          "required": false
+                        },
+                        "pinColor": {
+                          "type": "string",
+                          "description": "",
+                          "required": false
+                        },
+                        "pinClassName": {
+                          "type": "string",
+                          "description": "",
+                          "required": false
+                        },
+                        "markerElement": {
+                          "type": "object",
+                          "description": "",
+                          "typeLabel": "React.ReactNode | ((args: { isSelected: boolean }) => React.ReactNode)",
+                          "required": false
+                        }
+                      },
+                      "typeLabel": "GeoMapMarker"
+                    },
+                    "typeLabel": "GeoMapMarker[]",
+                    "required": true
+                  },
+                  "pinColor": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  },
+                  "pinClassName": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  },
+                  "markerElement": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "| React.ReactNode | ((args: { isSelected: boolean; count: number }) => React.ReactNode)",
+                    "required": false
+                  }
+                },
+                "typeLabel": "GeoMapCluster"
+              },
+              "typeLabel": "GeoMapCluster[]",
+              "required": false
+            },
+            "viewState": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "Partial",
+              "required": false
+            },
+            "defaultViewState": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "Partial",
+              "required": false
+            },
+            "onViewStateChange": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "(state: Partial<MapViewState>) => void",
+              "required": false
+            },
+            "onMapClick": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "(coord: MapCoordinate) => void",
+              "required": false
+            },
+            "onMarkerDrag": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "(markerId: string | number | null, coord: MapCoordinate) => void",
+              "required": false
+            },
+            "showNavigationControl": {
+              "type": "boolean",
+              "description": "",
+              "required": false
+            },
+            "showGeolocateControl": {
+              "type": "boolean",
+              "description": "",
+              "required": false
+            },
+            "navigationControlPosition": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "MapControlPosition",
+              "required": false
+            },
+            "geolocateControlPosition": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "MapControlPosition",
+              "required": false
+            },
+            "flyToOptions": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "MapLibreFlyToOptions",
+              "required": false
+            },
+            "markerFocusZoom": {
+              "type": "number",
+              "description": "",
+              "required": false
+            },
+            "clusterFocusZoom": {
+              "type": "number",
+              "description": "",
+              "required": false
+            },
+            "selectedMarkerId": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "string | number",
+              "required": false
+            },
+            "initialSelectedMarkerId": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "string | number",
+              "required": false
+            },
+            "onSelectionChange": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "(selection: GeoMapSelection) => void",
+              "required": false
+            },
+            "clearSelectionOnMapClick": {
+              "type": "boolean",
+              "description": "",
+              "required": false
+            },
+            "mapChildren": {
+              "type": "object",
+              "description": "",
+              "typeLabel": "React.ReactNode",
+              "required": false
+            }
+          },
+          "typeLabel": "GeoMapProps",
           "required": false
         }
       },
@@ -19073,15 +19692,15 @@
       "categorySlug": "carousel",
       "description": "A scroll-driven feature showcase with a sticky image panel that updates as users scroll through feature descriptions. Features smooth transitions between feature images with intersection observer-based activation.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293096/hhfm0ixjnvh1pguce3ar6xaj2zqt/cleanshot-2026-03-03-at-14-20-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/293095/d4d2j42mce7dqlza0o6gdfufaore/cleanshot-2026-03-03-at-14-20-39.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293096/hhfm0ixjnvh1pguce3ar6xaj2zqt/cleanshot-2026-03-03-at-14-20-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/293095/d4d2j42mce7dqlza0o6gdfufaore/cleanshot-2026-03-03-at-14-20-39.png"
       },
       "componentPath": "blocks/carousel/carousel-scrolling-feature-showcase.tsx",
-      "code": "import { CarouselScrollingFeatureShowcase } from \"@opensite/ui/blocks/carousel/carousel-scrolling-feature-showcase\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CarouselScrollingFeatureShowcase\n      heading=\"Revolutionary Features\"\n      subheading=\"Everything you need to transform your business operations\"\n      features={[\n        {\n          id: \"ai-assistant\",\n          title: \"AI-Powered Virtual Assistant\",\n          description: \"Meet your new intelligent helper that understands context, learns from interactions, and provides personalized recommendations. Available 24/7 to answer questions, automate tasks, and boost your productivity by up to 40%. Uses advanced natural language processing to understand even complex queries and deliver accurate responses in milliseconds.\",\n          image: imagePlaceholders[20],\n        },\n        {\n          id: \"real-time-sync\",\n          title: \"Real-Time Data Synchronization\",\n          description: \"Stay perfectly in sync across all your devices and team members. Changes appear instantly for everyone, eliminating version conflicts and ensuring your team always works with the most current information. Our conflict resolution algorithms handle simultaneous edits gracefully, and offline mode lets you work anywhere.\",\n          image: imagePlaceholders[43],\n        },\n        {\n          id: \"custom-workflows\",\n          title: \"No-Code Workflow Builder\",\n          description: \"Design sophisticated business processes without writing a single line of code. Our visual workflow builder features drag-and-drop simplicity with powerful logic capabilities including conditional branching, loops, and external API calls. Includes 200+ pre-built templates to get you started instantly.\",\n          image: imagePlaceholders[60],\n        },\n        {\n          id: \"advanced-permissions\",\n          title: \"Granular Access Control\",\n          description: \"Define precisely who can see and do what with field-level permissions, role-based access control, and conditional visibility rules. Create custom roles, set up approval workflows, and maintain detailed audit logs of all access and changes. Perfect for enterprises with complex compliance requirements.\",\n          image: imagePlaceholders[77],\n        },\n        {\n          id: \"predictive-insights\",\n          title: \"Predictive Analytics Engine\",\n          description: \"Harness the power of machine learning to forecast trends, identify opportunities, and prevent problems before they happen. Our ML models analyze historical patterns and external factors to deliver actionable insights with confidence scores. Customize predictions based on your unique business metrics.\",\n          image: imagePlaceholders[95],\n        },\n        {\n          id: \"white-label\",\n          title: \"Complete White Labeling\",\n          description: \"Make the platform truly yours with comprehensive branding options. Customize logos, colors, domain names, email templates, and even terminology to match your brand identity perfectly. Your clients will never know you're using a third-party platform.\",\n          image: imagePlaceholders[110],\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { CarouselScrollingFeatureShowcase } from \"@opensite/ui/blocks/carousel/carousel-scrolling-feature-showcase\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CarouselScrollingFeatureShowcase\n      heading=\"Revolutionary Features\"\n      subheading=\"Everything you need to transform your business operations\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.7}\n      background=\"white\"\n      features={[\n        {\n          id: \"ai-assistant\",\n          title: \"AI-Powered Virtual Assistant\",\n          description:\n            \"Meet your new intelligent helper that understands context, learns from interactions, and provides personalized recommendations. Available 24/7 to answer questions, automate tasks, and boost your productivity by up to 40%. Uses advanced natural language processing to understand even complex queries and deliver accurate responses in milliseconds.\",\n          image: imagePlaceholders[20],\n        },\n        {\n          id: \"real-time-sync\",\n          title: \"Real-Time Data Synchronization\",\n          description:\n            \"Stay perfectly in sync across all your devices and team members. Changes appear instantly for everyone, eliminating version conflicts and ensuring your team always works with the most current information. Our conflict resolution algorithms handle simultaneous edits gracefully, and offline mode lets you work anywhere.\",\n          image: imagePlaceholders[43],\n        },\n        {\n          id: \"custom-workflows\",\n          title: \"No-Code Workflow Builder\",\n          description:\n            \"Design sophisticated business processes without writing a single line of code. Our visual workflow builder features drag-and-drop simplicity with powerful logic capabilities including conditional branching, loops, and external API calls. Includes 200+ pre-built templates to get you started instantly.\",\n          image: imagePlaceholders[60],\n        },\n        {\n          id: \"advanced-permissions\",\n          title: \"Granular Access Control\",\n          description:\n            \"Define precisely who can see and do what with field-level permissions, role-based access control, and conditional visibility rules. Create custom roles, set up approval workflows, and maintain detailed audit logs of all access and changes. Perfect for enterprises with complex compliance requirements.\",\n          image: imagePlaceholders[77],\n        },\n        {\n          id: \"predictive-insights\",\n          title: \"Predictive Analytics Engine\",\n          description:\n            \"Harness the power of machine learning to forecast trends, identify opportunities, and prevent problems before they happen. Our ML models analyze historical patterns and external factors to deliver actionable insights with confidence scores. Customize predictions based on your unique business metrics.\",\n          image: imagePlaceholders[95],\n        },\n        {\n          id: \"white-label\",\n          title: \"Complete White Labeling\",\n          description:\n            \"Make the platform truly yours with comprehensive branding options. Customize logos, colors, domain names, email templates, and even terminology to match your brand identity perfectly. Your clients will never know you're using a third-party platform.\",\n          image: imagePlaceholders[110],\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -19243,6 +19862,11 @@
         "patternOpacity": {
           "type": "number",
           "description": "Pattern overlay opacity (0-1)",
+          "required": false
+        },
+        "patternClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the pattern overlay",
           "required": false
         }
       },
@@ -41803,7 +42427,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
       },
       "componentPath": "blocks/blog/blog-tech-insights.tsx",
-      "code": "import { BlogTechInsights } from \"@opensite/ui/blocks/blog/blog-tech-insights\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <BlogTechInsights\n      heading=\"Tech Insights\"\n      description=\"Latest developments in technology\"\n      readMoreAction={{\n        label: \"View All\",\n        href: \"/insights\",\n        variant: \"outline\",\n      }}\n      featuredPost={{\n        id: \"featured\",\n        title: \"The Rise of Edge Computing in Modern Applications\",\n        image: imagePlaceholders[50],\n        author: \"Dr. Emily Chang\",\n        authorAvatar: imagePlaceholders[85],\n        authorRole: \"Principal Architect\",\n        href: \"/blog/edge-computing-rise\",\n      }}\n      secondaryPosts={[\n        {\n          id: \"1\",\n          title: \"WebAssembly: Transforming Web Performance\",\n          description:\n            \"How WebAssembly is transforming browser-based applications and enabling near-native performance for web apps.\",\n          image: imagePlaceholders[4],\n          href: \"/blog/webassembly-transformation\",\n        },\n        {\n          id: \"2\",\n          title: \"Blockchain in Supply Chain Management\",\n          description:\n            \"Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\",\n          image: imagePlaceholders[17],\n          href: \"/blog/blockchain-supply-chain\",\n        },\n        {\n          id: \"3\",\n          title: \"Quantum-Resistant Cryptography: Preparing for the Future\",\n          description:\n            \"Deep dive into quantum-resistant cryptography and preparing systems for the post-quantum computing era.\",\n          image: imagePlaceholders[37],\n          href: \"/blog/quantum-resistant-crypto\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { BlogTechInsights } from \"@opensite/ui/blocks/blog/blog-tech-insights\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <BlogTechInsights\n      heading=\"Tech Insights\"\n      description=\"Latest developments in technology. Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\"\n      readMoreAction={{\n        label: \"View All\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        size: \"lg\",\n      }}\n      featuredPost={{\n        id: \"featured\",\n        title: \"The Rise of Edge Computing in Modern Applications\",\n        image: imagePlaceholders[50],\n        author: \"Dr. Emily Chang\",\n        authorAvatar: imagePlaceholders[85],\n        authorRole: \"Principal Architect\",\n        href: \"/blog/edge-computing-rise\",\n      }}\n      secondaryPosts={[\n        {\n          id: \"1\",\n          title: \"WebAssembly: Transforming Web Performance\",\n          description:\n            \"How WebAssembly is transforming browser-based applications and enabling near-native performance for web apps.\",\n          image: imagePlaceholders[4],\n          href: \"/blog/webassembly-transformation\",\n        },\n        {\n          id: \"2\",\n          title: \"Blockchain in Supply Chain Management\",\n          description:\n            \"Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\",\n          image: imagePlaceholders[17],\n          href: \"/blog/blockchain-supply-chain\",\n        },\n        {\n          id: \"3\",\n          title: \"Quantum-Resistant Cryptography: Preparing for the Future\",\n          description:\n            \"Deep dive into quantum-resistant cryptography and preparing systems for the post-quantum computing era.\",\n          image: imagePlaceholders[37],\n          href: \"/blog/quantum-resistant-crypto\",\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -45926,7 +46550,7 @@
         "mobile": "https://cdn.ing/assets/i/r/293085/el52rouxd7894hfqv1czgnpv6k0s/cleanshot-2026-03-03-at-13-16-25.png"
       },
       "componentPath": "blocks/article/article-split-animated.tsx",
-      "code": "import { ArticleSplitAnimated } from \"@opensite/ui/blocks/article/article-split-animated\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ArticleSplitAnimated\n      image={imagePlaceholders[31]}\n      background=\"dark\"\n      // background=\"white\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n      // patternOpacity={1}\n      imageAlt=\"AI-powered development workflow\"\n      category=\"Artificial Intelligence\"\n      categoryHref=\"#ai\"\n      title=\"The Future of AI-Assisted Development\"\n      description=\"Discover how artificial intelligence is transforming the software development lifecycle, from code generation to automated testing and deployment.\"\n      authorName=\"Dr. Raj Patel\"\n      authorImage={imagePlaceholders[67]}\n      authorRole=\"AI Research Lead\"\n      authorHref=\"#author\"\n      publishDate=\"January 25, 2026\"\n      readTime=\"15 min read\"\n      ctaActions={[\n        {\n          label: \"Read Full Article\",\n          href: \"#article\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"View Research\",\n          href: \"#research\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      enableAnimations={true}\n    />\n  );\n}\n",
+      "code": "import { ArticleSplitAnimated } from \"@opensite/ui/blocks/article/article-split-animated\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <ArticleSplitAnimated\n      image={imagePlaceholders[31]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n      imageAlt=\"AI-powered development workflow\"\n      category=\"Artificial Intelligence\"\n      categoryHref=\"#\"\n      title=\"The Future of AI-Assisted Development\"\n      description=\"Discover how artificial intelligence is transforming the software development lifecycle, from code generation to automated testing and deployment.\"\n      authorName=\"Dr. Raj Patel\"\n      authorImage={imagePlaceholders[67]}\n      authorRole=\"AI Research Lead\"\n      authorHref=\"#\"\n      publishDate=\"January 25, 2026\"\n      readTime=\"15 min read\"\n      ctaActions={[\n        {\n          label: \"Read Full Article\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      enableAnimations={true}\n    />\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -46451,6 +47075,11 @@
           "description": "Additional CSS classes for the heading",
           "required": false
         },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header wrapper",
+          "required": false
+        },
         "itemsWrapperClassName": {
           "type": "string",
           "description": "Additional CSS classes for the items wrapper",
@@ -46469,6 +47098,17 @@
         "answerClassName": {
           "type": "string",
           "description": "Additional CSS classes for answers",
+          "required": false
+        },
+        "description": {
+          "type": "object",
+          "description": "Description text below heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "descriptionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the description",
           "required": false
         }
       },
@@ -46497,12 +47137,12 @@
       "categorySlug": "faq",
       "description": "A centered FAQ section with a prominent heading, descriptive subtext, and collapsible accordion items. The centered layout creates visual hierarchy and draws attention to the content. Perfect for landing pages or dedicated FAQ sections that need a polished, professional appearance.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293098/siuepu7y06jd1renp4l10qyvw9ji/cleanshot-2026-03-03-at-14-31-02.png",
+        "mobile": ""
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293098/siuepu7y06jd1renp4l10qyvw9ji/cleanshot-2026-03-03-at-14-31-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/293097/9zklo65hcjbodh4w0mf366nh2bv8/cleanshot-2026-03-03-at-14-31-14.png"
       },
       "componentPath": "blocks/faq/faq-centered-accordion.tsx",
       "code": "import { FaqCenteredAccordion } from \"@opensite/ui/blocks/faq/faq-centered-accordion\";\n\nexport default function Demo() {\n  return (\n    <FaqCenteredAccordion\n      heading=\"Have Questions?\"\n      description=\"Find answers to the most commonly asked questions about our platform, features, and policies.\"\n      items={[\n        {\n          id: \"features\",\n          question: \"What features are included in the base plan?\",\n          answer:\n            \"The base plan includes unlimited projects, 10GB storage, basic reporting, email support, mobile apps, API access, and integrations with 25+ popular tools.\",\n        },\n        {\n          id: \"team-size\",\n          question: \"Is there a limit on team size?\",\n          answer:\n            \"Starter plans support up to 10 users, Professional plans up to 50 users, and Enterprise plans have no user limits with volume discounts available.\",\n        },\n        {\n          id: \"billing\",\n          question: \"How does billing work?\",\n          answer:\n            \"We offer both monthly and annual billing. Annual plans save 20% and are billed once per year. You can upgrade, downgrade, or cancel at any time.\",\n        },\n        {\n          id: \"mobile\",\n          question: \"Do you have mobile apps?\",\n          answer:\n            \"Yes, we have native iOS and Android apps with full feature parity. Download them from the App Store or Google Play and access your work anywhere.\",\n        },\n        {\n          id: \"customization\",\n          question: \"Can I customize the platform?\",\n          answer:\n            \"Absolutely. Customize dashboards, workflows, fields, templates, notifications, and branding. Enterprise plans also support white-labeling and custom domains.\",\n        },\n      ]}\n      pattern=\"grid1\"\n      patternOpacity={1}\n      background=\"muted\"\n    />\n  );\n}\n",
@@ -47296,15 +47936,15 @@
       "categorySlug": "faq",
       "description": "A two-column FAQ layout with the heading and description on the left, accordion items on the right, and a prominent help banner at the bottom. The split design creates visual interest while the help section provides a clear path to support. Perfect for product pages or documentation sites.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293121/or9nbjrfcwpyv66nkssvw5fyq808/cleanshot-2026-03-03-at-20-44-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/293120/skbfc9t2llmfd6upyq8hm0z40f76/cleanshot-2026-03-03-at-20-44-25.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293121/or9nbjrfcwpyv66nkssvw5fyq808/cleanshot-2026-03-03-at-20-44-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/293120/skbfc9t2llmfd6upyq8hm0z40f76/cleanshot-2026-03-03-at-20-44-25.png"
       },
       "componentPath": "blocks/faq/faq-split-help.tsx",
-      "code": "import { FaqSplitHelp } from \"@opensite/ui/blocks/faq/faq-split-help\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHelp\n      heading=\"Support Resources\"\n      description=\"Browse our most commonly asked questions or reach out to our support team for personalized assistance.\"\n      items={[\n        {\n          id: \"billing-cycle\",\n          question: \"When will I be charged?\",\n          answer:\n            \"Billing occurs on the same day each month or year, depending on your plan. You'll receive an invoice via email 3 days before each billing cycle.\",\n        },\n        {\n          id: \"refunds\",\n          question: \"What is your refund policy?\",\n          answer:\n            \"We offer a 30-day money-back guarantee. If you're not satisfied, contact us within 30 days of your initial purchase for a full refund.\",\n        },\n        {\n          id: \"upgrades\",\n          question: \"How do plan upgrades work?\",\n          answer:\n            \"Upgrades take effect immediately. You'll be charged a prorated amount for the remainder of your billing cycle at the new plan rate.\",\n        },\n        {\n          id: \"downgrade\",\n          question: \"Can I downgrade my plan?\",\n          answer:\n            \"Yes, downgrades take effect at the end of your current billing cycle. You'll continue to have access to your current plan features until then.\",\n        },\n      ]}\n      helpHeading=\"Need More Help?\"\n      helpDescription=\"Our support team is available 24/7 to answer your questions and help you get the most out of our platform.\"\n      helpAction={{\n        label: \"Contact Support Team\",\n        href: \"/contact\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      pattern=\"circuitBoardFadeTop\"\n      patternOpacity={0.042}\n      background=\"secondary\"\n    />\n  );\n}\n",
+      "code": "import { FaqSplitHelp } from \"@opensite/ui/blocks/faq/faq-split-help\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHelp\n      heading=\"Support Resources\"\n      description=\"Browse our most commonly asked questions or reach out to our support team for personalized assistance.\"\n      items={[\n        {\n          id: \"billing-cycle\",\n          question: \"When will I be charged?\",\n          answer:\n            \"Billing occurs on the same day each month or year, depending on your plan. You'll receive an invoice via email 3 days before each billing cycle.\",\n        },\n        {\n          id: \"refunds\",\n          question: \"What is your refund policy?\",\n          answer:\n            \"We offer a 30-day money-back guarantee. If you're not satisfied, contact us within 30 days of your initial purchase for a full refund.\",\n        },\n        {\n          id: \"upgrades\",\n          question: \"How do plan upgrades work?\",\n          answer:\n            \"Upgrades take effect immediately. You'll be charged a prorated amount for the remainder of your billing cycle at the new plan rate.\",\n        },\n        {\n          id: \"downgrade\",\n          question: \"Can I downgrade my plan?\",\n          answer:\n            \"Yes, downgrades take effect at the end of your current billing cycle. You'll continue to have access to your current plan features until then.\",\n        },\n      ]}\n      helpHeading=\"Need More Help?\"\n      helpDescription=\"Our support team is available 24/7 to answer your questions and help you get the most out of our platform.\"\n      helpAction={{\n        label: \"Contact Support Team\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      background=\"secondary\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -47830,6 +48470,27 @@
         "accordionContentClassName": {
           "type": "string",
           "description": "Additional CSS classes for accordion content",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header wrapper",
+          "required": false
+        },
+        "description": {
+          "type": "object",
+          "description": "Description text below heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "descriptionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the description",
+          "required": false
+        },
+        "contentWrapperClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the content wrapper",
           "required": false
         }
       },
@@ -48973,7 +49634,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
       },
       "componentPath": "blocks/faq/faq-profile-sidebar.tsx",
-      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqProfileSidebar } from \"@opensite/ui/blocks/faq/faq-profile-sidebar\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqProfileSidebar\n      heading=\"Expert Answers\"\n      items={[\n        {\n          id: \"implementation\",\n          question: \"How long does implementation take?\",\n          answer:\n            \"Most teams are up and running within a week. Our onboarding specialists guide you through setup, data migration, and team training to ensure a smooth transition.\",\n        },\n        {\n          id: \"scalability\",\n          question: \"Can the platform scale with my business?\",\n          answer:\n            \"Absolutely. Our infrastructure is built to scale from startups to enterprises. Automatic scaling handles traffic spikes, and you can add unlimited users and storage.\",\n        },\n        {\n          id: \"custom-dev\",\n          question: \"Do you offer custom development?\",\n          answer:\n            \"Yes, Enterprise customers can request custom features, integrations, and workflows. Our professional services team works with you to build tailored solutions.\",\n        },\n        {\n          id: \"sla\",\n          question: \"What are your SLA guarantees?\",\n          answer:\n            \"We guarantee 99.9% uptime with redundant infrastructure. Enterprise plans include priority support with 1-hour response times and dedicated account management.\",\n        },\n      ]}\n      profileImage={imagePlaceholders[18]}\n      profileName=\"Sarah Chen\"\n      profileRole=\"Customer Success Manager\"\n      profileDescription=\"With over 8 years of experience helping teams maximize their productivity, I'm here to ensure you get the most value from our platform.\"\n      contactText=\"Have a question not covered here?\"\n      contactAction={{\n        label: \"Schedule a Call\",\n        href: \"/schedule\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      pattern=\"circuitBoardFadeBottom\"\n      patternOpacity={0.75}\n      background=\"white\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqProfileSidebar } from \"@opensite/ui/blocks/faq/faq-profile-sidebar\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FaqProfileSidebar\n      heading=\"Expert Answers\"\n      description=\"Our team of experts has compiled answers to the most frequently asked questions to help you get the most out of our platform.\"\n      items={[\n        {\n          id: \"implementation\",\n          question: \"How long does implementation take?\",\n          answer:\n            \"Most teams are up and running within a week. Our onboarding specialists guide you through setup, data migration, and team training to ensure a smooth transition.\",\n        },\n        {\n          id: \"scalability\",\n          question: \"Can the platform scale with my business?\",\n          answer:\n            \"Absolutely. Our infrastructure is built to scale from startups to enterprises. Automatic scaling handles traffic spikes, and you can add unlimited users and storage.\",\n        },\n        {\n          id: \"custom-dev\",\n          question: \"Do you offer custom development?\",\n          answer:\n            \"Yes, Enterprise customers can request custom features, integrations, and workflows. Our professional services team works with you to build tailored solutions.\",\n        },\n        {\n          id: \"sla\",\n          question: \"What are your SLA guarantees?\",\n          answer:\n            \"We guarantee 99.9% uptime with redundant infrastructure. Enterprise plans include priority support with 1-hour response times and dedicated account management.\",\n        },\n        {\n          id: \"security\",\n          question: \"How do you ensure data security?\",\n          answer:\n            \"We follow industry best practices for security, including encryption at rest and in transit, regular security audits, and compliance with GDPR and SOC 2 standards.\",\n        },\n        {\n          id: \"integrations\",\n          question: \"What integrations are available?\",\n          answer:\n            \"Our platform integrates with popular tools like Slack, Salesforce, and Google Workspace. We also offer an open API for custom integrations.\",\n        },\n        {\n          id: \"mobile\",\n          question: \"Is there a mobile app?\",\n          answer:\n            \"Yes, our mobile app is available on iOS and Android, allowing you to access your data and collaborate with your team on the go.\",\n        },\n      ]}\n      profileImage={imagePlaceholders[18]}\n      profileName=\"Sarah Chen\"\n      profileRole=\"Customer Success Manager\"\n      profileDescription=\"With over 8 years of experience helping teams maximize their productivity, I'm here to ensure you get the most value from our platform.\"\n      contactText=\"Have a question not covered here?\"\n      contactAction={{\n        label: \"Schedule a Call\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      pattern=\"architect\"\n      patternOpacity={0.1}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -57074,7 +57735,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290202/nwy1kpf2u8eckjcefjj4uf882aie/cleanshot-2026-02-18-at-01-15-19.png"
       },
       "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
-      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroAdCampaignExpert } from \"@opensite/ui/blocks/hero/hero-ad-campaign-expert\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroAdCampaignExpert\n      heading=\"Your ad campaigns excel with AI-powered insights\"\n      description=\"Optimize your advertising performance with real-time analytics and automated campaign management. Deliver exceptional results across all platforms.\"\n      action={{\n        label: \"Start Free Trial\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      imageSrc={imagePlaceholders[11]}\n      imageAlt=\"Ad campaign dashboard interface\"\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroAdCampaignExpert } from \"@opensite/ui/blocks/hero/hero-ad-campaign-expert\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroAdCampaignExpert\n      heading=\"Your ad campaigns excel with AI-powered insights\"\n      description=\"Optimize your advertising performance with real-time analytics and automated campaign management. Deliver exceptional results across all platforms.\"\n      actions={[\n        {\n          label: \"Start Free Trial\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      mediaItem={{\n        image: {\n          src: imagePlaceholders[10],\n        },\n        // video: {\n        //   src: \"https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao\",\n        //   autoPlay: true,\n        //   loop: true,\n        //   muted: true,\n        //   playsInline: true,\n        // },\n      }}\n      directionConfig={{ desktop: \"mediaLeft\", mobile: \"mediaTop\" }}\n      mediaAspectRatios={{ desktop: \"vertical\", mobile: \"vertical\" }}\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={1}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -57088,78 +57749,103 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "action": {
-          "type": "object",
-          "description": "CTA action configuration",
-          "fields": {
-            "label": {
-              "type": "object",
-              "description": "Button/link label text or ReactNode",
-              "typeLabel": "ReactNode",
-              "required": false
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
             },
-            "icon": {
-              "type": "object",
-              "description": "Icon to display (typically before label)",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "iconAfter": {
-              "type": "object",
-              "description": "Icon to display after the label",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "href": {
-              "type": "string",
-              "description": "URL for link behavior",
-              "required": false
-            },
-            "onClick": {
-              "type": "object",
-              "description": "Click handler for button behavior",
-              "typeLabel": "MouseEventHandler",
-              "required": false
-            },
-            "className": {
-              "type": "string",
-              "description": "Additional CSS classes for the action",
-              "required": false
-            },
-            "children": {
-              "type": "object",
-              "description": "Custom children (overrides label + icon rendering)",
-              "typeLabel": "ReactNode",
-              "required": false
-            },
-            "\"aria-label\"": {
-              "type": "string",
-              "description": "ARIA label for accessibility",
-              "required": false
-            },
-            "asButton": {
-              "type": "boolean",
-              "description": "Render as a button element instead of an anchor/link",
-              "required": false
-            }
+            "typeLabel": "ActionConfig"
           },
-          "typeLabel": "ActionConfig",
+          "typeLabel": "ActionConfig[]",
           "required": false
         },
-        "actionSlot": {
+        "actionsSlot": {
           "type": "object",
-          "description": "Custom slot for rendering action (overrides action)",
+          "description": "Custom slot for rendering actions (overrides actions array)",
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "imageSrc": {
+        "actionsClassName": {
           "type": "string",
-          "description": "Hero image source URL",
+          "description": "Additional CSS classes for the actions container",
           "required": false
         },
-        "imageAlt": {
-          "type": "string",
-          "description": "Hero image alt text",
+        "mediaItem": {
+          "type": "object",
+          "description": "Media item configuration for image and/or video rendering.\nReplaces individual imageSrc/imageAlt/imageClassName props.",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using standard React video attributes.\nWhen provided, the block renders a video element instead of (or in addition to) an image.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "background": {
@@ -57212,16 +57898,6 @@
           "description": "Additional CSS classes for the description",
           "required": false
         },
-        "imageContainerClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the image container",
-          "required": false
-        },
-        "imageClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the image",
-          "required": false
-        },
         "optixFlowConfig": {
           "type": "object",
           "description": "OptixFlow image optimization configuration",
@@ -57238,6 +57914,46 @@
             }
           },
           "typeLabel": "OptixFlowConfig",
+          "required": false
+        },
+        "mediaAspectRatios": {
+          "type": "object",
+          "description": "Media aspect ratios for desktop and mobile breakpoints",
+          "fields": {
+            "desktop": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "MediaAspectRatio",
+              "required": true
+            },
+            "mobile": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "MediaAspectRatio",
+              "required": true
+            }
+          },
+          "typeLabel": "{ desktop: MediaAspectRatio; mobile: MediaAspectRatio; }",
+          "required": false
+        },
+        "directionConfig": {
+          "type": "object",
+          "description": "Direction configuration for desktop and mobile layouts",
+          "fields": {
+            "desktop": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"mediaRight\" | \"mediaLeft\"",
+              "required": true
+            },
+            "mobile": {
+              "type": "string",
+              "description": "",
+              "typeLabel": "\"mediaTop\" | \"mediaBottom\"",
+              "required": true
+            }
+          },
+          "typeLabel": "DirectionConfig",
           "required": false
         }
       },
@@ -127012,7 +127728,7 @@
         "mobile": "https://cdn.ing/assets/i/r/288941/rqu3gscky1darnaew4rd2hknwflz/stats-impact-grid-mobile.jpg"
       },
       "componentPath": "blocks/stats/stats-impact-grid.tsx",
-      "code": "import { StatsImpactGrid } from \"@opensite/ui/blocks/stats/stats-impact-grid\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <StatsImpactGrid\n      badge=\"Proof in the Numbers\"\n      heading=\"Impact You Can Measure\"\n      description=\"See how teams translate insight into meaningful outcomes across growth, efficiency, and retention.\"\n      stats={[\n        {\n          id: \"growth\",\n          value: \"312\",\n          suffix: \"%\",\n          label: \"Revenue Growth\",\n          description: \"Average year-over-year lift after launch.\",\n          icon: \"lucide/trending-up\",\n        },\n        {\n          id: \"velocity\",\n          value: \"4.6\",\n          suffix: \"x\",\n          label: \"Delivery Speed\",\n          description: \"Faster time-to-value compared to baseline.\",\n          icon: \"lucide/rocket\",\n          iconColor: \"text-primary\",\n        },\n        {\n          id: \"retention\",\n          prefix: \"+\",\n          value: \"29\",\n          suffix: \"%\",\n          label: \"Customer Retention\",\n          description: \"Retention gains within the first 90 days.\",\n          icon: \"lucide/user-check\",\n          iconColor: \"text-primary\",\n        },\n      ]}\n      comparisonHeading=\"Before vs. After\"\n      comparisonDescription=\"Track the measurable shift between your baseline and optimized performance.\"\n      baselineLabel=\"Baseline\"\n      baselineValue=\"24%\"\n      baselinePercent={24}\n      targetLabel=\"Optimized\"\n      targetValue=\"89%\"\n      targetPercent={89}\n      ctaHeading=\"Ready to build your own impact story?\"\n      actions={[\n        {\n          label: \"Start the audit\",\n          href: \"/audit\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View case studies\",\n          href: \"/case-studies\",\n          variant: \"outline\",\n        },\n      ]}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { StatsImpactGrid } from \"@opensite/ui/blocks/stats/stats-impact-grid\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <StatsImpactGrid\n      badge=\"Proof in the Numbers\"\n      heading=\"Impact You Can Measure\"\n      description=\"See how teams translate insight into meaningful outcomes across growth, efficiency, and retention.\"\n      stats={[\n        {\n          id: \"growth\",\n          value: \"312\",\n          suffix: \"%\",\n          label: \"Revenue Growth\",\n          description: \"Average year-over-year lift after launch.\",\n          icon: \"lucide/trending-up\",\n        },\n        {\n          id: \"velocity\",\n          value: \"4.6\",\n          suffix: \"x\",\n          label: \"Delivery Speed\",\n          description: \"Faster time-to-value compared to baseline.\",\n          icon: \"lucide/rocket\",\n          iconColor: \"text-primary\",\n        },\n        {\n          id: \"retention\",\n          prefix: \"+\",\n          value: \"29\",\n          suffix: \"%\",\n          label: \"Customer Retention\",\n          description: \"Retention gains within the first 90 days.\",\n          icon: \"lucide/user-check\",\n          iconColor: \"text-primary\",\n        },\n      ]}\n      comparisonHeading=\"Before vs. After\"\n      comparisonDescription=\"Track the measurable shift between your baseline and optimized performance.\"\n      baselineLabel=\"Baseline\"\n      baselineValue=\"24%\"\n      baselinePercent={24}\n      targetLabel=\"Optimized\"\n      targetValue=\"89%\"\n      targetPercent={89}\n      ctaHeading=\"Ready to build your own impact story?\"\n      actions={[\n        {\n          label: \"Start the audit\",\n          href: \"/audit\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View case studies\",\n          href: \"/case-studies\",\n          variant: \"outline\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "badge": {
           "type": "object",
@@ -136599,7 +137315,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
       },
       "componentPath": "blocks/faq/faq-split-hero.tsx",
-      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqSplitHero } from \"@opensite/ui/blocks/faq/faq-split-hero\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHero\n      heading=\"Common Questions\"\n      subheading=\"Everything you need to know about our platform, features, and pricing.\"\n      items={[\n        {\n          id: \"demo\",\n          question: \"Can I schedule a demo?\",\n          answer:\n            \"Yes, we offer personalized demos for teams of 5 or more. Our product specialists will walk you through features, answer questions, and show you how to maximize value for your use case.\",\n        },\n        {\n          id: \"trial-limits\",\n          question: \"Are there any limitations on the free trial?\",\n          answer:\n            \"The 14-day trial includes full access to Professional plan features with no user limits. The only restriction is that trial data is deleted if you don't upgrade within 30 days.\",\n        },\n        {\n          id: \"switching\",\n          question: \"How easy is it to switch from competitors?\",\n          answer:\n            \"We make switching easy with automated data import tools, migration guides, and dedicated onboarding support. Most teams complete the switch in under a week with zero data loss.\",\n        },\n        {\n          id: \"updates\",\n          question: \"How often do you release updates?\",\n          answer:\n            \"We ship new features and improvements every two weeks. Security patches and bug fixes are deployed immediately. All updates are seamless with no downtime or manual upgrades required.\",\n        },\n      ]}\n      imageSrc={imagePlaceholders[88]}\n      imageAlt=\"Team collaboration\"\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.09}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqSplitHero } from \"@opensite/ui/blocks/faq/faq-split-hero\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHero\n      heading=\"Common Questions\"\n      subheading=\"Everything you need to know about our platform, features, and pricing.\"\n      items={[\n        {\n          id: \"demo\",\n          question: \"Can I schedule a demo?\",\n          answer:\n            \"Yes, we offer personalized demos for teams of 5 or more. Our product specialists will walk you through features, answer questions, and show you how to maximize value for your use case.\",\n        },\n        {\n          id: \"trial-limits\",\n          question: \"Are there any limitations on the free trial?\",\n          answer:\n            \"The 14-day trial includes full access to Professional plan features with no user limits. The only restriction is that trial data is deleted if you don't upgrade within 30 days.\",\n        },\n        {\n          id: \"switching\",\n          question: \"How easy is it to switch from competitors?\",\n          answer:\n            \"We make switching easy with automated data import tools, migration guides, and dedicated onboarding support. Most teams complete the switch in under a week with zero data loss.\",\n        },\n        {\n          id: \"updates\",\n          question: \"How often do you release updates?\",\n          answer:\n            \"We ship new features and improvements every two weeks. Security patches and bug fixes are deployed immediately. All updates are seamless with no downtime or manual upgrades required.\",\n        },\n      ]}\n      mediaItem={{\n        image: { src: imagePlaceholders[88], alt: \"Team collaboration\" },\n      }}\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.09}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -136644,20 +137360,35 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "imageSlot": {
+        "mediaItem": {
           "type": "object",
-          "description": "Custom slot for rendering the image section",
+          "description": "Media item configuration for image and/or video rendering.",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using standard React video attributes.\nWhen provided, the block renders a video element instead of (or in addition to) an image.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "mediaSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering the media section (overrides mediaItem)",
           "typeLabel": "React.ReactNode",
-          "required": false
-        },
-        "imageSrc": {
-          "type": "string",
-          "description": "Image source URL",
-          "required": false
-        },
-        "imageAlt": {
-          "type": "string",
-          "description": "Image alt text",
           "required": false
         },
         "background": {
@@ -136668,7 +137399,7 @@
         },
         "spacing": {
           "type": "object",
-          "description": "Vertical spacing for the section",
+          "description": "Vertical spacing for the section.\nDefaults to \"none\" since this block manages its own internal spacing.",
           "fields": {},
           "typeLabel": "SectionSpacing",
           "required": false
@@ -136730,11 +137461,6 @@
           "description": "Additional CSS classes for accordion content",
           "required": false
         },
-        "imageClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the image",
-          "required": false
-        },
         "optixFlowConfig": {
           "type": "object",
           "description": "Optional Optix Flow configuration for image optimization",
@@ -136771,6 +137497,11 @@
             }
           },
           "typeLabel": "DirectionConfig",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
           "required": false
         }
       },

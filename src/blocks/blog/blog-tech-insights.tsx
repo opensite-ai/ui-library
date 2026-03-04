@@ -5,11 +5,13 @@ export default function Demo() {
   return (
     <BlogTechInsights
       heading="Tech Insights"
-      description="Latest developments in technology"
+      description="Latest developments in technology. Exploring the intersection of blockchain technology and supply chain management for transparency and traceability."
       readMoreAction={{
         label: "View All",
-        href: "/insights",
-        variant: "outline",
+        href: "#",
+        variant: "default",
+        asButton: true,
+        size: "lg",
       }}
       featuredPost={{
         id: "featured",

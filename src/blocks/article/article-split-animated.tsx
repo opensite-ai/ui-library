@@ -6,32 +6,24 @@ export default function Demo() {
     <ArticleSplitAnimated
       image={imagePlaceholders[31]}
       background="dark"
-      // background="white"
       pattern="gridFadeTop"
       patternOpacity={0.15}
-      // patternOpacity={1}
       imageAlt="AI-powered development workflow"
       category="Artificial Intelligence"
-      categoryHref="#ai"
+      categoryHref="#"
       title="The Future of AI-Assisted Development"
       description="Discover how artificial intelligence is transforming the software development lifecycle, from code generation to automated testing and deployment."
       authorName="Dr. Raj Patel"
       authorImage={imagePlaceholders[67]}
       authorRole="AI Research Lead"
-      authorHref="#author"
+      authorHref="#"
       publishDate="January 25, 2026"
       readTime="15 min read"
       ctaActions={[
         {
           label: "Read Full Article",
-          href: "#article",
+          href: "#",
           variant: "default",
-          size: "lg",
-        },
-        {
-          label: "View Research",
-          href: "#research",
-          variant: "outline",
           size: "lg",
         },
       ]}

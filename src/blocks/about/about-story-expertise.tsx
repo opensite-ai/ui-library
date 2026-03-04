@@ -34,7 +34,8 @@ export default function Demo() {
         icon: <DynamicIcon name="lucide/award" size={24} />,
         label: "Recognition",
         title: "Top 100 Tech Companies",
-        description: "Named among the fastest-growing technology companies for three consecutive years.",
+        description:
+          "Named among the fastest-growing technology companies for three consecutive years.",
       }}
       expertiseHeading="Areas of Expertise"
       expertiseDescription="We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence."
@@ -42,17 +43,20 @@ export default function Demo() {
         {
           icon: <DynamicIcon name="lucide/layout" size={24} />,
           title: "Product Design",
-          description: "User-centered design that balances aesthetics with functionality.",
+          description:
+            "User-centered design that balances aesthetics with functionality.",
         },
         {
           icon: <DynamicIcon name="lucide/code" size={24} />,
           title: "Engineering",
-          description: "Scalable, maintainable code built with modern best practices.",
+          description:
+            "Scalable, maintainable code built with modern best practices.",
         },
         {
           icon: <DynamicIcon name="lucide/bar-chart" size={24} />,
           title: "Data & Analytics",
-          description: "Insights-driven strategies powered by advanced analytics.",
+          description:
+            "Insights-driven strategies powered by advanced analytics.",
         },
         {
           icon: <DynamicIcon name="lucide/cloud" size={24} />,
@@ -60,8 +64,9 @@ export default function Demo() {
           description: "Reliable, secure, and cost-effective cloud solutions.",
         },
       ]}
-      background="white"
-      spacing="lg"
+      background="dark"
+      pattern="gridFadeTop"
+      patternOpacity={0.15}
     />
   );
 }

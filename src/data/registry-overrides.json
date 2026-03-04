@@ -1976,12 +1976,12 @@
       "title": "About Interactive Tabs",
       "componentPath": "blocks/about/about-interactive-tabs.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293119/hieks1eg9b4ub0aawfu0znscbet8/cleanshot-2026-03-03-at-20-41-54.png",
+        "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289024/vu1lqrghpwwzzj4ppb8sffz3g1er/about-interactive-tabs-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289023/sjp1sug4lpanvl381b78i3qp0hz7/about-interactive-tabs-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293119/hieks1eg9b4ub0aawfu0znscbet8/cleanshot-2026-03-03-at-20-41-54.png",
+        "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
@@ -2046,12 +2046,12 @@
       "title": "About Network Spotlight",
       "componentPath": "blocks/about/about-network-spotlight.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293117/0leh9x3j241i0cw3j7evk39xkj1x/cleanshot-2026-03-03-at-20-38-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288989/pwhtxf6avvwp9ms8hjcrvvlbqr3s/team-brainstorming-sticky-notes-partner-program-hero.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288990/iva6igizsj8p0jxdsrahl6tfpy04/partner-program-network-join-co-marketing-b2b-ecosystem.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293117/0leh9x3j241i0cw3j7evk39xkj1x/cleanshot-2026-03-03-at-20-38-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx"
@@ -2102,12 +2102,12 @@
       "title": "About Story Expertise",
       "componentPath": "blocks/about/about-story-expertise.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293115/2ovc61etdk0vhyya9mflrjr6khm1/cleanshot-2026-03-03-at-20-33-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/288997/j98g43m2c88h3l925kjfhcbnwef7/tech-company-about-page-areas-of-expertise-dashboard.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/288998/tacryhpogmd779gay4tnoipi9i3g/tech-company-award-our-story-mobile-section.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293115/2ovc61etdk0vhyya9mflrjr6khm1/cleanshot-2026-03-03-at-20-33-09.png",
+        "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-expertise.tsx"
@@ -2704,12 +2704,12 @@
       "title": "Carousel Scrolling Feature Showcase",
       "componentPath": "blocks/carousel/carousel-scrolling-feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293096/hhfm0ixjnvh1pguce3ar6xaj2zqt/cleanshot-2026-03-03-at-14-20-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/293095/d4d2j42mce7dqlza0o6gdfufaore/cleanshot-2026-03-03-at-14-20-39.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289218/m7d4cn7qo76psyh4rnxmxk70xi3v/carousel-scrolling-feature-showcase-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289219/zsj656zhvp2b5uell8jd3weoxer6/carousel-scrolling-feature-showcase-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293096/hhfm0ixjnvh1pguce3ar6xaj2zqt/cleanshot-2026-03-03-at-14-20-19.png",
+        "mobile": "https://cdn.ing/assets/i/r/293095/d4d2j42mce7dqlza0o6gdfufaore/cleanshot-2026-03-03-at-14-20-39.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-scrolling-feature-showcase.tsx"
@@ -3124,12 +3124,12 @@
       "title": "FAQ Centered Accordion",
       "componentPath": "blocks/faq/faq-centered-accordion.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293098/siuepu7y06jd1renp4l10qyvw9ji/cleanshot-2026-03-03-at-14-31-02.png",
+        "mobile": ""
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289146/pdv0g77i6fnxydtba983uj0zrusk/blocks-faq-centered-accordion-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289145/3weapiwo6nesu8byugcm7lkbapde/blocks-faq-centered-accordion-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293098/siuepu7y06jd1renp4l10qyvw9ji/cleanshot-2026-03-03-at-14-31-02.png",
+        "mobile": "https://cdn.ing/assets/i/r/293097/9zklo65hcjbodh4w0mf366nh2bv8/cleanshot-2026-03-03-at-14-31-14.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-centered-accordion"
@@ -3180,12 +3180,12 @@
       "title": "FAQ Split Help",
       "componentPath": "blocks/faq/faq-split-help.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293121/or9nbjrfcwpyv66nkssvw5fyq808/cleanshot-2026-03-03-at-20-44-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/293120/skbfc9t2llmfd6upyq8hm0z40f76/cleanshot-2026-03-03-at-20-44-25.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289170/1rlvk4d3itoig5dushmj8e00ghzo/blocks-faq-split-help-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289169/r1wa5e5n58oeorhohan234kyux5z/blocks-faq-split-help-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293121/or9nbjrfcwpyv66nkssvw5fyq808/cleanshot-2026-03-03-at-20-44-10.png",
+        "mobile": "https://cdn.ing/assets/i/r/293120/skbfc9t2llmfd6upyq8hm0z40f76/cleanshot-2026-03-03-at-20-44-25.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-split-help"

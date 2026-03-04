@@ -6,6 +6,7 @@ export default function Demo() {
   return (
     <FaqProfileSidebar
       heading="Expert Answers"
+      description="Our team of experts has compiled answers to the most frequently asked questions to help you get the most out of our platform."
       items={[
         {
           id: "implementation",
@@ -31,6 +32,24 @@ export default function Demo() {
           answer:
             "We guarantee 99.9% uptime with redundant infrastructure. Enterprise plans include priority support with 1-hour response times and dedicated account management.",
         },
+        {
+          id: "security",
+          question: "How do you ensure data security?",
+          answer:
+            "We follow industry best practices for security, including encryption at rest and in transit, regular security audits, and compliance with GDPR and SOC 2 standards.",
+        },
+        {
+          id: "integrations",
+          question: "What integrations are available?",
+          answer:
+            "Our platform integrates with popular tools like Slack, Salesforce, and Google Workspace. We also offer an open API for custom integrations.",
+        },
+        {
+          id: "mobile",
+          question: "Is there a mobile app?",
+          answer:
+            "Yes, our mobile app is available on iOS and Android, allowing you to access your data and collaborate with your team on the go.",
+        },
       ]}
       profileImage={imagePlaceholders[18]}
       profileName="Sarah Chen"
@@ -39,13 +58,13 @@ export default function Demo() {
       contactText="Have a question not covered here?"
       contactAction={{
         label: "Schedule a Call",
-        href: "/schedule",
+        href: "#",
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      pattern="circuitBoardFadeBottom"
-      patternOpacity={0.75}
-      background="white"
+      pattern="architect"
+      patternOpacity={0.1}
+      background="gray"
     />
   );
 }
