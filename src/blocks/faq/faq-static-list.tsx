@@ -4,6 +4,7 @@ export default function Demo() {
   return (
     <FaqStaticList
       heading="Common Questions"
+      description="Here are some of our most frequently asked questions. If you don't see your question here, feel free to reach out to our support team."
       items={[
         {
           question: "How do I get started?",

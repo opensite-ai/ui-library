@@ -44,7 +44,7 @@ export default function Demo() {
         },
       ]}
       pattern="dashedGridFadeCenter"
-      patternOpacity={0.08}
+      patternOpacity={0.25}
       background="dark"
     />
   );

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroAdCampaignExpert } from "@opensite/ui/blocks/hero/hero-ad-campaign-expert";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -16,16 +15,13 @@ export default function Demo() {
         },
       ]}
       mediaItem={{
-        image: {
-          src: imagePlaceholders[10],
+        video: {
+          src: "https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao",
+          autoPlay: true,
+          loop: true,
+          muted: true,
+          playsInline: true,
         },
-        // video: {
-        //   src: "https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao",
-        //   autoPlay: true,
-        //   loop: true,
-        //   muted: true,
-        //   playsInline: true,
-        // },
       }}
       directionConfig={{ desktop: "mediaLeft", mobile: "mediaTop" }}
       mediaAspectRatios={{ desktop: "vertical", mobile: "vertical" }}

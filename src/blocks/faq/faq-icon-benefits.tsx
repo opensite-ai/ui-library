@@ -43,9 +43,9 @@ export default function Demo() {
             "Start small and grow big. Our infrastructure scales automatically to handle teams of 5 or 5,000 without performance degradation.",
         },
       ]}
-      pattern="circuitBoardFadeTop"
-      patternOpacity={1}
-      background="white"
+      pattern="gridFadeCenter"
+      patternOpacity={0.25}
+      background="secondary"
     />
   );
 }

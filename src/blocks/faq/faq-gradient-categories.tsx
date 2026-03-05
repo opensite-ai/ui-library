@@ -5,9 +5,10 @@ export default function Demo() {
     <FaqGradientCategories
       heading="Browse by Topic"
       description="Select a category to explore relevant questions and detailed answers."
-      pattern="p6"
-      patternOpacity={1}
-      background="white"
+      pattern="gridFadeTopLeft"
+      patternOpacity={0.2}
+      background="gradient"
+      spacing="py-6 md:py-32"
       categories={[
         {
           title: "Product Features",

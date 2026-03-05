@@ -4,6 +4,7 @@ export default function Demo() {
   return (
     <FaqMutedCards
       heading="Questions & Answers"
+      description="Find answers to common questions about our platform, features, and pricing."
       items={[
         {
           id: "storage",
@@ -42,7 +43,9 @@ export default function Demo() {
             "Yes, webhooks are available on all plans. Set up real-time notifications for events like new projects, task updates, comments, and more.",
         },
       ]}
-      background="muted"
+      background="secondary"
+      pattern="gridDotsBasic"
+      patternOpacity={0.15}
     />
   );
 }

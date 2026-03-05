@@ -89,10 +89,10 @@ export default function Demo() {
             "Comprehensive learning management system supporting 50,000+ students with interactive content and assessments.",
         },
       ]}
-      background="white"
+      background="dark"
       spacing="py-6 md:py-40"
-      pattern="circuitBoardBasic"
-      patternOpacity={1}
+      pattern="diagonalCrossFadeTopLeft"
+      patternOpacity={0.15}
     />
   );
 }

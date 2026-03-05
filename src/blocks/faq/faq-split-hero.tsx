@@ -33,7 +33,13 @@ export default function Demo() {
         },
       ]}
       mediaItem={{
-        image: { src: imagePlaceholders[88], alt: "Team collaboration" },
+        video: {
+          src: "https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao",
+          autoPlay: true,
+          loop: true,
+          muted: true,
+          playsInline: true,
+        },
       }}
       pattern="diagonalCrossFadeTopLeft"
       patternOpacity={0.09}

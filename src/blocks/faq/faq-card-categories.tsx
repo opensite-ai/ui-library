@@ -59,6 +59,8 @@ export default function Demo() {
         },
       ]}
       background="gray"
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={1}
     />
   );
 }

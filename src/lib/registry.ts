@@ -55,7 +55,7 @@ export const componentFilterConfig: {
     "service-detail",
     "services-list",
     "team",
-    "testimonials",
+    // "testimonials",
     "timeline",
     "banner",
   ],

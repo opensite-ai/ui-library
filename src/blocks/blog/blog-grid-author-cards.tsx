@@ -17,7 +17,7 @@ export default function Demo() {
           author: "Marcus Johnson",
           authorAvatar: imagePlaceholders[68],
           published: "April 15, 2024",
-          href: "/blog/scaling-engineering-teams",
+          href: "#",
         },
         {
           id: "2",
@@ -29,7 +29,7 @@ export default function Demo() {
           author: "Rachel Park",
           authorAvatar: imagePlaceholders[101],
           published: "April 13, 2024",
-          href: "/blog/psychology-ui-design",
+          href: "#",
         },
         {
           id: "3",
@@ -41,7 +41,7 @@ export default function Demo() {
           author: "Alex Rivera",
           authorAvatar: imagePlaceholders[35],
           published: "April 10, 2024",
-          href: "/blog/monolith-to-microservices",
+          href: "#",
         },
         {
           id: "4",
@@ -53,7 +53,7 @@ export default function Demo() {
           author: "Dr. Priya Sharma",
           authorAvatar: imagePlaceholders[84],
           published: "April 8, 2024",
-          href: "/blog/ml-in-production",
+          href: "#",
         },
         {
           id: "5",
@@ -65,7 +65,7 @@ export default function Demo() {
           author: "Thomas Wei",
           authorAvatar: imagePlaceholders[18],
           published: "April 5, 2024",
-          href: "/blog/resilient-systems",
+          href: "#",
         },
         {
           id: "6",
@@ -77,14 +77,17 @@ export default function Demo() {
           author: "Sophie Martinez",
           authorAvatar: imagePlaceholders[73],
           published: "April 2, 2024",
-          href: "/blog/future-web-dev",
+          href: "#",
         },
       ]}
       viewAllAction={{
         label: "View All Posts",
-        href: "/blog",
+        href: "#",
         variant: "outline",
       }}
+      background="gray"
+      pattern="diagonalCrossFadeTopLeft"
+      patternOpacity={0.9}
     />
   );
 }

@@ -652,12 +652,12 @@
       "title": "Hero Ad Campaign Expert",
       "componentPath": "blocks/hero/hero-ad-campaign-expert.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290201/j0dfcruickbyslip9csoqzkyvask/cleanshot-2026-02-18-at-01-15-03.png",
-        "mobile": "https://cdn.ing/assets/i/r/290202/nwy1kpf2u8eckjcefjj4uf882aie/cleanshot-2026-02-18-at-01-15-19.png"
+        "desktop": "https://cdn.ing/assets/i/r/293123/afk7snzbx99mmbhuury69o4movw8/cleanshot-2026-03-04-at-01-35-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/293122/9b5nmu8ov4hcai28ll9bdc3wso7b/cleanshot-2026-03-04-at-01-36-02.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290201/j0dfcruickbyslip9csoqzkyvask/cleanshot-2026-02-18-at-01-15-03.png",
-        "mobile": "https://cdn.ing/assets/i/r/290202/nwy1kpf2u8eckjcefjj4uf882aie/cleanshot-2026-02-18-at-01-15-19.png"
+        "desktop": "https://cdn.ing/assets/i/r/293123/afk7snzbx99mmbhuury69o4movw8/cleanshot-2026-03-04-at-01-35-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/293122/9b5nmu8ov4hcai28ll9bdc3wso7b/cleanshot-2026-03-04-at-01-36-02.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ad-campaign-expert"
@@ -2438,12 +2438,12 @@
       "title": "Blog Grid Author Cards",
       "componentPath": "blocks/blog/blog-grid-author-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293166/xmo0ptefru2aed49rjxq0rpy9wd9/cleanshot-2026-03-04-at-13-28-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/293165/g1fwojesz1y46m9uqsvb1z7flm6g/cleanshot-2026-03-04-at-13-29-22.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289025/llsmofq7c4qsebioh8d8rgonwko4/blog-grid-author-cards-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289026/78h9xslngtyvyv44kxg6p50z972r/blog-grid-author-cards-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/293166/xmo0ptefru2aed49rjxq0rpy9wd9/cleanshot-2026-03-04-at-13-28-50.png",
+        "mobile": "https://cdn.ing/assets/i/r/293165/g1fwojesz1y46m9uqsvb1z7flm6g/cleanshot-2026-03-04-at-13-29-22.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-grid-author-cards.tsx"
@@ -3110,12 +3110,12 @@
       "title": "FAQ Static List",
       "componentPath": "blocks/faq/faq-static-list.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293137/rijao3xymyo2nko99z5wpwtldhyz/cleanshot-2026-03-04-at-04-30-55.png",
+        "mobile": "https://cdn.ing/assets/i/r/293136/euhxjmhfitstiezbcasnf4a3yb4g/cleanshot-2026-03-04-at-04-31-15.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289142/aipjjk0u19e2ggbx2y6rsxq55y1t/blocks-faq-static-list-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289141/mj1wivuaw6zkg1gfsam4l8yieoeh/blocks-faq-static-list-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293137/rijao3xymyo2nko99z5wpwtldhyz/cleanshot-2026-03-04-at-04-30-55.png",
+        "mobile": "https://cdn.ing/assets/i/r/293136/euhxjmhfitstiezbcasnf4a3yb4g/cleanshot-2026-03-04-at-04-31-15.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-static-list"
@@ -3152,12 +3152,12 @@
       "title": "FAQ Numbered List",
       "componentPath": "blocks/faq/faq-numbered-list.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293130/2jfsoum46lyzuti5c13hq6jd49ck/cleanshot-2026-03-04-at-04-18-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/293131/vcv8skc73pzk1pif5eoae6qhgddh/cleanshot-2026-03-04-at-04-18-33.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289155/hyriwra1enzojn545kkaog2yd0xf/blocks-faq-numbered-list-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289154/78rslp3zdjw1shd3sh8wpulv5ehv/blocks-faq-numbered-list-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293130/2jfsoum46lyzuti5c13hq6jd49ck/cleanshot-2026-03-04-at-04-18-12.png",
+        "mobile": "https://cdn.ing/assets/i/r/293131/vcv8skc73pzk1pif5eoae6qhgddh/cleanshot-2026-03-04-at-04-18-33.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-numbered-list"
@@ -3208,12 +3208,12 @@
       "title": "FAQ Muted Cards",
       "componentPath": "blocks/faq/faq-muted-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293129/evfoaxa0kvu4qgdpgyu94pa1geks/cleanshot-2026-03-04-at-04-16-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293128/ee56o81txzdjzhbjnorf0k0vbles/cleanshot-2026-03-04-at-04-17-15.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289175/1m4pfjtjpxn9yix112ne6j1zgg2q/blocks-faq-muted-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289174/ohf45wzo1shj3e89ixqv1zpqng6f/blocks-faq-muted-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293129/evfoaxa0kvu4qgdpgyu94pa1geks/cleanshot-2026-03-04-at-04-16-59.png",
+        "mobile": "https://cdn.ing/assets/i/r/293128/ee56o81txzdjzhbjnorf0k0vbles/cleanshot-2026-03-04-at-04-17-15.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-muted-cards"
@@ -3236,12 +3236,12 @@
       "title": "FAQ Gradient Categories",
       "componentPath": "blocks/faq/faq-gradient-categories.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
-        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293125/dy3r8envgeeflgyygu6ltbvpdxoy/cleanshot-2026-03-04-at-04-14-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/293124/m5o8y60ju1sk2ry9cfswz1cbnpzr/cleanshot-2026-03-04-at-04-14-35.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289181/7q74tsajhctmyl7s91f4zbmtpjky/cleanshot-2026-01-29-at-15-07-28.png",
-        "mobile": "https://cdn.ing/assets/i/r/289182/9sedw6w79gzqs7ihdltamn5nlovb/blocks-faq-gradient-categories-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293125/dy3r8envgeeflgyygu6ltbvpdxoy/cleanshot-2026-03-04-at-04-14-22.png",
+        "mobile": "https://cdn.ing/assets/i/r/293124/m5o8y60ju1sk2ry9cfswz1cbnpzr/cleanshot-2026-03-04-at-04-14-35.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-gradient-categories"
@@ -3278,12 +3278,12 @@
       "title": "FAQ Icon Benefits",
       "componentPath": "blocks/faq/faq-icon-benefits.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293127/cs4nbl3n7h2g751a1d842q551zlg/cleanshot-2026-03-04-at-04-15-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/293126/ol9en6sa5jn1j0ghckiu1dq8otb9/cleanshot-2026-03-04-at-04-15-57.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289190/nm3q0rp57eja0md48l2fyzy0krhr/blocks-faq-icon-benefits-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289189/slwo8j43vtso8v66hjefhq7vzt84/blocks-faq-icon-benefits-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293127/cs4nbl3n7h2g751a1d842q551zlg/cleanshot-2026-03-04-at-04-15-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/293126/ol9en6sa5jn1j0ghckiu1dq8otb9/cleanshot-2026-03-04-at-04-15-57.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-icon-benefits"
@@ -3292,12 +3292,12 @@
       "title": "FAQ Rounded Cards",
       "componentPath": "blocks/faq/faq-rounded-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293135/l8tgm2l9g4g0dbwulnyoqp8emntc/cleanshot-2026-03-04-at-04-22-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/293134/hk8dc8ljq2f3auvuab5g183u3gqy/cleanshot-2026-03-04-at-04-21-44.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289192/dm93m2om2qwu9qin1u4mfn6mgxau/blocks-faq-rounded-cards-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289191/sv97bseaxzeh8thnxbspen8xvmqi/blocks-faq-rounded-cards-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293135/l8tgm2l9g4g0dbwulnyoqp8emntc/cleanshot-2026-03-04-at-04-22-21.png",
+        "mobile": "https://cdn.ing/assets/i/r/293134/hk8dc8ljq2f3auvuab5g183u3gqy/cleanshot-2026-03-04-at-04-21-44.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-rounded-cards"
@@ -3306,12 +3306,12 @@
       "title": "FAQ Profile Sidebar",
       "componentPath": "blocks/faq/faq-profile-sidebar.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293133/1cjzp0z4z3659fq5n7yzrlwaqske/cleanshot-2026-03-04-at-04-19-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/293132/nwa22dz2cgd3i8j7zrmhqrdene1c/cleanshot-2026-03-04-at-04-20-11.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289194/y7xnz6ft7a2obhi7gf6amv4juxkd/blocks-faq-profile-sidebar-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/289193/2l8zve61fm4rwgtjladigujloyrh/blocks-faq-profile-sidebar-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293133/1cjzp0z4z3659fq5n7yzrlwaqske/cleanshot-2026-03-04-at-04-19-47.png",
+        "mobile": "https://cdn.ing/assets/i/r/293132/nwa22dz2cgd3i8j7zrmhqrdene1c/cleanshot-2026-03-04-at-04-20-11.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/faq/faq-profile-sidebar"

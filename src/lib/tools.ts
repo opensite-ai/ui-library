@@ -4,4 +4,4 @@ export function shouldHideLayout(pathname: string) {
   return PATHS_TO_HIDE_LAYOUT.some((path) => pathname === path);
 }
 
-export const statdiaApiKey = process.env.STADIA_API;
+export const stadiaApiKey = process.env.STADIA_API;
