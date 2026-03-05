@@ -104,6 +104,29 @@
     --color-muted: hsl(var(--muted));
     --color-gray-200: hsl(var(--muted));
 
+    /* Size helpers */
+    --h-100dvh: 100dvh;
+    --h-90dvh: 90dvh;
+    --h-80dvh: 80dvh;
+    --h-70dvh: 70dvh;
+    --h-60dvh: 60dvh;
+    --h-50dvh: 50dvh;
+    --h-40dvh: 40dvh;
+    --h-30dvh: 30dvh;
+    --h-20dvh: 20dvh;
+    --h-10dvh: 10dvh;
+    --w-100dvw: 100dvw;
+    --w-90dvw: 90dvw;
+    --w-80dvw: 80dvw;
+    --w-70dvw: 70dvw;
+    --w-60dvw: 60dvw;
+    --w-50dvw: 50dvw;
+    --w-40dvw: 40dvw;
+    --w-30dvw: 30dvw;
+    --w-20dvw: 20dvw;
+    --w-10dvw: 10dvw;
+
+
     /* ============================================
      TYPOGRAPHY
      ============================================ */

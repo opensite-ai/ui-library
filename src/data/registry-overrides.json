@@ -3,80 +3,140 @@
     "banner-announcement-dismissible": {
       "title": "Banner Announcement Dismissible",
       "componentPath": "blocks/banner/banner-announcement-dismissible.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-announcement-dismissible"
     },
     "banner-countdown-sale": {
       "title": "Banner Countdown Sale",
       "componentPath": "blocks/banner/banner-countdown-sale.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-countdown-sale"
     },
     "banner-delivery-countdown": {
       "title": "Banner Delivery Countdown",
       "componentPath": "blocks/banner/banner-delivery-countdown.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-delivery-countdown"
     },
     "banner-event-promo": {
       "title": "Banner Event Promo",
       "componentPath": "blocks/banner/banner-event-promo.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-event-promo"
     },
     "banner-floating-offer": {
       "title": "Banner Floating Offer",
       "componentPath": "blocks/banner/banner-floating-offer.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-floating-offer"
     },
     "banner-gdpr-rights": {
       "title": "Banner GDPR Rights",
       "componentPath": "blocks/banner/banner-gdpr-rights.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-gdpr-rights"
     },
     "banner-privacy-notice": {
       "title": "Banner Privacy Notice",
       "componentPath": "blocks/banner/banner-privacy-notice.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-privacy-notice"
     },
     "banner-promo-cta": {
       "title": "Banner Promo CTA",
       "componentPath": "blocks/banner/banner-promo-cta.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-promo-cta"
     },
     "banner-social-follow": {
       "title": "Banner Social Follow",
       "componentPath": "blocks/banner/banner-social-follow.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-social-follow"
     },
     "banner-survey-incentive": {
       "title": "Banner Survey Incentive",
       "componentPath": "blocks/banner/banner-survey-incentive.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/banner/banner-survey-incentive"
     },
@@ -405,8 +465,14 @@
     "contact-multistep": {
       "title": "Contact Multistep",
       "componentPath": "blocks/contact/contact-multistep.tsx",
-      "thumbnail": { "desktop": "", "mobile": "" },
-      "preview": { "desktop": "", "mobile": "" },
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-multistep"
     },
@@ -4309,6 +4375,328 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/footers/footer-split-image-accordion"
+    },
+    "testimonials-animated-split": {
+      "title": "Testimonials Animated Split",
+      "componentPath": "blocks/testimonials/testimonials-animated-split.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/293173/ldp959cq4ubmgjb849pxdm3a0mkl/cleanshot-2026-03-05-at-06-07-15.png",
+        "mobile": "https://cdn.ing/assets/i/r/293172/ssorccfem8v4uxxetrcubyolcua1/cleanshot-2026-03-05-at-06-07-30.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293173/ldp959cq4ubmgjb849pxdm3a0mkl/cleanshot-2026-03-05-at-06-07-15.png",
+        "mobile": "https://cdn.ing/assets/i/r/293172/ssorccfem8v4uxxetrcubyolcua1/cleanshot-2026-03-05-at-06-07-30.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-animated-split"
+    },
+    "testimonials-bento-grid": {
+      "title": "Testimonials Bento Grid",
+      "componentPath": "blocks/testimonials/testimonials-bento-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/293177/z66pvkg79bkry6qfj15zhknbms8f/cleanshot-2026-03-05-at-07-10-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/293176/6dx4bdgluglzqgireiceyykojnd0/cleanshot-2026-03-05-at-07-10-55.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293177/z66pvkg79bkry6qfj15zhknbms8f/cleanshot-2026-03-05-at-07-10-42.png",
+        "mobile": "https://cdn.ing/assets/i/r/293176/6dx4bdgluglzqgireiceyykojnd0/cleanshot-2026-03-05-at-07-10-55.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-bento-grid"
+    },
+    "testimonials-carousel-image": {
+      "title": "Testimonials Carousel Image",
+      "componentPath": "blocks/testimonials/testimonials-carousel-image.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-carousel-image"
+    },
+    "testimonials-centered-avatars": {
+      "title": "Testimonials Centered Avatars",
+      "componentPath": "blocks/testimonials/testimonials-centered-avatars.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/293180/g3fawyyi234vufelc6qft22by0qp/cleanshot-2026-03-05-at-07-32-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/293181/ufcy7rwi5suesfcid1adypnatiui/cleanshot-2026-03-05-at-07-32-28.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293180/g3fawyyi234vufelc6qft22by0qp/cleanshot-2026-03-05-at-07-32-46.png",
+        "mobile": "https://cdn.ing/assets/i/r/293181/ufcy7rwi5suesfcid1adypnatiui/cleanshot-2026-03-05-at-07-32-28.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-centered-avatars"
+    },
+    "testimonials-company-logo": {
+      "title": "Testimonials Company Logo",
+      "componentPath": "blocks/testimonials/testimonials-company-logo.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/293179/brr3x11dnz82h2i1wtkbdr9lzet8/cleanshot-2026-03-05-at-07-21-00.png",
+        "mobile": "https://cdn.ing/assets/i/r/293178/mceobxfea6868txh6j6if2rqb746/cleanshot-2026-03-05-at-07-21-18.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293179/brr3x11dnz82h2i1wtkbdr9lzet8/cleanshot-2026-03-05-at-07-21-00.png",
+        "mobile": "https://cdn.ing/assets/i/r/293178/mceobxfea6868txh6j6if2rqb746/cleanshot-2026-03-05-at-07-21-18.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-company-logo"
+    },
+    "testimonials-grid-add-review": {
+      "title": "Testimonials Grid Add Review",
+      "componentPath": "blocks/testimonials/testimonials-grid-add-review.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-grid-add-review"
+    },
+    "testimonials-images-helpful": {
+      "title": "Testimonials Images Helpful",
+      "componentPath": "blocks/testimonials/testimonials-images-helpful.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-images-helpful"
+    },
+    "testimonials-large-quote": {
+      "title": "Testimonials Large Quote",
+      "componentPath": "blocks/testimonials/testimonials-large-quote.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-large-quote"
+    },
+    "testimonials-list-verified": {
+      "title": "Testimonials List Verified",
+      "componentPath": "blocks/testimonials/testimonials-list-verified.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-list-verified"
+    },
+    "testimonials-logo-cards": {
+      "title": "Testimonials Logo Cards",
+      "componentPath": "blocks/testimonials/testimonials-logo-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-logo-cards"
+    },
+    "testimonials-marquee": {
+      "title": "Testimonials Marquee",
+      "componentPath": "blocks/testimonials/testimonials-marquee.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-marquee"
+    },
+    "testimonials-masonry-grid": {
+      "title": "Testimonials Masonry Grid",
+      "componentPath": "blocks/testimonials/testimonials-masonry-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-masonry-grid"
+    },
+    "testimonials-mini-dividers": {
+      "title": "Testimonials Mini Dividers",
+      "componentPath": "blocks/testimonials/testimonials-mini-dividers.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-mini-dividers"
+    },
+    "testimonials-minimal-numbered": {
+      "title": "Testimonials Minimal Numbered",
+      "componentPath": "blocks/testimonials/testimonials-minimal-numbered.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-minimal-numbered"
+    },
+    "testimonials-parallax-number": {
+      "title": "Testimonials Parallax Number",
+      "componentPath": "blocks/testimonials/testimonials-parallax-number.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-parallax-number"
+    },
+    "testimonials-quote-carousel": {
+      "title": "Testimonials Quote Carousel",
+      "componentPath": "blocks/testimonials/testimonials-quote-carousel.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-quote-carousel"
+    },
+    "testimonials-scrolling-columns": {
+      "title": "Testimonials Scrolling Columns",
+      "componentPath": "blocks/testimonials/testimonials-scrolling-columns.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-scrolling-columns"
+    },
+    "testimonials-simple-grid": {
+      "title": "Testimonials Simple Grid",
+      "componentPath": "blocks/testimonials/testimonials-simple-grid.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-simple-grid"
+    },
+    "testimonials-slider-minimal": {
+      "title": "Testimonials Slider Minimal",
+      "componentPath": "blocks/testimonials/testimonials-slider-minimal.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-slider-minimal"
+    },
+    "testimonials-split-image": {
+      "title": "Testimonials Split Image",
+      "componentPath": "blocks/testimonials/testimonials-split-image.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/293183/yl4ha8bq98w83kb8k84fms6eaz0l/cleanshot-2026-03-05-at-08-19-37.png",
+        "mobile": "https://cdn.ing/assets/i/r/293182/u9a9zo5gp8uxhnjakurz3bhezp3r/cleanshot-2026-03-05-at-08-19-55.png"
+      },
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293183/yl4ha8bq98w83kb8k84fms6eaz0l/cleanshot-2026-03-05-at-08-19-37.png",
+        "mobile": "https://cdn.ing/assets/i/r/293182/u9a9zo5gp8uxhnjakurz3bhezp3r/cleanshot-2026-03-05-at-08-19-55.png"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-split-image"
+    },
+    "testimonials-stats-header": {
+      "title": "Testimonials Stats Header",
+      "componentPath": "blocks/testimonials/testimonials-stats-header.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-stats-header"
+    },
+    "testimonials-twitter-cards": {
+      "title": "Testimonials Twitter Cards",
+      "componentPath": "blocks/testimonials/testimonials-twitter-cards.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-twitter-cards"
+    },
+    "testimonials-wall-compact": {
+      "title": "Testimonials Wall Compact",
+      "componentPath": "blocks/testimonials/testimonials-wall-compact.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "preview": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/testimonials/testimonials-wall-compact"
     }
   }
 }

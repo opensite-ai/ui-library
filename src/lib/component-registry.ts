@@ -647,6 +647,54 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/contact/contact-warranty"),
   "contact-wedding": () =>
     import("@/blocks/contact/contact-wedding"),
+
+  // Testimonial blocks
+  "testimonials-animated-split": () =>
+    import("@/blocks/testimonials/testimonials-animated-split"),
+  "testimonials-bento-grid": () =>
+    import("@/blocks/testimonials/testimonials-bento-grid"),
+  "testimonials-carousel-image": () =>
+    import("@/blocks/testimonials/testimonials-carousel-image"),
+  "testimonials-centered-avatars": () =>
+    import("@/blocks/testimonials/testimonials-centered-avatars"),
+  "testimonials-company-logo": () =>
+    import("@/blocks/testimonials/testimonials-company-logo"),
+  "testimonials-grid-add-review": () =>
+    import("@/blocks/testimonials/testimonials-grid-add-review"),
+  "testimonials-images-helpful": () =>
+    import("@/blocks/testimonials/testimonials-images-helpful"),
+  "testimonials-large-quote": () =>
+    import("@/blocks/testimonials/testimonials-large-quote"),
+  "testimonials-list-verified": () =>
+    import("@/blocks/testimonials/testimonials-list-verified"),
+  "testimonials-logo-cards": () =>
+    import("@/blocks/testimonials/testimonials-logo-cards"),
+  "testimonials-marquee": () =>
+    import("@/blocks/testimonials/testimonials-marquee"),
+  "testimonials-masonry-grid": () =>
+    import("@/blocks/testimonials/testimonials-masonry-grid"),
+  "testimonials-mini-dividers": () =>
+    import("@/blocks/testimonials/testimonials-mini-dividers"),
+  "testimonials-minimal-numbered": () =>
+    import("@/blocks/testimonials/testimonials-minimal-numbered"),
+  "testimonials-parallax-number": () =>
+    import("@/blocks/testimonials/testimonials-parallax-number"),
+  "testimonials-quote-carousel": () =>
+    import("@/blocks/testimonials/testimonials-quote-carousel"),
+  "testimonials-scrolling-columns": () =>
+    import("@/blocks/testimonials/testimonials-scrolling-columns"),
+  "testimonials-simple-grid": () =>
+    import("@/blocks/testimonials/testimonials-simple-grid"),
+  "testimonials-slider-minimal": () =>
+    import("@/blocks/testimonials/testimonials-slider-minimal"),
+  "testimonials-split-image": () =>
+    import("@/blocks/testimonials/testimonials-split-image"),
+  "testimonials-stats-header": () =>
+    import("@/blocks/testimonials/testimonials-stats-header"),
+  "testimonials-twitter-cards": () =>
+    import("@/blocks/testimonials/testimonials-twitter-cards"),
+  "testimonials-wall-compact": () =>
+    import("@/blocks/testimonials/testimonials-wall-compact"),
 };
 
 export const componentRegistry = Object.fromEntries(
