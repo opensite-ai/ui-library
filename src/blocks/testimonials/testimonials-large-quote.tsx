@@ -14,8 +14,8 @@ export default function Demo() {
       }}
       background="gradient"
       spacing="xl"
-      pattern="dotsFade"
-      patternOpacity={0.4}
+      pattern="gridFadeTop"
+      patternOpacity={0.15}
     />
   );
 }

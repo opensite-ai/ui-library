@@ -71,8 +71,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[32],
         },
       ]}
-      background="gray"
-      spacing="lg"
+      background="white"
+      spacing="xl"
+      pattern="gridFadeTop"
+      patternOpacity={0.9}
     />
   );
 }

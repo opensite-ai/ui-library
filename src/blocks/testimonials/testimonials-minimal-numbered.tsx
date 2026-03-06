@@ -39,10 +39,9 @@ export default function Demo() {
         },
       ]}
       autoPlayInterval={10000}
+      pattern="squareAltGrid"
+      patternOpacity={0.5}
       background="muted"
-      spacing="xl"
-      pattern="architect"
-      patternOpacity={0.1}
     />
   );
 }

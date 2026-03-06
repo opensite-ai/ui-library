@@ -7,13 +7,33 @@ export default function Demo() {
       heading="Trusted by Industry Leaders"
       description="Join thousands of businesses achieving exceptional results"
       stats={[
-        { label: "Active Users", value: "50,000+" },
         {
-          label: "Customer Satisfaction",
-          value: "4.9/5.0",
+          id: "growth",
+          value: "312",
+          suffix: "%",
+          label: "Revenue Growth",
+          description: "Average year-over-year lift after launch.",
+          icon: "lucide/trending-up",
         },
-        { label: "Countries Worldwide", value: "120+" },
-        { label: "Uptime Guarantee", value: "99.99%" },
+        {
+          id: "velocity",
+          value: "4.6",
+          suffix: "x",
+          label: "Delivery Speed",
+          description: "Faster time-to-value compared to baseline.",
+          icon: "lucide/rocket",
+          iconColor: "text-primary",
+        },
+        {
+          id: "retention",
+          prefix: "+",
+          value: "29",
+          suffix: "%",
+          label: "Customer Retention",
+          description: "Retention gains within the first 90 days.",
+          icon: "lucide/user-check",
+          iconColor: "text-primary",
+        },
       ]}
       testimonials={[
         {

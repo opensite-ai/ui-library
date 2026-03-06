@@ -5,7 +5,8 @@ import { demoFormEngineApi } from "@/lib/form-demo-data";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { imagePlaceholders } from "@/lib/media";
 import { stadiaApiKey } from "@/lib/tools";
-import type { FormFieldConfig, GeoMapMarker, GeoMapProps } from "@opensite/ui";
+import type { FormFieldConfig } from "@opensite/ui";
+import type { GeoMapMarker, GeoMapProps } from "@page-speed/maps";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -53,6 +54,7 @@ const downtownPhoenixMarker: GeoMapMarker = {
   summary:
     "A central downtown gathering space with elevated craft cocktails, chef-driven small plates, and late-night service.",
   locationLine: "128 E Roosevelt St, Phoenix, AZ 85004",
+  locationUrl: "https://maps.app.goo.gl/D8XXe5tt7av4GFEh8",
   hoursLine: "Mon-Sun: 11:00 AM - 12:00 AM",
   mediaItems: [
     {

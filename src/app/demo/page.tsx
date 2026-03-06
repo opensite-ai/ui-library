@@ -3,7 +3,7 @@ import { openGraphImgUrl } from "@/lib/media";
 import Block from "@/blocks/footers/footer-newsletter-minimal";
 import HeroBlock1 from "@/blocks/hero/hero-event-registration";
 import HeroBlock2 from "@/blocks/hero/hero-crm-streamlined";
-import ContactPhotography from "@/blocks/contact/contact-photography";
+import ContactMap from "@/blocks/contact/contact-map";
 
 import { SocialShare } from "@page-speed/social-share";
 
@@ -23,7 +23,7 @@ export default function DemoPage() {
   return (
     <div className="">
       <HeroBlock1 />
-      <ContactPhotography />
+      <ContactMap />
       <HeroBlock2 />
       <div className="flex items-center justify-center py-24 bg-white">
         <SocialShare

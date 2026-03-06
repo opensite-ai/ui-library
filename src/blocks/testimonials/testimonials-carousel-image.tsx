@@ -1,5 +1,5 @@
 import { TestimonialsCarouselImage } from "@opensite/ui/blocks/testimonials/testimonials-carousel-image";
-import { imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -12,6 +12,7 @@ export default function Demo() {
           role: "VP of Product",
           company: "CloudScale",
           backgroundImage: imagePlaceholders[12],
+          logoSrc: brandLogoPlaceholders.white[0],
         },
         {
           quote:
@@ -20,6 +21,7 @@ export default function Demo() {
           role: "Chief Technology Officer",
           company: "NextGen Solutions",
           backgroundImage: imagePlaceholders[34],
+          logoSrc: brandLogoPlaceholders.white[1],
         },
         {
           quote:
@@ -28,6 +30,7 @@ export default function Demo() {
           role: "Director of Operations",
           company: "Enterprise Dynamics",
           backgroundImage: imagePlaceholders[56],
+          logoSrc: brandLogoPlaceholders.white[2],
         },
         {
           quote:
@@ -36,6 +39,7 @@ export default function Demo() {
           role: "Information Security Officer",
           company: "SecureData Corp",
           backgroundImage: imagePlaceholders[78],
+          logoSrc: brandLogoPlaceholders.white[3],
         },
       ]}
       height="h-[500px] md:h-[600px] lg:h-[700px]"

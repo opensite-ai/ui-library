@@ -126,7 +126,6 @@
     --w-20dvw: 20dvw;
     --w-10dvw: 10dvw;
 
-
     /* ============================================
      TYPOGRAPHY
      ============================================ */
@@ -540,6 +539,29 @@
     transform: rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg));
     }
   }
+}
+
+@theme inline {
+  --spacing-10dvh: var(--h-10dvh);
+  --spacing-20dvh: var(--h-20dvh);
+  --spacing-30dvh: var(--h-30dvh);
+  --spacing-40dvh: var(--h-40dvh);
+  --spacing-50dvh: var(--h-50dvh);
+  --spacing-60dvh: var(--h-60dvh);
+  --spacing-70dvh: var(--h-70dvh);
+  --spacing-80dvh: var(--h-80dvh);
+  --spacing-90dvh: var(--h-90dvh);
+  --spacing-100dvh: var(--h-100dvh);
+  --spacing-10vw: var(--w-10vw);
+  --spacing-20vw: var(--w-20vw);
+  --spacing-30vw: var(--w-30vw);
+  --spacing-40vw: var(--w-40vw);
+  --spacing-50vw: var(--w-50vw);
+  --spacing-60vw: var(--w-60vw);
+  --spacing-70vw: var(--h-70vw);
+  --spacing-80vw: var(--h-80vw);
+  --spacing-90vw: var(--h-90vw);
+  --spacing-100vw: var(--h-100vw);
 }
 
 @layer base {

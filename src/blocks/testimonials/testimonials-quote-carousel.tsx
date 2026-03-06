@@ -38,7 +38,6 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[104],
         },
       ]}
-      autoPlayInterval={5000}
       background="white"
       spacing="lg"
     />

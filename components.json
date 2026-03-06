@@ -25,6 +25,7 @@
       "headers": {
         "Authorization": "Bearer ${SHADCN_BLOCKS_API_KEY}"
       }
-    }
+    },
+    "@mapcn": "https://mapcn.dev/r/{name}.json"
   }
 }

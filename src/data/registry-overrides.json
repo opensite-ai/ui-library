@@ -4408,12 +4408,12 @@
       "title": "Testimonials Carousel Image",
       "componentPath": "blocks/testimonials/testimonials-carousel-image.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293194/t8a2gjemxvt0eh6lapiaqogzb38i/cleanshot-2026-03-05-at-13-24-33.png",
+        "mobile": "https://cdn.ing/assets/i/r/293193/y4u74gf7ibce35efer986agbou0j/cleanshot-2026-03-05-at-13-24-45.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293194/t8a2gjemxvt0eh6lapiaqogzb38i/cleanshot-2026-03-05-at-13-24-33.png",
+        "mobile": "https://cdn.ing/assets/i/r/293193/y4u74gf7ibce35efer986agbou0j/cleanshot-2026-03-05-at-13-24-45.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-carousel-image"
@@ -4520,12 +4520,12 @@
       "title": "Testimonials Marquee",
       "componentPath": "blocks/testimonials/testimonials-marquee.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293196/rmfzexpuodqp5a55tx90xwq4nl0g/cleanshot-2026-03-05-at-13-26-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/293195/ihsqd8kyqmyi2b7o9auolkzgog2w/cleanshot-2026-03-05-at-13-27-01.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293196/rmfzexpuodqp5a55tx90xwq4nl0g/cleanshot-2026-03-05-at-13-26-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/293195/ihsqd8kyqmyi2b7o9auolkzgog2w/cleanshot-2026-03-05-at-13-27-01.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-marquee"
@@ -4621,10 +4621,7 @@
         "desktop": "",
         "mobile": ""
       },
-      "preview": {
-        "desktop": "",
-        "mobile": ""
-      },
+      "preview": {},
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-simple-grid"
     },
@@ -4632,12 +4629,12 @@
       "title": "Testimonials Slider Minimal",
       "componentPath": "blocks/testimonials/testimonials-slider-minimal.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293198/lvo10y1ppui008im5h0b3lr366hj/cleanshot-2026-03-05-at-13-31-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/293197/98yr8vx99649stjxuo60jbjsdcd4/cleanshot-2026-03-05-at-13-31-42.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293198/lvo10y1ppui008im5h0b3lr366hj/cleanshot-2026-03-05-at-13-31-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/293197/98yr8vx99649stjxuo60jbjsdcd4/cleanshot-2026-03-05-at-13-31-42.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-slider-minimal"

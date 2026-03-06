@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-03-05T16:43:20.291Z",
+    "exportedAt": "2026-03-06T08:45:16.216Z",
     "totalBlocks": 605,
-    "version": "2.8.7",
+    "version": "2.8.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-03-05T17:03:19.013Z"
+    "syncedAt": "2026-03-06T08:51:11.316Z"
   },
   "blocks": [
     {
@@ -13606,7 +13606,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290576/agzawucxzm7dl2mxob6txd5bg858/contact-map-mobile.png"
       },
       "componentPath": "blocks/contact/contact-map.tsx",
-      "code": "\"use client\";\n\nimport { ContactMap } from \"@opensite/ui/blocks/contact/contact-map\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { stadiaApiKey } from \"@/lib/tools\";\nimport type { FormFieldConfig, GeoMapMarker, GeoMapProps } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"full_name\",\n    type: \"text\",\n    label: \"Full Name\",\n    placeholder: \"Your name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    type: \"text\",\n    label: \"Subject\",\n    placeholder: \"Brief subject line\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Message\",\n    placeholder: \"Your message...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nconst downtownPhoenixMarker: GeoMapMarker = {\n  id: \"downtown-phx-craft\",\n  latitude: 33.4585232,\n  longitude: -112.0715382,\n  pinColor: \"#f97316\",\n  eyebrow: \"Phoenix Flagship\",\n  title: \"Downtown PHX Craft\",\n  summary:\n    \"A central downtown gathering space with elevated craft cocktails, chef-driven small plates, and late-night service.\",\n  locationLine: \"128 E Roosevelt St, Phoenix, AZ 85004\",\n  hoursLine: \"Mon-Sun: 11:00 AM - 12:00 AM\",\n  mediaItems: [\n    {\n      id: \"downtown-media-1\",\n      src: imagePlaceholders[113],\n      alt: \"Downtown PHX Craft signature espresso martini\",\n    },\n  ],\n  markerContentComponent: (\n    <div className=\"mt-2 space-y-1.5 text-xs text-muted-foreground\">\n      <p className=\"font-medium text-foreground\">Highlights</p>\n      <ul className=\"list-disc space-y-1 pl-4\">\n        <li>Happy hour daily from 4 PM - 6 PM</li>\n        <li>Private event lounge available</li>\n        <li>Chef tasting menu on Fridays and Saturdays</li>\n      </ul>\n    </div>\n  ),\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/D8XXe5tt7av4GFEh8\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      variant: \"default\",\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst northScottsdaleMarker: GeoMapMarker = {\n  id: \"north-scottsdale\",\n  latitude: 33.6510546,\n  longitude: -111.924473,\n  pinColor: \"#0ea5e9\",\n  eyebrow: \"Scottsdale Location\",\n  title: \"North Scottsdale\",\n  summary:\n    \"A modern North Scottsdale location designed for group dining, premium cocktails, and weekend experiences.\",\n  locationLine: \"17797 N Scottsdale Rd, Scottsdale, AZ 85255\",\n  hoursLine: \"Mon-Sun: 10:00 AM - 11:00 PM\",\n  mediaItems: [\n    {\n      id: \"scottsdale-media-1\",\n      src: imagePlaceholders[112],\n      alt: \"North Scottsdale venue interior\",\n    },\n    {\n      id: \"scottsdale-media-2\",\n      src: imagePlaceholders[119],\n      alt: \"Fine dining and cocktails at North Scottsdale\",\n    },\n    {\n      id: \"scottsdale-media-3\",\n      src: imagePlaceholders[123],\n      alt: \"Guests dining at North Scottsdale\",\n    },\n  ],\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/d1h87KXhi9gBPAJj9\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst mapProps: GeoMapProps = {\n  stadiaApiKey,\n  panelPosition: \"bottom-left\",\n  defaultViewState: {\n    latitude: 33.557,\n    longitude: -111.998,\n    zoom: 10.8,\n  },\n  showNavigationControl: true,\n  showGeolocateControl: true,\n  markerFocusZoom: 13.75,\n  clusterFocusZoom: 12,\n  markers: [downtownPhoenixMarker, northScottsdaleMarker],\n  // clusters: [\n  //   {\n  //     id: \"north-east-valley-cluster\",\n  //     label: \"Clustered Region Example\",\n  //     title: \"North Scottsdale Region\",\n  //     summary:\n  //       \"This demonstrates the optional clustered format used when multiple locations should be grouped under a region.\",\n  //     pinColor: \"#0284c7\",\n  //     markers: [northScottsdaleMarker],\n  //   },\n  // ],\n};\n\nexport default function Demo() {\n  return (\n    <ContactMap\n      heading=\"Contact Us\"\n      description=\"We're here to help! Send us a message and we'll respond within 24 hours.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for contacting us! We'll get back to you within 24 hours.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Send Message\",\n          },\n        },\n      }}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      mapProps={mapProps}\n    />\n  );\n}\n",
+      "code": "\"use client\";\n\nimport { ContactMap } from \"@opensite/ui/blocks/contact/contact-map\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { stadiaApiKey } from \"@/lib/tools\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\nimport type { GeoMapMarker, GeoMapProps } from \"@page-speed/maps\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"full_name\",\n    type: \"text\",\n    label: \"Full Name\",\n    placeholder: \"Your name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    type: \"text\",\n    label: \"Subject\",\n    placeholder: \"Brief subject line\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Message\",\n    placeholder: \"Your message...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nconst downtownPhoenixMarker: GeoMapMarker = {\n  id: \"downtown-phx-craft\",\n  latitude: 33.4585232,\n  longitude: -112.0715382,\n  pinColor: \"#f97316\",\n  eyebrow: \"Phoenix Flagship\",\n  title: \"Downtown PHX Craft\",\n  summary:\n    \"A central downtown gathering space with elevated craft cocktails, chef-driven small plates, and late-night service.\",\n  locationLine: \"128 E Roosevelt St, Phoenix, AZ 85004\",\n  locationUrl: \"https://maps.app.goo.gl/D8XXe5tt7av4GFEh8\",\n  hoursLine: \"Mon-Sun: 11:00 AM - 12:00 AM\",\n  mediaItems: [\n    {\n      id: \"downtown-media-1\",\n      src: imagePlaceholders[113],\n      alt: \"Downtown PHX Craft signature espresso martini\",\n    },\n  ],\n  markerContentComponent: (\n    <div className=\"mt-2 space-y-1.5 text-xs text-muted-foreground\">\n      <p className=\"font-medium text-foreground\">Highlights</p>\n      <ul className=\"list-disc space-y-1 pl-4\">\n        <li>Happy hour daily from 4 PM - 6 PM</li>\n        <li>Private event lounge available</li>\n        <li>Chef tasting menu on Fridays and Saturdays</li>\n      </ul>\n    </div>\n  ),\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/D8XXe5tt7av4GFEh8\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      variant: \"default\",\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst northScottsdaleMarker: GeoMapMarker = {\n  id: \"north-scottsdale\",\n  latitude: 33.6510546,\n  longitude: -111.924473,\n  pinColor: \"#0ea5e9\",\n  eyebrow: \"Scottsdale Location\",\n  title: \"North Scottsdale\",\n  summary:\n    \"A modern North Scottsdale location designed for group dining, premium cocktails, and weekend experiences.\",\n  locationLine: \"17797 N Scottsdale Rd, Scottsdale, AZ 85255\",\n  hoursLine: \"Mon-Sun: 10:00 AM - 11:00 PM\",\n  mediaItems: [\n    {\n      id: \"scottsdale-media-1\",\n      src: imagePlaceholders[112],\n      alt: \"North Scottsdale venue interior\",\n    },\n    {\n      id: \"scottsdale-media-2\",\n      src: imagePlaceholders[119],\n      alt: \"Fine dining and cocktails at North Scottsdale\",\n    },\n    {\n      id: \"scottsdale-media-3\",\n      src: imagePlaceholders[123],\n      alt: \"Guests dining at North Scottsdale\",\n    },\n  ],\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/d1h87KXhi9gBPAJj9\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst mapProps: GeoMapProps = {\n  stadiaApiKey,\n  panelPosition: \"bottom-left\",\n  defaultViewState: {\n    latitude: 33.557,\n    longitude: -111.998,\n    zoom: 10.8,\n  },\n  showNavigationControl: true,\n  showGeolocateControl: true,\n  markerFocusZoom: 13.75,\n  clusterFocusZoom: 12,\n  markers: [downtownPhoenixMarker, northScottsdaleMarker],\n  // clusters: [\n  //   {\n  //     id: \"north-east-valley-cluster\",\n  //     label: \"Clustered Region Example\",\n  //     title: \"North Scottsdale Region\",\n  //     summary:\n  //       \"This demonstrates the optional clustered format used when multiple locations should be grouped under a region.\",\n  //     pinColor: \"#0284c7\",\n  //     markers: [northScottsdaleMarker],\n  //   },\n  // ],\n};\n\nexport default function Demo() {\n  return (\n    <ContactMap\n      heading=\"Contact Us\"\n      description=\"We're here to help! Send us a message and we'll respond within 24 hours.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for contacting us! We'll get back to you within 24 hours.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Send Message\",\n          },\n        },\n      }}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      mapProps={mapProps}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -13704,632 +13704,6 @@
         "mapProps": {
           "type": "object",
           "description": "Geo map configuration and marker data",
-          "fields": {
-            "className": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "mapWrapperClassName": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "mapClassName": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "panelClassName": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "panelPosition": {
-              "type": "string",
-              "description": "",
-              "typeLabel": "PanelPosition",
-              "required": false
-            },
-            "stadiaApiKey": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "mapStyle": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "styleUrl": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "mapLibreCssHref": {
-              "type": "string",
-              "description": "",
-              "required": false
-            },
-            "markers": {
-              "type": "array",
-              "description": "",
-              "items": {
-                "type": "object",
-                "description": "",
-                "fields": {
-                  "id": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "string | number",
-                    "required": false
-                  },
-                  "latitude": {
-                    "type": "number",
-                    "description": "",
-                    "required": true
-                  },
-                  "longitude": {
-                    "type": "number",
-                    "description": "",
-                    "required": true
-                  },
-                  "label": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "eyebrow": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "title": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "summary": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "locationLine": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "locationUrl": {
-                    "type": "string",
-                    "description": "",
-                    "required": false
-                  },
-                  "hoursLine": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "mediaItems": {
-                    "type": "array",
-                    "description": "",
-                    "items": {
-                      "type": "object",
-                      "description": "",
-                      "fields": {
-                        "id": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "string | number",
-                          "required": false
-                        },
-                        "src": {
-                          "type": "string",
-                          "description": "",
-                          "required": true
-                        },
-                        "type": {
-                          "type": "string",
-                          "description": "",
-                          "typeLabel": "GeoMapMediaType",
-                          "required": false
-                        },
-                        "alt": {
-                          "type": "string",
-                          "description": "",
-                          "required": false
-                        },
-                        "poster": {
-                          "type": "string",
-                          "description": "",
-                          "required": false
-                        }
-                      },
-                      "typeLabel": "GeoMapMediaItem"
-                    },
-                    "typeLabel": "GeoMapMediaItem[]",
-                    "required": false
-                  },
-                  "markerContentComponent": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "actions": {
-                    "type": "array",
-                    "description": "",
-                    "items": {
-                      "type": "object",
-                      "description": "",
-                      "fields": {
-                        "label": {
-                          "type": "object",
-                          "description": "Button/link label text or ReactNode",
-                          "typeLabel": "ReactNode",
-                          "required": false
-                        },
-                        "icon": {
-                          "type": "object",
-                          "description": "Icon to display (typically before label)",
-                          "typeLabel": "ReactNode",
-                          "required": false
-                        },
-                        "iconAfter": {
-                          "type": "object",
-                          "description": "Icon to display after the label",
-                          "typeLabel": "ReactNode",
-                          "required": false
-                        },
-                        "href": {
-                          "type": "string",
-                          "description": "URL for link behavior",
-                          "required": false
-                        },
-                        "onClick": {
-                          "type": "object",
-                          "description": "Click handler for button behavior",
-                          "typeLabel": "MouseEventHandler",
-                          "required": false
-                        },
-                        "className": {
-                          "type": "string",
-                          "description": "Additional CSS classes for the action",
-                          "required": false
-                        },
-                        "children": {
-                          "type": "object",
-                          "description": "Custom children (overrides label + icon rendering)",
-                          "typeLabel": "ReactNode",
-                          "required": false
-                        },
-                        "\"aria-label\"": {
-                          "type": "string",
-                          "description": "ARIA label for accessibility",
-                          "required": false
-                        },
-                        "asButton": {
-                          "type": "boolean",
-                          "description": "Render as a button element instead of an anchor/link",
-                          "required": false
-                        }
-                      },
-                      "typeLabel": "ActionConfig"
-                    },
-                    "typeLabel": "ActionConfig[]",
-                    "required": false
-                  },
-                  "draggable": {
-                    "type": "boolean",
-                    "description": "",
-                    "required": false
-                  },
-                  "pinColor": {
-                    "type": "string",
-                    "description": "",
-                    "required": false
-                  },
-                  "pinClassName": {
-                    "type": "string",
-                    "description": "",
-                    "required": false
-                  },
-                  "markerElement": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "| React.ReactNode | ((args: { isSelected: boolean }) => React.ReactNode)",
-                    "required": false
-                  }
-                },
-                "typeLabel": "GeoMapMarker"
-              },
-              "typeLabel": "GeoMapMarker[]",
-              "required": false
-            },
-            "clusters": {
-              "type": "array",
-              "description": "",
-              "items": {
-                "type": "object",
-                "description": "",
-                "fields": {
-                  "id": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "string | number",
-                    "required": false
-                  },
-                  "label": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "title": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "summary": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "React.ReactNode",
-                    "required": false
-                  },
-                  "latitude": {
-                    "type": "number",
-                    "description": "",
-                    "required": false
-                  },
-                  "longitude": {
-                    "type": "number",
-                    "description": "",
-                    "required": false
-                  },
-                  "markers": {
-                    "type": "array",
-                    "description": "",
-                    "items": {
-                      "type": "object",
-                      "description": "",
-                      "fields": {
-                        "id": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "string | number",
-                          "required": false
-                        },
-                        "latitude": {
-                          "type": "number",
-                          "description": "",
-                          "required": true
-                        },
-                        "longitude": {
-                          "type": "number",
-                          "description": "",
-                          "required": true
-                        },
-                        "label": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "eyebrow": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "title": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "summary": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "locationLine": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "locationUrl": {
-                          "type": "string",
-                          "description": "",
-                          "required": false
-                        },
-                        "hoursLine": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "mediaItems": {
-                          "type": "array",
-                          "description": "",
-                          "items": {
-                            "type": "object",
-                            "description": "",
-                            "fields": {
-                              "id": {
-                                "type": "object",
-                                "description": "",
-                                "typeLabel": "string | number",
-                                "required": false
-                              },
-                              "src": {
-                                "type": "string",
-                                "description": "",
-                                "required": true
-                              },
-                              "type": {
-                                "type": "string",
-                                "description": "",
-                                "typeLabel": "GeoMapMediaType",
-                                "required": false
-                              },
-                              "alt": {
-                                "type": "string",
-                                "description": "",
-                                "required": false
-                              },
-                              "poster": {
-                                "type": "string",
-                                "description": "",
-                                "required": false
-                              }
-                            },
-                            "typeLabel": "GeoMapMediaItem"
-                          },
-                          "typeLabel": "GeoMapMediaItem[]",
-                          "required": false
-                        },
-                        "markerContentComponent": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "React.ReactNode",
-                          "required": false
-                        },
-                        "actions": {
-                          "type": "array",
-                          "description": "",
-                          "items": {
-                            "type": "object",
-                            "description": "",
-                            "fields": {
-                              "label": {
-                                "type": "object",
-                                "description": "Button/link label text or ReactNode",
-                                "typeLabel": "ReactNode",
-                                "required": false
-                              },
-                              "icon": {
-                                "type": "object",
-                                "description": "Icon to display (typically before label)",
-                                "typeLabel": "ReactNode",
-                                "required": false
-                              },
-                              "iconAfter": {
-                                "type": "object",
-                                "description": "Icon to display after the label",
-                                "typeLabel": "ReactNode",
-                                "required": false
-                              },
-                              "href": {
-                                "type": "string",
-                                "description": "URL for link behavior",
-                                "required": false
-                              },
-                              "onClick": {
-                                "type": "object",
-                                "description": "Click handler for button behavior",
-                                "typeLabel": "MouseEventHandler",
-                                "required": false
-                              },
-                              "className": {
-                                "type": "string",
-                                "description": "Additional CSS classes for the action",
-                                "required": false
-                              },
-                              "children": {
-                                "type": "object",
-                                "description": "Custom children (overrides label + icon rendering)",
-                                "typeLabel": "ReactNode",
-                                "required": false
-                              },
-                              "\"aria-label\"": {
-                                "type": "string",
-                                "description": "ARIA label for accessibility",
-                                "required": false
-                              },
-                              "asButton": {
-                                "type": "boolean",
-                                "description": "Render as a button element instead of an anchor/link",
-                                "required": false
-                              }
-                            },
-                            "typeLabel": "ActionConfig"
-                          },
-                          "typeLabel": "ActionConfig[]",
-                          "required": false
-                        },
-                        "draggable": {
-                          "type": "boolean",
-                          "description": "",
-                          "required": false
-                        },
-                        "pinColor": {
-                          "type": "string",
-                          "description": "",
-                          "required": false
-                        },
-                        "pinClassName": {
-                          "type": "string",
-                          "description": "",
-                          "required": false
-                        },
-                        "markerElement": {
-                          "type": "object",
-                          "description": "",
-                          "typeLabel": "| React.ReactNode | ((args: { isSelected: boolean }) => React.ReactNode)",
-                          "required": false
-                        }
-                      },
-                      "typeLabel": "GeoMapMarker"
-                    },
-                    "typeLabel": "GeoMapMarker[]",
-                    "required": true
-                  },
-                  "pinColor": {
-                    "type": "string",
-                    "description": "",
-                    "required": false
-                  },
-                  "pinClassName": {
-                    "type": "string",
-                    "description": "",
-                    "required": false
-                  },
-                  "markerElement": {
-                    "type": "object",
-                    "description": "",
-                    "typeLabel": "| React.ReactNode | ((args: { isSelected: boolean; count: number }) => React.ReactNode)",
-                    "required": false
-                  }
-                },
-                "typeLabel": "GeoMapCluster"
-              },
-              "typeLabel": "GeoMapCluster[]",
-              "required": false
-            },
-            "viewState": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "Partial",
-              "required": false
-            },
-            "defaultViewState": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "Partial",
-              "required": false
-            },
-            "onViewStateChange": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "(state: Partial<MapViewState>) => void",
-              "required": false
-            },
-            "onMapClick": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "(coord: MapCoordinate) => void",
-              "required": false
-            },
-            "onMarkerDrag": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "( markerId: string | number | null, coord: MapCoordinate, ) => void",
-              "required": false
-            },
-            "showNavigationControl": {
-              "type": "boolean",
-              "description": "",
-              "required": false
-            },
-            "showGeolocateControl": {
-              "type": "boolean",
-              "description": "",
-              "required": false
-            },
-            "navigationControlPosition": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "MapControlPosition",
-              "required": false
-            },
-            "geolocateControlPosition": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "MapControlPosition",
-              "required": false
-            },
-            "flyToOptions": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "MapLibreFlyToOptions",
-              "required": false
-            },
-            "markerFocusZoom": {
-              "type": "number",
-              "description": "",
-              "required": false
-            },
-            "clusterFocusZoom": {
-              "type": "number",
-              "description": "",
-              "required": false
-            },
-            "selectedMarkerId": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "string | number",
-              "required": false
-            },
-            "initialSelectedMarkerId": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "string | number",
-              "required": false
-            },
-            "onSelectionChange": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "(selection: GeoMapSelection) => void",
-              "required": false
-            },
-            "clearSelectionOnMapClick": {
-              "type": "boolean",
-              "description": "",
-              "required": false
-            },
-            "mapChildren": {
-              "type": "object",
-              "description": "",
-              "typeLabel": "React.ReactNode",
-              "required": false
-            },
-            "optixFlowConfig": {
-              "type": "object",
-              "description": "",
-              "fields": {
-                "apiKey": {
-                  "type": "string",
-                  "description": "API key for OptixFlow service",
-                  "required": true
-                },
-                "compression": {
-                  "type": "number",
-                  "description": "Compression level (0-100)",
-                  "required": false
-                }
-              },
-              "typeLabel": "OptixFlowConfig",
-              "required": false
-            }
-          },
           "typeLabel": "GeoMapProps",
           "required": false
         },
@@ -113552,15 +112926,15 @@
       "categorySlug": "testimonials",
       "description": "A full-width testimonial carousel with background images and navigation controls. Each slide features a large background image with gradient overlay, quote text, and author information. Includes previous/next buttons and dot indicators for manual navigation. Ideal for hero sections or impactful testimonial displays.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293194/t8a2gjemxvt0eh6lapiaqogzb38i/cleanshot-2026-03-05-at-13-24-33.png",
+        "mobile": "https://cdn.ing/assets/i/r/293193/y4u74gf7ibce35efer986agbou0j/cleanshot-2026-03-05-at-13-24-45.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293194/t8a2gjemxvt0eh6lapiaqogzb38i/cleanshot-2026-03-05-at-13-24-33.png",
+        "mobile": "https://cdn.ing/assets/i/r/293193/y4u74gf7ibce35efer986agbou0j/cleanshot-2026-03-05-at-13-24-45.png"
       },
       "componentPath": "blocks/testimonials/testimonials-carousel-image.tsx",
-      "code": "import { TestimonialsCarouselImage } from \"@opensite/ui/blocks/testimonials/testimonials-carousel-image\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsCarouselImage\n      testimonials={[\n        {\n          quote:\n            \"This solution has completely transformed how our team collaborates. The seamless integration with our existing tools made adoption effortless.\",\n          author: \"Jennifer Martinez\",\n          role: \"VP of Product\",\n          company: \"CloudScale\",\n          backgroundImage: imagePlaceholders[12],\n        },\n        {\n          quote:\n            \"We've seen a 200% increase in team productivity since implementing this platform. The ROI speaks for itself.\",\n          author: \"Robert Chen\",\n          role: \"Chief Technology Officer\",\n          company: \"NextGen Solutions\",\n          backgroundImage: imagePlaceholders[34],\n        },\n        {\n          quote:\n            \"The customer support is exceptional. Every question is answered promptly, and the team genuinely cares about our success.\",\n          author: \"Amanda Foster\",\n          role: \"Director of Operations\",\n          company: \"Enterprise Dynamics\",\n          backgroundImage: imagePlaceholders[56],\n        },\n        {\n          quote:\n            \"Security and compliance were our top concerns. This platform exceeded all expectations and passed our rigorous audits with flying colors.\",\n          author: \"Daniel Kim\",\n          role: \"Information Security Officer\",\n          company: \"SecureData Corp\",\n          backgroundImage: imagePlaceholders[78],\n        },\n      ]}\n      height=\"h-[500px] md:h-[600px] lg:h-[700px]\"\n      overlayOpacity={0.6}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsCarouselImage } from \"@opensite/ui/blocks/testimonials/testimonials-carousel-image\";\nimport { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsCarouselImage\n      testimonials={[\n        {\n          quote:\n            \"This solution has completely transformed how our team collaborates. The seamless integration with our existing tools made adoption effortless.\",\n          author: \"Jennifer Martinez\",\n          role: \"VP of Product\",\n          company: \"CloudScale\",\n          backgroundImage: imagePlaceholders[12],\n          logoSrc: brandLogoPlaceholders.white[0],\n        },\n        {\n          quote:\n            \"We've seen a 200% increase in team productivity since implementing this platform. The ROI speaks for itself.\",\n          author: \"Robert Chen\",\n          role: \"Chief Technology Officer\",\n          company: \"NextGen Solutions\",\n          backgroundImage: imagePlaceholders[34],\n          logoSrc: brandLogoPlaceholders.white[1],\n        },\n        {\n          quote:\n            \"The customer support is exceptional. Every question is answered promptly, and the team genuinely cares about our success.\",\n          author: \"Amanda Foster\",\n          role: \"Director of Operations\",\n          company: \"Enterprise Dynamics\",\n          backgroundImage: imagePlaceholders[56],\n          logoSrc: brandLogoPlaceholders.white[2],\n        },\n        {\n          quote:\n            \"Security and compliance were our top concerns. This platform exceeded all expectations and passed our rigorous audits with flying colors.\",\n          author: \"Daniel Kim\",\n          role: \"Information Security Officer\",\n          company: \"SecureData Corp\",\n          backgroundImage: imagePlaceholders[78],\n          logoSrc: brandLogoPlaceholders.white[3],\n        },\n      ]}\n      height=\"h-[500px] md:h-[600px] lg:h-[700px]\"\n      overlayOpacity={0.6}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -114379,12 +113753,12 @@
       "categorySlug": "testimonials",
       "description": "An auto-scrolling horizontal marquee of testimonial cards that creates continuous movement. Cards display quotes with author avatars and info. Configurable speed (slow/normal/fast) and pause-on-hover functionality. Creates dynamic visual interest and showcases many testimonials in limited space.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293196/rmfzexpuodqp5a55tx90xwq4nl0g/cleanshot-2026-03-05-at-13-26-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/293195/ihsqd8kyqmyi2b7o9auolkzgog2w/cleanshot-2026-03-05-at-13-27-01.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293196/rmfzexpuodqp5a55tx90xwq4nl0g/cleanshot-2026-03-05-at-13-26-51.png",
+        "mobile": "https://cdn.ing/assets/i/r/293195/ihsqd8kyqmyi2b7o9auolkzgog2w/cleanshot-2026-03-05-at-13-27-01.png"
       },
       "componentPath": "blocks/testimonials/testimonials-marquee.tsx",
       "code": "import { TestimonialsMarquee } from \"@opensite/ui/blocks/testimonials/testimonials-marquee\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMarquee\n      heading=\"Loved by Thousands Worldwide\"\n      description=\"Join our community of satisfied customers achieving remarkable results\"\n      testimonials={[\n        {\n          quote:\n            \"The level of support and attention to detail is unmatched. Every feature works flawlessly.\",\n          author: \"Alexandra Foster\",\n          role: \"Product Manager\",\n          company: \"InnovateTech\",\n          avatarSrc: imagePlaceholders[26],\n        },\n        {\n          quote:\n            \"We've tried many solutions, but this one actually delivers on its promises. Highly recommended!\",\n          author: \"Carlos Rodriguez\",\n          role: \"Operations Lead\",\n          company: \"Streamline Co\",\n          avatarSrc: imagePlaceholders[38],\n        },\n        {\n          quote:\n            \"Implementation was surprisingly smooth. The onboarding process made everything intuitive.\",\n          author: \"Emily Nakamura\",\n          role: \"Team Lead\",\n          company: \"ProductFlow\",\n          avatarSrc: imagePlaceholders[50],\n        },\n        {\n          quote:\n            \"Our productivity has doubled since adoption. The ROI speaks for itself.\",\n          author: \"Michael Bennett\",\n          role: \"Director of Operations\",\n          company: \"EfficiencyCo\",\n          avatarSrc: imagePlaceholders[62],\n        },\n        {\n          quote:\n            \"The platform scales beautifully with our growth. No performance degradation whatsoever.\",\n          author: \"Priya Sharma\",\n          role: \"Engineering Manager\",\n          company: \"ScaleUp Systems\",\n          avatarSrc: imagePlaceholders[74],\n        },\n        {\n          quote:\n            \"Customer success team goes above and beyond. They truly care about our outcomes.\",\n          author: \"Thomas Wright\",\n          role: \"VP Customer Success\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[86],\n        },\n        {\n          quote:\n            \"The analytics dashboard provides insights we never knew we needed. Game changing.\",\n          author: \"Jennifer Kim\",\n          role: \"Data Analyst\",\n          company: \"InsightLabs\",\n          avatarSrc: imagePlaceholders[98],\n        },\n        {\n          quote:\n            \"Security audit passed with flying colors. Enterprise-grade protection that actually works.\",\n          author: \"David Martinez\",\n          role: \"Security Officer\",\n          company: \"SecureFirst\",\n          avatarSrc: imagePlaceholders[110],\n        },\n      ]}\n      speed=\"normal\"\n      pauseOnHover\n      background=\"dark\"\n      spacing=\"xl\"\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
@@ -114620,10 +113994,7 @@
         "desktop": "",
         "mobile": ""
       },
-      "preview": {
-        "desktop": "",
-        "mobile": ""
-      },
+      "preview": {},
       "componentPath": "blocks/testimonials/testimonials-simple-grid.tsx",
       "code": "import { TestimonialsSimpleGrid } from \"@opensite/ui/blocks/testimonials/testimonials-simple-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsSimpleGrid\n      heading=\"Customer Stories\"\n      description=\"Hear from businesses that have transformed their operations with our platform\"\n      columns={3}\n      testimonials={[\n        {\n          quote:\n            \"The platform's intuitive design and powerful features have streamlined our entire workflow. Our team productivity increased by 40% in the first quarter.\",\n          author: \"Jennifer Martinez\",\n          role: \"Director of Operations\",\n          company: \"Streamline Solutions\",\n          avatarSrc: imagePlaceholders[21],\n        },\n        {\n          quote:\n            \"Outstanding support and reliable performance. The implementation team guided us every step of the way.\",\n          author: \"Michael Chen\",\n          role: \"CTO\",\n          company: \"TechVision\",\n          avatarSrc: imagePlaceholders[35],\n        },\n        {\n          quote:\n            \"We've seen measurable improvements in every key metric. The ROI has exceeded all expectations.\",\n          author: \"Sarah Williams\",\n          role: \"VP of Finance\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[49],\n        },\n        {\n          quote:\n            \"The analytics capabilities have transformed our decision-making process. Highly recommend to any data-driven organization.\",\n          author: \"David Park\",\n          role: \"Head of Analytics\",\n          company: \"DataFirst\",\n          avatarSrc: imagePlaceholders[63],\n        },\n        {\n          quote:\n            \"Security features met our stringent enterprise requirements. The compliance team was thoroughly impressed.\",\n          author: \"Lisa Anderson\",\n          role: \"CISO\",\n          company: \"SecureCorp\",\n          avatarSrc: imagePlaceholders[77],\n        },\n        {\n          quote:\n            \"Seamless integration with our existing tech stack. No disruption, maximum value from day one.\",\n          author: \"Robert Zhang\",\n          role: \"Engineering Lead\",\n          company: \"IntegrateTech\",\n          avatarSrc: imagePlaceholders[91],\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
@@ -114855,12 +114226,12 @@
       "categorySlug": "testimonials",
       "description": "A minimal testimonial slider with smooth fade transitions and auto-rotation. Displays one testimonial at a time with quote, author info, and dot navigation indicators. Configurable auto-play interval. The clean design focuses attention on the testimonial content.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293198/lvo10y1ppui008im5h0b3lr366hj/cleanshot-2026-03-05-at-13-31-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/293197/98yr8vx99649stjxuo60jbjsdcd4/cleanshot-2026-03-05-at-13-31-42.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293198/lvo10y1ppui008im5h0b3lr366hj/cleanshot-2026-03-05-at-13-31-27.png",
+        "mobile": "https://cdn.ing/assets/i/r/293197/98yr8vx99649stjxuo60jbjsdcd4/cleanshot-2026-03-05-at-13-31-42.png"
       },
       "componentPath": "blocks/testimonials/testimonials-slider-minimal.tsx",
       "code": "import { TestimonialsSliderMinimal } from \"@opensite/ui/blocks/testimonials/testimonials-slider-minimal\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsSliderMinimal\n      testimonials={[\n        {\n          quote:\n            \"A transformative solution that has fundamentally changed how we operate. The impact on our bottom line has been remarkable.\",\n          author: \"Dr. Elizabeth Foster\",\n          role: \"Chief Executive Officer\",\n          company: \"Innovation Group\",\n          avatarSrc: imagePlaceholders[41],\n        },\n        {\n          quote:\n            \"The platform's reliability and performance have been flawless. Zero downtime in six months of operation.\",\n          author: \"Michael Bennett\",\n          role: \"VP of Technology\",\n          company: \"ReliableTech\",\n          avatarSrc: imagePlaceholders[59],\n        },\n        {\n          quote:\n            \"Customer satisfaction scores improved dramatically after implementation. Our clients notice and appreciate the difference.\",\n          author: \"Sophia Rodriguez\",\n          role: \"Director of Customer Success\",\n          company: \"ServicePro Inc\",\n          avatarSrc: imagePlaceholders[77],\n        },\n      ]}\n      autoPlayInterval={46000}\n      background=\"dark\"\n      pattern=\"squareAltGrid\"\n      patternOpacity={0.5}\n      spacing=\"lg\"\n    />\n  );\n}\n",
@@ -115332,7 +114703,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-stats-header.tsx",
-      "code": "import { TestimonialsStatsHeader } from \"@opensite/ui/blocks/testimonials/testimonials-stats-header\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsStatsHeader\n      heading=\"Trusted by Industry Leaders\"\n      description=\"Join thousands of businesses achieving exceptional results\"\n      stats={[\n        { label: \"Active Users\", value: \"50,000+\" },\n        {\n          label: \"Customer Satisfaction\",\n          value: \"4.9/5.0\",\n        },\n        { label: \"Countries Worldwide\", value: \"120+\" },\n        { label: \"Uptime Guarantee\", value: \"99.99%\" },\n      ]}\n      testimonials={[\n        {\n          quote:\n            \"The platform has transformed our entire organization. Results exceeded all expectations, and the team support has been phenomenal.\",\n          author: \"Katherine Reynolds\",\n          role: \"CEO\",\n          company: \"Global Enterprises\",\n          avatarSrc: imagePlaceholders[53],\n        },\n        {\n          quote:\n            \"Implementing this solution was one of the best decisions we've made. Performance, reliability, and innovation in one package.\",\n          author: \"Daniel Kim\",\n          role: \"VP of Operations\",\n          company: \"TechForward Inc\",\n          avatarSrc: imagePlaceholders[68],\n        },\n        {\n          quote:\n            \"The analytics capabilities have given us insights that drive real business value. We make better decisions faster now.\",\n          author: \"Michelle Torres\",\n          role: \"Chief Data Officer\",\n          company: \"DataDriven Corp\",\n          avatarSrc: imagePlaceholders[83],\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridBasic\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { TestimonialsStatsHeader } from \"@opensite/ui/blocks/testimonials/testimonials-stats-header\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsStatsHeader\n      heading=\"Trusted by Industry Leaders\"\n      description=\"Join thousands of businesses achieving exceptional results\"\n      stats={[\n        {\n          id: \"growth\",\n          value: \"312\",\n          suffix: \"%\",\n          label: \"Revenue Growth\",\n          description: \"Average year-over-year lift after launch.\",\n          icon: \"lucide/trending-up\",\n        },\n        {\n          id: \"velocity\",\n          value: \"4.6\",\n          suffix: \"x\",\n          label: \"Delivery Speed\",\n          description: \"Faster time-to-value compared to baseline.\",\n          icon: \"lucide/rocket\",\n          iconColor: \"text-primary\",\n        },\n        {\n          id: \"retention\",\n          prefix: \"+\",\n          value: \"29\",\n          suffix: \"%\",\n          label: \"Customer Retention\",\n          description: \"Retention gains within the first 90 days.\",\n          icon: \"lucide/user-check\",\n          iconColor: \"text-primary\",\n        },\n      ]}\n      testimonials={[\n        {\n          quote:\n            \"The platform has transformed our entire organization. Results exceeded all expectations, and the team support has been phenomenal.\",\n          author: \"Katherine Reynolds\",\n          role: \"CEO\",\n          company: \"Global Enterprises\",\n          avatarSrc: imagePlaceholders[53],\n        },\n        {\n          quote:\n            \"Implementing this solution was one of the best decisions we've made. Performance, reliability, and innovation in one package.\",\n          author: \"Daniel Kim\",\n          role: \"VP of Operations\",\n          company: \"TechForward Inc\",\n          avatarSrc: imagePlaceholders[68],\n        },\n        {\n          quote:\n            \"The analytics capabilities have given us insights that drive real business value. We make better decisions faster now.\",\n          author: \"Michelle Torres\",\n          role: \"Chief Data Officer\",\n          company: \"DataDriven Corp\",\n          avatarSrc: imagePlaceholders[83],\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridBasic\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "stats": {
           "type": "array",
@@ -115576,6 +114947,11 @@
         "containerClassName": {
           "type": "string",
           "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "statCardClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for stat cards",
           "required": false
         }
       },
@@ -116442,7 +115818,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-scrolling-columns.tsx",
-      "code": "import { TestimonialsScrollingColumns } from \"@opensite/ui/blocks/testimonials/testimonials-scrolling-columns\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsScrollingColumns\n      heading=\"What Our Customers Are Saying\"\n      description=\"Real stories from businesses transforming their operations\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional platform with outstanding results. Our team's efficiency increased by 45% in the first quarter alone.\",\n          author: \"Nicole Anderson\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[19],\n          imageSrc: imagePlaceholders[44],\n        },\n        {\n          quote:\n            \"The customer support team is incredibly responsive and knowledgeable. They truly care about our success.\",\n          author: \"Marcus Chen\",\n          role: \"IT Manager\",\n          avatarSrc: imagePlaceholders[31],\n          imageSrc: imagePlaceholders[31],\n        },\n        {\n          quote:\n            \"Integration was seamless. We were up and running in days instead of weeks. Impressive!\",\n          author: \"Sarah Thompson\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[43],\n          imageSrc: imagePlaceholders[43],\n        },\n        {\n          quote:\n            \"The analytics dashboard provides insights that drive real business value. We make better decisions faster now.\",\n          author: \"James Rodriguez\",\n          role: \"Head of Analytics\",\n          avatarSrc: imagePlaceholders[55],\n          imageSrc: imagePlaceholders[55],\n        },\n        {\n          quote:\n            \"Security features met all our enterprise requirements without compromising usability. Perfect balance.\",\n          author: \"Linda Park\",\n          role: \"CISO\",\n          avatarSrc: imagePlaceholders[67],\n          imageSrc: imagePlaceholders[17],\n        },\n        {\n          quote:\n            \"Best tool we've implemented in years. The entire team adopted it enthusiastically from day one.\",\n          author: \"David Martinez\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[79],\n          imageSrc: imagePlaceholders[19],\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.1}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsScrollingColumns } from \"@opensite/ui/blocks/testimonials/testimonials-scrolling-columns\";\nimport { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsScrollingColumns\n      heading=\"What Our Customers Are Saying\"\n      description=\"Real stories from businesses transforming their operations\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional platform with outstanding results. Our team's efficiency increased by 45% in the first quarter alone.\",\n          author: \"Nicole Anderson\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[19],\n          imageSrc: imagePlaceholders[44],\n          logoSrc: brandLogoPlaceholders.white[5],\n        },\n        {\n          quote:\n            \"The customer support team is incredibly responsive and knowledgeable. They truly care about our success.\",\n          author: \"Marcus Chen\",\n          role: \"IT Manager\",\n          avatarSrc: imagePlaceholders[31],\n          logoSrc: brandLogoPlaceholders.white[4],\n          imageSrc: imagePlaceholders[31],\n        },\n        {\n          quote:\n            \"Integration was seamless. We were up and running in days instead of weeks. Impressive!\",\n          author: \"Sarah Thompson\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[43],\n          imageSrc: imagePlaceholders[43],\n          logoSrc: brandLogoPlaceholders.white[3],\n        },\n        {\n          quote:\n            \"The analytics dashboard provides insights that drive real business value. We make better decisions faster now.\",\n          author: \"James Rodriguez\",\n          role: \"Head of Analytics\",\n          avatarSrc: imagePlaceholders[55],\n          imageSrc: imagePlaceholders[55],\n          logoSrc: brandLogoPlaceholders.white[2],\n        },\n        {\n          quote:\n            \"Security features met all our enterprise requirements without compromising usability. Perfect balance.\",\n          author: \"Linda Park\",\n          role: \"CISO\",\n          avatarSrc: imagePlaceholders[67],\n          imageSrc: imagePlaceholders[17],\n          logoSrc: brandLogoPlaceholders.white[1],\n        },\n        {\n          quote:\n            \"Best tool we've implemented in years. The entire team adopted it enthusiastically from day one.\",\n          author: \"David Martinez\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[79],\n          imageSrc: imagePlaceholders[19],\n          logoSrc: brandLogoPlaceholders.white[0],\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.1}\n      spacing=\"xl\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -116601,7 +115977,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-minimal-numbered.tsx",
-      "code": "import { TestimonialsMinimalNumbered } from \"@opensite/ui/blocks/testimonials/testimonials-minimal-numbered\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMinimalNumbered\n      testimonials={[\n        {\n          quote:\n            \"The platform has completely transformed how we approach our business operations. Every feature is thoughtfully designed and the performance is exceptional.\",\n          author: \"Dr. Catherine Foster\",\n          role: \"CEO\",\n          company: \"Innovation Labs\",\n          avatarSrc: imagePlaceholders[34],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years, but this is the only one that truly delivered on its promises. The team's dedication to excellence shows in every detail.\",\n          author: \"Marcus Rodriguez\",\n          role: \"VP of Engineering\",\n          company: \"TechScale\",\n          avatarSrc: imagePlaceholders[52],\n        },\n        {\n          quote:\n            \"What impressed us most was the seamless integration with our existing systems. No disruption, just immediate value from day one.\",\n          author: \"Jennifer Kim\",\n          role: \"IT Director\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[70],\n        },\n        {\n          quote:\n            \"The analytics capabilities alone have transformed our decision-making process. We now have insights we never knew were possible.\",\n          author: \"Robert Zhang\",\n          role: \"Head of Data\",\n          company: \"DataFirst Corp\",\n          avatarSrc: imagePlaceholders[88],\n        },\n      ]}\n      autoPlayInterval={10000}\n      background=\"muted\"\n      spacing=\"xl\"\n      pattern=\"architect\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
+      "code": "import { TestimonialsMinimalNumbered } from \"@opensite/ui/blocks/testimonials/testimonials-minimal-numbered\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMinimalNumbered\n      testimonials={[\n        {\n          quote:\n            \"The platform has completely transformed how we approach our business operations. Every feature is thoughtfully designed and the performance is exceptional.\",\n          author: \"Dr. Catherine Foster\",\n          role: \"CEO\",\n          company: \"Innovation Labs\",\n          avatarSrc: imagePlaceholders[34],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years, but this is the only one that truly delivered on its promises. The team's dedication to excellence shows in every detail.\",\n          author: \"Marcus Rodriguez\",\n          role: \"VP of Engineering\",\n          company: \"TechScale\",\n          avatarSrc: imagePlaceholders[52],\n        },\n        {\n          quote:\n            \"What impressed us most was the seamless integration with our existing systems. No disruption, just immediate value from day one.\",\n          author: \"Jennifer Kim\",\n          role: \"IT Director\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[70],\n        },\n        {\n          quote:\n            \"The analytics capabilities alone have transformed our decision-making process. We now have insights we never knew were possible.\",\n          author: \"Robert Zhang\",\n          role: \"Head of Data\",\n          company: \"DataFirst Corp\",\n          avatarSrc: imagePlaceholders[88],\n        },\n      ]}\n      autoPlayInterval={10000}\n      pattern=\"squareAltGrid\"\n      patternOpacity={0.5}\n      background=\"muted\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -116947,7 +116323,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-masonry-grid.tsx",
-      "code": "import { TestimonialsMasonryGrid } from \"@opensite/ui/blocks/testimonials/testimonials-masonry-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMasonryGrid\n      heading=\"Community Testimonials\"\n      description=\"Real feedback from real users making an impact\"\n      testimonials={[\n        {\n          quote:\n            \"This has completely transformed how we approach our daily workflows. The efficiency gains are remarkable.\",\n          author: \"Rachel Anderson\",\n          role: \"Operations Manager\",\n          avatarSrc: imagePlaceholders[24],\n        },\n        {\n          quote:\n            \"Best tool we've implemented this year. The team loves it, and the results are undeniable. Five stars across the board!\",\n          author: \"Marcus Johnson\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[36],\n        },\n        {\n          quote:\n            \"Simple yet powerful. Exactly what we needed without unnecessary complexity.\",\n          author: \"Lisa Chen\",\n          role: \"Product Designer\",\n          avatarSrc: imagePlaceholders[48],\n        },\n        {\n          quote:\n            \"The customer support is phenomenal. Every question answered promptly and thoroughly. They genuinely care about our success.\",\n          author: \"David Park\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[60],\n        },\n        {\n          quote:\n            \"We've seen a 300% improvement in key metrics. The analytics alone are worth the investment.\",\n          author: \"Sarah Williams\",\n          role: \"Analytics Lead\",\n          avatarSrc: imagePlaceholders[72],\n        },\n        {\n          quote:\n            \"Integration with our existing tools was seamless. No disruption to ongoing projects.\",\n          author: \"Kevin Torres\",\n          role: \"IT Director\",\n          avatarSrc: imagePlaceholders[84],\n        },\n        {\n          quote:\n            \"The mobile experience matches desktop functionality perfectly. Our field team can work from anywhere without limitations.\",\n          author: \"Amanda Foster\",\n          role: \"Field Operations\",\n          avatarSrc: imagePlaceholders[96],\n        },\n        {\n          quote:\n            \"Security features exceeded our enterprise requirements. Passed all audits effortlessly.\",\n          author: \"Robert Zhang\",\n          role: \"Security Architect\",\n          avatarSrc: imagePlaceholders[108],\n        },\n        {\n          quote:\n            \"Worth every penny. The ROI became evident within weeks of implementation.\",\n          author: \"Michelle Rodriguez\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[32],\n        },\n      ]}\n      background=\"gray\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsMasonryGrid } from \"@opensite/ui/blocks/testimonials/testimonials-masonry-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMasonryGrid\n      heading=\"Community Testimonials\"\n      description=\"Real feedback from real users making an impact\"\n      testimonials={[\n        {\n          quote:\n            \"This has completely transformed how we approach our daily workflows. The efficiency gains are remarkable.\",\n          author: \"Rachel Anderson\",\n          role: \"Operations Manager\",\n          avatarSrc: imagePlaceholders[24],\n        },\n        {\n          quote:\n            \"Best tool we've implemented this year. The team loves it, and the results are undeniable. Five stars across the board!\",\n          author: \"Marcus Johnson\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[36],\n        },\n        {\n          quote:\n            \"Simple yet powerful. Exactly what we needed without unnecessary complexity.\",\n          author: \"Lisa Chen\",\n          role: \"Product Designer\",\n          avatarSrc: imagePlaceholders[48],\n        },\n        {\n          quote:\n            \"The customer support is phenomenal. Every question answered promptly and thoroughly. They genuinely care about our success.\",\n          author: \"David Park\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[60],\n        },\n        {\n          quote:\n            \"We've seen a 300% improvement in key metrics. The analytics alone are worth the investment.\",\n          author: \"Sarah Williams\",\n          role: \"Analytics Lead\",\n          avatarSrc: imagePlaceholders[72],\n        },\n        {\n          quote:\n            \"Integration with our existing tools was seamless. No disruption to ongoing projects.\",\n          author: \"Kevin Torres\",\n          role: \"IT Director\",\n          avatarSrc: imagePlaceholders[84],\n        },\n        {\n          quote:\n            \"The mobile experience matches desktop functionality perfectly. Our field team can work from anywhere without limitations.\",\n          author: \"Amanda Foster\",\n          role: \"Field Operations\",\n          avatarSrc: imagePlaceholders[96],\n        },\n        {\n          quote:\n            \"Security features exceeded our enterprise requirements. Passed all audits effortlessly.\",\n          author: \"Robert Zhang\",\n          role: \"Security Architect\",\n          avatarSrc: imagePlaceholders[108],\n        },\n        {\n          quote:\n            \"Worth every penny. The ROI became evident within weeks of implementation.\",\n          author: \"Michelle Rodriguez\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[32],\n        },\n      ]}\n      background=\"white\"\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -117135,6 +116511,11 @@
           "type": "number",
           "description": "Pattern overlay opacity (0-1)",
           "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -117169,7 +116550,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-large-quote.tsx",
-      "code": "import { TestimonialsLargeQuote } from \"@opensite/ui/blocks/testimonials/testimonials-large-quote\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsLargeQuote\n      testimonial={{\n        quote:\n          \"This platform has revolutionized how we approach our business operations. The impact on our team's productivity and morale has been extraordinary.\",\n        author: \"Victoria Reynolds\",\n        role: \"Founder & CEO\",\n        company: \"NextWave Ventures\",\n        avatarSrc: imagePlaceholders[48],\n      }}\n      background=\"gradient\"\n      spacing=\"xl\"\n      pattern=\"dotsFade\"\n      patternOpacity={0.4}\n    />\n  );\n}\n",
+      "code": "import { TestimonialsLargeQuote } from \"@opensite/ui/blocks/testimonials/testimonials-large-quote\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsLargeQuote\n      testimonial={{\n        quote:\n          \"This platform has revolutionized how we approach our business operations. The impact on our team's productivity and morale has been extraordinary.\",\n        author: \"Victoria Reynolds\",\n        role: \"Founder & CEO\",\n        company: \"NextWave Ventures\",\n        avatarSrc: imagePlaceholders[48],\n      }}\n      background=\"gradient\"\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonial": {
           "type": "object",
@@ -117329,6 +116710,11 @@
         "patternOpacity": {
           "type": "number",
           "description": "Pattern overlay opacity (0-1)",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
           "required": false
         }
       },
