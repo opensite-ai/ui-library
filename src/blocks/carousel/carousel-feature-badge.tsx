@@ -1,5 +1,6 @@
 import { CarouselFeatureBadge } from "@opensite/ui/blocks/carousel/carousel-feature-badge";
 import { imagePlaceholders } from "@/lib/media";
+import { DynamicIcon } from "@opensite/ui";
 
 export default function Demo() {
   return (
@@ -10,6 +11,19 @@ export default function Demo() {
       background="dark"
       pattern="architect"
       patternOpacity={0.5}
+      actions={[
+        {
+          label: "Explore Features",
+          href: "#",
+          variant: "default",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
+        },
+        {
+          label: "Case Studies",
+          href: "#",
+          variant: "outline",
+        },
+      ]}
       items={[
         {
           src: imagePlaceholders[23],

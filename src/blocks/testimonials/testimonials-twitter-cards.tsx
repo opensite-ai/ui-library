@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <TestimonialsTwitterCards
       heading="Buzz on Social Media"
-      description="See what people are saying about us on Twitter/X"
+      description="See what people are saying about us on social media. Real feedback from real users sharing their experiences and excitement about our product."
       testimonials={[
         {
           content:

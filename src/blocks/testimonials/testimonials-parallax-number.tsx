@@ -12,8 +12,7 @@ export default function Demo() {
           role: "CEO & Founder",
           company: "Innovation Dynamics",
           avatarSrc: imagePlaceholders[33],
-          // backgroundIcon: "lucide/star",
-          backgroundLabel: "5 Stars",
+          backgroundIcon: "lucide/rocket",
         },
         {
           quote:
@@ -22,8 +21,7 @@ export default function Demo() {
           role: "CTO",
           company: "TechForward",
           avatarSrc: imagePlaceholders[58],
-          // backgroundIcon: "lucide/heart",
-          backgroundLabel: "Hey there",
+          backgroundIcon: "mdi/graph",
         },
         {
           quote:

@@ -4478,12 +4478,12 @@
       "title": "Testimonials Large Quote",
       "componentPath": "blocks/testimonials/testimonials-large-quote.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293649/0tx6o4za4zrib4kpvne27hf6elbh/cleanshot-2026-03-10-at-08-19-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293648/itojcq3lqfk7tgvidkpdk96mb6h3/cleanshot-2026-03-10-at-08-19-32-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293649/0tx6o4za4zrib4kpvne27hf6elbh/cleanshot-2026-03-10-at-08-19-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293648/itojcq3lqfk7tgvidkpdk96mb6h3/cleanshot-2026-03-10-at-08-19-32-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-large-quote"
@@ -4671,12 +4671,12 @@
       "title": "Testimonials Twitter Cards",
       "componentPath": "blocks/testimonials/testimonials-twitter-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293651/r4ds19aeiz57vfquyj3ikhu3750s/cleanshot-2026-03-10-at-08-27-35-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293650/2fryj0dtawv8luf6ts9v28zx9y1v/cleanshot-2026-03-10-at-08-27-50-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293651/r4ds19aeiz57vfquyj3ikhu3750s/cleanshot-2026-03-10-at-08-27-35-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293650/2fryj0dtawv8luf6ts9v28zx9y1v/cleanshot-2026-03-10-at-08-27-50-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-twitter-cards"

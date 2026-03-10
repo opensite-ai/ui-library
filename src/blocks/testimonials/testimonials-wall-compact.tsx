@@ -85,8 +85,9 @@ export default function Demo() {
           badge: "Featured",
         },
       ]}
-      background="white"
-      spacing="lg"
+      background="dark"
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={0.15}
     />
   );
 }

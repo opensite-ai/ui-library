@@ -4,6 +4,8 @@ import { imagePlaceholders } from "@/lib/media";
 export default function Demo() {
   return (
     <TestimonialsQuoteCarousel
+      heading="Customer Reviews"
+      description="Join thousands of satisfied customers sharing their experiences"
       testimonials={[
         {
           quote:
@@ -38,7 +40,7 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[104],
         },
       ]}
-      background="white"
+      background="dark"
       spacing="lg"
     />
   );

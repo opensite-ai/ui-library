@@ -13,6 +13,10 @@ export default function Demo() {
           author: "Rachel Anderson",
           role: "Operations Manager",
           avatarSrc: imagePlaceholders[24],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -20,6 +24,10 @@ export default function Demo() {
           author: "Marcus Johnson",
           role: "Team Lead",
           avatarSrc: imagePlaceholders[36],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -27,6 +35,10 @@ export default function Demo() {
           author: "Lisa Chen",
           role: "Product Designer",
           avatarSrc: imagePlaceholders[48],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -34,6 +46,10 @@ export default function Demo() {
           author: "David Park",
           role: "CTO",
           avatarSrc: imagePlaceholders[60],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -41,6 +57,10 @@ export default function Demo() {
           author: "Sarah Williams",
           role: "Analytics Lead",
           avatarSrc: imagePlaceholders[72],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -48,6 +68,10 @@ export default function Demo() {
           author: "Kevin Torres",
           role: "IT Director",
           avatarSrc: imagePlaceholders[84],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -55,6 +79,10 @@ export default function Demo() {
           author: "Amanda Foster",
           role: "Field Operations",
           avatarSrc: imagePlaceholders[96],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -62,6 +90,10 @@ export default function Demo() {
           author: "Robert Zhang",
           role: "Security Architect",
           avatarSrc: imagePlaceholders[108],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -69,10 +101,13 @@ export default function Demo() {
           author: "Michelle Rodriguez",
           role: "CFO",
           avatarSrc: imagePlaceholders[32],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
       ]}
-      background="white"
-      spacing="xl"
+      background="gray"
       pattern="gridFadeTop"
       patternOpacity={0.9}
     />

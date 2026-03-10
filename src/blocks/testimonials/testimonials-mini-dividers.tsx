@@ -16,16 +16,14 @@ export default function Demo() {
           rating: 5,
         },
         {
-          quote:
-            "Best purchase I've made this year. Highly recommend!",
+          quote: "Best purchase I've made this year. Highly recommend!",
           author: "Maria Garcia",
           role: "Design Lead",
           avatarSrc: imagePlaceholders[45],
           rating: 5,
         },
         {
-          quote:
-            "The support team went above and beyond to help us succeed.",
+          quote: "The support team went above and beyond to help us succeed.",
           author: "James Lee",
           role: "Engineering Manager",
           avatarSrc: imagePlaceholders[60],
@@ -48,15 +46,14 @@ export default function Demo() {
           rating: 5,
         },
         {
-          quote:
-            "Excellent value for money. ROI was evident within weeks.",
+          quote: "Excellent value for money. ROI was evident within weeks.",
           author: "Lisa Anderson",
           role: "CFO",
           avatarSrc: imagePlaceholders[105],
           rating: 5,
         },
       ]}
-      background="white"
+      background="dark"
       spacing="lg"
     />
   );

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-03-06T08:45:16.216Z",
+    "exportedAt": "2026-03-10T15:02:10.370Z",
     "totalBlocks": 605,
-    "version": "2.8.9",
+    "version": "2.9.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-03-06T08:51:11.316Z"
+    "syncedAt": "2026-03-10T15:15:56.244Z"
   },
   "blocks": [
     {
@@ -1402,7 +1402,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290838/zj14vxefyand4fs2ksymtk70oxhz/cleanshot-2026-02-25-at-04-58-56.png"
       },
       "componentPath": "blocks/about/about-developer-story.tsx",
-      "code": "import { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\nimport { AboutDeveloperStory } from \"@opensite/ui/blocks/about/about-developer-story\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperStory\n      title=\"From Curiosity to Craft\"\n      description=\"My journey into software development began with a simple question: 'How does this work?' That curiosity has driven me through 15 years of building, breaking, and rebuilding digital experiences that matter.\"\n      storyTitle=\"The Path Forward\"\n      storyContent=\"What started as tinkering with HTML in my teenage years evolved into a deep passion for creating meaningful technology. I've had the privilege of working with startups and Fortune 500 companies alike, learning that the best solutions come from understanding people first and technology second.\"\n      storyImage={{\n        src: imagePlaceholders[12],\n        alt: \"Developer workspace\",\n      }}\n      actions={[\n        {\n          label: \"Read My Blog\",\n          href: \"/blog\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Portfolio\",\n          href: \"/portfolio\",\n          variant: \"outline\",\n        },\n      ]}\n      logos={[\n        {\n          src: brandLogoPlaceholders.black[0],\n          alt: \"Company logo\",\n        },\n        {\n          src: brandLogoPlaceholders.black[1],\n          alt: \"Company logo\",\n        },\n        {\n          src: brandLogoPlaceholders.black[2],\n          alt: \"Company logo\",\n        },\n      ]}\n      stats={[\n        { value: \"200+\", label: \"Projects Shipped\" },\n        { value: \"15\", label: \"Years Experience\" },\n        { value: \"30+\", label: \"Technologies Mastered\" },\n      ]}\n      pattern=\"p6\"\n      patternOpacity={1}\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\nimport { AboutDeveloperStory } from \"@opensite/ui/blocks/about/about-developer-story\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutDeveloperStory\n      title=\"From Curiosity to Craft\"\n      description=\"My journey into software development began with a simple question: 'How does this work?' That curiosity has driven me through 15 years of building, breaking, and rebuilding digital experiences that matter.\"\n      storyTitle=\"The Path Forward\"\n      storyContent=\"What started as tinkering with HTML in my teenage years evolved into a deep passion for creating meaningful technology. I've had the privilege of working with startups and Fortune 500 companies alike, learning that the best solutions come from understanding people first and technology second.\"\n      storyImage={{\n        src: imagePlaceholders[12],\n        alt: \"Developer workspace\",\n      }}\n      actions={[\n        {\n          label: \"Read My Blog\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Portfolio\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      logos={[\n        {\n          src: brandLogoPlaceholders.black[0],\n          alt: \"Company logo\",\n        },\n        {\n          src: brandLogoPlaceholders.black[1],\n          alt: \"Company logo\",\n        },\n        {\n          src: brandLogoPlaceholders.black[2],\n          alt: \"Company logo\",\n        },\n      ]}\n      stats={[\n        { value: \"200+\", label: \"Projects Shipped\" },\n        { value: \"15\", label: \"Years Experience\" },\n        { value: \"30+\", label: \"Technologies Mastered\" },\n      ]}\n      pattern=\"p6\"\n      patternOpacity={1}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -16981,7 +16981,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289201/n10hkak24n77etw37glp3d86qwp5/carousel-feature-badge-mobile.jpg"
       },
       "componentPath": "blocks/carousel/carousel-feature-badge.tsx",
-      "code": "import { CarouselFeatureBadge } from \"@opensite/ui/blocks/carousel/carousel-feature-badge\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CarouselFeatureBadge\n      badge=\"Platform Features\"\n      heading=\"Everything you need to scale your SaaS business\"\n      description=\"From powerful analytics to seamless integrations, our platform provides all the tools you need to grow faster and serve customers better. Built for modern teams who demand excellence.\"\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={0.5}\n      items={[\n        {\n          src: imagePlaceholders[23],\n          alt: \"Real-time Analytics Dashboard\",\n        },\n        {\n          src: imagePlaceholders[47],\n          alt: \"Team Collaboration Tools\",\n        },\n        {\n          src: imagePlaceholders[56],\n          alt: \"API Integration Hub\",\n        },\n        {\n          src: imagePlaceholders[79],\n          alt: \"Customer Success Portal\",\n        },\n        {\n          src: imagePlaceholders[92],\n          alt: \"Advanced Reporting Engine\",\n        },\n        {\n          src: imagePlaceholders[105],\n          alt: \"Security & Compliance Center\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { CarouselFeatureBadge } from \"@opensite/ui/blocks/carousel/carousel-feature-badge\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui\";\n\nexport default function Demo() {\n  return (\n    <CarouselFeatureBadge\n      badge=\"Platform Features\"\n      heading=\"Everything you need to scale your SaaS business\"\n      description=\"From powerful analytics to seamless integrations, our platform provides all the tools you need to grow faster and serve customers better. Built for modern teams who demand excellence.\"\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={0.5}\n      actions={[\n        {\n          label: \"Explore Features\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Case Studies\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      items={[\n        {\n          src: imagePlaceholders[23],\n          alt: \"Real-time Analytics Dashboard\",\n        },\n        {\n          src: imagePlaceholders[47],\n          alt: \"Team Collaboration Tools\",\n        },\n        {\n          src: imagePlaceholders[56],\n          alt: \"API Integration Hub\",\n        },\n        {\n          src: imagePlaceholders[79],\n          alt: \"Customer Success Portal\",\n        },\n        {\n          src: imagePlaceholders[92],\n          alt: \"Advanced Reporting Engine\",\n        },\n        {\n          src: imagePlaceholders[105],\n          alt: \"Security & Compliance Center\",\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "slideLayoutVariant": {
           "type": "string",
@@ -17133,6 +17133,80 @@
           "type": "string",
           "description": "Optional max width for the content container",
           "typeLabel": "ContainerMaxWidth",
+          "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
           "required": false
         }
       },
@@ -115449,7 +115523,7 @@
         "mobile": ""
       },
       "componentPath": "blocks/testimonials/testimonials-quote-carousel.tsx",
-      "code": "import { TestimonialsQuoteCarousel } from \"@opensite/ui/blocks/testimonials/testimonials-quote-carousel\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsQuoteCarousel\n      testimonials={[\n        {\n          quote:\n            \"The platform's capabilities have exceeded every expectation. Our team productivity has soared, and the insights we're gaining are invaluable.\",\n          author: \"Christopher Williams\",\n          role: \"Head of Product\",\n          company: \"InnovateCo\",\n          avatarSrc: imagePlaceholders[37],\n        },\n        {\n          quote:\n            \"Implementation was smooth, support was exceptional, and results were immediate. This is how enterprise software should work.\",\n          author: \"Diana Martinez\",\n          role: \"VP of Engineering\",\n          company: \"ScaleUp Systems\",\n          avatarSrc: imagePlaceholders[62],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years. This is the first one that truly delivers on performance, security, and ease of use simultaneously.\",\n          author: \"Benjamin Lee\",\n          role: \"Chief Information Officer\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[87],\n        },\n        {\n          quote:\n            \"The ROI became evident within weeks. Our operational costs dropped while service quality improved dramatically. A rare win-win scenario.\",\n          author: \"Amanda Foster\",\n          role: \"CFO\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[104],\n        },\n      ]}\n      autoPlayInterval={5000}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsQuoteCarousel } from \"@opensite/ui/blocks/testimonials/testimonials-quote-carousel\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsQuoteCarousel\n      testimonials={[\n        {\n          quote:\n            \"The platform's capabilities have exceeded every expectation. Our team productivity has soared, and the insights we're gaining are invaluable.\",\n          author: \"Christopher Williams\",\n          role: \"Head of Product\",\n          company: \"InnovateCo\",\n          avatarSrc: imagePlaceholders[37],\n        },\n        {\n          quote:\n            \"Implementation was smooth, support was exceptional, and results were immediate. This is how enterprise software should work.\",\n          author: \"Diana Martinez\",\n          role: \"VP of Engineering\",\n          company: \"ScaleUp Systems\",\n          avatarSrc: imagePlaceholders[62],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years. This is the first one that truly delivers on performance, security, and ease of use simultaneously.\",\n          author: \"Benjamin Lee\",\n          role: \"Chief Information Officer\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[87],\n        },\n        {\n          quote:\n            \"The ROI became evident within weeks. Our operational costs dropped while service quality improved dramatically. A rare win-win scenario.\",\n          author: \"Amanda Foster\",\n          role: \"CFO\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[104],\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",

@@ -58,8 +58,9 @@ export default function Demo() {
           verified: true,
         },
       ]}
-      background="dark"
-      spacing="lg"
+      background="white"
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={0.9}
     />
   );
 }

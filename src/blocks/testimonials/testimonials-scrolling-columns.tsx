@@ -15,6 +15,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[19],
           imageSrc: imagePlaceholders[44],
           logoSrc: brandLogoPlaceholders.white[5],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
         {
           quote:
@@ -24,6 +28,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[31],
           logoSrc: brandLogoPlaceholders.white[4],
           imageSrc: imagePlaceholders[31],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
         {
           quote:
@@ -33,6 +41,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[43],
           imageSrc: imagePlaceholders[43],
           logoSrc: brandLogoPlaceholders.white[3],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
         {
           quote:
@@ -42,6 +54,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[55],
           imageSrc: imagePlaceholders[55],
           logoSrc: brandLogoPlaceholders.white[2],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
         {
           quote:
@@ -51,6 +67,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[67],
           imageSrc: imagePlaceholders[17],
           logoSrc: brandLogoPlaceholders.white[1],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
         {
           quote:
@@ -60,6 +80,10 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[79],
           imageSrc: imagePlaceholders[19],
           logoSrc: brandLogoPlaceholders.white[0],
+          linkConfig: {
+            href: "#",
+            label: "Full Review",
+          },
         },
       ]}
       background="dark"

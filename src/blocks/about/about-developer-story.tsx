@@ -16,13 +16,13 @@ export default function Demo() {
       actions={[
         {
           label: "Read My Blog",
-          href: "/blog",
+          href: "#",
           variant: "default",
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
         {
           label: "View Portfolio",
-          href: "/portfolio",
+          href: "#",
           variant: "outline",
         },
       ]}

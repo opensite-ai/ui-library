@@ -46,7 +46,9 @@ export default function Demo() {
         },
       ]}
       onAddReview={() => console.log("Open review form")}
-      background="gray"
+      background="dark"
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={0.15}
       spacing="lg"
     />
   );
