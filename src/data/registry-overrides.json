@@ -4450,12 +4450,12 @@
       "title": "Testimonials Grid Add Review",
       "componentPath": "blocks/testimonials/testimonials-grid-add-review.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293667/f0pikmeb9eezcv6xm28kj6xyx1qu/cleanshot-2026-03-10-at-10-45-31-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293666/l0asv65qty0ljm8fzuejrz9h9q07/cleanshot-2026-03-10-at-10-45-47-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293667/f0pikmeb9eezcv6xm28kj6xyx1qu/cleanshot-2026-03-10-at-10-45-31-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293666/l0asv65qty0ljm8fzuejrz9h9q07/cleanshot-2026-03-10-at-10-45-47-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-grid-add-review"
@@ -4464,12 +4464,12 @@
       "title": "Testimonials Images Helpful",
       "componentPath": "blocks/testimonials/testimonials-images-helpful.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293654/c9itagryaxpgt6c9dgsydh65q7bk/cleanshot-2026-03-10-at-09-45-59-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293655/xqic4f0wlmadp943edanh260uokx/cleanshot-2026-03-10-at-09-46-16-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293654/c9itagryaxpgt6c9dgsydh65q7bk/cleanshot-2026-03-10-at-09-45-59-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293655/xqic4f0wlmadp943edanh260uokx/cleanshot-2026-03-10-at-09-46-16-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-images-helpful"
@@ -4492,12 +4492,12 @@
       "title": "Testimonials List Verified",
       "componentPath": "blocks/testimonials/testimonials-list-verified.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293653/wjidf8l1xxp6cqk3w6m7oqbytbha/cleanshot-2026-03-10-at-09-44-43-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293652/vyde2psgm16saev7aahhiie5tlws/cleanshot-2026-03-10-at-09-44-55-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293653/wjidf8l1xxp6cqk3w6m7oqbytbha/cleanshot-2026-03-10-at-09-44-43-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293652/vyde2psgm16saev7aahhiie5tlws/cleanshot-2026-03-10-at-09-44-55-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-list-verified"
@@ -4506,12 +4506,12 @@
       "title": "Testimonials Logo Cards",
       "componentPath": "blocks/testimonials/testimonials-logo-cards.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293659/z6u0tbdiwahd2ue2je18ly2war57/cleanshot-2026-03-10-at-10-17-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293658/b6orag6u6z52lvg8wvoov46fiznm/cleanshot-2026-03-10-at-10-17-53-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293659/z6u0tbdiwahd2ue2je18ly2war57/cleanshot-2026-03-10-at-10-17-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293658/b6orag6u6z52lvg8wvoov46fiznm/cleanshot-2026-03-10-at-10-17-53-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-logo-cards"
@@ -4534,12 +4534,12 @@
       "title": "Testimonials Masonry Grid",
       "componentPath": "blocks/testimonials/testimonials-masonry-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293673/1gb2ap7mluissn4odiwkrcqanuiy/cleanshot-2026-03-10-at-11-13-04-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293672/s4uykacqph7ys3irrnfpbjlo4xdc/cleanshot-2026-03-10-at-11-13-17-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293673/1gb2ap7mluissn4odiwkrcqanuiy/cleanshot-2026-03-10-at-11-13-04-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293672/s4uykacqph7ys3irrnfpbjlo4xdc/cleanshot-2026-03-10-at-11-13-17-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-masonry-grid"
@@ -4548,12 +4548,12 @@
       "title": "Testimonials Mini Dividers",
       "componentPath": "blocks/testimonials/testimonials-mini-dividers.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293657/ksl05gbam224oukgj6p7qhr7jxv9/cleanshot-2026-03-10-at-10-16-02-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293656/hm0riu4mlqilkwj96ts5j27oq1qw/cleanshot-2026-03-10-at-10-16-11-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293657/ksl05gbam224oukgj6p7qhr7jxv9/cleanshot-2026-03-10-at-10-16-02-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293656/hm0riu4mlqilkwj96ts5j27oq1qw/cleanshot-2026-03-10-at-10-16-11-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-mini-dividers"
@@ -4562,12 +4562,12 @@
       "title": "Testimonials Minimal Numbered",
       "componentPath": "blocks/testimonials/testimonials-minimal-numbered.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293661/ay8jhabbx2y3gxcikdbzbdabkfoq/cleanshot-2026-03-10-at-10-22-18-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293660/k980x6yjrieuvb6u54fgkkwrf9g7/cleanshot-2026-03-10-at-10-22-33-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293661/ay8jhabbx2y3gxcikdbzbdabkfoq/cleanshot-2026-03-10-at-10-22-18-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293660/k980x6yjrieuvb6u54fgkkwrf9g7/cleanshot-2026-03-10-at-10-22-33-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-minimal-numbered"
@@ -4576,12 +4576,12 @@
       "title": "Testimonials Parallax Number",
       "componentPath": "blocks/testimonials/testimonials-parallax-number.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293663/681vjekdt2ktlya3ozadxnnhb2k4/cleanshot-2026-03-10-at-10-23-29-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293662/udsyztauu7xrp4zhtfvx7wdvoqxw/cleanshot-2026-03-10-at-10-23-37-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293663/681vjekdt2ktlya3ozadxnnhb2k4/cleanshot-2026-03-10-at-10-23-29-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293662/udsyztauu7xrp4zhtfvx7wdvoqxw/cleanshot-2026-03-10-at-10-23-37-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-parallax-number"
@@ -4590,12 +4590,12 @@
       "title": "Testimonials Quote Carousel",
       "componentPath": "blocks/testimonials/testimonials-quote-carousel.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293677/kqdpl3kponqw9mleai5gnvp7g7ah/cleanshot-2026-03-10-at-11-15-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293676/2sei7yt42ozped6akwjjkpedvppa/cleanshot-2026-03-10-at-11-15-45-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293677/kqdpl3kponqw9mleai5gnvp7g7ah/cleanshot-2026-03-10-at-11-15-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293676/2sei7yt42ozped6akwjjkpedvppa/cleanshot-2026-03-10-at-11-15-45-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-quote-carousel"
@@ -4604,12 +4604,12 @@
       "title": "Testimonials Scrolling Columns",
       "componentPath": "blocks/testimonials/testimonials-scrolling-columns.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293680/cr5itwci2y5w5dqb23j19tmc5xe4/cleanshot-2026-03-10-at-11-16-42-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293681/5kg2gu0xc76qifs26hj3g02oh1vv/cleanshot-2026-03-10-at-11-16-56-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293680/cr5itwci2y5w5dqb23j19tmc5xe4/cleanshot-2026-03-10-at-11-16-42-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293681/5kg2gu0xc76qifs26hj3g02oh1vv/cleanshot-2026-03-10-at-11-16-56-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-scrolling-columns"
@@ -4618,10 +4618,13 @@
       "title": "Testimonials Simple Grid",
       "componentPath": "blocks/testimonials/testimonials-simple-grid.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293669/2ro0bgdpbcthbt0aw6xm4nu0rxnc/cleanshot-2026-03-10-at-10-48-51-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293668/79772z65izabq3khkxvfwe9moxrz/cleanshot-2026-03-10-at-10-49-03-2x.png"
       },
-      "preview": {},
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293669/2ro0bgdpbcthbt0aw6xm4nu0rxnc/cleanshot-2026-03-10-at-10-48-51-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293668/79772z65izabq3khkxvfwe9moxrz/cleanshot-2026-03-10-at-10-49-03-2x.png"
+      },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-simple-grid"
     },
@@ -4657,12 +4660,12 @@
       "title": "Testimonials Stats Header",
       "componentPath": "blocks/testimonials/testimonials-stats-header.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293675/rpbdlj8fisd6e6goaprcssuzqh49/cleanshot-2026-03-10-at-11-14-16-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293674/69t35y7r8o9t8arthr5g7z867cmh/cleanshot-2026-03-10-at-11-14-30-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293675/rpbdlj8fisd6e6goaprcssuzqh49/cleanshot-2026-03-10-at-11-14-16-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293674/69t35y7r8o9t8arthr5g7z867cmh/cleanshot-2026-03-10-at-11-14-30-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-stats-header"
@@ -4671,12 +4674,12 @@
       "title": "Testimonials Twitter Cards",
       "componentPath": "blocks/testimonials/testimonials-twitter-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293651/r4ds19aeiz57vfquyj3ikhu3750s/cleanshot-2026-03-10-at-08-27-35-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/293650/2fryj0dtawv8luf6ts9v28zx9y1v/cleanshot-2026-03-10-at-08-27-50-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/293665/vgx2hdr79r6jjz1p54n2g4ntxb8c/cleanshot-2026-03-10-at-10-41-00-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293664/5xmuay6rfnzp24f2tp3u4wwdvjsf/cleanshot-2026-03-10-at-10-41-16-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/293651/r4ds19aeiz57vfquyj3ikhu3750s/cleanshot-2026-03-10-at-08-27-35-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/293650/2fryj0dtawv8luf6ts9v28zx9y1v/cleanshot-2026-03-10-at-08-27-50-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/293665/vgx2hdr79r6jjz1p54n2g4ntxb8c/cleanshot-2026-03-10-at-10-41-00-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293664/5xmuay6rfnzp24f2tp3u4wwdvjsf/cleanshot-2026-03-10-at-10-41-16-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-twitter-cards"
@@ -4685,12 +4688,12 @@
       "title": "Testimonials Wall Compact",
       "componentPath": "blocks/testimonials/testimonials-wall-compact.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293671/dmdkv9lqbo8hcy50j7n9x9cu87n4/cleanshot-2026-03-10-at-10-50-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293670/20xqbtt01t0ka0zie1i4ajwzxbk9/cleanshot-2026-03-10-at-10-50-33-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293671/dmdkv9lqbo8hcy50j7n9x9cu87n4/cleanshot-2026-03-10-at-10-50-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293670/20xqbtt01t0ka0zie1i4ajwzxbk9/cleanshot-2026-03-10-at-10-50-33-2x.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-wall-compact"

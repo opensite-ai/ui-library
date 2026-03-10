@@ -74,6 +74,14 @@ export default function Demo() {
           },
         },
       ]}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+          variant: "default",
+          size: "lg",
+        },
+      ]}
       background="dark"
       pattern="gradientGlowBottom"
       spacing="lg"

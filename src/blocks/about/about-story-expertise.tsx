@@ -15,13 +15,13 @@ export default function Demo() {
       actions={[
         {
           label: "Read Our Full Story",
-          href: "/story",
+          href: "#",
           variant: "default",
           size: "lg",
         },
         {
           label: "Meet the Team",
-          href: "/team",
+          href: "#",
           variant: "outline",
           size: "lg",
         },

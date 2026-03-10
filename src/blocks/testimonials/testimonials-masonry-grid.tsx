@@ -107,6 +107,14 @@ export default function Demo() {
           },
         },
       ]}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+          variant: "default",
+          size: "lg",
+        },
+      ]}
       background="gray"
       pattern="gridFadeTop"
       patternOpacity={0.9}

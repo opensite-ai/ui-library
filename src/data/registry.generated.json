@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-03-10T15:02:10.370Z",
+    "exportedAt": "2026-03-10T18:30:35.729Z",
     "totalBlocks": 605,
-    "version": "2.9.0",
+    "version": "2.9.4",
     "source": "@opensite/ui",
-    "syncedAt": "2026-03-10T15:15:56.244Z"
+    "syncedAt": "2026-03-10T18:38:30.678Z"
   },
   "blocks": [
     {
@@ -3863,7 +3863,7 @@
         "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "componentPath": "blocks/about/about-story-expertise.tsx",
-      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"/story\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"/team\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description:\n          \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: <DynamicIcon name=\"lucide/layout\" size={24} />,\n          title: \"Product Design\",\n          description:\n            \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/code\" size={24} />,\n          title: \"Engineering\",\n          description:\n            \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/bar-chart\" size={24} />,\n          title: \"Data & Analytics\",\n          description:\n            \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/cloud\" size={24} />,\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description:\n          \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: <DynamicIcon name=\"lucide/layout\" size={24} />,\n          title: \"Product Design\",\n          description:\n            \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/code\" size={24} />,\n          title: \"Engineering\",\n          description:\n            \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/bar-chart\" size={24} />,\n          title: \"Data & Analytics\",\n          description:\n            \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/cloud\" size={24} />,\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -112276,15 +112276,15 @@
       "categorySlug": "testimonials",
       "description": "A customer reviews section featuring a rating summary header with overall score, star distribution breakdown, and a list of individual reviews with verified purchase badges, author avatars, dates, and star ratings. Ideal for product pages, service reviews, or any page requiring authentic customer feedback display.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293653/wjidf8l1xxp6cqk3w6m7oqbytbha/cleanshot-2026-03-10-at-09-44-43-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293652/vyde2psgm16saev7aahhiie5tlws/cleanshot-2026-03-10-at-09-44-55-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293653/wjidf8l1xxp6cqk3w6m7oqbytbha/cleanshot-2026-03-10-at-09-44-43-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293652/vyde2psgm16saev7aahhiie5tlws/cleanshot-2026-03-10-at-09-44-55-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-list-verified.tsx",
-      "code": "import { TestimonialsListVerified } from \"@opensite/ui/blocks/testimonials/testimonials-list-verified\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsListVerified\n      heading=\"Verified Customer Reviews\"\n      verifiedPurchaseLabel=\"Verified\"\n      reviews={[\n        {\n          rating: 5,\n          title: \"Outstanding quality and service\",\n          content:\n            \"I've been using this product for three months now, and it has completely transformed my workflow. The build quality is exceptional, and customer support has been incredibly responsive whenever I've had questions.\",\n          author: \"Daniel Foster\",\n          avatarSrc: imagePlaceholders[27],\n          date: \"January 20, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Worth every dollar\",\n          content:\n            \"After extensive research and comparing multiple options, I chose this product and couldn't be happier. It's reliable, efficient, and the features exceed what was advertised. Highly recommend for professionals.\",\n          author: \"Lisa Park\",\n          avatarSrc: imagePlaceholders[41],\n          date: \"January 18, 2026\",\n          verified: true,\n        },\n        {\n          rating: 4,\n          title: \"Excellent product with great potential\",\n          content:\n            \"Very satisfied with my purchase overall. The core functionality is solid and works exactly as described. A few features could be refined, but the team seems very responsive to feedback and regularly ships updates.\",\n          author: \"Christopher Hughes\",\n          avatarSrc: imagePlaceholders[55],\n          date: \"January 15, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Game changer for my business\",\n          content:\n            \"As a small business owner, this has been an invaluable investment. The efficiency gains alone have paid for itself multiple times over. My team adopted it quickly, and we've seen measurable improvements in our output.\",\n          author: \"Michelle Rodriguez\",\n          avatarSrc: imagePlaceholders[69],\n          date: \"January 12, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Impressed beyond expectations\",\n          content:\n            \"I was initially hesitant due to the price point, but this has proven to be one of the best purchases I've made. The attention to detail in both design and functionality is evident. Setup was straightforward, and I was productive within minutes.\",\n          author: \"Kevin Zhang\",\n          avatarSrc: imagePlaceholders[83],\n          date: \"January 8, 2026\",\n          verified: true,\n        },\n      ]}\n      background=\"dark\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsListVerified } from \"@opensite/ui/blocks/testimonials/testimonials-list-verified\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsListVerified\n      heading=\"Verified Customer Reviews\"\n      verifiedPurchaseLabel=\"Verified\"\n      reviews={[\n        {\n          rating: 5,\n          title: \"Outstanding quality and service\",\n          content:\n            \"I've been using this product for three months now, and it has completely transformed my workflow. The build quality is exceptional, and customer support has been incredibly responsive whenever I've had questions.\",\n          author: \"Daniel Foster\",\n          avatarSrc: imagePlaceholders[27],\n          date: \"January 20, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Worth every dollar\",\n          content:\n            \"After extensive research and comparing multiple options, I chose this product and couldn't be happier. It's reliable, efficient, and the features exceed what was advertised. Highly recommend for professionals.\",\n          author: \"Lisa Park\",\n          avatarSrc: imagePlaceholders[41],\n          date: \"January 18, 2026\",\n          verified: true,\n        },\n        {\n          rating: 4,\n          title: \"Excellent product with great potential\",\n          content:\n            \"Very satisfied with my purchase overall. The core functionality is solid and works exactly as described. A few features could be refined, but the team seems very responsive to feedback and regularly ships updates.\",\n          author: \"Christopher Hughes\",\n          avatarSrc: imagePlaceholders[55],\n          date: \"January 15, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Game changer for my business\",\n          content:\n            \"As a small business owner, this has been an invaluable investment. The efficiency gains alone have paid for itself multiple times over. My team adopted it quickly, and we've seen measurable improvements in our output.\",\n          author: \"Michelle Rodriguez\",\n          avatarSrc: imagePlaceholders[69],\n          date: \"January 12, 2026\",\n          verified: true,\n        },\n        {\n          rating: 5,\n          title: \"Impressed beyond expectations\",\n          content:\n            \"I was initially hesitant due to the price point, but this has proven to be one of the best purchases I've made. The attention to detail in both design and functionality is evident. Setup was straightforward, and I was productive within minutes.\",\n          author: \"Kevin Zhang\",\n          avatarSrc: imagePlaceholders[83],\n          date: \"January 8, 2026\",\n          verified: true,\n        },\n      ]}\n      background=\"white\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "reviews": {
           "type": "array",
@@ -112440,12 +112440,12 @@
       "categorySlug": "testimonials",
       "description": "An enhanced reviews section featuring customer photos, helpful/not helpful voting buttons, and a write review CTA. Each review displays images in a gallery format with star ratings, author info, and engagement metrics. Perfect for e-commerce product pages requiring visual customer feedback.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293654/c9itagryaxpgt6c9dgsydh65q7bk/cleanshot-2026-03-10-at-09-45-59-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293655/xqic4f0wlmadp943edanh260uokx/cleanshot-2026-03-10-at-09-46-16-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293654/c9itagryaxpgt6c9dgsydh65q7bk/cleanshot-2026-03-10-at-09-45-59-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293655/xqic4f0wlmadp943edanh260uokx/cleanshot-2026-03-10-at-09-46-16-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-images-helpful.tsx",
       "code": "import { TestimonialsImagesHelpful } from \"@opensite/ui/blocks/testimonials/testimonials-images-helpful\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsImagesHelpful\n      heading=\"Customer Reviews\"\n      writeReviewLabel=\"Write a Review\"\n      reportButtonLabel=\"Report\"\n      reviews={[\n        {\n          rating: 5,\n          title: \"Exceeded all expectations!\",\n          content:\n            \"I was skeptical at first, but this product completely won me over. The build quality is exceptional, and the performance is outstanding. I've attached photos showing how perfectly it integrates into my workspace.\",\n          author: \"Alexandra Martinez\",\n          avatarSrc: imagePlaceholders[22],\n          date: \"Jan 15, 2026\",\n          verified: true,\n          images: [imagePlaceholders[44], imagePlaceholders[66], imagePlaceholders[88]],\n          helpful: 24,\n          variant: \"Premium Edition\",\n        },\n        {\n          rating: 5,\n          title: \"Best investment for my business\",\n          content:\n            \"As a business owner, I needed something reliable and efficient. This has transformed how we operate daily. The ROI has been incredible, and our team loves using it. The photos show our actual setup in action.\",\n          author: \"David Kumar\",\n          avatarSrc: imagePlaceholders[33],\n          date: \"Jan 10, 2026\",\n          verified: true,\n          images: [imagePlaceholders[55], imagePlaceholders[77]],\n          helpful: 18,\n          variant: \"Business Pro\",\n        },\n        {\n          rating: 4,\n          title: \"Great product with minor room for improvement\",\n          content:\n            \"Overall very satisfied with my purchase. The features work as advertised and the quality is solid. Only giving 4 stars because the setup process could be more intuitive. Once running, it's been flawless.\",\n          author: \"Jennifer Lee\",\n          avatarSrc: imagePlaceholders[44],\n          date: \"Jan 5, 2026\",\n          verified: true,\n          helpful: 12,\n          variant: \"Standard\",\n        },\n        {\n          rating: 5,\n          title: \"Life-changing purchase!\",\n          content:\n            \"I cannot overstate how much this has improved my daily routine. It's intuitive, powerful, and beautifully designed. The customer support team has also been incredibly helpful with my questions. Highly recommend!\",\n          author: \"Marcus Johnson\",\n          avatarSrc: imagePlaceholders[56],\n          date: \"Dec 28, 2025\",\n          verified: true,\n          images: [imagePlaceholders[99]],\n          helpful: 31,\n          variant: \"Premium Edition\",\n        },\n      ]}\n      onWriteReview={() => console.log(\"Open review form\")}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
@@ -112811,15 +112811,15 @@
       "categorySlug": "testimonials",
       "description": "A responsive grid of social media testimonial cards supporting multiple platforms (Twitter/X, Instagram, Facebook, LinkedIn, TikTok, YouTube, etc.). Each card displays post content, author avatar, display name, social handle, and links to the original post. The SocialLinkIcon automatically detects the platform from the URL and displays the appropriate brand icon. Cards feature hover effects transitioning to primary colors. Ideal for showcasing authentic social proof from real user posts across any social platform.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293665/vgx2hdr79r6jjz1p54n2g4ntxb8c/cleanshot-2026-03-10-at-10-41-00-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293664/5xmuay6rfnzp24f2tp3u4wwdvjsf/cleanshot-2026-03-10-at-10-41-16-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293665/vgx2hdr79r6jjz1p54n2g4ntxb8c/cleanshot-2026-03-10-at-10-41-00-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293664/5xmuay6rfnzp24f2tp3u4wwdvjsf/cleanshot-2026-03-10-at-10-41-16-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-twitter-cards.tsx",
-      "code": "import { TestimonialsTwitterCards } from \"@opensite/ui/blocks/testimonials/testimonials-twitter-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsTwitterCards\n      heading=\"Buzz on Social Media\"\n      description=\"See what people are saying about us on Twitter/X\"\n      testimonials={[\n        {\n          content:\n            \"Just started using this platform and I'm blown away by how intuitive everything is. Game changer for my workflow! 🚀\",\n          author: \"Alexandra Martinez\",\n          handle: \"@alexmartinez\",\n          avatarSrc: imagePlaceholders[25],\n          linkConfig: {\n            href: \"https://twitter.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"Best tool I've discovered this year. The team behind it really cares about user experience and it shows.\",\n          author: \"David Park\",\n          handle: \"@davidpark_dev\",\n          avatarSrc: imagePlaceholders[40],\n          linkConfig: {\n            href: \"https://twitter.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"After trying 5 different solutions, this is the only one that actually works as advertised. Highly recommend! 💯\",\n          author: \"Sarah Williams\",\n          handle: \"@swilliams_tech\",\n          avatarSrc: imagePlaceholders[55],\n          linkConfig: {\n            href: \"https://instagram.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"The customer support is phenomenal. Got a response within minutes and they walked me through everything. A+ service!\",\n          author: \"Marcus Johnson\",\n          handle: \"@marcusj\",\n          avatarSrc: imagePlaceholders[70],\n          linkConfig: {\n            href: \"https://facebook.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"Finally, a product that delivers on performance promises. Been using it for 3 months and zero issues. Solid!\",\n          author: \"Jennifer Chen\",\n          handle: \"@jchen_designs\",\n          avatarSrc: imagePlaceholders[85],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"The pricing is incredibly fair for what you get. ROI was clear within the first month. Great value! 👏\",\n          author: \"Robert Anderson\",\n          handle: \"@randerson_biz\",\n          avatarSrc: imagePlaceholders[100],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gradientGlowBottom\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsTwitterCards } from \"@opensite/ui/blocks/testimonials/testimonials-twitter-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsTwitterCards\n      heading=\"Buzz on Social Media\"\n      description=\"See what people are saying about us on social media. Real feedback from real users sharing their experiences and excitement about our product.\"\n      testimonials={[\n        {\n          content:\n            \"Just started using this platform and I'm blown away by how intuitive everything is. Game changer for my workflow! 🚀\",\n          author: \"Alexandra Martinez\",\n          handle: \"@alexmartinez\",\n          avatarSrc: imagePlaceholders[25],\n          linkConfig: {\n            href: \"https://twitter.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"Best tool I've discovered this year. The team behind it really cares about user experience and it shows.\",\n          author: \"David Park\",\n          handle: \"@davidpark_dev\",\n          avatarSrc: imagePlaceholders[40],\n          linkConfig: {\n            href: \"https://twitter.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"After trying 5 different solutions, this is the only one that actually works as advertised. Highly recommend! 💯\",\n          author: \"Sarah Williams\",\n          handle: \"@swilliams_tech\",\n          avatarSrc: imagePlaceholders[55],\n          linkConfig: {\n            href: \"https://instagram.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"The customer support is phenomenal. Got a response within minutes and they walked me through everything. A+ service!\",\n          author: \"Marcus Johnson\",\n          handle: \"@marcusj\",\n          avatarSrc: imagePlaceholders[70],\n          linkConfig: {\n            href: \"https://facebook.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"Finally, a product that delivers on performance promises. Been using it for 3 months and zero issues. Solid!\",\n          author: \"Jennifer Chen\",\n          handle: \"@jchen_designs\",\n          avatarSrc: imagePlaceholders[85],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          content:\n            \"The pricing is incredibly fair for what you get. ROI was clear within the first month. Great value! 👏\",\n          author: \"Robert Anderson\",\n          handle: \"@randerson_biz\",\n          avatarSrc: imagePlaceholders[100],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gradientGlowBottom\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -112966,6 +112966,80 @@
         "containerClassName": {
           "type": "string",
           "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
           "required": false
         }
       },
@@ -113656,15 +113730,15 @@
       "categorySlug": "testimonials",
       "description": "A testimonial grid featuring customer reviews alongside an 'Add Review' card with dashed border and plus icon. Each review card displays star ratings, quote, and author info. The add review card encourages user engagement. Perfect for product pages and community-driven platforms.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293667/f0pikmeb9eezcv6xm28kj6xyx1qu/cleanshot-2026-03-10-at-10-45-31-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293666/l0asv65qty0ljm8fzuejrz9h9q07/cleanshot-2026-03-10-at-10-45-47-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293667/f0pikmeb9eezcv6xm28kj6xyx1qu/cleanshot-2026-03-10-at-10-45-31-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293666/l0asv65qty0ljm8fzuejrz9h9q07/cleanshot-2026-03-10-at-10-45-47-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-grid-add-review.tsx",
-      "code": "import { TestimonialsGridAddReview } from \"@opensite/ui/blocks/testimonials/testimonials-grid-add-review\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsGridAddReview\n      heading=\"Customer Reviews\"\n      description=\"Join thousands of satisfied customers sharing their experiences\"\n      addReviewText=\"Write a Review\"\n      addReviewSubtext=\"Share your experience with us\"\n      reviews={[\n        {\n          rating: 5,\n          content:\n            \"Exceptional quality and service. The product arrived exactly as described and exceeded my expectations. Would definitely recommend to anyone looking for reliability.\",\n          author: \"Michael Torres\",\n          avatarSrc: imagePlaceholders[31],\n        },\n        {\n          rating: 5,\n          content:\n            \"Best purchase I've made this year. The attention to detail and customer support are unmatched. Worth every penny.\",\n          author: \"Sarah Mitchell\",\n          avatarSrc: imagePlaceholders[47],\n        },\n        {\n          rating: 4,\n          content:\n            \"Great product overall. Installation was straightforward and it works as advertised. Only minor issue was shipping took longer than expected.\",\n          author: \"James Wilson\",\n          avatarSrc: imagePlaceholders[63],\n        },\n        {\n          rating: 5,\n          content:\n            \"I've tried several similar products, and this one stands out for its quality and durability. Customer service was also very responsive.\",\n          author: \"Emily Chen\",\n          avatarSrc: imagePlaceholders[79],\n        },\n        {\n          rating: 5,\n          content:\n            \"Absolutely love it! The design is sleek and modern, and it fits perfectly with my setup. Highly recommended for anyone hesitating.\",\n          author: \"Robert Anderson\",\n          avatarSrc: imagePlaceholders[95],\n        },\n      ]}\n      onAddReview={() => console.log(\"Open review form\")}\n      background=\"gray\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsGridAddReview } from \"@opensite/ui/blocks/testimonials/testimonials-grid-add-review\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsGridAddReview\n      heading=\"Customer Reviews\"\n      description=\"Join thousands of satisfied customers sharing their experiences\"\n      addReviewText=\"Write a Review\"\n      addReviewSubtext=\"Share your experience with us\"\n      reviews={[\n        {\n          rating: 5,\n          quote:\n            \"Exceptional quality and service. The product arrived exactly as described and exceeded my expectations. Would definitely recommend to anyone looking for reliability.\",\n          author: \"Michael Torres\",\n          avatarSrc: imagePlaceholders[31],\n        },\n        {\n          rating: 5,\n          quote:\n            \"Best purchase I've made this year. The attention to detail and customer support are unmatched. Worth every penny.\",\n          author: \"Sarah Mitchell\",\n          avatarSrc: imagePlaceholders[47],\n        },\n        {\n          rating: 4,\n          quote:\n            \"Great product overall. Installation was straightforward and it works as advertised. Only minor issue was shipping took longer than expected.\",\n          author: \"James Wilson\",\n          avatarSrc: imagePlaceholders[63],\n        },\n        {\n          rating: 5,\n          quote:\n            \"I've tried several similar products, and this one stands out for its quality and durability. Customer service was also very responsive.\",\n          author: \"Emily Chen\",\n          avatarSrc: imagePlaceholders[79],\n        },\n        {\n          rating: 5,\n          quote:\n            \"Absolutely love it! The design is sleek and modern, and it fits perfectly with my setup. Highly recommended for anyone hesitating.\",\n          author: \"Robert Anderson\",\n          avatarSrc: imagePlaceholders[95],\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      onAddReview={() => console.log(\"Open review form\")}\n      background=\"dark\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.15}\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "reviews": {
           "type": "array",
@@ -113673,32 +113747,101 @@
             "type": "object",
             "description": "",
             "fields": {
-              "rating": {
-                "type": "number",
-                "description": "Star rating (1-5)",
-                "required": true
-              },
-              "content": {
+              "quote": {
                 "type": "object",
-                "description": "Review content/body",
-                "typeLabel": "React.ReactNode",
+                "description": "Testimonial quote text",
+                "typeLabel": "ReactNode",
                 "required": true
               },
               "author": {
                 "type": "object",
                 "description": "Author name",
-                "typeLabel": "React.ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "role": {
+                "type": "object",
+                "description": "Author role/title",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "company": {
+                "type": "object",
+                "description": "Author company",
+                "typeLabel": "ReactNode",
                 "required": false
               },
               "avatarSrc": {
                 "type": "string",
                 "description": "Author avatar image URL",
                 "required": false
+              },
+              "avatar": {
+                "type": "object",
+                "description": "Author avatar configuration (alternative to avatarSrc)",
+                "fields": {
+                  "src": {
+                    "type": "string",
+                    "description": "",
+                    "required": true
+                  },
+                  "alt": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  },
+                  "fallback": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  }
+                },
+                "typeLabel": "{ src: string; alt?: string; fallback?: string; }",
+                "required": false
+              },
+              "logoSrc": {
+                "type": "string",
+                "description": "Company logo URL",
+                "required": false
+              },
+              "rating": {
+                "type": "number",
+                "description": "Star rating (1-5)",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes",
+                "required": false
+              },
+              "linkConfig": {
+                "type": "object",
+                "description": "Review linking config",
+                "fields": {
+                  "label": {
+                    "type": "object",
+                    "description": "",
+                    "typeLabel": "React.ReactNode",
+                    "required": true
+                  },
+                  "href": {
+                    "type": "string",
+                    "description": "",
+                    "required": true
+                  },
+                  "className": {
+                    "type": "string",
+                    "description": "",
+                    "required": false
+                  }
+                },
+                "typeLabel": "{ label: React.ReactNode; href: string; className?: string; }",
+                "required": false
               }
             },
-            "typeLabel": "GridReviewItem"
+            "typeLabel": "TestimonialItem"
           },
-          "typeLabel": "GridReviewItem[]",
+          "typeLabel": "TestimonialItem[]",
           "required": false
         },
         "reviewsSlot": {
@@ -113800,6 +113943,90 @@
         "patternOpacity": {
           "type": "number",
           "description": "Pattern overlay opacity (0-1)",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
+        },
+        "quoteClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the quote text",
           "required": false
         }
       },
@@ -114065,12 +114292,15 @@
       "categorySlug": "testimonials",
       "description": "A clean, straightforward grid of testimonial cards with configurable columns (2, 3, or 4). Each card displays a quote with author avatar, name, and role. The minimal design focuses on content without distractions. Ideal for any page requiring a clean testimonial display.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293669/2ro0bgdpbcthbt0aw6xm4nu0rxnc/cleanshot-2026-03-10-at-10-48-51-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293668/79772z65izabq3khkxvfwe9moxrz/cleanshot-2026-03-10-at-10-49-03-2x.png"
       },
-      "preview": {},
+      "preview": {
+        "desktop": "https://cdn.ing/assets/i/r/293669/2ro0bgdpbcthbt0aw6xm4nu0rxnc/cleanshot-2026-03-10-at-10-48-51-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293668/79772z65izabq3khkxvfwe9moxrz/cleanshot-2026-03-10-at-10-49-03-2x.png"
+      },
       "componentPath": "blocks/testimonials/testimonials-simple-grid.tsx",
-      "code": "import { TestimonialsSimpleGrid } from \"@opensite/ui/blocks/testimonials/testimonials-simple-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsSimpleGrid\n      heading=\"Customer Stories\"\n      description=\"Hear from businesses that have transformed their operations with our platform\"\n      columns={3}\n      testimonials={[\n        {\n          quote:\n            \"The platform's intuitive design and powerful features have streamlined our entire workflow. Our team productivity increased by 40% in the first quarter.\",\n          author: \"Jennifer Martinez\",\n          role: \"Director of Operations\",\n          company: \"Streamline Solutions\",\n          avatarSrc: imagePlaceholders[21],\n        },\n        {\n          quote:\n            \"Outstanding support and reliable performance. The implementation team guided us every step of the way.\",\n          author: \"Michael Chen\",\n          role: \"CTO\",\n          company: \"TechVision\",\n          avatarSrc: imagePlaceholders[35],\n        },\n        {\n          quote:\n            \"We've seen measurable improvements in every key metric. The ROI has exceeded all expectations.\",\n          author: \"Sarah Williams\",\n          role: \"VP of Finance\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[49],\n        },\n        {\n          quote:\n            \"The analytics capabilities have transformed our decision-making process. Highly recommend to any data-driven organization.\",\n          author: \"David Park\",\n          role: \"Head of Analytics\",\n          company: \"DataFirst\",\n          avatarSrc: imagePlaceholders[63],\n        },\n        {\n          quote:\n            \"Security features met our stringent enterprise requirements. The compliance team was thoroughly impressed.\",\n          author: \"Lisa Anderson\",\n          role: \"CISO\",\n          company: \"SecureCorp\",\n          avatarSrc: imagePlaceholders[77],\n        },\n        {\n          quote:\n            \"Seamless integration with our existing tech stack. No disruption, maximum value from day one.\",\n          author: \"Robert Zhang\",\n          role: \"Engineering Lead\",\n          company: \"IntegrateTech\",\n          avatarSrc: imagePlaceholders[91],\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsSimpleGrid } from \"@opensite/ui/blocks/testimonials/testimonials-simple-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsSimpleGrid\n      heading=\"Customer Stories\"\n      description=\"Hear from businesses that have transformed their operations with our platform\"\n      columns={3}\n      testimonials={[\n        {\n          quote:\n            \"The platform's intuitive design and powerful features have streamlined our entire workflow. Our team productivity increased by 40% in the first quarter.\",\n          author: \"Jennifer Martinez\",\n          role: \"Director of Operations\",\n          company: \"Streamline Solutions\",\n          avatarSrc: imagePlaceholders[21],\n        },\n        {\n          quote:\n            \"Outstanding support and reliable performance. The implementation team guided us every step of the way.\",\n          author: \"Michael Chen\",\n          role: \"CTO\",\n          company: \"TechVision\",\n          avatarSrc: imagePlaceholders[35],\n        },\n        {\n          quote:\n            \"We've seen measurable improvements in every key metric. The ROI has exceeded all expectations.\",\n          author: \"Sarah Williams\",\n          role: \"VP of Finance\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[49],\n        },\n        {\n          quote:\n            \"The analytics capabilities have transformed our decision-making process. Highly recommend to any data-driven organization.\",\n          author: \"David Park\",\n          role: \"Head of Analytics\",\n          company: \"DataFirst\",\n          avatarSrc: imagePlaceholders[63],\n        },\n        {\n          quote:\n            \"Security features met our stringent enterprise requirements. The compliance team was thoroughly impressed.\",\n          author: \"Lisa Anderson\",\n          role: \"CISO\",\n          company: \"SecureCorp\",\n          avatarSrc: imagePlaceholders[77],\n        },\n        {\n          quote:\n            \"Seamless integration with our existing tech stack. No disruption, maximum value from day one.\",\n          author: \"Robert Zhang\",\n          role: \"Engineering Lead\",\n          company: \"IntegrateTech\",\n          avatarSrc: imagePlaceholders[91],\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -114273,6 +114503,80 @@
         "cardContentClassName": {
           "type": "string",
           "description": "Additional CSS classes for the card content",
+          "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
           "required": false
         }
       },
@@ -114769,15 +115073,15 @@
       "categorySlug": "testimonials",
       "description": "A testimonial section with a statistics display header showing key metrics (customers, rating, etc.) above a grid of testimonial cards. The stats create immediate credibility before users read individual testimonials. Ideal for showcasing both quantitative and qualitative social proof.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293675/rpbdlj8fisd6e6goaprcssuzqh49/cleanshot-2026-03-10-at-11-14-16-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293674/69t35y7r8o9t8arthr5g7z867cmh/cleanshot-2026-03-10-at-11-14-30-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293675/rpbdlj8fisd6e6goaprcssuzqh49/cleanshot-2026-03-10-at-11-14-16-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293674/69t35y7r8o9t8arthr5g7z867cmh/cleanshot-2026-03-10-at-11-14-30-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-stats-header.tsx",
-      "code": "import { TestimonialsStatsHeader } from \"@opensite/ui/blocks/testimonials/testimonials-stats-header\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsStatsHeader\n      heading=\"Trusted by Industry Leaders\"\n      description=\"Join thousands of businesses achieving exceptional results\"\n      stats={[\n        {\n          id: \"growth\",\n          value: \"312\",\n          suffix: \"%\",\n          label: \"Revenue Growth\",\n          description: \"Average year-over-year lift after launch.\",\n          icon: \"lucide/trending-up\",\n        },\n        {\n          id: \"velocity\",\n          value: \"4.6\",\n          suffix: \"x\",\n          label: \"Delivery Speed\",\n          description: \"Faster time-to-value compared to baseline.\",\n          icon: \"lucide/rocket\",\n          iconColor: \"text-primary\",\n        },\n        {\n          id: \"retention\",\n          prefix: \"+\",\n          value: \"29\",\n          suffix: \"%\",\n          label: \"Customer Retention\",\n          description: \"Retention gains within the first 90 days.\",\n          icon: \"lucide/user-check\",\n          iconColor: \"text-primary\",\n        },\n      ]}\n      testimonials={[\n        {\n          quote:\n            \"The platform has transformed our entire organization. Results exceeded all expectations, and the team support has been phenomenal.\",\n          author: \"Katherine Reynolds\",\n          role: \"CEO\",\n          company: \"Global Enterprises\",\n          avatarSrc: imagePlaceholders[53],\n        },\n        {\n          quote:\n            \"Implementing this solution was one of the best decisions we've made. Performance, reliability, and innovation in one package.\",\n          author: \"Daniel Kim\",\n          role: \"VP of Operations\",\n          company: \"TechForward Inc\",\n          avatarSrc: imagePlaceholders[68],\n        },\n        {\n          quote:\n            \"The analytics capabilities have given us insights that drive real business value. We make better decisions faster now.\",\n          author: \"Michelle Torres\",\n          role: \"Chief Data Officer\",\n          company: \"DataDriven Corp\",\n          avatarSrc: imagePlaceholders[83],\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridBasic\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { TestimonialsStatsHeader } from \"@opensite/ui/blocks/testimonials/testimonials-stats-header\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsStatsHeader\n      heading=\"Trusted by Industry Leaders\"\n      description=\"Join thousands of businesses achieving exceptional results\"\n      stats={[\n        {\n          id: \"growth\",\n          value: \"312\",\n          suffix: \"%\",\n          label: \"Revenue Growth\",\n          description: \"Average year-over-year lift after launch.\",\n          icon: \"lucide/trending-up\",\n        },\n        {\n          id: \"velocity\",\n          value: \"4.6\",\n          suffix: \"x\",\n          label: \"Delivery Speed\",\n          description: \"Faster time-to-value compared to baseline.\",\n          icon: \"lucide/rocket\",\n          iconColor: \"text-primary\",\n        },\n        {\n          id: \"retention\",\n          prefix: \"+\",\n          value: \"29\",\n          suffix: \"%\",\n          label: \"Customer Retention\",\n          description: \"Retention gains within the first 90 days.\",\n          icon: \"lucide/user-check\",\n          iconColor: \"text-primary\",\n        },\n      ]}\n      testimonials={[\n        {\n          quote:\n            \"The platform has transformed our entire organization. Results exceeded all expectations, and the team support has been phenomenal.\",\n          author: \"Katherine Reynolds\",\n          role: \"CEO\",\n          company: \"Global Enterprises\",\n          avatarSrc: imagePlaceholders[53],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          quote:\n            \"Implementing this solution was one of the best decisions we've made. Performance, reliability, and innovation in one package.\",\n          author: \"Daniel Kim\",\n          role: \"VP of Operations\",\n          company: \"TechForward Inc\",\n          avatarSrc: imagePlaceholders[68],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n        {\n          quote:\n            \"The analytics capabilities have given us insights that drive real business value. We make better decisions faster now.\",\n          author: \"Michelle Torres\",\n          role: \"Chief Data Officer\",\n          company: \"DataDriven Corp\",\n          avatarSrc: imagePlaceholders[83],\n          linkConfig: {\n            href: \"https://linkedin.com\",\n            label: \"View Post\",\n          },\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridBasic\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "stats": {
           "type": "array",
@@ -115027,6 +115331,80 @@
           "type": "string",
           "description": "Additional CSS classes for stat cards",
           "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -115053,15 +115431,15 @@
       "categorySlug": "testimonials",
       "description": "A dense wall of compact testimonial cards displaying many testimonials in a masonry-like grid. Each card shows a short quote with author avatar, name, and optional badge. The compact format maximizes social proof by showing volume of positive feedback. Ideal for showcasing community support.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293671/dmdkv9lqbo8hcy50j7n9x9cu87n4/cleanshot-2026-03-10-at-10-50-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293670/20xqbtt01t0ka0zie1i4ajwzxbk9/cleanshot-2026-03-10-at-10-50-33-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293671/dmdkv9lqbo8hcy50j7n9x9cu87n4/cleanshot-2026-03-10-at-10-50-22-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293670/20xqbtt01t0ka0zie1i4ajwzxbk9/cleanshot-2026-03-10-at-10-50-33-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-wall-compact.tsx",
-      "code": "import { TestimonialsWallCompact } from \"@opensite/ui/blocks/testimonials/testimonials-wall-compact\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsWallCompact\n      heading=\"Wall of Love\"\n      description=\"Thousands of users sharing their success stories\"\n      testimonials={[\n        {\n          quote: \"Amazing product! Changed our entire workflow.\",\n          author: \"Alex Thompson\",\n          handle: \"@alexthompson\",\n          avatarSrc: imagePlaceholders[20],\n          badge: \"Featured\",\n        },\n        {\n          quote: \"Best investment we made this quarter.\",\n          author: \"Maria Garcia\",\n          handle: \"@mariagarcia\",\n          avatarSrc: imagePlaceholders[28],\n        },\n        {\n          quote: \"Incredible support team. Always helpful!\",\n          author: \"James Lee\",\n          handle: \"@jameslee\",\n          avatarSrc: imagePlaceholders[36],\n          badge: \"Verified\",\n        },\n        {\n          quote: \"Exactly what we needed. Perfect solution!\",\n          author: \"Sarah Johnson\",\n          handle: \"@sarahj\",\n          avatarSrc: imagePlaceholders[44],\n        },\n        {\n          quote: \"Five stars! Highly recommend to everyone.\",\n          author: \"Michael Chen\",\n          handle: \"@mchen\",\n          avatarSrc: imagePlaceholders[52],\n        },\n        {\n          quote: \"Transformed our business operations completely.\",\n          author: \"Lisa Martinez\",\n          handle: \"@lisamartinez\",\n          avatarSrc: imagePlaceholders[60],\n          badge: \"Featured\",\n        },\n        {\n          quote: \"Intuitive design. Easy to learn and use.\",\n          author: \"David Park\",\n          handle: \"@davidpark\",\n          avatarSrc: imagePlaceholders[68],\n        },\n        {\n          quote: \"ROI was immediate. Worth every penny!\",\n          author: \"Jennifer Williams\",\n          handle: \"@jwilliams\",\n          avatarSrc: imagePlaceholders[76],\n        },\n        {\n          quote: \"Great features. Everything works flawlessly.\",\n          author: \"Robert Zhang\",\n          handle: \"@robertzhang\",\n          avatarSrc: imagePlaceholders[84],\n          badge: \"Verified\",\n        },\n        {\n          quote: \"Excellent value. Can't imagine working without it.\",\n          author: \"Emily Foster\",\n          handle: \"@emilyfoster\",\n          avatarSrc: imagePlaceholders[92],\n        },\n        {\n          quote: \"Outstanding performance and reliability.\",\n          author: \"Thomas Anderson\",\n          handle: \"@tanderson\",\n          avatarSrc: imagePlaceholders[100],\n        },\n        {\n          quote: \"Game changer for productivity. Highly effective!\",\n          author: \"Michelle Rodriguez\",\n          handle: \"@mrodriguez\",\n          avatarSrc: imagePlaceholders[108],\n          badge: \"Featured\",\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsWallCompact } from \"@opensite/ui/blocks/testimonials/testimonials-wall-compact\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsWallCompact\n      heading=\"Wall of Love\"\n      description=\"Thousands of users sharing their success stories\"\n      testimonials={[\n        {\n          quote: \"Amazing product! Changed our entire workflow.\",\n          author: \"Alex Thompson\",\n          handle: \"@alexthompson\",\n          avatarSrc: imagePlaceholders[20],\n          badge: \"Featured\",\n        },\n        {\n          quote: \"Best investment we made this quarter.\",\n          author: \"Maria Garcia\",\n          handle: \"@mariagarcia\",\n          avatarSrc: imagePlaceholders[28],\n        },\n        {\n          quote: \"Incredible support team. Always helpful!\",\n          author: \"James Lee\",\n          handle: \"@jameslee\",\n          avatarSrc: imagePlaceholders[36],\n          badge: \"Verified\",\n        },\n        {\n          quote: \"Exactly what we needed. Perfect solution!\",\n          author: \"Sarah Johnson\",\n          handle: \"@sarahj\",\n          avatarSrc: imagePlaceholders[44],\n        },\n        {\n          quote: \"Five stars! Highly recommend to everyone.\",\n          author: \"Michael Chen\",\n          handle: \"@mchen\",\n          avatarSrc: imagePlaceholders[52],\n        },\n        {\n          quote: \"Transformed our business operations completely.\",\n          author: \"Lisa Martinez\",\n          handle: \"@lisamartinez\",\n          avatarSrc: imagePlaceholders[60],\n          badge: \"Featured\",\n        },\n        {\n          quote: \"Intuitive design. Easy to learn and use.\",\n          author: \"David Park\",\n          handle: \"@davidpark\",\n          avatarSrc: imagePlaceholders[68],\n        },\n        {\n          quote: \"ROI was immediate. Worth every penny!\",\n          author: \"Jennifer Williams\",\n          handle: \"@jwilliams\",\n          avatarSrc: imagePlaceholders[76],\n        },\n        {\n          quote: \"Great features. Everything works flawlessly.\",\n          author: \"Robert Zhang\",\n          handle: \"@robertzhang\",\n          avatarSrc: imagePlaceholders[84],\n          badge: \"Verified\",\n        },\n        {\n          quote: \"Excellent value. Can't imagine working without it.\",\n          author: \"Emily Foster\",\n          handle: \"@emilyfoster\",\n          avatarSrc: imagePlaceholders[92],\n        },\n        {\n          quote: \"Outstanding performance and reliability.\",\n          author: \"Thomas Anderson\",\n          handle: \"@tanderson\",\n          avatarSrc: imagePlaceholders[100],\n        },\n        {\n          quote: \"Game changer for productivity. Highly effective!\",\n          author: \"Michelle Rodriguez\",\n          handle: \"@mrodriguez\",\n          avatarSrc: imagePlaceholders[108],\n          badge: \"Featured\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -115174,6 +115552,80 @@
           "type": "string",
           "description": "Additional CSS classes for the container",
           "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -115200,15 +115652,15 @@
       "categorySlug": "testimonials",
       "description": "A testimonial grid with subtle dividers separating each card, creating a clean organized layout. Each card displays star ratings, quote, and author info with avatar. The dividers add structure while maintaining a minimal aesthetic. Perfect for professional service pages.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293657/ksl05gbam224oukgj6p7qhr7jxv9/cleanshot-2026-03-10-at-10-16-02-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293656/hm0riu4mlqilkwj96ts5j27oq1qw/cleanshot-2026-03-10-at-10-16-11-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293657/ksl05gbam224oukgj6p7qhr7jxv9/cleanshot-2026-03-10-at-10-16-02-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293656/hm0riu4mlqilkwj96ts5j27oq1qw/cleanshot-2026-03-10-at-10-16-11-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-mini-dividers.tsx",
-      "code": "import { TestimonialsMiniDividers } from \"@opensite/ui/blocks/testimonials/testimonials-mini-dividers\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMiniDividers\n      heading=\"Customer Feedback\"\n      description=\"Quick insights from our satisfied customers\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional quality and service. Exceeded all my expectations.\",\n          author: \"Alex Thompson\",\n          role: \"Product Manager\",\n          avatarSrc: imagePlaceholders[30],\n          rating: 5,\n        },\n        {\n          quote:\n            \"Best purchase I've made this year. Highly recommend!\",\n          author: \"Maria Garcia\",\n          role: \"Design Lead\",\n          avatarSrc: imagePlaceholders[45],\n          rating: 5,\n        },\n        {\n          quote:\n            \"The support team went above and beyond to help us succeed.\",\n          author: \"James Lee\",\n          role: \"Engineering Manager\",\n          avatarSrc: imagePlaceholders[60],\n          rating: 5,\n        },\n        {\n          quote:\n            \"Intuitive interface and powerful features. Perfect combination.\",\n          author: \"Sarah Williams\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[75],\n          rating: 4,\n        },\n        {\n          quote:\n            \"Transformed our workflow completely. Can't imagine working without it.\",\n          author: \"Michael Chen\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[90],\n          rating: 5,\n        },\n        {\n          quote:\n            \"Excellent value for money. ROI was evident within weeks.\",\n          author: \"Lisa Anderson\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[105],\n          rating: 5,\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsMiniDividers } from \"@opensite/ui/blocks/testimonials/testimonials-mini-dividers\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMiniDividers\n      heading=\"Customer Feedback\"\n      description=\"Quick insights from our satisfied customers\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional quality and service. Exceeded all my expectations.\",\n          author: \"Alex Thompson\",\n          role: \"Product Manager\",\n          avatarSrc: imagePlaceholders[30],\n          rating: 5,\n        },\n        {\n          quote: \"Best purchase I've made this year. Highly recommend!\",\n          author: \"Maria Garcia\",\n          role: \"Design Lead\",\n          avatarSrc: imagePlaceholders[45],\n          rating: 5,\n        },\n        {\n          quote: \"The support team went above and beyond to help us succeed.\",\n          author: \"James Lee\",\n          role: \"Engineering Manager\",\n          avatarSrc: imagePlaceholders[60],\n          rating: 5,\n        },\n        {\n          quote:\n            \"Intuitive interface and powerful features. Perfect combination.\",\n          author: \"Sarah Williams\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[75],\n          rating: 4,\n        },\n        {\n          quote:\n            \"Transformed our workflow completely. Can't imagine working without it.\",\n          author: \"Michael Chen\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[90],\n          rating: 5,\n        },\n        {\n          quote: \"Excellent value for money. ROI was evident within weeks.\",\n          author: \"Lisa Anderson\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[105],\n          rating: 5,\n        },\n      ]}\n      background=\"dark\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -115341,12 +115793,12 @@
       "categorySlug": "testimonials",
       "description": "Testimonial cards featuring company logos prominently in the header, with the first card spanning multiple columns for a featured effect. Each card displays the company logo, quote, and author info. Ideal for B2B testimonials where company endorsement is key.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293659/z6u0tbdiwahd2ue2je18ly2war57/cleanshot-2026-03-10-at-10-17-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293658/b6orag6u6z52lvg8wvoov46fiznm/cleanshot-2026-03-10-at-10-17-53-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293659/z6u0tbdiwahd2ue2je18ly2war57/cleanshot-2026-03-10-at-10-17-37-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293658/b6orag6u6z52lvg8wvoov46fiznm/cleanshot-2026-03-10-at-10-17-53-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-logo-cards.tsx",
       "code": "import { TestimonialsLogoCards } from \"@opensite/ui/blocks/testimonials/testimonials-logo-cards\";\nimport { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsLogoCards\n      heading=\"Trusted by Industry Leaders\"\n      description=\"See how top companies are transforming their operations with our platform\"\n      testimonials={[\n        {\n          quote:\n            \"The platform has completely revolutionized our operational efficiency. We've seen measurable improvements across every metric that matters. The implementation team was exceptional, and the ongoing support has been world-class.\",\n          author: \"Rebecca Thompson\",\n          role: \"Chief Technology Officer\",\n          avatarSrc: imagePlaceholders[29],\n          companyLogo: brandLogoPlaceholders.black[0],\n          companyLogoAlt: \"TechCorp International\",\n        },\n        {\n          quote:\n            \"Outstanding reliability and performance. Our team adopted it instantly.\",\n          author: \"Marcus Lee\",\n          role: \"VP of Engineering\",\n          avatarSrc: imagePlaceholders[43],\n          companyLogo: brandLogoPlaceholders.black[1],\n          companyLogoAlt: \"CloudScale Solutions\",\n        },\n        {\n          quote:\n            \"Best investment we've made. ROI exceeded projections within three months.\",\n          author: \"Sarah Martinez\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[57],\n          companyLogo: brandLogoPlaceholders.black[2],\n          companyLogoAlt: \"Finance Dynamics\",\n        },\n        {\n          quote:\n            \"The analytics capabilities transformed our decision-making process entirely.\",\n          author: \"James Wilson\",\n          role: \"Data Director\",\n          avatarSrc: imagePlaceholders[71],\n          companyLogo: brandLogoPlaceholders.black[3],\n          companyLogoAlt: \"DataFirst Inc\",\n        },\n        {\n          quote:\n            \"Security features met our enterprise requirements without compromising usability.\",\n          author: \"Linda Chen\",\n          role: \"CISO\",\n          avatarSrc: imagePlaceholders[85],\n          companyLogo: brandLogoPlaceholders.black[4],\n          companyLogoAlt: \"SecureNet Corp\",\n        },\n      ]}\n      background=\"muted\"\n      pattern=\"circles\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
@@ -115515,15 +115967,15 @@
       "categorySlug": "testimonials",
       "description": "A carousel of testimonial quote cards using shadcn's Carousel component with navigation arrows. Each card features a large decorative quote mark, testimonial text, and author info. The carousel format allows browsing multiple testimonials in a compact space.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293677/kqdpl3kponqw9mleai5gnvp7g7ah/cleanshot-2026-03-10-at-11-15-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293676/2sei7yt42ozped6akwjjkpedvppa/cleanshot-2026-03-10-at-11-15-45-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293677/kqdpl3kponqw9mleai5gnvp7g7ah/cleanshot-2026-03-10-at-11-15-36-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293676/2sei7yt42ozped6akwjjkpedvppa/cleanshot-2026-03-10-at-11-15-45-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-quote-carousel.tsx",
-      "code": "import { TestimonialsQuoteCarousel } from \"@opensite/ui/blocks/testimonials/testimonials-quote-carousel\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsQuoteCarousel\n      testimonials={[\n        {\n          quote:\n            \"The platform's capabilities have exceeded every expectation. Our team productivity has soared, and the insights we're gaining are invaluable.\",\n          author: \"Christopher Williams\",\n          role: \"Head of Product\",\n          company: \"InnovateCo\",\n          avatarSrc: imagePlaceholders[37],\n        },\n        {\n          quote:\n            \"Implementation was smooth, support was exceptional, and results were immediate. This is how enterprise software should work.\",\n          author: \"Diana Martinez\",\n          role: \"VP of Engineering\",\n          company: \"ScaleUp Systems\",\n          avatarSrc: imagePlaceholders[62],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years. This is the first one that truly delivers on performance, security, and ease of use simultaneously.\",\n          author: \"Benjamin Lee\",\n          role: \"Chief Information Officer\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[87],\n        },\n        {\n          quote:\n            \"The ROI became evident within weeks. Our operational costs dropped while service quality improved dramatically. A rare win-win scenario.\",\n          author: \"Amanda Foster\",\n          role: \"CFO\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[104],\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsQuoteCarousel } from \"@opensite/ui/blocks/testimonials/testimonials-quote-carousel\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsQuoteCarousel\n      heading=\"Customer Reviews\"\n      description=\"Join thousands of satisfied customers sharing their experiences\"\n      testimonials={[\n        {\n          quote:\n            \"The platform's capabilities have exceeded every expectation. Our team productivity has soared, and the insights we're gaining are invaluable.\",\n          author: \"Christopher Williams\",\n          role: \"Head of Product\",\n          company: \"InnovateCo\",\n          avatarSrc: imagePlaceholders[37],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Implementation was smooth, support was exceptional, and results were immediate. This is how enterprise software should work.\",\n          author: \"Diana Martinez\",\n          role: \"VP of Engineering\",\n          company: \"ScaleUp Systems\",\n          avatarSrc: imagePlaceholders[62],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years. This is the first one that truly delivers on performance, security, and ease of use simultaneously.\",\n          author: \"Benjamin Lee\",\n          role: \"Chief Information Officer\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[87],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"The ROI became evident within weeks. Our operational costs dropped while service quality improved dramatically. A rare win-win scenario.\",\n          author: \"Amanda Foster\",\n          role: \"CFO\",\n          company: \"GrowthMetrics\",\n          avatarSrc: imagePlaceholders[104],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n      ]}\n      background=\"secondary\"\n      pattern=\"gridDotsFadeCenter\"\n      patternOpacity={0.33}\n      spacing=\"lg\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -115716,6 +116168,11 @@
           "type": "number",
           "description": "Pattern overlay opacity (0-1)",
           "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -115884,15 +116341,15 @@
       "categorySlug": "testimonials",
       "description": "An animated testimonial section with staggered card animations powered by Framer Motion. Features large image cards with gradient overlays and quote content positioned at the bottom. Cards animate into view with a staggered effect as they enter the viewport. Ideal for visually rich testimonial sections.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293680/cr5itwci2y5w5dqb23j19tmc5xe4/cleanshot-2026-03-10-at-11-16-42-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293681/5kg2gu0xc76qifs26hj3g02oh1vv/cleanshot-2026-03-10-at-11-16-56-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293680/cr5itwci2y5w5dqb23j19tmc5xe4/cleanshot-2026-03-10-at-11-16-42-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293681/5kg2gu0xc76qifs26hj3g02oh1vv/cleanshot-2026-03-10-at-11-16-56-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-scrolling-columns.tsx",
-      "code": "import { TestimonialsScrollingColumns } from \"@opensite/ui/blocks/testimonials/testimonials-scrolling-columns\";\nimport { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsScrollingColumns\n      heading=\"What Our Customers Are Saying\"\n      description=\"Real stories from businesses transforming their operations\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional platform with outstanding results. Our team's efficiency increased by 45% in the first quarter alone.\",\n          author: \"Nicole Anderson\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[19],\n          imageSrc: imagePlaceholders[44],\n          logoSrc: brandLogoPlaceholders.white[5],\n        },\n        {\n          quote:\n            \"The customer support team is incredibly responsive and knowledgeable. They truly care about our success.\",\n          author: \"Marcus Chen\",\n          role: \"IT Manager\",\n          avatarSrc: imagePlaceholders[31],\n          logoSrc: brandLogoPlaceholders.white[4],\n          imageSrc: imagePlaceholders[31],\n        },\n        {\n          quote:\n            \"Integration was seamless. We were up and running in days instead of weeks. Impressive!\",\n          author: \"Sarah Thompson\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[43],\n          imageSrc: imagePlaceholders[43],\n          logoSrc: brandLogoPlaceholders.white[3],\n        },\n        {\n          quote:\n            \"The analytics dashboard provides insights that drive real business value. We make better decisions faster now.\",\n          author: \"James Rodriguez\",\n          role: \"Head of Analytics\",\n          avatarSrc: imagePlaceholders[55],\n          imageSrc: imagePlaceholders[55],\n          logoSrc: brandLogoPlaceholders.white[2],\n        },\n        {\n          quote:\n            \"Security features met all our enterprise requirements without compromising usability. Perfect balance.\",\n          author: \"Linda Park\",\n          role: \"CISO\",\n          avatarSrc: imagePlaceholders[67],\n          imageSrc: imagePlaceholders[17],\n          logoSrc: brandLogoPlaceholders.white[1],\n        },\n        {\n          quote:\n            \"Best tool we've implemented in years. The entire team adopted it enthusiastically from day one.\",\n          author: \"David Martinez\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[79],\n          imageSrc: imagePlaceholders[19],\n          logoSrc: brandLogoPlaceholders.white[0],\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.1}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsScrollingColumns } from \"@opensite/ui/blocks/testimonials/testimonials-scrolling-columns\";\nimport { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsScrollingColumns\n      heading=\"What Our Customers Are Saying\"\n      description=\"Real stories from businesses transforming their operations\"\n      testimonials={[\n        {\n          quote:\n            \"Exceptional platform with outstanding results. Our team's efficiency increased by 45% in the first quarter alone.\",\n          author: \"Nicole Anderson\",\n          role: \"Operations Director\",\n          avatarSrc: imagePlaceholders[19],\n          imageSrc: imagePlaceholders[44],\n          logoSrc: brandLogoPlaceholders.white[5],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n        {\n          quote:\n            \"The customer support team is incredibly responsive and knowledgeable. They truly care about our success.\",\n          author: \"Marcus Chen\",\n          role: \"IT Manager\",\n          avatarSrc: imagePlaceholders[31],\n          logoSrc: brandLogoPlaceholders.white[4],\n          imageSrc: imagePlaceholders[31],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n        {\n          quote:\n            \"Integration was seamless. We were up and running in days instead of weeks. Impressive!\",\n          author: \"Sarah Thompson\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[43],\n          imageSrc: imagePlaceholders[43],\n          logoSrc: brandLogoPlaceholders.white[3],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n        {\n          quote:\n            \"The analytics dashboard provides insights that drive real business value. We make better decisions faster now.\",\n          author: \"James Rodriguez\",\n          role: \"Head of Analytics\",\n          avatarSrc: imagePlaceholders[55],\n          imageSrc: imagePlaceholders[55],\n          logoSrc: brandLogoPlaceholders.white[2],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n        {\n          quote:\n            \"Security features met all our enterprise requirements without compromising usability. Perfect balance.\",\n          author: \"Linda Park\",\n          role: \"CISO\",\n          avatarSrc: imagePlaceholders[67],\n          imageSrc: imagePlaceholders[17],\n          logoSrc: brandLogoPlaceholders.white[1],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n        {\n          quote:\n            \"Best tool we've implemented in years. The entire team adopted it enthusiastically from day one.\",\n          author: \"David Martinez\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[79],\n          imageSrc: imagePlaceholders[19],\n          logoSrc: brandLogoPlaceholders.white[0],\n          linkConfig: {\n            href: \"#\",\n            label: \"Full Review\",\n          },\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.1}\n      spacing=\"xl\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -116043,12 +116500,12 @@
       "categorySlug": "testimonials",
       "description": "A minimal testimonial slider featuring large numbered indicators (01, 02, 03) that transition with the content. Displays one testimonial at a time with smooth fade transitions, author information with avatar, and navigation controls. The oversized numbers create a distinctive visual element.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293661/ay8jhabbx2y3gxcikdbzbdabkfoq/cleanshot-2026-03-10-at-10-22-18-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293660/k980x6yjrieuvb6u54fgkkwrf9g7/cleanshot-2026-03-10-at-10-22-33-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293661/ay8jhabbx2y3gxcikdbzbdabkfoq/cleanshot-2026-03-10-at-10-22-18-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293660/k980x6yjrieuvb6u54fgkkwrf9g7/cleanshot-2026-03-10-at-10-22-33-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-minimal-numbered.tsx",
       "code": "import { TestimonialsMinimalNumbered } from \"@opensite/ui/blocks/testimonials/testimonials-minimal-numbered\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMinimalNumbered\n      testimonials={[\n        {\n          quote:\n            \"The platform has completely transformed how we approach our business operations. Every feature is thoughtfully designed and the performance is exceptional.\",\n          author: \"Dr. Catherine Foster\",\n          role: \"CEO\",\n          company: \"Innovation Labs\",\n          avatarSrc: imagePlaceholders[34],\n        },\n        {\n          quote:\n            \"We've tried many solutions over the years, but this is the only one that truly delivered on its promises. The team's dedication to excellence shows in every detail.\",\n          author: \"Marcus Rodriguez\",\n          role: \"VP of Engineering\",\n          company: \"TechScale\",\n          avatarSrc: imagePlaceholders[52],\n        },\n        {\n          quote:\n            \"What impressed us most was the seamless integration with our existing systems. No disruption, just immediate value from day one.\",\n          author: \"Jennifer Kim\",\n          role: \"IT Director\",\n          company: \"Enterprise Solutions\",\n          avatarSrc: imagePlaceholders[70],\n        },\n        {\n          quote:\n            \"The analytics capabilities alone have transformed our decision-making process. We now have insights we never knew were possible.\",\n          author: \"Robert Zhang\",\n          role: \"Head of Data\",\n          company: \"DataFirst Corp\",\n          avatarSrc: imagePlaceholders[88],\n        },\n      ]}\n      autoPlayInterval={10000}\n      pattern=\"squareAltGrid\"\n      patternOpacity={0.5}\n      background=\"muted\"\n    />\n  );\n}\n",
@@ -116253,15 +116710,15 @@
       "categorySlug": "testimonials",
       "description": "A premium testimonial section featuring an oversized animated number with parallax mouse-tracking effect. The large index number responds to mouse movement, creating depth. Includes a vertical progress indicator, company badge, word-by-word quote animation, and smooth navigation controls. Perfect for high-end landing pages.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293663/681vjekdt2ktlya3ozadxnnhb2k4/cleanshot-2026-03-10-at-10-23-29-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293662/udsyztauu7xrp4zhtfvx7wdvoqxw/cleanshot-2026-03-10-at-10-23-37-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293663/681vjekdt2ktlya3ozadxnnhb2k4/cleanshot-2026-03-10-at-10-23-29-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293662/udsyztauu7xrp4zhtfvx7wdvoqxw/cleanshot-2026-03-10-at-10-23-37-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-parallax-number.tsx",
-      "code": "import { TestimonialsParallaxNumber } from \"@opensite/ui/blocks/testimonials/testimonials-parallax-number\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsParallaxNumber\n      testimonials={[\n        {\n          quote:\n            \"This platform has revolutionized our business operations. The results speak for themselves - increased productivity, reduced costs, and happier team members.\",\n          author: \"Victoria Chen\",\n          role: \"CEO & Founder\",\n          company: \"Innovation Dynamics\",\n          avatarSrc: imagePlaceholders[33],\n          // backgroundIcon: \"lucide/star\",\n          backgroundLabel: \"5 Stars\",\n        },\n        {\n          quote:\n            \"The level of innovation and attention to detail is unmatched. Every feature works seamlessly, and the performance is exceptional under any workload.\",\n          author: \"Alexander Martinez\",\n          role: \"CTO\",\n          company: \"TechForward\",\n          avatarSrc: imagePlaceholders[58],\n          // backgroundIcon: \"lucide/heart\",\n          backgroundLabel: \"Hey there\",\n        },\n        {\n          quote:\n            \"We've seen a complete transformation in how we serve our customers. Response times are down, satisfaction is up, and our team loves using it daily.\",\n          author: \"Dr. Rachel Foster\",\n          role: \"VP of Operations\",\n          company: \"CustomerFirst Inc\",\n          avatarSrc: imagePlaceholders[83],\n          backgroundIcon: \"lucide/thumbs-up\",\n          backgroundLabel: \"Yep\",\n        },\n      ]}\n      verticalLabel=\"Reviews\"\n      autoPlayInterval={1500000}\n      background=\"dark\"\n      pattern=\"gridFadeCenter\"\n      patternOpacity={0.15}\n      spacing=\"xl\"\n    />\n  );\n}\n",
+      "code": "import { TestimonialsParallaxNumber } from \"@opensite/ui/blocks/testimonials/testimonials-parallax-number\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsParallaxNumber\n      testimonials={[\n        {\n          quote:\n            \"This platform has revolutionized our business operations. The results speak for themselves - increased productivity, reduced costs, and happier team members.\",\n          author: \"Victoria Chen\",\n          role: \"CEO & Founder\",\n          company: \"Innovation Dynamics\",\n          avatarSrc: imagePlaceholders[33],\n          backgroundIcon: \"lucide/rocket\",\n        },\n        {\n          quote:\n            \"The level of innovation and attention to detail is unmatched. Every feature works seamlessly, and the performance is exceptional under any workload.\",\n          author: \"Alexander Martinez\",\n          role: \"CTO\",\n          company: \"TechForward\",\n          avatarSrc: imagePlaceholders[58],\n          backgroundIcon: \"mdi/graph\",\n        },\n        {\n          quote:\n            \"We've seen a complete transformation in how we serve our customers. Response times are down, satisfaction is up, and our team loves using it daily.\",\n          author: \"Dr. Rachel Foster\",\n          role: \"VP of Operations\",\n          company: \"CustomerFirst Inc\",\n          avatarSrc: imagePlaceholders[83],\n          backgroundIcon: \"lucide/thumbs-up\",\n          backgroundLabel: \"Yep\",\n        },\n      ]}\n      verticalLabel=\"Reviews\"\n      autoPlayInterval={1500000}\n      background=\"dark\"\n      pattern=\"gridFadeCenter\"\n      patternOpacity={0.15}\n      spacing=\"xl\"\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -116389,15 +116846,15 @@
       "categorySlug": "testimonials",
       "description": "A masonry-style grid layout for testimonials with varying card heights based on content length. Cards are distributed across columns creating an organic, Pinterest-like layout. Each card displays a quote with author avatar, name, and role. Ideal for showcasing testimonials of varying lengths.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293673/1gb2ap7mluissn4odiwkrcqanuiy/cleanshot-2026-03-10-at-11-13-04-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293672/s4uykacqph7ys3irrnfpbjlo4xdc/cleanshot-2026-03-10-at-11-13-17-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293673/1gb2ap7mluissn4odiwkrcqanuiy/cleanshot-2026-03-10-at-11-13-04-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293672/s4uykacqph7ys3irrnfpbjlo4xdc/cleanshot-2026-03-10-at-11-13-17-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-masonry-grid.tsx",
-      "code": "import { TestimonialsMasonryGrid } from \"@opensite/ui/blocks/testimonials/testimonials-masonry-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMasonryGrid\n      heading=\"Community Testimonials\"\n      description=\"Real feedback from real users making an impact\"\n      testimonials={[\n        {\n          quote:\n            \"This has completely transformed how we approach our daily workflows. The efficiency gains are remarkable.\",\n          author: \"Rachel Anderson\",\n          role: \"Operations Manager\",\n          avatarSrc: imagePlaceholders[24],\n        },\n        {\n          quote:\n            \"Best tool we've implemented this year. The team loves it, and the results are undeniable. Five stars across the board!\",\n          author: \"Marcus Johnson\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[36],\n        },\n        {\n          quote:\n            \"Simple yet powerful. Exactly what we needed without unnecessary complexity.\",\n          author: \"Lisa Chen\",\n          role: \"Product Designer\",\n          avatarSrc: imagePlaceholders[48],\n        },\n        {\n          quote:\n            \"The customer support is phenomenal. Every question answered promptly and thoroughly. They genuinely care about our success.\",\n          author: \"David Park\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[60],\n        },\n        {\n          quote:\n            \"We've seen a 300% improvement in key metrics. The analytics alone are worth the investment.\",\n          author: \"Sarah Williams\",\n          role: \"Analytics Lead\",\n          avatarSrc: imagePlaceholders[72],\n        },\n        {\n          quote:\n            \"Integration with our existing tools was seamless. No disruption to ongoing projects.\",\n          author: \"Kevin Torres\",\n          role: \"IT Director\",\n          avatarSrc: imagePlaceholders[84],\n        },\n        {\n          quote:\n            \"The mobile experience matches desktop functionality perfectly. Our field team can work from anywhere without limitations.\",\n          author: \"Amanda Foster\",\n          role: \"Field Operations\",\n          avatarSrc: imagePlaceholders[96],\n        },\n        {\n          quote:\n            \"Security features exceeded our enterprise requirements. Passed all audits effortlessly.\",\n          author: \"Robert Zhang\",\n          role: \"Security Architect\",\n          avatarSrc: imagePlaceholders[108],\n        },\n        {\n          quote:\n            \"Worth every penny. The ROI became evident within weeks of implementation.\",\n          author: \"Michelle Rodriguez\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[32],\n        },\n      ]}\n      background=\"white\"\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { TestimonialsMasonryGrid } from \"@opensite/ui/blocks/testimonials/testimonials-masonry-grid\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsMasonryGrid\n      heading=\"Community Testimonials\"\n      description=\"Real feedback from real users making an impact\"\n      testimonials={[\n        {\n          quote:\n            \"This has completely transformed how we approach our daily workflows. The efficiency gains are remarkable.\",\n          author: \"Rachel Anderson\",\n          role: \"Operations Manager\",\n          avatarSrc: imagePlaceholders[24],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Best tool we've implemented this year. The team loves it, and the results are undeniable. Five stars across the board!\",\n          author: \"Marcus Johnson\",\n          role: \"Team Lead\",\n          avatarSrc: imagePlaceholders[36],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Simple yet powerful. Exactly what we needed without unnecessary complexity.\",\n          author: \"Lisa Chen\",\n          role: \"Product Designer\",\n          avatarSrc: imagePlaceholders[48],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"The customer support is phenomenal. Every question answered promptly and thoroughly. They genuinely care about our success.\",\n          author: \"David Park\",\n          role: \"CTO\",\n          avatarSrc: imagePlaceholders[60],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"We've seen a 300% improvement in key metrics. The analytics alone are worth the investment.\",\n          author: \"Sarah Williams\",\n          role: \"Analytics Lead\",\n          avatarSrc: imagePlaceholders[72],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Integration with our existing tools was seamless. No disruption to ongoing projects.\",\n          author: \"Kevin Torres\",\n          role: \"IT Director\",\n          avatarSrc: imagePlaceholders[84],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"The mobile experience matches desktop functionality perfectly. Our field team can work from anywhere without limitations.\",\n          author: \"Amanda Foster\",\n          role: \"Field Operations\",\n          avatarSrc: imagePlaceholders[96],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Security features exceeded our enterprise requirements. Passed all audits effortlessly.\",\n          author: \"Robert Zhang\",\n          role: \"Security Architect\",\n          avatarSrc: imagePlaceholders[108],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n        {\n          quote:\n            \"Worth every penny. The ROI became evident within weeks of implementation.\",\n          author: \"Michelle Rodriguez\",\n          role: \"CFO\",\n          avatarSrc: imagePlaceholders[32],\n          linkConfig: {\n            href: \"#\",\n            label: \"Read More\",\n          },\n        },\n      ]}\n      actions={[\n        {\n          label: \"Read All Reviews\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "testimonials": {
           "type": "array",
@@ -116590,6 +117047,80 @@
           "type": "string",
           "description": "Additional CSS classes for the container",
           "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
         }
       },
       "defaultProps": {},
@@ -116616,12 +117147,12 @@
       "categorySlug": "testimonials",
       "description": "A centered, single testimonial section featuring an oversized quote with decorative quote icons. The large typography creates visual impact while the centered layout draws focus to the testimonial content. Includes author avatar, name, role, and company. Perfect for hero sections or impactful single testimonials.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293649/0tx6o4za4zrib4kpvne27hf6elbh/cleanshot-2026-03-10-at-08-19-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293648/itojcq3lqfk7tgvidkpdk96mb6h3/cleanshot-2026-03-10-at-08-19-32-2x.png"
       },
       "preview": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/293649/0tx6o4za4zrib4kpvne27hf6elbh/cleanshot-2026-03-10-at-08-19-19-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293648/itojcq3lqfk7tgvidkpdk96mb6h3/cleanshot-2026-03-10-at-08-19-32-2x.png"
       },
       "componentPath": "blocks/testimonials/testimonials-large-quote.tsx",
       "code": "import { TestimonialsLargeQuote } from \"@opensite/ui/blocks/testimonials/testimonials-large-quote\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <TestimonialsLargeQuote\n      testimonial={{\n        quote:\n          \"This platform has revolutionized how we approach our business operations. The impact on our team's productivity and morale has been extraordinary.\",\n        author: \"Victoria Reynolds\",\n        role: \"Founder & CEO\",\n        company: \"NextWave Ventures\",\n        avatarSrc: imagePlaceholders[48],\n      }}\n      background=\"gradient\"\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",

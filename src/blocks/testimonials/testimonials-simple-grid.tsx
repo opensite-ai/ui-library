@@ -57,6 +57,14 @@ export default function Demo() {
           avatarSrc: imagePlaceholders[91],
         },
       ]}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+          variant: "default",
+          size: "lg",
+        },
+      ]}
       background="gray"
       pattern="diagonalCrossFadeTop"
       patternOpacity={0.9}

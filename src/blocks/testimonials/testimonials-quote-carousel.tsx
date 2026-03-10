@@ -14,6 +14,10 @@ export default function Demo() {
           role: "Head of Product",
           company: "InnovateCo",
           avatarSrc: imagePlaceholders[37],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -22,6 +26,10 @@ export default function Demo() {
           role: "VP of Engineering",
           company: "ScaleUp Systems",
           avatarSrc: imagePlaceholders[62],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -30,6 +38,10 @@ export default function Demo() {
           role: "Chief Information Officer",
           company: "Enterprise Solutions",
           avatarSrc: imagePlaceholders[87],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
         {
           quote:
@@ -38,9 +50,15 @@ export default function Demo() {
           role: "CFO",
           company: "GrowthMetrics",
           avatarSrc: imagePlaceholders[104],
+          linkConfig: {
+            href: "#",
+            label: "Read More",
+          },
         },
       ]}
-      background="dark"
+      background="secondary"
+      pattern="gridDotsFadeCenter"
+      patternOpacity={0.33}
       spacing="lg"
     />
   );

@@ -85,6 +85,14 @@ export default function Demo() {
           badge: "Featured",
         },
       ]}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+          variant: "default",
+          size: "lg",
+        },
+      ]}
       background="dark"
       pattern="diagonalCrossFadeTop"
       patternOpacity={0.15}

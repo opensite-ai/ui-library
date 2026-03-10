@@ -43,6 +43,10 @@ export default function Demo() {
           role: "CEO",
           company: "Global Enterprises",
           avatarSrc: imagePlaceholders[53],
+          linkConfig: {
+            href: "https://linkedin.com",
+            label: "View Post",
+          },
         },
         {
           quote:
@@ -51,6 +55,10 @@ export default function Demo() {
           role: "VP of Operations",
           company: "TechForward Inc",
           avatarSrc: imagePlaceholders[68],
+          linkConfig: {
+            href: "https://linkedin.com",
+            label: "View Post",
+          },
         },
         {
           quote:
@@ -59,6 +67,18 @@ export default function Demo() {
           role: "Chief Data Officer",
           company: "DataDriven Corp",
           avatarSrc: imagePlaceholders[83],
+          linkConfig: {
+            href: "https://linkedin.com",
+            label: "View Post",
+          },
+        },
+      ]}
+      actions={[
+        {
+          label: "Read All Reviews",
+          href: "#",
+          variant: "default",
+          size: "lg",
         },
       ]}
       background="white"
