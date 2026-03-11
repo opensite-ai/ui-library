@@ -37,20 +37,6 @@ export default function Demo() {
         { id: "discussion", title: "Discussion" },
         { id: "conclusion", title: "Conclusion" },
       ]}
-      socialLinks={[
-        {
-          href: "https://instagram.com",
-        },
-        {
-          href: "https://twitter.com",
-        },
-        {
-          href: "https://linkedin.com",
-        },
-        {
-          href: "https://youtube.com",
-        },
-      ]}
       enableTocTracking={true}
     >
       <section id="introduction">

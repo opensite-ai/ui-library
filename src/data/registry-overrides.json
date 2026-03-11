@@ -424,12 +424,12 @@
       "title": "Contact Map",
       "componentPath": "blocks/contact/contact-map.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290575/dnqrjbi6p3yeqn8sx7vdwtnf74wc/contact-map-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290576/agzawucxzm7dl2mxob6txd5bg858/contact-map-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293693/ot59bwv6mcbgk0aqfj8pajq5dk21/cleanshot-2026-03-10-at-16-58-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293692/ako7tn3d2ouh3fe99wthfyly87y9/cleanshot-2026-03-10-at-17-00-48-2x.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290575/dnqrjbi6p3yeqn8sx7vdwtnf74wc/contact-map-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290576/agzawucxzm7dl2mxob6txd5bg858/contact-map-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/293693/ot59bwv6mcbgk0aqfj8pajq5dk21/cleanshot-2026-03-10-at-16-58-03-2x.png",
+        "mobile": "https://cdn.ing/assets/i/r/293692/ako7tn3d2ouh3fe99wthfyly87y9/cleanshot-2026-03-10-at-17-00-48-2x.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-map"
@@ -469,10 +469,7 @@
         "desktop": "",
         "mobile": ""
       },
-      "preview": {
-        "desktop": "",
-        "mobile": ""
-      },
+      "preview": {},
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-multistep"
     },

@@ -31,8 +31,6 @@ export default function DemoPage() {
           postTitle="My Demo Page"
           shareUrl="https://ui.opensite.dev/"
           summaryContent="Production-ready component library utilized by the OpenSite Semantic UI engine.Strong enough for an AI agent, but made for a designer. 600+ Blocks 97%-100% Google Speed Avg"
-          // imgUrls={[openGraphImgUrl]}
-          hashtags={["react", "webdev"]}
           disableImageAttachments
         />
       </div>

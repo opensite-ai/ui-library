@@ -141,15 +141,13 @@ const northScottsdaleMarker: GeoMapMarker = {
 const mapProps: GeoMapProps = {
   stadiaApiKey,
   panelPosition: "bottom-left",
-  defaultViewState: {
-    latitude: 33.557,
-    longitude: -111.998,
-    zoom: 10.8,
-  },
+  mapWrapperClassName: "rounded-lg border border-border",
   showNavigationControl: true,
   showGeolocateControl: true,
-  markerFocusZoom: 13.75,
-  clusterFocusZoom: 12,
+  mapSize: {
+    desktop: 700,
+    mobile: 600,
+  },
   markers: [downtownPhoenixMarker, northScottsdaleMarker],
   // clusters: [
   //   {
