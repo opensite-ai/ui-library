@@ -43,8 +43,8 @@ export default function Demo() {
         },
       ]}
       background="white"
-      pattern="gridBasic"
-      patternOpacity={0.9}
+      // pattern="gridBasic"
+      // patternOpacity={0.9}
     />
   );
 }

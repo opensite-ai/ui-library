@@ -3,8 +3,11 @@ import "./globals.css";
 import "sonner/dist/styles.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { openGraphImgUrl } from "@/lib/media";
+import { openGraphImgUrl, optixFlowApiKey } from "@/lib/media";
 import { Toaster } from "@/components/ui/sonner";
+import { ImgDefaults } from "@page-speed/img";
+import { VideoDefaults } from "@page-speed/video";
+
 // import Accessibilik from "accessibility-react-widget";
 
 export const metadata: Metadata = {
@@ -68,6 +71,8 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
         className={`antialiased min-h-screen flex flex-col`}
       >
+        <ImgDefaults config={{ apiKey: optixFlowApiKey as string }} />
+        <VideoDefaults optixFlowApiKey={optixFlowApiKey} />
         <Header />
         <main id="os__root" className="flex-1">
           {children}

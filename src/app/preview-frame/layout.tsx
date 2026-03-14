@@ -5,6 +5,8 @@
  */
 
 import type { Metadata } from "next";
+import { ImgDefaults } from "@page-speed/img";
+import { optixFlowApiKey } from "@/lib/media";
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -19,6 +21,7 @@ export default function PreviewFrameLayout({
   return (
     <html lang="en">
       <body className={`antialiased`} style={{ margin: 0, padding: 0 }}>
+        <ImgDefaults config={{ apiKey: optixFlowApiKey as string }} />
         {children}
       </body>
     </html>

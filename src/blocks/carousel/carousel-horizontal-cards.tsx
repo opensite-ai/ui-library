@@ -6,7 +6,7 @@ export default function Demo() {
     <CarouselHorizontalCards
       heading="Trending Destinations"
       subtitle="Discover the world's most captivating travel experiences"
-      headingHref="#destinations"
+      headingHref="#"
       items={[
         {
           id: "santorini",
