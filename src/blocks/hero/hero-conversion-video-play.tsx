@@ -1,4 +1,4 @@
-import { brandLogoPlaceholders, videoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { HeroConversionVideoPlay } from "@opensite/ui/blocks/hero/hero-conversion-video-play";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -14,7 +14,18 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       videoButtonLabel="Watch Demo"
-      videoUrl={videoPlaceholders[5]}
+      modalVideo={{
+        video: {
+          masterPlaylistUrl:
+            "https://octane.cdn.ing/api/v1/video/01db8743-8d85-50e5-a293-7d0f0f000db3/master_playlist",
+          fallbackSrc:
+            "https://octane.cdn.ing/api/v1/video/01db8743-8d85-50e5-a293-7d0f0f000db3/progressive.mp4",
+          src: "https://toastability-production.s3.amazonaws.com/e6b0u26kl3g06gooq2voz48xzh3z",
+          poster:
+            "https://cdn.ing/assets/i/r/209106/variants/i86gmxxj6rpf6i1pisg9o3l2ycsp/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/354071-nightlife-bar-smiling-talking-by-azulroto-artlist-4k.webp",
+          optixFlowApiKey: optixFlowApiKey,
+        },
+      }}
       videoDialogTitle="Conversion Optimization Demo"
       logos={[
         { src: brandLogoPlaceholders.white[0], alt: "Partner 1" },

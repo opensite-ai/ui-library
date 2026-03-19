@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-03-12T10:41:57.569Z",
+    "exportedAt": "2026-03-19T01:21:02.841Z",
     "totalBlocks": 605,
-    "version": "3.0.9",
+    "version": "3.1.5",
     "source": "@opensite/ui",
-    "syncedAt": "2026-03-14T07:33:04.803Z"
+    "syncedAt": "2026-03-19T11:06:44.771Z"
   },
   "blocks": [
     {
@@ -10168,14 +10168,64 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "backgroundVideo": {
+          "type": "object",
+          "description": "Background video configuration",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
         "modalVideoUrl": {
           "type": "string",
-          "description": "Video URL for the modal",
+          "description": "",
           "required": false
         },
         "backgroundVideoUrl": {
           "type": "string",
-          "description": "Background video URL",
+          "description": "",
           "required": false
         },
         "modalSlot": {
@@ -55565,7 +55615,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
-      "code": "import { videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"/signup\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"/explore\",\n          variant: \"outline\",\n        },\n      ]}\n      videoSrc=\"https://toastability-production.s3.amazonaws.com/uftmd8eopmi6cs99m44bjn10yiu6\"\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { masterPlaylistUrls, videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"/signup\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"/explore\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          // masterPlaylistUrl: masterPlaylistUrls[25],\n          // masterPlaylistUrl:\n          //   \"https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist\",\n          // masterPlaylistUrl:\n          //   \"https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist\",\n          masterPlaylistUrl:\n            \"https://octane.cdn.ing/api/v1/video/df6f71fe-2fd9-51ef-b147-2902b6af60d9/master_playlist\",\n          fallbackSrc:\n            \"https://octane.cdn.ing/api/v1/video/df6f71fe-2fd9-51ef-b147-2902b6af60d9/progressive.mp4\",\n          src: videoPlaceholders[15],\n          // masterPlaylistUrl:\n          //   \"https://octane.cdn.ing/api/v1/video/de9f4e3c-a5e1-5210-b6e6-73c4061e4afc/master_playlist\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n\n// https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist\n// https://octane.cdn.ing/api/v1/video/df6f71fe-2fd9-51ef-b147-2902b6af60d9/master_playlist\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -55659,15 +55709,40 @@
           "description": "Additional CSS classes for the actions container",
           "required": false
         },
-        "videoSrc": {
-          "type": "string",
-          "description": "Video source URL",
+        "backgroundVideo": {
+          "type": "object",
+          "description": "Background video configuration",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "videoSlot": {
           "type": "object",
-          "description": "Custom slot for video (overrides videoSrc prop)",
+          "description": "Custom slot for video (overrides backgroundVideo prop)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "videoSrc": {
+          "type": "string",
+          "description": "",
           "required": false
         },
         "videoOverlayIntensity": {
@@ -58622,8 +58697,8 @@
             },
             "video": {
               "type": "object",
-              "description": "Video configuration using standard React video attributes.\nWhen provided, the block renders a video element instead of (or in addition to) an image.",
-              "typeLabel": "React.ComponentPropsWithoutRef",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
               "required": false
             },
             "containerClassName": {
@@ -59086,20 +59161,45 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "videoSrc": {
-          "type": "string",
-          "description": "Video source URL",
+        "backgroundVideo": {
+          "type": "object",
+          "description": "Background video configuration",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "videoSlot": {
           "type": "object",
-          "description": "Custom slot for video (overrides videoSrc prop)",
+          "description": "Custom slot for video (overrides backgroundVideo prop)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "videoSrc": {
+          "type": "string",
+          "description": "",
           "required": false
         },
         "background": {
           "type": "string",
-          "description": "",
+          "description": "Background style for the section",
           "typeLabel": "SectionBackground",
           "required": false
         },
@@ -60011,7 +60111,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png"
       },
       "componentPath": "blocks/hero/hero-software-growth-video-dialog.tsx",
-      "code": "import { imagePlaceholders, videoPlaceholders } from \"@/lib/media\";\nimport { HeroSoftwareGrowthVideoDialog } from \"@opensite/ui/blocks/hero/hero-software-growth-video-dialog\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroSoftwareGrowthVideoDialog\n      heading=\"Accelerate your growth with data-driven insights\"\n      description=\"See how top companies use our platform to scale faster, make smarter decisions, and achieve sustainable growth.\"\n      videoAction={{\n        label: \"Watch Demo\",\n        variant: \"outline\",\n        iconAfter: <DynamicIcon name=\"lucide/play\" size={16} />,\n      }}\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"ghost\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      showcaseImages={[\n        { src: imagePlaceholders[1], alt: \"Growth metric 1\" },\n        { src: imagePlaceholders[2], alt: \"Growth metric 2\" },\n        { src: imagePlaceholders[3], alt: \"Growth metric 3\" },\n        { src: imagePlaceholders[4], alt: \"Growth metric 4\" },\n      ]}\n      videoDialog={{\n        videoUrl: videoPlaceholders[25],\n        title: \"See how it works\",\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders, videoPlaceholders } from \"@/lib/media\";\nimport { HeroSoftwareGrowthVideoDialog } from \"@opensite/ui/blocks/hero/hero-software-growth-video-dialog\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroSoftwareGrowthVideoDialog\n      heading=\"Accelerate your growth with data-driven insights\"\n      description=\"See how top companies use our platform to scale faster, make smarter decisions, and achieve sustainable growth.\"\n      videoAction={{\n        label: \"Watch Demo\",\n        variant: \"outline\",\n        iconAfter: <DynamicIcon name=\"lucide/play\" size={16} />,\n      }}\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"ghost\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      showcaseImages={[\n        { src: imagePlaceholders[1], alt: \"Growth metric 1\" },\n        { src: imagePlaceholders[2], alt: \"Growth metric 2\" },\n        { src: imagePlaceholders[3], alt: \"Growth metric 3\" },\n        { src: imagePlaceholders[4], alt: \"Growth metric 4\" },\n      ]}\n      modalVideo={{\n        video: {\n          src: videoPlaceholders[25],\n          title: \"See how it works\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -60185,9 +60285,39 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "videoDialogTitle": {
+          "type": "string",
+          "description": "Video dialog title",
+          "required": false
+        },
         "videoDialog": {
           "type": "object",
-          "description": "Video dialog configuration",
+          "description": "",
           "fields": {
             "title": {
               "type": "string",
@@ -60394,14 +60524,39 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "videoUrl": {
-          "type": "string",
-          "description": "Video URL for the dialog",
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "videoDialogTitle": {
           "type": "string",
           "description": "Video dialog title",
+          "required": false
+        },
+        "videoUrl": {
+          "type": "string",
+          "description": "",
           "required": false
         },
         "actionsSlot": {
@@ -60900,7 +61055,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290339/869rctro6gur2nq38vdo48smt9v5/cleanshot-2026-02-18-at-08-57-21.png"
       },
       "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
-      "code": "import { videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoOverlayStars } from \"@opensite/ui/blocks/hero/hero-video-overlay-stars\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoOverlayStars\n      heading=\"Testimonials\"\n      description=\"Our CRM solution is designed to streamline your business operations and improve efficiency.\"\n      actions={[\n        {\n          label: \"Try It Free\",\n          href: \"#\",\n          icon: \"lucide/arrow-right\",\n        },\n      ]}\n      videoSrc={videoPlaceholders[2]}\n      trust={{\n        starCount: 5,\n        message: \"Trusted by 2,500+ customers worldwide\",\n      }}\n    />\n  );\n}\n",
+      "code": "import { masterPlaylistUrls, videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoOverlayStars } from \"@opensite/ui/blocks/hero/hero-video-overlay-stars\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoOverlayStars\n      heading=\"Testimonials\"\n      description=\"Our CRM solution is designed to streamline your business operations and improve efficiency.\"\n      actions={[\n        {\n          label: \"Try It Free\",\n          href: \"#\",\n          icon: \"lucide/arrow-right\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl: masterPlaylistUrls[250],\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      trust={{\n        starCount: 5,\n        message: \"Trusted by 2,500+ customers worldwide\",\n      }}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -61046,15 +61201,40 @@
           "description": "Additional CSS classes for the heading",
           "required": false
         },
-        "videoSrc": {
-          "type": "string",
-          "description": "Video source URL",
+        "backgroundVideo": {
+          "type": "object",
+          "description": "Background video configuration",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "videoSlot": {
           "type": "object",
-          "description": "Custom slot for video background (overrides videoSrc)",
+          "description": "Custom slot for video background (overrides backgroundVideo)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "videoSrc": {
+          "type": "string",
+          "description": "",
           "required": false
         },
         "actionsClassName": {
@@ -61229,20 +61409,45 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "videoSrc": {
-          "type": "string",
-          "description": "Video source URL",
+        "backgroundVideo": {
+          "type": "object",
+          "description": "Background video configuration",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
           "required": false
         },
         "videoSlot": {
           "type": "object",
-          "description": "Custom slot for video (overrides videoSrc prop)",
+          "description": "Custom slot for video (overrides backgroundVideo prop)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "videoSrc": {
+          "type": "string",
+          "description": "",
           "required": false
         },
         "background": {
           "type": "string",
-          "description": "",
+          "description": "Background style for the section",
           "typeLabel": "SectionBackground",
           "required": false
         },
@@ -63689,9 +63894,39 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "videoDialogTitle": {
+          "type": "string",
+          "description": "Video dialog title",
+          "required": false
+        },
         "videoDialog": {
           "type": "object",
-          "description": "Video dialog configuration",
+          "description": "",
           "fields": {
             "title": {
               "type": "string",
@@ -65370,9 +65605,39 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "videoTitle": {
+          "type": "string",
+          "description": "Video dialog title",
+          "required": false
+        },
         "videoThumbnail": {
           "type": "object",
-          "description": "Video thumbnail image",
+          "description": "",
           "fields": {
             "src": {
               "type": "string",
@@ -65400,12 +65665,7 @@
         },
         "videoUrl": {
           "type": "string",
-          "description": "Video embed URL",
-          "required": false
-        },
-        "videoTitle": {
-          "type": "string",
-          "description": "Video dialog title",
+          "description": "",
           "required": false
         },
         "videoSlot": {
@@ -66960,9 +67220,39 @@
           "typeLabel": "ActionConfig",
           "required": false
         },
+        "modalVideo": {
+          "type": "object",
+          "description": "Video configuration for modal/dialog",
+          "fields": {
+            "image": {
+              "type": "object",
+              "description": "Image configuration using standard React img attributes.\nWhen both image and video are provided, image may serve as a poster/fallback.",
+              "typeLabel": "React.ComponentPropsWithoutRef",
+              "required": false
+            },
+            "video": {
+              "type": "object",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
+              "required": false
+            },
+            "containerClassName": {
+              "type": "string",
+              "description": "Additional CSS classes for the media container element.",
+              "required": false
+            }
+          },
+          "typeLabel": "MediaItem",
+          "required": false
+        },
+        "videoDialogTitle": {
+          "type": "string",
+          "description": "Video dialog title",
+          "required": false
+        },
         "videoDialog": {
           "type": "object",
-          "description": "Video dialog configuration",
+          "description": "",
           "fields": {
             "title": {
               "type": "string",
@@ -140311,7 +140601,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289195/bvjdqx7m8k6ppvpo1fqldpojdt3f/blocks-faq-split-hero-mobile.png"
       },
       "componentPath": "blocks/faq/faq-split-hero.tsx",
-      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqSplitHero } from \"@opensite/ui/blocks/faq/faq-split-hero\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHero\n      heading=\"Common Questions\"\n      subheading=\"Everything you need to know about our platform, features, and pricing.\"\n      items={[\n        {\n          id: \"demo\",\n          question: \"Can I schedule a demo?\",\n          answer:\n            \"Yes, we offer personalized demos for teams of 5 or more. Our product specialists will walk you through features, answer questions, and show you how to maximize value for your use case.\",\n        },\n        {\n          id: \"trial-limits\",\n          question: \"Are there any limitations on the free trial?\",\n          answer:\n            \"The 14-day trial includes full access to Professional plan features with no user limits. The only restriction is that trial data is deleted if you don't upgrade within 30 days.\",\n        },\n        {\n          id: \"switching\",\n          question: \"How easy is it to switch from competitors?\",\n          answer:\n            \"We make switching easy with automated data import tools, migration guides, and dedicated onboarding support. Most teams complete the switch in under a week with zero data loss.\",\n        },\n        {\n          id: \"updates\",\n          question: \"How often do you release updates?\",\n          answer:\n            \"We ship new features and improvements every two weeks. Security patches and bug fixes are deployed immediately. All updates are seamless with no downtime or manual upgrades required.\",\n        },\n      ]}\n      mediaItem={{\n        video: {\n          src: \"https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao\",\n          autoPlay: true,\n          loop: true,\n          muted: true,\n          playsInline: true,\n        },\n      }}\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.09}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FaqSplitHero } from \"@opensite/ui/blocks/faq/faq-split-hero\";\n\nexport default function Demo() {\n  return (\n    <FaqSplitHero\n      heading=\"Common Questions\"\n      subheading=\"Everything you need to know about our platform, features, and pricing.\"\n      items={[\n        {\n          id: \"demo\",\n          question: \"Can I schedule a demo?\",\n          answer:\n            \"Yes, we offer personalized demos for teams of 5 or more. Our product specialists will walk you through features, answer questions, and show you how to maximize value for your use case.\",\n        },\n        {\n          id: \"trial-limits\",\n          question: \"Are there any limitations on the free trial?\",\n          answer:\n            \"The 14-day trial includes full access to Professional plan features with no user limits. The only restriction is that trial data is deleted if you don't upgrade within 30 days.\",\n        },\n        {\n          id: \"switching\",\n          question: \"How easy is it to switch from competitors?\",\n          answer:\n            \"We make switching easy with automated data import tools, migration guides, and dedicated onboarding support. Most teams complete the switch in under a week with zero data loss.\",\n        },\n        {\n          id: \"updates\",\n          question: \"How often do you release updates?\",\n          answer:\n            \"We ship new features and improvements every two weeks. Security patches and bug fixes are deployed immediately. All updates are seamless with no downtime or manual upgrades required.\",\n        },\n      ]}\n      mediaItem={{\n        video: {\n          // masterPlaylistUrl:\n          //   \"https://octane.cdn.ing/api/v1/video/b268d45d-175a-5c42-bb0d-207c38f384e2/master_playlist\",\n          // src: \"https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao\",\n          masterPlaylistUrl:\n            \"https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist\",\n          fallbackSrc:\n            \"https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/progressive.mp4\",\n          autoPlay: true,\n          loop: true,\n          muted: true,\n          playsInline: true,\n          controls: false,\n        },\n      }}\n      pattern=\"diagonalCrossFadeTopLeft\"\n      patternOpacity={0.09}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -140368,8 +140658,8 @@
             },
             "video": {
               "type": "object",
-              "description": "Video configuration using standard React video attributes.\nWhen provided, the block renders a video element instead of (or in addition to) an image.",
-              "typeLabel": "React.ComponentPropsWithoutRef",
+              "description": "Video configuration using",
+              "typeLabel": "React.ComponentPropsWithoutRef<\"video\"> & { /** * Direct HLS master playlist URL (skips transform call) */ masterPlaylistUrl?: string; /** * Fallback progressive MP4 URL if HLS fails */ fallbackSrc?: string; /** * OptixFlow API key for poster optimization */ optixFlowApiKey?: string; /** * Skin classes for custom controls (from @page-speed/skins) */ skinClasses?: { container?: string; video?: string; controlsBar?: string; playButton?: string; timeline?: string; timelineProgress?: string; timelineBuffered?: string; timeText?: string; volumeControl?: string; fullscreenButton?: string; settingsButton?: string; loadingSpinner?: string; playOverlay?: string; playOverlayButton?: string; }; /** * CSS custom properties from skin tokens */ skinStyle?: Record<string, string>; /** * Enable debug logging */ debug?: boolean; }",
               "required": false
             },
             "containerClassName": {

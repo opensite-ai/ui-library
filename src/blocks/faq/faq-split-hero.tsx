@@ -34,11 +34,18 @@ export default function Demo() {
       ]}
       mediaItem={{
         video: {
-          src: "https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao",
+          // masterPlaylistUrl:
+          //   "https://octane.cdn.ing/api/v1/video/b268d45d-175a-5c42-bb0d-207c38f384e2/master_playlist",
+          // src: "https://toastability-production.s3.amazonaws.com/c654ma8l6buzf82lngt5yq2fxoao",
+          masterPlaylistUrl:
+            "https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist",
+          fallbackSrc:
+            "https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/progressive.mp4",
           autoPlay: true,
           loop: true,
           muted: true,
           playsInline: true,
+          controls: false,
         },
       }}
       pattern="diagonalCrossFadeTopLeft"

@@ -26,9 +26,11 @@ export default function Demo() {
         { src: imagePlaceholders[3], alt: "Growth metric 3" },
         { src: imagePlaceholders[4], alt: "Growth metric 4" },
       ]}
-      videoDialog={{
-        videoUrl: videoPlaceholders[25],
-        title: "See how it works",
+      modalVideo={{
+        video: {
+          src: videoPlaceholders[25],
+          title: "See how it works",
+        },
       }}
       background="dark"
     />

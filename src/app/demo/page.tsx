@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { openGraphImgUrl } from "@/lib/media";
+import {
+  openGraphImgUrl,
+  optixFlowApiKey,
+  videoPlaceholders,
+} from "@/lib/media";
 import Footer from "@/blocks/footers/footer-newsletter-minimal";
 import Article from "@/blocks/article/article-compact-toc";
-import Article2 from "@/blocks/article/article-toc-sidebar";
+import FaqSplitHero from "@/blocks/faq/faq-split-hero";
+import HeroBg from "@/blocks/hero/hero-video-background-dark";
 import HeroDemo from "@/blocks/hero/hero-badge-image-split";
-import { VideoPlayer } from "@page-speed/video";
+import { Video } from "@page-speed/video/core";
 import {
   loadSkinFromJsDelivr,
   resolveVideoClasses,
@@ -23,10 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-const skin = await loadSkinFromJsDelivr(
-  "0.1.0",
-  "skins/video/linear-inspired.json",
-);
+const skin = await loadSkinFromJsDelivr("0.1.2", "skins/video/base.json");
 
 const skinClasses = resolveVideoClasses(skin);
 const skinStyle = getSkinStyleObject(skin);
@@ -34,19 +36,22 @@ const skinStyle = getSkinStyleObject(skin);
 export default function DemoPage() {
   return (
     <div className="relative">
-      <HeroDemo />
-      <Article />
+      <HeroBg />
+      <FaqSplitHero />
+      {/* <HeroDemo /> */}
+      {/* <Article /> */}
       <div className="flex items-center justify-center p-32">
-        <VideoPlayer
-          masterPlaylistUrl="https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist"
+        <Video
+          masterPlaylistUrl="https://octane.cdn.ing/api/v1/video/df6f71fe-2fd9-51ef-b147-2902b6af60d9/master_playlist"
           fallbackSrc="https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/progressive.mp4"
+          src={videoPlaceholders[15]}
           poster="https://cdn.ing/assets/i/r/283714/o25uaxrpiw7bft5juw8nz2lflpi5/3z1o083tb7t7gol73v5afpfc7x8m.jpg"
           skinClasses={skinClasses}
           skinStyle={skinStyle}
+          optixFlowApiKey={optixFlowApiKey}
         />
       </div>
-      {/* <Article2 /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
