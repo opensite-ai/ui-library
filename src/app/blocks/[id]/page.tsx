@@ -11,7 +11,7 @@ import { BlockIdCopyHotkey } from "@/components/block-id-copy-hotkey";
 import { BlockDetailTabs } from "@/components/block-detail-tabs";
 import { openGraphImgUrl } from "@/lib/media";
 import { decodeBlockId, encodeBlockId } from "@/lib/utils";
-import { DynamicIcon, Pressable } from "@opensite/ui";
+import { DynamicIcon } from "@opensite/ui";
 import { Kbd, KbdKey } from "@/components/ui/kbd";
 
 interface BlockPageProps {
@@ -81,19 +81,15 @@ export default async function BlockPage({ params }: BlockPageProps) {
           ]}
         />
 
-        <Pressable
+        <a
           href={`/api/blocks/${encodeBlockId(block.id)}`}
           target="_blank"
           rel="noopener noreferrer"
-          componentType="button"
-          variant="default"
-          color="primary"
-          className=""
-          size="lg"
+          className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           View API
           <DynamicIcon className="" name="mynaui/api-solid" />
-        </Pressable>
+        </a>
       </div>
 
       {/* Tabs */}

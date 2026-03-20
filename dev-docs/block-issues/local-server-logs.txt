@@ -1,0 +1,33 @@
+○ Compiling /blocks/[id] ...
+(node:43945) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/tailwind.config.ts?id=1773954631639 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /demo 200 in 10.3s (compile: 9.1s, render: 1197ms)
+⨯ TypeError: {imported module ./nodemodules/.pnpm/next@16.1.5_@babel+core@7.28.6react-dom@19.2.3react@19.2.3__react@19.2.3/nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+    at ignore-listed frames {
+  type: 'TypeError',
+  page: '/blocks/feature-split-image'
+}
+⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+    at ignore-listed frames {
+  type: 'TypeError',
+  page: '/blocks/feature-split-image'
+}
+ GET /blocks/faq-numbered-grid 500 in 16.3s (compile: 16.2s, render: 109ms)
+ GET /blocks/feature-split-image 500 in 15.4s (compile: 15.4s, render: 37ms)
+ GET / 200 in 551ms (compile: 397ms, render: 154ms)
+ GET /categories 200 in 497ms (compile: 471ms, render: 26ms)
+ GET /categories/hero 200 in 699ms (compile: 610ms, render: 89ms)
+⨯ TypeError: {imported module ./nodemodules/.pnpm/next@16.1.5_@babel+core@7.28.6react-dom@19.2.3react@19.2.3__react@19.2.3/nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+    at ignore-listed frames {
+  type: 'TypeError',
+  page: '/blocks/hero-overlay-cta-grid'
+}
+ GET /blocks/hero-overlay-cta-grid 500 in 249ms (compile: 244ms, render: 5ms)
+⨯ TypeError: {imported module ./nodemodules/.pnpm/next@16.1.5_@babel+core@7.28.6react-dom@19.2.3react@19.2.3__react@19.2.3/nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+    at ignore-listed frames {
+  type: 'TypeError',
+  page: '/blocks/hero-overlay-cta-grid'
+}
+ GET /blocks/hero-overlay-cta-grid 500 in 245ms (compile: 231ms, render: 14ms)

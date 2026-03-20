@@ -2,6 +2,19 @@ import { brandLogoPlaceholders, optixFlowApiKey } from "@/lib/media";
 import { HeroConversionVideoPlay } from "@opensite/ui/blocks/hero/hero-conversion-video-play";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
+import {
+  loadSkinFromJsDelivr,
+  resolveVideoClasses,
+  getSkinStyleObject,
+} from "@page-speed/skins";
+const skin = await loadSkinFromJsDelivr(
+  "0.1.2",
+  "skins/video/youtube-classic.json",
+);
+
+const skinClasses = resolveVideoClasses(skin);
+const skinStyle = getSkinStyleObject(skin);
+
 export default function Demo() {
   return (
     <HeroConversionVideoPlay
@@ -24,6 +37,8 @@ export default function Demo() {
           poster:
             "https://cdn.ing/assets/i/r/209106/variants/i86gmxxj6rpf6i1pisg9o3l2ycsp/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/354071-nightlife-bar-smiling-talking-by-azulroto-artlist-4k.webp",
           optixFlowApiKey: optixFlowApiKey,
+          skinClasses: skinClasses,
+          skinStyle: skinStyle,
         },
       }}
       videoDialogTitle="Conversion Optimization Demo"

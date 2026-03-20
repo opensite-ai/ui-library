@@ -5,8 +5,8 @@
 
 import { notFound } from "next/navigation";
 import { getBlockById } from "@/lib/registry";
-import { getComponent } from "@/lib/component-registry";
 import { decodeBlockId } from "@/lib/utils";
+import { PreviewFrameClient } from "@/components/preview-frame-client";
 import type { Metadata } from "next";
 
 interface PreviewFramePageProps {
@@ -38,10 +38,8 @@ export async function generateMetadata({
 
 export default async function PreviewFramePage({
   params,
-  searchParams,
 }: PreviewFramePageProps) {
   const { id } = await params;
-  const { mode = "desktop" } = await searchParams;
   const blockId = decodeBlockId(id);
   const block = getBlockById(blockId);
 
@@ -49,23 +47,5 @@ export default async function PreviewFramePage({
     notFound();
   }
 
-  // Get the client component
-  const Component = getComponent(blockId);
-
-  if (!Component) {
-    return (
-      <div style={{ padding: "20px", fontFamily: "monospace" }}>
-        <h1>Component Not Found</h1>
-        <p>
-          The component for &quot;{block.title}&quot; is not registered in the
-          component registry.
-        </p>
-        <p style={{ marginTop: "1rem", fontSize: "0.875rem", color: "#666" }}>
-          Block ID: <code>{blockId}</code>
-        </p>
-      </div>
-    );
-  }
-
-  return <Component />;
+  return <PreviewFrameClient blockId={blockId} blockTitle={block.title} />;
 }

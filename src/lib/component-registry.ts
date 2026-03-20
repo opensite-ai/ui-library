@@ -7,7 +7,9 @@
 import type { ComponentType } from "react";
 import dynamic from "next/dynamic";
 
-type ComponentLoader = () => Promise<{ default: ComponentType<any> }>;
+type PreviewComponentProps = Record<string, unknown>;
+type PreviewComponentType = ComponentType<PreviewComponentProps>;
+type ComponentLoader = () => Promise<{ default: PreviewComponentType }>;
 
 export const componentLoaders: Record<string, ComponentLoader> = {
   // Hero blocks
@@ -700,14 +702,17 @@ export const componentLoaders: Record<string, ComponentLoader> = {
 export const componentRegistry = Object.fromEntries(
   Object.entries(componentLoaders).map(([blockId, loader]) => [
     blockId,
-    dynamic(loader),
+    dynamic(loader, {
+      loading: () => null,
+      ssr: false,
+    }),
   ])
-) as Record<string, ComponentType<any>>;
+) as Record<string, PreviewComponentType>;
 
 /**
  * Get a component by its block ID (client-friendly dynamic component).
  */
-export function getComponent(blockId: string): ComponentType<any> | null {
+export function getComponent(blockId: string): PreviewComponentType | null {
   return componentRegistry[blockId] || null;
 }
 
@@ -716,12 +721,12 @@ export function getComponent(blockId: string): ComponentType<any> | null {
  */
 export async function loadComponent(
   blockId: string
-): Promise<ComponentType<any> | null> {
+): Promise<PreviewComponentType | null> {
   const loader = componentLoaders[blockId];
   if (!loader) {
     return null;
   }
 
-  const module = await loader();
-  return module.default ?? null;
+  const loadedModule = await loader();
+  return loadedModule.default ?? null;
 }

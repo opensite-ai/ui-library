@@ -22,6 +22,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@opensite/ui/dist/**/*.{js,mjs}",
+    "./node_modules/@page-speed/pressable/dist/**/*.{js,cjs}",
   ],
   theme: {
     extend: {

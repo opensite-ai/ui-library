@@ -1,0 +1,23 @@
+index.tsx:936 Uncaught TypeError: {imported module ./nodemodules/.pnpm/next@16.1.5_@babel+core@7.28.6react-dom@19.2.3react@19.2.3__react@19.2.3/nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+    at module evaluation (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/node_modules__pnpm_1bd96380._.js:13936:403)
+    at instantiateModule (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:763:12)
+    at Context.esmImport [as i] (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:228:20)
+    at module evaluation (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/node_modules__pnpm_1bd96380._.js:13955:350)
+    at instantiateModule (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:763:12)
+    at Context.esmImport [as i] (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:228:20)
+    at module evaluation (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/node_modules__pnpm_1bd96380._.js:14245:348)
+    at instantiateModule (/Users/jordanhudgens/code/dashtrack/tools/opensite-ui-showcase/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:740:9)
+forward-logs-shared.ts:95 [HMR] connected
+content.js:10 Mapify:warn Element not found for selector: 'mapify-window'
+log @ content.js:10
+hero-overlay-cta-grid:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hero-overlay-cta-grid:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hero-overlay-cta-grid:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hero-overlay-cta-grid:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+hero-overlay-cta-grid:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+forward-logs-shared.ts:95 [Fast Refresh] rebuilding
+forward-logs-shared.ts:95 [Fast Refresh] done in 333ms
+forward-logs-shared.ts:95 [Fast Refresh] rebuilding
+forward-logs-shared.ts:95 [Fast Refresh] done in 181ms
