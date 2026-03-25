@@ -44,6 +44,10 @@ export default function Demo() {
         },
       ]}
       readText="Read More"
+      pattern="diagonalCrossFadeTop"
+      patternOpacity={1}
+      background="gray"
+      spacing="hero"
     />
   );
 }

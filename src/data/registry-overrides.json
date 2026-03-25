@@ -2487,12 +2487,12 @@
       "title": "Blog Filtered Results",
       "componentPath": "blocks/blog/blog-filtered-results.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/295072/cyd3oyy1bbwns5zl2f7fsd1mu7so/blog-filtered-results-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/295071/pn1zihkdeoxht8lnpsz83ounlacr/blog-filtered-results-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289051/ffkmetpu1m49bn7f09u6b42oqn7x/blog-filtered-results-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289052/gpyvg02qzij33z2bsdxlzytj4e9x/blog-filtered-results-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/295072/cyd3oyy1bbwns5zl2f7fsd1mu7so/blog-filtered-results-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/295071/pn1zihkdeoxht8lnpsz83ounlacr/blog-filtered-results-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-filtered-results.tsx"
@@ -2543,12 +2543,12 @@
       "title": "Blog Horizontal Timeline",
       "componentPath": "blocks/blog/blog-horizontal-timeline.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/295069/2u1a01s51c2780hza7q7ood0830b/blog-horizontal-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/295070/9qmrhlz26uzfxq1cn4uqsal1mco8/blog-horizontal-timeline-mobile.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/289115/1h8t9pt2yw8pg0cqyyf61n12y8jp/blocks-blog-horizontal-timeline-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289114/d76udd8i4i2qtg9gkdeen0zcd4mo/blocks-blog-horizontal-timeline-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/295069/2u1a01s51c2780hza7q7ood0830b/blog-horizontal-timeline-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/295070/9qmrhlz26uzfxq1cn4uqsal1mco8/blog-horizontal-timeline-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-horizontal-timeline.tsx"
@@ -3523,12 +3523,12 @@
       "title": "Link Page Bento Layout",
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png",
-        "mobile": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png"
+        "desktop": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png",
+        "mobile": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png"
       },
       "preview": {
-        "desktop": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png",
-        "mobile": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png"
+        "desktop": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png",
+        "mobile": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-bento-layout"
