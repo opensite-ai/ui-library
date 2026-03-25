@@ -43,6 +43,7 @@ export default function Demo() {
       pattern="diagonalCrossFadeCenter"
       patternOpacity={0.8}
       background="dark"
+      spacing="hero"
     />
   );
 }

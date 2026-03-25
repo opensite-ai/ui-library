@@ -65,6 +65,9 @@ export default function Demo() {
           countLabel: "Wellness Retreats",
         },
       ]}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.7}
+      background="white"
     />
   );
 }

@@ -43,6 +43,10 @@ export default function Demo() {
           image: imagePlaceholders[101],
         },
       ]}
+      pattern="diagonalCrossBasic"
+      patternOpacity={0.8}
+      background="gray"
+      spacing="hero"
     />
   );
 }
