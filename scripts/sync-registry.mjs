@@ -324,7 +324,6 @@ const generatedBlocks = blocks.map((block) => {
     categorySlug,
     description: block.description || "",
     thumbnail: override.thumbnail || PLACEHOLDER_THUMBNAIL,
-    preview: override.preview || override.thumbnail || PLACEHOLDER_THUMBNAIL,
     componentPath,
     code,
     propsSchema,

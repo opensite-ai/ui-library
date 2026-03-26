@@ -52,7 +52,6 @@ export interface Block {
   categorySlug: string;
   description: string;
   thumbnail: BlockThumbnail;
-  preview?: BlockThumbnail; // Alternative field name from registry
   componentPath: string;
   code: string;
   propsSchema?: PropsSchema;

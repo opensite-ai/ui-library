@@ -138,9 +138,28 @@ function loadRegistry(): BlocksRegistry {
 }
 
 /**
- * Normalize a block from the registry into our Block type
+ * Decode HTML entities and normalize whitespace in a code string.
+ * Handles cases where JSX code was HTML-encoded before storage (e.g., `<` → `&lt;`).
  */
-function normalizeBlock(rawBlock: any): Block {
+function cleanCodeString(raw: string | undefined): string {
+  if (!raw) return "";
+  return raw
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\r\n/g, "\n")
+    .trim();
+}
+
+/**
+ * Normalize a block from the registry into our Block type.
+ * Accepts any partial block shape from the registry JSON — all fields are optional
+ * and will fall back to safe defaults. The `code` field is cleaned of HTML entities
+ * and whitespace so callers always receive ready-to-render JSX.
+ */
+function normalizeBlock(rawBlock: Partial<Block>): Block {
   return {
     id: rawBlock.id || rawBlock.name?.toLowerCase().replace(/\s+/g, "-") || "",
     name: rawBlock.name || rawBlock.title || "",
@@ -151,14 +170,12 @@ function normalizeBlock(rawBlock: any): Block {
       rawBlock.category?.toLowerCase().replace(/\s+/g, "-") ||
       "uncategorized",
     description: rawBlock.description || "",
-    thumbnail: rawBlock.thumbnail ||
-      rawBlock.preview || {
-        desktop: geometricPlaceholderImgs.one.desktop,
-        mobile: geometricPlaceholderImgs.one.mobile,
-      },
-    preview: rawBlock.preview || rawBlock.thumbnail,
+    thumbnail: rawBlock.thumbnail || {
+      desktop: geometricPlaceholderImgs.one.desktop,
+      mobile: geometricPlaceholderImgs.one.mobile,
+    },
     componentPath: rawBlock.componentPath || "",
-    code: rawBlock.code || "",
+    code: cleanCodeString(rawBlock.code),
     propsSchema: rawBlock.propsSchema || {},
     defaultProps: rawBlock.defaultProps || {},
     dependencies: rawBlock.dependencies || [],
