@@ -7,10 +7,6 @@ export default function Demo() {
       author={{
         name: "Jessica Martinez",
         role: "Founder & CEO",
-        avatar: {
-          src: imagePlaceholders[72],
-          alt: "Jessica Martinez",
-        },
       }}
       title="A Letter From Our Founder"
       content={`When I started this company in 2015, I had a simple belief: technology should empower people, not overwhelm them.

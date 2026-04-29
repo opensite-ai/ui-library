@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-29T02:19:30.892Z",
+    "exportedAt": "2026-04-29T05:51:07.416Z",
     "totalBlocks": 605,
-    "version": "3.2.9",
+    "version": "3.3.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-04-29T03:19:52.117Z"
+    "syncedAt": "2026-04-29T05:53:42.858Z"
   },
   "blocks": [
     {
@@ -346,7 +346,8 @@
         "hero",
         "image-grid"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate either 3 or 6 `features` since the features grid is a 3 column layout."
     },
     {
       "id": "about-stats-showcase",
@@ -724,7 +725,8 @@
         "social-proof",
         "achievements"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only generate 3 or 6 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block."
     },
     {
       "id": "about-company-profile",
@@ -1114,7 +1116,8 @@
         "cta",
         "credibility"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 `achievements` since the achievements showcase is a 4 column layout. Follow the example props closely for this block."
     },
     {
       "id": "about-vision-gallery",
@@ -1384,7 +1387,8 @@
         "creators",
         "two-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Follow the example props closely for this block, especially the count of images."
     },
     {
       "id": "about-developer-story",
@@ -1712,7 +1716,8 @@
         "cta",
         "technical"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block."
     },
     {
       "id": "about-story-gallery",
@@ -1857,7 +1862,8 @@
         "narrative",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to use 3, 6, 9, etc `images` since the images showcase is a 3 column layout."
     },
     {
       "id": "about-streamline-team",
@@ -2183,7 +2189,8 @@
         "modern",
         "overlapping"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use 1 `action` prop and don't exceed 4 `features` or it will distort the layout"
     },
     {
       "id": "about-developer-profile",
@@ -2803,7 +2810,7 @@
         "mobile": "https://cdn.ing/assets/i/r/288986/v8t5jg43j1p6lwqbgakts6m96go6/founder-letter-about-page-mobile-clean-ui.jpg"
       },
       "componentPath": "blocks/about/about-minimal-story.tsx",
-      "code": "import { AboutMinimalStory } from \"@opensite/ui/blocks/about/about-minimal-story\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMinimalStory\n      author={{\n        name: \"Jessica Martinez\",\n        role: \"Founder & CEO\",\n        avatar: {\n          src: imagePlaceholders[72],\n          alt: \"Jessica Martinez\",\n        },\n      }}\n      title=\"A Letter From Our Founder\"\n      content={`When I started this company in 2015, I had a simple belief: technology should empower people, not overwhelm them.\n\nAfter spending a decade in enterprise software, I saw firsthand how complex tools often created more problems than they solved. Teams struggled with bloated systems, users abandoned products out of frustration, and businesses lost sight of what mattered most—their customers.\n\nSo I set out to build something different. A company that puts simplicity at the center of everything we create. Where every feature earns its place by making someone's life easier, not just checking a box on a requirements document.\n\nToday, we serve thousands of businesses worldwide, but our mission remains unchanged. We're still that scrappy team asking \"does this actually help?\" before shipping anything.\n\nThank you for being part of our journey.`}\n      featuredImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n    />\n  );\n}\n",
+      "code": "import { AboutMinimalStory } from \"@opensite/ui/blocks/about/about-minimal-story\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutMinimalStory\n      author={{\n        name: \"Jessica Martinez\",\n        role: \"Founder & CEO\",\n      }}\n      title=\"A Letter From Our Founder\"\n      content={`When I started this company in 2015, I had a simple belief: technology should empower people, not overwhelm them.\n\nAfter spending a decade in enterprise software, I saw firsthand how complex tools often created more problems than they solved. Teams struggled with bloated systems, users abandoned products out of frustration, and businesses lost sight of what mattered most—their customers.\n\nSo I set out to build something different. A company that puts simplicity at the center of everything we create. Where every feature earns its place by making someone's life easier, not just checking a box on a requirements document.\n\nToday, we serve thousands of businesses worldwide, but our mission remains unchanged. We're still that scrappy team asking \"does this actually help?\" before shipping anything.\n\nThank you for being part of our journey.`}\n      featuredImage={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n    />\n  );\n}\n",
       "propsSchema": {
         "title": {
           "type": "object",
@@ -2975,7 +2982,8 @@
         "personal",
         "origin"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only include an avatar for the author if you have an actual photo/avatar for the author"
     },
     {
       "id": "about-story-hero",
@@ -3351,7 +3359,8 @@
         "sticky",
         "organized"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `stats` since the stats element uses a 2 column layout."
     },
     {
       "id": "about-interactive-tabs",
@@ -4199,7 +4208,8 @@
         "trust",
         "capabilities"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `expertiseAreas` since the expertiseAreas element uses a 2 column layout. Keep the highlight prop's label, title, and description succinct since too long of content will distort the layout."
     },
     {
       "id": "about-network-spotlight",
@@ -4490,7 +4500,8 @@
         "alliances",
         "community"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to not generate more than 5-6 `highlights`. Keep the the `spotlightCard` prop's label, title, and description succinct since too long of content will distort the layout."
     },
     {
       "id": "about-location-info-hero",
@@ -135403,7 +135414,8 @@
         "brand",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to use concise content for the text content props since too long of content will distort the layout."
     },
     {
       "id": "about-mission-principles",
@@ -135710,7 +135722,8 @@
         "numbered",
         "cards"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if you have 4 `principles` props, any different count than 4 will distort the layout. Follow the example props closely for this block."
     },
     {
       "id": "about-expandable-values",
@@ -135985,7 +135998,8 @@
         "icons",
         "accordion"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Follow the example props closely for this block."
     },
     {
       "id": "community-initiatives",
@@ -136319,7 +136333,8 @@
         "corporate",
         "responsibility"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout."
     },
     {
       "id": "about-culture-tabs",
@@ -136639,7 +136654,8 @@
         "values",
         "workplace"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block has a large number of strict requirements and should only be used for a website that has a large number of imges, reviews/testimonials, etc. Only use if you generate exactly 4 `aspects` since any more/fewer will distort the layout. Follow the example props very closely for this block, e.g. image counts in each section, 1 REAL (DO NOT GENERATE FAKE REVIEWS/TESTIMONIALS) testimonial per aspect, etc."
     },
     {
       "id": "feature-animated-carousel",
