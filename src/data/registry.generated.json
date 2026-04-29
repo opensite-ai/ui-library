@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-29T00:45:02.307Z",
+    "exportedAt": "2026-04-29T01:39:01.018Z",
     "totalBlocks": 605,
-    "version": "3.2.7",
+    "version": "3.2.8",
     "source": "@opensite/ui",
-    "syncedAt": "2026-04-29T01:08:36.417Z"
+    "syncedAt": "2026-04-29T02:07:03.743Z"
   },
   "blocks": [
     {
@@ -93840,6 +93840,11 @@
               "className": {
                 "type": "string",
                 "description": "Additional CSS classes for the step item",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "Optional URL",
                 "required": false
               }
             },
