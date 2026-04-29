@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-11T09:21:18.150Z",
+    "exportedAt": "2026-04-29T00:45:02.307Z",
     "totalBlocks": 605,
-    "version": "3.2.6",
+    "version": "3.2.7",
     "source": "@opensite/ui",
-    "syncedAt": "2026-04-11T09:28:12.279Z"
+    "syncedAt": "2026-04-29T01:08:36.417Z"
   },
   "blocks": [
     {
@@ -49572,46 +49572,78 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
-        "primaryCta": {
-          "type": "object",
-          "description": "Primary call-to-action config",
-          "fields": {
-            "label": {
-              "type": "string",
-              "description": "",
-              "required": true
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "\"aria-label\"": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
             },
-            "href": {
-              "type": "string",
-              "description": "",
-              "required": true
-            }
+            "typeLabel": "ActionConfig"
           },
-          "typeLabel": "{ label: string; href: string; }",
-          "required": false
-        },
-        "secondaryCta": {
-          "type": "object",
-          "description": "Secondary call-to-action config",
-          "fields": {
-            "label": {
-              "type": "string",
-              "description": "",
-              "required": true
-            },
-            "href": {
-              "type": "string",
-              "description": "",
-              "required": true
-            }
-          },
-          "typeLabel": "{ label: string; href: string; }",
+          "typeLabel": "ActionConfig[]",
           "required": false
         },
         "actionsSlot": {
           "type": "object",
-          "description": "Custom slot for actions (overrides primaryCta and secondaryCta)",
+          "description": "Custom slot for rendering actions (overrides actions array)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
           "required": false
         },
         "cards": {
@@ -93900,6 +93932,11 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
         "sectionId": {
           "type": "string",
           "description": "Optional Section ID",
@@ -94153,19 +94190,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
-          "required": false
-        },
-        "ctaText": {
-          "type": "string",
-          "description": "",
-          "required": false
-        },
-        "ctaUrl": {
-          "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "sectionId": {
@@ -94551,9 +94578,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "sectionId": {
@@ -95151,9 +95178,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "missionTitle": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "sectionId": {
@@ -95335,9 +95362,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "sectionId": {
@@ -95604,9 +95631,9 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
-        "title": {
+        "containerClassName": {
           "type": "string",
-          "description": "",
+          "description": "Additional CSS classes for the container",
           "required": false
         },
         "sectionId": {
