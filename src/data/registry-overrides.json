@@ -1682,7 +1682,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293089/qr1mwbjz0ww9ox7rx6jnqu4sohwg/cleanshot-2026-03-03-at-13-29-17.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-breadcrumb-social.tsx"
+      "demoPath": "src/blocks/article/article-breadcrumb-social.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to adhere to the required markdown formatting to inject `id` attributes for each section that map exactly to the `sections` `id` value. Ensure to only use the author.ame, author.image, and author.role fields if you have actual data to populate those fields, using empty/fake data is not acceptable!"
     },
     "article-chapters-author": {
       "title": "Article Chapters Author",
@@ -1692,7 +1693,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293087/fza7b6gqmv42zwt7exjdv4ddn42c/cleanshot-2026-03-03-at-13-22-54.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-chapters-author.tsx"
+      "demoPath": "src/blocks/article/article-chapters-author.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to adhere to the required markdown formatting to inject `id` attributes for each chapter that map exactly to the `chapters` `id` value. Ensure to only use the author.ame, author.image, author.bio, author.socialLinks, and author.role fields if you have actual data to populate those fields, using empty/fake data is not acceptable! Ensure to ONLY use valid `href` values for the `conclusionActions`"
     },
     "article-compact-toc": {
       "title": "Article Compact TOC",
@@ -1702,7 +1704,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293091/hv0py46jnstvdhy1i1vbk17kywhv/cleanshot-2026-03-03-at-13-40-18.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-compact-toc.tsx"
+      "demoPath": "src/blocks/article/article-compact-toc.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to adhere to the required markdown formatting to inject `id` attributes for each section that map exactly to the `sections` `id` value. Ensure to only use the authorName, authorImage, authorHref, and authorImage fields if you have actual data to populate those fields, using empty/fake data is not acceptable!"
     },
     "article-hero-prose": {
       "title": "Article Hero Prose",
@@ -1712,7 +1715,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293093/t099stgoambmukt6v1wq0xxvwjwj/cleanshot-2026-03-03-at-13-41-52.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-hero-prose.tsx"
+      "demoPath": "src/blocks/article/article-hero-prose.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to only use the post.authorName, post.authorImage, post.authorHref, and post.authorImage fields if you have actual data to populate those fields, using empty/fake data is not acceptable!"
     },
     "article-sidebar-sticky": {
       "title": "Article Sidebar Sticky",
@@ -1722,7 +1726,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293081/491xz1v2xe8p4ty1wnj7o0ijwp40/cleanshot-2026-03-03-at-13-05-53.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-sidebar-sticky.tsx"
+      "demoPath": "src/blocks/article/article-sidebar-sticky.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to only use the authorName, authorImage, authorHref, and authorImage fields if you have actual data to populate those fields, using empty/fake data is not acceptable!"
     },
     "article-split-animated": {
       "title": "Article Split Animated",
@@ -1742,7 +1747,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293074/m3131lck7hsql683f9l84ua6wy6d/cleanshot-2026-03-03-at-12-00-44.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/article/article-toc-sidebar.tsx"
+      "demoPath": "src/blocks/article/article-toc-sidebar.tsx",
+      "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to adhere to the required markdown formatting to inject `id` attributes for each section that map exactly to the `sections` `id` value. Ensure to only use the authorName, authorImage, authorHref, and authorImage fields if you have actual data to populate those fields, using empty/fake data is not acceptable! Only provide valid `ctaActions` and only provide a `ctaTitle` and `ctaDescription` if you have actual `ctaActions` (typically only 1 ctaAction looks best)."
     },
     "blog-cards-read-time": {
       "title": "Blog Cards Read Time",

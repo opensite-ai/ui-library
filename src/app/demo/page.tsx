@@ -7,6 +7,7 @@ import {
 import ContactImage from "@/blocks/contact/contact-image";
 import HeroSplitIconCards from "@/blocks/hero/hero-split-icon-cards";
 import FaqSplitHero from "@/blocks/faq/faq-split-hero";
+import ArticleTocSidebar from "@/blocks/article/article-toc-sidebar";
 import HeroBg from "@/blocks/hero/hero-video-background-dark";
 import { Video } from "@page-speed/video/core";
 import {
@@ -37,7 +38,8 @@ export default function DemoPage() {
   return (
     <RouterWrapper>
       <div className="relative">
-        <HeroBg />
+        <ArticleTocSidebar />
+        {/* <HeroBg />
         <FaqSplitHero />
         <ContactImage />
         <HeroSplitIconCards />
@@ -51,7 +53,7 @@ export default function DemoPage() {
             skinStyle={skinStyle}
             optixFlowApiKey={optixFlowApiKey}
           />
-        </div>
+        </div> */}
       </div>
     </RouterWrapper>
   );

@@ -1150,3 +1150,52 @@ export const masterPlaylistUrls = [
   "https://octane.cdn.ing/api/v1/video/a7308a3e-8129-58af-94e9-e4d1e50db9a0/master_playlist",
   "https://octane.cdn.ing/api/v1/video/c91fbafd-0c73-5cb5-98a6-ee9715e66e60/master_playlist",
 ];
+
+export const LONG_FORM_MARKDOWN_STRING = `## Introduction {#introduction}
+
+Building scalable applications requires careful consideration of architecture, design patterns, and infrastructure. In this guide, we'll explore the key principles that enable applications to grow gracefully with increasing demand.
+
+> **Pro Tip**
+>
+> Start with a simple architecture and evolve it as your needs grow. Premature optimization can lead to unnecessary complexity.
+
+## Getting Started {#getting-started}
+
+Before diving into complex architectural patterns, ensure you have a solid understanding of your application's requirements. Consider factors like expected traffic, data volume, and team expertise.
+
+A well-designed system starts with clear requirements and constraints. Document your assumptions and validate them with stakeholders before making architectural decisions.
+
+- Define your scalability goals with specific metrics
+- Identify your system's critical paths and bottlenecks
+- Understand your data access patterns and query volumes
+- Plan for monitoring and observability from day one
+
+## Core Concepts {#core-concepts}
+
+Scalability encompasses both horizontal and vertical scaling strategies. Horizontal scaling adds more machines to handle load, while vertical scaling increases the capacity of existing machines.
+
+![Architecture diagram showing scaling strategies](${imagePlaceholders[8]})
+
+Key concepts include load balancing, caching, database sharding, and microservices architecture. Each approach has trade-offs that must be carefully evaluated based on your specific use case.
+
+> "Scalability is not just about handling more load-it's about doing so efficiently while maintaining reliability and cost-effectiveness."
+
+## Best Practices {#best-practices}
+
+Follow these best practices to ensure your application scales effectively:
+
+- Design for failure and implement graceful degradation
+- Use caching strategically at multiple levels (CDN, application, database)
+- Implement proper monitoring and alerting for all critical systems
+- Automate deployment and scaling processes with Infrastructure as Code
+- Use asynchronous processing for non-critical operations
+- Implement circuit breakers for external service dependencies
+- Design APIs with rate limiting and throttling from the start
+
+Remember that premature optimization is often counterproductive. Focus on building a solid foundation and optimize based on real-world data and bottleneck analysis.
+
+## Conclusion {#conclusion}
+
+Building scalable applications is both an art and a science. By understanding the fundamental principles and applying them thoughtfully, you can create systems that grow with your business needs.
+
+The key is to remain pragmatic: scale when needed, not when anticipated. Over-engineering can be as problematic as under-engineering. Use monitoring data to guide your scaling decisions and continuously iterate on your architecture as you learn more about your system's behavior.`;
