@@ -36,7 +36,6 @@ export default function Demo() {
       pattern="dashedGridFadeTop"
       patternOpacity={0.15}
       markdownString={LONG_FORM_MARKDOWN_STRING}
-      renderMode="markdown"
     />
   );
 }
