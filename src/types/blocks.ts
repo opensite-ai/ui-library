@@ -59,6 +59,7 @@ export interface Block {
   dependencies?: string[];
   tags?: string[];
   performance?: BlockPerformance;
+  importantUsageNotes?: string;
 }
 
 /**

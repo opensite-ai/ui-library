@@ -2481,7 +2481,8 @@
       "dependencies": [
         "@opensite/ui"
       ],
-      "demoPath": "src/blocks/features/feature-integration-cards.tsx"
+      "demoPath": "src/blocks/features/feature-integration-cards.tsx",
+      "importantUsageNotes": "Only use when block images will be logos or compact integration marks. The image slots are intentionally sized down for logos, so photos, screenshots, people, product imagery, and large illustrations will look poor."
     },
     "feature-checklist-three-column": {
       "title": "Feature Checklist Three Column",

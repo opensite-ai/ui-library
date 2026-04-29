@@ -331,6 +331,10 @@ const generatedBlocks = blocks.map((block) => {
     dependencies: override.dependencies || [],
     tags: block.semanticTags || [],
     performance: override.performance || {},
+    importantUsageNotes:
+      typeof override.importantUsageNotes === "string"
+        ? override.importantUsageNotes
+        : undefined,
   };
 });
 

@@ -181,6 +181,7 @@ function normalizeBlock(rawBlock: Partial<Block>): Block {
     dependencies: rawBlock.dependencies || [],
     tags: rawBlock.tags || [],
     performance: rawBlock.performance || {},
+    importantUsageNotes: rawBlock.importantUsageNotes || undefined,
   };
 }
 

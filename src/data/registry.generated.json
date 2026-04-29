@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-29T01:39:01.018Z",
+    "exportedAt": "2026-04-29T02:19:30.892Z",
     "totalBlocks": 605,
-    "version": "3.2.8",
+    "version": "3.2.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-04-29T02:07:03.743Z"
+    "syncedAt": "2026-04-29T03:19:52.117Z"
   },
   "blocks": [
     {
@@ -23584,7 +23584,8 @@
         "external-links",
         "partners"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use when block images will be logos or compact integration marks. The image slots are intentionally sized down for logos, so photos, screenshots, people, product imagery, and large illustrations will look poor."
     },
     {
       "id": "feature-icon-tabs-content",
