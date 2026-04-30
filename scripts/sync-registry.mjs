@@ -18,6 +18,7 @@ const PLACEHOLDER_THUMBNAIL = {
 const BLOCKS_COMPONENTS_DIR = path.join(opensiteUiPath, "components", "blocks");
 const TYPES_DIR = path.join(opensiteUiPath, "src", "types");
 const UI_DIR = path.join(opensiteUiPath, "components", "ui");
+const LIB_DIR = path.join(opensiteUiPath, "lib");
 
 const isTsFile = (file) => file.endsWith(".ts") || file.endsWith(".tsx");
 
@@ -78,19 +79,31 @@ const getJsDocComment = (node) => {
     .trim();
 };
 
+const getPropertyName = (name, sourceFile) => {
+  if (ts.isIdentifier(name) || ts.isStringLiteral(name) || ts.isNumericLiteral(name)) {
+    return name.text;
+  }
+
+  return name.getText(sourceFile);
+};
+
 const buildTypeIndex = (sourceFiles) => {
   const interfaces = new Map();
   const typeAliases = new Map();
+  const program = ts.createProgram(sourceFiles, {
+    allowSyntheticDefaultImports: true,
+    esModuleInterop: true,
+    jsx: ts.JsxEmit.ReactJSX,
+    module: ts.ModuleKind.ESNext,
+    moduleResolution: ts.ModuleResolutionKind.Bundler,
+    skipLibCheck: true,
+    target: ts.ScriptTarget.Latest,
+  });
+  const checker = program.getTypeChecker();
 
   for (const filePath of sourceFiles) {
-    const contents = fs.readFileSync(filePath, "utf-8");
-    const sourceFile = ts.createSourceFile(
-      filePath,
-      contents,
-      ts.ScriptTarget.Latest,
-      true,
-      filePath.endsWith(".tsx") ? ts.ScriptKind.TSX : ts.ScriptKind.TS
-    );
+    const sourceFile = program.getSourceFile(filePath);
+    if (!sourceFile) continue;
 
     const visit = (node) => {
       if (ts.isInterfaceDeclaration(node)) {
@@ -116,10 +129,73 @@ const buildTypeIndex = (sourceFiles) => {
     visit(sourceFile);
   }
 
-  return { interfaces, typeAliases };
+  return { checker, interfaces, typeAliases };
 };
 
 const schemaCache = new Map();
+
+const buildSchemaFromCheckerType = (type, checker) => {
+  const unionTypes = type.isUnion()
+    ? type.types.filter(
+        (member) =>
+          !(member.flags & ts.TypeFlags.Undefined) &&
+          !(member.flags & ts.TypeFlags.Null)
+      )
+    : [type];
+  const normalizedType = unionTypes.length === 1 ? unionTypes[0] : type;
+  const typeLabel = checker.typeToString(normalizedType);
+  const withTypeLabel = (schema) => {
+    if (!schema.typeLabel && typeLabel && !["string", "number", "boolean"].includes(typeLabel)) {
+      schema.typeLabel = typeLabel;
+    }
+    return schema;
+  };
+
+  if (
+    unionTypes.length > 1 &&
+    unionTypes.every((member) => member.isStringLiteral?.())
+  ) {
+    return { type: "string", description: "", typeLabel };
+  }
+
+  if (normalizedType.flags & ts.TypeFlags.StringLike) {
+    return { type: "string", description: "" };
+  }
+
+  if (normalizedType.flags & ts.TypeFlags.NumberLike) {
+    return { type: "number", description: "" };
+  }
+
+  if (
+    normalizedType.flags & ts.TypeFlags.BooleanLike ||
+    typeLabel === "boolean"
+  ) {
+    return { type: "boolean", description: "" };
+  }
+
+  return withTypeLabel({ type: "object", description: "" });
+};
+
+const buildSchemaFieldsFromCheckerType = (typeNode, context, index) => {
+  if (!index.checker) return {};
+
+  const type = index.checker.getTypeAtLocation(typeNode);
+  const fields = {};
+
+  for (const property of index.checker.getPropertiesOfType(type)) {
+    const declaration = property.valueDeclaration || property.declarations?.[0];
+    const propertyType = index.checker.getTypeOfSymbolAtLocation(
+      property,
+      declaration || typeNode
+    );
+    const schema = buildSchemaFromCheckerType(propertyType, index.checker);
+    schema.description = declaration ? getJsDocComment(declaration) : "";
+    schema.required = !(property.flags & ts.SymbolFlags.Optional);
+    fields[property.getName()] = schema;
+  }
+
+  return fields;
+};
 
 const buildSchemaFromTypeNode = (typeNode, context, index, stack = new Set()) => {
   if (!typeNode) {
@@ -229,11 +305,35 @@ const buildSchemaFieldsFromMembers = (members, context, index, stack) => {
 
   for (const member of members) {
     if (!ts.isPropertySignature(member) || !member.type) continue;
-    const name = member.name.getText(context.sourceFile);
+    const name = getPropertyName(member.name, context.sourceFile);
     const schema = buildSchemaFromTypeNode(member.type, context, index, stack);
     schema.description = getJsDocComment(member) || schema.description || "";
     schema.required = !member.questionToken;
     fields[name] = schema;
+  }
+
+  return fields;
+};
+
+const buildSchemaFieldsFromHeritage = (node, context, index, stack) => {
+  const fields = {};
+
+  for (const heritageClause of node.heritageClauses || []) {
+    for (const heritageType of heritageClause.types) {
+      const expressionName = heritageType.expression.getText(context.sourceFile);
+
+      if (index.interfaces.has(expressionName) || index.typeAliases.has(expressionName)) {
+        Object.assign(fields, buildSchemaForNamedType(expressionName, index, stack));
+        continue;
+      }
+
+      if (expressionName === "VariantProps") {
+        Object.assign(
+          fields,
+          buildSchemaFieldsFromCheckerType(heritageType, context, index)
+        );
+      }
+    }
   }
 
   return fields;
@@ -252,7 +352,10 @@ const buildSchemaForNamedType = (name, index, stack = new Set()) => {
 
   if (index.interfaces.has(name)) {
     const { node, sourceFile } = index.interfaces.get(name);
-    const fields = buildSchemaFieldsFromMembers(node.members, { sourceFile }, index, stack);
+    const fields = {
+      ...buildSchemaFieldsFromHeritage(node, { sourceFile }, index, stack),
+      ...buildSchemaFieldsFromMembers(node.members, { sourceFile }, index, stack),
+    };
     schemaCache.set(name, fields);
     stack.delete(name);
     return fields;
@@ -297,7 +400,7 @@ const overrides = overridesData.blocks || {};
 
 const blocks = exportData.blocks || exportData;
 const metadata = exportData.metadata || {};
-const sources = collectSourceFiles([BLOCKS_COMPONENTS_DIR, TYPES_DIR, UI_DIR]);
+const sources = collectSourceFiles([BLOCKS_COMPONENTS_DIR, TYPES_DIR, UI_DIR, LIB_DIR]);
 const index = buildTypeIndex(sources);
 
 const generatedBlocks = blocks.map((block) => {

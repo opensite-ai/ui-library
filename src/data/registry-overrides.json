@@ -2179,7 +2179,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290484/s5bwyqiukz1v0wktyfvclnuw2lhd/feature-stats-highlight-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/features/feature-stats-highlight.tsx"
+      "demoPath": "src/blocks/features/feature-stats-highlight.tsx",
+      "importantUsageNotes": "Only use short, numerical style strings for each of the `value` elements in the `stats` props array, e.g. '99.99%', '< 100ms', '24/7' - character counts larger than those examples will distort the layout and using words for those slots are a poor UI choice since they're very clearly made for numerical/stat data (in string form)."
     },
     "feature-checklist-image": {
       "title": "Feature Checklist Image",
