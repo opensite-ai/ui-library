@@ -125,8 +125,8 @@
       "title": "Contact Photography",
       "componentPath": "blocks/contact/contact-photography.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290837/rr5dvkjwuv2wt7q6it53amlr39cd/cleanshot-2026-02-25-at-04-56-07.png",
-        "mobile": "https://cdn.ing/assets/i/r/290836/iu03356ny7x26y97isjuayzpx6xb/cleanshot-2026-02-25-at-04-56-20.png"
+        "desktop": "https://cdn.ing/assets/i/r/306281/2ulmrnlqv2jt6iuc22gdr92l4rlp/contact-photography-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306282/dhpjt9j5fxq48abbbzx09c9z1vpr/contact-photography-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-photography"
@@ -552,8 +552,8 @@
       "title": "Hero AI Powered Carousel",
       "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290306/1jofjurd0w0a6klvuf41y9dq4ukz/cleanshot-2026-02-18-at-04-48-25.png",
-        "mobile": "https://cdn.ing/assets/i/r/290305/krz8l4qvoybcgnvf6g872gb4v1jo/cleanshot-2026-02-18-at-04-49-45.png"
+        "desktop": "https://cdn.ing/assets/i/r/306285/r9exzks7m20y3bt8kli66cf8g149/hero-ai-powered-carousel-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306286/qfllp428tfcygv1qi1c1n7ajolhp/hero-ai-powered-carousel-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ai-powered-carousel",
@@ -574,8 +574,8 @@
       "title": "Hero Architecture Fullscreen",
       "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290314/ilq1u0mo8yo9x5i60yiobkca12gl/cleanshot-2026-02-18-at-06-09-56.png",
-        "mobile": "https://cdn.ing/assets/i/r/290313/ttulv890j948wehyp6z33ickk1bx/cleanshot-2026-02-18-at-06-10-05.png"
+        "desktop": "https://cdn.ing/assets/i/r/306283/a0q27avk2yabiem7lszi8thbb18k/hero-architecture-fullscreen-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306284/r41vm5wnq705shv4n0xe8jlxzjxx/hero-architecture-fullscreen-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-architecture-fullscreen"
@@ -661,8 +661,8 @@
       "title": "Hero Centered Screenshot",
       "componentPath": "blocks/hero/hero-centered-screenshot.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290210/15r4drf5dcsuty54rr109om3gnrb/cleanshot-2026-02-18-at-01-27-45.png",
-        "mobile": "https://cdn.ing/assets/i/r/290209/teo5ni5bak7buvoxv96oa1hblqkf/cleanshot-2026-02-18-at-01-28-02.png"
+        "desktop": "https://cdn.ing/assets/i/r/306287/hbucadspqrmgag9to430mb8dwj98/hero-centered-screenshot-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306288/krll2hzr7k3y25dhi4wjprac6svx/hero-centered-screenshot-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-screenshot",

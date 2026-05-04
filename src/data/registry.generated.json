@@ -4,7 +4,7 @@
     "totalBlocks": 605,
     "version": "3.3.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-04T02:24:53.175Z"
+    "syncedAt": "2026-05-04T02:37:45.753Z"
   },
   "blocks": [
     {
@@ -1124,7 +1124,7 @@
         "credibility"
       ],
       "performance": {},
-      "importantUsageNotes": "Ensure to generate exactly 4 `achievements` since the achievements showcase is a 4 column layout. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 4 `achievements` since the achievements showcase is a 4 column layout, only use numerical style strings for each achievement 'value' prop, e.g. '1000' or '10K', avoid using longer strings like 'Over 1000 developers' since that will distort the layout.. Follow the example props closely for this block."
     },
     {
       "id": "about-vision-gallery",
@@ -14797,8 +14797,8 @@
       "categorySlug": "contact",
       "description": "Full-width split-screen contact form with edge-to-edge design, featuring heading, description and form on one side and a large full-height image on the other. Pattern background support, configurable media placement. Perfect for photographers, studios, and creative services.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290837/rr5dvkjwuv2wt7q6it53amlr39cd/cleanshot-2026-02-25-at-04-56-07.png",
-        "mobile": "https://cdn.ing/assets/i/r/290836/iu03356ny7x26y97isjuayzpx6xb/cleanshot-2026-02-25-at-04-56-20.png"
+        "desktop": "https://cdn.ing/assets/i/r/306281/2ulmrnlqv2jt6iuc22gdr92l4rlp/contact-photography-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306282/dhpjt9j5fxq48abbbzx09c9z1vpr/contact-photography-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-photography.tsx",
       "code": "\"use client\";\n\nimport { ContactPhotography } from \"@opensite/ui/blocks/contact/contact-photography\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: false,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    type: \"checkbox-group\",\n    label: \"Project Type(s)\",\n    placeholder: \"Select 1 or more project types\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"wedding\",\n        label: \"Wedding\",\n        description: \"Ceremony, reception, and bridal portraits.\",\n      },\n      {\n        value: \"portrait\",\n        label: \"Portrait\",\n        description: \"Individual, couple, or family sessions.\",\n      },\n      {\n        value: \"corporate\",\n        label: \"Corporate\",\n        description: \"Headshots, team photos, and events.\",\n      },\n      {\n        value: \"product\",\n        label: \"Product\",\n        description: \"E-commerce and catalog photography.\",\n      },\n      {\n        value: \"real_estate\",\n        label: \"Real Estate\",\n        description: \"Interior, exterior, and aerial shots.\",\n      },\n      {\n        value: \"other\",\n        label: \"Other\",\n        description: \"Something else not listed above.\",\n      },\n    ],\n  },\n  {\n    name: \"event_date\",\n    type: \"date-picker\",\n    label: \"Preferred Date\",\n    placeholder: \"Select a date\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"reference_images\",\n    type: \"file\",\n    label: \"Reference Images\",\n    placeholder: \"Upload reference photos or mood boards...\",\n    required: false,\n    accept: \"image/*,.pdf\",\n    maxSize: 10 * 1024 * 1024,\n    maxFiles: 5,\n    multiple: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Project Details\",\n    placeholder:\n      \"Tell us about your vision, location, special requests, etc...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactPhotography\n      image={{\n        src: imagePlaceholders[108],\n        alt: \"A person working at a desk\",\n      }}\n      heading=\"Ready to Get Started?\"\n      description=\"Tell us about your project and we'll put together a custom quote for you. We typically respond within 1-2 business days.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Submit Inquiry\",\n          },\n        },\n      }}\n      background=\"dark\"\n      pattern=\"dashedGridFadeTopLeft\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
@@ -52232,8 +52232,8 @@
       "categorySlug": "hero",
       "description": "A centered hero with headline, description, and CTA buttons above a large product screenshot. Perfect for SaaS products, apps, and software landing pages.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290210/15r4drf5dcsuty54rr109om3gnrb/cleanshot-2026-02-18-at-01-27-45.png",
-        "mobile": "https://cdn.ing/assets/i/r/290209/teo5ni5bak7buvoxv96oa1hblqkf/cleanshot-2026-02-18-at-01-28-02.png"
+        "desktop": "https://cdn.ing/assets/i/r/306287/hbucadspqrmgag9to430mb8dwj98/hero-centered-screenshot-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306288/krll2hzr7k3y25dhi4wjprac6svx/hero-centered-screenshot-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-centered-screenshot.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroCenteredScreenshot } from \"@opensite/ui/blocks/hero/hero-centered-screenshot\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroCenteredScreenshot\n      heading=\"The all-in-one platform for modern teams\"\n      description=\"Everything you need to collaborate, communicate, and create amazing work together. Simple, powerful, and built for the way you work.\"\n      actions={[\n        {\n          label: \"Try It Free\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" />,\n          asButton: true,\n          size: \"lg\",\n        },\n        {\n          label: \"See Plans\",\n          href: \"#\",\n          variant: \"ghost\",\n          asButton: true,\n          size: \"lg\",\n        },\n      ]}\n      imageSrc={imagePlaceholders[70]}\n      imageAlt=\"Product interface screenshot\"\n      background=\"gray\"\n      pattern=\"gridBasic\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -58449,8 +58449,8 @@
       "categorySlug": "hero",
       "description": "A hero showcasing AI-powered features with a carousel of capabilities. Perfect for AI products and machine learning tools.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290306/1jofjurd0w0a6klvuf41y9dq4ukz/cleanshot-2026-02-18-at-04-48-25.png",
-        "mobile": "https://cdn.ing/assets/i/r/290305/krz8l4qvoybcgnvf6g872gb4v1jo/cleanshot-2026-02-18-at-04-49-45.png"
+        "desktop": "https://cdn.ing/assets/i/r/306285/r9exzks7m20y3bt8kli66cf8g149/hero-ai-powered-carousel-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306286/qfllp428tfcygv1qi1c1n7ajolhp/hero-ai-powered-carousel-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroAiPoweredCarousel } from \"@opensite/ui/blocks/hero/hero-ai-powered-carousel\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroAiPoweredCarousel\n      badge=\"AI-Powered\"\n      badgeTagline=\"Next Generation Technology\"\n      heading=\"Intelligent automation for your workflow\"\n      description=\"Transform your business with AI-driven solutions that learn, adapt, and optimize automatically. Experience the future of productivity.\"\n      actions={[\n        {\n          label: \"Start Free Trial\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n        },\n        {\n          label: \"Watch Demo\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/play-circle\" size={16} />,\n        },\n      ]}\n      carouselImages1={[\n        { src: imagePlaceholders[20], alt: \"AI Feature 1\" },\n        { src: imagePlaceholders[21], alt: \"AI Feature 2\" },\n        { src: imagePlaceholders[22], alt: \"AI Feature 3\" },\n        { src: imagePlaceholders[23], alt: \"AI Feature 4\" },\n        { src: imagePlaceholders[24], alt: \"AI Feature 5\" },\n        { src: imagePlaceholders[25], alt: \"AI Feature 6\" },\n      ]}\n      carouselImages2={[\n        { src: imagePlaceholders[26], alt: \"AI Feature 7\" },\n        { src: imagePlaceholders[27], alt: \"AI Feature 8\" },\n        { src: imagePlaceholders[28], alt: \"AI Feature 9\" },\n        { src: imagePlaceholders[29], alt: \"AI Feature 10\" },\n        { src: imagePlaceholders[30], alt: \"AI Feature 11\" },\n        { src: imagePlaceholders[31], alt: \"AI Feature 12\" },\n      ]}\n      background=\"gray\"\n    />\n  );\n}\n",
@@ -63610,8 +63610,8 @@
       "categorySlug": "hero",
       "description": "A fullscreen hero with architecture or real estate imagery. Features overlay content for property or construction businesses.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290314/ilq1u0mo8yo9x5i60yiobkca12gl/cleanshot-2026-02-18-at-06-09-56.png",
-        "mobile": "https://cdn.ing/assets/i/r/290313/ttulv890j948wehyp6z33ickk1bx/cleanshot-2026-02-18-at-06-10-05.png"
+        "desktop": "https://cdn.ing/assets/i/r/306283/a0q27avk2yabiem7lszi8thbb18k/hero-architecture-fullscreen-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306284/r41vm5wnq705shv4n0xe8jlxzjxx/hero-architecture-fullscreen-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroArchitectureFullscreen } from \"@opensite/ui/blocks/hero/hero-architecture-fullscreen\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroArchitectureFullscreen\n      heading=\"Designing spaces that inspire\"\n      description=\"Award-winning architecture firm specializing in sustainable, innovative designs that blend form and function seamlessly.\"\n      action={{\n        label: \"View Projects\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      backgroundImage={imagePlaceholders[30]}\n    />\n  );\n}\n",
