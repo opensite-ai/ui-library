@@ -2221,11 +2221,12 @@
       "title": "Feature Card Grid Linked",
       "componentPath": "blocks/features/feature-card-grid-linked.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290519/f2akzbogbkwd87jdu1u4yp5m3qku/feature-card-grid-linked-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290518/uq8shf3p3wexg2pp8hpcd997fagn/feature-card-grid-linked-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306331/nxthqotoy5de3fqlh435lxk6qdjr/feature-card-grid-linked-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306332/679psayi0ekqenurfqxfp4kjojrc/feature-card-grid-linked-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/features/feature-card-grid-linked.tsx"
+      "demoPath": "src/blocks/features/feature-card-grid-linked.tsx",
+      "importantUsageNotes": "Ensure to only generate multiples of 2 for the 'features' prop (2, 4, 6, 8, etc), since the features element is a 2 column layout. Follow the example props closely for this block."
     },
     "feature-pattern-grid-links": {
       "title": "Feature Pattern Grid Links",
@@ -2362,8 +2363,8 @@
       "title": "Feature Showcase",
       "componentPath": "blocks/features/feature-showcase.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290533/olzsx5lkj10vqo845d73kyz5i1je/feature-showcase-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290532/jxylv6cvhbmrtm52silv4mdr1ceo/feature-showcase-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306333/yxl1qem73uiamm0uj4e21zeqmihh/feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306334/4oh39vt4jc3u0u1oame8o3pbwkny/feature-showcase-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-showcase.tsx"

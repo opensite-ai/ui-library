@@ -4,7 +4,7 @@
     "totalBlocks": 605,
     "version": "3.3.8",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-04T06:07:51.312Z"
+    "syncedAt": "2026-05-04T07:30:03.513Z"
   },
   "blocks": [
     {
@@ -20128,8 +20128,8 @@
       "categorySlug": "features",
       "description": "Display feature content with media in an interactive carousel format. Each slide shows feature content alongside images or videos with smooth navigation. Features mobile height equalization for consistent appearance.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290533/olzsx5lkj10vqo845d73kyz5i1je/feature-showcase-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290532/jxylv6cvhbmrtm52silv4mdr1ceo/feature-showcase-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306333/yxl1qem73uiamm0uj4e21zeqmihh/feature-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306334/4oh39vt4jc3u0u1oame8o3pbwkny/feature-showcase-mobile.jpg"
       },
       "componentPath": "blocks/features/feature-showcase.tsx",
       "code": "import { imagePlaceholders, optixFlowApiKey } from \"@/lib/media\";\nimport { Pressable } from \"@opensite/ui\";\nimport { FeatureShowcase } from \"@opensite/ui/blocks/features/feature-showcase\";\nimport { Img } from \"@page-speed/img\";\n\nexport default function Demo() {\n  return (\n    <FeatureShowcase\n      items={[\n        {\n          content: (\n            <div className=\"flex flex-col gap-4 md:gap-8\">\n              <h3 className=\"text-3xl font-bold\">\n                Deploy to the Edge in Seconds\n              </h3>\n              <p className=\"text-sm\">\n                Real-time insights into performance, errors, and user behavior.\n                Custom dashboards and alerts help you stay on top of what\n                matters most.\n              </p>\n              <p className=\"text-lg\">\n                Push your code and watch it deploy to 200+ edge locations\n                worldwide. Automatic builds, tests, and zero-downtime\n                deployments make shipping to production effortless.\n              </p>\n              <div className=\"flex items-center gap-2\">\n                <Pressable asButton href=\"#\">\n                  Get Started\n                </Pressable>\n              </div>\n            </div>\n          ),\n          mediaComponent: (\n            <Img\n              src={imagePlaceholders[62]}\n              alt=\"Edge deployment\"\n              className=\"w-full rounded-lg object-cover\"\n              optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n            />\n          ),\n        },\n        {\n          content: (\n            <div className=\"flex flex-col gap-4 md:gap-8\">\n              <h3 className=\"mb-4 text-3xl font-bold\">\n                Built-in Analytics & Monitoring\n              </h3>\n              <p className=\"text-lg\">\n                Real-time insights into performance, errors, and user behavior.\n                Custom dashboards and alerts help you stay on top of what\n                matters most.\n              </p>\n            </div>\n          ),\n          mediaComponent: (\n            <Img\n              src={imagePlaceholders[84]}\n              alt=\"Analytics dashboard\"\n              className=\"w-full rounded-lg object-cover\"\n              optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n            />\n          ),\n        },\n        {\n          content: (\n            <div className=\"flex flex-col gap-4 md:gap-8\">\n              <h3 className=\"mb-4 text-3xl font-bold\">\n                Collaborate with Your Team\n              </h3>\n              <p className=\"text-lg\">\n                Preview environments for every pull request, integrated code\n                review, and team-wide visibility. Ship faster together.\n              </p>\n            </div>\n          ),\n          mediaComponent: (\n            <Img\n              src={imagePlaceholders[107]}\n              alt=\"Team collaboration\"\n              className=\"w-full rounded-lg object-cover\"\n              optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n            />\n          ),\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -21512,8 +21512,8 @@
       "categorySlug": "features",
       "description": "Two-column grid of feature cards with images and clickable headings. Each card has an image, title link, and description. Perfect for blog posts, resources, or feature highlights.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290519/f2akzbogbkwd87jdu1u4yp5m3qku/feature-card-grid-linked-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290518/uq8shf3p3wexg2pp8hpcd997fagn/feature-card-grid-linked-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306331/nxthqotoy5de3fqlh435lxk6qdjr/feature-card-grid-linked-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306332/679psayi0ekqenurfqxfp4kjojrc/feature-card-grid-linked-mobile.jpg"
       },
       "componentPath": "blocks/features/feature-card-grid-linked.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FeatureCardGridLinked } from \"@opensite/ui/blocks/features/feature-card-grid-linked\";\n\nexport default function Demo() {\n  return (\n    <FeatureCardGridLinked\n      title=\"Explore Our Solutions\"\n      description=\"Discover tailored solutions designed to meet the unique needs of different industries and user groups. Whether you're an enterprise, developer, startup, or looking to optimize your content with AEO, we have the right tools and services for you.\"\n      pattern=\"circles\"\n      patternOpacity={0.42}\n      background=\"muted\"\n      features={[\n        {\n          id: \"enterprise\",\n          label: \"For Enterprise\",\n          heading: \"Scale with Confidence\",\n          description:\n            \"Enterprise-grade infrastructure with dedicated support, SLA guarantees, and custom integrations.\",\n          image: imagePlaceholders[68],\n          imageAlt: \"Enterprise solutions\",\n          url: \"#\",\n        },\n        {\n          id: \"developers\",\n          label: \"For Developers\",\n          heading: \"Build Faster\",\n          description:\n            \"Complete SDK, CLI tools, and comprehensive documentation to accelerate your development workflow.\",\n          image: imagePlaceholders[82],\n          imageAlt: \"Developer tools\",\n          url: \"#\",\n        },\n        {\n          id: \"startups\",\n          label: \"For Startups\",\n          heading: \"Launch Quickly\",\n          description:\n            \"Everything you need to go from idea to production in days, not months.\",\n          image: imagePlaceholders[101],\n          imageAlt: \"Startup solutions\",\n          url: \"#\",\n        },\n        {\n          id: \"marketing\",\n          label: \"AEO\",\n          heading: \"Optimize Your Content\",\n          description:\n            \"Leverage AI-driven tools to enhance your content strategy and boost engagement.\",\n          image: imagePlaceholders[33],\n          imageAlt: \"Startup solutions\",\n          url: \"#\",\n        },\n      ]}\n    />\n  );\n}\n",
@@ -21715,7 +21715,8 @@
         "images",
         "resources"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only generate multiples of 2 for the 'features' prop (2, 4, 6, 8, etc), since the features element is a 2 column layout. Follow the example props closely for this block."
     },
     {
       "id": "feature-numbered-cards",
