@@ -9,7 +9,7 @@ export default function Demo() {
       missionDescription="We believe technology should serve humanity—making life simpler, work more meaningful, and connections stronger. Our mission is to build tools that amplify human potential and create opportunities for everyone."
       missionAction={{
         label: "Read Our Story",
-        href: "/story",
+        href: "#",
         variant: "default",
       }}
       principles={[
@@ -42,7 +42,7 @@ export default function Demo() {
       visionDescription="By 2030, we aim to be the most trusted platform for teams worldwide—known for innovation, reliability, and positive impact on people's work and lives."
       visionAction={{
         label: "View Our Roadmap",
-        href: "/roadmap",
+        href: "#",
         variant: "outline",
         size: "lg",
       }}

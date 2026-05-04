@@ -10,12 +10,10 @@ export default function Demo() {
         {
           src: imagePlaceholders[23],
           alt: "Team collaboration",
-          colSpan: 8,
         },
         {
           src: imagePlaceholders[33],
           alt: "Modern office",
-          colSpan: 4,
         },
       ]}
       statsTitle="Numbers That Speak for Themselves"

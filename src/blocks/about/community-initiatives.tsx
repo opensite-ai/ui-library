@@ -149,13 +149,13 @@ export default function Demo() {
       actions={[
         {
           label: "View Open Positions",
-          href: "/careers",
+          href: "#",
           variant: "default",
           size: "lg",
         },
         {
           label: "Read Our Impact Report",
-          href: "/impact",
+          href: "#",
           variant: "outline",
           size: "lg",
         },

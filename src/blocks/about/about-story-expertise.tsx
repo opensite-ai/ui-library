@@ -1,5 +1,4 @@
 import { AboutStoryExpertise } from "@opensite/ui/blocks/about/about-story-expertise";
-import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
@@ -31,7 +30,7 @@ export default function Demo() {
         alt: "Team collaboration",
       }}
       highlight={{
-        icon: <DynamicIcon name="lucide/award" size={24} />,
+        icon: "lucide/award",
         label: "Recognition",
         title: "Top 100 Tech Companies",
         description:
@@ -41,25 +40,25 @@ export default function Demo() {
       expertiseDescription="We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence."
       expertiseAreas={[
         {
-          icon: <DynamicIcon name="lucide/layout" size={24} />,
+          icon: "lucide/layout",
           title: "Product Design",
           description:
             "User-centered design that balances aesthetics with functionality.",
         },
         {
-          icon: <DynamicIcon name="lucide/code" size={24} />,
+          icon: "lucide/code",
           title: "Engineering",
           description:
             "Scalable, maintainable code built with modern best practices.",
         },
         {
-          icon: <DynamicIcon name="lucide/bar-chart" size={24} />,
+          icon: "lucide/bar-chart",
           title: "Data & Analytics",
           description:
             "Insights-driven strategies powered by advanced analytics.",
         },
         {
-          icon: <DynamicIcon name="lucide/cloud" size={24} />,
+          icon: "lucide/cloud",
           title: "Cloud Infrastructure",
           description: "Reliable, secure, and cost-effective cloud solutions.",
         },

@@ -5,7 +5,6 @@ export default function Demo() {
   return (
     <AboutLocationInfoHero
       headline="A Lively, ultramodern sports parlor and dining establishment."
-      accentColor="hsl(var(--muted))"
       address="123 Innovation Drive, Suite 400, San Francisco, CA 94102"
       addressHref="#"
       phone="(555) 123-4567"

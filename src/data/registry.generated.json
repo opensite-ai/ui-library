@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-04T00:53:10.318Z",
+    "exportedAt": "2026-05-04T02:19:44.828Z",
     "totalBlocks": 605,
-    "version": "3.3.5",
+    "version": "3.3.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-04T01:19:05.297Z"
+    "syncedAt": "2026-05-04T02:24:53.175Z"
   },
   "blocks": [
     {
@@ -182,7 +182,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -361,7 +361,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290851/e9zsypyn21mlakr7nrtrwfkk64ax/cleanshot-2026-02-25-at-08-16-20.png"
       },
       "componentPath": "blocks/about/about-stats-showcase.tsx",
-      "code": "import { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\nimport { AboutStatsShowcase } from \"@opensite/ui/blocks/about/about-stats-showcase\";\n\nexport default function Demo() {\n  return (\n    <AboutStatsShowcase\n      title=\"Driving Results That Matter\"\n      description=\"We measure our success by the impact we create for our clients. Here's what the numbers say about our work.\"\n      images={[\n        {\n          src: imagePlaceholders[23],\n          alt: \"Team collaboration\",\n          colSpan: 8,\n        },\n        {\n          src: imagePlaceholders[33],\n          alt: \"Modern office\",\n          colSpan: 4,\n        },\n      ]}\n      statsTitle=\"Numbers That Speak for Themselves\"\n      stats={[\n        { value: \"500+\", label: \"Projects Delivered\" },\n        { value: \"98%\", label: \"Client Satisfaction\" },\n        { value: \"50M+\", label: \"Users Impacted\" },\n        { value: \"15+\", label: \"Years of Experience\" },\n        { value: \"200+\", label: \"Team Members\" },\n        { value: \"30+\", label: \"Countries Served\" },\n      ]}\n      logosTitle=\"Trusted by Leading Organizations\"\n      logos={[\n        {\n          src: brandLogoPlaceholders.white[0],\n          alt: \"Partner logo\",\n          name: \"Acme\",\n        },\n        {\n          src: brandLogoPlaceholders.white[2],\n          alt: \"Partner logo\",\n          name: \"Initech\",\n        },\n        {\n          src: brandLogoPlaceholders.white[3],\n          alt: \"Partner logo\",\n          name: \"Umbrella\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      benefitsTitle=\"The Impact We Create\"\n      benefits={[\n        {\n          image: {\n            src: imagePlaceholders[44],\n            alt: \"Growth analytics\",\n          },\n        },\n        {\n          stat: {\n            value: \"312%\",\n            label: \"Average ROI\",\n            description:\n              \"Our clients see significant returns on their technology investments within the first year.\",\n          },\n        },\n        {\n          testimonial: {\n            company: \"TechCorp\",\n            quote:\n              \"Working with this team transformed our digital presence. The results exceeded our expectations.\",\n            author: \"Jennifer Lee\",\n            role: \"Chief Digital Officer\",\n          },\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { imagePlaceholders, brandLogoPlaceholders } from \"@/lib/media\";\nimport { AboutStatsShowcase } from \"@opensite/ui/blocks/about/about-stats-showcase\";\n\nexport default function Demo() {\n  return (\n    <AboutStatsShowcase\n      title=\"Driving Results That Matter\"\n      description=\"We measure our success by the impact we create for our clients. Here's what the numbers say about our work.\"\n      images={[\n        {\n          src: imagePlaceholders[23],\n          alt: \"Team collaboration\",\n        },\n        {\n          src: imagePlaceholders[33],\n          alt: \"Modern office\",\n        },\n      ]}\n      statsTitle=\"Numbers That Speak for Themselves\"\n      stats={[\n        { value: \"500+\", label: \"Projects Delivered\" },\n        { value: \"98%\", label: \"Client Satisfaction\" },\n        { value: \"50M+\", label: \"Users Impacted\" },\n        { value: \"15+\", label: \"Years of Experience\" },\n        { value: \"200+\", label: \"Team Members\" },\n        { value: \"30+\", label: \"Countries Served\" },\n      ]}\n      logosTitle=\"Trusted by Leading Organizations\"\n      logos={[\n        {\n          src: brandLogoPlaceholders.white[0],\n          alt: \"Partner logo\",\n          name: \"Acme\",\n        },\n        {\n          src: brandLogoPlaceholders.white[2],\n          alt: \"Partner logo\",\n          name: \"Initech\",\n        },\n        {\n          src: brandLogoPlaceholders.white[3],\n          alt: \"Partner logo\",\n          name: \"Umbrella\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      benefitsTitle=\"The Impact We Create\"\n      benefits={[\n        {\n          image: {\n            src: imagePlaceholders[44],\n            alt: \"Growth analytics\",\n          },\n        },\n        {\n          stat: {\n            value: \"312%\",\n            label: \"Average ROI\",\n            description:\n              \"Our clients see significant returns on their technology investments within the first year.\",\n          },\n        },\n        {\n          testimonial: {\n            company: \"TechCorp\",\n            quote:\n              \"Working with this team transformed our digital presence. The results exceeded our expectations.\",\n            author: \"Jennifer Lee\",\n            role: \"Chief Digital Officer\",\n          },\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -411,11 +411,6 @@
                 "type": "string",
                 "description": "",
                 "required": true
-              },
-              "colSpan": {
-                "type": "number",
-                "description": "",
-                "required": false
               }
             },
             "typeLabel": "ShowcaseImageItem"
@@ -989,7 +984,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -1412,7 +1407,7 @@
         "two-column"
       ],
       "performance": {},
-      "importantUsageNotes": "Follow the example props closely for this block, especially the count of images."
+      "importantUsageNotes": "Follow the example props closely for this block, especially using exactly 3 images."
     },
     {
       "id": "about-developer-story",
@@ -1618,7 +1613,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -1753,7 +1748,7 @@
         "technical"
       ],
       "performance": {},
-      "importantUsageNotes": "Ensure to generate exactly 3 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block. Only populate the 'logos' prop if you have actual logos to display, otherwise the layout will be distorted by empty logo placeholders. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-story-gallery",
@@ -2123,7 +2118,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -2856,7 +2851,8 @@
         "avatars",
         "social"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only populate each of the teamMember 'avatar' object if you have an image/avatar to use for that team member object - DO NOT USE PLACEHOLDERS OR SELECT RANDOM IMAGES. Follow the example props closely for this block."
     },
     {
       "id": "about-minimal-story",
@@ -3274,7 +3270,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -3322,7 +3318,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -3443,7 +3439,7 @@
         "organized"
       ],
       "performance": {},
-      "importantUsageNotes": "Ensure to only generate 2 or 4 `stats` since the stats element uses a 2 column layout."
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `stats` since the stats element uses a 2 column layout. Only use numerical style strings for each stat 'value' prop, e.g. '1000' or '10K', avoid using longer strings like 'Over 1000 developers' since that will distort the layout. Follow the example props closely for this block."
     },
     {
       "id": "about-interactive-tabs",
@@ -3689,7 +3685,8 @@
         "process",
         "values"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 3-6 'tabs' since the tabs layout will get distorted with a tabs count outside this range. Follow the example props closely for this block."
     },
     {
       "id": "about-mission-dual-image",
@@ -3959,7 +3956,8 @@
         "two-column",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-story-expertise",
@@ -3973,7 +3971,7 @@
         "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
       },
       "componentPath": "blocks/about/about-story-expertise.tsx",
-      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description:\n          \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: <DynamicIcon name=\"lucide/layout\" size={24} />,\n          title: \"Product Design\",\n          description:\n            \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/code\" size={24} />,\n          title: \"Engineering\",\n          description:\n            \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/bar-chart\" size={24} />,\n          title: \"Data & Analytics\",\n          description:\n            \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/cloud\" size={24} />,\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "import { AboutStoryExpertise } from \"@opensite/ui/blocks/about/about-story-expertise\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutStoryExpertise\n      eyebrow=\"Our Story\"\n      heading=\"From Garage Startup to Global Impact\"\n      storyParagraphs={[\n        \"What began as a two-person operation in 2010 has grown into a team of over 200 professionals serving clients across 30 countries.\",\n        \"Our journey hasn't always been smooth. We've faced challenges, made mistakes, and learned invaluable lessons along the way. But through it all, our commitment to our clients and our craft has never wavered.\",\n        \"Today, we're proud to be trusted partners to some of the world's most innovative organizations, helping them navigate digital transformation and achieve their most ambitious goals.\",\n      ]}\n      actions={[\n        {\n          label: \"Read Our Full Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[12],\n        alt: \"Team collaboration\",\n      }}\n      highlight={{\n        icon: \"lucide/award\",\n        label: \"Recognition\",\n        title: \"Top 100 Tech Companies\",\n        description:\n          \"Named among the fastest-growing technology companies for three consecutive years.\",\n      }}\n      expertiseHeading=\"Areas of Expertise\"\n      expertiseDescription=\"We've developed deep expertise across multiple domains, enabling us to tackle complex challenges with confidence.\"\n      expertiseAreas={[\n        {\n          icon: \"lucide/layout\",\n          title: \"Product Design\",\n          description:\n            \"User-centered design that balances aesthetics with functionality.\",\n        },\n        {\n          icon: \"lucide/code\",\n          title: \"Engineering\",\n          description:\n            \"Scalable, maintainable code built with modern best practices.\",\n        },\n        {\n          icon: \"lucide/bar-chart\",\n          title: \"Data & Analytics\",\n          description:\n            \"Insights-driven strategies powered by advanced analytics.\",\n        },\n        {\n          icon: \"lucide/cloud\",\n          title: \"Cloud Infrastructure\",\n          description: \"Reliable, secure, and cost-effective cloud solutions.\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -4135,7 +4133,7 @@
             "icon": {
               "type": "object",
               "description": "",
-              "typeLabel": "React.ReactNode",
+              "typeLabel": "React.ReactNode | string",
               "required": false
             },
             "label": {
@@ -4157,7 +4155,7 @@
               "required": false
             }
           },
-          "typeLabel": "{ icon?: React.ReactNode; label?: React.ReactNode; title?: React.ReactNode; description?: React.ReactNode; }",
+          "typeLabel": "{ icon?: React.ReactNode | string; label?: React.ReactNode; title?: React.ReactNode; description?: React.ReactNode; }",
           "required": false
         },
         "highlightSlot": {
@@ -4316,7 +4314,7 @@
         "capabilities"
       ],
       "performance": {},
-      "importantUsageNotes": "Ensure to only generate 2 or 4 `expertiseAreas` since the expertiseAreas element uses a 2 column layout. Keep the highlight prop's label, title, and description succinct since too long of content will distort the layout."
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `expertiseAreas` since the expertiseAreas element uses a 2 column layout. Keep the highlight prop's label, title, and description succinct since too long of content will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-network-spotlight",
@@ -4633,7 +4631,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290227/affjjwcx6mdwsw2qz7c7q7s9a20h/cleanshot-2026-02-18-at-02-55-44.png"
       },
       "componentPath": "blocks/about/about-location-info-hero.tsx",
-      "code": "import { AboutLocationInfoHero } from \"@opensite/ui/blocks/about/about-location-info-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutLocationInfoHero\n      headline=\"A Lively, ultramodern sports parlor and dining establishment.\"\n      accentColor=\"hsl(var(--muted))\"\n      address=\"123 Innovation Drive, Suite 400, San Francisco, CA 94102\"\n      addressHref=\"#\"\n      phone=\"(555) 123-4567\"\n      phoneHref=\"tel:+15551234567\"\n      actions={[\n        {\n          label: \"Get Directions\",\n          href: \"#\",\n        },\n        {\n          label: \"Schedule a Visit\",\n          href: \"#\",\n        },\n      ]}\n      hoursSections={[\n        {\n          label: \"Hours\",\n          hours: [\n            { day: \"Monday - Friday\", time: \"9:00 AM - 6:00 PM\" },\n            { day: \"Saturday\", time: \"10:00 AM - 2:00 PM\" },\n            { day: \"Sunday\", time: \"Closed\" },\n          ],\n        },\n        {\n          label: \"Happy Hour\",\n          hours: [\n            { day: \"Monday - Friday\", time: \"8:00 AM - 8:00 PM\" },\n            { day: \"Weekend\", time: \"10:00 AM - 4:00 PM\" },\n          ],\n        },\n      ]}\n      images={[\n        {\n          src: imagePlaceholders[134],\n          alt: \"Office exterior\",\n        },\n        {\n          src: imagePlaceholders[133],\n          alt: \"Office interior\",\n        },\n      ]}\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { AboutLocationInfoHero } from \"@opensite/ui/blocks/about/about-location-info-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutLocationInfoHero\n      headline=\"A Lively, ultramodern sports parlor and dining establishment.\"\n      address=\"123 Innovation Drive, Suite 400, San Francisco, CA 94102\"\n      addressHref=\"#\"\n      phone=\"(555) 123-4567\"\n      phoneHref=\"tel:+15551234567\"\n      actions={[\n        {\n          label: \"Get Directions\",\n          href: \"#\",\n        },\n        {\n          label: \"Schedule a Visit\",\n          href: \"#\",\n        },\n      ]}\n      hoursSections={[\n        {\n          label: \"Hours\",\n          hours: [\n            { day: \"Monday - Friday\", time: \"9:00 AM - 6:00 PM\" },\n            { day: \"Saturday\", time: \"10:00 AM - 2:00 PM\" },\n            { day: \"Sunday\", time: \"Closed\" },\n          ],\n        },\n        {\n          label: \"Happy Hour\",\n          hours: [\n            { day: \"Monday - Friday\", time: \"8:00 AM - 8:00 PM\" },\n            { day: \"Weekend\", time: \"10:00 AM - 4:00 PM\" },\n          ],\n        },\n      ]}\n      images={[\n        {\n          src: imagePlaceholders[134],\n          alt: \"Office exterior\",\n        },\n        {\n          src: imagePlaceholders[133],\n          alt: \"Office interior\",\n        },\n      ]}\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "headline": {
           "type": "object",
@@ -4945,7 +4943,8 @@
         "phone",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to not exceed a count of 4 'hours' for each of the 'hoursSections' props. Only populate the 'address', 'addressHref', 'phone', and 'phoneHref' props if you have valid values for them, DO NOT MAKE UP VALUES FOR THEM OR GUESS WHAT THEY ARE. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "media-hover-ctas",
@@ -6762,7 +6761,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -10220,7 +10219,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -10770,7 +10769,7 @@
                     "icon": {
                       "type": "object",
                       "description": "Optional icon",
-                      "typeLabel": "ReactNode",
+                      "typeLabel": "ReactNode | string",
                       "required": false
                     },
                     "className": {
@@ -19965,7 +19964,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -62411,7 +62410,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -62680,7 +62679,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -64554,7 +64553,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -69592,7 +69591,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -70403,7 +70402,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -70939,7 +70938,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -73265,7 +73264,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -73840,7 +73839,7 @@
                   "icon": {
                     "type": "object",
                     "description": "Feature icon",
-                    "typeLabel": "ReactNode",
+                    "typeLabel": "ReactNode | string",
                     "required": false
                   },
                   "iconName": {
@@ -73924,7 +73923,7 @@
                   "icon": {
                     "type": "object",
                     "description": "Feature icon",
-                    "typeLabel": "ReactNode",
+                    "typeLabel": "ReactNode | string",
                     "required": false
                   },
                   "iconName": {
@@ -77434,7 +77433,7 @@
               "icon": {
                 "type": "object",
                 "description": "Feature icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "iconName": {
@@ -118824,7 +118823,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -131585,7 +131584,7 @@
               "icon": {
                 "type": "object",
                 "description": "Optional icon",
-                "typeLabel": "ReactNode",
+                "typeLabel": "ReactNode | string",
                 "required": false
               },
               "className": {
@@ -140205,7 +140204,7 @@
         "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
       },
       "componentPath": "blocks/about/about-mission-principles.tsx",
-      "code": "import { AboutMissionPrinciples } from \"@opensite/ui/blocks/about/about-mission-principles\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionPrinciples\n      badgeText=\"Our Mission\"\n      missionHeading=\"Empowering People Through Technology\"\n      missionDescription=\"We believe technology should serve humanity—making life simpler, work more meaningful, and connections stronger. Our mission is to build tools that amplify human potential and create opportunities for everyone.\"\n      missionAction={{\n        label: \"Read Our Story\",\n        href: \"/story\",\n        variant: \"default\",\n      }}\n      principles={[\n        {\n          number: \"01\",\n          title: \"Customer-Centric\",\n          description:\n            \"Every decision starts with understanding our customers' needs. We obsess over their experience and measure our success by their success.\",\n        },\n        {\n          number: \"02\",\n          title: \"Built to Last\",\n          description:\n            \"We prioritize long-term value over short-term gains. Quality, security, and reliability are non-negotiable.\",\n        },\n        {\n          number: \"03\",\n          title: \"Inclusive by Design\",\n          description:\n            \"We build for everyone. Accessibility, diversity, and inclusion are embedded in our product development and company culture.\",\n        },\n        {\n          number: \"04\",\n          title: \"Continuous Learning\",\n          description:\n            \"We stay curious and humble. Markets change, technology evolves, and we adapt by listening, learning, and improving every day.\",\n        },\n      ]}\n      visionHeading=\"Our Vision for 2030\"\n      visionDescription=\"By 2030, we aim to be the most trusted platform for teams worldwide—known for innovation, reliability, and positive impact on people's work and lives.\"\n      visionAction={{\n        label: \"View Our Roadmap\",\n        href: \"/roadmap\",\n        variant: \"outline\",\n        size: \"lg\",\n      }}\n      background=\"gray\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
+      "code": "import { AboutMissionPrinciples } from \"@opensite/ui/blocks/about/about-mission-principles\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionPrinciples\n      badgeText=\"Our Mission\"\n      missionHeading=\"Empowering People Through Technology\"\n      missionDescription=\"We believe technology should serve humanity—making life simpler, work more meaningful, and connections stronger. Our mission is to build tools that amplify human potential and create opportunities for everyone.\"\n      missionAction={{\n        label: \"Read Our Story\",\n        href: \"#\",\n        variant: \"default\",\n      }}\n      principles={[\n        {\n          number: \"01\",\n          title: \"Customer-Centric\",\n          description:\n            \"Every decision starts with understanding our customers' needs. We obsess over their experience and measure our success by their success.\",\n        },\n        {\n          number: \"02\",\n          title: \"Built to Last\",\n          description:\n            \"We prioritize long-term value over short-term gains. Quality, security, and reliability are non-negotiable.\",\n        },\n        {\n          number: \"03\",\n          title: \"Inclusive by Design\",\n          description:\n            \"We build for everyone. Accessibility, diversity, and inclusion are embedded in our product development and company culture.\",\n        },\n        {\n          number: \"04\",\n          title: \"Continuous Learning\",\n          description:\n            \"We stay curious and humble. Markets change, technology evolves, and we adapt by listening, learning, and improving every day.\",\n        },\n      ]}\n      visionHeading=\"Our Vision for 2030\"\n      visionDescription=\"By 2030, we aim to be the most trusted platform for teams worldwide—known for innovation, reliability, and positive impact on people's work and lives.\"\n      visionAction={{\n        label: \"View Our Roadmap\",\n        href: \"#\",\n        variant: \"outline\",\n        size: \"lg\",\n      }}\n      background=\"gray\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -140825,7 +140824,7 @@
         "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
       },
       "componentPath": "blocks/about/community-initiatives.tsx",
-      "code": "import { CommunityInitiatives } from \"@opensite/ui/blocks/about/community-initiatives\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CommunityInitiatives\n      badgeText=\"Diversity & Inclusion\"\n      heading=\"Building a More Equitable Future\"\n      description=\"We're committed to creating a workplace and community where everyone belongs, thrives, and can reach their full potential.\"\n      categories={[\n        {\n          id: \"workplace\",\n          title: \"Inclusive Workplace\",\n          description:\n            \"Creating an environment where every voice is heard and every person can be their authentic self.\",\n          initiatives: [\n            {\n              id: \"hiring\",\n              title: \"Equitable Hiring Practices\",\n              description:\n                \"We've redesigned our hiring process from the ground up to reduce bias and increase representation. Blind resume reviews, diverse interview panels, and structured interviews ensure every candidate gets a fair evaluation based on merit.\",\n              icon: \"lucide/users\",\n              metrics: [\n                { value: \"45%\", label: \"Diverse Leadership\" },\n                { value: \"60%\", label: \"Women in Tech\" },\n                { value: \"85%\", label: \"Retention Rate\" },\n              ],\n              image: imagePlaceholders[12],\n            },\n            {\n              id: \"growth\",\n              title: \"Career Development Programs\",\n              description:\n                \"Mentorship programs, leadership training, and sponsorship opportunities help underrepresented employees advance their careers. We track promotion rates and close equity gaps through targeted investment in professional development.\",\n              icon: \"lucide/trending-up\",\n              metrics: [\n                { value: \"$2M\", label: \"Annual Investment\" },\n                { value: \"300+\", label: \"Mentorship Pairs\" },\n                { value: \"92%\", label: \"Satisfaction\" },\n              ],\n              image: imagePlaceholders[16],\n            },\n          ],\n        },\n        {\n          id: \"community\",\n          title: \"Community Impact\",\n          description:\n            \"Extending our commitment beyond our walls to make a difference in the broader community.\",\n          initiatives: [\n            {\n              id: \"education\",\n              title: \"Tech Education Partnerships\",\n              description:\n                \"We partner with schools in underserved communities to provide coding bootcamps, STEM workshops, and mentorship programs. Over 5,000 students have participated in our programs, with many going on to successful tech careers.\",\n              icon: \"lucide/graduation-cap\",\n              metrics: [\n                { value: \"5000+\", label: \"Students Reached\" },\n                { value: \"25\", label: \"School Partners\" },\n                { value: \"78%\", label: \"Career Placement\" },\n              ],\n              image: imagePlaceholders[29],\n            },\n            {\n              id: \"nonprofit\",\n              title: \"Nonprofit Technology Support\",\n              description:\n                \"We provide free or discounted access to our platform for nonprofits working on social justice, education, and environmental causes. Our team volunteers technical expertise to help these organizations maximize their impact.\",\n              icon: \"lucide/heart-handshake\",\n              metrics: [\n                { value: \"500+\", label: \"Nonprofit Partners\" },\n                { value: \"$5M\", label: \"Value Donated\" },\n                { value: \"2000+\", label: \"Volunteer Hours\" },\n              ],\n              image: imagePlaceholders[30],\n            },\n          ],\n        },\n        {\n          id: \"culture\",\n          title: \"Inclusive Culture\",\n          description:\n            \"Fostering a culture where differences are celebrated and everyone feels they belong.\",\n          initiatives: [\n            {\n              id: \"groups\",\n              title: \"Employee Resource Groups\",\n              description:\n                \"Nine active ERGs representing diverse communities—from Women in Tech to LGBTQ+ Alliance to Black Excellence Network—provide support, networking, and advocacy. Each group receives budget and executive sponsorship.\",\n              icon: \"lucide/users-2\",\n              metrics: [\n                { value: \"9\", label: \"Active ERGs\" },\n                { value: \"65%\", label: \"Employee Participation\" },\n                { value: \"40+\", label: \"Events/Year\" },\n              ],\n              image: imagePlaceholders[52],\n            },\n            {\n              id: \"learning\",\n              title: \"Continuous Learning\",\n              description:\n                \"Regular workshops on unconscious bias, inclusive leadership, and cultural competency keep our entire team learning and growing. These aren't checkbox exercises—they're meaningful conversations that drive real change.\",\n              icon: \"lucide/book-open\",\n              metrics: [\n                { value: \"100%\", label: \"Completion Rate\" },\n                { value: \"24\", label: \"Workshops/Year\" },\n                { value: \"4.8/5\", label: \"Impact Rating\" },\n              ],\n            },\n          ],\n        },\n        {\n          id: \"accessibility\",\n          title: \"Accessibility\",\n          description:\n            \"Making our workplace and products accessible to everyone, regardless of ability.\",\n          initiatives: [\n            {\n              id: \"product\",\n              title: \"Accessible Product Design\",\n              description:\n                \"WCAG 2.1 AA compliance is our baseline, not our ceiling. We employ accessibility experts, conduct regular audits, and test with assistive technologies to ensure our product works for everyone.\",\n              icon: \"lucide/accessibility\",\n              metrics: [\n                { value: \"AA\", label: \"WCAG Level\" },\n                { value: \"100%\", label: \"Keyboard Nav\" },\n                { value: \"98%\", label: \"Screen Reader\" },\n              ],\n              image: imagePlaceholders[34],\n            },\n            {\n              id: \"workplace\",\n              title: \"Accessible Workplace\",\n              description:\n                \"From physical office design to assistive technology budgets to flexible work arrangements, we remove barriers so everyone can contribute their best work. Accommodations are handled with dignity and urgency.\",\n              icon: \"lucide/home\",\n              metrics: [\n                { value: \"$500K\", label: \"Accommodation Budget\" },\n                { value: \"48hr\", label: \"Response Time\" },\n                { value: \"100%\", label: \"Office Accessibility\" },\n              ],\n            },\n          ],\n        },\n      ]}\n      ctaBadgeText=\"We're Hiring\"\n      ctaHeading=\"Join Our Diverse Team\"\n      ctaDescription=\"We're always looking for talented people from all backgrounds who share our commitment to building an inclusive future.\"\n      actions={[\n        {\n          label: \"View Open Positions\",\n          href: \"/careers\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Read Our Impact Report\",\n          href: \"/impact\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
+      "code": "import { CommunityInitiatives } from \"@opensite/ui/blocks/about/community-initiatives\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <CommunityInitiatives\n      badgeText=\"Diversity & Inclusion\"\n      heading=\"Building a More Equitable Future\"\n      description=\"We're committed to creating a workplace and community where everyone belongs, thrives, and can reach their full potential.\"\n      categories={[\n        {\n          id: \"workplace\",\n          title: \"Inclusive Workplace\",\n          description:\n            \"Creating an environment where every voice is heard and every person can be their authentic self.\",\n          initiatives: [\n            {\n              id: \"hiring\",\n              title: \"Equitable Hiring Practices\",\n              description:\n                \"We've redesigned our hiring process from the ground up to reduce bias and increase representation. Blind resume reviews, diverse interview panels, and structured interviews ensure every candidate gets a fair evaluation based on merit.\",\n              icon: \"lucide/users\",\n              metrics: [\n                { value: \"45%\", label: \"Diverse Leadership\" },\n                { value: \"60%\", label: \"Women in Tech\" },\n                { value: \"85%\", label: \"Retention Rate\" },\n              ],\n              image: imagePlaceholders[12],\n            },\n            {\n              id: \"growth\",\n              title: \"Career Development Programs\",\n              description:\n                \"Mentorship programs, leadership training, and sponsorship opportunities help underrepresented employees advance their careers. We track promotion rates and close equity gaps through targeted investment in professional development.\",\n              icon: \"lucide/trending-up\",\n              metrics: [\n                { value: \"$2M\", label: \"Annual Investment\" },\n                { value: \"300+\", label: \"Mentorship Pairs\" },\n                { value: \"92%\", label: \"Satisfaction\" },\n              ],\n              image: imagePlaceholders[16],\n            },\n          ],\n        },\n        {\n          id: \"community\",\n          title: \"Community Impact\",\n          description:\n            \"Extending our commitment beyond our walls to make a difference in the broader community.\",\n          initiatives: [\n            {\n              id: \"education\",\n              title: \"Tech Education Partnerships\",\n              description:\n                \"We partner with schools in underserved communities to provide coding bootcamps, STEM workshops, and mentorship programs. Over 5,000 students have participated in our programs, with many going on to successful tech careers.\",\n              icon: \"lucide/graduation-cap\",\n              metrics: [\n                { value: \"5000+\", label: \"Students Reached\" },\n                { value: \"25\", label: \"School Partners\" },\n                { value: \"78%\", label: \"Career Placement\" },\n              ],\n              image: imagePlaceholders[29],\n            },\n            {\n              id: \"nonprofit\",\n              title: \"Nonprofit Technology Support\",\n              description:\n                \"We provide free or discounted access to our platform for nonprofits working on social justice, education, and environmental causes. Our team volunteers technical expertise to help these organizations maximize their impact.\",\n              icon: \"lucide/heart-handshake\",\n              metrics: [\n                { value: \"500+\", label: \"Nonprofit Partners\" },\n                { value: \"$5M\", label: \"Value Donated\" },\n                { value: \"2000+\", label: \"Volunteer Hours\" },\n              ],\n              image: imagePlaceholders[30],\n            },\n          ],\n        },\n        {\n          id: \"culture\",\n          title: \"Inclusive Culture\",\n          description:\n            \"Fostering a culture where differences are celebrated and everyone feels they belong.\",\n          initiatives: [\n            {\n              id: \"groups\",\n              title: \"Employee Resource Groups\",\n              description:\n                \"Nine active ERGs representing diverse communities—from Women in Tech to LGBTQ+ Alliance to Black Excellence Network—provide support, networking, and advocacy. Each group receives budget and executive sponsorship.\",\n              icon: \"lucide/users-2\",\n              metrics: [\n                { value: \"9\", label: \"Active ERGs\" },\n                { value: \"65%\", label: \"Employee Participation\" },\n                { value: \"40+\", label: \"Events/Year\" },\n              ],\n              image: imagePlaceholders[52],\n            },\n            {\n              id: \"learning\",\n              title: \"Continuous Learning\",\n              description:\n                \"Regular workshops on unconscious bias, inclusive leadership, and cultural competency keep our entire team learning and growing. These aren't checkbox exercises—they're meaningful conversations that drive real change.\",\n              icon: \"lucide/book-open\",\n              metrics: [\n                { value: \"100%\", label: \"Completion Rate\" },\n                { value: \"24\", label: \"Workshops/Year\" },\n                { value: \"4.8/5\", label: \"Impact Rating\" },\n              ],\n            },\n          ],\n        },\n        {\n          id: \"accessibility\",\n          title: \"Accessibility\",\n          description:\n            \"Making our workplace and products accessible to everyone, regardless of ability.\",\n          initiatives: [\n            {\n              id: \"product\",\n              title: \"Accessible Product Design\",\n              description:\n                \"WCAG 2.1 AA compliance is our baseline, not our ceiling. We employ accessibility experts, conduct regular audits, and test with assistive technologies to ensure our product works for everyone.\",\n              icon: \"lucide/accessibility\",\n              metrics: [\n                { value: \"AA\", label: \"WCAG Level\" },\n                { value: \"100%\", label: \"Keyboard Nav\" },\n                { value: \"98%\", label: \"Screen Reader\" },\n              ],\n              image: imagePlaceholders[34],\n            },\n            {\n              id: \"workplace\",\n              title: \"Accessible Workplace\",\n              description:\n                \"From physical office design to assistive technology budgets to flexible work arrangements, we remove barriers so everyone can contribute their best work. Accommodations are handled with dignity and urgency.\",\n              icon: \"lucide/home\",\n              metrics: [\n                { value: \"$500K\", label: \"Accommodation Budget\" },\n                { value: \"48hr\", label: \"Response Time\" },\n                { value: \"100%\", label: \"Office Accessibility\" },\n              ],\n            },\n          ],\n        },\n      ]}\n      ctaBadgeText=\"We're Hiring\"\n      ctaHeading=\"Join Our Diverse Team\"\n      ctaDescription=\"We're always looking for talented people from all backgrounds who share our commitment to building an inclusive future.\"\n      actions={[\n        {\n          label: \"View Open Positions\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n        },\n        {\n          label: \"Read Our Impact Report\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"noise\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -141158,7 +141157,7 @@
         "responsibility"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout."
+      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-culture-tabs",
@@ -141491,7 +141490,7 @@
         "workplace"
       ],
       "performance": {},
-      "importantUsageNotes": "This block has a large number of strict requirements and should only be used for a website that has a large number of imges, reviews/testimonials, etc. Only use if you generate exactly 4 `aspects` since any more/fewer will distort the layout. Follow the example props very closely for this block, e.g. image counts in each section, 1 REAL (DO NOT GENERATE FAKE REVIEWS/TESTIMONIALS) testimonial per aspect, etc."
+      "importantUsageNotes": "This block has a large number of strict requirements and should only be used for a website that has a large number of imges, reviews/testimonials, etc. Only use if you generate exactly 4 `aspects` since any more/fewer will distort the layout. Follow the example props very closely for this block, e.g. image counts in each section, 1 REAL (DO NOT GENERATE FAKE REVIEWS/TESTIMONIALS) testimonial per aspect, etc. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "feature-animated-carousel",

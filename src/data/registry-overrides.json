@@ -1517,7 +1517,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-company-profile.tsx",
-      "importantUsageNotes": "Ensure to generate exactly 4 `achievements` since the achievements showcase is a 4 column layout. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 4 `achievements` since the achievements showcase is a 4 column layout, only use numerical style strings for each achievement 'value' prop, e.g. '1000' or '10K', avoid using longer strings like 'Over 1000 developers' since that will distort the layout.. Follow the example props closely for this block."
     },
     "about-developer-profile": {
       "title": "About Developer Profile",
@@ -1538,7 +1538,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-story.tsx",
-      "importantUsageNotes": "Ensure to generate exactly 3 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 `stats` since the stats showcase is a 3 column layout. Follow the example props closely for this block. Only populate the 'logos' prop if you have actual logos to display, otherwise the layout will be distorted by empty logo placeholders. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-interactive-tabs": {
       "title": "About Interactive Tabs",
@@ -1548,7 +1548,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-interactive-tabs.tsx"
+      "demoPath": "src/blocks/about/about-interactive-tabs.tsx",
+      "importantUsageNotes": "Ensure to generate 3-6 'tabs' since the tabs layout will get distorted with a tabs count outside this range. Follow the example props closely for this block."
     },
     "about-location-info-hero": {
       "title": "About Location Info Hero",
@@ -1558,7 +1559,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290227/affjjwcx6mdwsw2qz7c7q7s9a20h/cleanshot-2026-02-18-at-02-55-44.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-location-info-hero.tsx"
+      "demoPath": "src/blocks/about/about-location-info-hero.tsx",
+      "importantUsageNotes": "Ensure to not exceed a count of 4 'hours' for each of the 'hoursSections' props. Only populate the 'address', 'addressHref', 'phone', and 'phoneHref' props if you have valid values for them, DO NOT MAKE UP VALUES FOR THEM OR GUESS WHAT THEY ARE. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-minimal-story": {
       "title": "About Minimal Story",
@@ -1579,7 +1581,8 @@
         "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
+      "demoPath": "src/blocks/about/about-mission-dual-image.tsx",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-mission-features": {
       "title": "About Mission Features",
@@ -1611,7 +1614,8 @@
         "mobile": "https://cdn.ing/assets/i/r/289015/skz6inupohb6p56zym3nuavh2s4g/about-startup-team-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-startup-team.tsx"
+      "demoPath": "src/blocks/about/about-startup-team.tsx",
+      "importantUsageNotes": "Only populate each of the teamMember 'avatar' object if you have an image/avatar to use for that team member object - DO NOT USE PLACEHOLDERS OR SELECT RANDOM IMAGES. Follow the example props closely for this block."
     },
     "about-stats-showcase": {
       "title": "About Stats Showcase",
@@ -1633,7 +1637,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-sidebar.tsx",
-      "importantUsageNotes": "Ensure to only generate 2 or 4 `stats` since the stats element uses a 2 column layout."
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `stats` since the stats element uses a 2 column layout. Only use numerical style strings for each stat 'value' prop, e.g. '1000' or '10K', avoid using longer strings like 'Over 1000 developers' since that will distort the layout. Follow the example props closely for this block."
     },
     "about-story-expertise": {
       "title": "About Story Expertise",
@@ -1644,7 +1648,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-expertise.tsx",
-      "importantUsageNotes": "Ensure to only generate 2 or 4 `expertiseAreas` since the expertiseAreas element uses a 2 column layout. Keep the highlight prop's label, title, and description succinct since too long of content will distort the layout."
+      "importantUsageNotes": "Ensure to only generate 2 or 4 `expertiseAreas` since the expertiseAreas element uses a 2 column layout. Keep the highlight prop's label, title, and description succinct since too long of content will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-story-gallery": {
       "title": "About Story Gallery",
@@ -1687,7 +1691,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx",
-      "importantUsageNotes": "Follow the example props closely for this block, especially the count of images."
+      "importantUsageNotes": "Follow the example props closely for this block, especially using exactly 3 images."
     },
     "about-culture-tabs": {
       "title": "About Culture Tabs",
@@ -1698,7 +1702,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-culture-tabs.tsx",
-      "importantUsageNotes": "This block has a large number of strict requirements and should only be used for a website that has a large number of imges, reviews/testimonials, etc. Only use if you generate exactly 4 `aspects` since any more/fewer will distort the layout. Follow the example props very closely for this block, e.g. image counts in each section, 1 REAL (DO NOT GENERATE FAKE REVIEWS/TESTIMONIALS) testimonial per aspect, etc."
+      "importantUsageNotes": "This block has a large number of strict requirements and should only be used for a website that has a large number of imges, reviews/testimonials, etc. Only use if you generate exactly 4 `aspects` since any more/fewer will distort the layout. Follow the example props very closely for this block, e.g. image counts in each section, 1 REAL (DO NOT GENERATE FAKE REVIEWS/TESTIMONIALS) testimonial per aspect, etc. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-expandable-values": {
       "title": "About Expandable Values",
@@ -1752,7 +1756,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx",
-      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout."
+      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "article-breadcrumb-social": {
       "title": "Article Breadcrumb Social",
