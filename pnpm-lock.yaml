@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 3.3.6
-        version: 3.3.6(@page-speed/pressable@0.0.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 3.3.8
+        version: 3.3.8(@page-speed/pressable@0.0.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/blocks':
         specifier: 0.1.4
         version: 0.1.4(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -710,8 +710,8 @@ packages:
       '@tailwindcss/typography':
         optional: true
 
-  '@opensite/ui@3.3.6':
-    resolution: {integrity: sha512-8v9GrA5QLLtD9j+w7FRD3hiEA8lwDtILukazMIBV9xMNsfHEXkrI+FoVBt/sN7SF3ztnXzRI6WmFHH98LM9L6Q==}
+  '@opensite/ui@3.3.8':
+    resolution: {integrity: sha512-XOWEguBFMSVzsveTY4CHp4ldiCV312kBN+lMmZUr3Lpg2Y2QHMx1K+AgFBT94RpNrSgembs3a4vwfQrSLCTZ3g==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@page-speed/pressable': '>=0.0.7'
@@ -4347,7 +4347,7 @@ snapshots:
       - mapbox-gl
       - typescript
 
-  '@opensite/ui@3.3.6(@page-speed/pressable@0.0.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@3.3.8(@page-speed/pressable@0.0.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 2.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.8.2(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)

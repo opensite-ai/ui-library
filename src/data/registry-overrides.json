@@ -871,14 +871,15 @@
         "zoomIconName": "lucide/zoom-in",
         "enableLightbox": true,
         "spacing": "lg"
-      }
+      },
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-fullscreen-background-image": {
       "title": "Hero Fullscreen Background Image",
       "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290362/xr7mlyaqp04frk4arfnfjerqe0kd/cleanshot-2026-02-18-at-09-24-47.png",
-        "mobile": "https://cdn.ing/assets/i/r/290361/2mascl13qbif1vmxitq1fcdhysdy/cleanshot-2026-02-18-at-09-24-56.png"
+        "desktop": "https://cdn.ing/assets/i/r/306291/v92gk0hbscn8uc44weranfwev4ri/hero-fullscreen-background-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306292/c1x6brpr0aozujg1kizwf1fmkxkm/hero-fullscreen-background-image-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-background-image",
@@ -910,8 +911,8 @@
       "title": "Hero Gradient Client Focused",
       "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290322/h0vfgjsoamp82gnnb0evseb1e3qb/cleanshot-2026-02-18-at-08-33-49.png",
-        "mobile": "https://cdn.ing/assets/i/r/290321/3ip0ie4i2j9dzh4hsu5k45x5nzpx/cleanshot-2026-02-18-at-08-34-01.png"
+        "desktop": "https://cdn.ing/assets/i/r/306293/04y92ebe0eq7rhi4ofrv49ackrq0/hero-gradient-client-focused-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306294/ahu3bh9isupte12ejwiu7gkijouf/hero-gradient-client-focused-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-gradient-client-focused",
@@ -942,8 +943,8 @@
       "title": "Hero Hiring Animated Text",
       "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290417/8yo5zsmx1pefrk070mmzp749wmz9/cleanshot-2026-02-18-at-16-11-06.png",
-        "mobile": "https://cdn.ing/assets/i/r/290416/23ih67iqijsgjf81l6djy0h9o9bk/cleanshot-2026-02-18-at-16-11-14.png"
+        "desktop": "https://cdn.ing/assets/i/r/306293/04y92ebe0eq7rhi4ofrv49ackrq0/hero-gradient-client-focused-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306294/ahu3bh9isupte12ejwiu7gkijouf/hero-gradient-client-focused-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-hiring-animated-text",
@@ -2271,8 +2272,8 @@
       "title": "Feature Checklist Image",
       "componentPath": "blocks/features/feature-checklist-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290523/g81wquhrdc87sgw912urj5norq1l/feature-checklist-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290522/v3amhkyqdlur0cksretvyjvhsa4q/feature-checklist-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306289/z0k0ibuf18x7jd874ak1s7fndwhu/feature-checklist-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306290/njvf3794uuf4neunjz4uj6tfciuf/feature-checklist-image-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/features/feature-checklist-image.tsx"
@@ -2633,51 +2634,56 @@
       "title": "Link Page Bento Layout",
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png",
-        "mobile": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png"
+        "desktop": "https://cdn.ing/assets/i/r/306303/zl5j4j1jiot8c5bko9jtn7fipiys/link-page-bento-layout-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306304/rzwk5bwuejcatcts867h6no5rdcn/link-page-bento-layout-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/link-page/link-page-bento-layout"
+      "demoPath": "blocks/link-page/link-page-bento-layout",
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls) and use multiples of 3 for 'featured' based links and multiples of 4 for the standard 'links'. Follow the example props closely for this block."
     },
     "link-page-grid-cards": {
       "title": "Link Page Grid Cards",
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290841/jmx3esr2at4cna7v2tlddsg35q4t/cleanshot-2026-02-25-at-05-26-57.png",
-        "mobile": "https://cdn.ing/assets/i/r/290840/s01fz6d6z4s8uep0bz2vhh53hb51/cleanshot-2026-02-25-at-05-27-16.png"
+        "desktop": "https://cdn.ing/assets/i/r/306302/i0804qdw0ei2xc6248ueejiobc5q/link-page-grid-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306301/1d7yggc1mwxv5zimmkz5ql1vu39a/link-page-grid-cards-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/link-page/link-page-grid-cards"
+      "demoPath": "blocks/link-page/link-page-grid-cards",
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Follow the example props closely for this block."
     },
     "link-page-minimal-profile": {
       "title": "Link Page Minimal Profile",
       "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290095/8fg362bn3gm15xbd279fmkzd0kl7/link-page-minimal-profile-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290096/la9yv6p3ft7t5zlfhshgu9sz8ouc/link-page-minimal-profile-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306298/rdaope6f7663kkct4eiznvq2otlc/link-page-minimal-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306297/u0o3cx1ms82t6fub6p7u123frxwi/link-page-minimal-profile-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/link-page/link-page-minimal-profile"
+      "demoPath": "blocks/link-page/link-page-minimal-profile",
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Follow the example props closely for this block."
     },
     "link-page-newsletter-social": {
       "title": "Link Page Newsletter Social",
       "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290093/ehkdhxraw5onzj1oidajkgzmpnbc/link-page-newsletter-social-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290094/rhk6gtwsobwxxa1fb4ddofcb0nrw/link-page-newsletter-social-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306299/zn56kyieakiz6mjs98miedwwjptd/link-page-newsletter-social-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306300/qjwaaz6acrwqn72ir3kdwer4h0w1/link-page-newsletter-social-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/link-page/link-page-newsletter-social"
+      "demoPath": "blocks/link-page/link-page-newsletter-social",
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Ensure to find or create the correct contact_category (if the client specifically asked for a specific form list, find or create that contact_category - default behavior is to find or create the newsletter contact_category). Follow the example props closely for this block."
     },
     "link-tree-block": {
       "title": "Link Tree Block",
       "componentPath": "blocks/link-page/link-tree-block.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290087/a60nx7009yvoup8f2xo48f7doesx/link-tree-block-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290089/ozswoqjtcdb4g21xx81i2tcagjrm/link-tree-block-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306295/an5cx8unhvpjs0mzy927rhe6mcxj/link-tree-block-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306296/9q68brz8mc8bl62ist21jicdwcvn/link-tree-block-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/link-page/link-tree-block"
+      "demoPath": "blocks/link-page/link-tree-block",
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Only populate the 'mediaGallery' prop if you have brand photos/videos (do not use stock photos for this block) - and only use 3, 6, or 9 mediaGallery items since it's a 3 column grid. Follow the example props closely for this block."
     },
     "navbar-animated-preview": {
       "title": "NavBar Animated Preview",

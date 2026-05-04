@@ -1,14 +1,14 @@
 import { LinkPageBentoLayout } from "@opensite/ui/blocks/link-page/link-page-bento-layout";
-import { imagePlaceholders } from "@/lib/media";
+import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
     <LinkPageBentoLayout
       name="Sarah Mitchell"
-      bio="Creative Director & Content Strategist | Helping brands tell their story"
+      bio="Helping brands tell their story"
       avatar={{
-        src: imagePlaceholders[45],
+        src: logoPlaceholders.lightHorizontalLogo,
         alt: "Sarah Mitchell",
       }}
       socialLinks={[
@@ -98,7 +98,7 @@ export default function Demo() {
       }}
       spacing="xl"
       pattern="gridFadeTop"
-      patternOpacity={0.15}
+      patternOpacity={0.05}
       background="dark"
     />
   );

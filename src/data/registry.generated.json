@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-04T02:19:44.828Z",
+    "exportedAt": "2026-05-04T05:22:59.985Z",
     "totalBlocks": 605,
-    "version": "3.3.6",
+    "version": "3.3.8",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-04T02:37:45.753Z"
+    "syncedAt": "2026-05-04T06:07:51.312Z"
   },
   "blocks": [
     {
@@ -21052,8 +21052,8 @@
       "categorySlug": "features",
       "description": "Split layout with a large image on the left and a checklist of benefits on the right. Each benefit has a check icon, title, and description. Great for product benefits or service features.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290523/g81wquhrdc87sgw912urj5norq1l/feature-checklist-image-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290522/v3amhkyqdlur0cksretvyjvhsa4q/feature-checklist-image-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306289/z0k0ibuf18x7jd874ak1s7fndwhu/feature-checklist-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306290/njvf3794uuf4neunjz4uj6tfciuf/feature-checklist-image-mobile.jpg"
       },
       "componentPath": "blocks/features/feature-checklist-image.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { FeatureChecklistImage } from \"@opensite/ui/blocks/features/feature-checklist-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <FeatureChecklistImage\n      title=\"Everything You Need to Succeed\"\n      description=\"Our platform provides all the tools, integrations, and support you need to build and scale your applications with confidence.\"\n      imageSrc={imagePlaceholders[58]}\n      imageAlt=\"Platform features overview\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Schedule Demo\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      checklistItems={[\n        \"Zero-config deployment to global edge network\",\n        \"Automatic SSL certificates and custom domains\",\n        \"Built-in CI/CD with GitHub, GitLab, and Bitbucket\",\n      ]}\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -50887,11 +50887,110 @@
         "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-floating-images.tsx",
-      "code": "import { imagePlaceholders, optixFlowApiKey } from \"@/lib/media\";\nimport { HeroFloatingImages } from \"@opensite/ui/blocks/hero/hero-floating-images\";\nimport { Badge } from \"@opensite/ui/components/badge\";\nimport { Pressable } from \"@opensite/ui/components/pressable\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroFloatingImages\n      images={[\n        {\n          src: imagePlaceholders[10],\n          alt: \"Floating Image 1\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: imagePlaceholders[15],\n          alt: \"Floating Image 2\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: imagePlaceholders[20],\n          alt: \"Floating Image 3\",\n          className: \"rounded-lg shadow-lg\",\n        },\n      ]}\n      optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n      className=\"flex items-center justify-center\"\n    >\n      <div className=\"flex flex-col justify-center\">\n        <Badge className=\"mb-6 w-fit\" variant=\"secondary\">\n          Featured Work\n        </Badge>\n\n        <h1 className=\"mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl\">\n          Build Stunning Websites with\n          <br />\n          <span className=\"text-primary\">OpenSite UI</span>\n        </h1>\n\n        <p className=\"mb-8 max-w-lg text-lg text-muted-foreground\">\n          We design and build beautiful digital products that help brands\n          connect with their audience. From concept to launch, we bring visions\n          to life.\n        </p>\n\n        <div className=\"flex flex-wrap space-x-2 space-y-4\">\n          <Pressable\n            onClick={() => console.log(\"Clicked\")}\n            componentType=\"button\"\n            asButton\n            size=\"lg\"\n            variant=\"default\"\n          >\n            View Portfolio\n            <DynamicIcon name=\"lucide/arrow-right\" className=\"h-4 w-4\" />\n          </Pressable>\n          <Pressable\n            onClick={() => console.log(\"Clicked\")}\n            asButton\n            size=\"lg\"\n            componentType=\"button\"\n            variant=\"link\"\n          >\n            Our Process\n          </Pressable>\n        </div>\n      </div>\n    </HeroFloatingImages>\n  );\n}\n",
+      "code": "import { imagePlaceholders, optixFlowApiKey } from \"@/lib/media\";\nimport { HeroFloatingImages } from \"@opensite/ui/blocks/hero/hero-floating-images\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroFloatingImages\n      badge=\"Featured Work\"\n      heading=\"Build Stunning Websites with OpenSite UI\"\n      description=\"We design and build beautiful digital products that help brands connect with their audience. From concept to launch, we bring visions to life.\"\n      actions={[\n        {\n          label: \"View Portfolio\",\n          href: \"/portfolio\",\n          size: \"lg\",\n          variant: \"default\",\n          iconAfter: (\n            <DynamicIcon name=\"lucide/arrow-right\" className=\"h-4 w-4\" />\n          ),\n        },\n        {\n          label: \"Our Process\",\n          href: \"/process\",\n          size: \"lg\",\n          variant: \"link\",\n        },\n      ]}\n      images={[\n        {\n          src: imagePlaceholders[10],\n          alt: \"Floating Image 1\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: imagePlaceholders[15],\n          alt: \"Floating Image 2\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: imagePlaceholders[20],\n          alt: \"Floating Image 3\",\n          className: \"rounded-lg shadow-lg\",\n        },\n      ]}\n      optixFlowConfig={{ apiKey: optixFlowApiKey as string }}\n      className=\"flex items-center justify-center\"\n      background=\"dark\"\n      pattern=\"gridFadeBottomLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
-        "children": {
+        "badge": {
           "type": "object",
-          "description": "Flexible content slot for the left side of the hero.\nRenders any content the application/AI builder provides (badges, headings, descriptions, actions, etc.)\nThis allows maximum flexibility without prescribing specific content structure.",
+          "description": "Badge content displayed above the heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "badgeIcon": {
+          "type": "object",
+          "description": "Badge icon",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "heading": {
+          "type": "object",
+          "description": "Main heading content",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "description": {
+          "type": "object",
+          "description": "Description text below heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "actions": {
+          "type": "array",
+          "description": "Array of action configurations for CTA buttons",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "variant": {
+                "type": "string",
+                "description": "",
+                "typeLabel": "\"default\" | \"destructive\" | \"outline\" | \"secondary\" | \"ghost\" | \"link\"",
+                "required": false
+              },
+              "size": {
+                "type": "string",
+                "description": "",
+                "typeLabel": "\"default\" | \"sm\" | \"md\" | \"lg\" | \"icon\" | \"icon-sm\" | \"icon-lg\"",
+                "required": false
+              },
+              "label": {
+                "type": "object",
+                "description": "Button/link label text or ReactNode",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "icon": {
+                "type": "object",
+                "description": "Icon to display (typically before label)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "iconAfter": {
+                "type": "object",
+                "description": "Icon to display after the label",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "href": {
+                "type": "string",
+                "description": "URL for link behavior",
+                "required": false
+              },
+              "onClick": {
+                "type": "object",
+                "description": "Click handler for button behavior",
+                "typeLabel": "MouseEventHandler",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the action",
+                "required": false
+              },
+              "children": {
+                "type": "object",
+                "description": "Custom children (overrides label + icon rendering)",
+                "typeLabel": "ReactNode",
+                "required": false
+              },
+              "aria-label": {
+                "type": "string",
+                "description": "ARIA label for accessibility",
+                "required": false
+              },
+              "asButton": {
+                "type": "boolean",
+                "description": "Render as a button element instead of an anchor/link",
+                "required": false
+              }
+            },
+            "typeLabel": "ActionConfig"
+          },
+          "typeLabel": "ActionConfig[]",
+          "required": false
+        },
+        "actionsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering actions (overrides actions array)",
           "typeLabel": "React.ReactNode",
           "required": false
         },
@@ -50989,6 +51088,26 @@
           "description": "Additional CSS classes for the content area (left side)",
           "required": false
         },
+        "badgeClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the badge",
+          "required": false
+        },
+        "headingClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the heading",
+          "required": false
+        },
+        "descriptionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the description",
+          "required": false
+        },
+        "actionsClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the actions container",
+          "required": false
+        },
         "galleryClassName": {
           "type": "string",
           "description": "Additional CSS classes for the gallery container (right side)",
@@ -51059,7 +51178,8 @@
         "landing",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-badge-image-split",
@@ -56614,8 +56734,8 @@
       "categorySlug": "hero",
       "description": "A hero with gradient background focused on client success stories or testimonials. Builds trust through social proof.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290322/h0vfgjsoamp82gnnb0evseb1e3qb/cleanshot-2026-02-18-at-08-33-49.png",
-        "mobile": "https://cdn.ing/assets/i/r/290321/3ip0ie4i2j9dzh4hsu5k45x5nzpx/cleanshot-2026-02-18-at-08-34-01.png"
+        "desktop": "https://cdn.ing/assets/i/r/306293/04y92ebe0eq7rhi4ofrv49ackrq0/hero-gradient-client-focused-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306294/ahu3bh9isupte12ejwiu7gkijouf/hero-gradient-client-focused-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-gradient-client-focused.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroGradientClientFocused } from \"@opensite/ui/blocks/hero/hero-gradient-client-focused\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroGradientClientFocused\n      heading=\"Your success is our mission\"\n      description=\"We're dedicated to helping you achieve your goals with personalized support, expert guidance, and proven strategies.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"outline\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Talk to Sales\",\n          href: \"#\",\n          variant: \"ghost\",\n          icon: <DynamicIcon name=\"lucide/phone\" size={16} />,\n        },\n      ]}\n      image={{ src: imagePlaceholders[5], alt: \"Client success\" }}\n      background=\"gradient\"\n    />\n  );\n}\n",
@@ -57459,8 +57579,8 @@
       "categorySlug": "hero",
       "description": "A fullscreen hero with a background image, overlay, and centered content. Creates an immersive first impression.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290362/xr7mlyaqp04frk4arfnfjerqe0kd/cleanshot-2026-02-18-at-09-24-47.png",
-        "mobile": "https://cdn.ing/assets/i/r/290361/2mascl13qbif1vmxitq1fcdhysdy/cleanshot-2026-02-18-at-09-24-56.png"
+        "desktop": "https://cdn.ing/assets/i/r/306291/v92gk0hbscn8uc44weranfwev4ri/hero-fullscreen-background-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306292/c1x6brpr0aozujg1kizwf1fmkxkm/hero-fullscreen-background-image-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroFullscreenBackgroundImage } from \"@opensite/ui/blocks/hero/hero-fullscreen-background-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroFullscreenBackgroundImage\n      heading=\"Experience the extraordinary\"\n      description=\"Immersive experiences that captivate and inspire. Make a bold statement with stunning visuals.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Talk to Sales\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/phone\" size={16} />,\n        },\n      ]}\n      backgroundImage={imagePlaceholders[110]}\n    />\n  );\n}\n",
@@ -61788,8 +61908,8 @@
       "categorySlug": "hero",
       "description": "A hero for hiring platforms with animated rotating text. Dynamic design that showcases different job roles or skills.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290417/8yo5zsmx1pefrk070mmzp749wmz9/cleanshot-2026-02-18-at-16-11-06.png",
-        "mobile": "https://cdn.ing/assets/i/r/290416/23ih67iqijsgjf81l6djy0h9o9bk/cleanshot-2026-02-18-at-16-11-14.png"
+        "desktop": "https://cdn.ing/assets/i/r/306293/04y92ebe0eq7rhi4ofrv49ackrq0/hero-gradient-client-focused-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306294/ahu3bh9isupte12ejwiu7gkijouf/hero-gradient-client-focused-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { HeroHiringAnimatedText } from \"@opensite/ui/blocks/hero/hero-hiring-animated-text\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroHiringAnimatedText\n      headingPrefix=\"We're hiring\"\n      animatedTexts={[\n        \"Developers\",\n        \"Designers\",\n        \"Marketers\",\n        \"Product Managers\",\n      ]}\n      description=\"We're building the future of work and we want you to be part of it. Competitive salary, great benefits, and a culture you'll love.\"\n      actions={[\n        {\n          label: \"View Open Roles\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Learn About Us\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundImage={imagePlaceholders[39]}\n    />\n  );\n}\n",
@@ -137278,11 +137398,11 @@
       "categorySlug": "link-page",
       "description": "A customizable link-in-bio style page component with three theme variations (light, dark, glass). Features brand header with avatar and verified badge, customizable link list with icons, descriptions, badges and featured states, media gallery for images and videos, social media links, and background pattern customization. Ideal for creators, influencers, and businesses needing a comprehensive link page.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290087/a60nx7009yvoup8f2xo48f7doesx/link-tree-block-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290089/ozswoqjtcdb4g21xx81i2tcagjrm/link-tree-block-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306295/an5cx8unhvpjs0mzy927rhe6mcxj/link-tree-block-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306296/9q68brz8mc8bl62ist21jicdwcvn/link-tree-block-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-tree-block.tsx",
-      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: imagePlaceholders[24],\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          href: \"https://instagram.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"https://example.com/featured\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"https://example.com/services\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"https://example.com/testimonials\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"https://example.com/consultation\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkTreeBlock } from \"@opensite/ui/blocks/link-page/link-tree-block\";\nimport { imagePlaceholders, logoPlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkTreeBlock\n      brandName=\"Creative Studio\"\n      brandTagline=\"Award-winning design & branding agency\"\n      brandAvatar={{\n        src: logoPlaceholders.lightHorizontalLogo,\n        alt: \"Creative Studio\",\n      }}\n      brandVerified={false}\n      socialLinks={[\n        {\n          href: \"https://instagram.com/@client-username\",\n        },\n        {\n          href: \"https://x.com/client-username\",\n        },\n        {\n          href: \"https://linkedin.com/:client-linkedin\",\n        },\n        {\n          href: \"https://youtube.com/@client-channel\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Featured Project\",\n          description: \"New Brand Identity Launch\",\n          href: \"#\",\n          iconName: \"lucide/star\",\n          featured: true,\n          badge: \"New\",\n        },\n        {\n          id: \"2\",\n          label: \"Our Portfolio\",\n          description: \"View our latest work\",\n          href: \"#\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"3\",\n          label: \"Services & Pricing\",\n          description: \"Discover what we offer\",\n          href: \"#\",\n          iconName: \"lucide/package\",\n        },\n        {\n          id: \"4\",\n          label: \"Client Testimonials\",\n          description: \"Hear from our clients\",\n          href: \"#\",\n          iconName: \"lucide/message-circle\",\n        },\n        {\n          id: \"5\",\n          label: \"Free Consultation\",\n          description: \"Book a 30-minute call\",\n          href: \"#\",\n          iconName: \"lucide/calendar\",\n          badge: \"Limited\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact Us\",\n          description: \"Get in touch\",\n          href: \"#\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      mediaGalleryTitle=\"Recent Work\"\n      mediaGallery={[\n        {\n          id: \"1\",\n          type: \"image\",\n          src: imagePlaceholders[125],\n          alt: \"Project showcase 1\",\n          href: \"https://example.com/project1\",\n        },\n        {\n          id: \"2\",\n          type: \"image\",\n          src: imagePlaceholders[126],\n          alt: \"Project showcase 2\",\n          href: \"https://example.com/project2\",\n        },\n        {\n          id: \"3\",\n          type: \"image\",\n          src: imagePlaceholders[127],\n          alt: \"Project showcase 3\",\n          href: \"https://example.com/project3\",\n        },\n        {\n          id: \"4\",\n          type: \"image\",\n          src: imagePlaceholders[128],\n          alt: \"Project showcase 4\",\n          href: \"https://example.com/project4\",\n        },\n        {\n          id: \"5\",\n          type: \"image\",\n          src: imagePlaceholders[129],\n          alt: \"Project showcase 5\",\n          href: \"#\",\n        },\n        {\n          id: \"6\",\n          type: \"image\",\n          src: imagePlaceholders[130],\n          alt: \"Project showcase 6\",\n          href: \"#\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-up-right\" size={16} />,\n      }}\n      spacing=\"xl\"\n      patternOpacity={0.33}\n      pattern=\"diagonalCrossFadeCenter\"\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "brandName": {
           "type": "object",
@@ -137844,7 +137964,8 @@
         "media-gallery",
         "links"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Only populate the 'mediaGallery' prop if you have brand photos/videos (do not use stock photos for this block) - and only use 3, 6, or 9 mediaGallery items since it's a 3 column grid. Follow the example props closely for this block."
     },
     {
       "id": "link-page-minimal-profile",
@@ -137854,11 +137975,11 @@
       "categorySlug": "link-page",
       "description": "A clean, minimal link page focused on simplicity. Features a streamlined avatar and name display, optional bio text, simple link list with subtle hover effects, and social icons at the bottom. Supports light and dark themes. Ideal for professionals, developers, and anyone who prefers a minimalist aesthetic for their link page.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290095/8fg362bn3gm15xbd279fmkzd0kl7/link-page-minimal-profile-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290096/la9yv6p3ft7t5zlfhshgu9sz8ouc/link-page-minimal-profile-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306298/rdaope6f7663kkct4eiznvq2otlc/link-page-minimal-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306297/u0o3cx1ms82t6fub6p7u123frxwi/link-page-minimal-profile-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-page-minimal-profile.tsx",
-      "code": "import { LinkPageMinimalProfile } from \"@opensite/ui/blocks/link-page/link-page-minimal-profile\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageMinimalProfile\n      name=\"Alex Rivera\"\n      bio=\"Software Engineer & Open Source Contributor\"\n      avatar={{\n        src: imagePlaceholders[38],\n        alt: \"Alex Rivera\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Personal Website\",\n          href: \"https://example.com\",\n          iconName: \"lucide/globe\",\n        },\n        {\n          id: \"2\",\n          label: \"GitHub Projects\",\n          href: \"https://github.com\",\n          iconName: \"simple-icons/github\",\n        },\n        {\n          id: \"3\",\n          label: \"Technical Blog\",\n          href: \"https://example.com/blog\",\n          iconName: \"lucide/pen-line\",\n        },\n        {\n          id: \"4\",\n          label: \"npm Packages\",\n          href: \"https://npmjs.com\",\n          iconName: \"simple-icons/npm\",\n        },\n        {\n          id: \"5\",\n          label: \"Resume / CV\",\n          href: \"https://example.com/resume\",\n          iconName: \"lucide/file-user\",\n        },\n        {\n          id: \"6\",\n          label: \"Email Me\",\n          href: \"mailto:alex@example.com\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://github.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://dev.to\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/link\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"architect\"\n      patternOpacity={0.08}\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageMinimalProfile } from \"@opensite/ui/blocks/link-page/link-page-minimal-profile\";\nimport { imagePlaceholders, logoPlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageMinimalProfile\n      name=\"Alex Rivera\"\n      bio=\"Software Engineer & Open Source Contributor\"\n      avatar={{\n        src: logoPlaceholders.darkHorizontalLogo,\n        alt: \"Alex Rivera\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Personal Website\",\n          href: \"https://example.com\",\n          iconName: \"lucide/globe\",\n        },\n        {\n          id: \"2\",\n          label: \"GitHub Projects\",\n          href: \"https://github.com\",\n          iconName: \"simple-icons/github\",\n        },\n        {\n          id: \"3\",\n          label: \"Technical Blog\",\n          href: \"https://example.com/blog\",\n          iconName: \"lucide/pen-line\",\n        },\n        {\n          id: \"4\",\n          label: \"npm Packages\",\n          href: \"https://npmjs.com\",\n          iconName: \"simple-icons/npm\",\n        },\n        {\n          id: \"5\",\n          label: \"Resume / CV\",\n          href: \"https://example.com/resume\",\n          iconName: \"lucide/file-user\",\n        },\n        {\n          id: \"6\",\n          label: \"Email Me\",\n          href: \"mailto:alex@example.com\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://github.com\",\n        },\n        {\n          href: \"https://linkedin.com\",\n        },\n        {\n          href: \"https://twitter.com\",\n        },\n        {\n          href: \"https://dev.to\",\n        },\n      ]}\n      footerAction={{\n        label: \"Powered by OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/link\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"architect\"\n      patternOpacity={0.08}\n      background=\"gray\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -138299,7 +138420,8 @@
         "portfolio",
         "links"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Follow the example props closely for this block."
     },
     {
       "id": "link-page-newsletter-social",
@@ -138309,11 +138431,11 @@
       "categorySlug": "link-page",
       "description": "A link page with integrated newsletter signup form powered by FormEngine. Features profile section with avatar, newsletter signup form with email validation via @page-speed/forms/integration, social media links, and additional links section. Supports universal REST API integration via formEngineSetup. Ideal for content creators, bloggers, and marketers who want to grow their email list.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290093/ehkdhxraw5onzj1oidajkgzmpnbc/link-page-newsletter-social-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290094/rhk6gtwsobwxxa1fb4ddofcb0nrw/link-page-newsletter-social-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/306299/zn56kyieakiz6mjs98miedwwjptd/link-page-newsletter-social-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306300/qjwaaz6acrwqn72ir3kdwer4h0w1/link-page-newsletter-social-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
-      "code": "import { LinkPageNewsletterSocial } from \"@opensite/ui/blocks/link-page/link-page-newsletter-social\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <LinkPageNewsletterSocial\n      name=\"Jamie Taylor\"\n      bio=\"Marketing Expert & Growth Strategist\"\n      avatar={{\n        src: imagePlaceholders[51],\n        alt: \"Jamie Taylor\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      newsletterHeading=\"Join 10,000+ Marketers\"\n      newsletterDescription=\"Get weekly tips on growth marketing and audience building delivered to your inbox every Friday.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Free Marketing Course\",\n          href: \"https://example.com/course\",\n          iconName: \"lucide/graduation-cap\",\n        },\n        {\n          id: \"2\",\n          label: \"Growth Templates\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/file-spreadsheet\",\n        },\n        {\n          id: \"3\",\n          label: \"1-on-1 Coaching\",\n          href: \"https://example.com/coaching\",\n          iconName: \"lucide/user-plus\",\n        },\n        {\n          id: \"4\",\n          label: \"Podcast Episodes\",\n          href: \"https://example.com/podcast\",\n          iconName: \"lucide/mic\",\n        },\n        {\n          id: \"5\",\n          label: \"Community Forum\",\n          href: \"https://example.com/community\",\n          iconName: \"lucide/users\",\n        },\n      ]}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.08}\n      background=\"secondary\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageNewsletterSocial } from \"@opensite/ui/blocks/link-page/link-page-newsletter-social\";\nimport { imagePlaceholders, logoPlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <LinkPageNewsletterSocial\n      name=\"Jamie Taylor\"\n      bio=\"Marketing Expert & Growth Strategist\"\n      avatar={{\n        src: logoPlaceholders.lightHorizontalLogo,\n        alt: \"Jamie Taylor\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      newsletterHeading=\"Join 10,000+ Marketers\"\n      newsletterDescription=\"Get weekly tips on growth marketing and audience building delivered to your inbox every Friday.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      links={[\n        {\n          id: \"1\",\n          label: \"Free Marketing Course\",\n          href: \"https://example.com/course\",\n          iconName: \"lucide/graduation-cap\",\n        },\n        {\n          id: \"2\",\n          label: \"Growth Templates\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/file-spreadsheet\",\n        },\n        {\n          id: \"3\",\n          label: \"1-on-1 Coaching\",\n          href: \"https://example.com/coaching\",\n          iconName: \"lucide/user-plus\",\n        },\n        {\n          id: \"4\",\n          label: \"Podcast Episodes\",\n          href: \"https://example.com/podcast\",\n          iconName: \"lucide/mic\",\n        },\n        {\n          id: \"5\",\n          label: \"Community Forum\",\n          href: \"https://example.com/community\",\n          iconName: \"lucide/users\",\n        },\n      ]}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.08}\n      background=\"secondary\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -138897,7 +139019,8 @@
         "lead-generation",
         "links"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Ensure to find or create the correct contact_category (if the client specifically asked for a specific form list, find or create that contact_category - default behavior is to find or create the newsletter contact_category). Follow the example props closely for this block."
     },
     {
       "id": "link-page-grid-cards",
@@ -138907,11 +139030,11 @@
       "categorySlug": "link-page",
       "description": "A visually rich link page displaying links as a responsive grid of cards. Features profile header with avatar, links as cards with icons, labels and optional descriptions, hover effects with scale and shadow transitions, configurable 2 or 3 column layout, and social media links. Ideal for creators, businesses, and anyone who wants a more visual link page.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290841/jmx3esr2at4cna7v2tlddsg35q4t/cleanshot-2026-02-25-at-05-26-57.png",
-        "mobile": "https://cdn.ing/assets/i/r/290840/s01fz6d6z4s8uep0bz2vhh53hb51/cleanshot-2026-02-25-at-05-27-16.png"
+        "desktop": "https://cdn.ing/assets/i/r/306302/i0804qdw0ei2xc6248ueejiobc5q/link-page-grid-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306301/1d7yggc1mwxv5zimmkz5ql1vu39a/link-page-grid-cards-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
-      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      avatar={{\n        src: imagePlaceholders[62],\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { imagePlaceholders, logoPlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      avatar={{\n        src: logoPlaceholders.lightHorizontalLogo,\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -139384,7 +139507,8 @@
         "showcase",
         "links"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls). Follow the example props closely for this block."
     },
     {
       "id": "link-page-bento-layout",
@@ -139394,11 +139518,11 @@
       "categorySlug": "link-page",
       "description": "A modern bento grid style link page with visual hierarchy. Features profile header with avatar, bento grid layout with featured links in larger cells with optional background images, regular links in smaller cells, and social media links. Creates visual hierarchy by making featured links more prominent. Ideal for digital creators, entrepreneurs, and anyone wanting a trendy, modern link page design.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290843/0lxbcmdyssbsyfr7hlyeysgg1raz/cleanshot-2026-02-25-at-05-50-00.png",
-        "mobile": "https://cdn.ing/assets/i/r/290842/edp1dq6ln2lg5h7lt3jduive7cah/cleanshot-2026-02-25-at-05-50-12.png"
+        "desktop": "https://cdn.ing/assets/i/r/306303/zl5j4j1jiot8c5bko9jtn7fipiys/link-page-bento-layout-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306304/rzwk5bwuejcatcts867h6no5rdcn/link-page-bento-layout-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
-      "code": "import { LinkPageBentoLayout } from \"@opensite/ui/blocks/link-page/link-page-bento-layout\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageBentoLayout\n      name=\"Sarah Mitchell\"\n      bio=\"Creative Director & Content Strategist | Helping brands tell their story\"\n      avatar={{\n        src: imagePlaceholders[45],\n        alt: \"Sarah Mitchell\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Latest Video Series\",\n          description: \"5 Days of Brand Strategy\",\n          href: \"#\",\n          iconName: \"simple-icons/youtube\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[78],\n            alt: \"Latest Video Series\",\n          },\n        },\n        {\n          id: \"2\",\n          label: \"Download Free Guide\",\n          description: \"The Ultimate Brand Playbook\",\n          href: \"#\",\n          iconName: \"lucide/download\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[92],\n            alt: \"Brand Playbook\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Start Free Trial\",\n          description: \"Experience our platform with a 14-day free trial.\",\n          href: \"#\",\n          iconName: \"lucide/rocket\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[93],\n            alt: \"Free Trial\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Portfolio\",\n          href: \"#\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"4\",\n          label: \"Shop Presets\",\n          href: \"#\",\n          iconName: \"lucide/shopping-bag\",\n        },\n        {\n          id: \"5\",\n          label: \"Book a Call\",\n          href: \"#\",\n          iconName: \"lucide/calendar\",\n        },\n        {\n          id: \"6\",\n          label: \"Newsletter\",\n          href: \"#\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      footerAction={{\n        label: \"Made with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.15}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageBentoLayout } from \"@opensite/ui/blocks/link-page/link-page-bento-layout\";\nimport { imagePlaceholders, logoPlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageBentoLayout\n      name=\"Sarah Mitchell\"\n      bio=\"Helping brands tell their story\"\n      avatar={{\n        src: logoPlaceholders.lightHorizontalLogo,\n        alt: \"Sarah Mitchell\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Latest Video Series\",\n          description: \"5 Days of Brand Strategy\",\n          href: \"#\",\n          iconName: \"simple-icons/youtube\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[78],\n            alt: \"Latest Video Series\",\n          },\n        },\n        {\n          id: \"2\",\n          label: \"Download Free Guide\",\n          description: \"The Ultimate Brand Playbook\",\n          href: \"#\",\n          iconName: \"lucide/download\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[92],\n            alt: \"Brand Playbook\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Start Free Trial\",\n          description: \"Experience our platform with a 14-day free trial.\",\n          href: \"#\",\n          iconName: \"lucide/rocket\",\n          featured: true,\n          image: {\n            src: imagePlaceholders[93],\n            alt: \"Free Trial\",\n          },\n        },\n        {\n          id: \"3\",\n          label: \"Portfolio\",\n          href: \"#\",\n          iconName: \"lucide/briefcase\",\n        },\n        {\n          id: \"4\",\n          label: \"Shop Presets\",\n          href: \"#\",\n          iconName: \"lucide/shopping-bag\",\n        },\n        {\n          id: \"5\",\n          label: \"Book a Call\",\n          href: \"#\",\n          iconName: \"lucide/calendar\",\n        },\n        {\n          id: \"6\",\n          label: \"Newsletter\",\n          href: \"#\",\n          iconName: \"lucide/mail\",\n        },\n      ]}\n      footerAction={{\n        label: \"Made with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/sparkles\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.05}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -139951,7 +140075,8 @@
         "entrepreneur",
         "links"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply 'socialLinks' that are the links from the website's valid social accounts. Ensure you only use 'links' with valid href values (use only internal and important external urls) and use multiples of 3 for 'featured' based links and multiples of 4 for the standard 'links'. Follow the example props closely for this block."
     },
     {
       "id": "about-split-hero",

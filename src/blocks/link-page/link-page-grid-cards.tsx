@@ -1,5 +1,5 @@
 import { LinkPageGridCards } from "@opensite/ui/blocks/link-page/link-page-grid-cards";
-import { imagePlaceholders } from "@/lib/media";
+import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
@@ -8,7 +8,7 @@ export default function Demo() {
       name="Marcus Chen"
       bio="Product Designer & Digital Artist"
       avatar={{
-        src: imagePlaceholders[62],
+        src: logoPlaceholders.lightHorizontalLogo,
         alt: "Marcus Chen",
       }}
       socialLinks={[

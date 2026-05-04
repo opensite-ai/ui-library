@@ -1,5 +1,5 @@
 import { LinkTreeBlock } from "@opensite/ui/blocks/link-page/link-tree-block";
-import { imagePlaceholders } from "@/lib/media";
+import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
@@ -8,22 +8,22 @@ export default function Demo() {
       brandName="Creative Studio"
       brandTagline="Award-winning design & branding agency"
       brandAvatar={{
-        src: imagePlaceholders[24],
+        src: logoPlaceholders.lightHorizontalLogo,
         alt: "Creative Studio",
       }}
       brandVerified={false}
       socialLinks={[
         {
-          href: "https://instagram.com",
+          href: "https://instagram.com/@client-username",
         },
         {
-          href: "https://twitter.com",
+          href: "https://x.com/client-username",
         },
         {
-          href: "https://linkedin.com",
+          href: "https://linkedin.com/:client-linkedin",
         },
         {
-          href: "https://youtube.com",
+          href: "https://youtube.com/@client-channel",
         },
       ]}
       links={[
@@ -31,7 +31,7 @@ export default function Demo() {
           id: "1",
           label: "Featured Project",
           description: "New Brand Identity Launch",
-          href: "https://example.com/featured",
+          href: "#",
           iconName: "lucide/star",
           featured: true,
           badge: "New",
@@ -40,28 +40,28 @@ export default function Demo() {
           id: "2",
           label: "Our Portfolio",
           description: "View our latest work",
-          href: "https://example.com/portfolio",
+          href: "#",
           iconName: "lucide/briefcase",
         },
         {
           id: "3",
           label: "Services & Pricing",
           description: "Discover what we offer",
-          href: "https://example.com/services",
+          href: "#",
           iconName: "lucide/package",
         },
         {
           id: "4",
           label: "Client Testimonials",
           description: "Hear from our clients",
-          href: "https://example.com/testimonials",
+          href: "#",
           iconName: "lucide/message-circle",
         },
         {
           id: "5",
           label: "Free Consultation",
           description: "Book a 30-minute call",
-          href: "https://example.com/consultation",
+          href: "#",
           iconName: "lucide/calendar",
           badge: "Limited",
         },
@@ -69,7 +69,7 @@ export default function Demo() {
           id: "6",
           label: "Contact Us",
           description: "Get in touch",
-          href: "https://example.com/contact",
+          href: "#",
           iconName: "lucide/mail",
         },
       ]}
