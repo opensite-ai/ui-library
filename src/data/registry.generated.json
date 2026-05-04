@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-04-30T11:04:44.228Z",
+    "exportedAt": "2026-05-04T00:53:10.318Z",
     "totalBlocks": 605,
-    "version": "3.3.2",
+    "version": "3.3.5",
     "source": "@opensite/ui",
-    "syncedAt": "2026-04-30T11:08:39.253Z"
+    "syncedAt": "2026-05-04T01:19:05.297Z"
   },
   "blocks": [
     {
@@ -4330,7 +4330,7 @@
         "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
       },
       "componentPath": "blocks/about/about-network-spotlight.tsx",
-      "code": "import { AboutNetworkSpotlight } from \"@opensite/ui/blocks/about/about-network-spotlight\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutNetworkSpotlight\n      eyebrow=\"Partner Program\"\n      heading=\"Join Our Growing Network\"\n      description=\"Connect with industry leaders, access exclusive resources, and grow your business through our partner ecosystem.\"\n      highlights={[\n        \"Access to co-marketing opportunities and joint campaigns\",\n        \"Priority support and dedicated partner success manager\",\n        \"Revenue sharing and referral commission programs\",\n        \"Early access to new features and beta programs\",\n      ]}\n      actions={[\n        {\n          label: \"Become a Partner\",\n          href: \"#\",\n          variant: \"default\",\n          asButton: true,\n        },\n        {\n          label: \"Learn More\",\n          href: \"#\",\n          variant: \"link\",\n          asButton: true,\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[16],\n        alt: \"Partner collaboration meeting\",\n      }}\n      spotlightCard={{\n        icon: <DynamicIcon name=\"lucide/award\" size={24} />,\n        label: \"Featured Partner\",\n        title: \"Acme Corporation\",\n        description:\n          \"Achieved 300% growth in their first year as a certified partner.\",\n      }}\n      background=\"dark\"\n      pattern=\"spotlightLeft\"\n    />\n  );\n}\n",
+      "code": "import { AboutNetworkSpotlight } from \"@opensite/ui/blocks/about/about-network-spotlight\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <AboutNetworkSpotlight\n      eyebrow=\"Partner Program\"\n      heading=\"Join Our Growing Network\"\n      description=\"Connect with industry leaders, access exclusive resources, and grow your business through our partner ecosystem.\"\n      highlights={[\n        \"Access to co-marketing opportunities and joint campaigns\",\n        \"Priority support and dedicated partner success manager\",\n        \"Revenue sharing and referral commission programs\",\n        \"Early access to new features and beta programs\",\n      ]}\n      actions={[\n        {\n          label: \"Become a Partner\",\n          href: \"#\",\n          variant: \"default\",\n          asButton: true,\n        },\n        {\n          label: \"Learn More\",\n          href: \"#\",\n          variant: \"link\",\n          asButton: true,\n        },\n      ]}\n      image={{\n        src: imagePlaceholders[16],\n        alt: \"Partner collaboration meeting\",\n      }}\n      spotlightCard={{\n        icon: \"lucide/award\",\n        label: \"Featured Partner\",\n        title: \"Acme Corporation\",\n        description:\n          \"Achieved 300% growth in their first year as a certified partner.\",\n      }}\n      background=\"dark\"\n      pattern=\"spotlightLeft\"\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -4471,9 +4471,8 @@
           "description": "Spotlight card content overlaid on the image",
           "fields": {
             "icon": {
-              "type": "object",
+              "type": "string",
               "description": "",
-              "typeLabel": "React.ReactNode",
               "required": true
             },
             "label": {
@@ -4495,7 +4494,7 @@
               "required": true
             }
           },
-          "typeLabel": "{ icon: React.ReactNode; label: React.ReactNode; title: React.ReactNode; description: React.ReactNode; }",
+          "typeLabel": "{ icon: string; label: React.ReactNode; title: React.ReactNode; description: React.ReactNode; }",
           "required": false
         },
         "spotlightCardSlot": {
@@ -4620,7 +4619,7 @@
         "community"
       ],
       "performance": {},
-      "importantUsageNotes": "Ensure to not generate more than 5-6 `highlights`. Keep the the `spotlightCard` prop's label, title, and description succinct since too long of content will distort the layout."
+      "importantUsageNotes": "Ensure to not generate more than 4-6 `highlights`. Keep the the `spotlightCard` prop's label, title, and description succinct since too long of content will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-location-info-hero",
@@ -11974,7 +11973,8 @@
         "contact-info",
         "simple"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     {
       "id": "contact-careers",
@@ -12612,7 +12612,8 @@
         "social",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     {
       "id": "contact-demo",
@@ -12874,7 +12875,8 @@
         "critical",
         "form"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     {
       "id": "contact-event",
@@ -14334,7 +14336,8 @@
         "form",
         "address"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use locations assigned to the website (if this is a general contact block), if it's region specific, only use locations assigned to that region, if this is a single location specific pages, only use the location data for the single location."
     },
     {
       "id": "contact-minimal",
@@ -16369,7 +16372,8 @@
         "links",
         "support-hub"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a contact block that doesn't have a form element, only use this to render contact information. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     {
       "id": "contact-tenant",
@@ -19910,7 +19914,8 @@
         "timed",
         "indicators"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate succinct titles and descriptions for each of the 'slides' since too much content will distort the layout. Follow the example props closely for this block."
     },
     {
       "id": "carousel-scrolling-feature-showcase",
@@ -20231,7 +20236,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290530/ix6vpdd7n99qiorwkr3fj3i4h8jm/feature-capabilities-grid-mobile.png"
       },
       "componentPath": "blocks/features/feature-capabilities-grid.tsx",
-      "code": "import { FeatureCapabilitiesGrid } from \"@opensite/ui/blocks/features/feature-capabilities-grid\";\n\nexport default function Demo() {\n  return (\n    <FeatureCapabilitiesGrid\n      eyebrow=\"PLATFORM CAPABILITIES\"\n      heading=\"Everything You Need to Build Modern Applications\"\n      items={[\n        {\n          iconName: \"lucide/brain\",\n          title: \"AI-Powered Insights\",\n          description:\n            \"Machine learning algorithms that analyze patterns and provide actionable recommendations in real-time.\",\n          badge: \"NEW\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/database\",\n          title: \"Intelligent Data Layer\",\n          description:\n            \"Distributed database architecture with automatic sharding, replication, and sub-millisecond query times.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/lock\",\n          title: \"Zero-Trust Security\",\n          description:\n            \"End-to-end encryption with hardware security modules and SOC 2 Type II compliance.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/activity\",\n          title: \"Real-Time Monitoring\",\n          description:\n            \"Comprehensive observability with distributed tracing, custom metrics, and intelligent alerting.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/workflow\",\n          title: \"Automated Workflows\",\n          description:\n            \"Visual workflow builder with conditional logic, parallel processing, and custom integrations.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/globe\",\n          title: \"Global Edge Network\",\n          description:\n            \"Deploy to 200+ edge locations worldwide with automatic failover and intelligent routing.\",\n          badge: \"BETA\",\n          href: \"#\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.2}\n    />\n  );\n}\n",
+      "code": "import { FeatureCapabilitiesGrid } from \"@opensite/ui/blocks/features/feature-capabilities-grid\";\n\nexport default function Demo() {\n  return (\n    <FeatureCapabilitiesGrid\n      eyebrow=\"PLATFORM CAPABILITIES\"\n      heading=\"Everything You Need to Build Modern Applications\"\n      items={[\n        {\n          iconName: \"lucide/brain\",\n          title: \"AI-Powered Insights\",\n          description:\n            \"Machine learning algorithms that analyze patterns and provide actionable recommendations in real-time.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/database\",\n          title: \"Intelligent Data Layer\",\n          description:\n            \"Distributed database architecture with automatic sharding, replication, and sub-millisecond query times.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/lock\",\n          title: \"Zero-Trust Security\",\n          description:\n            \"End-to-end encryption with hardware security modules and SOC 2 Type II compliance.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/activity\",\n          title: \"Real-Time Monitoring\",\n          description:\n            \"Comprehensive observability with distributed tracing, custom metrics, and intelligent alerting.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/workflow\",\n          title: \"Automated Workflows\",\n          description:\n            \"Visual workflow builder with conditional logic, parallel processing, and custom integrations.\",\n          href: \"#\",\n        },\n        {\n          iconName: \"lucide/globe\",\n          title: \"Global Edge Network\",\n          description:\n            \"Deploy to 200+ edge locations worldwide with automatic failover and intelligent routing.\",\n          href: \"#\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"dashedGridBasic\"\n      patternOpacity={0.2}\n    />\n  );\n}\n",
       "propsSchema": {
         "eyebrow": {
           "type": "object",
@@ -49910,7 +49915,8 @@
         "value-proposition",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, 9, or 12 `benefits` since the block uses a 3 column layout. Follow the example props closely for this block."
     },
     {
       "id": "faq-rounded-cards",
@@ -50667,7 +50673,8 @@
         "services",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you are going to use exactly 3 'cards' for the 'cards' props. The 'href' for each of the cards is optional, only supply it if you have a valid href for each of the card items. Follow the example props closely for this block."
     },
     {
       "id": "hero-split-icon-cards",
@@ -50866,7 +50873,8 @@
         "features",
         "callouts"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you are going to use 3-4 'cards' for the 'cards' props. Follow the example props closely for this block."
     },
     {
       "id": "hero-floating-images",
@@ -51288,7 +51296,8 @@
         "saas",
         "business"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-image-left-content",
@@ -51533,7 +51542,8 @@
         "product",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-image-slider",
@@ -51896,7 +51906,8 @@
         "visual",
         "rotating"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to utilize the form configuration setup for this block."
     },
     {
       "id": "hero-centered-image-grid",
@@ -52211,7 +52222,8 @@
         "portfolio",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-centered-screenshot",
@@ -52428,7 +52440,8 @@
         "software",
         "demo"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-pattern-badge-logos",
@@ -52697,7 +52710,8 @@
         "companies",
         "partners"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block. AND VERY IMPORTANT: only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of logos."
     },
     {
       "id": "hero-logo-centered-screenshot",
@@ -52968,7 +52982,8 @@
         "trust",
         "logos"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply a `logo` object if the website has a logo in its media library."
     },
     {
       "id": "hero-pattern-logo-tech-stack",
@@ -53272,7 +53287,8 @@
         "technical",
         "icons"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block. AND VERY IMPORTANT: only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'techLogos'."
     },
     {
       "id": "hero-announcement-badge",
@@ -53467,7 +53483,8 @@
         "update",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-tech-carousel",
@@ -53617,7 +53634,8 @@
         "brands",
         "auto-scroll"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use for tech companies that you know have a collection of tools they use with install commands, this block will not be used often but is a great option for the right use case. Follow the example props closely for this block."
     },
     {
       "id": "hero-simple-centered-image",
@@ -53838,7 +53856,8 @@
         "clean",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-platform-features-grid",
@@ -54092,7 +54111,8 @@
         "product",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 `features` since the achievements showcase is a 4 column layout. Follow the example props closely for this block."
     },
     {
       "id": "hero-spiral-pattern-cards",
@@ -54339,7 +54359,8 @@
         "visual",
         "agency"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-split-spiral-shapes",
@@ -54586,7 +54607,8 @@
         "creative",
         "design"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 3 images. Follow the example props closely for this block."
     },
     {
       "id": "hero-split-geometric-shapes",
@@ -54821,7 +54843,8 @@
         "tech",
         "patterns"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 4 images. Follow the example props closely for this block."
     },
     {
       "id": "hero-community-survey-cta",
@@ -55140,7 +55163,8 @@
         "cta",
         "participation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-marketplace-scattered-images",
@@ -55393,7 +55417,8 @@
         "ecommerce",
         "shop"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have 6 unique photo assets to supply for the 'image' prop. Follow the example props closely for this block."
     },
     {
       "id": "hero-badge-shadow-overlay",
@@ -55617,7 +55642,8 @@
         "impactful",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-video-background-dark",
@@ -55855,7 +55881,8 @@
         "cinematic",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if the media query returns a video that is appropriate for the block (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-grid-pattern-efficiency",
@@ -56268,7 +56295,8 @@
         "decorative",
         "highlights"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 `achievements` since the achievements showcase is a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-design-carousel-portfolio",
@@ -56576,7 +56604,8 @@
         "projects",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only supply a 'logo.src' if you have a logo from the media library for the site. Only use if you have at least 4-6 'carouselImages'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-gradient-client-focused",
@@ -56812,7 +56841,8 @@
         "social-proof",
         "success"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-premium-split-avatars",
@@ -57143,7 +57173,8 @@
         "credibility",
         "trust"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and socialProofText - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. Follow the example props closely for this block."
     },
     {
       "id": "hero-ui-library-showcase",
@@ -57418,7 +57449,8 @@
         "documentation",
         "developer"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-fullscreen-background-image",
@@ -57625,7 +57657,8 @@
         "impactful",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-fullscreen-logo-cta",
@@ -57862,7 +57895,8 @@
         "focused",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if the website has a valid logo to supply to the 'logo.src' prop. Follow the example props closely for this block."
     },
     {
       "id": "hero-gradient-avatars-rating",
@@ -58158,7 +58192,8 @@
         "reviews",
         "trust"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and a ratingValue and ratingLabel - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-task-timer-animated",
@@ -58404,7 +58439,8 @@
         "dynamic",
         "engaging"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 2 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-ai-powered-carousel",
@@ -58695,7 +58731,8 @@
         "technology",
         "innovation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 6 images to the 'carouselImages1' prop and exactly 6 images to the 'carouselImages2' prop - if you don't have a unique set of 12 relevant photos - do not use this block. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-ad-campaign-expert",
@@ -58964,7 +59001,8 @@
         "metrics",
         "agency"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-adaptable-product-grid",
@@ -59186,7 +59224,8 @@
         "showcase",
         "features"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-presentation-platform-video",
@@ -59417,7 +59456,8 @@
         "tools",
         "communication"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-grid-pattern-solutions",
@@ -59680,7 +59720,8 @@
         "professional",
         "services"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 4 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-crm-streamlined",
@@ -59932,7 +59973,8 @@
         "product",
         "business"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-billing-platform-logos",
@@ -60257,7 +60299,8 @@
         "trust",
         "carousel"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you can use 6-8 valid logos for the 'logos' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-software-growth-video-dialog",
@@ -60612,7 +60655,8 @@
         "saas",
         "startup"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
     },
     {
       "id": "hero-conversion-video-play",
@@ -60940,7 +60984,8 @@
         "cta",
         "marketing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object. Follow the example props closely for this block."
     },
     {
       "id": "hero-design-showcase-logos",
@@ -61237,7 +61282,8 @@
         "studio",
         "portfolio"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'logos'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-video-overlay-stars",
@@ -61481,7 +61527,8 @@
         "social-proof",
         "reviews"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only populate the 'trust' prop if you have actual rating data to display. Only use if the media query returns a video that is appropriate for the backgroundVideo (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     {
       "id": "hero-productivity-launcher-video",
@@ -61731,7 +61778,8 @@
         "mobile",
         "desktop"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-hiring-animated-text",
@@ -61935,7 +61983,8 @@
         "careers",
         "dynamic"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you can generate a heading prefix that will work with an array of animated text pairings, e.g. headingPrefix='We are hiring' and then animatedTexts={['Devs', 'Designers', ...]}. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-split-image-newsletter",
@@ -62213,7 +62262,8 @@
         "content",
         "subscription"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. Follow the example props closely for this block."
     },
     {
       "id": "hero-centered-gradient-cta",
@@ -62486,7 +62536,8 @@
         "modern",
         "vibrant"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     {
       "id": "hero-stats-social-proof",
@@ -62799,7 +62850,8 @@
         "credibility",
         "data"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the 'stats' element is a 3 column layout. Ensure to keep the statusCard.title/statusCard.subtitle content succinct to ensure it doesn't distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-feature-cards-grid",
@@ -63005,7 +63057,8 @@
         "showcase",
         "product"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 `features` since the features element is a 4 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-testimonial-image-grid",
@@ -63283,7 +63336,8 @@
         "feedback",
         "social-proof"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 4 images to the 'gridImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-design-system-3d",
@@ -63546,7 +63600,8 @@
         "tools",
         "creative"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use for client websites that have an ultra modern UI since this implements skewed elements that will not work for traditional UI designs. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-architecture-fullscreen",
@@ -63995,7 +64050,8 @@
         "showcase",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-video-dialog-gradient",
@@ -64350,7 +64406,8 @@
         "media",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
     },
     {
       "id": "hero-minimal-centered-dark",
@@ -64597,7 +64654,8 @@
         "clean",
         "focused"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-product-showcase-floating",
@@ -64952,7 +65010,8 @@
         "metrics",
         "dynamic"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have REAL data for the 'floatingStat' and/or 'userCount' props and a 'productImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-saas-dashboard-preview",
@@ -65260,7 +65319,8 @@
         "software",
         "product"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: use the website's url for the prop 'browserPreview.url' - DO NOT USE AN EXAMPLE/PLACEHOLDER URL. Follow the example props closely for this block."
     },
     {
       "id": "hero-therapy-testimonial-grid",
@@ -65553,7 +65613,8 @@
         "mental-health",
         "calming"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-mental-health-team",
@@ -65851,7 +65912,8 @@
         "wellness",
         "healthcare"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featuredImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-mentorship-video-split",
@@ -66158,7 +66220,8 @@
         "education",
         "coaching"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a valid video to showcase (i.e. a testimonial/how to/explainer/etc video - don't use if the system only has b-roll style videos). Follow the example props closely for this block."
     },
     {
       "id": "hero-business-operations-mosaic",
@@ -66404,7 +66467,8 @@
         "agency",
         "corporate"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use exactly 4 images for the images mosaic. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-agency-animated-images",
@@ -66650,7 +66714,8 @@
         "transitions",
         "portfolio"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-welcome-asymmetric-images",
@@ -66891,7 +66956,8 @@
         "modern",
         "landing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-startup-launch-cta",
@@ -67211,7 +67277,8 @@
         "growth",
         "funding"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if you have a valid value for the 'socialProofText' prop AND 3-6 valid 'avatars' objects for the 'avatars' prop since the focal point of this block is to showcase a collection of 'avatars'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-enterprise-security",
@@ -67457,7 +67524,8 @@
         "badges",
         "b2b"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 or 6 'features' since the features grid uses a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-creative-studio-stacked",
@@ -67838,7 +67906,8 @@
         "design",
         "agency"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Use exactly 3 image objects in the 'images' prop. Follow the example props closely for this block."
     },
     {
       "id": "hero-digital-agency-fullscreen",
@@ -68045,7 +68114,8 @@
         "immersive",
         "creative"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have a relevant 'backgroundImage' object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-customer-support-layered",
@@ -68307,7 +68377,8 @@
         "dashboard",
         "saas"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-shared-inbox-layered",
@@ -68600,7 +68671,8 @@
         "team",
         "communication"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you can supply relevant 'layeredImages.backgroundImage' and 'layeredImages.foregroundImage' prop objects. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-conversation-intelligence",
@@ -68846,7 +68918,8 @@
         "gradient",
         "saas"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-business-carousel-dots",
@@ -69114,7 +69187,8 @@
         "professional",
         "enterprise"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply at least 3 images to the 'carouselImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-developer-tools-code",
@@ -69369,7 +69443,8 @@
         "programming",
         "technical"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use for clients that are developer centric tech companies since this showcases a code editor component. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-ecommerce-product-showcase",
@@ -69684,7 +69759,8 @@
         "collection",
         "store"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-mobile-app-download",
@@ -70013,7 +70089,8 @@
         "phone",
         "ratings"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you have valid app store links to supply for the 'storeActions' prop. Only populate the 'ratingValue', 'starCount' and 'ratingLabel' props if you have accurate values to provide - DO NOT MAKE THEM UP. Follow the example props closely for this block."
     },
     {
       "id": "hero-pricing-comparison",
@@ -70431,7 +70508,8 @@
         "clean",
         "focused"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only use if you have exactly 3 'stats' values to populate the 'stats' prop with - DO NOT MAKE UP ANY STATS and only use numerical values for each of the stats 'value' prop element. Follow the example props closely for this block."
     },
     {
       "id": "hero-coming-soon-countdown",
@@ -70712,7 +70790,8 @@
         "teaser",
         "anticipation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use if you've been supplied with a valid date to supply to the 'countdownDate'. Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only supply 'socialLinks' that are valid - DO NOT MAKE UP, USE PLACEHOLDERS OR GUESS ANY OF THEIR SOCIAL LINKS. Follow the example props closely for this block."
     },
     {
       "id": "hero-event-registration",
@@ -70722,11 +70801,11 @@
       "categorySlug": "hero",
       "description": "A hero for event registration with date badge. Features speaker count, workshop info, and venue location.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290419/mu3qv1bz0tab2bh6u39j13q6t0xn/cleanshot-2026-02-18-at-16-12-41.png",
-        "mobile": "https://cdn.ing/assets/i/r/290418/8dqmq4xe8x5t80o90f72lgbxbdo4/cleanshot-2026-02-18-at-16-12-54.png"
+        "desktop": "https://cdn.ing/assets/i/r/306279/bplk6c5pa11zmz21t2b0wqijorug/hero-event-registration-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306280/2l1smrwhw6zcm3nv52jcmvvb2j5w/hero-event-registration-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-event-registration.tsx",
-      "code": "import { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\nimport { HeroEventRegistration } from \"@opensite/ui/blocks/hero/hero-event-registration\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroEventRegistration\n      badgeText=\"Annual Conference\"\n      badgeIcon=\"lucide/calendar\"\n      heading=\"Join us for the event of the year\"\n      description=\"Three days of inspiring talks, hands-on workshops, and networking with industry leaders. September 15-17, 2026 in San Francisco.\"\n      actions={[\n        {\n          label: \"Register Now\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Agenda\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/calendar\" size={16} />,\n        },\n      ]}\n      stats={[\n        {\n          value: \"2,000+\",\n          label: \"Attendees\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"50+\",\n          label: \"Speakers\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/mic-vocal\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"3 Days\",\n          label: \"Duration\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/timer\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"Bay Area\",\n          label: \"Location\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/map-pin\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n      ]}\n      image={{ src: imagePlaceholders[108], alt: \"Event venue\" }}\n      logo={{ src: brandLogoPlaceholders.white[4], alt: \"Event venue\" }}\n      locationLabel=\"San Francisco, CA\"\n      locationSublabel=\"September 15-17, 2026\"\n      background=\"dark\"\n      pattern=\"gridFadeTopRight\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "import { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\nimport { HeroEventRegistration } from \"@opensite/ui/blocks/hero/hero-event-registration\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroEventRegistration\n      badgeText=\"Annual Conference\"\n      badgeIcon=\"lucide/calendar\"\n      heading=\"Join us for the event of the year\"\n      description=\"Three days of inspiring talks, hands-on workshops, and networking with industry leaders. September 15-17, 2026 in San Francisco.\"\n      actions={[\n        {\n          label: \"Register Now\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Agenda\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/calendar\" size={16} />,\n        },\n      ]}\n      stats={[\n        {\n          value: \"2k+\",\n          label: \"Attendees\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"50+\",\n          label: \"Speakers\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/mic-vocal\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"3 Days\",\n          label: \"Duration\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/timer\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n      ]}\n      image={{ src: imagePlaceholders[108], alt: \"Event venue\" }}\n      logo={{ src: brandLogoPlaceholders.white[4], alt: \"Event venue\" }}\n      locationLabel=\"San Francisco, CA\"\n      locationSublabel=\"September 15-17, 2026\"\n      background=\"dark\"\n      pattern=\"gridFadeTopRight\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -71073,7 +71152,8 @@
         "venue",
         "date"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "hero-portfolio-creative",
@@ -71383,7 +71463,8 @@
         "designer",
         "freelancer"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "case-studies-image-grid",
@@ -97779,7 +97860,8 @@
         "numbered",
         "grid"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, or 9 'principles' since the principles element is a 3 column layout. Follow the example props closely for this block."
     },
     {
       "id": "process-steps-grid",

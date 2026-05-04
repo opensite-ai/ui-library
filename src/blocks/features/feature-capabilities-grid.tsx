@@ -11,7 +11,6 @@ export default function Demo() {
           title: "AI-Powered Insights",
           description:
             "Machine learning algorithms that analyze patterns and provide actionable recommendations in real-time.",
-          badge: "NEW",
           href: "#",
         },
         {
@@ -47,7 +46,6 @@ export default function Demo() {
           title: "Global Edge Network",
           description:
             "Deploy to 200+ edge locations worldwide with automatic failover and intelligent routing.",
-          badge: "BETA",
           href: "#",
         },
       ]}

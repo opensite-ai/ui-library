@@ -25,7 +25,7 @@ export default function Demo() {
       ]}
       stats={[
         {
-          value: "2,000+",
+          value: "2k+",
           label: "Attendees",
           icon: (
             <DynamicIcon
@@ -52,17 +52,6 @@ export default function Demo() {
           icon: (
             <DynamicIcon
               name="lucide/timer"
-              size={24}
-              className="text-primary"
-            />
-          ),
-        },
-        {
-          value: "Bay Area",
-          label: "Location",
-          icon: (
-            <DynamicIcon
-              name="lucide/map-pin"
               size={24}
               className="text-primary"
             />

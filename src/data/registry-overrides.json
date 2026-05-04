@@ -118,7 +118,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290609/6cqflyybhpfng2dw4g3rji3b6xax/cleanshot-2026-02-21-at-02-33-26.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-dark"
+      "demoPath": "blocks/contact/contact-dark",
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     "contact-photography": {
       "title": "Contact Photography",
@@ -158,7 +159,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-card"
+      "demoPath": "blocks/contact/contact-card",
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     "contact-careers": {
       "title": "Contact Careers Application",
@@ -208,7 +210,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290625/3m1i7o8xaxx3xv2q5neamfm542lu/cleanshot-2026-02-21-at-15-37-50.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-emergency"
+      "demoPath": "blocks/contact/contact-emergency",
+      "importantUsageNotes": "Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     "contact-event": {
       "title": "Contact Event Registration",
@@ -308,7 +311,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293692/ako7tn3d2ouh3fe99wthfyly87y9/cleanshot-2026-03-10-at-17-00-48-2x.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-map"
+      "demoPath": "blocks/contact/contact-map",
+      "importantUsageNotes": "Only use locations assigned to the website (if this is a general contact block), if it's region specific, only use locations assigned to that region, if this is a single location specific pages, only use the location data for the single location."
     },
     "contact-minimal": {
       "title": "Contact Minimal",
@@ -468,7 +472,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290835/bs6wlzfzeqy2le0bludrob6831xv/cleanshot-2026-02-25-at-04-40-42.png"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
-      "demoPath": "blocks/contact/contact-help-center"
+      "demoPath": "blocks/contact/contact-help-center",
+      "importantUsageNotes": "This is a contact block that doesn't have a form element, only use this to render contact information. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data, if the brand/location hasn't supplied the contact data points, don't generate/guess, just skip over that data point(s) and only use ones stored in the system."
     },
     "contact-tenant": {
       "title": "Contact Tenant Application",
@@ -518,7 +523,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293122/9b5nmu8ov4hcai28ll9bdc3wso7b/cleanshot-2026-03-04-at-01-36-02.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-ad-campaign-expert"
+      "demoPath": "blocks/hero/hero-ad-campaign-expert",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-adaptable-product-grid": {
       "title": "Hero Adaptable Product Grid",
@@ -528,7 +534,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290365/5t8td46oq32417ytzaei4p21dah0/cleanshot-2026-02-18-at-09-27-26.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-adaptable-product-grid"
+      "demoPath": "blocks/hero/hero-adaptable-product-grid",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-agency-animated-images": {
       "title": "Hero Agency Animated Images",
@@ -538,7 +545,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290402/ramwyhhrz0khqym9rk1tvpn18yvv/cleanshot-2026-02-18-at-15-19-57.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-agency-animated-images"
+      "demoPath": "blocks/hero/hero-agency-animated-images",
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ai-powered-carousel": {
       "title": "Hero AI Powered Carousel",
@@ -548,7 +556,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290305/krz8l4qvoybcgnvf6g872gb4v1jo/cleanshot-2026-02-18-at-04-49-45.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-ai-powered-carousel"
+      "demoPath": "blocks/hero/hero-ai-powered-carousel",
+      "importantUsageNotes": "Supply exactly 6 images to the 'carouselImages1' prop and exactly 6 images to the 'carouselImages2' prop - if you don't have a unique set of 12 relevant photos - do not use this block. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-announcement-badge": {
       "title": "Hero Announcement Badge",
@@ -558,7 +567,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290291/g61i4jgk0fsw9jrlo181c3vgl9b2/cleanshot-2026-02-18-at-04-08-33.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-announcement-badge"
+      "demoPath": "blocks/hero/hero-announcement-badge",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-architecture-fullscreen": {
       "title": "Hero Architecture Fullscreen",
@@ -578,7 +588,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290203/4ba9nnndzzr6gdf2kko2zlr1fy2z/cleanshot-2026-02-18-at-01-17-34.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-badge-image-split"
+      "demoPath": "blocks/hero/hero-badge-image-split",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-badge-shadow-overlay": {
       "title": "Hero Badge Shadow Overlay",
@@ -588,7 +599,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290231/izghatv8ulcqat2ubpcks550f6s1/cleanshot-2026-02-18-at-02-58-47.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-badge-shadow-overlay"
+      "demoPath": "blocks/hero/hero-badge-shadow-overlay",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-billing-platform-logos": {
       "title": "Hero Billing Platform Logos",
@@ -598,7 +610,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290307/unyo6thq4mxlffg3vl8f71reespo/cleanshot-2026-02-18-at-05-06-11.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-billing-platform-logos"
+      "demoPath": "blocks/hero/hero-billing-platform-logos",
+      "importantUsageNotes": "Only use if you can use 6-8 valid logos for the 'logos' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-business-carousel-dots": {
       "title": "Hero Business Carousel Dots",
@@ -608,7 +621,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290390/n66wstq7x3jbpeqbpboqsmcvraxh/cleanshot-2026-02-18-at-13-34-58.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-business-carousel-dots"
+      "demoPath": "blocks/hero/hero-business-carousel-dots",
+      "importantUsageNotes": "Supply at least 3 images to the 'carouselImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-business-operations-mosaic": {
       "title": "Hero Business Operations Mosaic",
@@ -618,7 +632,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290369/qeegvbo5x4phamon5hi1s9tnwhht/cleanshot-2026-02-18-at-09-29-55.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-business-operations-mosaic"
+      "demoPath": "blocks/hero/hero-business-operations-mosaic",
+      "importantUsageNotes": "Use exactly 4 images for the images mosaic. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-centered-gradient-cta": {
       "title": "Hero Centered Gradient CTA",
@@ -628,7 +643,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290342/vhtbpjog2avb5offh7a7msy034be/cleanshot-2026-02-18-at-08-58-23.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-centered-gradient-cta"
+      "demoPath": "blocks/hero/hero-centered-gradient-cta",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     "hero-centered-image-grid": {
       "title": "Hero Centered Image Grid",
@@ -638,7 +654,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290221/cye89vszposa91pet34gmi9ij2wu/cleanshot-2026-02-18-at-02-30-35.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-centered-image-grid"
+      "demoPath": "blocks/hero/hero-centered-image-grid",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-centered-screenshot": {
       "title": "Hero Centered Screenshot",
@@ -648,7 +665,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290209/teo5ni5bak7buvoxv96oa1hblqkf/cleanshot-2026-02-18-at-01-28-02.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-centered-screenshot"
+      "demoPath": "blocks/hero/hero-centered-screenshot",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-coming-soon-countdown": {
       "title": "Hero Coming Soon Countdown",
@@ -658,7 +676,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290454/s2jsui75kg5ow71edyg5qtdfaxyl/cleanshot-2026-02-19-at-03-56-47-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-coming-soon-countdown"
+      "demoPath": "blocks/hero/hero-coming-soon-countdown",
+      "importantUsageNotes": "Only use if you've been supplied with a valid date to supply to the 'countdownDate'. Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only supply 'socialLinks' that are valid - DO NOT MAKE UP, USE PLACEHOLDERS OR GUESS ANY OF THEIR SOCIAL LINKS. Follow the example props closely for this block."
     },
     "hero-community-survey-cta": {
       "title": "Hero Community Survey CTA",
@@ -668,7 +687,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290320/qscyroy5ha32h0pf7ftndxc9urdk/cleanshot-2026-02-18-at-08-31-07.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-community-survey-cta"
+      "demoPath": "blocks/hero/hero-community-survey-cta",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-conversation-intelligence": {
       "title": "Hero Conversation Intelligence",
@@ -678,7 +698,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290378/u3ktjibso64jsprecvrjdvef0582/cleanshot-2026-02-18-at-10-27-33.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-conversation-intelligence"
+      "demoPath": "blocks/hero/hero-conversation-intelligence",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-conversion-video-play": {
       "title": "Hero Conversion Video Play",
@@ -688,7 +709,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290335/1nj6chywh9tgtlrh5dd1d6wkmui2/cleanshot-2026-02-18-at-08-52-41.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-conversion-video-play"
+      "demoPath": "blocks/hero/hero-conversion-video-play",
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object. Follow the example props closely for this block."
     },
     "hero-creative-studio-stacked": {
       "title": "Hero Creative Studio Stacked",
@@ -698,7 +720,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290404/wa5mcypnvpc43f2929flo554pk9o/cleanshot-2026-02-18-at-15-20-58.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-creative-studio-stacked"
+      "demoPath": "blocks/hero/hero-creative-studio-stacked",
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Use exactly 3 image objects in the 'images' prop. Follow the example props closely for this block."
     },
     "hero-crm-streamlined": {
       "title": "Hero CRM Streamlined",
@@ -708,7 +731,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290331/6lp3u8m86rimri4nyn3yb1n78k0s/cleanshot-2026-02-18-at-08-50-10.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-crm-streamlined"
+      "demoPath": "blocks/hero/hero-crm-streamlined",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-customer-support-layered": {
       "title": "Hero Customer Support Layered",
@@ -718,7 +742,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290389/7jd1ebdx3gqyrww2g647kncwq76s/cleanshot-2026-02-18-at-13-24-46.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-customer-support-layered"
+      "demoPath": "blocks/hero/hero-customer-support-layered",
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-dashed-border-features": {
       "title": "Hero Dashed Border Features",
@@ -728,7 +753,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290233/9tyimydps0l6dwejth0vhqb22lii/cleanshot-2026-02-18-at-03-04-48.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-dashed-border-features"
+      "demoPath": "blocks/hero/hero-dashed-border-features",
+      "importantUsageNotes": "Ensure to generate exactly 3 `achievements` since the achievements showcase is a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-carousel-portfolio": {
       "title": "Hero Design Carousel Portfolio",
@@ -738,7 +764,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290303/b1zjc7oquywndi5knn9wmhh1c2bq/cleanshot-2026-02-18-at-04-27-29.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-design-carousel-portfolio"
+      "demoPath": "blocks/hero/hero-design-carousel-portfolio",
+      "importantUsageNotes": "Only supply a 'logo.src' if you have a logo from the media library for the site. Only use if you have at least 4-6 'carouselImages'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-showcase-logos": {
       "title": "Hero Design Showcase Logos",
@@ -748,7 +775,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290337/gnpi56pqmr2v174g1zv17oe256id/cleanshot-2026-02-18-at-08-53-35.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-design-showcase-logos"
+      "demoPath": "blocks/hero/hero-design-showcase-logos",
+      "importantUsageNotes": "Only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'logos'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-system-3d": {
       "title": "Hero Design System 3D",
@@ -758,7 +786,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290349/jor599pzgxbhmrl6ol9aubpjsded/cleanshot-2026-02-18-at-09-03-34.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-design-system-3d"
+      "demoPath": "blocks/hero/hero-design-system-3d",
+      "importantUsageNotes": "Only use for client websites that have an ultra modern UI since this implements skewed elements that will not work for traditional UI designs. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-developer-tools-code": {
       "title": "Hero Developer Tools Code",
@@ -768,7 +797,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290392/eb2q1d6asc32f08lfzqp0690fg3e/cleanshot-2026-02-18-at-13-36-43.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-developer-tools-code"
+      "demoPath": "blocks/hero/hero-developer-tools-code",
+      "importantUsageNotes": "Only use for clients that are developer centric tech companies since this showcases a code editor component. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-digital-agency-fullscreen": {
       "title": "Hero Digital Agency Fullscreen",
@@ -778,7 +808,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290407/x77il7iynqq6w1egnjj84an4g9ks/cleanshot-2026-02-18-at-15-22-03.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-digital-agency-fullscreen"
+      "demoPath": "blocks/hero/hero-digital-agency-fullscreen",
+      "importantUsageNotes": "Only use if you have a relevant 'backgroundImage' object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ecommerce-product-showcase": {
       "title": "Hero Ecommerce Product Showcase",
@@ -788,7 +819,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290394/7h7mm2g6fzoph7kcib27dst7ptb2/cleanshot-2026-02-18-at-13-37-53.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-ecommerce-product-showcase"
+      "demoPath": "blocks/hero/hero-ecommerce-product-showcase",
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-enterprise-security": {
       "title": "Hero Enterprise Security",
@@ -798,17 +830,19 @@
         "mobile": "https://cdn.ing/assets/i/r/290386/nij1wphlno8o8l6tnvh13o1hqdie/cleanshot-2026-02-18-at-13-14-22.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-enterprise-security"
+      "demoPath": "blocks/hero/hero-enterprise-security",
+      "importantUsageNotes": "Ensure to generate exactly 3 or 6 'features' since the features grid uses a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-event-registration": {
       "title": "Hero Event Registration",
       "componentPath": "blocks/hero/hero-event-registration.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290419/mu3qv1bz0tab2bh6u39j13q6t0xn/cleanshot-2026-02-18-at-16-12-41.png",
-        "mobile": "https://cdn.ing/assets/i/r/290418/8dqmq4xe8x5t80o90f72lgbxbdo4/cleanshot-2026-02-18-at-16-12-54.png"
+        "desktop": "https://cdn.ing/assets/i/r/306279/bplk6c5pa11zmz21t2b0wqijorug/hero-event-registration-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306280/2l1smrwhw6zcm3nv52jcmvvb2j5w/hero-event-registration-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-event-registration"
+      "demoPath": "blocks/hero/hero-event-registration",
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-feature-cards-grid": {
       "title": "Hero Feature Cards Grid",
@@ -818,7 +852,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290345/2e6y30oq48t0zammlb4tfd4gjj5a/cleanshot-2026-02-18-at-09-01-17.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-feature-cards-grid"
+      "demoPath": "blocks/hero/hero-feature-cards-grid",
+      "importantUsageNotes": "Ensure to generate exactly 4 `features` since the features element is a 4 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-floating-images": {
       "title": "Hero Floating Images",
@@ -846,7 +881,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290361/2mascl13qbif1vmxitq1fcdhysdy/cleanshot-2026-02-18-at-09-24-56.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-fullscreen-background-image"
+      "demoPath": "blocks/hero/hero-fullscreen-background-image",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-fullscreen-logo-cta": {
       "title": "Hero Fullscreen Logo CTA",
@@ -856,7 +892,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290364/ngt64u3y2uvlcbp4g615br2hqiuy/cleanshot-2026-02-18-at-09-26-11.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-fullscreen-logo-cta"
+      "demoPath": "blocks/hero/hero-fullscreen-logo-cta",
+      "importantUsageNotes": "Only use if the website has a valid logo to supply to the 'logo.src' prop. Follow the example props closely for this block."
     },
     "hero-gradient-avatars-rating": {
       "title": "Hero Gradient Avatars Rating",
@@ -866,7 +903,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290325/mcamqx25pmyquzxlovj2rw9m0zkt/cleanshot-2026-02-18-at-08-45-40.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-gradient-avatars-rating"
+      "demoPath": "blocks/hero/hero-gradient-avatars-rating",
+      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and a ratingValue and ratingLabel - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-gradient-client-focused": {
       "title": "Hero Gradient Client Focused",
@@ -876,7 +914,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290321/3ip0ie4i2j9dzh4hsu5k45x5nzpx/cleanshot-2026-02-18-at-08-34-01.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-gradient-client-focused"
+      "demoPath": "blocks/hero/hero-gradient-client-focused",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-grid-pattern-efficiency": {
       "title": "Hero Grid Pattern Efficiency",
@@ -896,7 +935,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290329/tewu03d10ia26c0zhupp0w2aeycs/cleanshot-2026-02-18-at-08-49-03.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-grid-pattern-solutions"
+      "demoPath": "blocks/hero/hero-grid-pattern-solutions",
+      "importantUsageNotes": "Supply exactly 4 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-hiring-animated-text": {
       "title": "Hero Hiring Animated Text",
@@ -906,7 +946,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290416/23ih67iqijsgjf81l6djy0h9o9bk/cleanshot-2026-02-18-at-16-11-14.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-hiring-animated-text"
+      "demoPath": "blocks/hero/hero-hiring-animated-text",
+      "importantUsageNotes": "Only use if you can generate a heading prefix that will work with an array of animated text pairings, e.g. headingPrefix='We are hiring' and then animatedTexts={['Devs', 'Designers', ...]}. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-image-left-content": {
       "title": "Hero Image Left Content",
@@ -916,7 +957,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290205/a9yh3m5k0x2yhrlven4fvqofsbim/cleanshot-2026-02-18-at-01-19-05.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-image-left-content"
+      "demoPath": "blocks/hero/hero-image-left-content",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-image-slider": {
       "title": "Hero Image Slider",
@@ -926,7 +968,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290207/lek44x66u4mitdn320c2y2r7r3ex/cleanshot-2026-02-18-at-01-20-46.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-image-slider"
+      "demoPath": "blocks/hero/hero-image-slider",
+      "importantUsageNotes": "Ensure to utilize the form configuration setup for this block."
     },
     "hero-innovation-image-grid": {
       "title": "Hero Innovation Image Grid",
@@ -936,7 +979,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290367/gltb7cmf3eptn3got56saz2iz0jm/cleanshot-2026-02-18-at-09-28-27.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-innovation-image-grid"
+      "demoPath": "blocks/hero/hero-innovation-image-grid",
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-logo-centered-screenshot": {
       "title": "Hero Logo Centered Screenshot",
@@ -946,7 +990,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290223/s8sx12gozl3sw5bgqgm9rlwcqr2o/cleanshot-2026-02-18-at-02-32-11.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-logo-centered-screenshot"
+      "demoPath": "blocks/hero/hero-logo-centered-screenshot",
+      "importantUsageNotes": "Only supply a `logo` object if the website has a logo in its media library."
     },
     "hero-marketplace-scattered-images": {
       "title": "Hero Marketplace Scattered Images",
@@ -956,7 +1001,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290229/9upfyl1fa7jg3wjcy29wth8nx105/cleanshot-2026-02-18-at-02-57-35.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-marketplace-scattered-images"
+      "demoPath": "blocks/hero/hero-marketplace-scattered-images",
+      "importantUsageNotes": "Only use if you have 6 unique photo assets to supply for the 'image' prop. Follow the example props closely for this block."
     },
     "hero-mental-health-team": {
       "title": "Hero Mental Health Team",
@@ -966,7 +1012,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290360/13zji87qvokrncnmbwsrbp4uzxtc/cleanshot-2026-02-18-at-09-13-08.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-mental-health-team"
+      "demoPath": "blocks/hero/hero-mental-health-team",
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featuredImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-mentorship-video-split": {
       "title": "Hero Mentorship Video Split",
@@ -976,7 +1023,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290317/tr2jb7z8o6c4hjwoqlikm9hk6jsw/cleanshot-2026-02-18-at-08-16-51.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-mentorship-video-split"
+      "demoPath": "blocks/hero/hero-mentorship-video-split",
+      "importantUsageNotes": "Only use if you have a valid video to showcase (i.e. a testimonial/how to/explainer/etc video - don't use if the system only has b-roll style videos). Follow the example props closely for this block."
     },
     "hero-minimal-centered-dark": {
       "title": "Hero Minimal Centered Dark",
@@ -986,7 +1034,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290355/8t7ldz8f6jzb5q95964ad7vjaqpu/cleanshot-2026-02-18-at-09-09-12.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-minimal-centered-dark"
+      "demoPath": "blocks/hero/hero-minimal-centered-dark",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-mobile-app-download": {
       "title": "Hero Mobile App Download",
@@ -996,7 +1045,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290382/f0nnmsvdp90i04ezpuukbgwsvsa6/cleanshot-2026-02-18-at-12-56-47.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-mobile-app-download"
+      "demoPath": "blocks/hero/hero-mobile-app-download",
+      "importantUsageNotes": "Only use if you have valid app store links to supply for the 'storeActions' prop. Only populate the 'ratingValue', 'starCount' and 'ratingLabel' props if you have accurate values to provide - DO NOT MAKE THEM UP. Follow the example props closely for this block."
     },
     "hero-newsletter-minimal": {
       "title": "Hero Newsletter Minimal",
@@ -1006,7 +1056,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290452/foyhiqvrcotykb6snlghxagwc1ub/cleanshot-2026-02-19-at-03-55-07-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-newsletter-minimal"
+      "demoPath": "blocks/hero/hero-newsletter-minimal",
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only use if you have exactly 3 'stats' values to populate the 'stats' prop with - DO NOT MAKE UP ANY STATS and only use numerical values for each of the stats 'value' prop element. Follow the example props closely for this block."
     },
     "hero-overlay-cta-grid": {
       "title": "Hero Overlay CTA Grid",
@@ -1016,7 +1067,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290197/ua6rgm50bitbekpbivi77znkthou/cleanshot-2026-02-18-at-00-15-39.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-overlay-cta-grid"
+      "demoPath": "blocks/hero/hero-overlay-cta-grid",
+      "importantUsageNotes": "Only use if you are going to use exactly 3 'cards' for the 'cards' props. The 'href' for each of the cards is optional, only supply it if you have a valid href for each of the card items. Follow the example props closely for this block."
     },
     "hero-pattern-badge-logos": {
       "title": "Hero Pattern Badge Logos",
@@ -1026,7 +1078,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290211/p8w7pxobvx7qtautaw4iigqheoot/cleanshot-2026-02-18-at-01-29-28.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-pattern-badge-logos"
+      "demoPath": "blocks/hero/hero-pattern-badge-logos",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block. AND VERY IMPORTANT: only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of logos."
     },
     "hero-pattern-logo-tech-stack": {
       "title": "Hero Pattern Logo Tech Stack",
@@ -1036,7 +1089,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290225/tde0mxqqulf7d8i8wjqvxblrycwx/cleanshot-2026-02-18-at-02-33-31.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-pattern-logo-tech-stack"
+      "demoPath": "blocks/hero/hero-pattern-logo-tech-stack",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block. AND VERY IMPORTANT: only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'techLogos'."
     },
     "hero-platform-features-grid": {
       "title": "Hero Platform Features Grid",
@@ -1046,7 +1100,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290295/1zrq2efvt9syeepxt4vs752q7g9p/cleanshot-2026-02-18-at-04-11-09.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-platform-features-grid"
+      "demoPath": "blocks/hero/hero-platform-features-grid",
+      "importantUsageNotes": "Ensure to generate exactly 4 `features` since the achievements showcase is a 4 column layout. Follow the example props closely for this block."
     },
     "hero-portfolio-creative": {
       "title": "Hero Portfolio Creative",
@@ -1056,7 +1111,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290219/vwr1ing467t5pbidmdvdv52eoc81/cleanshot-2026-02-18-at-02-13-25.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-portfolio-creative"
+      "demoPath": "blocks/hero/hero-portfolio-creative",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-premium-split-avatars": {
       "title": "Hero Premium Split Avatars",
@@ -1066,7 +1122,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290235/5k37o0tswkq1e7rxvju3w920zqlt/cleanshot-2026-02-18-at-03-22-45.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-premium-split-avatars"
+      "demoPath": "blocks/hero/hero-premium-split-avatars",
+      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and socialProofText - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. Follow the example props closely for this block."
     },
     "hero-presentation-platform-video": {
       "title": "Hero Presentation Platform Video",
@@ -1076,7 +1133,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290327/8eyi8ohztc1f9k6nntb3c5alc0in/cleanshot-2026-02-18-at-08-47-56.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-presentation-platform-video"
+      "demoPath": "blocks/hero/hero-presentation-platform-video",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-pricing-comparison": {
       "title": "Hero Pricing Comparison",
@@ -1096,7 +1154,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290354/awbnvfo5q8bfyc1b73nzu6savmd4/cleanshot-2026-02-18-at-09-08-13.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-product-showcase-floating"
+      "demoPath": "blocks/hero/hero-product-showcase-floating",
+      "importantUsageNotes": "Only use if you have REAL data for the 'floatingStat' and/or 'userCount' props and a 'productImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-productivity-launcher-video": {
       "title": "Hero Productivity Launcher Video",
@@ -1106,7 +1165,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290309/c8xq5jx0mxbzr0x3tmb6mo2fivmw/cleanshot-2026-02-18-at-05-43-27.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-productivity-launcher-video"
+      "demoPath": "blocks/hero/hero-productivity-launcher-video",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-saas-dashboard-preview": {
       "title": "Hero SaaS Dashboard Preview",
@@ -1116,7 +1176,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290450/i7thwrr15st3x9d0plscxmqyar1e/cleanshot-2026-02-19-at-03-50-02-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-saas-dashboard-preview"
+      "demoPath": "blocks/hero/hero-saas-dashboard-preview",
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: use the website's url for the prop 'browserPreview.url' - DO NOT USE AN EXAMPLE/PLACEHOLDER URL. Follow the example props closely for this block."
     },
     "hero-shared-inbox-layered": {
       "title": "Hero Shared Inbox Layered",
@@ -1126,7 +1187,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290410/w6apt2d0akg8ox78hg2tof88p1j5/cleanshot-2026-02-18-at-15-25-29.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-shared-inbox-layered"
+      "demoPath": "blocks/hero/hero-shared-inbox-layered",
+      "importantUsageNotes": "Only use if you can supply relevant 'layeredImages.backgroundImage' and 'layeredImages.foregroundImage' prop objects. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-simple-centered-image": {
       "title": "Hero Simple Centered Image",
@@ -1136,7 +1198,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290293/60psymwja5zqlpgpil8zgoqp2i1a/cleanshot-2026-02-18-at-04-09-50.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-simple-centered-image"
+      "demoPath": "blocks/hero/hero-simple-centered-image",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-software-growth-video-dialog": {
       "title": "Hero Software Growth Video Dialog",
@@ -1146,7 +1209,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290334/f1n1bezyudyrs7l7d07qv9iyaxu2/cleanshot-2026-02-18-at-08-51-12.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-software-growth-video-dialog"
+      "demoPath": "blocks/hero/hero-software-growth-video-dialog",
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
     },
     "hero-spiral-pattern-cards": {
       "title": "Hero Spiral Pattern Cards",
@@ -1156,7 +1220,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290297/8q6yf85thj7vvdmq2cuhjnvuvg8c/cleanshot-2026-02-18-at-04-12-15.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-spiral-pattern-cards"
+      "demoPath": "blocks/hero/hero-spiral-pattern-cards",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-split-geometric-shapes": {
       "title": "Hero Split Geometric Shapes",
@@ -1166,7 +1231,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290299/44k5textl1mmhnsl5orqij5hfq8j/cleanshot-2026-02-18-at-04-13-26.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-split-geometric-shapes"
+      "demoPath": "blocks/hero/hero-split-geometric-shapes",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 4 images. Follow the example props closely for this block."
     },
     "hero-split-icon-cards": {
       "title": "Hero Split Icon Cards",
@@ -1176,7 +1242,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290199/9whp93w7v5dh4m7dahvvuvn0cs2w/cleanshot-2026-02-18-at-00-38-08.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-split-icon-cards"
+      "demoPath": "blocks/hero/hero-split-icon-cards",
+      "importantUsageNotes": "Only use if you are going to use 3-4 'cards' for the 'cards' props. Follow the example props closely for this block."
     },
     "hero-split-image-newsletter": {
       "title": "Hero Split Image Newsletter",
@@ -1186,7 +1253,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290448/i5nbc6qfwp8f5c5xdk5dl6dc1xty/cleanshot-2026-02-19-at-03-45-52-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-split-image-newsletter"
+      "demoPath": "blocks/hero/hero-split-image-newsletter",
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. Follow the example props closely for this block."
     },
     "hero-split-spiral-shapes": {
       "title": "Hero Split Spiral Shapes",
@@ -1196,7 +1264,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290215/xnytd9m7yonh4e4jd0d1lip4sqbg/cleanshot-2026-02-18-at-01-50-51.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-split-spiral-shapes"
+      "demoPath": "blocks/hero/hero-split-spiral-shapes",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 3 images. Follow the example props closely for this block."
     },
     "hero-startup-launch-cta": {
       "title": "Hero Startup Launch CTA",
@@ -1206,7 +1275,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290384/zs9h4eybhh9se8qgmas7x4z5d9ap/cleanshot-2026-02-18-at-13-12-50.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-startup-launch-cta"
+      "demoPath": "blocks/hero/hero-startup-launch-cta",
+      "importantUsageNotes": "Only use this block if you have a valid value for the 'socialProofText' prop AND 3-6 valid 'avatars' objects for the 'avatars' prop since the focal point of this block is to showcase a collection of 'avatars'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-stats-social-proof": {
       "title": "Hero Stats Social Proof",
@@ -1216,7 +1286,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290343/niluxvh23hsyq2j83jp6b4m0blem/cleanshot-2026-02-18-at-08-59-28.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-stats-social-proof"
+      "demoPath": "blocks/hero/hero-stats-social-proof",
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the 'stats' element is a 3 column layout. Ensure to keep the statusCard.title/statusCard.subtitle content succinct to ensure it doesn't distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-task-timer-animated": {
       "title": "Hero Task Timer Animated",
@@ -1226,7 +1297,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290315/xqxw9bhctr8t1lwbwsv574ye3zbz/cleanshot-2026-02-18-at-07-05-23.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-task-timer-animated"
+      "demoPath": "blocks/hero/hero-task-timer-animated",
+      "importantUsageNotes": "Supply exactly 2 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-tech-carousel": {
       "title": "Hero Tech Carousel",
@@ -1236,7 +1308,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290213/uxc354jjk88m2vs54vw2qush58vd/cleanshot-2026-02-18-at-01-38-59.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-tech-carousel"
+      "demoPath": "blocks/hero/hero-tech-carousel",
+      "importantUsageNotes": "Only use for tech companies that you know have a collection of tools they use with install commands, this block will not be used often but is a great option for the right use case. Follow the example props closely for this block."
     },
     "hero-testimonial-image-grid": {
       "title": "Hero Testimonial Image Grid",
@@ -1246,7 +1319,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290347/0h6qx647ixl6d1ffirwqz6956g9a/cleanshot-2026-02-18-at-09-02-20.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-testimonial-image-grid"
+      "demoPath": "blocks/hero/hero-testimonial-image-grid",
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 4 images to the 'gridImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-therapy-testimonial-grid": {
       "title": "Hero Therapy Testimonial Grid",
@@ -1256,7 +1330,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290357/oeh58ujgdm0q7lwzheddn2b2jltf/cleanshot-2026-02-18-at-09-10-48.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-therapy-testimonial-grid"
+      "demoPath": "blocks/hero/hero-therapy-testimonial-grid",
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ui-library-showcase": {
       "title": "Hero UI Library Showcase",
@@ -1266,7 +1341,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290323/wjfj3i3e53fqspa0uj5ngry1tbkl/cleanshot-2026-02-18-at-08-35-20.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-ui-library-showcase"
+      "demoPath": "blocks/hero/hero-ui-library-showcase",
+      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-video-background-dark": {
       "title": "Hero Video Background Dark",
@@ -1276,7 +1352,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-video-background-dark"
+      "demoPath": "blocks/hero/hero-video-background-dark",
+      "importantUsageNotes": "Only use if the media query returns a video that is appropriate for the block (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-video-dialog-gradient": {
       "title": "Hero Video Dialog Gradient",
@@ -1286,7 +1363,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290351/ayqliqpcf4s5dfe99gamkd70hw8p/cleanshot-2026-02-18-at-09-06-45.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-video-dialog-gradient"
+      "demoPath": "blocks/hero/hero-video-dialog-gradient",
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
     },
     "hero-video-overlay-stars": {
       "title": "Hero Video Overlay Stars",
@@ -1296,7 +1374,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290339/869rctro6gur2nq38vdo48smt9v5/cleanshot-2026-02-18-at-08-57-21.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-video-overlay-stars"
+      "demoPath": "blocks/hero/hero-video-overlay-stars",
+      "importantUsageNotes": "Only populate the 'trust' prop if you have actual rating data to display. Only use if the media query returns a video that is appropriate for the backgroundVideo (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     "hero-welcome-asymmetric-images": {
       "title": "Hero Welcome Asymmetric Images",
@@ -1306,7 +1385,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290371/do1c747ic1f8nbwez4wfoyg8ik6n/cleanshot-2026-02-18-at-09-40-11.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-welcome-asymmetric-images"
+      "demoPath": "blocks/hero/hero-welcome-asymmetric-images",
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "stats-impact-grid": {
       "title": "Stats Impact Grid",
@@ -1521,7 +1601,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx",
-      "importantUsageNotes": "Ensure to not generate more than 5-6 `highlights`. Keep the the `spotlightCard` prop's label, title, and description succinct since too long of content will distort the layout."
+      "importantUsageNotes": "Ensure to not generate more than 4-6 `highlights`. Keep the the `spotlightCard` prop's label, title, and description succinct since too long of content will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "about-startup-team": {
       "title": "About Startup Team",
@@ -1998,7 +2078,8 @@
         "mobile": "https://cdn.ing/assets/i/r/295062/ua68ex7qytsihfe42qzq1cppyg2j/carousel-progress-slider-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx"
+      "demoPath": "src/blocks/carousel/carousel-progress-slider.tsx",
+      "importantUsageNotes": "Ensure to generate succinct titles and descriptions for each of the 'slides' since too much content will distort the layout. Follow the example props closely for this block."
     },
     "carousel-scrolling-feature-showcase": {
       "title": "Carousel Scrolling Feature Showcase",
@@ -2420,7 +2501,8 @@
         "mobile": "https://cdn.ing/assets/i/r/293126/ol9en6sa5jn1j0ghckiu1dq8otb9/cleanshot-2026-03-04-at-04-15-57.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/faq/faq-icon-benefits"
+      "demoPath": "blocks/faq/faq-icon-benefits",
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, 9, or 12 `benefits` since the block uses a 3 column layout. Follow the example props closely for this block."
     },
     "faq-rounded-cards": {
       "title": "FAQ Rounded Cards",
@@ -2490,7 +2572,8 @@
         "mobile": "https://cdn.ing/assets/i/r/290547/m0i2ea3tku5qiay99z8fze7tja36/process-mission-principles-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/process/process-mission-principles"
+      "demoPath": "blocks/process/process-mission-principles",
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, or 9 'principles' since the principles element is a 3 column layout. Follow the example props closely for this block."
     },
     "process-numbered-services": {
       "title": "Process Numbered Services",

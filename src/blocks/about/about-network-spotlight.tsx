@@ -1,5 +1,4 @@
 import { AboutNetworkSpotlight } from "@opensite/ui/blocks/about/about-network-spotlight";
-import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
@@ -33,7 +32,7 @@ export default function Demo() {
         alt: "Partner collaboration meeting",
       }}
       spotlightCard={{
-        icon: <DynamicIcon name="lucide/award" size={24} />,
+        icon: "lucide/award",
         label: "Featured Partner",
         title: "Acme Corporation",
         description:
