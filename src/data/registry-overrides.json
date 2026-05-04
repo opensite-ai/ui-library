@@ -524,7 +524,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ad-campaign-expert",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "This block can take render an image or video dynamically based on the 'mediaItem' prop, check the prop schema carefully. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-adaptable-product-grid": {
       "title": "Hero Adaptable Product Grid",
@@ -535,7 +535,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-adaptable-product-grid",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 60 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-agency-animated-images": {
       "title": "Hero Agency Animated Images",
@@ -546,7 +546,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-agency-animated-images",
-      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ai-powered-carousel": {
       "title": "Hero AI Powered Carousel",
@@ -557,7 +557,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ai-powered-carousel",
-      "importantUsageNotes": "Supply exactly 6 images to the 'carouselImages1' prop and exactly 6 images to the 'carouselImages2' prop - if you don't have a unique set of 12 relevant photos - do not use this block. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Supply exactly 6 images to the 'carouselImages1' prop and exactly 6 images to the 'carouselImages2' prop - if you don't have a unique set of 12 relevant photos - do not use this block. Do not exceed 12 characters for the 'badge' prop. Do not exceed 26 characters for the 'badgeTagline' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-announcement-badge": {
       "title": "Hero Announcement Badge",
@@ -568,7 +568,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-announcement-badge",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 54 characters for the 'heading' prop. Do not exceed 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-architecture-fullscreen": {
       "title": "Hero Architecture Fullscreen",
@@ -578,7 +578,8 @@
         "mobile": "https://cdn.ing/assets/i/r/306284/r41vm5wnq705shv4n0xe8jlxzjxx/hero-architecture-fullscreen-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "blocks/hero/hero-architecture-fullscreen"
+      "demoPath": "blocks/hero/hero-architecture-fullscreen",
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-badge-image-split": {
       "title": "Hero Badge Image Split",
@@ -600,7 +601,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-badge-shadow-overlay",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-billing-platform-logos": {
       "title": "Hero Billing Platform Logos",
@@ -611,7 +612,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-billing-platform-logos",
-      "importantUsageNotes": "Only use if you can use 6-8 valid logos for the 'logos' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you can use 6-8 valid logos for the 'logos' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-business-carousel-dots": {
       "title": "Hero Business Carousel Dots",
@@ -622,18 +623,18 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-business-carousel-dots",
-      "importantUsageNotes": "Supply at least 3 images to the 'carouselImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Supply at least 3 images to the 'carouselImages' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-business-operations-mosaic": {
       "title": "Hero Business Operations Mosaic",
       "componentPath": "blocks/hero/hero-business-operations-mosaic.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290370/l68nd6qz93yfx3rxftb9hh0b50h6/cleanshot-2026-02-18-at-09-29-22.png",
-        "mobile": "https://cdn.ing/assets/i/r/290369/qeegvbo5x4phamon5hi1s9tnwhht/cleanshot-2026-02-18-at-09-29-55.png"
+        "desktop": "https://cdn.ing/assets/i/r/306381/e5tct1y9j5c66pkjfyp6c3khb0gz/hero-business-operations-mosaic-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306382/v0ookz29wy2pneg3gw1tjyoj21aq/hero-business-operations-mosaic-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-business-operations-mosaic",
-      "importantUsageNotes": "Use exactly 4 images for the images mosaic. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Use exactly 3 images for the images mosaic. Do not exceed 40 words for the 'heading' prop. Do not exceed 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' or 'secondary' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-centered-gradient-cta": {
       "title": "Hero Centered Gradient CTA",
@@ -644,7 +645,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-gradient-cta",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
+      "importantUsageNotes": "Do not exceed 20 characters for the 'badge' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     "hero-centered-image-grid": {
       "title": "Hero Centered Image Grid",
@@ -666,7 +667,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-screenshot",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 42 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-coming-soon-countdown": {
       "title": "Hero Coming Soon Countdown",
@@ -677,7 +678,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-coming-soon-countdown",
-      "importantUsageNotes": "Only use if you've been supplied with a valid date to supply to the 'countdownDate'. Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only supply 'socialLinks' that are valid - DO NOT MAKE UP, USE PLACEHOLDERS OR GUESS ANY OF THEIR SOCIAL LINKS. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you've been supplied with a valid date to supply to the 'countdownDate'. Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only supply 'socialLinks' that are valid - DO NOT MAKE UP, USE PLACEHOLDERS OR GUESS ANY OF THEIR SOCIAL LINKS. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-community-survey-cta": {
       "title": "Hero Community Survey CTA",
@@ -699,7 +700,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversation-intelligence",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'headingPrimary' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-conversion-video-play": {
       "title": "Hero Conversion Video Play",
@@ -710,7 +711,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversion-video-play",
-      "importantUsageNotes": "Only use if you have a modalVideo.video prop object. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-creative-studio-stacked": {
       "title": "Hero Creative Studio Stacked",
@@ -721,7 +722,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-creative-studio-stacked",
-      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Use exactly 3 image objects in the 'images' prop. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Use exactly 3 image objects in the 'images' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-crm-streamlined": {
       "title": "Hero CRM Streamlined",
@@ -732,7 +733,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-crm-streamlined",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 20 characters for the 'tagline' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-customer-support-layered": {
       "title": "Hero Customer Support Layered",
@@ -743,7 +744,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-customer-support-layered",
-      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. Do not exceed 20 characters for the 'tagline' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-dashed-border-features": {
       "title": "Hero Dashed Border Features",
@@ -754,7 +755,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-dashed-border-features",
-      "importantUsageNotes": "Ensure to generate exactly 3 `achievements` since the achievements showcase is a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Ensure to generate exactly 3 `achievements` since the achievements showcase is a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-carousel-portfolio": {
       "title": "Hero Design Carousel Portfolio",
@@ -765,7 +766,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-carousel-portfolio",
-      "importantUsageNotes": "Only supply a 'logo.src' if you have a logo from the media library for the site. Only use if you have at least 4-6 'carouselImages'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only supply a 'logo.src' if you have a logo from the media library for the site. Only use if you have at least 4-6 'carouselImages'. Do not exceed 42 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop.  If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-showcase-logos": {
       "title": "Hero Design Showcase Logos",
@@ -776,7 +777,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-showcase-logos",
-      "importantUsageNotes": "Only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'logos'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use this block if you have 3-6 valid logo img urls since the focal point of this block is to showcase a collection of 'logos'. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-design-system-3d": {
       "title": "Hero Design System 3D",
@@ -787,7 +788,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-system-3d",
-      "importantUsageNotes": "Only use for client websites that have an ultra modern UI since this implements skewed elements that will not work for traditional UI designs. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use for client websites that have an ultra modern UI since this implements skewed elements that will not work for traditional UI designs. Supply exactly 3 images to the 'images' prop. Do not exceed 20 characters for the 'trustBadge' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-developer-tools-code": {
       "title": "Hero Developer Tools Code",
@@ -798,7 +799,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-developer-tools-code",
-      "importantUsageNotes": "Only use for clients that are developer centric tech companies since this showcases a code editor component. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use for clients that are developer centric tech companies since this showcases a code editor component. Supply exactly 3 images to the 'images' prop. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-digital-agency-fullscreen": {
       "title": "Hero Digital Agency Fullscreen",
@@ -809,7 +810,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-digital-agency-fullscreen",
-      "importantUsageNotes": "Only use if you have a relevant 'backgroundImage' object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a relevant 'backgroundImage' object. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ecommerce-product-showcase": {
       "title": "Hero Ecommerce Product Showcase",
@@ -820,7 +821,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ecommerce-product-showcase",
-      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-enterprise-security": {
       "title": "Hero Enterprise Security",
@@ -831,7 +832,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-enterprise-security",
-      "importantUsageNotes": "Ensure to generate exactly 3 or 6 'features' since the features grid uses a 3 column layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 or 6 'features' since the features grid uses a 3 column layout. Do not exceed 20 characters for the 'badge' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-event-registration": {
       "title": "Hero Event Registration",
@@ -842,7 +843,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-event-registration",
-      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' for the 'stats' prop since the stats element is a 3 column layout - and ensure to only use numerical values for each of the stats 'value' prop element, e.g. 500, 50M+, etc, and only use 1-3 words for each of the stat label strings to prevent the components from overflowing. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-feature-cards-grid": {
       "title": "Hero Feature Cards Grid",
@@ -872,7 +873,7 @@
         "enableLightbox": true,
         "spacing": "lg"
       },
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-fullscreen-background-image": {
       "title": "Hero Fullscreen Background Image",
@@ -883,7 +884,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-background-image",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-fullscreen-logo-cta": {
       "title": "Hero Fullscreen Logo CTA",
@@ -894,7 +895,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-logo-cta",
-      "importantUsageNotes": "Only use if the website has a valid logo to supply to the 'logo.src' prop. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if the website has a valid logo to supply to the 'logo.src' prop. Do not exceed 60 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-gradient-avatars-rating": {
       "title": "Hero Gradient Avatars Rating",
@@ -916,7 +917,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-gradient-client-focused",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-grid-pattern-efficiency": {
       "title": "Hero Grid Pattern Efficiency",
@@ -937,14 +938,14 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-grid-pattern-solutions",
-      "importantUsageNotes": "Supply exactly 4 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-hiring-animated-text": {
       "title": "Hero Hiring Animated Text",
       "componentPath": "blocks/hero/hero-hiring-animated-text.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306293/04y92ebe0eq7rhi4ofrv49ackrq0/hero-gradient-client-focused-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306294/ahu3bh9isupte12ejwiu7gkijouf/hero-gradient-client-focused-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/306383/y9xvr6gbzmzzyf315rnx8ti5568o/hero-hiring-animated-text-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306384/j5b3o2uwhxovlhtv4lwpplw9rdtl/hero-hiring-animated-text-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-hiring-animated-text",
@@ -981,7 +982,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-innovation-image-grid",
-      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Supply exactly 3 images to the 'images' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-logo-centered-screenshot": {
       "title": "Hero Logo Centered Screenshot",
@@ -1014,7 +1015,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mental-health-team",
-      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featuredImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featuredImage' prop object. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-mentorship-video-split": {
       "title": "Hero Mentorship Video Split",
@@ -1025,7 +1026,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mentorship-video-split",
-      "importantUsageNotes": "Only use if you have a valid video to showcase (i.e. a testimonial/how to/explainer/etc video - don't use if the system only has b-roll style videos). Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a valid video to showcase (i.e. a testimonial/how to/explainer/etc video - don't use if the system only has b-roll style videos). Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-minimal-centered-dark": {
       "title": "Hero Minimal Centered Dark",
@@ -1036,7 +1037,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-minimal-centered-dark",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 60 characters for the 'heading' prop. Do not exceed 160 characters for the 'description' prop. Do not exceed 20 characters for the 'badge' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-mobile-app-download": {
       "title": "Hero Mobile App Download",
@@ -1047,7 +1048,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mobile-app-download",
-      "importantUsageNotes": "Only use if you have valid app store links to supply for the 'storeActions' prop. Only populate the 'ratingValue', 'starCount' and 'ratingLabel' props if you have accurate values to provide - DO NOT MAKE THEM UP. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have valid app store links to supply for the 'storeActions' prop. Only populate the 'ratingValue', 'starCount' and 'ratingLabel' props if you have accurate values to provide - DO NOT MAKE THEM UP. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-newsletter-minimal": {
       "title": "Hero Newsletter Minimal",
@@ -1058,7 +1059,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-newsletter-minimal",
-      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only use if you have exactly 3 'stats' values to populate the 'stats' prop with - DO NOT MAKE UP ANY STATS and only use numerical values for each of the stats 'value' prop element. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: only use if you have exactly 3 'stats' values to populate the 'stats' prop with - DO NOT MAKE UP ANY STATS and only use numerical values for each of the stats 'value' prop element. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-overlay-cta-grid": {
       "title": "Hero Overlay CTA Grid",
@@ -1113,7 +1114,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-portfolio-creative",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-premium-split-avatars": {
       "title": "Hero Premium Split Avatars",
@@ -1124,7 +1125,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-premium-split-avatars",
-      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and socialProofText - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use this block if there you have actual avatar images to showcase and socialProofText - this block should only be used if a site has the type of social proof that can be showcased with actual avatar images of people and a compelling social proof text to go along with it. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-presentation-platform-video": {
       "title": "Hero Presentation Platform Video",
@@ -1135,7 +1136,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-presentation-platform-video",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Do not exceed 30 characters for the 'subtitle' prop.  If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-pricing-comparison": {
       "title": "Hero Pricing Comparison",
@@ -1156,7 +1157,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-product-showcase-floating",
-      "importantUsageNotes": "Only use if you have REAL data for the 'floatingStat' and/or 'userCount' props and a 'productImage' prop object. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have REAL data for the 'floatingStat' and/or 'userCount' props and a 'productImage' prop object. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-productivity-launcher-video": {
       "title": "Hero Productivity Launcher Video",
@@ -1167,7 +1168,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-productivity-launcher-video",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-saas-dashboard-preview": {
       "title": "Hero SaaS Dashboard Preview",
@@ -1178,7 +1179,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-saas-dashboard-preview",
-      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: use the website's url for the prop 'browserPreview.url' - DO NOT USE AN EXAMPLE/PLACEHOLDER URL. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. IMPORTANT: use the website's url for the prop 'browserPreview.url' - DO NOT USE AN EXAMPLE/PLACEHOLDER URL. Do not exceed 20 characters for the 'badgeText' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-shared-inbox-layered": {
       "title": "Hero Shared Inbox Layered",
@@ -1189,7 +1190,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-shared-inbox-layered",
-      "importantUsageNotes": "Only use if you can supply relevant 'layeredImages.backgroundImage' and 'layeredImages.foregroundImage' prop objects. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you can supply relevant 'layeredImages.backgroundImage' and 'layeredImages.foregroundImage' prop objects. Do not exceed 20 characters for the 'eyebrow' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-simple-centered-image": {
       "title": "Hero Simple Centered Image",
@@ -1211,7 +1212,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-software-growth-video-dialog",
-      "importantUsageNotes": "Only use if you have a modalVideo.video prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a modalVideo.video prop object and then ensure to supply a 'videoAction' prop. Do not exceed 50 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
     },
     "hero-spiral-pattern-cards": {
       "title": "Hero Spiral Pattern Cards",
@@ -1233,7 +1234,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-geometric-shapes",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 4 images. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 42 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 4 images. Follow the example props closely for this block."
     },
     "hero-split-icon-cards": {
       "title": "Hero Split Icon Cards",
@@ -1255,7 +1256,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-image-newsletter",
-      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to find or create a newsletter contact category to wire up to this newsletter block. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-split-spiral-shapes": {
       "title": "Hero Split Spiral Shapes",
@@ -1266,7 +1267,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-spiral-shapes",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 3 images. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 42 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. And ensure to supply exactly 3 images. Follow the example props closely for this block."
     },
     "hero-startup-launch-cta": {
       "title": "Hero Startup Launch CTA",
@@ -1277,7 +1278,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-startup-launch-cta",
-      "importantUsageNotes": "Only use this block if you have a valid value for the 'socialProofText' prop AND 3-6 valid 'avatars' objects for the 'avatars' prop since the focal point of this block is to showcase a collection of 'avatars'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use this block if you have a valid value for the 'socialProofText' prop AND 3-6 valid 'avatars' objects for the 'avatars' prop since the focal point of this block is to showcase a collection of 'avatars'. Use exactly 4 images for the 'images' prop. Do not exceed 20 characters for the 'badge' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-stats-social-proof": {
       "title": "Hero Stats Social Proof",
@@ -1288,7 +1289,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-stats-social-proof",
-      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the 'stats' element is a 3 column layout. Ensure to keep the statusCard.title/statusCard.subtitle content succinct to ensure it doesn't distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the 'stats' element is a 3 column layout. Ensure to keep the statusCard.title/statusCard.subtitle content succinct to ensure it doesn't distort the layout. Do not exceed 20 characters for the 'badge' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-task-timer-animated": {
       "title": "Hero Task Timer Animated",
@@ -1321,7 +1322,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-testimonial-image-grid",
-      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 4 images to the 'gridImages' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 4 images to the 'gridImages' prop. Do not exceed 80 characters for the 'testimonial.quote' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-therapy-testimonial-grid": {
       "title": "Hero Therapy Testimonial Grid",
@@ -1332,7 +1333,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-therapy-testimonial-grid",
-      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 3 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 3 images to the 'images' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-ui-library-showcase": {
       "title": "Hero UI Library Showcase",
@@ -1343,7 +1344,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ui-library-showcase",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-video-background-dark": {
       "title": "Hero Video Background Dark",
@@ -1354,7 +1355,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-background-dark",
-      "importantUsageNotes": "Only use if the media query returns a video that is appropriate for the block (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Only use if the media query returns a video that is appropriate for the block (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-video-dialog-gradient": {
       "title": "Hero Video Dialog Gradient",
@@ -1365,7 +1366,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-dialog-gradient",
-      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you have a 'videoDialog' prop object and then ensure to supply a 'videoAction' prop. Only use at max 1 action object in the 'actions' array. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Follow the example props closely for this block."
     },
     "hero-video-overlay-stars": {
       "title": "Hero Video Overlay Stars",
@@ -1376,7 +1377,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-video-overlay-stars",
-      "importantUsageNotes": "Only populate the 'trust' prop if you have actual rating data to display. Only use if the media query returns a video that is appropriate for the backgroundVideo (b-roll style video). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
+      "importantUsageNotes": "Only populate the 'trust' prop if you have actual rating data to display. Only use if the media query returns a video that is appropriate for the backgroundVideo (b-roll style video). Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs."
     },
     "hero-welcome-asymmetric-images": {
       "title": "Hero Welcome Asymmetric Images",
@@ -1387,7 +1388,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-welcome-asymmetric-images",
-      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Use exactly 4 images for the 'images' prop. Use exactly 4 images for the 'images' prop. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "stats-impact-grid": {
       "title": "Stats Impact Grid",

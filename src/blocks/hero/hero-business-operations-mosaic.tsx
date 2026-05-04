@@ -6,7 +6,7 @@ export default function Demo() {
   return (
     <HeroBusinessOperationsMosaic
       heading="Streamline your business operations"
-      description="Unified platform for managing all aspects of your business. From inventory to accounting, everything in one place."
+      description="Unified platform for managing all aspects of your business. From inventory to accounting, everything in one place. Join use today."
       images={[
         { src: imagePlaceholders[56], alt: "Operations 1" },
         { src: imagePlaceholders[57], alt: "Operations 2" },
