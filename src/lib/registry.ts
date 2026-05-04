@@ -68,6 +68,7 @@ export const componentFilterConfig: {
     "contact-floating-banner",
     "hero-pricing-comparison",
     "contact-multistep",
+    "navbar-search-focused",
   ],
 
   /**
