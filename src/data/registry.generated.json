@@ -4,7 +4,7 @@
     "totalBlocks": 605,
     "version": "3.5.5",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-05T20:25:35.103Z"
+    "syncedAt": "2026-05-05T23:25:52.619Z"
   },
   "blocks": [
     {
@@ -72,7 +72,8 @@
         "two-column",
         "content-media"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply 2-5 'sections' for best visual balance — each section requires both a 'content' node and a 'media' node (typically an image). Alternate the 'mediaLeft' boolean across sections to create the intended alternating layout (e.g. false, true, false). Only use real images for each section's 'media' prop — DO NOT USE PLACEHOLDER IMAGES. Follow the example props closely for this block."
     },
     {
       "id": "about-mission-features",
@@ -2583,7 +2584,8 @@
         "personal",
         "founder"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only populate the 'avatar.src' prop if you have a real photo/avatar for the person — DO NOT USE PLACEHOLDER IMAGES. Only populate 'socialLinks' with real social profile URLs for the person; skip any platform you don't have a verified URL for. Only populate 'skills' with real, known skills for the person. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-startup-team",
@@ -3220,7 +3222,8 @@
         "visual",
         "impact"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only populate 'heroImage.src' if you have a real image to use — DO NOT USE PLACEHOLDER IMAGES. Only populate the 'teamInfo' object if you have real team/organization data to display; do not invent team sizes or office counts. Keep the 'content' prop to 2-3 paragraphs of narrative text since excessive content will distort the two-column layout. Follow the example props closely for this block."
     },
     {
       "id": "about-stats-sidebar",
@@ -11780,7 +11783,8 @@
         "consultation",
         "professional-services"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a callback request use case — full name, phone (required), email (optional), preferred callback time radio (morning/afternoon/evening), and optional message textarea — do not change the field set unless the site has clearly different requirements. Preserve the 'callbackProcessLabel' and 'callbackProcessDescription' props to explain the callback process to users. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-card",
@@ -12178,7 +12182,8 @@
         "upload",
         "hiring"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is actively hiring — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a job application use case — first/last name, email, phone, position of interest select, LinkedIn profile, resume file upload, portfolio URL, and cover letter textarea — do not change the field set unless the site has clearly different requirements. Supply real open positions in the 'jobListings' accordion sidebar; do not fabricate job listings — if the site has no real open positions, omit 'jobListings' or leave the sidebar with a descriptive 'sidebarDescription' only. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-catering",
@@ -12292,7 +12297,8 @@
         "dietary",
         "event-planning"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a catering quote request use case — name, company (optional), email, phone, event type radio, event date picker, guest count select, menu preferences checkbox-group, dietary restrictions, and additional details textarea — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-consultation",
@@ -12406,7 +12412,8 @@
         "professional",
         "advisory"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a free consultation booking use case — first/last name, email, phone, company, industry select, consultation type radio (strategy/technical/discovery/follow-up), preferred date picker, preferred time select, and goals textarea — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-dark",
@@ -12731,7 +12738,8 @@
         "product",
         "trial"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a product demo booking use case — first/last name, work email, phone, company name, company size select, role select, and additional details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-emergency",
@@ -12992,7 +13000,8 @@
         "rsvp",
         "attendee"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is for an event organizer or event management service — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an event inquiry use case — full name, organization, email, phone, event name, event type select, expected attendees select, and details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-faq",
@@ -13190,7 +13199,8 @@
         "accordion",
         "two-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a general contact use case with a subject checkbox-group — do not change the field set unless the site has clearly different requirements. Generate exactly 4 'items' for the FAQ accordion — the demo uses 4 items and the two-column layout (FAQ beside form) is calibrated for that count; use 3-6 items maximum. Only use real FAQ content from the system; do not fabricate questions or answers. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-feedback",
@@ -13302,7 +13312,8 @@
         "form",
         "customer-feedback"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a customer feedback use case — name (optional), email (optional), overall experience rating radio, feedback category checkbox-group, and detailed feedback textarea — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-fitness",
@@ -13415,7 +13426,8 @@
         "health",
         "wellness"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a fitness inquiry use case — first/last name, email, phone, current fitness level radio, fitness goals checkbox-group, and additional details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-guest",
@@ -13528,7 +13540,8 @@
         "booking",
         "accommodation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a hotel/hospitality guest inquiry use case — first/last name, email, phone, check-in and check-out date pickers, number of guests select, room preference radio, and special requests — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-image",
@@ -13737,7 +13750,8 @@
         "overlay",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a general project inquiry use case — name, email, phone, services needed checkbox-group, and project details textarea — do not change the field set unless the site has clearly different requirements. DO NOT USE this block if you don't have a real image from the media library — the 'image' prop is required for the split-panel layout. Only use a real image from the media library. For 'contactOverlays', only supply real contact data points (phone, email, address) from the system; do not fabricate overlay items — if no real contact data exists, omit 'contactOverlays'. Ensure to only supply a valid set of contact data points, DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-insurance",
@@ -13850,7 +13864,8 @@
         "coverage",
         "policy"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an insurance quote request use case — first/last name, email, phone, date of birth picker, ZIP code, insurance type radio (auto/home/life/health/business), and coverage amount select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-interview",
@@ -13963,7 +13978,8 @@
         "recruitment",
         "hr"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is conducting interviews or hiring — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an interview scheduling use case — first/last name, email, phone, LinkedIn profile, position applying for select, and additional details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-locations",
@@ -14075,7 +14091,8 @@
         "form",
         "offices"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a multi-location contact use case — name, email, phone, preferred location select, inquiry type radio, and message textarea — do not change the field set unless the site has clearly different requirements. Only populate the location select options with real locations from the system; do not invent office addresses or city names. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-maintenance",
@@ -14188,7 +14205,8 @@
         "property",
         "facility"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a maintenance request use case — name, email, phone, property address, city, ZIP, services needed checkbox-group (plumbing/electrical/HVAC/carpentry/painting/landscaping), urgency, and description — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-map",
@@ -14452,7 +14470,8 @@
         "form",
         "basic"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a minimal general contact use case — name, email, subject, and message textarea — do not add complexity or change the field set unless the site has clearly different requirements. This is the simplest contact form; use it when no specialized inquiry type applies. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-moving",
@@ -14565,7 +14584,8 @@
         "services",
         "logistics"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a moving quote request use case — first/last name, email, phone, move type radio (local/long-distance/international/office), current address, destination address, preferred move date picker, and additional details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-multistep",
@@ -14678,7 +14698,8 @@
         "progressive",
         "complex"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a multi-step project inquiry use case — contact info (name, email, phone, company, company size), project details (industry, services, budget, timeline), and project description with optional attachment — the step-flow must be followed exactly as shown in the demo; do not reorder or collapse the logical groupings into a single step. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-partnership",
@@ -14791,7 +14812,8 @@
         "b2b",
         "alliance"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is actively seeking business partnerships — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a partnership inquiry use case — first/last name, work email, phone, company name, job title, website URL, partnership type radio (reseller/technology/referral/strategic), and message — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-photography",
@@ -14956,7 +14978,8 @@
         "creative",
         "edge-to-edge"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a photography inquiry use case — first/last name, email, phone, project type checkbox-group, preferred date picker, reference image file upload, and project details textarea — do not change the field set unless the site has clearly different requirements. DO NOT USE this block if you don't have a real image from the media library — the 'image' prop is required for the left-panel split layout. Only use a real image from the media library. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-press",
@@ -15069,7 +15092,8 @@
         "pr",
         "journalism"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site has a press/media relations function — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a press/media inquiry use case — first/last name, email, phone, publication/outlet name, job title, publication website, inquiry type select (interview/quote/story pitch/event coverage/press kit/fact check), deadline date picker, and details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-quote",
@@ -15182,7 +15206,8 @@
         "pricing",
         "estimate"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a quote request use case — first/last name, email, phone, company (optional), service type radio, budget range select, and project description — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-referral",
@@ -15295,7 +15320,8 @@
         "rewards",
         "incentive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a referral submission use case — the referring person's name/email/phone AND the referral's name/email/phone/company, plus a service interest checkbox-group and optional notes — do not change the dual-person field structure unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-report",
@@ -15409,7 +15435,8 @@
         "problem",
         "support"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an issue/abuse report use case — reporter name (optional), email (optional), phone (optional), issue type select, severity radio (low/medium/high/critical), description, and steps to reproduce — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-reservation",
@@ -15522,7 +15549,8 @@
         "hospitality",
         "restaurant"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a dining/venue reservation use case — first/last name, email, phone, reservation date picker, preferred time select, party size select, and special requests — preserve the time slot options that match the business's actual operating hours. Do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-retreat",
@@ -15635,7 +15663,8 @@
         "wellness",
         "event"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a retreat booking inquiry use case — first/last name, email, phone, company/organization (optional), retreat type radio (corporate/wellness/creative/leadership/spiritual/special event), group size, preferred dates, and additional details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-rsvp",
@@ -15748,7 +15777,8 @@
         "invitation",
         "attendance"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is for a specific event that requires RSVP responses — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an RSVP use case — first/last name, email, phone, attendance radio (accepts/declines), plus-one radio, guest name (if applicable), and total attending select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-sales",
@@ -15861,7 +15891,8 @@
         "b2b",
         "leads"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a B2B sales inquiry use case — first/last name, business email, phone, company name, company size select, industry select, and message — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-schedule",
@@ -15974,7 +16005,8 @@
         "booking",
         "calendar"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an appointment scheduling use case — full name, email, phone, appointment type radio (consultation/demo/follow-up/training), preferred date picker, preferred time select, timezone select, and optional notes — preserve the appointment type options that match the business's actual service offerings. Do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-sponsorship",
@@ -16087,7 +16119,8 @@
         "funding",
         "event"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is actively seeking sponsors — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a sponsorship inquiry use case — organization name, contact person, job title, email, phone, sponsorship type radio (event/program/scholarship/general), preferred sponsorship level select, and message — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-support",
@@ -16199,7 +16232,8 @@
         "form",
         "customer-service"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a customer support ticket use case — full name, email, account ID/username (optional), issue type select, priority level select, subject, detailed description textarea, and optional screenshot file upload — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-help-center",
@@ -16489,7 +16523,8 @@
         "rental",
         "property"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a tenant/property management inquiry use case — first/last name, email, phone, unit number (optional), request type radio (maintenance/lease/payment/noise/access/other), urgency, and description — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-vendor",
@@ -16602,7 +16637,8 @@
         "supplier",
         "marketplace"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is actively seeking vendors or suppliers — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a vendor application use case — company name, contact person, job title, business email, phone, company website, product/service categories checkbox-group, partnership type radio, annual capacity select, and description/certifications textareas — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-volunteer",
@@ -16715,7 +16751,8 @@
         "non-profit",
         "community"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a volunteer sign-up use case — first/last name, email, phone, age range select, general availability select, areas of interest checkbox-group, skills/experience, and motivation textarea — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-warranty",
@@ -16828,7 +16865,8 @@
         "support",
         "product"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a warranty claim use case — first/last name, email, phone, order number, purchase date picker, product name, serial number (optional), claim type radio (defect/malfunction/damage), issue description, and optional photo upload — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "contact-wedding",
@@ -16941,7 +16979,8 @@
         "event",
         "planning"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless the site is specifically for a wedding vendor, planner, or wedding-related service — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a wedding inquiry use case — partner 1 name, partner 2 name, email, phone, wedding date picker, venue name (optional), wedding location, expected guest count select, and estimated budget range select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
     {
       "id": "carousel-animated-sections",
@@ -17244,7 +17283,8 @@
         "sections",
         "immersive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 3-6 sections in the 'sections' array — each section requires a real image URL for the full-bleed background. Do not exceed 40 characters for each section's 'title' prop. Do not exceed 130 characters for each section's 'description' prop. DO NOT USE this block if you don't have at least 3 valid real images. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-auto-progress-slides",
@@ -17426,7 +17466,8 @@
         "timed",
         "transitions"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 4-8 items in the 'items' array — each item requires a real image URL via the 'src' field and a short 'label' (keep labels under 40 characters to avoid truncation in the slide navigation tabs). DO NOT USE this block if you don't have at least 4 valid real images. Do not exceed 60 characters for the 'heading' prop and 130 characters for the 'subheading' prop. Follow the example props closely for this block."
     },
     {
       "id": "carousel-autoplay-progress",
@@ -17603,7 +17644,8 @@
         "features",
         "controls"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 4-8 slides in the 'slides' array — each slide requires a real image URL via the 'src' field. DO NOT USE this block if you don't have at least 4 valid real images. The optional 'content' slot beneath each slide can include a short title and description; keep titles under 40 characters and descriptions under 100 characters. Follow the example props closely for this block."
     },
     {
       "id": "carousel-feature-badge",
@@ -17877,7 +17919,8 @@
         "showcase",
         "gallery"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 4-8 items in the 'items' array — each item requires a real image URL via the 'src' field. DO NOT USE this block if you don't have at least 4 valid real images. Do not exceed 60 characters for the 'heading' prop and 140 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-fullscreen-scroll-fx",
@@ -18145,7 +18188,8 @@
         "portfolio",
         "cinematic"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 3-6 slides in the 'slides' array — this is a fullscreen scroll-fx carousel where each slide requires a real image URL via the 'image' field. DO NOT USE this block if you don't have at least 3 valid real images. Do not exceed 40 characters for each slide's 'title' prop and 130 characters for each slide's 'description' prop. Per-slide 'actions' are supported; if supplying two actions on a slide, use 'default' variant for the first and 'outline' for the second. Follow the example props closely for this block."
     },
     {
       "id": "carousel-gallery-thumbnails",
@@ -18337,7 +18381,8 @@
         "photography",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 5-10 images in the 'images' array — this is a gallery carousel with thumbnail navigation and each image requires a real URL via the 'src' field. DO NOT USE this block if you don't have at least 5 valid real images. Provide meaningful 'alt' text for each image as it doubles as the visible caption. Follow the example props closely for this block."
     },
     {
       "id": "carousel-horizontal-cards",
@@ -18602,7 +18647,8 @@
         "testimonials",
         "stats"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 5-10 items in the 'items' array — each card requires a real image URL via the 'imageSrc' field. DO NOT USE this block if you don't have at least 5 valid real images. Only use real, verifiable values for 'count' and 'countLabel'; do not invent metrics or statistics. Do not exceed 60 characters for the section 'heading' prop and 130 characters for the 'subtitle' prop. Follow the example props closely for this block."
     },
     {
       "id": "carousel-image-hero",
@@ -18864,7 +18910,8 @@
         "marketing",
         "auto-advance"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 3-6 images in the 'images' array — this is a hero block where the carousel cycles through real background images and each requires a real URL via the 'src' field. DO NOT USE this block if you don't have at least 3 valid real images. Do not exceed 40 characters for the 'heading' prop and 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-multi-step-showcase",
@@ -19143,7 +19190,8 @@
         "steps",
         "progressive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use exactly 3-5 steps in the 'steps' array — each step requires a real image URL via the 'image' field and a sequential 'step' number. DO NOT USE this block if you don't have at least 3 valid real images. Do not exceed 60 characters for the 'heading' prop and 130 characters for the 'subheading' prop. Do not exceed 40 characters per step 'title' and 130 characters per step 'description'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-portfolio-hero",
@@ -19424,7 +19472,8 @@
         "design",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 4-8 slides in the 'slides' array — each slide requires a real image URL via the 'image' field. DO NOT USE this block if you don't have at least 4 valid real images. The per-slide 'tag' is displayed as a badge overlay; keep tags under 20 characters (ideally 1-2 words) to prevent overflow. Do not exceed 60 characters per slide 'title' and 80 characters per slide 'description'. Only use this block if you have real portfolio work to showcase — do not fabricate project titles or descriptions. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-product-feature-showcase",
@@ -19731,7 +19780,8 @@
         "split-layout",
         "saas"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 3-6 features in the 'features' array — each feature requires a real image URL via the 'image' field. DO NOT USE this block if you don't have at least 3 valid real product images. Each feature's optional 'colors' array represents real product color variants; only include 'colors' if the product genuinely has color options — do not fabricate color variants. Do not exceed 60 characters for the 'heading' prop, 130 characters for the 'subheading' prop, 40 characters per feature 'title', and 140 characters per feature 'description'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-progress-slider",
@@ -20122,7 +20172,8 @@
         "synchronized",
         "intersection-observer"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use 4-8 features in the 'features' array — this is a scroll-driven sticky-image showcase where each feature requires a real image URL via the 'image' field. DO NOT USE this block if you don't have at least 4 valid real images. Do not exceed 60 characters for the 'heading' prop and 130 characters for the 'subheading' prop. Feature 'description' fields can be longer (up to 250 characters) as each feature description is the focal text content during scroll. Follow the example props closely for this block."
     },
     {
       "id": "feature-showcase",
@@ -20225,7 +20276,8 @@
         "interactive",
         "media-gallery"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 3–5 items in the 'items' array for the showcase carousel. Each item uses a 'content' slot (React content for the text side) and a 'mediaComponent' slot (image or media element) — only use real images in 'mediaComponent'. Do not use this block if you don't have valid real images for every slide. Follow the example props closely for this block."
     },
     {
       "id": "feature-capabilities-grid",
@@ -20406,7 +20458,8 @@
         "ai",
         "platform"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'items' in multiples of 3 (3, 6, or 9) since the layout is a 3-column grid. Follow the example props closely for this block."
     },
     {
       "id": "feature-split-image",
@@ -20639,7 +20692,8 @@
         "benefits",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block requires a valid real image for 'imageSrc' — do not use this block if you don't have a real image. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "feature-split-image-reverse",
@@ -20872,7 +20926,8 @@
         "capabilities",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block requires a valid real image for 'imageSrc' — do not use this block if you don't have a real image. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "feature-icon-grid-bordered",
@@ -21046,7 +21101,8 @@
         "capabilities",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'features' in multiples of 2 or 4 (2, 4, 6, or 8) since the grid is 2-column on tablet and 4-column on desktop. Each item supports an optional 'href' for linking. Follow the example props closely for this block."
     },
     {
       "id": "feature-checklist-image",
@@ -21311,7 +21367,8 @@
         "two-column",
         "product"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block requires a valid real image for 'imageSrc' — do not use this block if you don't have a real image. Supply 3–6 succinct strings in 'checklistItems' to avoid layout overflow. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "feature-carousel-progress",
@@ -21517,7 +21574,8 @@
         "showcase",
         "product"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 4–8 items in the 'slides' array for a well-paced carousel experience. Each slide needs an 'iconName', 'title', and 'description'. Follow the example props closely for this block."
     },
     {
       "id": "feature-card-grid-linked",
@@ -22026,7 +22084,8 @@
         "images",
         "ranked"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 2–4 items in the 'features' array; each card renders as a full-width two-column row (text + image), so keep the list short. Each item should include a 'title', 'description', a valid real 'image', and 4–6 succinct 'checklistItems' strings to avoid overflow. Only use this block if you have valid real images for every item — do not use placeholder/stock images. Follow the example props closely for this block."
     },
     {
       "id": "feature-icon-grid-accent",
@@ -22219,7 +22278,8 @@
         "colorful",
         "capabilities"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'features' in multiples of 2 (2, 4, 6, or 8) since the layout is a 2-column grid. Each item supports an 'iconName', 'title', and 'description'. Follow the example props closely for this block."
     },
     {
       "id": "feature-three-column-values",
@@ -22393,7 +22453,8 @@
         "principles",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 items in the 'values' array since the layout is a fixed 3-column grid. Follow the example props closely for this block."
     },
     {
       "id": "feature-badge-grid-six",
@@ -22654,7 +22715,8 @@
         "cta",
         "capabilities"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 items in the 'features' array since the name and layout indicate a fixed 6-item grid. The block has a single 'action' prop (not an array) — supply one action with a 'default' variant. Follow the example props closely for this block."
     },
     {
       "id": "feature-pattern-grid-links",
@@ -22850,7 +22912,8 @@
         "icons",
         "learn-more"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'features' in multiples of 3 (3, 6, or 9) since the layout is a 3-column grid. The demo uses 9 items. Each item requires a 'link' and 'linkLabel' for the CTA. Follow the example props closely for this block."
     },
     {
       "id": "feature-tabbed-content-image",
@@ -23187,7 +23250,8 @@
         "checklist",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 3–5 items in the 'slides' array. Each slide requires a valid real 'image' — do not use this block if you don't have real images for every slide. Each slide's 'features' array should contain 3–5 succinct strings or items to avoid overflow. Each slide's 'actions' array should follow the variant pattern: use 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
     },
     {
       "id": "feature-utility-cards-grid",
@@ -23487,7 +23551,8 @@
         "three-column",
         "tools"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'utilities' in multiples of 3 (3 or 6) since the layout is a 3-column grid. Each item supports an optional 'image' — only use real images; if you don't have real images for every item, omit 'image' from all items. The 'learnMoreAction' prop is a single link action, not an array. Follow the example props closely for this block."
     },
     {
       "id": "feature-bento-utilities",
@@ -23785,7 +23850,8 @@
         "images",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a bento layout — supply exactly 2 items in 'leftColumnCards' and exactly 2 items in 'rightColumnCards' to match the canonical 2×2 two-column bento grid. Only use real images for items that have an 'imageSrc'; if you don't have real images, omit 'imageSrc' from those items. Follow the example props closely for this block."
     },
     {
       "id": "feature-checklist-three-column",
@@ -24049,7 +24115,8 @@
         "badges",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 3 items in the 'cards' array since the cards section is a 3-column grid. Each card requires a valid real 'image' — do not use this block if you don't have real images for all cards. Keep 'checklistItems' strings within each card to 3–5 succinct items to avoid overflow. Each checklist column ('checklistColumn1', 'checklistColumn2') should contain 4–8 short, succinct strings. Follow the example props closely for this block."
     },
     {
       "id": "feature-integration-cards",
@@ -24625,7 +24692,8 @@
         "cta",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 3–5 items in the 'tabs' array. Each tab's 'content' object requires a valid real 'imageSrc' — do not use this block if you don't have real images for every tab panel. Each tab's 'content.actions' array should follow the variant pattern: use 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
     },
     {
       "id": "feature-image-overlay-badge",
@@ -24923,7 +24991,8 @@
         "cta",
         "two-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Only use this block if you have a valid real image for 'imageSrc' and an optional real avatar image for 'avatarSrc' — do not use placeholder/stock images. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "feature-category-image-cards",
@@ -25136,7 +25205,8 @@
         "three-column",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'features' in multiples of 3 (3 or 6) since the layout is a 3-column grid. Only use this block if you have valid real images for every item — do not use placeholder/stock images. Follow the example props closely for this block."
     },
     {
       "id": "feature-bento-image-grid",
@@ -25367,7 +25437,8 @@
         "asymmetric",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a bento layout — use exactly 4 items: 1 item with 'size: \"large\"' (renders as the dominant card) and 3 items with 'size: \"small\"'. Only use this block if you have valid real images for every item — do not use placeholder/stock images. Follow the example props closely for this block."
     },
     {
       "id": "feature-image-cards-three-column",
@@ -25628,7 +25699,8 @@
         "overlay",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 items in the 'cards' array since the layout is a fixed 3-column grid. Only use this block if you have valid real images for every card — do not use placeholder/stock images. Follow the example props closely for this block."
     },
     {
       "id": "feature-icon-grid-muted",
@@ -25807,7 +25879,8 @@
         "capabilities",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate 'features' in multiples of 3 (3, 6, or 9) for clean 3-column grid alignment at large breakpoints. Individual items can use 'className' to span multiple columns (e.g., 'col-span-1 md:col-span-2') for visual accent, but only if intentional. Keep 'title' and 'description' for each item succinct to avoid card overflow. Follow the example props closely for this block."
     },
     {
       "id": "feature-stats-highlight",
@@ -31304,7 +31377,8 @@
         "sitemap",
         "branding"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a logo/tagline column alongside a 4-column navigation grid and bottom legal links. Provide exactly 4 'menuItems' sections (the demo canonical count), each with 4-6 links. Only set 'logo.src' if a real brand logo is in the media library; otherwise rely on 'logo.title' as text. Only include 'bottomLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-social-newsletter",
@@ -31561,7 +31635,8 @@
         "icons",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a logo, 4-column navigation, social links, and a newsletter form. Provide exactly 4 'sections', each with 4-6 links. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter uses 'formEngineSetup' — follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). Only set 'logo.src' if a real brand logo is in the media library. Follow the example props closely for this block."
     },
     {
       "id": "footer-social-apps",
@@ -31786,7 +31861,8 @@
         "app-store",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a logo, 3-column navigation, social links, and app store download links. Provide exactly 3 'sections', each with 4-6 links. Only include 'socialLinks' the brand actually has — do not invent social profiles. Only include 'appLinks' if the brand actually has a mobile app with real App Store / Google Play URLs — DO NOT invent app store links. Only set 'logo.src' if a real brand logo is in the media library. Follow the example props closely for this block."
     },
     {
       "id": "footer-simple-centered",
@@ -32065,7 +32141,8 @@
         "legal",
         "centered"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a centered logo, tagline, 4-column sitemap grid, and bottom legal links. Provide exactly 4 'sitemap' sections, each with 4-6 links. Only set 'logo.src' if a real brand logo is in the media library; otherwise rely on 'logo.title' as text. Only include 'bottomLinks' (terms, privacy, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-brand-description",
@@ -32365,7 +32442,8 @@
         "navigation",
         "about"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a brand column (logo + description + social links) alongside a 3-column navigation grid. Provide exactly 3 'sections', each with 4-6 'links'. Only include 'socialLinks' the brand actually has — do not invent social profiles. Only set 'logo.src' if a real brand logo is in the media library; otherwise rely on 'logo.title' as text. Only include 'legalLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-brand-links-contact",
@@ -32710,7 +32788,8 @@
         "multi-column",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a brand/description column, 3 link group columns, and a contact + social column. Provide exactly 3 'linkGroups', each with 4-6 links. Only supply real 'contactItems' (email, phone, address) — DO NOT invent any contact data; omit fields the brand has not provided. Only include 'socialLinks' the brand actually has — do not invent social profiles. Only set 'logoSrc' if a real brand logo is in the media library. Only include 'legalLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-comprehensive-links",
@@ -32972,7 +33051,8 @@
         "navigation",
         "legal"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a large, feature-rich footer with a summary column, 4 link columns, an articles section, contact info, and social links. Provide exactly 4 'linkColumns', each with 4-6 links. Provide 8-12 'articleLinks' drawn from real blog/resource pages on the site — DO NOT invent article titles or URLs. Only supply real 'contact' data points (email, phone, address) — DO NOT invent any contact data; omit fields the brand has not provided. Only include 'socialLinks' the brand actually has — do not invent social profiles. Only set 'logoSrc' if a real brand logo is in the media library. Only include 'bottomLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-newsletter-grid",
@@ -33188,7 +33268,8 @@
         "marketing",
         "subscription"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a logo/description column, 3-column navigation, social links, and an inline newsletter form. Provide exactly 3 'sections', each with 4-6 links. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter is a simple inline form controlled by 'newsletterTitle', 'newsletterPlaceholder', and 'newsletterButtonText' props (not formEngineSetup). Only set 'logo.src' if a real brand logo is in the media library. Only include 'privacyLinkUrl' if a privacy policy page actually exists on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-cta-banner",
@@ -33552,7 +33633,8 @@
         "newsletter",
         "call-to-action"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer opens with a prominent full-width CTA banner (heading, description, single CTA button) above a 3-column navigation grid, an inline newsletter form, and social links. Provide exactly 3 'sections', each with 4-6 links. The CTA is a single button via 'ctaButtonText'/'ctaButtonUrl' — there is no 'actions' array. The newsletter is a simple inline form controlled by 'newsletterLabel', 'newsletterPlaceholder', and 'newsletterButtonText' props (not formEngineSetup). Only include 'socialLinks' the brand actually has — do not invent social profiles. Only set 'logo.src' if a real brand logo is in the media library. Only include 'legalLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-contact-card",
@@ -33851,7 +33933,8 @@
         "professional",
         "agency"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer centers on contact info — a heading, email, phone, address, and social links — alongside a flat navigation list. Only supply real contact data (email, phone, address, location) — DO NOT invent any contact data; omit fields the brand has not provided. Only include 'socialLinks' the brand actually has — do not invent social profiles. Supply 5-7 'navLinks' as a flat single-column list. Only set 'logo.src' if a real brand logo is in the media library. Follow the example props closely for this block."
     },
     {
       "id": "footer-background-card",
@@ -34195,7 +34278,8 @@
         "personal",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer renders as a full-bleed card with a background image, profile image, personal message, 3-column menu navigation, and contact info. Supply exactly 3 'menuItems' sections (the demo canonical count), each with 4-6 links. Only supply real 'contact' data points (email, phone, location, timezone) — DO NOT invent any contact data; omit fields the brand has not provided. Only set 'logo.src' if a real brand logo is in the media library. Only include 'bottomLinks' (privacy, terms, etc.) if those pages actually exist on the site. DO NOT USE this block if you do not have a real background image and a profile/representative image. Follow the example props closely for this block."
     },
     {
       "id": "footer-animated-social",
@@ -34382,7 +34466,8 @@
         "creative",
         "portfolio"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a minimal animated footer with a large heading, description, a single CTA button, and social links. Supply only 'socialLinks' the brand actually has — do not invent social profiles. The 'ctaText' and 'ctaUrl' represent a single action (no 'actions' array). Keep 'heading' concise (under 60 characters) and 'description' under 200 characters to avoid layout overflow. Follow the example props closely for this block."
     },
     {
       "id": "footer-newsletter-minimal",
@@ -34774,7 +34859,8 @@
         "saas",
         "sophisticated"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a minimal creative-studio footer with a large heading, support email, flat nav links, social links, a newsletter form, and legal footer links. Supply 4-6 'navLinks' as a single flat list. Only include 'socialLinks' the brand actually has — do not invent social profiles. Only supply real 'supportEmail' contact data — DO NOT invent any contact data. The newsletter uses 'formEngineSetup' — follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). Only include 'footerLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-cta-social",
@@ -34972,7 +35058,8 @@
         "marketing",
         "decorative"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a minimal CTA footer with a pre-heading, heading, description, a single CTA button, a contact email, and social links. Only supply real contact data (email) — DO NOT invent any contact data. Only include 'socialLinks' the brand actually has — do not invent social profiles. There is no logo prop or link columns in this block — use it for simple brand closing statements. Follow the example props closely for this block."
     },
     {
       "id": "footer-nav-social",
@@ -35338,7 +35425,8 @@
         "corporate",
         "complete"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a logo, 3-column navigation, social links, and an inline newsletter form. Provide exactly 3 'sections', each with 4-6 links. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter is a simple inline form controlled by 'newsletterHeading', 'newsletterDescription', 'newsletterPlaceholder', and 'newsletterButtonText' props (not formEngineSetup). Only set 'logo.src' if a real brand logo is in the media library. Only include 'legalLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "expandable-case-study-cards",
@@ -35550,7 +35638,8 @@
         "work",
         "showcase"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide exactly 4 items in the 'items' array since the expandable layout is designed for a 4-card row. Each item requires a real image ('image') from the media library; optionally supply a real company logo ('logo') from the media library — do not invent logo URLs. DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "carousel-badge-cards",
@@ -35758,7 +35847,8 @@
         "features",
         "categories"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-8 items in the 'items' array for this badge-card carousel; the demo uses 5. Each item requires a real image from the media library. DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "carousel-gradient-overlay",
@@ -35976,7 +36066,8 @@
         "featured",
         "images"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-8 items in the 'items' array for this gradient-overlay carousel; the demo uses 5. Each item requires a real image from the media library. DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "carousel-demo-link",
@@ -36254,7 +36345,8 @@
         "features",
         "external"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-8 items in the 'items' array for this carousel; the demo uses 5. Each item requires a real image from the media library. DO NOT USE this block unless you have at least 4 real images from the media library. The 'demoAction' should link to a real booking or demo URL from the site's data; do not invent a URL. Follow the example props closely for this block."
     },
     {
       "id": "auto-scroll-carousel",
@@ -36510,7 +36602,8 @@
         "clients",
         "staggered"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless you have at least 8 real images from the site's media library; the demo uses 12 images for a smooth auto-scroll loop. Provide 8-12 items in the 'images' array. All image 'src' values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-sidebar-resources",
@@ -36708,7 +36801,8 @@
         "learning",
         "three-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-8 items in the 'resources' array for this sidebar-resources carousel; the demo uses 6. Each item requires a real image from the media library. DO NOT USE this block unless you have at least 4 real images from the media library. Use only real resource links from the site's content for the 'link' field; do not invent URLs. Follow the example props closely for this block."
     },
     {
       "id": "carousel-icon-tabs",
@@ -36916,7 +37010,8 @@
         "animated",
         "indicator"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-6 items in the 'sections' array for this icon-tabs carousel; the demo uses 5. Each item requires a real image ('img') from the media library and a valid Lucide icon name ('icon'). DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "testimonial-carousel-cards",
@@ -37150,7 +37245,8 @@
         "customers",
         "two-panel"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonial content — only use real, verified customer testimonials from the system. If the site has no real testimonials, do not use this block. Provide 4-8 items in the 'items' array; the demo uses 5. Each item must have a real customer quote, real author name/role/company, and a real image from the media library. Do not invent usernames, quotes, authors, or images. Follow the example props closely for this block."
     },
     {
       "id": "carousel-icon-sidebar",
@@ -37368,7 +37464,8 @@
         "contextual",
         "details"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-6 items in the 'items' array for this icon-sidebar carousel; the demo uses 5. Each item requires a real image ('src') from the media library and a valid Lucide icon name ('icon'). DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "carousel-gradient-text",
@@ -37586,7 +37683,8 @@
         "portfolio",
         "animated"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 6-10 items in the 'items' array for this gradient-text carousel; the demo uses 10 (5 originals + 5 duplicates for visual continuity). Each item requires a real image from the media library. DO NOT USE this block unless you have at least 5 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "service-hover-carousel",
@@ -37805,7 +37903,8 @@
         "portrait",
         "interactive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Lock the 'items' array to the exact number of real services the site offers; the demo uses 5. Each item requires two real images from the media library: a primary 'image' and a 'hoverImage'. DO NOT USE this block unless you have at least 3 real services with corresponding real images. Only use real service names, prices, and hrefs from the site's data; do not invent services or pricing. Follow the example props closely for this block."
     },
     {
       "id": "carousel-tabs-content",
@@ -38024,7 +38123,8 @@
         "navigation",
         "synced"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-6 items in the 'items' array for this tabbed-carousel; the demo uses 5. Each item requires a real image from the media library. DO NOT USE this block unless you have at least 4 real images from the media library. Follow the example props closely for this block."
     },
     {
       "id": "carousel-scale-focus",
@@ -38214,7 +38314,8 @@
         "featured",
         "emphasis"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless you have at least 5 real images from the site's media library. Provide 5-9 items in the 'images' array; the demo uses 7. All image 'src' values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
     {
       "id": "masonry-motion-grid",
@@ -38498,7 +38599,8 @@
         "photos",
         "portfolio"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless you have at least 12 real images from the site's media library. The grid is split across 4 columns: supply exactly 3 images per column ('column1Images', 'column2Images', 'column3Images', 'column4Images') for a total of 12. Each image requires a 'height' Tailwind class (e.g. 'h-60', 'h-72', 'h-80'). All image 'src' values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
     {
       "id": "blur-vignette-grid",
@@ -38711,7 +38813,8 @@
         "photography",
         "dramatic"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless you have at least 9 real images from the site's media library. Provide exactly 9 items in the 'images' array to match the demo grid layout (5-column spanning grid). Each item requires a 'colSpan' (spanning 2 or 3 columns within a 5-column grid) and a 'height' Tailwind class; follow the demo's alternating pattern closely. All image 'src' values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
     {
       "id": "interior-carousel",
@@ -38869,7 +38972,8 @@
         "design",
         "comparison"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT USE this block unless you have at least 4 real images from the site's media library. Provide 4-8 images in the 'images' array; the demo uses 8. All image values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
     {
       "id": "radial-gradient-top",
@@ -41054,7 +41158,8 @@
         "cards",
         "listing"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 'posts' since the layout is a 3-column × 2-row author-card grid. Only use real blog posts from the site's content; do not invent titles, summaries, categories, or dates. Only use real author names and real author avatar images from the media library for the 'author' and 'authorAvatar' fields. Follow the example props closely for this block."
     },
     {
       "id": "blog-cards-tagline-cta",
@@ -41415,7 +41520,8 @@
         "grid",
         "centered"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'posts' since the layout is a single-row 3-column grid. Only use real blog posts from the site's content; do not invent blog post titles or excerpts. The 'ctaAction' is a standalone CTA alongside the heading — use a variant of 'default' for it. Follow the example props closely for this block."
     },
     {
       "id": "blog-cards-read-time",
@@ -41770,7 +41876,8 @@
         "badge",
         "grid"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 'posts' since the layout is a 3-column grid with 2 rows (3×2). Only use real blog posts from the site's content; do not invent blog post titles, authors, dates, or excerpts. Only use real author names and real author avatar images from the media library for the 'author' and 'authorAvatar' fields on each post. Follow the example props closely for this block."
     },
     {
       "id": "blog-category-overlay",
@@ -42136,7 +42243,8 @@
         "grid",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 'posts' since the layout is a 3-column × 2-row overlay-image grid. Only use real blog posts from the site's content; do not invent titles, categories, or dates. Follow the example props closely for this block."
     },
     {
       "id": "blog-featured-popular",
@@ -42434,7 +42542,8 @@
         "layout",
         "collection"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block has a fixed featured + popular layout: the first post in the 'posts' array is the large featured card, and the remaining posts populate the popular sidebar. Lock to exactly 4 total posts (1 featured + 3 popular) matching the demo. Only use real blog posts from the site's content; do not invent titles, descriptions, categories, or hrefs. Follow the example props closely for this block."
     },
     {
       "id": "blog-related-articles",
@@ -42767,7 +42876,8 @@
         "grid",
         "compact"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 items in the 'articles' array since the layout is a 4-column related-articles row. Only use real blog posts from the site's content that are genuinely related to the current page context; do not invent titles, descriptions, categories, dates, or hrefs. Follow the example props closely for this block."
     },
     {
       "id": "blog-tech-insights",
@@ -43257,7 +43367,8 @@
         "professional",
         "modern"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block has a fixed featured + secondary layout: supply exactly 1 'featuredPost' (large hero with author/avatar/role) and exactly 3 items in 'secondaryPosts'. Only use real blog posts from the site's content; do not invent titles, descriptions, authors, author avatars, author roles, or hrefs. Only use real author data for the featured post's 'author', 'authorAvatar', and 'authorRole' fields. Follow the example props closely for this block."
     },
     {
       "id": "blog-horizontal-cards",
@@ -43617,7 +43728,8 @@
         "content-rich",
         "summary"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'posts' since the layout is a vertical stack of 3 horizontal cards. Only use real blog posts from the site's content; do not invent titles, summaries, categories, authors, or dates. Use a variant of 'default' for the 'ctaAction'. Follow the example props closely for this block."
     },
     {
       "id": "blog-filtered-results",
@@ -44184,7 +44296,8 @@
         "listing",
         "content"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide exactly 1 'primaryPost' (featured hero) plus 6 'posts' in the secondary grid (3-column, matching 'postsPerPage' of 6) to match the demo layout. Also supply a 'categories' array with real category values that match the actual post categories in the system; do not invent categories. Only use real blog posts from the site's content; do not invent titles, summaries, or hrefs. The 'loadMoreAction' should use a variant of 'outline'. Follow the example props closely for this block."
     },
     {
       "id": "blog-masonry-featured",
@@ -44453,7 +44566,8 @@
         "visual",
         "highlight"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block has a fixed masonry layout: exactly 1 featured post (id 'featured') plus 4 secondary posts, totalling 5 'posts'. Only use real blog posts from the site's content; do not invent titles, descriptions, authors, or dates. Follow the example props closely for this block."
     },
     {
       "id": "blog-horizontal-timeline",
@@ -44715,7 +44829,8 @@
         "editorial",
         "storytelling"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide exactly 4 items in the 'posts' array since the layout is a horizontal 4-step timeline. Only use real blog posts or content milestones from the site; do not invent titles, descriptions, dates, or hrefs. Follow the example props closely for this block."
     },
     {
       "id": "blog-grid-nine-posts",
@@ -45059,7 +45174,8 @@
         "category",
         "nine-posts"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 9 'posts' since the layout is a 3-column grid with 3 rows (the block name encodes this). Only use real blog posts from the site's content; do not invent titles, summaries, categories, authors, author avatars, or dates. Follow the example props closely for this block."
     },
     {
       "id": "blog-carousel-apple",
@@ -45225,7 +45341,8 @@
         "featured",
         "premium"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Provide 4-8 items in the 'posts' array for this Apple-style carousel; the demo uses 5. Only use real blog posts from the site's content; do not invent titles, categories, excerpts, or URLs. Follow the example props closely for this block."
     },
     {
       "id": "article-hero-prose",
@@ -47244,7 +47361,8 @@
         "visual-impact",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "ONLY use this block as an article hero/preview — it does not render a full article body. Ensure 'authorName', 'authorImage', and 'authorRole' are only populated with real, verified author data; do not fabricate author information. Only populate 'image' with a real image URL; DO NOT USE PLACEHOLDERS. If you supply 'ctaActions', use a variant of 'default' for the primary CTA and 'outline' for any secondary CTA. Follow the example props closely for this block."
     },
     {
       "id": "faq-simple-accordion",
@@ -47399,7 +47517,8 @@
         "minimal",
         "simple"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this single-column accordion layout. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-static-list",
@@ -47554,7 +47673,8 @@
         "simple",
         "readable"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this static (non-collapsible) list layout. Each item requires a 'question' and an 'answer'; no 'id' field is needed. Follow the example props closely for this block."
     },
     {
       "id": "faq-centered-accordion",
@@ -47709,7 +47829,8 @@
         "professional",
         "landing-page"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this centered single-column accordion. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-badge-support",
@@ -47963,7 +48084,8 @@
         "customer-service",
         "cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this accordion layout. Each item requires a unique 'id', a 'question', and an 'answer'. The 'supportAction' is a single CTA — use a variant of 'default' for it. Always supply a real 'supportText' and 'supportAction' pointing to a valid support or contact page; do not fabricate support URLs. Follow the example props closely for this block."
     },
     {
       "id": "faq-numbered-list",
@@ -48130,7 +48252,8 @@
         "organized",
         "steps"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this numbered static-list layout. Each item requires a 'question' and an 'answer'; no 'id' field is needed. Numbers are auto-generated, so supply items in the intended reading order. Follow the example props closely for this block."
     },
     {
       "id": "faq-numbered-grid",
@@ -48381,7 +48504,8 @@
         "responsive",
         "organized"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 'items' in multiples of 2 (ideally 4 or 6) since the layout is a 2-column grid on desktop. Each item requires a 'question' and an 'answer'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "faq-split-help",
@@ -48630,7 +48754,8 @@
         "cta",
         "banner"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this split accordion layout. Each item requires a unique 'id', a 'question', and an 'answer'. Always supply 'helpHeading', 'helpDescription', and 'helpAction'; use a variant of 'default' for 'helpAction' and point it to a real support or contact page — do not fabricate URLs. Follow the example props closely for this block."
     },
     {
       "id": "faq-categorized-sections",
@@ -48819,7 +48944,8 @@
         "comprehensive",
         "topics"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Organize questions into 2-4 'categories', each with a 'title' and 2-4 'items'. Each item requires a unique 'id', a 'question', and an 'answer'. Lock the number of categories to what the content genuinely supports — do not invent extra categories. Follow the example props closely for this block."
     },
     {
       "id": "faq-muted-cards",
@@ -48979,7 +49105,8 @@
         "minimal",
         "soft"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this accordion-inside-cards layout. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-bordered-badge",
@@ -49156,7 +49283,8 @@
         "help-center",
         "knowledge-base"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this bordered accordion layout with badge header. Each item requires a unique 'id', a 'question', and an 'answer'. Supply a short 'badge' label and a valid 'badgeIcon' lucide icon name. Follow the example props closely for this block."
     },
     {
       "id": "faq-gradient-categories",
@@ -49351,7 +49479,8 @@
         "saas",
         "styled"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Organize questions into 2-4 'categories' arranged in a 2-column desktop grid; use an even number of categories. Each category requires a 'title' and 2-4 'items'. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-sidebar-navigation",
@@ -49561,7 +49690,8 @@
         "interactive",
         "scroll"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Organize questions into 3-5 'categories' since the sidebar renders one navigation button per category. Each category requires a unique 'id', a 'title', and 2-4 'items'. Each item requires a unique 'id', a 'question', and an 'answer'. Lock the category count to what the content genuinely supports — the sidebar navigation becomes cluttered beyond 5 categories. Follow the example props closely for this block."
     },
     {
       "id": "faq-card-categories",
@@ -49761,7 +49891,8 @@
         "organized",
         "visual"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Organize questions into multiples of 3 categories (ideally 3 or 6) since the layout is a 3-column desktop grid. Each category requires a 'title' and 2-4 'items'. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-icon-benefits",
@@ -50093,7 +50224,8 @@
         "polished",
         "container"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for this rounded card accordion layout. Each item requires a unique 'id', a 'question', and an 'answer'. Follow the example props closely for this block."
     },
     {
       "id": "faq-profile-sidebar",
@@ -50413,7 +50545,8 @@
         "trust",
         "human"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-8 'items' for the accordion column. Each item requires a unique 'id', a 'question', and an 'answer'. Only use a real author profile — supply a verified 'profileImage' URL from the media library, a real 'profileName', and a real 'profileRole' or bio; do not fabricate. Always supply 'contactText' and 'contactAction' pointing to a real contact or booking page — use a variant of 'default' for 'contactAction'. DO NOT USE this block if you don't have a real person profile (image, name, role). Follow the example props closely for this block."
     },
     {
       "id": "hero-overlay-cta-grid",
@@ -56408,7 +56541,8 @@
         "tools",
         "clean"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This block takes a single 'action' prop (not an array) — do not supply multiple actions. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. Use 'actionSubtext' for a short trust signal beneath the CTA (e.g. 'No credit card required'). Follow the example props closely for this block."
     },
     {
       "id": "hero-dashed-border-features",
@@ -70601,7 +70735,8 @@
         "saas",
         "features"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'plans' since the plans grid is a 3-column layout. For each plan's 'action', use a variant of 'default' for the featured/popular plan and 'outline' for the other plans to ensure proper visual distinction. Only use real pricing data — do not invent prices or features. Mark at most one plan as 'isPopular' and supply a 'popularBadge' string when doing so. Follow the example props closely for this block."
     },
     {
       "id": "hero-newsletter-minimal",
@@ -76392,7 +76527,8 @@
         "accordion",
         "cta-buttons"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site needs a standard SaaS-style navigation with 4 top-level 'menu' items where some items open standard dropdown menus — well-suited for product-led sites with Features, Solutions, flat Resources, and flat Pricing links. The demo uses exactly 4 menu items: 'Features' with 4 icon-linked dropdown 'items', 'Solutions' with 3 icon-linked dropdown 'items', and 2 flat href items; each dropdown item supports 'title', 'url', 'description', and 'icon' (lucide name) — use 3-5 sub-items per dropdown. The 'authActions' prop accepts 1-2 buttons: the demo shows a ghost 'Login' and a default 'Start Free Trial' — use a non-default variant (ghost or link) for the first and 'default' for the primary CTA. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-centered-menu",
@@ -76649,7 +76785,8 @@
         "responsive",
         "mobile-menu"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has a clean, symmetrical layout with the logo on the left, 4 centered top-level 'menu' items, and a single auth action on the right — typical for SaaS marketing pages or professional product sites that want a balanced, editorial look. The demo uses exactly 4 menu items: 2 have dropdown 'items' arrays (with icon-linked sub-items), and 2 are flat href-only links — do not add more than 4-5 top-level items or the centered layout will break. Items with dropdowns support 'icon' (lucide icon name), 'title', 'url', and optional 'description' per sub-item; use 2-4 sub-items per dropdown. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-mega-menu",
@@ -76968,7 +77105,8 @@
         "full-width",
         "complex-navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has broad product and solution categories with multiple grouped sub-links — each top-level 'menuLinks' item can have 'dropdownGroups', where each group has a 'label' and 2-3 icon-linked items; suitable for mid-size SaaS or platform products. The demo uses 4 top-level items: 'Products' with 2 dropdownGroups (2 links each), 'Solutions' with 2 dropdownGroups (2 links each), and 2 flat href items — keep the structure to 2 groups per dropdown with 2-4 links per group; each link requires a lucide 'iconName'. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. If you supply multiple 'actions', use a variant of 'default' for the first action and 'outline' for the second action to ensure proper visual distinction between the two CTAs — most navbars expect 1-2 actions max, do not exceed 2. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-enterprise-mega",
@@ -77288,7 +77426,8 @@
         "b2b",
         "corporate"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is a B2B enterprise or large SaaS platform that needs multiple distinct mega-menu layouts — 'solutions-with-platform', 'products-categorized', and 'resources-with-topics' — each with a featured hero card image; typically for enterprise software, cloud platforms, or large product suites. The demo locks 5 top-level 'menuLinks': 3 with mega-menu layouts and 2 as flat href links — 'Solutions' uses layout 'solutions-with-platform' with 2 solutionCards (each with 3 subpages) and 4 platformItems; 'Products' uses layout 'products-categorized' with 2 productCategories (each with 2 products with images); 'Resources' uses layout 'resources-with-topics' with 4 resourceItems and 1 topicGroup of 3 topics; all 3 mega-menu items require a 'featuredHeroCard' with a real image — DO NOT USE this block without real images for each mega-menu panel's featuredHeroCard. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. If you supply multiple 'actions', use a variant of 'default' for the first action and 'outline' for the second action. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-feature-grid",
@@ -77601,7 +77740,8 @@
         "product-features",
         "tools"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is a product-led SaaS whose primary dropdown is a feature grid — the navbar exposes a 'features' prop that renders as a grid of feature cards inside the dropdown panel, plus a flat 'menu' array for additional top-level links without dropdowns. The demo uses exactly 6 features in the grid (render as 2 columns of 3) and 4 flat menu items ('Products', 'Resources', 'Pricing', 'Contact') — provide exactly 6 'features' (each with 'title', 'description', and 'href'), and 3-5 flat 'menu' items. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-floating-pill",
@@ -77781,7 +77921,8 @@
         "creative",
         "animated-hamburger"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site needs a minimal modern aesthetic with the navigation rendered as a floating pill/capsule that hovers above content — ideal for landing pages, personal sites, or agency sites with 3-5 top-level destinations and a single CTA. The demo uses exactly 5 flat 'items' (Home, Features, Pricing, About, Contact) with no dropdowns and a single 'authActions' entry — keep 'items' to 4-6 plain links, as more will overflow the pill shape. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on the alt/title fallback. The 'authActions' prop drives the pill's right-side button — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-platform-resources",
@@ -78100,7 +78241,8 @@
         "saas",
         "developer-tools"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is a developer platform or cloud services product with two main dropdown sections (Platform and Resources) each rendered as a 'simple-list' of icon-linked items, plus 2 flat links — a good match for infrastructure, API, or devtools companies. The demo uses 4 top-level 'menuLinks': 'Platform' with layout 'simple-list' and 4 icon-linked links, 'Resources' with layout 'simple-list' and 4 icon-linked links, 'Pricing' as a flat href, and 'Company' as a flat href — each 'links' sub-item needs 'label', 'description', 'url', and a lucide 'iconName'; provide 3-5 links per dropdown. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. If you supply multiple 'actions', use a variant of 'default' for the first action and 'outline' for the second action. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-image-preview",
@@ -78358,7 +78500,8 @@
         "fixed",
         "scroll-aware"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is a creative agency, design studio, or visual-heavy brand that needs dropdown menus where each sub-link shows a real image preview on hover — DO NOT USE this block if you do not have a real image URL for every link item in every dropdown. The demo uses 4 top-level 'navigation' items: 'Services' with 4 sub-links each requiring a real 'image' URL, and 3 flat href-only items (Portfolio, About, Contact) — every item in a 'links' array must have a real, accessible 'image' URL from the media library. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-dark-icons",
@@ -78616,7 +78759,8 @@
         "modern",
         "icon-indicators"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has a dark-themed or developer/devtools aesthetic and needs dropdown menus where each sub-link has a distinctly colored lucide icon — ideal for developer platforms, API products, or infrastructure services. The demo uses a 'navigation' array of 3 items: 2 have 'links' sub-arrays (4 links and 3 links respectively, each with 'iconName' and 'iconColor'), and 1 is a flat href-only entry — keep top-level items to 3-5, and provide a unique lucide 'iconName' and a distinct hex 'iconColor' for every sub-link. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-animated-preview",
@@ -78935,7 +79079,8 @@
         "full-width",
         "engaging"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has 4 top-level destinations where at least some items need rich animated dropdown panels — e.g., a SaaS or developer tool platform that wants to visually showcase products, solution cards, and grouped documentation links. The demo locks 4 top-level 'menuLinks': the first uses layout 'animated-image-preview' with 4 image-linked sub-items, the second uses layout 'featured-cards-grid' with 2 featuredLinks and 4 additional links, the third uses layout 'grouped-links-image' with 2 groupLinks groups (2 links each) plus one imageLink featured banner, and the fourth is a flat href link — do not exceed this structure. Every top-level item that uses 'animated-image-preview' layout MUST have a real image per sub-item (from the media library); DO NOT USE this block if you do not have real images for every link in those panels. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. If you supply multiple 'actions', use a variant of 'default' for the first action and 'outline' for the second action to ensure proper visual distinction between the two CTAs — most navbars expect 1-2 actions max, do not exceed 2. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-multi-column-groups",
@@ -79193,7 +79338,8 @@
         "dynamic-width",
         "dark-mobile"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has a large product suite that needs a multi-column mega-menu dropdown — each 'navigation' item can contain a 'groups' array of columns, each column having a 'title' and 'links' sub-array; ideal for all-in-one platforms with distinct feature categories. The demo uses 3 top-level items: 'Products' with 3 groups (Core Platform, Productivity, Collaboration — each with exactly 3 links), 'Solutions' as a flat href, and 'Pricing' as a flat href — lock each group to 3 links per column and use a lucide 'iconName' per link item. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' (or 'link') for the first and 'default' for the primary CTA, keeping 1-2 actions total. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-sidebar-mobile",
@@ -79451,7 +79597,8 @@
         "application",
         "immersive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when mobile-first navigation is critical and the site has grouped navigation sections that benefit from a slide-in sidebar drawer on mobile — well suited for apps, dashboards, and tool sites where items naturally cluster into groups like Projects, Team, and Settings. The demo uses 5 top-level 'menu' items: 2 flat href links (Dashboard, Analytics) and 3 items with expandable 'items' sub-arrays of 3 icon-linked entries each (Projects, Team, Settings); keep top-level items to 4-7 and sub-items to 2-4 per group, each with 'title', 'url', and a lucide 'icon' name. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side action — use 1 action with 'default' variant; if you supply 2, use 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The sidebar IS the mobile menu for this block — do not strip it or override its behavior; it is the primary mobile navigation mechanism. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-transparent-overlay",
@@ -79631,7 +79778,8 @@
         "creative",
         "staggered-animation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site needs a minimal, modern aesthetic where the navbar renders with a transparent background that overlays the hero section below — ideal for portfolio sites, creative agencies, and personal/branding sites with 3-5 top-level flat destinations and a single CTA. The demo uses 4 flat 'navItems' (Work, About, Services, Contact) and 1 'authActions' entry with 'outline' variant — keep navItems to 3-5 flat links with no dropdowns, since the transparent background makes complex dropdowns visually conflicting. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side button — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-education-platform",
@@ -79889,7 +80037,8 @@
         "knowledge-base",
         "e-learning"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is an education platform, LMS, or edtech product that needs group-structured dropdown menus — each top-level 'menu' item can contain one or more 'groups', each group has a 'label', a 'links' array of icon-linked items, and optionally a 'featuredImage' thumbnail. The demo uses 4 top-level items: 'About' with 1 group of 4 tool links plus a featuredImage, 'Resources' with 1 group of 3 links, 'Company' with 1 group of 3 links, and 'Pricing' as a flat href — maintain this 4-item structure; each group's 'links' use 'title', 'description', 'icon' (lucide name), and 'href'. The 'featuredImage' per group requires a real image from the media library — DO NOT set 'featuredImage' unless a real image is available. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' (or 'link') for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-sticky-compact",
@@ -80147,7 +80296,8 @@
         "documentation",
         "smooth-transition"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site needs a minimal, compact sticky navigation that remains visible on scroll without occupying much vertical space — suitable for landing pages, blogs, and personal/agency sites with 4-6 top-level flat links and a single CTA. The demo uses 5 flat 'menu' items and 1 small 'authActions' entry with 'size: sm' and 'outline' variant — keep menu items to 4-6 flat links with no dropdowns; the compact height means no mega-menus or tall dropdowns should be used. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' based on available media. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second; prefer 'size: sm' to maintain compact proportions. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-search-focused",
@@ -80333,7 +80483,8 @@
         "prominent-search",
         "expandable"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has real, functional search as a first-class feature — DO NOT USE this block if the site has no implemented search backend or search results page, as the prominent search bar will appear broken. The demo uses a 'searchPlaceholder' string and 4 flat 'navItems' (Products, Solutions, Resources, Pricing) — keep navItems to 3-5 flat links with no dropdowns; the search bar occupies the center of the navbar, so avoid complex dropdowns that compete with it. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop drives the right-side buttons — if you supply multiple entries, use a variant of 'default' for the first and 'outline' for the second. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-simple-links",
@@ -80518,7 +80669,8 @@
         "landing-page",
         "straightforward"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar for sites with a flat 4-7 link top-level navigation, no dropdowns, and a single primary CTA — the simplest navbar option, ideal for landing pages, small business sites, personal portfolios, and any site where the full navigation fits in a single row of named links. The demo uses 5 flat 'navItems' (each with 'name' and 'link') and 1 'actions' entry — set 'defaultActiveItem' to the name of the currently active page; keep navItems to 4-7 entries. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. If you supply multiple 'actions', use a variant of 'default' for the first action and 'outline' for the second action to ensure proper visual distinction between the two CTAs — most navbars expect 1-2 actions max, do not exceed 2. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-split-cta",
@@ -80776,7 +80928,8 @@
         "balanced-layout",
         "prominent-cta"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site's primary conversion goal requires two visible CTA buttons side by side on the right — a softer 'link'-variant secondary action alongside a solid primary action, typical for startup or SaaS landing pages that want to offer both a soft opt-in and a direct conversion path. The demo uses 4 flat 'menu' items and 2 'authActions': first with 'link' variant (soft CTA like 'Start Free Trial') and second with 'default' variant (hard CTA like 'Book a Demo') — keep the menu to 3-5 flat items and always supply exactly 2 authActions with this variant pairing. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-icon-links",
@@ -80956,7 +81109,8 @@
         "application",
         "space-efficient"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site is an app dashboard or tool with named, icon-backed top-level 'navItems' that double as the primary navigation — each link must have a lucide 'icon' name; best for internal tools, admin panels, or SaaS apps with 4-6 main sections. The demo uses 5 'navItems' each with 'title', 'url', and a lucide 'icon' name (e.g., 'lucide/layout-dashboard', 'lucide/bar-chart-3'); provide a unique, semantically relevant lucide icon for every nav item — do not omit icons on any item. The 'authActions' in the demo are utility icons (Notifications, Profile) with ghost variant — if you supply multiple 'authActions', use 'ghost' for utility/icon actions; if adding a primary CTA, use 'default' variant for it. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-tabbed-sections",
@@ -81214,7 +81368,8 @@
         "multi-section",
         "switchable"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when the site has deep, multi-category content under each top-level item and needs tabbed panel navigation inside the dropdown — each 'menu' item has a 'tabs' array, and clicking a top-level item reveals a panel with multiple tabs, each tab containing its own icon-linked 'links' list. The demo uses 3 top-level items each with tabs: 'Products' has 3 tabs (Core Features with 6 links, Advanced Tools with 5 links, Collaboration with 5 links); 'Solutions' has 3 tabs (By Industry 6 links, By Team 6 links, By Company Size 4 links); 'Resources' has 4 tabs (Learn 5 links, Support 5 links, Developers 5 links, Company 5 links) — provide 3-4 tabs per top-level item and 4-6 icon-linked links per tab for a complete and functional layout. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. The 'authActions' prop accepts 1-2 buttons — use a ghost or link variant for a secondary sign-in and 'default' for the primary CTA; if you supply multiple, use 'default' for the first and 'outline' or 'ghost' to distinguish. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The mobile menu is built into this block — do not strip it or override its behavior; preserve the demo's mobile structure. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "navbar-fullscreen-menu",
@@ -81427,7 +81582,8 @@
         "theatrical",
         "animated"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this navbar when mobile-first navigation is critical and the site has a longer link list — the hamburger opens a fullscreen overlay that can accommodate 8-12 'menuItems' along with social links, making it ideal for creative studios, portfolios, and agencies. The demo uses 11 'menuItems' as flat label/href pairs and 3 'socialLinks' (x, instagram, linkedin); keep 'menuItems' to 6-12 and only include 'socialLinks' with real, verified social profile URLs — do not invent social handles. Only set 'logo.src' if a real brand logo exists in the media library; otherwise omit 'logo.src' and rely on 'logo.title' as plain text. This block does not use an 'actions' or 'authActions' array — call-to-action should be embedded as one of the 'menuItems'. Only use real internal route hrefs and important external URLs — do not invent or guess routes. The fullscreen overlay IS the mobile menu — do not strip it or override its behavior; the entire interaction depends on it. Follow the example props closely for this block — the demo encodes the canonical layout, and deviating from it will produce broken or unusable navigation."
     },
     {
       "id": "logos-inline-tagline",
@@ -94284,7 +94440,8 @@
         "how-it-works",
         "timeline"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 'steps' to match the sticky-steps layout shown in the demo. Each step requires a 'step' label (e.g., '01'), 'title', and 'description'. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "process-scroll-image",
@@ -94554,7 +94711,8 @@
         "storytelling",
         "steps"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 5 'steps' to match the scroll-image layout shown in the demo. Each step requires a 'step' label (e.g., '01'), 'title', 'description', and a real 'image' URL from the media library — DO NOT USE this block if you do not have valid image URLs for every step. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "process-hover-cards",
@@ -94737,7 +94895,8 @@
         "services",
         "steps"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 5 'steps' to match the hover-card layout shown in the demo. Each step requires a 'step' label (e.g., '01'), 'title', 'description', and a real 'image' URL from the media library — DO NOT USE this block if you do not have valid image URLs for every step. Follow the example props closely for this block."
     },
     {
       "id": "process-icon-timeline",
@@ -94942,7 +95101,8 @@
         "methodology",
         "highlights"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 5 'steps' to match the icon timeline layout shown in the demo. Each step requires an 'icon', 'title', 'description', and 2–4 'highlights' tags. Assign a distinct 'badgeColor' class per step (e.g., 'bg-blue-500', 'bg-purple-500') to visually differentiate phases. Follow the example props closely for this block."
     },
     {
       "id": "process-expandable-timeline",
@@ -95130,7 +95290,8 @@
         "detailed",
         "faq-style"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 5 'steps' to match the canonical expandable timeline layout shown in the demo. Each step requires a 'title', 'description' (shown collapsed), and 'expandedContent' (shown on expand) — all three fields should be populated with meaningful, specific content. Do not pad with vague placeholder text. Follow the example props closely for this block."
     },
     {
       "id": "process-roadmap-timeline",
@@ -95336,7 +95497,8 @@
         "planning",
         "phases"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 4–5 'milestones' with realistic future dates or quarters (e.g., 'Q1 2026'). Each milestone requires a 'status' of either 'completed', 'in-progress', or 'upcoming' and a 'features' list of 3–5 deliverables. Only describe features or roadmap items that are real and planned — do not invent product capabilities. Follow the example props closely for this block."
     },
     {
       "id": "process-mission-principles",
@@ -95727,7 +95889,8 @@
         "services",
         "workflow"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 6 'steps' since the steps element is a 3-column grid layout (2 rows of 3). Each step requires an 'icon', 'title', and 'description'. This is a purely descriptive process block — no stat values or image URLs are required. Follow the example props closely for this block."
     },
     {
       "id": "process-numbered-services",
@@ -96007,7 +96170,8 @@
         "cta",
         "checkmarks"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 'services' to match the numbered services layout shown in the demo. Each service requires a 'number' label (e.g., '01'), 'title', 'description', a 'capabilities' list of 4–6 items, and an 'action' CTA using variant 'outline'. Only use real service or capability names — do not fabricate offerings the brand does not provide. Follow the example props closely for this block."
     },
     {
       "id": "project-alternating-motion",
@@ -113606,7 +113770,8 @@
         "product-reviews",
         "social-proof"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Each item in the 'reviews' array requires a real 'rating' (1-5), 'title', 'content', and optionally 'author', 'avatarSrc', 'date', and 'verified'. Only set 'verified: true' if the purchase is genuinely verified in the system; do not fabricate verified status. Do not invent star ratings, reviewer names, or dates. Supply 3-8 reviews; the demo uses 5. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-images-helpful",
@@ -113832,7 +113997,8 @@
         "product-reviews",
         "user-generated-content"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Each item in the 'reviews' array requires a real 'rating' (1-5), 'title', 'content', and optionally 'author', 'date', 'verified', 'helpful' (helpful vote count), and 'images' (array of real review photo URLs). Do not fabricate 'rating', 'helpful' counts, 'verified' status, or review image URLs — only use real values from the system. Only set 'verified: true' if the purchase is genuinely verified in the system. Only populate 'images' with real review photo URLs from the media library. Supply 3-6 reviews. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-bento-grid",
@@ -114070,7 +114236,8 @@
         "asymmetric",
         "cards"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Supply exactly 6 testimonials in the 'testimonials' array to fill the bento grid layout correctly; 6 is the canonical count used in the demo. Mark exactly one item with 'featured: true' — the featured card spans a larger cell and should carry the most compelling, longest quote. All 'quote', 'author', 'role', and 'company' values must come from real customer data; do not invent names or companies. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-twitter-cards",
@@ -114346,7 +114513,8 @@
         "mentions",
         "multi-platform"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real social media posts or testimonials in the system, DO NOT use this block. Each item in the 'testimonials' array is a 'SocialTestimonialItem' with 'content' (post text), 'author', 'handle' (e.g. '@username'), and optionally 'avatarSrc' and 'linkConfig' (a link to the original post). Only use real, verified social media post content and real handles — do not fabricate usernames, post content, or profile pictures. Supply 3-9 items; the demo uses 6. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-carousel-image",
@@ -114615,7 +114783,8 @@
         "navigation",
         "background-image"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Each testimonial item requires a 'backgroundImage' (full-bleed slide background) and optionally a 'logoSrc' (company logo overlay) — DO NOT use this block if you do not have real background image URLs for each slide; fabricating image URLs will break the carousel. Supply 3-6 testimonials; the canonical demo uses 4. Only set 'logoSrc' if a real, verified company logo URL exists in the media library. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-centered-avatars",
@@ -114852,7 +115021,8 @@
         "premium",
         "rotating"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block displays testimonials in a stacked list with centered avatars as navigation tabs; supply 3-6 testimonials in the 'testimonials' array (the demo uses 5). Only set 'avatarSrc' if a real customer avatar URL is available; omit the field rather than guessing. Each 'quote', 'author', 'role', and 'company' must be real, verified customer data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-company-logo",
@@ -115096,7 +115266,8 @@
         "featured",
         "corporate"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block features exactly 1 testimonial ('testimonial' is a single object, not an array) alongside a prominent company logo and a featured image. Only set 'companyLogo' if a real, verified company logo URL exists in the media library — do not fabricate logo URLs. Only set 'imageSrc' if a real image URL is available. The single testimonial's 'quote', 'author', 'role', and 'company' must all be real, verified data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-grid-add-review",
@@ -115433,7 +115604,8 @@
         "user-generated",
         "engagement"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Supply testimonials in the 'reviews' array using multiples of 3 (3, 6, or 9) to keep the 3-column grid balanced; the demo uses 5 with an 'add review' card occupying the sixth slot. Each review requires a 'rating' (real star rating, 1-5), a 'quote', and an 'author' — do not invent ratings or reviewer names. Do not set 'avatarSrc' unless a real avatar URL is available. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-marquee",
@@ -115672,7 +115844,8 @@
         "dynamic",
         "cards"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This is a horizontally scrolling marquee; supply 6-12 testimonials in the 'testimonials' array to ensure smooth, continuous scrolling — too few items will create visible gaps. The demo uses 8. Each item requires a 'quote' and 'author'; 'role', 'company', and 'avatarSrc' are optional but enhance credibility. Do not fabricate any customer data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-simple-grid",
@@ -115997,7 +116170,8 @@
         "configurable",
         "responsive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. The 'columns' prop accepts 2, 3, or 4; ensure the 'testimonials' array length is a multiple of the chosen column count (e.g., multiples of 3 for a 3-column grid). The demo uses 3 columns with 6 testimonials. Each 'quote', 'author', 'role', 'company', and 'avatarSrc' must be real, verified data — only set 'avatarSrc' if a real image URL is available. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-slider-minimal",
@@ -116228,7 +116402,8 @@
         "single",
         "clean"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block is a minimal full-width slider that shows one testimonial at a time; supply 3-6 testimonials in the 'testimonials' array (the demo uses 3). Each 'quote', 'author', 'role', 'company', and 'avatarSrc' must be real, verified customer data — only set 'avatarSrc' if a real image URL is available. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-split-image",
@@ -116468,7 +116643,8 @@
         "hero",
         "impactful"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block features exactly 1 testimonial ('testimonial' is a single object) displayed beside a large featured image. DO NOT use this block if you do not have a real 'imageSrc' URL from the media library — the image is the focal point of the layout and a missing or fabricated URL will break it. The single testimonial's 'quote', 'author', 'role', 'company', and 'avatarSrc' must all be real, verified data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-stats-header",
@@ -116839,7 +117015,8 @@
         "social-proof",
         "credibility"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block combines a stats header with a testimonial grid below it; both arrays must contain real, verified data. For the 'stats' array, supply exactly 3 stat items (the canonical count from the demo) — only use real, verifiable stat values from the system; do not invent metrics, percentages, or growth figures. Each stat requires a real 'value', 'label', and optionally 'prefix', 'suffix', and 'description'. For the 'testimonials' array, supply testimonials in multiples of 3 (3, 6, or 9) to match the 3-column grid below the stats (the demo uses 3). If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-wall-compact",
@@ -117164,7 +117341,8 @@
         "community",
         "badges"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This is a dense wall-of-love layout; supply 9-12 testimonials in the 'testimonials' array (the demo uses 12) to achieve the full wall effect. Each item supports 'handle' (social media handle, e.g. '@username') and 'badge' (a label like 'Featured' or 'Verified') — only include real handles and only mark items as 'Verified' if they are genuinely verified in the system. All 'quote', 'author', and 'avatarSrc' values must be real, verified data. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-mini-dividers",
@@ -117392,7 +117570,8 @@
         "clean",
         "professional"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block lays out compact testimonials separated by dividers in a 3-column grid; supply testimonials in multiples of 3 (6, 9, or 12) for balanced rows — the demo uses 6. Each item supports an optional 'rating' (1-5) — only include real star ratings; do not fabricate ratings. Each 'quote', 'author', and 'role' must be real, verified data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-logo-cards",
@@ -117658,7 +117837,8 @@
         "cards",
         "corporate"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. Each item in the 'testimonials' array accepts a 'companyLogo' (URL) and 'companyLogoAlt' (alt text) — only populate these if a real, verified company logo URL exists in the media library; do not fabricate logo URLs or alt text. The grid renders in columns of 3; supply testimonials in multiples of 3 (3, 6, or 9) for a balanced layout (the demo uses 5 which wraps naturally). All 'quote', 'author', 'role', and 'company' data must be real. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-quote-carousel",
@@ -117891,7 +118071,8 @@
         "browsable",
         "compact"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block renders testimonials in a horizontally scrolling carousel of cards; supply 3-6 testimonials in the 'testimonials' array (the demo uses 4). Each 'quote', 'author', 'role', 'company', and 'avatarSrc' must be real, verified data — do not fabricate avatar URLs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-animated-split",
@@ -118125,7 +118306,8 @@
         "interactive",
         "auto-play"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This is a carousel-style block that animates between testimonials; supply 3-6 testimonials in the 'testimonials' array. Each item requires a 'quote', 'author', and optionally 'role', 'company', 'avatarSrc', and 'image' (a full-bleed background image shown alongside the quote) — only populate 'image' if a real image URL is available in the media library for that customer. Do not fabricate avatar URLs or background images. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-scrolling-columns",
@@ -118376,7 +118558,8 @@
         "gradient",
         "viewport"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block displays testimonials across vertically scrolling columns; supply 6-12 testimonials in the 'testimonials' array (the demo uses 6) to ensure smooth scrolling. Each item supports 'imageSrc' (a card image) and 'logoSrc' (a company logo) — only populate these if real URLs exist in the media library; do not fabricate image or logo URLs. All 'quote', 'author', 'role', and 'company' values must be real, verified customer data. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-minimal-numbered",
@@ -118587,7 +118770,8 @@
         "navigation",
         "distinctive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block auto-plays through numbered testimonials one at a time; supply 3-6 testimonials in the 'testimonials' array (the demo uses 4). Each 'quote', 'author', 'role', and 'company' must be real, verified customer data. Do not fabricate avatar URLs — only set 'avatarSrc' if a real image URL is available in the media library. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-parallax-number",
@@ -118815,7 +118999,8 @@
         "interactive",
         "high-end"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block cycles through testimonials with a large parallax background icon or label; supply 3-6 testimonials in the 'testimonials' array (the demo uses 3). Each item supports 'backgroundIcon' (an icon name string, e.g. 'lucide/rocket') or 'backgroundLabel' (a large decorative text label like '01') — these are decorative only and do not need to come from customer data, but the 'quote', 'author', 'role', and 'company' must all be real, verified values. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-masonry-grid",
@@ -119129,7 +119314,8 @@
         "cards",
         "layout"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block renders testimonials in a masonry layout across 3 columns; supply testimonials in multiples of 3 (6, 9, or 12) for visual balance — the demo uses 9. Each 'quote', 'author', 'role', and 'company' must be real, verified customer data; do not invent names, companies, or reviews. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "testimonials-large-quote",
@@ -119330,7 +119516,8 @@
         "impactful",
         "typography"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This block renders exactly 1 testimonial ('testimonial' is a single object); supply only one 'quote', 'author', 'role', 'company', and optionally 'avatarSrc'. The quote is displayed at large display size — use a strong, concise testimonial of no more than 200 characters for best visual impact. Only set 'avatarSrc' if a real avatar image URL exists in the media library. Follow the example props closely for this block."
     },
     {
       "id": "service-detail-prose-minimal",
@@ -129464,7 +129651,8 @@
         "minimal",
         "kpi"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 'stats' since the stats element is a 4-column grid layout. Only use real, verifiable stat values from the system — do not invent metrics. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "stats-icon-cards",
@@ -129656,7 +129844,8 @@
         "analytics",
         "kpi"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 'stats' since the stats element is a 4-column grid layout. Only use real, verifiable stat values from the system — do not invent metrics. Each stat requires a 'growth' field and an 'isPositive' flag — only supply growth indicators that are backed by real data; do not fabricate percentage changes. Follow the example props closely for this block."
     },
     {
       "id": "stats-timeline-tabs",
@@ -129889,7 +130078,8 @@
         "dashboard",
         "time-series"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this block only when you have real, verifiable performance data across multiple distinct time periods (e.g., weekly, monthly, quarterly, yearly). Supply 2–4 'periods', each containing exactly 4 'stats' to match the 4-column grid layout per tab. All stat 'value', 'change', and 'trend' fields must reflect actual tracked metrics — do not invent figures or percentage changes. Only use real, verifiable stat values from the system. Follow the example props closely for this block."
     },
     {
       "id": "stats-primary-secondary",
@@ -130066,7 +130256,8 @@
         "badge",
         "two-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply exactly 1 prominent 'primaryValue' and 3 'secondaryStats' to match the primary-plus-3-column layout. Only use real, verifiable stat values from the system — do not invent metrics. The 'primaryBadge' field (e.g., '+7% this month') must also reflect a real, documented change figure. Follow the example props closely for this block."
     },
     {
       "id": "stats-growth-timeline",
@@ -130431,7 +130622,8 @@
         "about",
         "achievements"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this block only when you have real company milestone data with verifiable dates, metrics, and descriptions — do not invent funding amounts, team sizes, or growth figures. Supply 4–6 'milestones', each with a real 'year', 'title', 'description', and 'metric' backed by actual data. The 'currentStats' section is a 4-column grid — supply exactly 4 real current stats. If you supply 'actions', use a variant of 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
     },
     {
       "id": "stats-impact-grid",
@@ -130786,7 +130978,8 @@
         "cta",
         "benefits"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the impact stats grid is a 3-item layout. Only use real, verifiable stat values from the system — do not invent metrics. All 'value', 'prefix', and 'suffix' fields must reflect actual, documented performance data. The comparison section ('baselinePercent', 'targetPercent', 'baselineValue', 'targetValue') also requires real before/after figures — do not fabricate percentage improvements. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "stats-circular-progress",
@@ -131016,7 +131209,8 @@
         "dashboard",
         "visualization"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Organize 'categories' into 2–4 named groups, each containing exactly 4 'stats' to fill the circular progress grid per category. Only use real, verifiable stat values (0–100 numeric values representing actual percentages) from the system — do not invent KPI scores or performance percentages. Each stat's 'info' field should reflect a genuine measurement context (e.g., 'Year over year', 'Last 12 months'). Follow the example props closely for this block."
     },
     {
       "id": "stats-card-group",
@@ -131226,7 +131420,8 @@
         "compact",
         "group"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3 'stats' since the stats element is a 3-column card layout. Only use real, verifiable stat values from the system — do not invent metrics. If a stat uses 'showAvatars', supply real avatar image URLs from the media library via the 'avatars' array (5 avatars is the canonical count). DO NOT USE this block if you do not have real stat data to display. Follow the example props closely for this block."
     },
     {
       "id": "stats-animated-counter",
@@ -131410,7 +131605,8 @@
         "impact",
         "achievements"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 'stats' since the stats element is a 4-column animated counter layout. The 'value' field must be a real numeric figure — only use real, verifiable stat values from the system; do not invent metrics. Use 'prefix' and 'suffix' to format the display value (e.g., prefix '$', suffix 'M+'). Follow the example props closely for this block."
     },
     {
       "id": "stats-number-ticker",
@@ -131613,7 +131809,8 @@
         "metrics",
         "landing-page"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 4 'stats' since the stats element is a 4-column ticker layout. The 'value' field must be a real numeric figure — only use real, verifiable stat values from the system; do not invent metrics. Use 'prefix' and 'suffix' to format the display (e.g., suffix '+', suffix '%', suffix 'ms'). Each stat should include a 'description' for supporting context. Follow the example props closely for this block."
     },
     {
       "id": "stats-milestone-sidebar",
@@ -131789,7 +131986,8 @@
         "company",
         "about"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use this block only when you have real, chronological company milestones with verifiable years, titles, and descriptions — do not invent funding rounds, product launches, or growth events. Supply 4–7 'milestones' in ascending year order. Only use real, verifiable data from the system. Follow the example props closely for this block."
     },
     {
       "id": "stats-bar-comparison",
@@ -132014,7 +132212,8 @@
         "competitive",
         "industry"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Supply 3–5 'comparisons' (comparison groups), each containing exactly 2 'bars' (e.g., 'Our Platform' vs. 'Industry Average'). Only use real, verifiable stat values from the system — do not invent revenue figures, retention rates, or benchmark comparisons. Each bar's 'value' (0–100) drives the visual bar width, and 'displayValue' must reflect the actual formatted figure. Use 'bg-primary' for the brand bar and the default color for the competitor/baseline bar. Follow the example props closely for this block."
     },
     {
       "id": "timeline-vertical-icon-dashed",
@@ -139369,7 +139568,8 @@
         "framer-motion",
         "responsive"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to supply 4–8 items in the 'features' array for a well-paced animated carousel. Only use this block if you have valid real images for every item — do not use placeholder/stock images. Follow the example props closely for this block."
     },
     {
       "id": "footer-newsletter-contact",
@@ -139687,7 +139887,8 @@
         "business",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer combines a newsletter form, 2-column navigation, a contact details panel, and social links. Provide exactly 2 'footerLinks' sections, each with 4-6 links. Provide 3-4 'contactDetails' items using real contact data (phone, email, address, hours) — DO NOT invent any contact data; omit fields the brand has not provided. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter uses 'formEngineSetup' — follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). Only set 'logo.light'/'logo.dark' if a real brand logo is in the media library. Follow the example props closely for this block."
     },
     {
       "id": "footer-split-image-accordion",
@@ -140121,7 +140322,8 @@
         "ecommerce",
         "fashion"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer has a split layout with a brand image/logo panel on one side and 3 accordion link sections + social links on the other, plus a newsletter form and payment icons. Provide exactly 3 'footerLinks' accordion sections, each with 4-6 links. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter uses 'formEngineSetup' — follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). Only set 'footerData.logo.src' if a real brand logo is in the media library. DO NOT USE this block if you do not have a real image for 'footerData.image.src'. Only include 'submenuLinks' (privacy, terms, etc.) if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "footer-accordion-social",
@@ -140333,7 +140535,8 @@
         "retail",
         "navigation"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This footer features a newsletter form and collapsible accordion link sections. Provide exactly 3 'footerLinks' sections (the demo canonical count), each with 4-6 links per section. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter form uses 'formEngineSetup' — follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). Only set 'logo.src' if a real brand logo is in the media library; otherwise rely on the brand text/alt. Follow the example props closely for this block."
     },
     {
       "id": "footer-info-cards-accordion",
@@ -140774,7 +140977,8 @@
         "ecommerce",
         "service"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "This is a comprehensive e-commerce footer with info cards (phone, email, address, hours), 3 accordion link sections, social links, a newsletter form, payment platform icons, and a side image + logo panel. Provide exactly 4 'infoItems' (the canonical count matching the 4-card grid). Provide exactly 3 'footerLinks' accordion sections, each with 4-7 links. Only supply real 'infoItems' contact data — DO NOT invent any contact data; omit fields the brand has not provided. Only include 'socialLinks' the brand actually has — do not invent social profiles. The newsletter uses 'emailPlaceholder'/'subscribeText' props (simple inline form, not formEngineSetup). Only set 'footerDetails.logo.light'/'dark' if a real brand logo is in the media library. Only set 'footerDetails.image.src' if a real image is available. Only include 'submenuLinks' and 'termsLinkUrl'/'privacyLinkUrl' if those pages actually exist on the site. Follow the example props closely for this block."
     },
     {
       "id": "faq-split-hero",
@@ -141006,7 +141210,8 @@
         "customizable",
         "two-column"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Use between 4-6 'items' for this split hero accordion layout; the accordion shares the viewport with a media panel so keep the list concise. Each item requires a unique 'id', a 'question', and an 'answer'. Always supply a 'mediaItem' with a real image or video — DO NOT USE this block if you don't have a valid media asset. Follow the example props closely for this block."
     }
   ]
 }
