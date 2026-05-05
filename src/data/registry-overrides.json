@@ -1306,8 +1306,8 @@
       "title": "Hero Multi-Panel Carousel",
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290214/8x3gho0h4e8l8pvbxx5k78nebdlw/cleanshot-2026-02-18-at-01-38-47.png",
-        "mobile": "https://cdn.ing/assets/i/r/290213/uxc354jjk88m2vs54vw2qush58vd/cleanshot-2026-02-18-at-01-38-59.png"
+        "desktop": "",
+        "mobile": ""
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-tech-carousel",

@@ -45,7 +45,11 @@ export default function Demo() {
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
-          backgroundMedia: [{ src: imagePlaceholders[15], alt: "" }],
+          backgroundMedia: [
+            { src: imagePlaceholders[74], alt: "" },
+            { src: imagePlaceholders[52], alt: "" },
+            { src: imagePlaceholders[110], alt: "" },
+          ],
         },
         {
           logo: {
@@ -64,26 +68,10 @@ export default function Demo() {
             },
           ],
           backgroundMedia: [
-            { src: imagePlaceholders[20], alt: "" },
-            { src: imagePlaceholders[25], alt: "" },
+            { src: imagePlaceholders[88], alt: "" },
+            { src: imagePlaceholders[99], alt: "" },
+            { src: imagePlaceholders[130], alt: "" },
           ],
-        },
-        {
-          logo: {
-            src: brandLogoPlaceholders.white[3],
-            alt: "OpenSite",
-          },
-          title: "OpenSite",
-          content: "The platform behind it all — every site, every workflow.",
-          actions: [
-            {
-              label: "Get Started",
-              href: "#",
-              variant: "default",
-              iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
-            },
-          ],
-          backgroundMedia: [{ src: imagePlaceholders[30], alt: "" }],
         },
       ]}
     />
