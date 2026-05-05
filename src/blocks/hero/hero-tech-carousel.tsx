@@ -5,6 +5,7 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroTechCarousel
+      spacing="mt-8 md:mt-0"
       items={[
         {
           logo: {
@@ -19,9 +20,7 @@ export default function Demo() {
               label: "Get Started",
               href: "#",
               variant: "default",
-              iconAfter: (
-                <DynamicIcon name="lucide/arrow-right" size={16} />
-              ),
+              iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
           backgroundMedia: [
@@ -43,9 +42,7 @@ export default function Demo() {
               label: "Get Started",
               href: "#",
               variant: "default",
-              iconAfter: (
-                <DynamicIcon name="lucide/arrow-right" size={16} />
-              ),
+              iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
           backgroundMedia: [{ src: imagePlaceholders[15], alt: "" }],
@@ -63,9 +60,7 @@ export default function Demo() {
               label: "Get Started",
               href: "#",
               variant: "default",
-              iconAfter: (
-                <DynamicIcon name="lucide/arrow-right" size={16} />
-              ),
+              iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
           backgroundMedia: [
@@ -85,9 +80,7 @@ export default function Demo() {
               label: "Get Started",
               href: "#",
               variant: "default",
-              iconAfter: (
-                <DynamicIcon name="lucide/arrow-right" size={16} />
-              ),
+              iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
           backgroundMedia: [{ src: imagePlaceholders[30], alt: "" }],
