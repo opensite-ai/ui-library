@@ -8,9 +8,6 @@ export default function Demo() {
   return (
     <>
       <NavbarEnterpriseMega
-        background="white"
-        spacing="none"
-        layoutVariant="fullScreenContainerizedLinks"
         logo={{
           url: "#",
           src: brandLogoPlaceholders.black[0],
