@@ -4,7 +4,7 @@
     "totalBlocks": 605,
     "version": "3.5.4",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-05T18:19:52.559Z"
+    "syncedAt": "2026-05-05T18:25:33.820Z"
   },
   "blocks": [
     {
@@ -53630,8 +53630,8 @@
       "categorySlug": "hero",
       "description": "A full-bleed hero with up to four side-by-side panels on desktop that stack vertically on mobile. Each panel supports an optional logo, title, content, action buttons, and an optional background image or autoplaying image carousel.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/306986/zo59nnooemltqmy2w5e9ik7urebv/hero-tech-carousel-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306987/vcz6x2ilfnx4y4h5vy734nhgb4z8/hero-tech-carousel-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
       "code": "import { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\nimport { HeroTechCarousel } from \"@opensite/ui/blocks/hero/hero-tech-carousel\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroTechCarousel\n      spacing=\"mt-8 md:mt-0\"\n      items={[\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[0],\n            alt: \"InsuranceSite\",\n          },\n          title: \"InsuranceSite\",\n          content:\n            \"Modern broker tooling that helps independent agents close policies faster.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n            },\n          ],\n          backgroundMedia: [\n            { src: imagePlaceholders[0], alt: \"\" },\n            { src: imagePlaceholders[5], alt: \"\" },\n            { src: imagePlaceholders[10], alt: \"\" },\n          ],\n        },\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[1],\n            alt: \"RealtorSite\",\n          },\n          title: \"RealtorSite\",\n          content:\n            \"Built for high-volume listing agents who want a beautiful site without the busywork.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n            },\n          ],\n          backgroundMedia: [\n            { src: imagePlaceholders[74], alt: \"\" },\n            { src: imagePlaceholders[52], alt: \"\" },\n            { src: imagePlaceholders[110], alt: \"\" },\n          ],\n        },\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[2],\n            alt: \"CastKit\",\n          },\n          title: \"CastKit\",\n          content:\n            \"AI-powered podcast production from raw recording to publish-ready episode.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n            },\n          ],\n          backgroundMedia: [\n            { src: imagePlaceholders[88], alt: \"\" },\n            { src: imagePlaceholders[99], alt: \"\" },\n            { src: imagePlaceholders[130], alt: \"\" },\n          ],\n        },\n      ]}\n    />\n  );\n}\n",
