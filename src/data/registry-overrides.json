@@ -1303,7 +1303,7 @@
       "importantUsageNotes": "Supply exactly 2 images to the 'images' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "hero-tech-carousel": {
-      "title": "Hero Tech Carousel",
+      "title": "Hero Multi-Panel Carousel",
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
       "thumbnail": {
         "desktop": "https://cdn.ing/assets/i/r/290214/8x3gho0h4e8l8pvbxx5k78nebdlw/cleanshot-2026-02-18-at-01-38-47.png",
@@ -1311,7 +1311,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-tech-carousel",
-      "importantUsageNotes": "Only use for tech companies that you know have a collection of tools they use with install commands, this block will not be used often but is a great option for the right use case. Follow the example props closely for this block."
+      "importantUsageNotes": "Full-bleed multi-panel hero. Pass 1-4 'items' (capped at 4); each item supports an optional logo (LogoItem with object-contain default), title, content, and ActionConfig[] actions. Each item can also take an optional 'backgroundMedia' array of ImageSliderImage entries — 0 = no background, 1 = static cover image, 2+ = autoplaying image carousel. On desktop the panels share a 100vw x 100dvh row equally; on mobile they stack vertically with a content-fit height. Best for showcasing a portfolio of products, sub-brands, audiences, or service tiers in a single immersive hero."
     },
     "hero-testimonial-image-grid": {
       "title": "Hero Testimonial Image Grid",
