@@ -307,8 +307,8 @@
       "title": "Contact Map",
       "componentPath": "blocks/contact/contact-map.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293693/ot59bwv6mcbgk0aqfj8pajq5dk21/cleanshot-2026-03-10-at-16-58-03-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/293692/ako7tn3d2ouh3fe99wthfyly87y9/cleanshot-2026-03-10-at-17-00-48-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/306767/j15p7ibisfp2ta6bunl3d1ondmu5/contact-map-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306768/9oobx5aup7bsdks8fn77o1jz3qrt/contact-map-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-map",
@@ -1758,7 +1758,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx",
-      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. Only supply 'actions' if you supply a 'ctaHeading' prop and optionally a 'ctaDescription' prop - if you don't, the actions will be empty in a card and looks like something is wrong with the UI. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     "article-breadcrumb-social": {
       "title": "Article Breadcrumb Social",
@@ -2060,8 +2060,8 @@
       "title": "Carousel Portfolio Hero",
       "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293083/mkxuuxjr5befbvh1f77yopunm2qe/cleanshot-2026-03-03-at-13-14-35.png",
-        "mobile": "https://cdn.ing/assets/i/r/293084/kc7vt08en8cauz937gxihczun58w/cleanshot-2026-03-03-at-13-14-45.png"
+        "desktop": "https://cdn.ing/assets/i/r/306769/54xexo730vigbx6hbxjnab7harqz/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306770/e9qejt3lndse5dwh7gue4mc0ic64/carousel-portfolio-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-portfolio-hero.tsx"
@@ -2288,7 +2288,8 @@
         "mobile": "https://cdn.ing/assets/i/r/291541/mrtxshc4fkmvktct9vbouhk1wncg/cleanshot-2026-02-25-at-23-19-30-2x.png"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/features/feature-accordion-image.tsx"
+      "demoPath": "src/blocks/features/feature-accordion-image.tsx",
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, 9, or 12 `benefits` since the block uses a 3 column layout. Follow the example props closely for this block."
     },
     "feature-icon-tabs-content": {
       "title": "Feature Icon Tabs Content",

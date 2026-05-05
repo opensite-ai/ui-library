@@ -69,6 +69,7 @@ export const componentFilterConfig: {
     "hero-pricing-comparison",
     "contact-multistep",
     "navbar-search-focused",
+    "navbar-feature-grid",
   ],
 
   /**

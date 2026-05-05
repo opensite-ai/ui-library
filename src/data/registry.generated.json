@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-04T14:34:21.172Z",
+    "exportedAt": "2026-05-05T05:01:46.428Z",
     "totalBlocks": 605,
-    "version": "3.4.2",
+    "version": "3.4.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-04T14:38:22.740Z"
+    "syncedAt": "2026-05-05T05:09:16.120Z"
   },
   "blocks": [
     {
@@ -14194,8 +14194,8 @@
       "categorySlug": "contact",
       "description": "Contact form with integrated map display. Shows location information alongside contact form fields.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293693/ot59bwv6mcbgk0aqfj8pajq5dk21/cleanshot-2026-03-10-at-16-58-03-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/293692/ako7tn3d2ouh3fe99wthfyly87y9/cleanshot-2026-03-10-at-17-00-48-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/306767/j15p7ibisfp2ta6bunl3d1ondmu5/contact-map-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306768/9oobx5aup7bsdks8fn77o1jz3qrt/contact-map-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-map.tsx",
       "code": "\"use client\";\n\nimport { ContactMap } from \"@opensite/ui/blocks/contact/contact-map\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { stadiaApiKey } from \"@/lib/tools\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\nimport type { GeoMapMarker, GeoMapProps } from \"@page-speed/maps\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"full_name\",\n    type: \"text\",\n    label: \"Full Name\",\n    placeholder: \"Your name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    type: \"text\",\n    label: \"Subject\",\n    placeholder: \"Brief subject line\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Message\",\n    placeholder: \"Your message...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nconst downtownPhoenixMarker: GeoMapMarker = {\n  id: \"downtown-phx-craft\",\n  latitude: 33.4585232,\n  longitude: -112.0715382,\n  pinColor: \"#f97316\",\n  eyebrow: \"Phoenix Flagship\",\n  title: \"Downtown PHX Craft\",\n  summary:\n    \"A central downtown gathering space with elevated craft cocktails, chef-driven small plates, and late-night service.\",\n  locationLine: \"128 E Roosevelt St, Phoenix, AZ 85004\",\n  locationUrl: \"https://maps.app.goo.gl/D8XXe5tt7av4GFEh8\",\n  hoursLine: \"Mon-Sun: 11:00 AM - 12:00 AM\",\n  mediaItems: [\n    {\n      id: \"downtown-media-1\",\n      src: imagePlaceholders[113],\n      alt: \"Downtown PHX Craft signature espresso martini\",\n    },\n  ],\n  markerContentComponent: (\n    <div className=\"mt-2 space-y-1.5 text-xs text-muted-foreground\">\n      <p className=\"font-medium text-foreground\">Highlights</p>\n      <ul className=\"list-disc space-y-1 pl-4\">\n        <li>Happy hour daily from 4 PM - 6 PM</li>\n        <li>Private event lounge available</li>\n        <li>Chef tasting menu on Fridays and Saturdays</li>\n      </ul>\n    </div>\n  ),\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/D8XXe5tt7av4GFEh8\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      variant: \"default\",\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst northScottsdaleMarker: GeoMapMarker = {\n  id: \"north-scottsdale\",\n  latitude: 33.6510546,\n  longitude: -111.924473,\n  pinColor: \"#0ea5e9\",\n  eyebrow: \"Scottsdale Location\",\n  title: \"North Scottsdale\",\n  summary:\n    \"A modern North Scottsdale location designed for group dining, premium cocktails, and weekend experiences.\",\n  locationLine: \"17797 N Scottsdale Rd, Scottsdale, AZ 85255\",\n  hoursLine: \"Mon-Sun: 10:00 AM - 11:00 PM\",\n  mediaItems: [\n    {\n      id: \"scottsdale-media-1\",\n      src: imagePlaceholders[112],\n      alt: \"North Scottsdale venue interior\",\n    },\n    {\n      id: \"scottsdale-media-2\",\n      src: imagePlaceholders[119],\n      alt: \"Fine dining and cocktails at North Scottsdale\",\n    },\n    {\n      id: \"scottsdale-media-3\",\n      src: imagePlaceholders[123],\n      alt: \"Guests dining at North Scottsdale\",\n    },\n  ],\n  actions: [\n    {\n      label: \"Directions\",\n      href: \"https://maps.app.goo.gl/d1h87KXhi9gBPAJj9\",\n      icon: <DynamicIcon name=\"lucide/navigation\" size={14} />,\n      className: \"shrink-0 flex-1 rounded-md\",\n      size: \"md\",\n    },\n    {\n      href: \"#\",\n      iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={14} />,\n      variant: \"outline\",\n      size: \"icon\",\n      className: \"rounded-md\",\n    },\n  ],\n};\n\nconst mapProps: GeoMapProps = {\n  stadiaApiKey,\n  panelPosition: \"bottom-left\",\n  mapWrapperClassName: \"rounded-lg border border-border\",\n  showNavigationControl: true,\n  showGeolocateControl: true,\n  mapSize: {\n    desktop: 700,\n    mobile: 600,\n  },\n  markers: [downtownPhoenixMarker, northScottsdaleMarker],\n  // clusters: [\n  //   {\n  //     id: \"north-east-valley-cluster\",\n  //     label: \"Clustered Region Example\",\n  //     title: \"North Scottsdale Region\",\n  //     summary:\n  //       \"This demonstrates the optional clustered format used when multiple locations should be grouped under a region.\",\n  //     pinColor: \"#0284c7\",\n  //     markers: [northScottsdaleMarker],\n  //   },\n  // ],\n};\n\nexport default function Demo() {\n  return (\n    <ContactMap\n      heading=\"Contact Us\"\n      description=\"We're here to help! Send us a message and we'll respond within 24 hours.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for contacting us! We'll get back to you within 24 hours.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Send Message\",\n          },\n        },\n      }}\n      background=\"gray\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.9}\n      mapProps={mapProps}\n    />\n  );\n}\n",
@@ -19149,8 +19149,8 @@
       "categorySlug": "carousel",
       "description": "A fullscreen portfolio hero section with auto-advancing image slider, gradient overlay, category tags, and navigation controls. Features smooth opacity transitions between slides with slide counter display.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293083/mkxuuxjr5befbvh1f77yopunm2qe/cleanshot-2026-03-03-at-13-14-35.png",
-        "mobile": "https://cdn.ing/assets/i/r/293084/kc7vt08en8cauz937gxihczun58w/cleanshot-2026-03-03-at-13-14-45.png"
+        "desktop": "https://cdn.ing/assets/i/r/306769/54xexo730vigbx6hbxjnab7harqz/carousel-portfolio-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/306770/e9qejt3lndse5dwh7gue4mc0ic64/carousel-portfolio-hero-mobile.jpg"
       },
       "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
       "code": "import { CarouselPortfolioHero } from \"@opensite/ui/blocks/carousel/carousel-portfolio-hero\";\nimport { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui\";\n\nexport default function Demo() {\n  return (\n    <CarouselPortfolioHero\n      slides={[\n        {\n          id: 1,\n          image: imagePlaceholders[19],\n          title: \"Brand Identity Redesign\",\n          description:\n            \"Complete visual transformation for a global tech startup\",\n          tag: \"Branding\",\n        },\n        {\n          id: 2,\n          image: imagePlaceholders[37],\n          title: \"E-Commerce Platform\",\n          description:\n            \"Award-winning shopping experience with AI-powered recommendations\",\n          tag: \"Web Design\",\n        },\n        {\n          id: 3,\n          image: imagePlaceholders[53],\n          title: \"Mobile Banking App\",\n          description: \"Intuitive financial management for the modern consumer\",\n          tag: \"Mobile Design\",\n        },\n        {\n          id: 4,\n          image: imagePlaceholders[72],\n          title: \"Sustainability Campaign\",\n          description:\n            \"Multi-channel marketing initiative driving environmental change\",\n          tag: \"Marketing\",\n        },\n        {\n          id: 5,\n          image: imagePlaceholders[91],\n          title: \"SaaS Dashboard\",\n          description:\n            \"Enterprise analytics platform serving Fortune 500 clients\",\n          tag: \"Product Design\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"View All Projects\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          asButton: true,\n        },\n      ]}\n      autoPlayInterval={6000}\n    />\n  );\n}\n",
@@ -21170,6 +21170,17 @@
         "checklistItems": {
           "type": "array",
           "description": "Array of checklist items (can be strings or FeatureChecklistItem objects)",
+          "items": {
+            "type": "object",
+            "description": "",
+            "typeLabel": "string | FeatureChecklistItem"
+          },
+          "typeLabel": "string | FeatureChecklistItem[]",
+          "required": false
+        },
+        "benefits": {
+          "type": "array",
+          "description": "Alias for checklistItems used by registry examples and builder payloads",
           "items": {
             "type": "object",
             "description": "",
@@ -26260,7 +26271,8 @@
         "two-column",
         "faq"
       ],
-      "performance": {}
+      "performance": {},
+      "importantUsageNotes": "Ensure to generate exactly 3, 6, 9, or 12 `benefits` since the block uses a 3 column layout. Follow the example props closely for this block."
     },
     {
       "id": "team-media-showcase",
@@ -77866,7 +77878,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290161/fxvu2jhqp97z6zwxdbaxdqto5eav/navbar-floating-pill-mobile.png"
       },
       "componentPath": "blocks/navbars/navbar-floating-pill.tsx",
-      "code": "import { NavbarFloatingPill } from \"@opensite/ui/blocks/navbars/navbar-floating-pill\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport CarouselAnimatedSections from \"@/blocks/carousel/carousel-animated-sections\";\nimport FeatureShowcase from \"@/blocks/features/feature-showcase\";\nimport FaqSplitHelp from \"@/blocks/faq/faq-split-help\";\n\nexport default function Demo() {\n  return (\n    <>\n      <NavbarFloatingPill\n      logo={{\n        url: \"/\",\n        src: brandLogoPlaceholders.black[0],\n        alt: \"Brand Logo\",\n      }}\n      items={[\n        { label: \"Home\", href: \"#\" },\n        { label: \"Features\", href: \"#\" },\n        { label: \"Pricing\", href: \"#\" },\n        { label: \"About\", href: \"#\" },\n        { label: \"Contact\", href: \"#\" },\n      ]}\n      authActions={[\n        {\n          label: \"Sign In\",\n          variant: \"ghost\",\n          href: \"#\",\n        },\n        {\n          label: \"Get Started\",\n          variant: \"default\",\n          href: \"#\",\n        },\n      ]}\n      />\n\n      <CarouselAnimatedSections />\n      <FeatureShowcase />\n      <FaqSplitHelp />\n    </>\n  );\n}\n",
+      "code": "import { NavbarFloatingPill } from \"@opensite/ui/blocks/navbars/navbar-floating-pill\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport CarouselAnimatedSections from \"@/blocks/carousel/carousel-animated-sections\";\nimport FeatureShowcase from \"@/blocks/features/feature-showcase\";\nimport FaqSplitHelp from \"@/blocks/faq/faq-split-help\";\n\nexport default function Demo() {\n  return (\n    <>\n      <NavbarFloatingPill\n        logo={{\n          url: \"/\",\n          src: brandLogoPlaceholders.black[0],\n          alt: \"Brand Logo\",\n        }}\n        items={[\n          { label: \"Home\", href: \"#\" },\n          { label: \"Features\", href: \"#\" },\n          { label: \"Pricing\", href: \"#\" },\n          { label: \"About\", href: \"#\" },\n          { label: \"Contact\", href: \"#\" },\n        ]}\n        authActions={[\n          {\n            label: \"Get Started\",\n            variant: \"default\",\n            href: \"#\",\n          },\n        ]}\n      />\n\n      <CarouselAnimatedSections />\n      <FeatureShowcase />\n      <FaqSplitHelp />\n    </>\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -141284,7 +141296,7 @@
         "responsibility"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "importantUsageNotes": "Only use if you generate 3-5 `categories` since any more/fewer will distort the layout. Only supply 'actions' if you supply a 'ctaHeading' prop and optionally a 'ctaDescription' prop - if you don't, the actions will be empty in a card and looks like something is wrong with the UI. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
     },
     {
       "id": "about-culture-tabs",
