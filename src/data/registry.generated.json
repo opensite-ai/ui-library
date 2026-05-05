@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-05T17:07:12.726Z",
+    "exportedAt": "2026-05-05T18:01:11.015Z",
     "totalBlocks": 605,
-    "version": "3.5.1",
+    "version": "3.5.3",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-05T17:09:37.120Z"
+    "syncedAt": "2026-05-05T18:03:34.981Z"
   },
   "blocks": [
     {
@@ -53625,7 +53625,7 @@
     {
       "id": "hero-tech-carousel",
       "name": "Multi-Panel Hero",
-      "title": "Hero Tech Carousel",
+      "title": "Hero Multi-Panel Carousel",
       "category": "Hero",
       "categorySlug": "hero",
       "description": "A full-bleed hero with up to four side-by-side panels on desktop that stack vertically on mobile. Each panel supports an optional logo, title, content, action buttons, and an optional background image or autoplaying image carousel.",
@@ -53634,7 +53634,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290213/uxc354jjk88m2vs54vw2qush58vd/cleanshot-2026-02-18-at-01-38-59.png"
       },
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
-      "code": "import { HeroTechCarousel } from \"@opensite/ui/blocks/hero/hero-tech-carousel\";\n\nexport default function Demo() {\n  return (\n    <HeroTechCarousel\n      heading=\"Built with cutting-edge technology\"\n      description=\"Explore the powerful technologies and frameworks that make our platform fast, reliable, and scalable.\"\n      technologies={[\n        { name: \"React\", command: \"npm install react\" },\n        { name: \"TypeScript\", command: \"npm install typescript\" },\n        { name: \"Next.js\", command: \"npx create-next-app\" },\n        { name: \"Tailwind CSS\", command: \"npm install tailwindcss\" },\n        { name: \"Node.js\", command: \"nvm install node\" },\n        { name: \"React\", command: \"npm install react\" },\n        { name: \"TypeScript\", command: \"npm install typescript\" },\n        { name: \"Next.js\", command: \"npx create-next-app\" },\n        { name: \"Tailwind CSS\", command: \"npm install tailwindcss\" },\n        { name: \"Node.js\", command: \"nvm install node\" },\n      ]}\n      background=\"gray\"\n      pattern=\"gridFadeBottom\"\n    />\n  );\n}\n",
+      "code": "import { brandLogoPlaceholders, imagePlaceholders } from \"@/lib/media\";\nimport { HeroTechCarousel } from \"@opensite/ui/blocks/hero/hero-tech-carousel\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroTechCarousel\n      items={[\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[0],\n            alt: \"InsuranceSite\",\n          },\n          title: \"InsuranceSite\",\n          content:\n            \"Modern broker tooling that helps independent agents close policies faster.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: (\n                <DynamicIcon name=\"lucide/arrow-right\" size={16} />\n              ),\n            },\n          ],\n          backgroundMedia: [\n            { src: imagePlaceholders[0], alt: \"\" },\n            { src: imagePlaceholders[5], alt: \"\" },\n            { src: imagePlaceholders[10], alt: \"\" },\n          ],\n        },\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[1],\n            alt: \"RealtorSite\",\n          },\n          title: \"RealtorSite\",\n          content:\n            \"Built for high-volume listing agents who want a beautiful site without the busywork.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: (\n                <DynamicIcon name=\"lucide/arrow-right\" size={16} />\n              ),\n            },\n          ],\n          backgroundMedia: [{ src: imagePlaceholders[15], alt: \"\" }],\n        },\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[2],\n            alt: \"CastKit\",\n          },\n          title: \"CastKit\",\n          content:\n            \"AI-powered podcast production from raw recording to publish-ready episode.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: (\n                <DynamicIcon name=\"lucide/arrow-right\" size={16} />\n              ),\n            },\n          ],\n          backgroundMedia: [\n            { src: imagePlaceholders[20], alt: \"\" },\n            { src: imagePlaceholders[25], alt: \"\" },\n          ],\n        },\n        {\n          logo: {\n            src: brandLogoPlaceholders.white[3],\n            alt: \"OpenSite\",\n          },\n          title: \"OpenSite\",\n          content: \"The platform behind it all — every site, every workflow.\",\n          actions: [\n            {\n              label: \"Get Started\",\n              href: \"#\",\n              variant: \"default\",\n              iconAfter: (\n                <DynamicIcon name=\"lucide/arrow-right\" size={16} />\n              ),\n            },\n          ],\n          backgroundMedia: [{ src: imagePlaceholders[30], alt: \"\" }],\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "items": {
           "type": "array",
@@ -53976,7 +53976,7 @@
         "cta"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use for tech companies that you know have a collection of tools they use with install commands, this block will not be used often but is a great option for the right use case. Follow the example props closely for this block."
+      "importantUsageNotes": "Full-bleed multi-panel hero. Pass 1-4 'items' (capped at 4); each item supports an optional logo (LogoItem with object-contain default), title, content, and ActionConfig[] actions. Each item can also take an optional 'backgroundMedia' array of ImageSliderImage entries — 0 = no background, 1 = static cover image, 2+ = autoplaying image carousel. On desktop the panels share a 100vw x 100dvh row equally; on mobile they stack vertically with a content-fit height. Best for showcasing a portfolio of products, sub-brands, audiences, or service tiers in a single immersive hero."
     },
     {
       "id": "hero-simple-centered-image",
