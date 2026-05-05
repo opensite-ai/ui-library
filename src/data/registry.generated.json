@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-05T05:01:46.428Z",
+    "exportedAt": "2026-05-05T08:26:36.413Z",
     "totalBlocks": 605,
-    "version": "3.4.6",
+    "version": "3.4.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-05T05:09:16.120Z"
+    "syncedAt": "2026-05-05T08:30:17.619Z"
   },
   "blocks": [
     {
@@ -3485,8 +3485,10 @@
                 "required": true
               },
               "icon": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "links": {
@@ -3512,14 +3514,16 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     }
                   },
-                  "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                  "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                 },
-                "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                 "required": true
               },
               "featured": {
@@ -76051,8 +76055,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -76078,14 +76084,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -76412,8 +76420,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -76439,14 +76449,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -76792,13 +76804,16 @@
                     },
                     "icon": {
                       "type": "object",
-                      "description": "Icon element to display",
-                      "typeLabel": "React.ReactNode",
+                      "description": "Icon name or element to display",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "iconName": {
-                      "type": "string",
-                      "description": "Icon name for DynamicIcon component",
+                      "type": "object",
+                      "description": "Alternate icon name or element for DynamicIcon component",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "image": {
@@ -76871,13 +76886,16 @@
                           },
                           "icon": {
                             "type": "object",
-                            "description": "Icon element to display",
-                            "typeLabel": "React.ReactNode",
+                            "description": "Icon name or element to display",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "iconName": {
-                            "type": "string",
-                            "description": "Icon name for DynamicIcon component",
+                            "type": "object",
+                            "description": "Alternate icon name or element for DynamicIcon component",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "image": {
@@ -77195,13 +77213,16 @@
                     },
                     "icon": {
                       "type": "object",
-                      "description": "Icon element to display",
-                      "typeLabel": "React.ReactNode",
+                      "description": "Icon name or element to display",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "iconName": {
-                      "type": "string",
-                      "description": "Icon name for DynamicIcon component",
+                      "type": "object",
+                      "description": "Alternate icon name or element for DynamicIcon component",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "image": {
@@ -77274,13 +77295,16 @@
                           },
                           "icon": {
                             "type": "object",
-                            "description": "Icon element to display",
-                            "typeLabel": "React.ReactNode",
+                            "description": "Icon name or element to display",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "iconName": {
-                            "type": "string",
-                            "description": "Icon name for DynamicIcon component",
+                            "type": "object",
+                            "description": "Alternate icon name or element for DynamicIcon component",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "image": {
@@ -77636,8 +77660,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -77663,14 +77689,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -77971,12 +77999,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -78157,7 +78188,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290163/a1vpyknff92o16dgqr2mf014ngmk/navbar-platform-resources-mobile.png"
       },
       "componentPath": "blocks/navbars/navbar-platform-resources.tsx",
-      "code": "import { NavbarPlatformResources } from \"@opensite/ui/blocks/navbars/navbar-platform-resources\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport CarouselAnimatedSections from \"@/blocks/carousel/carousel-animated-sections\";\nimport FeatureShowcase from \"@/blocks/features/feature-showcase\";\nimport FaqSplitHelp from \"@/blocks/faq/faq-split-help\";\n\nexport default function Demo() {\n  return (\n    <>\n      <NavbarPlatformResources\n      logo={{\n        url: \"/\",\n        src: brandLogoPlaceholders.black[0],\n        title: \"DevPlatform\",\n        alt: \"DevPlatform Logo\",\n      }}\n      menuLinks={[\n        {\n          label: \"Platform\",\n          layout: \"simple-list\",\n          links: [\n            {\n              label: \"Infrastructure\",\n              description: \"Cloud infrastructure services\",\n              url: \"#\",\n              iconName: \"lucide/server\",\n            },\n            {\n              label: \"Databases\",\n              description: \"Managed database solutions\",\n              url: \"#\",\n              iconName: \"lucide/database\",\n            },\n            {\n              label: \"APIs\",\n              description: \"RESTful and GraphQL APIs\",\n              url: \"#\",\n              iconName: \"lucide/code\",\n            },\n            {\n              label: \"Hosting\",\n              description: \"Global edge network\",\n              url: \"#\",\n              iconName: \"lucide/globe\",\n            },\n          ],\n        },\n        {\n          label: \"Resources\",\n          layout: \"simple-list\",\n          links: [\n            {\n              label: \"Getting Started\",\n              description: \"Learn the basics\",\n              url: \"#\",\n              iconName: \"lucide/book-open\",\n            },\n            {\n              label: \"API Reference\",\n              description: \"Complete API documentation\",\n              url: \"#\",\n              iconName: \"lucide/file-code\",\n            },\n            {\n              label: \"Tutorials\",\n              description: \"Step-by-step guides\",\n              url: \"#\",\n              iconName: \"lucide/graduation-cap\",\n            },\n            {\n              label: \"Help Center\",\n              description: \"Get support\",\n              url: \"#\",\n              iconName: \"lucide/life-buoy\",\n            },\n          ],\n        },\n        {\n          label: \"Pricing\",\n          href: \"#pricing\",\n        },\n        {\n          label: \"Company\",\n          href: \"#company\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Get Started\",\n          variant: \"default\",\n          href: \"#\",\n          asButton: true,\n        },\n      ]}\n      />\n\n      <CarouselAnimatedSections />\n      <FeatureShowcase />\n      <FaqSplitHelp />\n    </>\n  );\n}\n",
+      "code": "import { NavbarPlatformResources } from \"@opensite/ui/blocks/navbars/navbar-platform-resources\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport CarouselAnimatedSections from \"@/blocks/carousel/carousel-animated-sections\";\nimport FeatureShowcase from \"@/blocks/features/feature-showcase\";\nimport FaqSplitHelp from \"@/blocks/faq/faq-split-help\";\n\nexport default function Demo() {\n  return (\n    <>\n      <NavbarPlatformResources\n        logo={{\n          url: \"/\",\n          src: brandLogoPlaceholders.black[0],\n          title: \"DevPlatform\",\n          alt: \"DevPlatform Logo\",\n        }}\n        menuLinks={[\n          {\n            label: \"Platform\",\n            layout: \"simple-list\",\n            links: [\n              {\n                label: \"Infrastructure\",\n                description:\n                  \"Cloud infrastructure services with a much longer description.\",\n                url: \"#\",\n                iconName: \"lucide/server\",\n              },\n              {\n                label: \"Databases\",\n                description: \"Managed database solutions\",\n                url: \"#\",\n                iconName: \"lucide/database\",\n              },\n              {\n                label: \"APIs\",\n                description: \"RESTful and GraphQL APIs\",\n                url: \"#\",\n                iconName: \"lucide/code\",\n              },\n              {\n                label: \"Hosting\",\n                description: \"Global edge network\",\n                url: \"#\",\n                iconName: \"lucide/globe\",\n              },\n            ],\n          },\n          {\n            label: \"Resources\",\n            layout: \"simple-list\",\n            links: [\n              {\n                label: \"Getting Started\",\n                description: \"Learn the basics\",\n                url: \"#\",\n                iconName: \"lucide/book-open\",\n              },\n              {\n                label: \"API Reference\",\n                description: \"Complete API documentation\",\n                url: \"#\",\n                iconName: \"lucide/file-code\",\n              },\n              {\n                label: \"Tutorials\",\n                description: \"Step-by-step guides\",\n                url: \"#\",\n                iconName: \"lucide/graduation-cap\",\n              },\n              {\n                label: \"Help Center\",\n                description: \"Get support\",\n                url: \"#\",\n                iconName: \"lucide/life-buoy\",\n              },\n            ],\n          },\n          {\n            label: \"Pricing\",\n            href: \"#pricing\",\n          },\n          {\n            label: \"Company\",\n            href: \"#company\",\n          },\n        ]}\n        actions={[\n          {\n            label: \"Get Started\",\n            variant: \"default\",\n            href: \"#\",\n            asButton: true,\n          },\n        ]}\n      />\n\n      <CarouselAnimatedSections />\n      <FeatureShowcase />\n      <FaqSplitHelp />\n    </>\n  );\n}\n",
       "propsSchema": {
         "className": {
           "type": "string",
@@ -78289,13 +78320,16 @@
                     },
                     "icon": {
                       "type": "object",
-                      "description": "Icon element to display",
-                      "typeLabel": "React.ReactNode",
+                      "description": "Icon name or element to display",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "iconName": {
-                      "type": "string",
-                      "description": "Icon name for DynamicIcon component",
+                      "type": "object",
+                      "description": "Alternate icon name or element for DynamicIcon component",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "image": {
@@ -78368,13 +78402,16 @@
                           },
                           "icon": {
                             "type": "object",
-                            "description": "Icon element to display",
-                            "typeLabel": "React.ReactNode",
+                            "description": "Icon name or element to display",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "iconName": {
-                            "type": "string",
-                            "description": "Icon name for DynamicIcon component",
+                            "type": "object",
+                            "description": "Alternate icon name or element for DynamicIcon component",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "image": {
@@ -78672,8 +78709,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -78699,14 +78738,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -78790,8 +78831,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -78817,14 +78860,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -78975,12 +79020,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -79187,8 +79235,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -79214,14 +79264,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -79574,13 +79626,16 @@
                     },
                     "icon": {
                       "type": "object",
-                      "description": "Icon element to display",
-                      "typeLabel": "React.ReactNode",
+                      "description": "Icon name or element to display",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "iconName": {
-                      "type": "string",
-                      "description": "Icon name for DynamicIcon component",
+                      "type": "object",
+                      "description": "Alternate icon name or element for DynamicIcon component",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "image": {
@@ -79653,13 +79708,16 @@
                           },
                           "icon": {
                             "type": "object",
-                            "description": "Icon element to display",
-                            "typeLabel": "React.ReactNode",
+                            "description": "Icon name or element to display",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "iconName": {
-                            "type": "string",
-                            "description": "Icon name for DynamicIcon component",
+                            "type": "object",
+                            "description": "Alternate icon name or element for DynamicIcon component",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           },
                           "image": {
@@ -79964,8 +80022,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -79991,14 +80051,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -80396,8 +80458,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -80423,14 +80487,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -80772,12 +80838,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -81181,8 +81250,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -81208,14 +81279,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -81608,8 +81681,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -81635,14 +81710,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -81945,12 +82022,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -82328,12 +82408,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -82702,8 +82785,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -82729,14 +82814,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -83044,12 +83131,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
@@ -83332,8 +83422,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -83359,14 +83451,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -83693,8 +83787,10 @@
                       "required": true
                     },
                     "icon": {
-                      "type": "string",
+                      "type": "object",
                       "description": "",
+                      "fields": {},
+                      "typeLabel": "DynamicIconName",
                       "required": false
                     },
                     "links": {
@@ -83720,14 +83816,16 @@
                             "required": true
                           },
                           "icon": {
-                            "type": "string",
+                            "type": "object",
                             "description": "",
+                            "fields": {},
+                            "typeLabel": "DynamicIconName",
                             "required": false
                           }
                         },
-                        "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }"
+                        "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }"
                       },
-                      "typeLabel": "{ title: string; description?: string; url: string; icon?: string; }[]",
+                      "typeLabel": "{ title: string; description?: string; url: string; icon?: DynamicIconName; }[]",
                       "required": true
                     },
                     "featured": {
@@ -137594,12 +137692,15 @@
               "icon": {
                 "type": "object",
                 "description": "",
-                "typeLabel": "React.ReactNode",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "iconName": {
-                "type": "string",
+                "type": "object",
                 "description": "",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               }
             },
