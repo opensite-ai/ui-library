@@ -1,6 +1,5 @@
 import { CarouselPortfolioHero } from "@opensite/ui/blocks/carousel/carousel-portfolio-hero";
 import { imagePlaceholders } from "@/lib/media";
-import { DynamicIcon } from "@opensite/ui";
 
 export default function Demo() {
   return (

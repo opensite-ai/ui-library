@@ -159,8 +159,8 @@
       "title": "Contact Card Form",
       "componentPath": "blocks/contact/contact-card.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290620/vn3rjfng8wj0ww1hnx452ql9m13q/cleanshot-2026-02-21-at-15-33-47.png",
-        "mobile": "https://cdn.ing/assets/i/r/290619/zhv93wdajasesuhmsvieqziesyo7/cleanshot-2026-02-21-at-15-34-02.png"
+        "desktop": "https://cdn.ing/assets/i/r/308405/3g5jexdtgto0g0n8wfd543e046w3/contact-card-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308408/nn2ri5kcy78pb8kz99ayxioa8gv8/contact-card-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-card",
@@ -170,8 +170,8 @@
       "title": "Contact Careers Application",
       "componentPath": "blocks/contact/contact-careers.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png",
-        "mobile": "https://cdn.ing/assets/i/r/292525/366yn7bn0o0wiqlzdlhiqiaekuv1/cleanshot-2026-02-27-at-21-12-43.png"
+        "desktop": "https://cdn.ing/assets/i/r/308406/dzcuvoorzjdw3n5l1lpcpsjfkda8/contact-careers-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308407/3x46cnw07xclu0fwqgoq8sqs3lp9/contact-careers-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-careers",
@@ -1826,8 +1826,8 @@
       "title": "Article Chapters Author",
       "componentPath": "blocks/article/article-chapters-author.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293088/ffidy6dd0oux8j9j98bnnkvdusb2/cleanshot-2026-03-03-at-13-22-35.png",
-        "mobile": "https://cdn.ing/assets/i/r/293087/fza7b6gqmv42zwt7exjdv4ddn42c/cleanshot-2026-03-03-at-13-22-54.png"
+        "desktop": "https://cdn.ing/assets/i/r/308410/iacfzeqo53pt6fshnehvci94rrst/article-chapters-author-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308409/yw7b8x4sk3uyhv741q60ou5ezyg4/article-chapters-author-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-chapters-author.tsx",
@@ -1837,8 +1837,8 @@
       "title": "Article Compact TOC",
       "componentPath": "blocks/article/article-compact-toc.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293092/4v2rlq4p4za5hnsby385in3o2u8w/cleanshot-2026-03-03-at-13-40-01.png",
-        "mobile": "https://cdn.ing/assets/i/r/293091/hv0py46jnstvdhy1i1vbk17kywhv/cleanshot-2026-03-03-at-13-40-18.png"
+        "desktop": "https://cdn.ing/assets/i/r/308412/m7ncpevmwg1c2w3ndzkpguyqtt4l/article-compact-toc-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308411/s58nqd7oaffxadmjfbyhwy7u92fv/article-compact-toc-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-compact-toc.tsx",
@@ -1848,8 +1848,8 @@
       "title": "Article Hero Prose",
       "componentPath": "blocks/article/article-hero-prose.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293094/4ksu0y47tgsk03h18uq3dknyy3e3/cleanshot-2026-03-03-at-13-41-31.png",
-        "mobile": "https://cdn.ing/assets/i/r/293093/t099stgoambmukt6v1wq0xxvwjwj/cleanshot-2026-03-03-at-13-41-52.png"
+        "desktop": "https://cdn.ing/assets/i/r/308414/9jhhnu0e4cpp3lyoh1rb5fwe0nm6/article-hero-prose-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308413/5rukvx6zsxmag8s61eshd8bzgmht/article-hero-prose-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-hero-prose.tsx",
@@ -1859,8 +1859,8 @@
       "title": "Article Sidebar Sticky",
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293082/8ieqwud2y2uz91buoxj3uzb45enf/cleanshot-2026-03-03-at-13-05-35.png",
-        "mobile": "https://cdn.ing/assets/i/r/293081/491xz1v2xe8p4ty1wnj7o0ijwp40/cleanshot-2026-03-03-at-13-05-53.png"
+        "desktop": "https://cdn.ing/assets/i/r/308416/fv1f2p5pc2a2hknexrljmw8o3zhc/article-sidebar-sticky-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308415/lb9wvq1zvqmugjkmfv69a4l4uljh/article-sidebar-sticky-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-sidebar-sticky.tsx",
@@ -1870,8 +1870,8 @@
       "title": "Article Split Animated",
       "componentPath": "blocks/article/article-split-animated.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293086/wxm4qvz857xl5ykeldtdvkr0j84i/cleanshot-2026-03-03-at-13-16-14.png",
-        "mobile": "https://cdn.ing/assets/i/r/293085/el52rouxd7894hfqv1czgnpv6k0s/cleanshot-2026-03-03-at-13-16-25.png"
+        "desktop": "https://cdn.ing/assets/i/r/308418/gsryhfv3acwx0q9swvs9xtqp812w/article-split-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308417/i82pr6xk8ifd56ju1bv8lurohrq0/article-split-animated-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-split-animated.tsx",
@@ -1881,8 +1881,8 @@
       "title": "Article TOC Sidebar",
       "componentPath": "blocks/article/article-toc-sidebar.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293075/6sklzdhioqhnbjryewz6wue05qx4/cleanshot-2026-03-03-at-12-00-32.png",
-        "mobile": "https://cdn.ing/assets/i/r/293074/m3131lck7hsql683f9l84ua6wy6d/cleanshot-2026-03-03-at-12-00-44.png"
+        "desktop": "https://cdn.ing/assets/i/r/308420/9xlgnxxtpxnmyyfanvn4wwq4u1pc/article-toc-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308419/anzis15zt533vqsfgfjpehjawg0v/article-toc-sidebar-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-toc-sidebar.tsx",
@@ -1958,8 +1958,8 @@
       "title": "Blog Grid Author Cards",
       "componentPath": "blocks/blog/blog-grid-author-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293166/xmo0ptefru2aed49rjxq0rpy9wd9/cleanshot-2026-03-04-at-13-28-50.png",
-        "mobile": "https://cdn.ing/assets/i/r/293165/g1fwojesz1y46m9uqsvb1z7flm6g/cleanshot-2026-03-04-at-13-29-22.png"
+        "desktop": "https://cdn.ing/assets/i/r/308422/0ev4z1pdndf6xxipmg778jdhog9n/blog-grid-author-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308421/qffozxyvkg6yvawumu8b686hv9mm/blog-grid-author-cards-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-grid-author-cards.tsx",
@@ -2002,8 +2002,8 @@
       "title": "Blog Masonry Featured",
       "componentPath": "blocks/blog/blog-masonry-featured.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293073/wbghpzq115at5dmxt5xu5lcy0b4s/cleanshot-2026-03-03-at-11-09-26.png",
-        "mobile": "https://cdn.ing/assets/i/r/293072/x0gex0m50ezt2iup87wch0vg6viu/cleanshot-2026-03-03-at-11-09-46.png"
+        "desktop": "https://cdn.ing/assets/i/r/308423/vzh3at0th7r3fjb34w3meh7m2hus/blog-masonry-featured-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308424/opdat9o8wvh2kxsbrpxlhufy2jai/blog-masonry-featured-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-masonry-featured.tsx",
@@ -2046,8 +2046,8 @@
       "title": "Carousel Autoplay Progress",
       "componentPath": "blocks/carousel/carousel-autoplay-progress.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/289111/qb7qssmk2vb7d1ezhd4pedkas3b5/asdfasdfad-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/289110/0x48eqle9zn1x4avfovlq6coy0vv/asdfasdfad-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308426/2u89xyrxy74ibe0330mofbfs8z4v/carousel-autoplay-progress-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308425/eak7nsljk5g806pkz1ghpwkdkvsy/carousel-autoplay-progress-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-autoplay-progress.tsx",
