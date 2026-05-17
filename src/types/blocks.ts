@@ -127,7 +127,13 @@ export interface Block {
   componentPath: string;
   code: string;
   propsSchema?: PropsSchema;
-  defaultProps?: Record<string, unknown>;
+  /**
+   * Canonical example prop payload from the @opensite/ui registry contract.
+   * This is reference / preview data only — never a runtime fallback for
+   * missing client-content. Renamed from `defaultProps` upstream
+   * (opensite-ai/opensite-ui#88) to make the non-runtime intent explicit.
+   */
+  exampleProps?: Record<string, unknown>;
   dependencies?: string[];
   tags?: string[];
   performance?: BlockPerformance;

@@ -3,9 +3,17 @@
  * downstream Octane sync. Run with `node scripts/verify-registry-contract.mjs`.
  * Exits non-zero on contract regression.
  *
- * Today this targets hero-mental-health-team, the canonical block used to
- * validate the structured usageRequirements/mediaSlots/defaultProps fields
- * added in opensite-ui PR #87.
+ * Targets:
+ *   - hero-mental-health-team: structured usageRequirements, mediaSlots,
+ *     exampleProps (formerly defaultProps), absolute-URL media, and the
+ *     enriched propsSchema projection.
+ *   - hero-mentorship-video-split: structured usageRequirements that
+ *     distinguish image-only vs video-only media slots, exampleProps with
+ *     absolute URLs for both image and video, and the enriched propsSchema
+ *     projection.
+ *   - Schema-wide invariants: the renamed `exampleProps` key replaces the
+ *     legacy `defaultProps` key — neither block should still emit
+ *     `defaultProps`.
  */
 
 import fs from "fs";
@@ -23,100 +31,11 @@ const failures = [];
 const record = (msg) => failures.push(msg);
 
 const registry = JSON.parse(fs.readFileSync(generatedPath, "utf-8"));
-const block = registry.blocks.find((b) => b.id === "hero-mental-health-team");
 
-if (!block) {
-  console.error("hero-mental-health-team missing from registry.generated.json");
-  process.exit(1);
-}
-
-// Backwards-compat fields still present
-for (const field of [
-  "id",
-  "name",
-  "title",
-  "category",
-  "categorySlug",
-  "thumbnail",
-  "componentPath",
-  "code",
-  "propsSchema",
-  "dependencies",
-  "tags",
-  "importantUsageNotes",
-]) {
-  if (!(field in block)) record(`missing legacy field ${field}`);
-}
-
-// featuredImage typo must be gone
-if (/featuredImage/.test(block.importantUsageNotes || "")) {
-  record("importantUsageNotes still contains 'featuredImage' typo");
-}
-if (!/featureImage/.test(block.importantUsageNotes || "")) {
-  record("importantUsageNotes does not reference 'featureImage'");
-}
-
-// usageRequirements structure
-const ur = block.usageRequirements;
-if (!ur) {
-  record("usageRequirements missing");
-} else {
-  if (!Array.isArray(ur.requiredProps)) record("requiredProps not an array");
-  for (const req of ["heading", "smallImages", "featureImage", "testimonial"]) {
-    if (!ur.requiredProps?.includes(req))
-      record(`requiredProps missing '${req}'`);
-  }
-
-  const pc = ur.propConstraints || {};
-  if (pc.heading?.maxLength !== 40) record("heading.maxLength != 40");
-  if (pc.description?.maxLength !== 130) record("description.maxLength != 130");
-  if (pc.smallImages?.count !== 2) record("smallImages.count != 2");
-  if (pc.smallImages?.minItems !== 2) record("smallImages.minItems != 2");
-  if (pc.smallImages?.maxItems !== 2) record("smallImages.maxItems != 2");
-  if (pc.actions?.pinnedValues?.["0.variant"] !== "default")
-    record("actions[0].variant pin != default");
-  if (pc.actions?.pinnedValues?.["1.variant"] !== "outline")
-    record("actions[1].variant pin != outline");
-
-  const slots = ur.mediaSlots || {};
-  if (!slots.featureImage) record("mediaSlots.featureImage missing");
-  if (slots.featureImage?.path !== "featureImage")
-    record("featureImage slot path mismatch");
-  if (!slots.featureImage?.roles?.includes("feature"))
-    record("featureImage slot missing 'feature' role");
-  if (!slots.featureImage?.disallowedRoles?.includes("logo"))
-    record("featureImage slot should disallow 'logo'");
-
-  if (!slots["smallImages[]"]) record("mediaSlots.smallImages[] missing");
-  if (!slots["testimonial.avatarSrc"])
-    record("mediaSlots.testimonial.avatarSrc missing");
-
-  if (!ur.requiresSiteCapabilities?.includes("reviews_or_testimonials"))
-    record("requiresSiteCapabilities missing 'reviews_or_testimonials'");
-  if (!ur.requiresSiteCapabilities?.includes("media_library"))
-    record("requiresSiteCapabilities missing 'media_library'");
-}
-
-// defaultProps canonical example present
-const dp = block.defaultProps || {};
-if (!dp.heading) record("defaultProps.heading missing");
-if (!Array.isArray(dp.smallImages) || dp.smallImages.length !== 2)
-  record("defaultProps.smallImages should have 2 entries");
-if (!dp.featureImage?.src) record("defaultProps.featureImage.src missing");
-if (!dp.testimonial?.author) record("defaultProps.testimonial.author missing");
-if (!Array.isArray(dp.actions) || dp.actions.length !== 2)
-  record("defaultProps.actions should have 2 entries");
-if (dp.actions?.[0]?.variant !== "default")
-  record("defaultProps.actions[0].variant != default");
-if (dp.actions?.[1]?.variant !== "outline")
-  record("defaultProps.actions[1].variant != outline");
-
-// Simulate normalizeBlock's propsSchema enrichment so we catch regressions
-// in the API projection (required / minItems / maxItems / maxLength /
-// mediaHints) without booting Next.js.
 function topLevelPropFromPath(p) {
   return p.split(/[.[]/)[0] || p;
 }
+
 function enrichPropsSchemaWithConstraints(propsSchema, ur) {
   if (!ur) return propsSchema;
   const out = { ...propsSchema };
@@ -150,26 +69,330 @@ function enrichPropsSchemaWithConstraints(propsSchema, ur) {
   return out;
 }
 
-const enriched = enrichPropsSchemaWithConstraints(
-  block.propsSchema || {},
-  block.usageRequirements,
+function check(prefix, condition, message) {
+  if (!condition) record(`[${prefix}] ${message}`);
+}
+
+function findBlock(id) {
+  const block = registry.blocks.find((b) => b.id === id);
+  if (!block) {
+    record(`block '${id}' missing from registry.generated.json`);
+    return null;
+  }
+  return block;
+}
+
+// ---------- hero-mental-health-team ----------
+const hmht = findBlock("hero-mental-health-team");
+if (hmht) {
+  const pfx = "hero-mental-health-team";
+
+  // Renamed contract key
+  check(
+    pfx,
+    !("defaultProps" in hmht),
+    "legacy 'defaultProps' key must not be present after #88 rename",
+  );
+  check(pfx, "exampleProps" in hmht, "exampleProps key missing");
+
+  // Backwards-compat fields still present
+  for (const field of [
+    "id",
+    "name",
+    "title",
+    "category",
+    "categorySlug",
+    "thumbnail",
+    "componentPath",
+    "code",
+    "propsSchema",
+    "dependencies",
+    "tags",
+    "importantUsageNotes",
+  ]) {
+    check(pfx, field in hmht, `missing legacy field '${field}'`);
+  }
+
+  // featuredImage typo must be gone
+  check(
+    pfx,
+    !/featuredImage/.test(hmht.importantUsageNotes || ""),
+    "importantUsageNotes still contains 'featuredImage' typo",
+  );
+  check(
+    pfx,
+    /featureImage/.test(hmht.importantUsageNotes || ""),
+    "importantUsageNotes does not reference 'featureImage'",
+  );
+
+  const ur = hmht.usageRequirements;
+  check(pfx, !!ur, "usageRequirements missing");
+  if (ur) {
+    check(pfx, Array.isArray(ur.requiredProps), "requiredProps not an array");
+    for (const req of ["heading", "smallImages", "featureImage", "testimonial"]) {
+      check(
+        pfx,
+        ur.requiredProps?.includes(req),
+        `requiredProps missing '${req}'`,
+      );
+    }
+    const pc = ur.propConstraints || {};
+    check(pfx, pc.heading?.maxLength === 40, "heading.maxLength != 40");
+    check(pfx, pc.description?.maxLength === 130, "description.maxLength != 130");
+    check(pfx, pc.smallImages?.count === 2, "smallImages.count != 2");
+    check(pfx, pc.smallImages?.minItems === 2, "smallImages.minItems != 2");
+    check(pfx, pc.smallImages?.maxItems === 2, "smallImages.maxItems != 2");
+    check(
+      pfx,
+      pc.actions?.pinnedValues?.["0.variant"] === "default",
+      "actions[0].variant pin != default",
+    );
+    check(
+      pfx,
+      pc.actions?.pinnedValues?.["1.variant"] === "outline",
+      "actions[1].variant pin != outline",
+    );
+
+    const slots = ur.mediaSlots || {};
+    check(pfx, !!slots.featureImage, "mediaSlots.featureImage missing");
+    check(
+      pfx,
+      slots.featureImage?.path === "featureImage",
+      "featureImage slot path mismatch",
+    );
+    check(
+      pfx,
+      slots.featureImage?.roles?.includes("feature"),
+      "featureImage slot missing 'feature' role",
+    );
+    check(
+      pfx,
+      slots.featureImage?.disallowedRoles?.includes("logo"),
+      "featureImage slot should disallow 'logo'",
+    );
+    check(pfx, !!slots["smallImages[]"], "mediaSlots.smallImages[] missing");
+    check(
+      pfx,
+      !!slots["testimonial.avatarSrc"],
+      "mediaSlots.testimonial.avatarSrc missing",
+    );
+
+    check(
+      pfx,
+      ur.requiresSiteCapabilities?.includes("reviews_or_testimonials"),
+      "requiresSiteCapabilities missing 'reviews_or_testimonials'",
+    );
+    check(
+      pfx,
+      ur.requiresSiteCapabilities?.includes("media_library"),
+      "requiresSiteCapabilities missing 'media_library'",
+    );
+  }
+
+  // exampleProps canonical example present, with ABSOLUTE URLs per #88
+  const ep = hmht.exampleProps || {};
+  check(pfx, !!ep.heading, "exampleProps.heading missing");
+  check(
+    pfx,
+    Array.isArray(ep.smallImages) && ep.smallImages.length === 2,
+    "exampleProps.smallImages should have 2 entries",
+  );
+  check(pfx, !!ep.featureImage?.src, "exampleProps.featureImage.src missing");
+  check(
+    pfx,
+    /^https?:\/\//.test(ep.featureImage?.src || ""),
+    "exampleProps.featureImage.src must be an absolute URL",
+  );
+  for (const [i, img] of (ep.smallImages || []).entries()) {
+    check(
+      pfx,
+      /^https?:\/\//.test(img?.src || ""),
+      `exampleProps.smallImages[${i}].src must be an absolute URL`,
+    );
+  }
+  check(
+    pfx,
+    /^https?:\/\//.test(ep.testimonial?.avatarSrc || ""),
+    "exampleProps.testimonial.avatarSrc must be an absolute URL",
+  );
+  check(pfx, !!ep.testimonial?.author, "exampleProps.testimonial.author missing");
+  check(
+    pfx,
+    Array.isArray(ep.actions) && ep.actions.length === 2,
+    "exampleProps.actions should have 2 entries",
+  );
+  check(
+    pfx,
+    ep.actions?.[0]?.variant === "default",
+    "exampleProps.actions[0].variant != default",
+  );
+  check(
+    pfx,
+    ep.actions?.[1]?.variant === "outline",
+    "exampleProps.actions[1].variant != outline",
+  );
+
+  // propsSchema projection
+  const enriched = enrichPropsSchemaWithConstraints(
+    hmht.propsSchema || {},
+    hmht.usageRequirements,
+  );
+  check(pfx, enriched.smallImages?.minItems === 2, "enriched smallImages.minItems != 2");
+  check(pfx, enriched.smallImages?.maxItems === 2, "enriched smallImages.maxItems != 2");
+  check(pfx, enriched.smallImages?.required === true, "enriched smallImages.required != true");
+  check(pfx, enriched.heading?.maxLength === 40, "enriched heading.maxLength != 40");
+  check(pfx, enriched.description?.maxLength === 130, "enriched description.maxLength != 130");
+  check(pfx, enriched.featureImage?.required === true, "enriched featureImage.required != true");
+  check(
+    pfx,
+    enriched.featureImage?.mediaHints?.roles?.includes("feature"),
+    "enriched featureImage.mediaHints missing 'feature' role",
+  );
+  check(
+    pfx,
+    enriched.smallImages?.mediaHints?.roles?.includes("thumbnail"),
+    "enriched smallImages.mediaHints missing 'thumbnail' role",
+  );
+}
+
+// ---------- hero-mentorship-video-split ----------
+const hmvs = findBlock("hero-mentorship-video-split");
+if (hmvs) {
+  const pfx = "hero-mentorship-video-split";
+
+  check(
+    pfx,
+    !("defaultProps" in hmvs),
+    "legacy 'defaultProps' key must not be present after #88 rename",
+  );
+  check(pfx, "exampleProps" in hmvs, "exampleProps key missing");
+
+  check(
+    pfx,
+    typeof hmvs.importantUsageNotes === "string" &&
+      hmvs.importantUsageNotes.length > 0,
+    "importantUsageNotes missing",
+  );
+  check(
+    pfx,
+    /image asset/i.test(hmvs.importantUsageNotes || ""),
+    "importantUsageNotes should warn about image/video asset distinction",
+  );
+  check(
+    pfx,
+    /NEVER swap/i.test(hmvs.importantUsageNotes || ""),
+    "importantUsageNotes should explicitly warn against swapping image/video",
+  );
+
+  const ur = hmvs.usageRequirements;
+  check(pfx, !!ur, "usageRequirements missing");
+  if (ur) {
+    check(pfx, ur.requiredProps?.includes("heading"), "requiredProps missing 'heading'");
+    check(pfx, ur.requiredProps?.includes("image"), "requiredProps missing 'image'");
+
+    const pc = ur.propConstraints || {};
+    check(pfx, pc.heading?.maxLength === 60, "heading.maxLength != 60");
+    check(pfx, pc.description?.maxLength === 220, "description.maxLength != 220");
+    check(pfx, pc.image?.required === true, "image.required != true");
+
+    const slots = ur.mediaSlots || {};
+    check(pfx, !!slots.image, "mediaSlots.image missing");
+    check(
+      pfx,
+      slots.image?.roles?.includes("hero"),
+      "mediaSlots.image should include 'hero' role",
+    );
+    check(
+      pfx,
+      slots.image?.disallowedRoles?.includes("video-thumbnail"),
+      "mediaSlots.image should disallow 'video-thumbnail' (image-only slot)",
+    );
+
+    check(
+      pfx,
+      !!slots["modalVideo.video.src"],
+      "mediaSlots.modalVideo.video.src missing (video-only slot)",
+    );
+    check(
+      pfx,
+      Array.isArray(slots["modalVideo.video.src"]?.roles) &&
+        slots["modalVideo.video.src"].roles.length === 0,
+      "modalVideo.video.src roles must be empty (no image roles allowed)",
+    );
+    check(
+      pfx,
+      slots["modalVideo.video.src"]?.disallowedRoles?.includes("hero"),
+      "modalVideo.video.src should disallow 'hero' role",
+    );
+    check(
+      pfx,
+      slots["modalVideo.video.src"]?.disallowedRoles?.includes("feature"),
+      "modalVideo.video.src should disallow 'feature' role",
+    );
+
+    check(
+      pfx,
+      !!slots["modalVideo.image.src"],
+      "mediaSlots.modalVideo.image.src missing (poster image slot)",
+    );
+    check(
+      pfx,
+      slots["modalVideo.image.src"]?.roles?.includes("video-thumbnail"),
+      "modalVideo.image.src should include 'video-thumbnail' role",
+    );
+
+    check(
+      pfx,
+      ur.requiresSiteCapabilities?.includes("media_library"),
+      "requiresSiteCapabilities missing 'media_library'",
+    );
+  }
+
+  // exampleProps with absolute URLs for both image and video
+  const ep = hmvs.exampleProps || {};
+  check(pfx, !!ep.heading, "exampleProps.heading missing");
+  check(
+    pfx,
+    /^https?:\/\//.test(ep.image?.src || ""),
+    "exampleProps.image.src must be an absolute URL",
+  );
+  check(
+    pfx,
+    /^https?:\/\//.test(ep.modalVideo?.image?.src || ""),
+    "exampleProps.modalVideo.image.src must be an absolute URL",
+  );
+  check(
+    pfx,
+    /^https?:\/\//.test(ep.modalVideo?.video?.src || ""),
+    "exampleProps.modalVideo.video.src must be an absolute URL",
+  );
+
+  // propsSchema projection: image gets media hints, mediaHints distinguish video slot
+  const enriched = enrichPropsSchemaWithConstraints(
+    hmvs.propsSchema || {},
+    hmvs.usageRequirements,
+  );
+  check(pfx, enriched.image?.required === true, "enriched image.required != true");
+  check(pfx, enriched.heading?.maxLength === 60, "enriched heading.maxLength != 60");
+  check(
+    pfx,
+    enriched.image?.mediaHints?.disallowedRoles?.includes("video-thumbnail"),
+    "enriched image.mediaHints should disallow 'video-thumbnail'",
+  );
+}
+
+// ---------- Schema-wide invariants ----------
+const stillUsingDefaultProps = registry.blocks.filter(
+  (b) => "defaultProps" in b,
 );
-if (enriched.smallImages?.minItems !== 2)
-  record("enriched smallImages.minItems != 2");
-if (enriched.smallImages?.maxItems !== 2)
-  record("enriched smallImages.maxItems != 2");
-if (enriched.smallImages?.required !== true)
-  record("enriched smallImages.required != true");
-if (enriched.heading?.maxLength !== 40)
-  record("enriched heading.maxLength != 40");
-if (enriched.description?.maxLength !== 130)
-  record("enriched description.maxLength != 130");
-if (enriched.featureImage?.required !== true)
-  record("enriched featureImage.required != true");
-if (!enriched.featureImage?.mediaHints?.roles?.includes("feature"))
-  record("enriched featureImage.mediaHints missing 'feature' role");
-if (!enriched.smallImages?.mediaHints?.roles?.includes("thumbnail"))
-  record("enriched smallImages.mediaHints missing 'thumbnail' role");
+if (stillUsingDefaultProps.length > 0) {
+  record(
+    `registry.generated.json still emits legacy 'defaultProps' on ${stillUsingDefaultProps.length} blocks (e.g. ${stillUsingDefaultProps
+      .slice(0, 3)
+      .map((b) => b.id)
+      .join(", ")}). The post-#88 contract uses 'exampleProps'.`,
+  );
+}
 
 if (failures.length > 0) {
   console.error("registry contract verification FAILED:");
@@ -178,5 +401,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  "registry contract verification OK (hero-mental-health-team: usageRequirements, mediaSlots, defaultProps, featureImage, propsSchema enrichment)",
+  "registry contract verification OK (hero-mental-health-team + hero-mentorship-video-split: usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
 );

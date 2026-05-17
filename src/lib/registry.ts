@@ -263,7 +263,7 @@ function normalizeBlock(rawBlock: Partial<Block>): Block {
     componentPath: rawBlock.componentPath || "",
     code: cleanCodeString(rawBlock.code),
     propsSchema: enrichPropsSchemaWithConstraints(propsSchema, usageRequirements),
-    defaultProps: rawBlock.defaultProps || {},
+    exampleProps: rawBlock.exampleProps || {},
     dependencies: rawBlock.dependencies || [],
     tags: rawBlock.tags || [],
     performance: rawBlock.performance || {},
