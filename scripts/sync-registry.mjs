@@ -52,10 +52,42 @@ const toHumanTitle = (value) =>
     .trim();
 
 /**
+ * Walk up from a file path until we find the directory containing the
+ * `@opensite/ui` package.json. We can't `require.resolve("@opensite/ui/package.json")`
+ * because the published package doesn't list `./package.json` in its `exports`
+ * (Node ≥ 12 enforces that, and Node 22 has no escape hatch). Reading
+ * package.json directly off disk is fine — the exports restriction only
+ * applies to module resolution, not filesystem reads.
+ */
+function findPackageRootFromFile(filePath, expectedName) {
+  let dir = path.dirname(filePath);
+  while (true) {
+    const candidate = path.join(dir, "package.json");
+    if (fs.existsSync(candidate)) {
+      try {
+        const parsed = JSON.parse(fs.readFileSync(candidate, "utf-8"));
+        if (parsed.name === expectedName) {
+          return { packageRoot: dir, pkg: parsed };
+        }
+      } catch {
+        // Ignore malformed package.json files; keep walking up.
+      }
+    }
+    const parent = path.dirname(dir);
+    if (parent === dir) {
+      throw new Error(
+        `Could not locate ${expectedName} package.json walking up from ${filePath}`,
+      );
+    }
+    dir = parent;
+  }
+}
+
+/**
  * Resolve the on-disk root of @opensite/ui. Honors OPENSITE_UI_PATH for local
- * iteration; otherwise resolves from node_modules. Returns the directory
- * containing package.json, plus the parsed package.json and a function that
- * loads its `./registry` export.
+ * iteration; otherwise resolves from node_modules via the package's `./registry`
+ * subpath export. Returns the directory containing package.json, plus the
+ * parsed package.json and the loaded `./registry` module.
  */
 async function resolveOpenSiteUiPackage() {
   const overridePath = process.env.OPENSITE_UI_PATH;
@@ -76,10 +108,16 @@ async function resolveOpenSiteUiPackage() {
     return { packageRoot: overridePath, pkg, registry };
   }
 
-  const pkgJsonPath = require.resolve("@opensite/ui/package.json");
-  const packageRoot = path.dirname(pkgJsonPath);
-  const pkg = JSON.parse(fs.readFileSync(pkgJsonPath, "utf-8"));
-  const registry = await import("@opensite/ui/registry");
+  // Resolve via the exported `./registry` subpath, which IS in the package's
+  // `exports` map. From the resolved file path we can derive the package root
+  // by walking up to the nearest package.json named `@opensite/ui`.
+  const registrySpecifier = "@opensite/ui/registry";
+  const registryFilePath = require.resolve(registrySpecifier);
+  const { packageRoot, pkg } = findPackageRootFromFile(
+    registryFilePath,
+    "@opensite/ui",
+  );
+  const registry = await import(registrySpecifier);
   return { packageRoot, pkg, registry };
 }
 
