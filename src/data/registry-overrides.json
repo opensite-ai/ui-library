@@ -1047,8 +1047,8 @@
       "title": "Hero Mental Health Team",
       "componentPath": "blocks/hero/hero-mental-health-team.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290359/s41b8vh4omhdpu4i7lhgqvlch5tr/cleanshot-2026-02-18-at-09-12-29.png",
-        "mobile": "https://cdn.ing/assets/i/r/290360/13zji87qvokrncnmbwsrbp4uzxtc/cleanshot-2026-02-18-at-09-13-08.png"
+        "desktop": "https://cdn.ing/assets/i/r/308204/yzwklffavqn8ymmhqvi5u4g00h1q/hero-mental-health-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308205/wt93l1i9dm689ldrtbkjf0mmyfwc/hero-mental-health-team-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mental-health-team",

@@ -4,7 +4,7 @@
     "totalBlocks": 605,
     "version": "3.5.5",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-05T23:25:52.619Z"
+    "syncedAt": "2026-05-17T01:35:07.560Z"
   },
   "blocks": [
     {
@@ -66100,8 +66100,8 @@
       "categorySlug": "hero",
       "description": "A dark-themed hero showcasing mental health professionals. Features team images and supportive messaging.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290359/s41b8vh4omhdpu4i7lhgqvlch5tr/cleanshot-2026-02-18-at-09-12-29.png",
-        "mobile": "https://cdn.ing/assets/i/r/290360/13zji87qvokrncnmbwsrbp4uzxtc/cleanshot-2026-02-18-at-09-13-08.png"
+        "desktop": "https://cdn.ing/assets/i/r/308204/yzwklffavqn8ymmhqvi5u4g00h1q/hero-mental-health-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308205/wt93l1i9dm689ldrtbkjf0mmyfwc/hero-mental-health-team-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-mental-health-team.tsx",
       "code": "import { imagePlaceholders } from \"@/lib/media\";\nimport { DynamicIcon } from \"@opensite/ui\";\nimport { HeroMentalHealthTeam } from \"@opensite/ui/blocks/hero/hero-mental-health-team\";\n\nexport default function Demo() {\n  return (\n    <HeroMentalHealthTeam\n      description=\"Our team of experienced mental health professionals is dedicated to providing compassionate care and support to individuals in need.\"\n      heading=\"Compassionate care for your mental wellbeing\"\n      smallImages={[\n        { src: imagePlaceholders[41], alt: \"Dr. Smith\" },\n        { src: imagePlaceholders[42], alt: \"Dr. Johnson\" },\n      ]}\n      testimonial={{\n        quote:\n          \"The support I received changed my life. I'm so grateful for the compassionate care.\",\n        author: \"Sarah M.\",\n        role: \"Client\",\n        avatarSrc: imagePlaceholders[43],\n      }}\n      featureImage={{\n        src: imagePlaceholders[44],\n        alt: \"Mental health support\",\n      }}\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Talk to Sales\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/phone\" size={16} />,\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
