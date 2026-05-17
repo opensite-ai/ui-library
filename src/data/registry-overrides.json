@@ -1492,7 +1492,7 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-growth-timeline.tsx",
-      "importantUsageNotes": "Use this block only when you have real company milestone data with verifiable dates, metrics, and descriptions — do not invent funding amounts, team sizes, or growth figures. Supply 4–6 'milestones', each with a real 'year', 'title', 'description', and 'metric' backed by actual data. The 'currentStats' section is a 4-column grid — supply exactly 4 real current stats. If you supply 'actions', use a variant of 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
+      "importantUsageNotes": "Use this block only when you have real company milestone data with verifiable dates, metrics, and descriptions — do not invent or mock ANY data, 100% of the milestones and stats need to be factual. Supply 4–6 'milestones', each with a real 'year', 'title', 'description', and 'metric' backed by actual data. The 'currentStats' section is a 4-column grid — supply exactly 4 real current stats and each currentStats `value` needs to be a numeric based string, e.g. '500k+', '85%', etc - DO NOT use words/phrases for the `value`. If you supply 'actions', use a variant of 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
     },
     "stats-circular-progress": {
       "title": "Stats Circular Progress",

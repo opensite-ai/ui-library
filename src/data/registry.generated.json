@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "exportedAt": "2026-05-05T20:22:35.795Z",
+    "exportedAt": "2026-05-17T02:18:34.709Z",
     "totalBlocks": 605,
-    "version": "3.5.5",
+    "version": "3.5.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T01:35:07.560Z"
+    "syncedAt": "2026-05-17T02:21:27.327Z"
   },
   "blocks": [
     {
@@ -130623,7 +130623,7 @@
         "achievements"
       ],
       "performance": {},
-      "importantUsageNotes": "Use this block only when you have real company milestone data with verifiable dates, metrics, and descriptions — do not invent funding amounts, team sizes, or growth figures. Supply 4–6 'milestones', each with a real 'year', 'title', 'description', and 'metric' backed by actual data. The 'currentStats' section is a 4-column grid — supply exactly 4 real current stats. If you supply 'actions', use a variant of 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
+      "importantUsageNotes": "Use this block only when you have real company milestone data with verifiable dates, metrics, and descriptions — do not invent or mock ANY data, 100% of the milestones and stats need to be factual. Supply 4–6 'milestones', each with a real 'year', 'title', 'description', and 'metric' backed by actual data. The 'currentStats' section is a 4-column grid — supply exactly 4 real current stats and each currentStats `value` needs to be a numeric based string, e.g. '500k+', '85%', etc - DO NOT use words/phrases for the `value`. If you supply 'actions', use a variant of 'default' for the first action and 'outline' for the second. Follow the example props closely for this block."
     },
     {
       "id": "stats-impact-grid",
