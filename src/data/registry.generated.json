@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.6.0",
+    "version": "3.6.1",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T13:09:57.880Z",
+    "syncedAt": "2026-05-17T13:43:11.341Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -1011,7 +1011,7 @@
           }
         },
         "requiresSiteCapabilities": [
-          "metrics_or_stats",
+          "stats_or_metrics",
           "reviews_or_testimonials",
           "media_library"
         ],
@@ -1539,7 +1539,7 @@
           }
         },
         "requiresSiteCapabilities": [
-          "metrics_or_stats",
+          "stats_or_metrics",
           "media_library"
         ],
         "notes": [
@@ -2344,7 +2344,7 @@
           }
         },
         "requiresSiteCapabilities": [
-          "metrics_or_stats",
+          "stats_or_metrics",
           "media_library"
         ],
         "notes": [
@@ -4574,7 +4574,7 @@
         },
         "mediaSlots": {},
         "requiresSiteCapabilities": [
-          "metrics_or_stats"
+          "stats_or_metrics"
         ],
         "notes": [
           "Do not fabricate metrics or quantified claims."
@@ -6532,7 +6532,7 @@
           }
         },
         "requiresSiteCapabilities": [
-          "contact_info",
+          "locations",
           "media_library"
         ],
         "notes": [
@@ -13228,8 +13228,8 @@
       "categorySlug": "contact",
       "description": "A comprehensive callback scheduling form with date/time selection, timezone, topic selection, and detailed information fields. Ideal for professional services requiring scheduled consultations.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290559/jnd4ewh1tdfcgo3zkywtrtq0yya5/contact-callback-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290560/lli5o7npquru6vbgfeb1frpv73qi/contact-callback-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/308404/eq2ib5o98nrldkxauzd5y3231dzy/contact-callback-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308403/pahtidqc947zd0v5k7josxydmdic/contact-callback-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-callback.tsx",
       "code": "\"use client\";\n\nimport { ContactCallback } from \"@opensite/ui/blocks/contact/contact-callback\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"name\",\n    type: \"text\",\n    label: \"Full Name\",\n    placeholder: \"Full Name\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"callback_time\",\n    type: \"radio\",\n    label: \"Preferred Callback Time\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"morning\",\n        label: \"Morning\",\n        description: \"8 AM - 12 PM\",\n      },\n      {\n        value: \"afternoon\",\n        label: \"Afternoon\",\n        description: \"12 PM - 5 PM\",\n      },\n      {\n        value: \"evening\",\n        label: \"Evening\",\n        description: \"5 PM - 8 PM\",\n      },\n    ],\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"What can we help you with?\",\n    placeholder: \"Briefly describe what you'd like to discuss...\",\n    required: false,\n    rows: 3,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactCallback\n      heading=\"Request a Callback\"\n      description=\"Prefer to talk? Leave your number and our team will call you back at your preferred time. We typically respond within 2-4 hours during business hours.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage: \"Thank you! We'll call you back during your preferred time window.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Request Callback\",\n          },\n        },\n      }}\n      background=\"gray\"\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -13977,8 +13977,8 @@
       "categorySlug": "contact",
       "description": "A dark-themed contact form with split layout featuring form fields on one side and contact information with social links on a dark background. Modern, high-contrast design.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290610/bq7ydik61cg7ijixrctyvsviam26/cleanshot-2026-02-21-at-02-33-04.png",
-        "mobile": "https://cdn.ing/assets/i/r/290609/6cqflyybhpfng2dw4g3rji3b6xax/cleanshot-2026-02-21-at-02-33-26.png"
+        "desktop": "https://cdn.ing/assets/i/r/308400/tfpxtcplovqalgdssnr9w4s1bzs4/contact-dark-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308399/bitf6u9c7yexvenpxssa4hh2fcqo/contact-dark-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-dark.tsx",
       "code": "\"use client\";\n\nimport { ContactDark } from \"@opensite/ui/blocks/contact/contact-dark\";\nimport { demoFormConfig, demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"name\",\n    type: \"text\",\n    label: \"Full Name\",\n    placeholder: \"Full Name\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email Address\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: false,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    // type: \"radio\",\n    type: \"select\",\n    label: \"Inquiry Type\",\n    required: true,\n    columnSpan: 12,\n    // layout: \"grid\",\n    options: [\n      {\n        value: \"general\",\n        label: \"General Inquiry\",\n        description: \"Question about our services.\",\n      },\n      {\n        value: \"support\",\n        label: \"Support\",\n        description: \"Assistance from our support team.\",\n      },\n      {\n        value: \"sales\",\n        label: \"Sales Question\",\n        description: \"Question about our pricing or products.\",\n      },\n      {\n        value: \"partnership\",\n        label: \"Partnership Opportunity\",\n        description: \"Opportunity to collaborate with us.\",\n      },\n    ],\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Your Message\",\n    placeholder: \"Tell us more about your inquiry...\",\n    required: true,\n    rows: 4,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactDark\n      heading=\"Get In Touch\"\n      description=\"Have a question or want to work together? Fill out the form below and we'll get back to you within 24 hours.\"\n      contactHeading=\"Contact Information\"\n      contactDescription=\"Reach out to us directly using any of the methods below, or fill out the form and we'll respond within 24 hours.\"\n      contactOptions={[\n        {\n          icon: \"lucide/phone\",\n          info: \"+1 (555) 123-4567\",\n          href: \"#\",\n        },\n        {\n          icon: \"lucide/mail\",\n          info: \"hello@example.com\",\n          href: \"#\",\n        },\n        {\n          icon: \"lucide/map-pin\",\n          info: \"123 Main Street, San Francisco, CA 94105\",\n          href: \"#\",\n        },\n      ]}\n      socialLinks={[\n        {\n          icon: \"lucide/twitter\",\n          href: \"https://twitter.com\",\n          label: \"Follow us on Twitter\",\n        },\n        {\n          icon: \"lucide/facebook\",\n          href: \"https://facebook.com\",\n          label: \"Like us on Facebook\",\n        },\n        {\n          icon: \"lucide/linkedin\",\n          href: \"https://linkedin.com\",\n          label: \"Connect on LinkedIn\",\n        },\n        {\n          icon: \"lucide/instagram\",\n          href: \"https://instagram.com\",\n          label: \"Follow us on Instagram\",\n        },\n      ]}\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for contacting us! We'll get back to you shortly.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Send Message\",\n          },\n        },\n      }}\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -16364,8 +16364,8 @@
       "categorySlug": "contact",
       "description": "Full-width split-screen contact form with edge-to-edge design, featuring heading, description and form on one side and a large full-height image on the other. Pattern background support, configurable media placement. Perfect for photographers, studios, and creative services.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306281/2ulmrnlqv2jt6iuc22gdr92l4rlp/contact-photography-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306282/dhpjt9j5fxq48abbbzx09c9z1vpr/contact-photography-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308397/2z7dgfwxz4n5pkyogjuma4synzdv/contact-photography-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308398/d1klx0305l7kgwykichffwrp3wh2/contact-photography-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-photography.tsx",
       "code": "\"use client\";\n\nimport { ContactPhotography } from \"@opensite/ui/blocks/contact/contact-photography\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\nimport { imagePlaceholders } from \"@/lib/media\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"first_name\",\n    type: \"text\",\n    label: \"First Name\",\n    placeholder: \"First name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"last_name\",\n    type: \"text\",\n    label: \"Last Name\",\n    placeholder: \"Last name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Email\",\n    placeholder: \"your@email.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: false,\n    columnSpan: 6,\n  },\n  {\n    name: \"subject\",\n    type: \"checkbox-group\",\n    label: \"Project Type(s)\",\n    placeholder: \"Select 1 or more project types\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"wedding\",\n        label: \"Wedding\",\n        description: \"Ceremony, reception, and bridal portraits.\",\n      },\n      {\n        value: \"portrait\",\n        label: \"Portrait\",\n        description: \"Individual, couple, or family sessions.\",\n      },\n      {\n        value: \"corporate\",\n        label: \"Corporate\",\n        description: \"Headshots, team photos, and events.\",\n      },\n      {\n        value: \"product\",\n        label: \"Product\",\n        description: \"E-commerce and catalog photography.\",\n      },\n      {\n        value: \"real_estate\",\n        label: \"Real Estate\",\n        description: \"Interior, exterior, and aerial shots.\",\n      },\n      {\n        value: \"other\",\n        label: \"Other\",\n        description: \"Something else not listed above.\",\n      },\n    ],\n  },\n  {\n    name: \"event_date\",\n    type: \"date-picker\",\n    label: \"Preferred Date\",\n    placeholder: \"Select a date\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"reference_images\",\n    type: \"file\",\n    label: \"Reference Images\",\n    placeholder: \"Upload reference photos or mood boards...\",\n    required: false,\n    accept: \"image/*,.pdf\",\n    maxSize: 10 * 1024 * 1024,\n    maxFiles: 5,\n    multiple: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Project Details\",\n    placeholder:\n      \"Tell us about your vision, location, special requests, etc...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactPhotography\n      image={{\n        src: imagePlaceholders[108],\n        alt: \"A person working at a desk\",\n      }}\n      heading=\"Ready to Get Started?\"\n      description=\"Tell us about your project and we'll put together a custom quote for you. We typically respond within 1-2 business days.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for your inquiry! We'll review your project details and get back to you within 1-2 business days.\",\n        formLayoutSettings: {\n          submitButtonSetup: {\n            submitLabel: \"Submit Inquiry\",\n          },\n        },\n      }}\n      background=\"dark\"\n      pattern=\"dashedGridFadeTopLeft\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
@@ -18061,8 +18061,8 @@
       "categorySlug": "contact",
       "description": "Vendor application form with business information, products/services, and certification details. Perfect for marketplace platforms.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290467/xf02j5wf2h3veskdmo64tja6zzje/cleanshot-2026-02-19-at-06-13-19-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290466/4mrv0wfwc6e6cutz6zbgeae35ixp/cleanshot-2026-02-19-at-06-14-16-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308401/6zywmmz6e7evsz5lhv8qzj6lyng5/contact-vendor-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308402/up63gudn8ef60xsb037dxhxen8ad/contact-vendor-mobile.jpg"
       },
       "componentPath": "blocks/contact/contact-vendor.tsx",
       "code": "\"use client\";\n\nimport { ContactVendor } from \"@opensite/ui/blocks/contact/contact-vendor\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"company_name\",\n    type: \"text\",\n    label: \"Company Name\",\n    placeholder: \"Your company\",\n    required: true,\n    columnSpan: 12,\n  },\n  {\n    name: \"contact_name\",\n    type: \"text\",\n    label: \"Contact Person\",\n    placeholder: \"Full name\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"title\",\n    type: \"text\",\n    label: \"Job Title\",\n    placeholder: \"Your title\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"email\",\n    type: \"email\",\n    label: \"Business Email\",\n    placeholder: \"contact@company.com\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"phone\",\n    type: \"tel\",\n    label: \"Phone Number\",\n    placeholder: \"+1 (555) 000-0000\",\n    required: true,\n    columnSpan: 6,\n  },\n  {\n    name: \"company_website\",\n    type: \"url\",\n    label: \"Company Website\",\n    placeholder: \"https://yourcompany.com\",\n    required: false,\n    columnSpan: 12,\n  },\n  {\n    name: \"vendor_category\",\n    type: \"checkbox-group\",\n    label: \"Product/Service Categories\",\n    placeholder: \"Select all that apply\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"materials\",\n        label: \"Raw Materials\",\n        description: \"Supply of raw materials and components.\",\n      },\n      {\n        value: \"manufacturing\",\n        label: \"Manufacturing\",\n        description: \"Contract manufacturing services.\",\n      },\n      {\n        value: \"logistics\",\n        label: \"Logistics & Shipping\",\n        description: \"Transportation and delivery services.\",\n      },\n      {\n        value: \"technology\",\n        label: \"Technology Services\",\n        description: \"IT, software, and technical solutions.\",\n      },\n      {\n        value: \"marketing\",\n        label: \"Marketing Services\",\n        description: \"Advertising, design, and promotional services.\",\n      },\n      {\n        value: \"consulting\",\n        label: \"Consulting\",\n        description: \"Business consulting and advisory services.\",\n      },\n      {\n        value: \"facilities\",\n        label: \"Facilities & Maintenance\",\n        description: \"Building maintenance and facility services.\",\n      },\n      {\n        value: \"other\",\n        label: \"Other\",\n        description: \"Other products or services.\",\n      },\n    ],\n  },\n  {\n    name: \"partnership_type\",\n    type: \"radio\",\n    label: \"Type of Partnership\",\n    required: true,\n    columnSpan: 12,\n    layout: \"grid\",\n    options: [\n      {\n        value: \"new\",\n        label: \"New Vendor\",\n        description: \"First time working with us.\",\n      },\n      {\n        value: \"existing\",\n        label: \"Existing Vendor\",\n        description: \"Already in our vendor network.\",\n      },\n      {\n        value: \"renewal\",\n        label: \"Contract Renewal\",\n        description: \"Renew existing contract.\",\n      },\n    ],\n  },\n  {\n    name: \"annual_capacity\",\n    type: \"select\",\n    label: \"Annual Business Capacity\",\n    required: true,\n    columnSpan: 12,\n    options: [\n      { value: \"under50k\", label: \"Under $50,000\" },\n      { value: \"50k-250k\", label: \"$50,000 - $250,000\" },\n      { value: \"250k-1m\", label: \"$250,000 - $1M\" },\n      { value: \"1m-5m\", label: \"$1M - $5M\" },\n      { value: \"over5m\", label: \"Over $5M\" },\n    ],\n  },\n  {\n    name: \"content\",\n    type: \"textarea\",\n    label: \"Tell us about your company and offerings\",\n    placeholder:\n      \"Describe your products/services, experience, key differentiators, and why you'd like to work with us...\",\n    required: true,\n    rows: 5,\n    columnSpan: 12,\n  },\n  {\n    name: \"certifications\",\n    type: \"textarea\",\n    label: \"Certifications and Compliance\",\n    placeholder:\n      \"List any relevant certifications (ISO, minority-owned, women-owned, veteran-owned, etc.)\",\n    required: false,\n    rows: 3,\n    columnSpan: 12,\n  },\n  {\n    name: \"company_docs\",\n    type: \"file\",\n    label: \"Upload Company Documents\",\n    placeholder: \"Upload company profile, certifications, insurance, etc...\",\n    required: false,\n    accept: \".pdf,.doc,.docx\",\n    maxSize: 10 * 1024 * 1024,\n    maxFiles: 5,\n    multiple: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <ContactVendor\n      heading=\"Become a Vendor Partner\"\n      description=\"We're always looking for reliable vendors to join our supply chain. Tell us about your company and how we can work together to create mutual success.\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for your interest in becoming a vendor partner! Our procurement team will review your application and reach out within 5-7 business days to discuss next steps.\",\n      }}\n      background=\"white\"\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
@@ -139527,7 +139527,7 @@
           }
         },
         "requiresSiteCapabilities": [
-          "metrics_or_stats",
+          "stats_or_metrics",
           "media_library"
         ],
         "notes": [

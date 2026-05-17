@@ -104,8 +104,8 @@
       "title": "Contact FAQ",
       "componentPath": "blocks/contact/contact-faq.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290628/syz0j5igv48uywm52380gbk8yrz0/cleanshot-2026-02-21-at-15-39-10.png",
-        "mobile": "https://cdn.ing/assets/i/r/290627/bp3k3s0l1cczzifti4l6j7n6qwhq/cleanshot-2026-02-21-at-15-39-27.png"
+        "desktop": "https://cdn.ing/assets/i/r/308395/5luzx3z7f64129sym6wo6dl67sq9/contact-faq-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308396/a0wpulcygu7mutkghau9hxlo6tfq/contact-faq-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-faq",
@@ -115,8 +115,8 @@
       "title": "Contact Dark",
       "componentPath": "blocks/contact/contact-dark.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290610/bq7ydik61cg7ijixrctyvsviam26/cleanshot-2026-02-21-at-02-33-04.png",
-        "mobile": "https://cdn.ing/assets/i/r/290609/6cqflyybhpfng2dw4g3rji3b6xax/cleanshot-2026-02-21-at-02-33-26.png"
+        "desktop": "https://cdn.ing/assets/i/r/308400/tfpxtcplovqalgdssnr9w4s1bzs4/contact-dark-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308399/bitf6u9c7yexvenpxssa4hh2fcqo/contact-dark-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-dark",
@@ -126,8 +126,8 @@
       "title": "Contact Photography",
       "componentPath": "blocks/contact/contact-photography.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306281/2ulmrnlqv2jt6iuc22gdr92l4rlp/contact-photography-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306282/dhpjt9j5fxq48abbbzx09c9z1vpr/contact-photography-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308397/2z7dgfwxz4n5pkyogjuma4synzdv/contact-photography-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308398/d1klx0305l7kgwykichffwrp3wh2/contact-photography-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-photography",
@@ -137,8 +137,8 @@
       "title": "Contact Vendor Application",
       "componentPath": "blocks/contact/contact-vendor.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290467/xf02j5wf2h3veskdmo64tja6zzje/cleanshot-2026-02-19-at-06-13-19-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290466/4mrv0wfwc6e6cutz6zbgeae35ixp/cleanshot-2026-02-19-at-06-14-16-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308401/6zywmmz6e7evsz5lhv8qzj6lyng5/contact-vendor-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308402/up63gudn8ef60xsb037dxhxen8ad/contact-vendor-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-vendor",
@@ -148,8 +148,8 @@
       "title": "Contact Callback Request",
       "componentPath": "blocks/contact/contact-callback.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290559/jnd4ewh1tdfcgo3zkywtrtq0yya5/contact-callback-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290560/lli5o7npquru6vbgfeb1frpv73qi/contact-callback-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/308404/eq2ib5o98nrldkxauzd5y3231dzy/contact-callback-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308403/pahtidqc947zd0v5k7josxydmdic/contact-callback-mobile.jpg"
       },
       "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "demoPath": "blocks/contact/contact-callback",
