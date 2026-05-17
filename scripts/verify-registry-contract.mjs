@@ -232,6 +232,30 @@ if (hmht) {
     "exampleProps.actions[1].variant != outline",
   );
 
+  // Code field safety: example demo code must not reference placeholder
+  // media variables or relative /images/ paths, and must use absolute URLs.
+  const code = hmht.code || "";
+  check(
+    pfx,
+    !/imagePlaceholders/.test(code),
+    "code must not import/use 'imagePlaceholders'",
+  );
+  check(
+    pfx,
+    !/videoPlaceholders/.test(code),
+    "code must not import/use 'videoPlaceholders'",
+  );
+  check(
+    pfx,
+    !/["']\/images\//.test(code),
+    "code must not use relative '/images/' paths",
+  );
+  check(
+    pfx,
+    /https?:\/\//.test(code),
+    "code must reference absolute media URLs",
+  );
+
   // propsSchema projection
   const enriched = enrichPropsSchemaWithConstraints(
     hmht.propsSchema || {},
@@ -365,6 +389,46 @@ if (hmvs) {
     pfx,
     /^https?:\/\//.test(ep.modalVideo?.video?.src || ""),
     "exampleProps.modalVideo.video.src must be an absolute URL",
+  );
+
+  // Code field safety: example demo code must not reference placeholder
+  // media variables, must use the new modalVideo prop shape, and must not
+  // use the legacy videoUrl/videoThumbnail props.
+  const code = hmvs.code || "";
+  check(
+    pfx,
+    !/imagePlaceholders/.test(code),
+    "code must not import/use 'imagePlaceholders'",
+  );
+  check(
+    pfx,
+    !/videoPlaceholders/.test(code),
+    "code must not import/use 'videoPlaceholders'",
+  );
+  check(
+    pfx,
+    !/["']\/images\//.test(code),
+    "code must not use relative '/images/' paths",
+  );
+  check(
+    pfx,
+    /modalVideo/.test(code),
+    "code must use the 'modalVideo' prop shape",
+  );
+  check(
+    pfx,
+    !/\bvideoUrl=/.test(code),
+    "code must not use legacy 'videoUrl' prop",
+  );
+  check(
+    pfx,
+    !/\bvideoThumbnail=/.test(code),
+    "code must not use legacy 'videoThumbnail' prop",
+  );
+  check(
+    pfx,
+    /https?:\/\//.test(code),
+    "code must reference absolute media URLs",
   );
 
   // propsSchema projection: image gets media hints, mediaHints distinguish video slot
