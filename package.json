@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync:registry": "node scripts/sync-registry.mjs"
+    "sync:registry": "node scripts/sync-registry.mjs",
+    "verify:registry-contract": "node scripts/verify-registry-contract.mjs"
   },
   "dependencies": {
     "@opensite/hooks": "2.1.0",

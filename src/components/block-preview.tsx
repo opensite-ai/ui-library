@@ -40,7 +40,7 @@ function buildPreviewBlocks(block: Block): PageSpeedBlock[] {
       _id: `showcase-preview:${block.id}`,
       _type: `showcase:${block.id}`,
       _parent: null,
-      blockProps: block.defaultProps ?? {},
+      blockProps: block.exampleProps ?? {},
     },
   ];
 }
