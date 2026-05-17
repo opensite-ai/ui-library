@@ -1,12 +1,11 @@
 import { CarouselAutoplayProgress } from "@opensite/ui/blocks/carousel/carousel-autoplay-progress";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
     <CarouselAutoplayProgress
       slides={[
         {
-          src: imagePlaceholders[12],
+          src: "https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac",
           alt: "Mountain Expedition",
           content: (
             <div className="mt-2">
@@ -18,7 +17,7 @@ export default function Demo() {
           ),
         },
         {
-          src: imagePlaceholders[28],
+          src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
           alt: "Urban Architecture",
           content: (
             <div className="mt-2">
@@ -30,7 +29,7 @@ export default function Demo() {
           ),
         },
         {
-          src: imagePlaceholders[45],
+          src: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz",
           alt: "Coastal Sunset",
           content: (
             <div className="mt-2">
@@ -42,7 +41,7 @@ export default function Demo() {
           ),
         },
         {
-          src: imagePlaceholders[61],
+          src: "https://toastability-production.s3.amazonaws.com/9797jh6slgbf9oq6lzlimcdiuziv",
           alt: "Forest Canopy",
           content: (
             <div className="mt-2">
@@ -54,7 +53,7 @@ export default function Demo() {
           ),
         },
         {
-          src: imagePlaceholders[78],
+          src: "https://toastability-production.s3.amazonaws.com/betxbx61fkijt0aygineplf489ze",
           alt: "Desert Dunes",
           content: (
             <div className="mt-2">
@@ -66,7 +65,7 @@ export default function Demo() {
           ),
         },
         {
-          src: imagePlaceholders[94],
+          src: "https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt",
           alt: "Northern Lights",
           content: (
             <div className="mt-2">

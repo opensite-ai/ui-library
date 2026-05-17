@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui";
 import { HeroBusinessOperationsMosaic } from "@opensite/ui/blocks/hero/hero-business-operations-mosaic";
 
@@ -8,9 +7,9 @@ export default function Demo() {
       heading="Streamline your business operations"
       description="Unified platform for managing all aspects of your business. From inventory to accounting, everything in one place. Join use today."
       images={[
-        { src: imagePlaceholders[56], alt: "Operations 1" },
-        { src: imagePlaceholders[57], alt: "Operations 2" },
-        { src: imagePlaceholders[58], alt: "Operations 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Operations 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Operations 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Operations 3" },
       ]}
       actions={[
         {

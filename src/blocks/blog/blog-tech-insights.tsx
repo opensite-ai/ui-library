@@ -1,5 +1,4 @@
 import { BlogTechInsights } from "@opensite/ui/blocks/blog/blog-tech-insights";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -16,9 +15,9 @@ export default function Demo() {
       featuredPost={{
         id: "featured",
         title: "The Rise of Edge Computing in Modern Applications",
-        image: imagePlaceholders[50],
+        image: "https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt",
         author: "Dr. Emily Chang",
-        authorAvatar: imagePlaceholders[85],
+        authorAvatar: "https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u",
         authorRole: "Principal Architect",
         href: "/blog/edge-computing-rise",
       }}
@@ -28,7 +27,7 @@ export default function Demo() {
           title: "WebAssembly: Transforming Web Performance",
           description:
             "How WebAssembly is transforming browser-based applications and enabling near-native performance for web apps.",
-          image: imagePlaceholders[4],
+          image: "https://toastability-production.s3.amazonaws.com/pjgb223h1bjywdk15i3zi7pjhutg",
           href: "/blog/webassembly-transformation",
         },
         {
@@ -36,7 +35,7 @@ export default function Demo() {
           title: "Blockchain in Supply Chain Management",
           description:
             "Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.",
-          image: imagePlaceholders[17],
+          image: "https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov",
           href: "/blog/blockchain-supply-chain",
         },
         {
@@ -44,7 +43,7 @@ export default function Demo() {
           title: "Quantum-Resistant Cryptography: Preparing for the Future",
           description:
             "Deep dive into quantum-resistant cryptography and preparing systems for the post-quantum computing era.",
-          image: imagePlaceholders[37],
+          image: "https://toastability-production.s3.amazonaws.com/6ntdz6xwid3fswjz8y0otdxmzs40",
           href: "/blog/quantum-resistant-crypto",
         },
       ]}

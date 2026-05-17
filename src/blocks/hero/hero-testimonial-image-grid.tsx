@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui";
 import { HeroTestimonialImageGrid } from "@opensite/ui/blocks/hero/hero-testimonial-image-grid";
 
@@ -13,13 +12,13 @@ export default function Demo() {
         author: "Sarah Johnson",
         role: "CEO",
         company: "TechCorp",
-        avatars: [{ image: imagePlaceholders[24], fallback: "SJ" }],
+        avatars: [{ image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "SJ" }],
       }}
       gridImages={[
-        { src: imagePlaceholders[25], alt: "Customer success story 1" },
-        { src: imagePlaceholders[26], alt: "Customer success story 2" },
-        { src: imagePlaceholders[27], alt: "Customer success story 3" },
-        { src: imagePlaceholders[28], alt: "Customer success story 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer success story 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer success story 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer success story 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer success story 4" },
       ]}
       actions={[
         {

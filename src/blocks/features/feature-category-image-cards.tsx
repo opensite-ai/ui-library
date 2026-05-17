@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureCategoryImageCards } from "@opensite/ui/blocks/features/feature-category-image-cards";
 
 export default function Demo() {
@@ -11,19 +10,19 @@ export default function Demo() {
         {
           title: "Authentication & Security",
           category: "Core Infrastructure",
-          imageSrc: imagePlaceholders[48],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/vvkma6b8whdkiq5nq8z4eyfe00vo",
           imageAlt: "Authentication features",
         },
         {
           title: "Data Analytics",
           category: "Insights & Reporting",
-          imageSrc: imagePlaceholders[85],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/9ujya2tfhxja7y5s9wb7d2u8crhd",
           imageAlt: "Analytics dashboard",
         },
         {
           title: "API Management",
           category: "Developer Tools",
-          imageSrc: imagePlaceholders[104],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/klr5tuvulkyqfb721txtu4hgzxdm",
           imageAlt: "API management",
         },
       ]}

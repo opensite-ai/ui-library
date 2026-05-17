@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroTestimonialImageGrid } from "@opensite/ui/blocks/hero/hero-testimonial-image-grid";
 
 export default function Demo() {
@@ -11,13 +10,13 @@ export default function Demo() {
         author: "Alex Thompson",
         role: "CTO",
         company: "TechVentures",
-        avatars: [{ image: imagePlaceholders[37], fallback: "AT" }],
+        avatars: [{ image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "AT" }],
       }}
       gridImages={[
-        { src: imagePlaceholders[37], alt: "Customer 1" },
-        { src: imagePlaceholders[38], alt: "Customer 2" },
-        { src: imagePlaceholders[39], alt: "Customer 3" },
-        { src: imagePlaceholders[40], alt: "Customer 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 4" },
       ]}
       actions={[
         {

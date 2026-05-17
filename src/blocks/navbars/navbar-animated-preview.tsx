@@ -1,5 +1,5 @@
 import { NavbarAnimatedPreview } from "@opensite/ui/blocks/navbars/navbar-animated-preview";
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
 import FeatureShowcase from "@/blocks/features/feature-showcase";
 import FaqSplitHelp from "@/blocks/faq/faq-split-help";
@@ -21,28 +21,28 @@ export default function Demo() {
               {
                 label: "Analytics Platform",
                 description: "Real-time data insights and reporting",
-                image: imagePlaceholders[0],
+                image: "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn",
                 url: "#",
                 iconName: "lucide/bar-chart",
               },
               {
                 label: "Marketing Suite",
                 description: "Complete marketing automation tools",
-                image: imagePlaceholders[1],
+                image: "https://toastability-production.s3.amazonaws.com/g1iuifb3yzoofo9c7a00koyn6q1t",
                 url: "#",
                 iconName: "lucide/megaphone",
               },
               {
                 label: "CRM System",
                 description: "Customer relationship management",
-                image: imagePlaceholders[2],
+                image: "https://toastability-production.s3.amazonaws.com/z9u4sdrj2oq3eds0qyui0nxsus3j",
                 url: "#",
                 iconName: "lucide/users",
               },
               {
                 label: "API Platform",
                 description: "Developer-friendly APIs",
-                image: imagePlaceholders[3],
+                image: "https://toastability-production.s3.amazonaws.com/63aotyt2pb4gqpccej2kkw8reson",
                 url: "#",
                 iconName: "lucide/code",
               },
@@ -57,14 +57,14 @@ export default function Demo() {
                 description: "Scale your business with enterprise solutions",
                 url: "#",
                 iconName: "lucide/building",
-                background: imagePlaceholders[4],
+                background: "https://toastability-production.s3.amazonaws.com/pjgb223h1bjywdk15i3zi7pjhutg",
               },
               {
                 label: "Small Business",
                 description: "Perfect tools for growing companies",
                 url: "#",
                 iconName: "lucide/briefcase",
-                background: imagePlaceholders[5],
+                background: "https://toastability-production.s3.amazonaws.com/we9r4e711an6d0bd3dwbl9tb9z7q",
               },
             ],
             links: [
@@ -135,7 +135,7 @@ export default function Demo() {
             ],
             imageLink: {
               label: "New: API v2.0 Released",
-              image: imagePlaceholders[6],
+              image: "https://toastability-production.s3.amazonaws.com/f8rfrurzo743ym1s7m5xtbombunz",
               url: "#",
             },
           },

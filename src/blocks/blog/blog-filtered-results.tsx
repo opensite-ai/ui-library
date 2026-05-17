@@ -1,5 +1,4 @@
 import { BlogFilteredResults } from "@opensite/ui/blocks/blog/blog-filtered-results";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -20,7 +19,7 @@ export default function Demo() {
         summary:
           "Learn how to build robust continuous integration and deployment pipelines that can handle enterprise-level complexity.",
         category: "DevOps",
-        thumbnail: imagePlaceholders[28],
+        thumbnail: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
         cta: "Read Full Article",
         href: "/blog/cicd-at-scale",
       }}
@@ -31,7 +30,7 @@ export default function Demo() {
           summary:
             "Essential security practices for containerized applications and infrastructure.",
           category: "security",
-          thumbnail: imagePlaceholders[71],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55",
           cta: "Learn More",
           href: "/blog/container-security",
         },
@@ -41,7 +40,7 @@ export default function Demo() {
           summary:
             "Understanding the architecture and benefits of React Server Components for modern web apps.",
           category: "development",
-          thumbnail: imagePlaceholders[15],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc",
           cta: "Explore",
           href: "/blog/react-server-components",
         },
@@ -51,7 +50,7 @@ export default function Demo() {
           summary:
             "Techniques for creating responsive, real-time data visualization platforms.",
           category: "data",
-          thumbnail: imagePlaceholders[39],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/y1aezpa78m2fhfvj8whcx337y9cb",
           cta: "Read More",
           href: "/blog/realtime-analytics",
         },
@@ -61,7 +60,7 @@ export default function Demo() {
           summary:
             "Proven strategies to make your mobile applications faster and more responsive.",
           category: "mobile",
-          thumbnail: imagePlaceholders[54],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08",
           cta: "Discover",
           href: "/blog/mobile-performance",
         },
@@ -71,7 +70,7 @@ export default function Demo() {
           summary:
             "How to create clear, effective documentation that developers actually want to read.",
           category: "writing",
-          thumbnail: imagePlaceholders[88],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw",
           cta: "Read Now",
           href: "/blog/technical-writing",
         },
@@ -81,7 +80,7 @@ export default function Demo() {
           summary:
             "Monitoring, logging, and tracing strategies for complex distributed architectures.",
           category: "infrastructure",
-          thumbnail: imagePlaceholders[22],
+          thumbnail: "https://toastability-production.s3.amazonaws.com/2d4k8d5shwg82276hzj2ztbj7mxq",
           cta: "View Article",
           href: "/blog/distributed-observability",
         },

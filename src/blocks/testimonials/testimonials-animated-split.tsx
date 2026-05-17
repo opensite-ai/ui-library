@@ -1,5 +1,4 @@
 import { TestimonialsAnimatedSplit } from "@opensite/ui/blocks/testimonials/testimonials-animated-split";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,8 +10,8 @@ export default function Demo() {
           author: "Sarah Chen",
           role: "VP of Operations",
           company: "TechFlow Solutions",
-          avatarSrc: imagePlaceholders[42],
-          image: imagePlaceholders[15],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p",
+          image: "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc",
         },
         {
           quote:
@@ -20,8 +19,8 @@ export default function Demo() {
           author: "Marcus Johnson",
           role: "Director of Engineering",
           company: "Innovate Labs",
-          avatarSrc: imagePlaceholders[51],
-          image: imagePlaceholders[28],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt",
+          image: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
         },
         {
           quote:
@@ -29,8 +28,8 @@ export default function Demo() {
           author: "Emily Rodriguez",
           role: "Chief Strategy Officer",
           company: "DataVision Inc",
-          avatarSrc: imagePlaceholders[67],
-          image: imagePlaceholders[39],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/vrezhtksoqbw1nyo4hwnoqizrus5",
+          image: "https://toastability-production.s3.amazonaws.com/y1aezpa78m2fhfvj8whcx337y9cb",
         },
         {
           quote:
@@ -38,8 +37,8 @@ export default function Demo() {
           author: "David Park",
           role: "Head of Customer Success",
           company: "ServicePro",
-          avatarSrc: imagePlaceholders[88],
-          image: imagePlaceholders[54],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/ytbyjrcvrghc7wl6w1g7g8fwka22",
+          image: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08",
         },
       ]}
       // autoPlayInterval={7000}

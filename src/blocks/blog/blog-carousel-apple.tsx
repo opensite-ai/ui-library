@@ -1,5 +1,4 @@
 import { BlogCarouselApple } from "@opensite/ui/blocks/blog/blog-carousel-apple";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -8,7 +7,7 @@ export default function Demo() {
       subtitle="Trending Now"
       posts={[
         {
-          image: imagePlaceholders[45],
+          image: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz",
           title: "The Evolution of Cloud-Native Development",
           category: "Cloud Computing",
           url: "/blog/cloud-native-evolution",
@@ -16,7 +15,7 @@ export default function Demo() {
             "Explore how cloud-native architectures are transforming software development and deployment strategies across industries.",
         },
         {
-          image: imagePlaceholders[1],
+          image: "https://toastability-production.s3.amazonaws.com/g1iuifb3yzoofo9c7a00koyn6q1t",
           title: "Blockchain Beyond Cryptocurrency",
           category: "Innovation",
           url: "/blog/blockchain-applications",
@@ -24,7 +23,7 @@ export default function Demo() {
             "Discover practical blockchain applications in supply chain, healthcare, and enterprise solutions beyond digital currencies.",
         },
         {
-          image: imagePlaceholders[28],
+          image: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
           title: "UX Design Principles for Mobile-First",
           category: "Design",
           url: "/blog/mobile-first-ux",
@@ -32,7 +31,7 @@ export default function Demo() {
             "Master the essential principles of creating intuitive mobile experiences that users love and businesses benefit from.",
         },
         {
-          image: imagePlaceholders[67],
+          image: "https://toastability-production.s3.amazonaws.com/3ghn8dz3g9qtt4pf4nwbriaydvzb",
           title: "Quantum Computing: Current State and Future",
           category: "Technology",
           url: "/blog/quantum-computing-future",
@@ -40,7 +39,7 @@ export default function Demo() {
             "An in-depth look at quantum computing's progress, challenges, and potential impact on various industries.",
         },
         {
-          image: imagePlaceholders[42],
+          image: "https://toastability-production.s3.amazonaws.com/gafgk4cwd845yo094665jsuq9e21",
           title: "API-First Development Strategy",
           category: "Development",
           url: "/blog/api-first-strategy",

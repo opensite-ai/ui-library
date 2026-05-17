@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FaqSplitHero } from "@opensite/ui/blocks/faq/faq-split-hero";
 
 export default function Demo() {

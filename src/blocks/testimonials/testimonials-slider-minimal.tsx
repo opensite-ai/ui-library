@@ -1,5 +1,4 @@
 import { TestimonialsSliderMinimal } from "@opensite/ui/blocks/testimonials/testimonials-slider-minimal";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,7 +10,7 @@ export default function Demo() {
           author: "Dr. Elizabeth Foster",
           role: "Chief Executive Officer",
           company: "Innovation Group",
-          avatarSrc: imagePlaceholders[41],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y",
         },
         {
           quote:
@@ -19,7 +18,7 @@ export default function Demo() {
           author: "Michael Bennett",
           role: "VP of Technology",
           company: "ReliableTech",
-          avatarSrc: imagePlaceholders[59],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/9z0sbfnskx70vse99e3dfhper7i1",
         },
         {
           quote:
@@ -27,7 +26,7 @@ export default function Demo() {
           author: "Sophia Rodriguez",
           role: "Director of Customer Success",
           company: "ServicePro Inc",
-          avatarSrc: imagePlaceholders[77],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/ms4s4zyqpmboh0slez1cwat9qhw4",
         },
       ]}
       autoPlayInterval={46000}

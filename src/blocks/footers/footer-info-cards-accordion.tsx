@@ -1,5 +1,5 @@
 import { FooterInfoCardsAccordion } from "@opensite/ui/blocks/footers/footer-info-cards-accordion";
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -117,7 +117,7 @@ export default function Demo() {
       ]}
       footerDetails={{
         image: {
-          src: imagePlaceholders[45],
+          src: "https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa",
           alt: "LuxeMart luxury shopping experience",
         },
         logo: {

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroStatsSocialProof } from "@opensite/ui/blocks/hero/hero-stats-social-proof";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -9,7 +8,7 @@ export default function Demo() {
       badgeIcon={<DynamicIcon name="lucide/star" size={16} />}
       heading="Trusted by thousands of businesses"
       description="Join the companies already experiencing transformative results with our platform."
-      imageSrc={imagePlaceholders[100]}
+      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
       imageAlt="Banner image"
       statusCard={{
         title: "Rated 4.9/5 by over 1,000 users",

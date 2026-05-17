@@ -1,5 +1,4 @@
 import { ExpandableCaseStudyCards } from "@opensite/ui/blocks/gallery/expandable-case-study-cards";
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,9 +10,9 @@ export default function Demo() {
           id: "1",
           title: "Global E-commerce Transformation",
           href: "#",
-          image: imagePlaceholders[110],
+          image: "https://toastability-production.s3.amazonaws.com/xwh1zzxgyd887thfm1j9lu9qnd6c",
           imageAlt: "E-commerce platform",
-          logo: brandLogoPlaceholders.black[0],
+          logo: "https://cdn.ing/assets/i/r/288964/4xdrg1wjc2knoy58ulqijicamar3/ui-placeholder-logo-dark-1.png",
           logoAlt: "TechCorp logo",
           company: "TechCorp",
           description:
@@ -24,9 +23,9 @@ export default function Demo() {
           id: "2",
           title: "Healthcare Data Platform",
           href: "#",
-          image: imagePlaceholders[111],
+          image: "https://toastability-production.s3.amazonaws.com/ri0dqx79spe6771np76mkmno5xfd",
           imageAlt: "Healthcare platform",
-          logo: brandLogoPlaceholders.black[1],
+          logo: "https://cdn.ing/assets/i/r/288965/aw0n8ithqntxtfweqrlmseqlcak7/ui-placeholder-logo-black-2.png",
           logoAlt: "MediSync logo",
           company: "MediSync",
           description:
@@ -37,9 +36,9 @@ export default function Demo() {
           id: "3",
           title: "Financial Services Modernization",
           href: "#",
-          image: imagePlaceholders[112],
+          image: "https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a",
           imageAlt: "Financial platform",
-          logo: brandLogoPlaceholders.black[2],
+          logo: "https://cdn.ing/assets/i/r/288972/kppvdeo8kgeweawxisqy9h9ybz6h/ui-placeholder-logo-black-3.png",
           logoAlt: "FinanceFlow logo",
           company: "FinanceFlow",
           description:
@@ -50,9 +49,9 @@ export default function Demo() {
           id: "4",
           title: "Manufacturing IoT Solution",
           href: "#",
-          image: imagePlaceholders[113],
+          image: "https://toastability-production.s3.amazonaws.com/w87w0fyjdol9yzwo7yywkgxidvzo",
           imageAlt: "IoT platform",
-          logo: brandLogoPlaceholders.black[3],
+          logo: "https://cdn.ing/assets/i/r/288970/op9ys0gsyi7len3w742n0os7ebu6/ui-placeholder-logo-black-4.png",
           logoAlt: "IndustrialTech logo",
           company: "IndustrialTech",
           description:

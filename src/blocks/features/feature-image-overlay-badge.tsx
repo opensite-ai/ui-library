@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureImageOverlayBadge } from "@opensite/ui/blocks/features/feature-image-overlay-badge";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,9 +20,9 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      imageSrc={imagePlaceholders[59]}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/9z0sbfnskx70vse99e3dfhper7i1"}
       imageAlt="Customer success story"
-      avatarSrc={imagePlaceholders[13]}
+      avatarSrc={"https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm"}
       avatarBadgeText="Featured"
       overlayTitle="TechCorp reduces deployment time by 90%"
       overlayLinkText="Read their journey"

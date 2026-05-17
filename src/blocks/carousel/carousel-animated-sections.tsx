@@ -1,5 +1,4 @@
 import { CarouselAnimatedSections } from "@opensite/ui/blocks/carousel/carousel-animated-sections";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,7 +10,7 @@ export default function Demo() {
           title: "Building the Future of AI",
           description:
             "Explore groundbreaking innovations that transform how businesses harness artificial intelligence to solve complex challenges and unlock new opportunities.",
-          image: imagePlaceholders[42],
+          image: "https://toastability-production.s3.amazonaws.com/0uv0c0b0wkud7ul98fnhzpowmwlj",
           ctaText: "Discover Our Platform",
           ctaHref: "#platform",
         },
@@ -21,7 +20,7 @@ export default function Demo() {
           title: "Design That Inspires Action",
           description:
             "Experience stunning visual narratives crafted with precision and purpose. Our design philosophy merges aesthetics with functionality to create memorable digital experiences.",
-          image: imagePlaceholders[67],
+          image: "https://toastability-production.s3.amazonaws.com/rka4y4l9ihtuho5wjylbbaiyan5t",
           ctaText: "View Our Work",
           ctaHref: "#portfolio",
         },
@@ -31,7 +30,7 @@ export default function Demo() {
           title: "Lightning-Fast Performance",
           description:
             "Built on cutting-edge infrastructure that delivers millisecond response times. Every interaction is optimized for speed, reliability, and seamless user experience.",
-          image: imagePlaceholders[89],
+          image: "https://toastability-production.s3.amazonaws.com/s45m6e1h7aeq23z9oiiquqjycl34",
           ctaText: "See Benchmarks",
           ctaHref: "#performance",
         },
@@ -41,7 +40,7 @@ export default function Demo() {
           title: "Fort Knox-Level Protection",
           description:
             "Your data is protected by military-grade encryption and multi-layered security protocols. We meet the highest compliance standards across all major industries.",
-          image: imagePlaceholders[103],
+          image: "https://toastability-production.s3.amazonaws.com/4u3pi66nga47kc1th8tyqd3lpj28",
           ctaText: "Security Details",
           ctaHref: "#security",
         },

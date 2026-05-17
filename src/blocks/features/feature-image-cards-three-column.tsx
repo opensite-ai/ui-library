@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureImageCardsThreeColumn } from "@opensite/ui/blocks/features/feature-image-cards-three-column";
 
 export default function Demo() {
@@ -16,7 +15,7 @@ export default function Demo() {
           title: "Rapid Development",
           linkText: "Learn More",
           link: "#",
-          imageSrc: imagePlaceholders[39],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/6ntdz6xwid3fswjz8y0otdxmzs40",
           imageAlt: "Rapid development workflow",
         },
         {
@@ -25,7 +24,7 @@ export default function Demo() {
           title: "Security First",
           linkText: "Explore Features",
           link: "#",
-          imageSrc: imagePlaceholders[72],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55",
           imageAlt: "Security features",
         },
         {
@@ -34,7 +33,7 @@ export default function Demo() {
           title: "Scale Seamlessly",
           linkText: "See How",
           link: "#",
-          imageSrc: imagePlaceholders[95],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/yw5f7iwyypf4kctpr5ye5e495swt",
           imageAlt: "Scalability features",
         },
       ]}

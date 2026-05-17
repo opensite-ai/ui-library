@@ -1,6 +1,5 @@
 "use client";
 
-import { imagePlaceholders } from "@/lib/media";
 import { HeroSaasDashboardPreview } from "@opensite/ui/blocks/hero/hero-saas-dashboard-preview";
 import { demoFormConfig } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
@@ -40,7 +39,7 @@ export default function Demo() {
       browserPreview={{
         url: "yourbrand.com/showcase",
         image: {
-          src: imagePlaceholders[83],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Dashboard",
         },
       }}

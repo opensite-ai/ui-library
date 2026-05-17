@@ -3,7 +3,6 @@
 import { ContactImage } from "@opensite/ui/blocks/contact/contact-image";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
-import { imagePlaceholders } from "@/lib/media";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -77,7 +76,7 @@ export default function Demo() {
   return (
     <ContactImage
       image={{
-        src: imagePlaceholders[103],
+        src: "https://toastability-production.s3.amazonaws.com/t7iteqw4xhtppkiws88bsoia25hv",
         alt: "A person working at a desk"
       }}
       eyebrow="Ready to Start?"

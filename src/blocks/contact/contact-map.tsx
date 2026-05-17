@@ -3,7 +3,6 @@
 import { ContactMap } from "@opensite/ui/blocks/contact/contact-map";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { imagePlaceholders } from "@/lib/media";
 import { stadiaApiKey } from "@/lib/tools";
 import type { FormFieldConfig } from "@opensite/ui";
 import type { GeoMapMarker, GeoMapProps } from "@page-speed/maps";
@@ -59,7 +58,7 @@ const downtownPhoenixMarker: GeoMapMarker = {
   mediaItems: [
     {
       id: "downtown-media-1",
-      src: imagePlaceholders[113],
+      src: "https://toastability-production.s3.amazonaws.com/w87w0fyjdol9yzwo7yywkgxidvzo",
       alt: "Downtown PHX Craft signature espresso martini",
     },
   ],
@@ -106,17 +105,17 @@ const northScottsdaleMarker: GeoMapMarker = {
   mediaItems: [
     {
       id: "scottsdale-media-1",
-      src: imagePlaceholders[112],
+      src: "https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a",
       alt: "North Scottsdale venue interior",
     },
     {
       id: "scottsdale-media-2",
-      src: imagePlaceholders[119],
+      src: "https://cdn.ing/assets/i/r/289144/9thob27iku9i72elwvz5j03z6482/glamorous-nightlife-portrait-woman-burgundy-dress-upscale-bar.jpg",
       alt: "Fine dining and cocktails at North Scottsdale",
     },
     {
       id: "scottsdale-media-3",
-      src: imagePlaceholders[123],
+      src: "https://cdn.ing/assets/i/r/289156/eiiflor2urddvyvqmhsbshoocown/dessert-buffet-with-cannoli-and-mini-cakes-at-event.jpg",
       alt: "Guests dining at North Scottsdale",
     },
   ],

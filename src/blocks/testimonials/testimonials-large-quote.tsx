@@ -1,5 +1,4 @@
 import { TestimonialsLargeQuote } from "@opensite/ui/blocks/testimonials/testimonials-large-quote";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,7 +9,7 @@ export default function Demo() {
         author: "Victoria Reynolds",
         role: "Founder & CEO",
         company: "NextWave Ventures",
-        avatarSrc: imagePlaceholders[48],
+        avatarSrc: "https://toastability-production.s3.amazonaws.com/9797jh6slgbf9oq6lzlimcdiuziv",
       }}
       background="gradient"
       spacing="xl"

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroSharedInboxLayered } from "@opensite/ui/blocks/hero/hero-shared-inbox-layered";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -23,11 +22,11 @@ export default function Demo() {
       ]}
       layeredImages={{
         backgroundImage: {
-          src: imagePlaceholders[113],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Shared inbox background",
         },
         foregroundImage: {
-          src: imagePlaceholders[110],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Inbox foreground",
         },
       }}

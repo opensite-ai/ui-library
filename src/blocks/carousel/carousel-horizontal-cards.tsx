@@ -1,5 +1,4 @@
 import { CarouselHorizontalCards } from "@opensite/ui/blocks/carousel/carousel-horizontal-cards";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,56 +9,56 @@ export default function Demo() {
       items={[
         {
           id: "santorini",
-          imageSrc: imagePlaceholders[7],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/f8rfrurzo743ym1s7m5xtbombunz",
           title: "Santorini, Greece",
           count: "2,847",
           countLabel: "Travel Experiences",
         },
         {
           id: "kyoto",
-          imageSrc: imagePlaceholders[22],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw",
           title: "Kyoto, Japan",
           count: "3,192",
           countLabel: "Cultural Tours",
         },
         {
           id: "patagonia",
-          imageSrc: imagePlaceholders[38],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/op92dycs7w856e2jsvx20st0nyz9",
           title: "Patagonia, Chile",
           count: "1,563",
           countLabel: "Adventure Activities",
         },
         {
           id: "reykjavik",
-          imageSrc: imagePlaceholders[51],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/gl7n7p6atndufbsm6q2ac5jeqttp",
           title: "Reykjavik, Iceland",
           count: "2,104",
           countLabel: "Northern Lights Tours",
         },
         {
           id: "marrakech",
-          imageSrc: imagePlaceholders[69],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/rka4y4l9ihtuho5wjylbbaiyan5t",
           title: "Marrakech, Morocco",
           count: "1,876",
           countLabel: "Cultural Experiences",
         },
         {
           id: "queenstown",
-          imageSrc: imagePlaceholders[84],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/s45m6e1h7aeq23z9oiiquqjycl34",
           title: "Queenstown, New Zealand",
           count: "2,341",
           countLabel: "Outdoor Adventures",
         },
         {
           id: "barcelona",
-          imageSrc: imagePlaceholders[99],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/9fdc8a8f-a47b-5840-bb61-587c9c857a52",
           title: "Barcelona, Spain",
           count: "4,127",
           countLabel: "City Tours",
         },
         {
           id: "bali",
-          imageSrc: imagePlaceholders[112],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a",
           title: "Bali, Indonesia",
           count: "3,658",
           countLabel: "Wellness Retreats",

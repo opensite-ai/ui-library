@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroAdaptableProductGrid } from "@opensite/ui/blocks/hero/hero-adaptable-product-grid";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -15,7 +14,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/shopping-cart" size={16} />,
         },
       ]}
-      imageSrc={imagePlaceholders[10]}
+      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
       imageAlt="Product showcase"
       background="dark"
     />

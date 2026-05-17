@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroFullscreenBackgroundImage } from "@opensite/ui/blocks/hero/hero-fullscreen-background-image";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,7 +20,7 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/phone" size={16} />,
         },
       ]}
-      backgroundImage={imagePlaceholders[110]}
+      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
     />
   );
 }

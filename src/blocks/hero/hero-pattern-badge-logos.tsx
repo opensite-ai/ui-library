@@ -1,4 +1,3 @@
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroPatternBadgeLogos } from "@opensite/ui/blocks/hero/hero-pattern-badge-logos";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -22,12 +21,12 @@ export default function Demo() {
         },
       ]}
       logos={[
-        { src: brandLogoPlaceholders.black[0], alt: "Company 1" },
-        { src: brandLogoPlaceholders.black[1], alt: "Company 2" },
-        { src: brandLogoPlaceholders.black[2], alt: "Company 3" },
-        { src: brandLogoPlaceholders.black[3], alt: "Company 4" },
-        { src: brandLogoPlaceholders.black[4], alt: "Company 5" },
-        { src: brandLogoPlaceholders.black[5], alt: "Company 6" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 5" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company 6" },
       ]}
       pattern="architect"
       patternOpacity={0.1}

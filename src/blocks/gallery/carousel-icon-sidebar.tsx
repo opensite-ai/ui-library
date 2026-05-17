@@ -1,5 +1,4 @@
 import { CarouselIconSidebar } from "@opensite/ui/blocks/gallery/carousel-icon-sidebar";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -8,7 +7,7 @@ export default function Demo() {
       description="Discover the standout features that set our platform apart. Each element is designed with your success in mind, ensuring a seamless and powerful experience."
       items={[
         {
-          src: imagePlaceholders[60],
+          src: "https://toastability-production.s3.amazonaws.com/9keidwrag6g7jtqr7rdwb1ryt6ht",
           alt: "Elegant Design",
           title: "Elegant Design",
           description:
@@ -16,7 +15,7 @@ export default function Demo() {
           icon: "lucide/palette",
         },
         {
-          src: imagePlaceholders[61],
+          src: "https://toastability-production.s3.amazonaws.com/zm88vf14geh1gh0frd3yrdlb6pl8",
           alt: "High Performance",
           title: "High Performance",
           description:
@@ -24,7 +23,7 @@ export default function Demo() {
           icon: "lucide/zap",
         },
         {
-          src: imagePlaceholders[62],
+          src: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19",
           alt: "Secure by Default",
           title: "Secure by Default",
           description:
@@ -32,7 +31,7 @@ export default function Demo() {
           icon: "lucide/shield-check",
         },
         {
-          src: imagePlaceholders[63],
+          src: "https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x",
           alt: "Scalable Architecture",
           title: "Scalable Architecture",
           description:
@@ -40,7 +39,7 @@ export default function Demo() {
           icon: "lucide/trending-up",
         },
         {
-          src: imagePlaceholders[64],
+          src: "https://toastability-production.s3.amazonaws.com/t3k42fbzq7r7j93feldqm5cj1o1n",
           alt: "24/7 Support",
           title: "24/7 Support",
           description:

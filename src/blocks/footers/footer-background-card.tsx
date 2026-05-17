@@ -1,5 +1,5 @@
 import { FooterBackgroundCard } from "@opensite/ui/blocks/footers/footer-background-card";
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,8 +10,8 @@ export default function Demo() {
         alt: "Company Logo",
         title: "Your Agency",
       }}
-      backgroundImage={imagePlaceholders[99]}
-      profileImage={imagePlaceholders[72]}
+      backgroundImage="https://toastability-production.s3.amazonaws.com/9ughnl9wnko2vdboib8n3wl3cxsy"
+      profileImage="https://toastability-production.s3.amazonaws.com/krnuu3wc960ltazr5cu120xpzmj5"
       tagline="Sarah Mitchell"
       personalMessage="With over 15 years of experience in digital strategy and creative direction, I'm dedicated to helping brands tell their story and connect with audiences in meaningful ways. Every project is an opportunity to create something extraordinary."
       ctaText="Let's Work Together"

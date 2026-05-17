@@ -1,5 +1,4 @@
 import { LinkPageMinimalProfile } from "@opensite/ui/blocks/link-page/link-page-minimal-profile";
-import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
@@ -8,7 +7,7 @@ export default function Demo() {
       name="Alex Rivera"
       bio="Software Engineer & Open Source Contributor"
       avatar={{
-        src: logoPlaceholders.darkHorizontalLogo,
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
         alt: "Alex Rivera",
       }}
       links={[

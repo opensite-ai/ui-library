@@ -1,4 +1,3 @@
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroTechCarousel } from "@opensite/ui/blocks/hero/hero-tech-carousel";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -9,7 +8,7 @@ export default function Demo() {
       items={[
         {
           logo: {
-            src: brandLogoPlaceholders.white[0],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "InsuranceSite",
           },
           title: "InsuranceSite",
@@ -24,14 +23,14 @@ export default function Demo() {
             },
           ],
           backgroundMedia: [
-            { src: imagePlaceholders[0], alt: "" },
-            { src: imagePlaceholders[5], alt: "" },
-            { src: imagePlaceholders[10], alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
           ],
         },
         {
           logo: {
-            src: brandLogoPlaceholders.white[1],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "RealtorSite",
           },
           title: "RealtorSite",
@@ -46,14 +45,14 @@ export default function Demo() {
             },
           ],
           backgroundMedia: [
-            { src: imagePlaceholders[74], alt: "" },
-            { src: imagePlaceholders[52], alt: "" },
-            { src: imagePlaceholders[110], alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
           ],
         },
         {
           logo: {
-            src: brandLogoPlaceholders.white[2],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "CastKit",
           },
           title: "CastKit",
@@ -68,9 +67,9 @@ export default function Demo() {
             },
           ],
           backgroundMedia: [
-            { src: imagePlaceholders[88], alt: "" },
-            { src: imagePlaceholders[99], alt: "" },
-            { src: imagePlaceholders[130], alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
+            { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "" },
           ],
         },
       ]}

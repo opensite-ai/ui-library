@@ -1,4 +1,3 @@
-import { masterPlaylistUrls, videoPlaceholders } from "@/lib/media";
 import { HeroVideoOverlayStars } from "@opensite/ui/blocks/hero/hero-video-overlay-stars";
 
 export default function Demo() {

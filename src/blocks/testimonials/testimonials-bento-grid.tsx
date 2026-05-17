@@ -1,5 +1,4 @@
 import { TestimonialsBentoGrid } from "@opensite/ui/blocks/testimonials/testimonials-bento-grid";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           author: "Alexandra Bennett",
           role: "Chief Marketing Officer",
           company: "Growth Dynamics",
-          avatarSrc: imagePlaceholders[23],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/2d4k8d5shwg82276hzj2ztbj7mxq",
           featured: true,
           linkConfig: {
             href: "#",
@@ -26,7 +25,7 @@ export default function Demo() {
           author: "James Wilson",
           role: "Operations Director",
           company: "Streamline Co",
-          avatarSrc: imagePlaceholders[45],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/vh1aowwr93yz4qrzct2s4je0cxdo",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -38,7 +37,7 @@ export default function Demo() {
           author: "Priya Sharma",
           role: "CFO",
           company: "FinTech Innovations",
-          avatarSrc: imagePlaceholders[67],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/vrezhtksoqbw1nyo4hwnoqizrus5",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -50,7 +49,7 @@ export default function Demo() {
           author: "Michael Torres",
           role: "Engineering Lead",
           company: "CodeCraft",
-          avatarSrc: imagePlaceholders[89],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -62,7 +61,7 @@ export default function Demo() {
           author: "Lisa Chang",
           role: "Product Manager",
           company: "InnovateTech",
-          avatarSrc: imagePlaceholders[102],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -74,7 +73,7 @@ export default function Demo() {
           author: "Dr. Rachel Foster",
           role: "VP of Operations",
           company: "CustomerFirst Inc",
-          avatarSrc: imagePlaceholders[83],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/67fnapqepn7f8vwt0x4nqho70hbz",
           linkConfig: {
             href: "#",
             label: "Read More",

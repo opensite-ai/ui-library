@@ -1,4 +1,3 @@
-import { videoPlaceholders } from "@/lib/media";
 import { HeroProductivityLauncherVideo } from "@opensite/ui/blocks/hero/hero-productivity-launcher-video";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,7 +20,7 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/play-circle" size={16} />,
         },
       ]}
-      videoSrc={videoPlaceholders[18]}
+      videoSrc={"https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1"}
       versionInfo={{
         version: "v2.0",
         osRequirement: "All platforms",

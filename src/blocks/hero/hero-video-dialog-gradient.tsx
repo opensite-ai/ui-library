@@ -1,4 +1,3 @@
-import { imagePlaceholders, videoPlaceholders } from "@/lib/media";
 import { HeroVideoDialogGradient } from "@opensite/ui/blocks/hero/hero-video-dialog-gradient";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,12 +20,12 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: imagePlaceholders[35],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Platform demo preview",
       }}
       videoDialog={{
         title: "Platform Demo",
-        videoUrl: videoPlaceholders[35],
+        videoUrl: "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
       }}
       background="gradient"
       pattern="circuitBoardFadeTop"

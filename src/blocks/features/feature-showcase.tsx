@@ -1,4 +1,4 @@
-import { imagePlaceholders, optixFlowApiKey } from "@/lib/media";
+
 import { Pressable } from "@opensite/ui";
 import { FeatureShowcase } from "@opensite/ui/blocks/features/feature-showcase";
 import { Img } from "@page-speed/img";
@@ -32,7 +32,7 @@ export default function Demo() {
           ),
           mediaComponent: (
             <Img
-              src={imagePlaceholders[62]}
+              src={"https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19"}
               alt="Edge deployment"
               className="w-full rounded-lg object-cover"
               optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
@@ -54,7 +54,7 @@ export default function Demo() {
           ),
           mediaComponent: (
             <Img
-              src={imagePlaceholders[84]}
+              src={"https://toastability-production.s3.amazonaws.com/gq3c9qalkiomu0rzdzxymkdaazdu"}
               alt="Analytics dashboard"
               className="w-full rounded-lg object-cover"
               optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
@@ -75,7 +75,7 @@ export default function Demo() {
           ),
           mediaComponent: (
             <Img
-              src={imagePlaceholders[107]}
+              src={"https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw"}
               alt="Team collaboration"
               className="w-full rounded-lg object-cover"
               optixFlowConfig={{ apiKey: optixFlowApiKey as string }}

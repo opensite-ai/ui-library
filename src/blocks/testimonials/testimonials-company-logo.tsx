@@ -1,5 +1,4 @@
 import { TestimonialsCompanyLogo } from "@opensite/ui/blocks/testimonials/testimonials-company-logo";
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,9 +9,9 @@ export default function Demo() {
         author: "Dr. Catherine Wells",
         role: "Chief Information Officer",
       }}
-      companyLogo={brandLogoPlaceholders.white[0]}
+      companyLogo={"https://cdn.ing/assets/i/r/288963/4kq4loxmhh5lwc7scw7hhusu87km/ui-placeholder-logo-white-1.png"}
       companyLogoAlt="Enterprise Client Logo"
-      imageSrc={imagePlaceholders[25]}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/f921uoblxbv8f9bmr4s2ik7xxugl"}
       imageAlt="Modern office space"
       background="gray"
       pattern="diagonalCrossBasic"

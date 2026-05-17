@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroGridPatternSolutions } from "@opensite/ui/blocks/hero/hero-grid-pattern-solutions";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -10,10 +9,10 @@ export default function Demo() {
       heading="Complete solutions for every challenge"
       description="From startups to enterprises, we provide comprehensive solutions tailored to your unique needs and goals."
       images={[
-        { src: imagePlaceholders[10], alt: "For Business" },
-        { src: imagePlaceholders[11], alt: "For Developers" },
-        { src: imagePlaceholders[12], alt: "For Teams" },
-        { src: imagePlaceholders[13], alt: "For Teams" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Business" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Developers" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Teams" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Teams" },
       ]}
       actions={[
         {

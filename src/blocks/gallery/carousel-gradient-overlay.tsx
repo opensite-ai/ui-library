@@ -1,5 +1,4 @@
 import { CarouselGradientOverlay } from "@opensite/ui/blocks/gallery/carousel-gradient-overlay";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           description:
             "Complete digital overhaul for Fortune 500 company, modernizing legacy systems and implementing cloud-native architecture.",
           href: "#",
-          image: imagePlaceholders[40],
+          image: "https://toastability-production.s3.amazonaws.com/eoa76d31ynbg34urr6e4619la1f7",
           imageAlt: "Digital transformation project",
         },
         {
@@ -22,7 +21,7 @@ export default function Demo() {
           description:
             "Intelligent chatbot platform handling 10,000+ customer inquiries daily with 95% satisfaction rate and instant response times.",
           href: "#",
-          image: imagePlaceholders[41],
+          image: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y",
           imageAlt: "AI customer service interface",
         },
         {
@@ -31,7 +30,7 @@ export default function Demo() {
           description:
             "Real-time logistics platform reducing delivery times by 30% through predictive analytics and route optimization.",
           href: "#",
-          image: imagePlaceholders[42],
+          image: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p",
           imageAlt: "Supply chain dashboard",
         },
         {
@@ -40,7 +39,7 @@ export default function Demo() {
           description:
             "Award-winning mobile application with 2M+ active users, featuring biometric authentication and instant transfers.",
           href: "#",
-          image: imagePlaceholders[43],
+          image: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k",
           imageAlt: "Mobile banking interface",
         },
         {
@@ -49,7 +48,7 @@ export default function Demo() {
           description:
             "Connected manufacturing platform monitoring 500+ devices in real-time, improving efficiency by 45%.",
           href: "#",
-          image: imagePlaceholders[44],
+          image: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz",
           imageAlt: "IoT factory monitoring",
         },
       ]}

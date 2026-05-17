@@ -1,5 +1,4 @@
 import { TestimonialsCarouselImage } from "@opensite/ui/blocks/testimonials/testimonials-carousel-image";
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,8 +10,8 @@ export default function Demo() {
           author: "Jennifer Martinez",
           role: "VP of Product",
           company: "CloudScale",
-          backgroundImage: imagePlaceholders[12],
-          logoSrc: brandLogoPlaceholders.white[0],
+          backgroundImage: "https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac",
+          logoSrc: "https://cdn.ing/assets/i/r/288963/4kq4loxmhh5lwc7scw7hhusu87km/ui-placeholder-logo-white-1.png",
         },
         {
           quote:
@@ -20,8 +19,8 @@ export default function Demo() {
           author: "Robert Chen",
           role: "Chief Technology Officer",
           company: "NextGen Solutions",
-          backgroundImage: imagePlaceholders[34],
-          logoSrc: brandLogoPlaceholders.white[1],
+          backgroundImage: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
+          logoSrc: "https://cdn.ing/assets/i/r/288966/0ls9to9jqnrc4gcxty9rx2c4udjv/ui-placeholder-logo-white-2.png",
         },
         {
           quote:
@@ -29,8 +28,8 @@ export default function Demo() {
           author: "Amanda Foster",
           role: "Director of Operations",
           company: "Enterprise Dynamics",
-          backgroundImage: imagePlaceholders[56],
-          logoSrc: brandLogoPlaceholders.white[2],
+          backgroundImage: "https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh",
+          logoSrc: "https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png",
         },
         {
           quote:
@@ -38,8 +37,8 @@ export default function Demo() {
           author: "Daniel Kim",
           role: "Information Security Officer",
           company: "SecureData Corp",
-          backgroundImage: imagePlaceholders[78],
-          logoSrc: brandLogoPlaceholders.white[3],
+          backgroundImage: "https://toastability-production.s3.amazonaws.com/5jsc0b4e3gxnjs81iotw2c3e6da3",
+          logoSrc: "https://cdn.ing/assets/i/r/288969/h9k3b0ett73u3pouc2w15ibvl7tc/ui-placeholder-logo-white-4.png",
         },
       ]}
       height="h-[500px] md:h-[600px] lg:h-[700px]"

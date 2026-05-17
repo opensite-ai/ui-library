@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui";
 import { HeroCustomerSupportLayered } from "@opensite/ui/blocks/hero/hero-customer-support-layered";
 
@@ -9,9 +8,9 @@ export default function Demo() {
       description="Deliver exceptional customer experiences with our multi-channel support platform. Fast, efficient, and always there when you need it."
       tagline="Customer Support"
       images={[
-        { src: imagePlaceholders[85], alt: "Support interface 1" },
-        { src: imagePlaceholders[86], alt: "Support interface 2" },
-        { src: imagePlaceholders[87], alt: "Support interface 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 3" },
       ]}
       actions={[
         {

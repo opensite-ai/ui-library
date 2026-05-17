@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureCardGridLinked } from "@opensite/ui/blocks/features/feature-card-grid-linked";
 
 export default function Demo() {
@@ -16,7 +15,7 @@ export default function Demo() {
           heading: "Scale with Confidence",
           description:
             "Enterprise-grade infrastructure with dedicated support, SLA guarantees, and custom integrations.",
-          image: imagePlaceholders[68],
+          image: "https://toastability-production.s3.amazonaws.com/ihhq8unynafk4aikmys3rhbfibaz",
           imageAlt: "Enterprise solutions",
           url: "#",
         },
@@ -26,7 +25,7 @@ export default function Demo() {
           heading: "Build Faster",
           description:
             "Complete SDK, CLI tools, and comprehensive documentation to accelerate your development workflow.",
-          image: imagePlaceholders[82],
+          image: "https://toastability-production.s3.amazonaws.com/kka8f550on7acx1lf82xleu6zhzo",
           imageAlt: "Developer tools",
           url: "#",
         },
@@ -36,7 +35,7 @@ export default function Demo() {
           heading: "Launch Quickly",
           description:
             "Everything you need to go from idea to production in days, not months.",
-          image: imagePlaceholders[101],
+          image: "https://toastability-production.s3.amazonaws.com/3dy9ge962uarlaf2xl7imdcviqgx",
           imageAlt: "Startup solutions",
           url: "#",
         },
@@ -46,7 +45,7 @@ export default function Demo() {
           heading: "Optimize Your Content",
           description:
             "Leverage AI-driven tools to enhance your content strategy and boost engagement.",
-          image: imagePlaceholders[33],
+          image: "https://toastability-production.s3.amazonaws.com/102grjqg8aigxkj585s9x3xbxfv7",
           imageAlt: "Startup solutions",
           url: "#",
         },

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroWelcomeAsymmetricImages } from "@opensite/ui/blocks/hero/hero-welcome-asymmetric-images";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,10 +20,10 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[117], alt: "Feature 1" },
-        { src: imagePlaceholders[118], alt: "Feature 2" },
-        { src: imagePlaceholders[119], alt: "Feature 3" },
-        { src: imagePlaceholders[120], alt: "Feature 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 4" },
       ]}
       background="dark"
       pattern="dashedGridFadeCenter"

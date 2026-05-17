@@ -1,5 +1,4 @@
 import { TestimonialsSplitImage } from "@opensite/ui/blocks/testimonials/testimonials-split-image";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,9 +9,9 @@ export default function Demo() {
         author: "Dr. Jonathan Parker",
         role: "Chief Technology Officer",
         company: "TechVision Enterprises",
-        avatarSrc: imagePlaceholders[46],
+        avatarSrc: "https://toastability-production.s3.amazonaws.com/ssgb7unxdwdqokfvhkp7cok2v79s",
       }}
-      imageSrc={imagePlaceholders[64]}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/t3k42fbzq7r7j93feldqm5cj1o1n"}
       imageAlt="Modern office workspace"
       background="gray"
       pattern="diagonalCrossBasic"

@@ -1,4 +1,3 @@
-import { imagePlaceholders, optixFlowApiKey } from "@/lib/media";
 import { HeroFloatingImages } from "@opensite/ui/blocks/hero/hero-floating-images";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -27,22 +26,22 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: imagePlaceholders[10],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Floating Image 1",
           className: "rounded-lg shadow-lg",
         },
         {
-          src: imagePlaceholders[15],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Floating Image 2",
           className: "rounded-lg shadow-lg",
         },
         {
-          src: imagePlaceholders[20],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Floating Image 3",
           className: "rounded-lg shadow-lg",
         },
       ]}
-      optixFlowConfig={{ apiKey: optixFlowApiKey as string }}
+      optixFlowConfig={{ apiKey: "os-bcf1c82f-0c47-49ec-a303-807eec0a25c6" }}
       className="flex items-center justify-center"
       background="dark"
       pattern="gridFadeBottomLeft"

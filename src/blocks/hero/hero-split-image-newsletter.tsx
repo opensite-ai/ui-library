@@ -1,6 +1,5 @@
 "use client";
 
-import { imagePlaceholders } from "@/lib/media";
 import { HeroSplitImageNewsletter } from "@opensite/ui/blocks/hero/hero-split-image-newsletter";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { demoFormConfig } from "@/lib/form-demo-data";
@@ -36,7 +35,7 @@ export default function Demo() {
       successMessage="Thank you for subscribing! Check your inbox for a confirmation email."
       helperText="We respect your privacy. Unsubscribe at any time."
       image={{
-        src: imagePlaceholders[13],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Newsletter preview",
       }}
       background="gray"

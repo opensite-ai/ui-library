@@ -1,4 +1,3 @@
-import { imagePlaceholders, videoPlaceholders } from "@/lib/media";
 import { HeroCreativeStudioStacked } from "@opensite/ui/blocks/hero/hero-creative-studio-stacked";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,13 +20,13 @@ export default function Demo() {
         },
       ]}
       videoDialog={{
-        videoUrl: videoPlaceholders[25],
+        videoUrl: "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
         title: "See how it works",
       }}
       images={[
-        { src: imagePlaceholders[78], alt: "Project 1" },
-        { src: imagePlaceholders[79], alt: "Project 2" },
-        { src: imagePlaceholders[80], alt: "Project 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 3" },
       ]}
       background="dark"
       pattern="dashedGridFadeTopRight"

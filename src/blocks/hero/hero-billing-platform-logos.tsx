@@ -1,4 +1,3 @@
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroBillingPlatformLogos } from "@opensite/ui/blocks/hero/hero-billing-platform-logos";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -20,14 +19,14 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      mainImage={{ src: imagePlaceholders[122], alt: "Billing dashboard" }}
+      mainImage={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Billing dashboard" }}
       logos={[
-        { src: brandLogoPlaceholders.black[0], alt: "Partner 1" },
-        { src: brandLogoPlaceholders.black[1], alt: "Partner 2" },
-        { src: brandLogoPlaceholders.black[2], alt: "Partner 3" },
-        { src: brandLogoPlaceholders.black[3], alt: "Partner 4" },
-        { src: brandLogoPlaceholders.black[4], alt: "Partner 5" },
-        { src: brandLogoPlaceholders.black[5], alt: "Partner 6" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 5" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 6" },
       ]}
       background="gray"
     />

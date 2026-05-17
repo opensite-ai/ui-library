@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroBadgeShadowOverlay } from "@opensite/ui/blocks/hero/hero-badge-shadow-overlay";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -18,7 +17,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      backgroundImageUrl={imagePlaceholders[122]}
+      backgroundImageUrl={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
     />
   );
 }

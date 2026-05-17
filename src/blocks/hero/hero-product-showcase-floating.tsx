@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroProductShowcaseFloating } from "@opensite/ui/blocks/hero/hero-product-showcase-floating";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -14,15 +13,15 @@ export default function Demo() {
         label: "Websites Powered",
         avatars: [
           {
-            src: imagePlaceholders[1],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "User Avatar 1",
           },
           {
-            src: imagePlaceholders[2],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "User Avatar 2",
           },
           {
-            src: imagePlaceholders[3],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "User Avatar 3",
           },
         ],
@@ -48,7 +47,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      productImage={{ src: imagePlaceholders[103], alt: "Product showcase" }}
+      productImage={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product showcase" }}
       background="dark"
       pattern="diagonalCrossFadeTopLeft"
       patternOpacity={0.15}

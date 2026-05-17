@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroCrmStreamlined } from "@opensite/ui/blocks/hero/hero-crm-streamlined";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -16,7 +15,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      image={{ src: imagePlaceholders[82], alt: "CRM Dashboard" }}
+      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "CRM Dashboard" }}
       background="dark"
       pattern="crossPattern"
       patternOpacity={0.9}

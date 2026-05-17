@@ -1,5 +1,4 @@
 import { TestimonialsMarquee } from "@opensite/ui/blocks/testimonials/testimonials-marquee";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           author: "Alexandra Foster",
           role: "Product Manager",
           company: "InnovateTech",
-          avatarSrc: imagePlaceholders[26],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/gl7n7p6atndufbsm6q2ac5jeqttp",
         },
         {
           quote:
@@ -21,7 +20,7 @@ export default function Demo() {
           author: "Carlos Rodriguez",
           role: "Operations Lead",
           company: "Streamline Co",
-          avatarSrc: imagePlaceholders[38],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/6ntdz6xwid3fswjz8y0otdxmzs40",
         },
         {
           quote:
@@ -29,7 +28,7 @@ export default function Demo() {
           author: "Emily Nakamura",
           role: "Team Lead",
           company: "ProductFlow",
-          avatarSrc: imagePlaceholders[50],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/0o6d7z4mm9nzeufhv9kefrhihbip",
         },
         {
           quote:
@@ -37,7 +36,7 @@ export default function Demo() {
           author: "Michael Bennett",
           role: "Director of Operations",
           company: "EfficiencyCo",
-          avatarSrc: imagePlaceholders[62],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19",
         },
         {
           quote:
@@ -45,7 +44,7 @@ export default function Demo() {
           author: "Priya Sharma",
           role: "Engineering Manager",
           company: "ScaleUp Systems",
-          avatarSrc: imagePlaceholders[74],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05",
         },
         {
           quote:
@@ -53,7 +52,7 @@ export default function Demo() {
           author: "Thomas Wright",
           role: "VP Customer Success",
           company: "GrowthMetrics",
-          avatarSrc: imagePlaceholders[86],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/9ujya2tfhxja7y5s9wb7d2u8crhd",
         },
         {
           quote:
@@ -61,7 +60,7 @@ export default function Demo() {
           author: "Jennifer Kim",
           role: "Data Analyst",
           company: "InsightLabs",
-          avatarSrc: imagePlaceholders[98],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/fokd3hxzvdtsomagbfhqooyvndyv",
         },
         {
           quote:
@@ -69,7 +68,7 @@ export default function Demo() {
           author: "David Martinez",
           role: "Security Officer",
           company: "SecureFirst",
-          avatarSrc: imagePlaceholders[110],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/4xjcgtlwseruezhoh3o1ga4umhj4",
         },
       ]}
       speed="normal"

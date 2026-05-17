@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureTabbedContentImage } from "@opensite/ui/blocks/features/feature-tabbed-content-image";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -31,7 +30,7 @@ export default function Demo() {
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
-          image: imagePlaceholders[53],
+          image: "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c",
           imageAlt: "Development environment",
         },
         {
@@ -54,7 +53,7 @@ export default function Demo() {
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
-          image: imagePlaceholders[79],
+          image: "https://toastability-production.s3.amazonaws.com/u3p1hlbm2c1vvkwlm8h668pe132z",
           imageAlt: "Deployment pipeline",
         },
         {
@@ -77,7 +76,7 @@ export default function Demo() {
               iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
             },
           ],
-          image: imagePlaceholders[103],
+          image: "https://toastability-production.s3.amazonaws.com/t7iteqw4xhtppkiws88bsoia25hv",
           imageAlt: "Monitoring dashboard",
         },
       ]}
