@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.5.8",
+    "version": "3.5.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T05:52:45.675Z",
+    "syncedAt": "2026-05-17T06:20:20.762Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -56,9 +56,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "story",
@@ -330,9 +328,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "mission",
@@ -703,9 +699,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "stats",
@@ -1105,9 +1099,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "company",
@@ -1392,9 +1384,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "vision",
@@ -1732,9 +1722,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "developer",
@@ -1883,9 +1871,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "story",
@@ -2220,9 +2206,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "streamline",
@@ -2570,9 +2554,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "developer",
@@ -2838,9 +2820,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "startup",
@@ -3025,9 +3005,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "minimal",
@@ -3206,9 +3184,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "story",
@@ -3424,9 +3400,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "stats",
@@ -3674,9 +3648,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "interactive",
@@ -3944,9 +3916,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "mission",
@@ -4298,9 +4268,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "story",
@@ -4600,9 +4568,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "network",
@@ -4926,9 +4892,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "location",
@@ -11731,10 +11695,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "callback",
@@ -11928,10 +11889,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "form",
@@ -12127,10 +12085,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "careers",
@@ -12242,10 +12197,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "catering",
@@ -12356,10 +12308,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "consultation",
@@ -12565,10 +12514,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "form",
@@ -12679,10 +12625,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "demo",
@@ -12827,10 +12770,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "emergency",
@@ -12941,18 +12881,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "event",
-        "registration",
-        "form",
-        "rsvp",
-        "attendee"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "event", "registration", "form", "rsvp", "attendee"],
       "performance": {},
       "importantUsageNotes": "DO NOT USE this block unless the site is for an event organizer or event management service — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an event inquiry use case — full name, organization, email, phone, event name, event type select, expected attendees select, and details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -13142,10 +13072,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "faq",
@@ -13257,17 +13184,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "feedback",
-        "survey",
-        "form",
-        "customer-feedback"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "feedback", "survey", "form", "customer-feedback"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a customer feedback use case — name (optional), email (optional), overall experience rating radio, feedback category checkbox-group, and detailed feedback textarea — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -13369,10 +13287,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "fitness",
@@ -13482,10 +13397,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "guest",
@@ -13691,18 +13603,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "form",
-        "image",
-        "split-layout",
-        "overlay",
-        "modern"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "form", "image", "split-layout", "overlay", "modern"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a general project inquiry use case — name, email, phone, services needed checkbox-group, and project details textarea — do not change the field set unless the site has clearly different requirements. DO NOT USE this block if you don't have a real image from the media library — the 'image' prop is required for the split-panel layout. Only use a real image from the media library. For 'contactOverlays', only supply real contact data points (phone, email, address) from the system; do not fabricate overlay items — if no real contact data exists, omit 'contactOverlays'. Ensure to only supply a valid set of contact data points, DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -13804,18 +13706,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "insurance",
-        "quote",
-        "form",
-        "coverage",
-        "policy"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "insurance", "quote", "form", "coverage", "policy"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an insurance quote request use case — first/last name, email, phone, date of birth picker, ZIP code, insurance type radio (auto/home/life/health/business), and coverage amount select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -13917,10 +13809,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "interview",
@@ -14030,17 +13919,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "locations",
-        "multi-location",
-        "form",
-        "offices"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "locations", "multi-location", "form", "offices"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a multi-location contact use case — name, email, phone, preferred location select, inquiry type radio, and message textarea — do not change the field set unless the site has clearly different requirements. Only populate the location select options with real locations from the system; do not invent office addresses or city names. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -14142,10 +14022,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "maintenance",
@@ -14294,17 +14171,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "map",
-        "location",
-        "form",
-        "address"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "map", "location", "form", "address"],
       "performance": {},
       "importantUsageNotes": "Only use locations assigned to the website (if this is a general contact block), if it's region specific, only use locations assigned to that region, if this is a single location specific pages, only use the location data for the single location."
     },
@@ -14406,17 +14274,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "minimal",
-        "simple",
-        "form",
-        "basic"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "minimal", "simple", "form", "basic"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a minimal general contact use case — name, email, subject, and message textarea — do not add complexity or change the field set unless the site has clearly different requirements. This is the simplest contact form; use it when no specialized inquiry type applies. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -14518,10 +14377,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "moving",
@@ -14631,10 +14487,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "multistep",
@@ -14744,10 +14597,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "partnership",
@@ -14908,10 +14758,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "photography",
@@ -15022,18 +14869,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "press",
-        "media",
-        "form",
-        "pr",
-        "journalism"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "press", "media", "form", "pr", "journalism"],
       "performance": {},
       "importantUsageNotes": "DO NOT USE this block unless the site has a press/media relations function — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a press/media inquiry use case — first/last name, email, phone, publication/outlet name, job title, publication website, inquiry type select (interview/quote/story pitch/event coverage/press kit/fact check), deadline date picker, and details — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -15135,18 +14972,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "quote",
-        "request",
-        "form",
-        "pricing",
-        "estimate"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "quote", "request", "form", "pricing", "estimate"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a quote request use case — first/last name, email, phone, company (optional), service type radio, budget range select, and project description — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -15248,10 +15075,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "referral",
@@ -15361,10 +15185,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "report",
@@ -15475,10 +15296,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "reservation",
@@ -15588,10 +15406,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "retreat",
@@ -15701,18 +15516,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "rsvp",
-        "event",
-        "form",
-        "invitation",
-        "attendance"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "rsvp", "event", "form", "invitation", "attendance"],
       "performance": {},
       "importantUsageNotes": "DO NOT USE this block unless the site is for a specific event that requires RSVP responses — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an RSVP use case — first/last name, email, phone, attendance radio (accepts/declines), plus-one radio, guest name (if applicable), and total attending select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -15814,18 +15619,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "sales",
-        "inquiry",
-        "form",
-        "b2b",
-        "leads"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "sales", "inquiry", "form", "b2b", "leads"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a B2B sales inquiry use case — first/last name, business email, phone, company name, company size select, industry select, and message — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -15927,18 +15722,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "schedule",
-        "meeting",
-        "form",
-        "booking",
-        "calendar"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "schedule", "meeting", "form", "booking", "calendar"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for an appointment scheduling use case — full name, email, phone, appointment type radio (consultation/demo/follow-up/training), preferred date picker, preferred time select, timezone select, and optional notes — preserve the appointment type options that match the business's actual service offerings. Do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -16040,10 +15825,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "sponsorship",
@@ -16153,17 +15935,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "support",
-        "help",
-        "form",
-        "customer-service"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "support", "help", "form", "customer-service"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a customer support ticket use case — full name, email, account ID/username (optional), issue type select, priority level select, subject, detailed description textarea, and optional screenshot file upload — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -16325,10 +16098,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "help",
@@ -16441,10 +16211,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "tenant",
@@ -16554,10 +16321,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "vendor",
@@ -16667,10 +16431,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
       "tags": [
         "contact",
         "volunteer",
@@ -16780,18 +16541,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "warranty",
-        "claim",
-        "form",
-        "support",
-        "product"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "warranty", "claim", "form", "support", "product"],
       "performance": {},
       "importantUsageNotes": "Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a warranty claim use case — first/last name, email, phone, order number, purchase date picker, product name, serial number (optional), claim type radio (defect/malfunction/damage), issue description, and optional photo upload — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -16893,18 +16644,8 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui",
-        "@page-speed/forms"
-      ],
-      "tags": [
-        "contact",
-        "wedding",
-        "inquiry",
-        "form",
-        "event",
-        "planning"
-      ],
+      "dependencies": ["@opensite/ui", "@page-speed/forms"],
+      "tags": ["contact", "wedding", "inquiry", "form", "event", "planning"],
       "performance": {},
       "importantUsageNotes": "DO NOT USE this block unless the site is specifically for a wedding vendor, planner, or wedding-related service — this is a highly contextual block. Ensure to follow the form implementation requirements properly (correct field types, labels, validation, and submit handling). The form fields shown in the demo are calibrated for a wedding inquiry use case — partner 1 name, partner 2 name, email, phone, wedding date picker, venue name (optional), wedding location, expected guest count select, and estimated budget range select — do not change the field set unless the site has clearly different requirements. Ensure to only supply a valid set of contact data points (email, phone, address, etc), DO NOT make up any contact data. Follow the example props closely for this block."
     },
@@ -17194,9 +16935,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "slider",
@@ -17376,9 +17115,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "slider",
@@ -17553,9 +17290,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "slider",
@@ -17828,9 +17563,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "features",
@@ -18095,9 +17828,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "fullscreen",
@@ -18287,9 +18018,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "gallery",
@@ -18552,9 +18281,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "cards",
@@ -18814,9 +18541,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "hero",
@@ -19093,9 +18818,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "multi-step",
@@ -19374,9 +19097,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "portfolio",
@@ -19681,9 +19402,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "product",
@@ -19867,9 +19586,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "progress",
@@ -20071,9 +19788,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "carousel",
         "scroll",
@@ -20174,9 +19889,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "carousel",
@@ -20355,9 +20068,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "capabilities",
@@ -20589,9 +20300,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "split-layout",
@@ -20822,9 +20531,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "split-layout",
@@ -20997,9 +20704,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -21262,9 +20967,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "checklist",
@@ -21468,9 +21171,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "carousel",
@@ -21681,9 +21382,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -21976,9 +21675,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "numbered",
@@ -22169,9 +21866,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -22343,9 +22038,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "values",
@@ -22604,9 +22297,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -22800,9 +22491,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -23137,9 +22826,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "tabs",
@@ -23437,9 +23124,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "utilities",
@@ -23735,9 +23420,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "bento",
@@ -23999,9 +23682,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "checklist",
@@ -24218,9 +23899,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "integrations",
@@ -24574,9 +24253,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "tabs",
@@ -24871,9 +24548,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "image",
@@ -25085,9 +24760,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "categories",
@@ -25315,9 +24988,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "bento",
@@ -25577,9 +25248,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "cards",
@@ -25756,9 +25425,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "grid",
@@ -26016,9 +25683,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "stats",
@@ -26223,9 +25888,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "accordion",
@@ -31226,9 +30889,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "navigation",
@@ -31484,9 +31145,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "social",
@@ -31708,9 +31367,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "social",
@@ -31988,9 +31645,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "minimal",
@@ -32288,9 +31943,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "brand",
@@ -32633,9 +32286,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "brand",
@@ -32895,9 +32546,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "comprehensive",
@@ -33111,9 +32760,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "newsletter",
@@ -33475,9 +33122,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "cta",
@@ -33773,9 +33418,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "contact",
@@ -34117,9 +33760,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "background",
@@ -34305,9 +33946,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "animated",
@@ -34697,9 +34336,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "newsletter",
@@ -34895,9 +34532,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "cta",
@@ -35261,9 +34896,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "navigation",
@@ -35472,9 +35105,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "case-study",
@@ -35681,9 +35312,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -35899,9 +35528,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -36177,9 +35804,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -36433,9 +36058,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -36631,9 +36254,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -36839,9 +36460,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -37073,9 +36692,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -37291,9 +36908,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -37509,9 +37124,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -37728,9 +37341,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -37947,9 +37558,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -38137,9 +37746,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -38421,9 +38028,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "masonry",
@@ -38634,9 +38239,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "grid",
@@ -38792,9 +38395,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "gallery",
         "carousel",
@@ -40935,9 +40536,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -41297,9 +40896,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -41652,9 +41249,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -42018,9 +41613,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -42313,9 +41906,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -42649,9 +42240,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -43139,9 +42728,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -43500,9 +43087,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -44065,9 +43650,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -44335,9 +43918,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -44598,9 +44179,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -44941,9 +44520,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "posts",
@@ -45107,9 +44684,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "blog",
         "carousel",
@@ -45299,9 +44874,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -45520,9 +45093,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -45877,9 +45448,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -46167,9 +45736,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -46433,9 +46000,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -46819,9 +46384,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -47120,9 +46683,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "article",
         "blog-post",
@@ -47280,9 +46841,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -47440,9 +46999,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -47600,9 +47157,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -47858,9 +47413,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -48030,9 +47583,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -48287,9 +47838,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -48540,9 +48089,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -48730,9 +48277,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -48895,9 +48440,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -49076,9 +48619,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -49271,9 +48812,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -49481,9 +49020,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -49681,9 +49218,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -49852,9 +49387,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "benefits",
@@ -50017,9 +49550,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -50341,9 +49872,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "questions",
@@ -50618,9 +50147,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "overlay",
@@ -50818,9 +50345,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "split",
@@ -51359,9 +50884,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "landing",
@@ -51606,9 +51129,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "landing",
@@ -51967,9 +51488,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "slider",
@@ -52285,9 +51804,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "centered",
@@ -52501,9 +52018,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "centered",
@@ -52770,9 +52285,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "pattern",
@@ -53041,9 +52554,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "logo",
@@ -53344,9 +52855,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "pattern",
@@ -53541,9 +53050,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "announcement",
@@ -53893,9 +53400,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "multi-panel",
@@ -54117,9 +53622,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "simple",
@@ -54371,9 +53874,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "platform",
@@ -54617,9 +54118,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "spiral",
@@ -54864,9 +54363,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "split",
@@ -55099,9 +54596,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "split",
@@ -55419,9 +54914,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "community",
@@ -55671,9 +55164,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "marketplace",
@@ -55895,9 +55386,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "badge",
@@ -56133,9 +55622,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "video",
@@ -56318,9 +55805,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "grid",
@@ -56547,9 +56032,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "dashed",
@@ -56854,9 +56337,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "design",
@@ -57090,9 +56571,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "gradient",
@@ -57421,9 +56900,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "premium",
@@ -57696,9 +57173,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "ui",
@@ -57903,9 +57378,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "fullscreen",
@@ -58140,9 +57613,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "fullscreen",
@@ -58436,9 +57907,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "gradient",
@@ -58682,9 +58151,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "task",
@@ -58973,9 +58440,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "ai",
@@ -59242,9 +58707,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "ad",
@@ -59464,9 +58927,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "adaptable",
@@ -59695,9 +59156,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "presentation",
@@ -59958,9 +59417,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "grid",
@@ -60210,9 +59667,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "crm",
@@ -60535,9 +59990,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "billing",
@@ -60890,9 +60343,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "software",
@@ -61218,9 +60669,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "conversion",
@@ -61515,9 +60964,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "design",
@@ -61759,9 +61206,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "video",
@@ -62009,9 +61454,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "productivity",
@@ -62213,9 +61656,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "hiring",
@@ -62491,9 +61932,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "split",
@@ -62764,9 +62203,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "centered",
@@ -63077,9 +62514,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "stats",
@@ -63283,9 +62718,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "feature",
@@ -63561,9 +62994,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "testimonial",
@@ -63824,9 +63255,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "design-system",
@@ -64027,9 +63456,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "architecture",
@@ -64273,9 +63700,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "innovation",
@@ -64628,9 +64053,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "video",
@@ -64875,9 +64298,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "minimal",
@@ -65230,9 +64651,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "product",
@@ -65538,9 +64957,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "saas",
@@ -65831,9 +65248,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "therapy",
@@ -66166,9 +65581,7 @@
         ],
         "background": "gray"
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "mental-health",
@@ -66180,7 +65593,7 @@
         "healthcare"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featureImage' prop object. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block.",
+      "importantUsageNotes": "Only use if you have a valid testimonial - DO NOT MAKE UP A TESTIMONIAL/REVIEW. Supply exactly 2 images to the 'smallImages' prop and ensure you supply a 'featureImage' prop object. Do not exceed 40 characters for the 'heading' prop. Do not exceed 130 characters for the 'description' prop. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. All media src values must be absolute URLs to real CDN assets — never relative paths (e.g. '/images/...') or placeholder strings. Follow the example props closely for this block.",
       "usageRequirements": {
         "requiredProps": [
           "heading",
@@ -66220,52 +65633,30 @@
         "mediaSlots": {
           "featureImage": {
             "path": "featureImage",
-            "roles": [
-              "feature",
-              "hero"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon"
-            ],
+            "roles": ["feature", "hero"],
+            "disallowedRoles": ["logo", "favicon"],
             "minPixelClass": "large",
             "required": true,
             "note": "Large feature image. Must not be a logo or favicon."
           },
           "smallImages[]": {
             "path": "smallImages[]",
-            "roles": [
-              "thumbnail",
-              "profile",
-              "feature"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon"
-            ],
+            "roles": ["thumbnail", "profile", "feature"],
+            "disallowedRoles": ["logo", "favicon"],
             "minPixelClass": "small",
             "required": true,
             "note": "Two team / supporting images. Must not be logos."
           },
           "testimonial.avatarSrc": {
             "path": "testimonial.avatarSrc",
-            "roles": [
-              "profile",
-              "avatar"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon"
-            ],
+            "roles": ["profile", "avatar"],
+            "disallowedRoles": ["logo", "favicon"],
             "minPixelClass": "small",
             "preferredAspect": "1:1",
             "note": "Headshot/avatar for the testimonial author."
           }
         },
-        "requiresSiteCapabilities": [
-          "reviews_or_testimonials",
-          "media_library"
-        ]
+        "requiresSiteCapabilities": ["reviews_or_testimonials", "media_library"]
       }
     },
     {
@@ -66585,9 +65976,7 @@
         },
         "background": "dark"
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "mentorship",
@@ -66601,10 +65990,7 @@
       "performance": {},
       "importantUsageNotes": "The 'image' prop is the main hero image and MUST be an image asset (poster/photo). The 'modalVideo' prop's nested 'video.src' MUST be a video asset (HLS playlist or MP4) and 'modalVideo.image.src' MUST be an image asset (video poster). NEVER swap these: do not put a video URL into the 'image' prop and do not put an image URL into 'modalVideo.video.src'. All media src values must be absolute URLs to real CDN assets — never relative paths or placeholder strings. Keep 'heading' concise (under 60 characters) for visual balance.",
       "usageRequirements": {
-        "requiredProps": [
-          "heading",
-          "image"
-        ],
+        "requiredProps": ["heading", "image"],
         "propConstraints": {
           "heading": {
             "required": true,
@@ -66627,16 +66013,8 @@
         "mediaSlots": {
           "image": {
             "path": "image",
-            "roles": [
-              "hero",
-              "feature",
-              "profile"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon",
-              "video-thumbnail"
-            ],
+            "roles": ["hero", "feature", "profile"],
+            "disallowedRoles": ["logo", "favicon", "video-thumbnail"],
             "minPixelClass": "large",
             "required": true,
             "note": "Main hero image slot. IMAGE MEDIA ONLY. Do not assign a video URL here."
@@ -66655,22 +66033,13 @@
           },
           "modalVideo.image.src": {
             "path": "modalVideo.image.src",
-            "roles": [
-              "video-thumbnail",
-              "hero",
-              "feature"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon"
-            ],
+            "roles": ["video-thumbnail", "hero", "feature"],
+            "disallowedRoles": ["logo", "favicon"],
             "minPixelClass": "medium",
             "note": "Poster image shown before the video plays. IMAGE MEDIA ONLY."
           }
         },
-        "requiresSiteCapabilities": [
-          "media_library"
-        ],
+        "requiresSiteCapabilities": ["media_library"],
         "notes": [
           "Image and video media must never be swapped between the 'image' prop and the 'modalVideo' prop.",
           "All media src values must be absolute URLs to real assets; relative paths are not allowed."
@@ -66907,9 +66276,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "business",
@@ -67153,9 +66520,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "agency",
@@ -67394,9 +66759,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "welcome",
@@ -67714,9 +67077,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "startup",
@@ -67960,9 +67321,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "enterprise",
@@ -68341,9 +67700,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "creative",
@@ -68548,9 +67905,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "digital",
@@ -68810,9 +68165,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "customer",
@@ -69103,9 +68456,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "shared",
@@ -69349,9 +68700,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "conversation",
@@ -69617,9 +68966,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "business",
@@ -69872,9 +69219,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "developer",
@@ -70187,9 +69532,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "ecommerce",
@@ -70516,9 +69859,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "mobile",
@@ -70685,9 +70026,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "pricing",
@@ -70934,9 +70273,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "newsletter",
@@ -71215,9 +70552,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "coming-soon",
@@ -71576,9 +70911,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "event",
@@ -71886,9 +71219,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "hero",
         "portfolio",
@@ -76340,9 +75671,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -76505,9 +75834,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -76823,9 +76150,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -77142,9 +76467,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -77364,9 +76687,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -77535,9 +76856,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -77854,9 +77173,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -78019,9 +77336,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -78184,9 +77499,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -78503,9 +77816,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -78668,9 +77979,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -78833,9 +78142,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79005,9 +78312,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79170,9 +78475,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79335,9 +78638,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79513,9 +78814,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79690,9 +78989,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -79855,9 +79152,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -80027,9 +79322,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -80192,9 +79485,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -80311,9 +79602,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "navbar",
         "navigation",
@@ -93130,9 +92419,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "steps",
@@ -93400,9 +92687,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "scroll",
@@ -93584,9 +92869,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "hover",
@@ -93788,9 +93071,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "timeline",
@@ -93977,9 +93258,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "timeline",
@@ -94182,9 +93461,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "roadmap",
@@ -94388,9 +93665,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "mission",
@@ -94572,9 +93847,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "grid",
@@ -94853,9 +94126,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "process",
         "services",
@@ -108579,9 +107850,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "promo",
@@ -108692,9 +107961,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "countdown",
@@ -108816,9 +108083,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "countdown",
@@ -109008,9 +108273,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "announcement",
@@ -109211,9 +108474,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "privacy",
@@ -109419,9 +108680,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "survey",
@@ -109605,9 +108864,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "social",
@@ -109807,9 +109064,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "gdpr",
@@ -109989,9 +109244,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "event",
@@ -110196,9 +109449,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "banner",
         "floating",
@@ -112379,9 +111630,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "reviews",
         "testimonials",
@@ -112604,9 +111853,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "reviews",
         "testimonials",
@@ -112843,9 +112090,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "bento",
@@ -113112,9 +112357,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "social-media",
@@ -113388,9 +112631,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "carousel",
@@ -113621,9 +112862,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "centered",
@@ -113869,9 +113108,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "company",
@@ -114206,9 +113443,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "grid",
@@ -114445,9 +113680,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "marquee",
@@ -114770,9 +114003,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "grid",
@@ -115001,9 +114232,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "slider",
@@ -115241,9 +114470,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "split",
@@ -115612,9 +114839,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "stats",
@@ -115937,9 +115162,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "wall",
@@ -116165,9 +115388,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "grid",
@@ -116431,9 +115652,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "logos",
@@ -116664,9 +115883,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "carousel",
@@ -116898,9 +116115,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "animated",
@@ -117149,9 +116364,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "animated",
@@ -117360,9 +116573,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "minimal",
@@ -117588,9 +116799,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "parallax",
@@ -117902,9 +117111,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "masonry",
@@ -118103,9 +117310,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "testimonials",
         "large",
@@ -128197,9 +127402,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "metrics",
@@ -128389,9 +127592,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "metrics",
@@ -128622,9 +127823,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "metrics",
@@ -128800,9 +127999,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "metrics",
@@ -129164,9 +128361,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "timeline",
@@ -129519,9 +128714,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "impact",
@@ -129750,9 +128943,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "circular",
@@ -129960,9 +129151,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "cards",
@@ -130144,9 +129333,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "animated",
@@ -130347,9 +129534,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "ticker",
@@ -130523,9 +129708,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "milestones",
@@ -130748,9 +129931,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "stats",
         "comparison",
@@ -134301,9 +133482,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "link-page",
         "link-tree",
@@ -134757,9 +133936,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "link-page",
         "minimal",
@@ -135354,9 +134531,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "link-page",
         "newsletter",
@@ -135842,9 +135017,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "link-page",
         "grid",
@@ -136408,9 +135581,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "link-page",
         "bento",
@@ -136647,9 +135818,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "hero",
@@ -136978,9 +136147,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "mission",
@@ -137265,9 +136432,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "values",
@@ -137612,9 +136777,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "community",
@@ -137943,9 +137106,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "about",
         "culture",
@@ -138132,9 +137293,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "features",
         "carousel",
@@ -138450,9 +137609,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "newsletter",
@@ -138884,9 +138041,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "split",
@@ -139096,9 +138251,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "accordion",
@@ -139536,9 +138689,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "footer",
         "info",
@@ -139765,9 +138916,7 @@
           "required": false
         }
       },
-      "dependencies": [
-        "@opensite/ui"
-      ],
+      "dependencies": ["@opensite/ui"],
       "tags": [
         "faq",
         "split",
