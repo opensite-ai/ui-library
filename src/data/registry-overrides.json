@@ -1556,14 +1556,14 @@
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/stats/stats-bar-comparison.tsx",
-      "importantUsageNotes": "Supply 3–5 'comparisons' (comparison groups), each containing exactly 2 'bars' (e.g., 'Our Platform' vs. 'Industry Average'). Only use real, verifiable stat values from the system — do not invent revenue figures, retention rates, or benchmark comparisons. Each bar's 'value' (0–100) drives the visual bar width, and 'displayValue' must reflect the actual formatted figure. Use 'bg-primary' for the brand bar and the default color for the competitor/baseline bar. Follow the example props closely for this block."
+      "importantUsageNotes": "Supply 3-5 'comparisons' (comparison groups), each containing exactly 2 'bars' (e.g., 'Our Platform' vs. 'Industry Average'). Only use real, verifiable stat values from the system — do not invent revenue figures, retention rates, or benchmark comparisons. Each bar's 'value' (0–100) drives the visual bar width, and 'displayValue' must reflect the actual formatted figure. Use 'bg-primary' for the brand bar and the default color for the competitor/baseline bar. Follow the example props closely for this block."
     },
     "about-company-profile": {
       "title": "About Company Profile",
       "componentPath": "blocks/about/about-company-profile.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290807/d7wig6mo10uyjtjrie0a6tvujxxc/cleanshot-2026-02-25-at-01-42-47.png",
-        "mobile": "https://cdn.ing/assets/i/r/290806/22ovy90vki8u7hh3job0kosah676/cleanshot-2026-02-25-at-01-42-31.png"
+        "desktop": "https://cdn.ing/assets/i/r/308379/wzlvobtjrj4lzajcsf2s6dng1ggw/about-company-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308380/8j4thyjqbpowgxjfs90zyhe4pemt/about-company-profile-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-company-profile.tsx",
@@ -1573,8 +1573,8 @@
       "title": "About Developer Profile",
       "componentPath": "blocks/about/about-developer-profile.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291538/plz2b91kiirxntgym10ig27uf830/cleanshot-2026-02-25-at-23-08-50-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291537/xv22zlwik0hqs50p6nbu3rpbaf73/cleanshot-2026-02-25-at-23-09-20-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308381/ohcti1mdxr636uch5c2zd77s6x33/about-developer-profile-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308382/vqplu2k60ka2bh4s5hdacqpk29wn/about-developer-profile-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-profile.tsx",
@@ -1584,8 +1584,8 @@
       "title": "About Developer Story",
       "componentPath": "blocks/about/about-developer-story.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290839/in5f3qpizkcnkpxwbpiic1vw8gqg/cleanshot-2026-02-25-at-04-59-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290838/zj14vxefyand4fs2ksymtk70oxhz/cleanshot-2026-02-25-at-04-58-56.png"
+        "desktop": "https://cdn.ing/assets/i/r/308383/ont62j24mpo5999ndx7l60zqd65v/about-developer-story-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308384/ybokfbcy8kcxzktkdf1mjypuzcup/about-developer-story-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-developer-story.tsx",
@@ -1595,8 +1595,8 @@
       "title": "About Interactive Tabs",
       "componentPath": "blocks/about/about-interactive-tabs.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293119/hieks1eg9b4ub0aawfu0znscbet8/cleanshot-2026-03-03-at-20-41-54.png",
-        "mobile": "https://cdn.ing/assets/i/r/293118/nk8nro4p2pailhnfov2v6cdro2ft/cleanshot-2026-03-03-at-20-42-13.png"
+        "desktop": "https://cdn.ing/assets/i/r/308385/egaoiss1gk8rae2ap2utvcwd7w0d/about-interactive-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308386/5c0h9bo4hihi32oi0qdampjla2j4/about-interactive-tabs-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-interactive-tabs.tsx",
@@ -1606,8 +1606,8 @@
       "title": "About Location Info Hero",
       "componentPath": "blocks/about/about-location-info-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290228/rgpkqt5l5ssgjlsgxjcl9iw1yr7p/cleanshot-2026-02-18-at-02-55-25.png",
-        "mobile": "https://cdn.ing/assets/i/r/290227/affjjwcx6mdwsw2qz7c7q7s9a20h/cleanshot-2026-02-18-at-02-55-44.png"
+        "desktop": "https://cdn.ing/assets/i/r/308387/nqmp49jfi0vmsvz9vavwxtdcpxxn/about-location-info-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308388/h9mpi4tx7m3hrg1dw0ypw6b1z9m9/about-location-info-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-location-info-hero.tsx",
@@ -1628,8 +1628,8 @@
       "title": "About Mission Dual Image",
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291458/qipavnwunako6subb907wjc9ebys/cleanshot-2026-02-25-at-12-55-55-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291457/g568oidut1mfwckulncvrlpqkezy/cleanshot-2026-02-25-at-12-56-10-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308389/9oq326qg42j5zkulegwzmzwo96z5/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308390/iy45mua9rkuxdnvjlnb6b9togzh3/about-mission-dual-image-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-dual-image.tsx",
@@ -1639,8 +1639,8 @@
       "title": "About Mission Features",
       "componentPath": "blocks/about/about-mission-features.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291534/tsmsqzvjndaa64bh3h1f0unc9eiu/cleanshot-2026-02-25-at-19-06-07-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291533/kqb8f5pjitk3ue35acnhvkrbjkx0/cleanshot-2026-02-25-at-19-06-34-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308391/0f1z0vr7or2j70bpog37l0nnuezy/about-mission-features-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308392/ddedxugvtjkujel2jknda8nui7fw/about-mission-features-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-features.tsx",
@@ -1650,8 +1650,8 @@
       "title": "About Network Spotlight",
       "componentPath": "blocks/about/about-network-spotlight.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293117/0leh9x3j241i0cw3j7evk39xkj1x/cleanshot-2026-03-03-at-20-38-59.png",
-        "mobile": "https://cdn.ing/assets/i/r/293116/m7advm5g6j368ym4ajeonobssfr6/cleanshot-2026-03-03-at-20-39-12.png"
+        "desktop": "https://cdn.ing/assets/i/r/308393/za4t9ltmdgzumlsxgv12a45hhdeh/about-network-spotlight-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308394/yqmm3hlsfkryjt0zkpnk5orx2w09/about-network-spotlight-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-network-spotlight.tsx",
@@ -1672,8 +1672,8 @@
       "title": "About Stats Showcase",
       "componentPath": "blocks/about/about-stats-showcase.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290850/aut1gp6v4g16yvszz8kf88ce0hym/cleanshot-2026-02-25-at-08-16-31.png",
-        "mobile": "https://cdn.ing/assets/i/r/290851/e9zsypyn21mlakr7nrtrwfkk64ax/cleanshot-2026-02-25-at-08-16-20.png"
+        "desktop": "https://cdn.ing/assets/i/r/308377/gtnsoic5lors0w6cxl11v6qbhkrk/about-stats-showcase-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308378/v95pf96xh0ybe4zpqsbdnxfayrsj/about-stats-showcase-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-showcase.tsx",
@@ -1683,8 +1683,8 @@
       "title": "About Stats Sidebar",
       "componentPath": "blocks/about/about-stats-sidebar.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291536/64j57yikw5ax35wci5ipb9pxung4/cleanshot-2026-02-25-at-22-02-37-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291535/4z2pacrvobzg28ywxxgp9sjo402q/cleanshot-2026-02-25-at-22-03-07-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308359/544ge3aeqk84yy7uem3hoxnq07id/about-stats-sidebar-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308360/l3bwen6665y1y6ezcolbgvyke6cc/about-stats-sidebar-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-stats-sidebar.tsx",
@@ -1694,8 +1694,8 @@
       "title": "About Story Expertise",
       "componentPath": "blocks/about/about-story-expertise.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293115/2ovc61etdk0vhyya9mflrjr6khm1/cleanshot-2026-03-03-at-20-33-09.png",
-        "mobile": "https://cdn.ing/assets/i/r/293114/67hpsafnchq1acqvmpex97uwpafl/cleanshot-2026-03-03-at-20-33-29.png"
+        "desktop": "https://cdn.ing/assets/i/r/308357/w56nctaun1ky9t7fsq13lig8zlao/about-story-expertise-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308358/lrtkx51j38uavp42pslzvl7k75e7/about-story-expertise-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-expertise.tsx",
@@ -1705,8 +1705,8 @@
       "title": "About Story Gallery",
       "componentPath": "blocks/about/about-story-gallery.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290855/1ravpoxozygb541j1m3da43huncy/cleanshot-2026-02-25-at-09-28-24.png",
-        "mobile": "https://cdn.ing/assets/i/r/290854/p01r5m82vvc91ef2ar8q0ppt1csh/cleanshot-2026-02-25-at-09-29-02.png"
+        "desktop": "https://cdn.ing/assets/i/r/308353/iiktk6da0u7p4atzzncjww48m2lt/about-story-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308354/vu10h06t7a5flz94lqy5uq51irdx/about-story-gallery-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-story-gallery.tsx",
@@ -1727,8 +1727,8 @@
       "title": "About Streamline Team",
       "componentPath": "blocks/about/about-streamline-team.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291460/lzqlqt9eyr0htgx65ozqdb1t494i/cleanshot-2026-02-25-at-12-57-57-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291459/okq409qdlp1eytyyce1qh6mujafo/cleanshot-2026-02-25-at-12-58-18-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308361/8e2d7suhf0s90dti3taki9yumfsb/about-streamline-team-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308362/d3gtkb46v43cdtxujebargc6cahj/about-streamline-team-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-streamline-team.tsx",
@@ -1738,8 +1738,8 @@
       "title": "About Vision Gallery",
       "componentPath": "blocks/about/about-vision-gallery.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290859/vv0qt9yjhhe2i73iu2gemwc835kq/cleanshot-2026-02-25-at-10-25-48-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290858/ngfxkv8xggw9vdavqe7739sc6uv1/cleanshot-2026-02-25-at-10-26-09-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308363/0qkb7lqqam418wemo331arwda83l/about-vision-gallery-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308364/cxontsu6fhcfjpqhh7yfh4b0ro1f/about-vision-gallery-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-vision-gallery.tsx",
@@ -1749,8 +1749,8 @@
       "title": "About Culture Tabs",
       "componentPath": "blocks/about/about-culture-tabs.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290459/sty27yddokekq943qh6p4zz4e1a6/cleanshot-2026-02-19-at-05-50-48-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/290458/s901l9ez0u6jncje3i48vuzdxref/cleanshot-2026-02-19-at-05-51-15-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308365/87n8jilvgo0en0v60ccsr48knlpr/about-culture-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308366/5bfuudkc8aetixgylx4zghrsv83y/about-culture-tabs-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-culture-tabs.tsx",
@@ -1760,8 +1760,8 @@
       "title": "About Expandable Values",
       "componentPath": "blocks/about/about-expandable-values.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290833/arzkvvfgv74roz78jc2unsbikka5/cleanshot-2026-02-25-at-04-08-16.png",
-        "mobile": "https://cdn.ing/assets/i/r/290832/7ymisv2akhfqlqkmvt7e1c44v6cs/cleanshot-2026-02-25-at-04-08-36.png"
+        "desktop": "https://cdn.ing/assets/i/r/308367/hcsgg4fmzci5e4b9lkcy1p598n5f/about-expandable-values-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308368/inl3ocfpq5hqm29gf669kngfeals/about-expandable-values-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-expandable-values.tsx",
@@ -1771,8 +1771,8 @@
       "title": "About Mission Principles",
       "componentPath": "blocks/about/about-mission-principles.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291142/wujohbv3x20d67t11sc04qxayqap/cleanshot-2026-02-25-at-12-26-06-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291141/vgz38n0pswtr7e7udc7y6mstzime/cleanshot-2026-02-25-at-12-26-28-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308370/bhqt1p036xodjq86tls2eub846y3/about-mission-principles-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308369/gxalcxyogbfomx2ejv8qm0c2xuq2/about-mission-principles-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-mission-principles.tsx",
@@ -1782,8 +1782,8 @@
       "title": "About Split Hero",
       "componentPath": "blocks/about/about-split-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291140/ebxa67i4f82yroor8ioqnb6adv1h/cleanshot-2026-02-25-at-12-24-27-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308371/19ro2prdvrjhcwr1kco04stp3te0/about-split-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308372/5z40ed3k4y7j9bhm74q7jbnr5hqv/about-split-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/about-split-hero.tsx",
@@ -1804,8 +1804,8 @@
       "title": "Community Initiatives",
       "componentPath": "blocks/about/community-initiatives.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/291144/ff43lflzmsdbkwnmj3orn0nczflz/cleanshot-2026-02-25-at-12-28-36-2x.png",
-        "mobile": "https://cdn.ing/assets/i/r/291143/9vibjbl6ynb9j1ou93dubtudj4dd/cleanshot-2026-02-25-at-12-29-05-2x.png"
+        "desktop": "https://cdn.ing/assets/i/r/308373/pxv6e1cs5hbzn2gqd1v3dzrr7roj/community-initiatives-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308374/tds4xfyyacdt80xj5u2yyxaga00g/community-initiatives-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/about/community-initiatives.tsx",
@@ -1815,8 +1815,8 @@
       "title": "Article Breadcrumb Social",
       "componentPath": "blocks/article/article-breadcrumb-social.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293090/hoh2ao05dwia3s4ap3gitbe3vbxv/cleanshot-2026-03-03-at-13-28-59.png",
-        "mobile": "https://cdn.ing/assets/i/r/293089/qr1mwbjz0ww9ox7rx6jnqu4sohwg/cleanshot-2026-03-03-at-13-29-17.png"
+        "desktop": "https://cdn.ing/assets/i/r/308375/3r23eff3qqdkxbrslswj69thjhbn/article-breadcrumb-social-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308376/xazzewaq4iigv2q56le093rqrj2j/article-breadcrumb-social-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/article/article-breadcrumb-social.tsx",
