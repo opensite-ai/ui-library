@@ -1947,8 +1947,8 @@
       "title": "Blog Filtered Results",
       "componentPath": "blocks/blog/blog-filtered-results.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/295072/cyd3oyy1bbwns5zl2f7fsd1mu7so/blog-filtered-results-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/295071/pn1zihkdeoxht8lnpsz83ounlacr/blog-filtered-results-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/308429/zas4q86tw75u11ma1es7lh0llt37/blog-filtered-results-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308430/s3ztotazv5uqxb6wonovz85q2fin/blog-filtered-results-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/blog/blog-filtered-results.tsx",
@@ -2112,8 +2112,8 @@
       "title": "Carousel Image Hero",
       "componentPath": "blocks/carousel/carousel-image-hero.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/295066/4b3mi34g8q3amden1m8kmvsdqwq2/carousel-image-hero-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/295068/jjur3ldwlzwo9aunyml3rkp12zbr/carousel-image-hero-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/308427/cib1y3kxw4nb1avnux3uzytiu92y/carousel-image-hero-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308428/ht9tkb79mneseytfff9tuhh9jcjl/carousel-image-hero-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "src/blocks/carousel/carousel-image-hero.tsx",

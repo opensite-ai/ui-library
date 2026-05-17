@@ -52,25 +52,6 @@ export function BlockCard({ block, className }: BlockCardProps) {
         <p className="text-sm text-muted-foreground line-clamp-2">
           {block.description}
         </p>
-
-        {/* Tags */}
-        {block.tags && block.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1 pt-2">
-            {block.tags.slice(0, 3).map((tag) => (
-              <span
-                key={tag}
-                className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded"
-              >
-                {tag}
-              </span>
-            ))}
-            {block.tags.length > 3 && (
-              <span className="text-xs text-muted-foreground">
-                +{block.tags.length - 3} more
-              </span>
-            )}
-          </div>
-        )}
       </div>
     </Link>
   );
