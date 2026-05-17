@@ -1,5 +1,4 @@
 import { AboutInteractiveTabs } from "@opensite/ui/blocks/about/about-interactive-tabs";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -15,7 +14,7 @@ export default function Demo() {
             description:
               "We begin by deeply understanding your business, goals, and challenges. Through stakeholder interviews, market research, and competitive analysis, we uncover insights that inform every decision.",
             image: {
-              src: imagePlaceholders[16],
+              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
               alt: "Discovery phase workshop",
             },
           },
@@ -28,7 +27,7 @@ export default function Demo() {
             description:
               "Armed with insights, we craft solutions that balance aesthetics with functionality. Our iterative design process ensures every element serves a purpose and resonates with your audience.",
             image: {
-              src: imagePlaceholders[27],
+              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
               alt: "Design process",
             },
           },
@@ -41,7 +40,7 @@ export default function Demo() {
             description:
               "Our engineering team brings designs to life using modern technologies and best practices. We prioritize performance, accessibility, and maintainability in every line of code.",
             image: {
-              src: imagePlaceholders[38],
+              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
               alt: "Development phase",
             },
           },
@@ -54,7 +53,7 @@ export default function Demo() {
             description:
               "Launch is just the beginning. We ensure smooth deployment, provide comprehensive training, and offer ongoing support to maximize the impact of your investment.",
             image: {
-              src: imagePlaceholders[49],
+              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
               alt: "Project delivery",
             },
           },

@@ -1,5 +1,4 @@
 import { AlternatingBlocks } from "@opensite/ui/blocks/about/alternating-blocks";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -29,7 +28,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src={imagePlaceholders[12]}
+              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
               alt="Early team collaboration"
               className="h-full w-full object-cover"
             />
@@ -55,7 +54,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src={imagePlaceholders[23]}
+              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
               alt="Office expansion"
               className="h-full w-full object-cover"
             />
@@ -81,7 +80,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src={imagePlaceholders[45]}
+              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
               alt="Modern workplace"
               className="h-full w-full object-cover"
             />

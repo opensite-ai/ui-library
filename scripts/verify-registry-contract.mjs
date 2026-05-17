@@ -32,6 +32,55 @@ const record = (msg) => failures.push(msg);
 
 const registry = JSON.parse(fs.readFileSync(generatedPath, "utf-8"));
 
+const ABOUT_BLOCK_IDS = [
+  "alternating-blocks",
+  "about-mission-features",
+  "about-stats-showcase",
+  "about-company-profile",
+  "about-vision-gallery",
+  "about-developer-story",
+  "about-story-gallery",
+  "about-streamline-team",
+  "about-developer-profile",
+  "about-startup-team",
+  "about-minimal-story",
+  "about-story-hero",
+  "about-stats-sidebar",
+  "about-interactive-tabs",
+  "about-mission-dual-image",
+  "about-story-expertise",
+  "about-network-spotlight",
+  "about-location-info-hero",
+  "about-split-hero",
+  "about-mission-principles",
+  "about-expandable-values",
+  "community-initiatives",
+  "about-culture-tabs",
+];
+
+const ABOUT_BLOCK_IDS_WITH_MEDIA = new Set([
+  "alternating-blocks",
+  "about-mission-features",
+  "about-stats-showcase",
+  "about-company-profile",
+  "about-vision-gallery",
+  "about-developer-story",
+  "about-story-gallery",
+  "about-streamline-team",
+  "about-developer-profile",
+  "about-startup-team",
+  "about-minimal-story",
+  "about-story-hero",
+  "about-interactive-tabs",
+  "about-mission-dual-image",
+  "about-story-expertise",
+  "about-network-spotlight",
+  "about-location-info-hero",
+  "about-split-hero",
+  "community-initiatives",
+  "about-culture-tabs",
+]);
+
 function topLevelPropFromPath(p) {
   return p.split(/[.[]/)[0] || p;
 }
@@ -80,6 +129,55 @@ function findBlock(id) {
     return null;
   }
   return block;
+}
+
+// ---------- about category code field safety ----------
+for (const id of ABOUT_BLOCK_IDS) {
+  const block = findBlock(id);
+  if (!block) continue;
+
+  const code = block.code || "";
+
+  check(id, !!block.usageRequirements, "usageRequirements missing");
+  check(id, !!block.exampleProps, "exampleProps missing");
+  check(
+    id,
+    !("defaultProps" in block),
+    "legacy defaultProps key must not be present",
+  );
+  check(
+    id,
+    !/imagePlaceholders/.test(code),
+    "code must not import/use 'imagePlaceholders'",
+  );
+  check(
+    id,
+    !/videoPlaceholders/.test(code),
+    "code must not import/use 'videoPlaceholders'",
+  );
+  check(
+    id,
+    !/brandLogoPlaceholders/.test(code),
+    "code must not import/use 'brandLogoPlaceholders'",
+  );
+  check(
+    id,
+    !/["']\/images\//.test(code),
+    "code must not use relative '/images/' paths",
+  );
+
+  if (ABOUT_BLOCK_IDS_WITH_MEDIA.has(id)) {
+    check(
+      id,
+      /https?:\/\//.test(code),
+      "code must reference absolute media URLs",
+    );
+    check(
+      id,
+      Object.keys(block.usageRequirements?.mediaSlots || {}).length > 0,
+      "mediaSlots missing for media-capable about block",
+    );
+  }
 }
 
 // ---------- hero-mental-health-team ----------
@@ -465,5 +563,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  "registry contract verification OK (hero-mental-health-team + hero-mentorship-video-split: usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
+  "registry contract verification OK (about generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
 );

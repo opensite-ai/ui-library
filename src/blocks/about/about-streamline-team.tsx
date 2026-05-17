@@ -1,6 +1,5 @@
 import { AboutStreamlineTeam } from "@opensite/ui/blocks/about/about-streamline-team";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -8,11 +7,11 @@ export default function Demo() {
       title="Streamlined for Success"
       description="We've built our processes and team structure to deliver maximum value with minimum friction. Every role, every workflow, every tool is optimized for efficiency and impact."
       primaryImage={{
-        src: imagePlaceholders[12],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Team collaboration",
       }}
       secondaryImage={{
-        src: imagePlaceholders[27],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Team meeting",
       }}
       features={[

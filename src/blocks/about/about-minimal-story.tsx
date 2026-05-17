@@ -1,5 +1,4 @@
 import { AboutMinimalStory } from "@opensite/ui/blocks/about/about-minimal-story";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -19,7 +18,7 @@ Today, we serve thousands of businesses worldwide, but our mission remains uncha
 
 Thank you for being part of our journey.`}
       featuredImage={{
-        src: imagePlaceholders[12],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Team collaboration",
       }}
     />

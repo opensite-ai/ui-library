@@ -1,5 +1,4 @@
 import { AboutLocationInfoHero } from "@opensite/ui/blocks/about/about-location-info-hero";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -38,11 +37,11 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: imagePlaceholders[134],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Office exterior",
         },
         {
-          src: imagePlaceholders[133],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Office interior",
         },
       ]}

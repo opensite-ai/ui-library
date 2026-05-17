@@ -1,6 +1,5 @@
 import { AboutStartupTeam } from "@opensite/ui/blocks/about/about-startup-team";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -19,7 +18,7 @@ export default function Demo() {
           name: "Sarah Chen",
           role: "CEO & Co-Founder",
           avatar: {
-            src: imagePlaceholders[67],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "Sarah Chen",
           },
           tab: "leadership",
@@ -40,7 +39,7 @@ export default function Demo() {
           name: "Marcus Johnson",
           role: "CTO & Co-Founder",
           avatar: {
-            src: imagePlaceholders[102],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "Marcus Johnson",
           },
           tab: "leadership",
@@ -61,7 +60,7 @@ export default function Demo() {
           name: "Emily Rodriguez",
           role: "VP of Design",
           avatar: {
-            src: imagePlaceholders[88],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "Emily Rodriguez",
           },
           tab: "design",
@@ -82,7 +81,7 @@ export default function Demo() {
           name: "David Kim",
           role: "VP of Engineering",
           avatar: {
-            src: imagePlaceholders[81],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "David Kim",
           },
           tab: "engineering",
@@ -103,7 +102,7 @@ export default function Demo() {
           name: "Lisa Thompson",
           role: "VP of Operations",
           avatar: {
-            src: imagePlaceholders[72],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "Lisa Thompson",
           },
           tab: "operations",
@@ -119,7 +118,7 @@ export default function Demo() {
           name: "James Wilson",
           role: "VP of Sales",
           avatar: {
-            src: imagePlaceholders[77],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "James Wilson",
           },
           tab: "operations",

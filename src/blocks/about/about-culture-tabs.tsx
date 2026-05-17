@@ -1,6 +1,5 @@
 import { AboutCultureTabs } from "@opensite/ui/blocks/about/about-culture-tabs";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -15,16 +14,16 @@ export default function Demo() {
           description:
             "We believe in challenging the status quo and pushing boundaries. Our teams have the freedom to experiment, fail fast, and iterate toward breakthrough solutions. Every idea is valued, and creativity is encouraged at every level.",
           images: [
-            imagePlaceholders[12],
-            imagePlaceholders[23],
-            imagePlaceholders[34],
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           ],
           testimonial: {
             quote:
               "The freedom to innovate here is unmatched. I've learned more in six months than in years elsewhere.",
             author: "Sarah Chen",
             role: "Senior Product Designer",
-            avatar: imagePlaceholders[67],
+            avatar: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           },
         },
         {
@@ -33,16 +32,16 @@ export default function Demo() {
           description:
             "We break down silos and build bridges. Our open-door policy and cross-functional teams ensure that the best ideas rise to the top, regardless of where they come from. Collaboration isn't just encouraged—it's how we work.",
           images: [
-            imagePlaceholders[78],
-            imagePlaceholders[89],
-            imagePlaceholders[91],
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           ],
           testimonial: {
             quote:
               "Working across teams is seamless. Everyone is genuinely invested in helping each other succeed.",
             author: "Marcus Johnson",
             role: "Engineering Lead",
-            avatar: imagePlaceholders[102],
+            avatar: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           },
         },
         {
@@ -51,16 +50,16 @@ export default function Demo() {
           description:
             "We invest in our people's development through mentorship programs, learning budgets, and regular skill-building workshops. Your growth is our growth, and we're committed to helping you reach your full potential.",
           images: [
-            imagePlaceholders[5],
-            imagePlaceholders[16],
-            imagePlaceholders[27],
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           ],
           testimonial: {
             quote:
               "The mentorship and learning opportunities have accelerated my career beyond what I imagined possible.",
             author: "Priya Patel",
             role: "Data Scientist",
-            avatar: imagePlaceholders[38],
+            avatar: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           },
         },
         {
@@ -69,16 +68,16 @@ export default function Demo() {
           description:
             "We understand that your best work happens when you're at your best. Flexible schedules, remote options, and generous time-off policies ensure you can be present for what matters most in your life.",
           images: [
-            imagePlaceholders[49],
-            imagePlaceholders[58],
-            imagePlaceholders[69],
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           ],
           testimonial: {
             quote:
               "I can be a dedicated professional and a present parent. That balance has transformed my life.",
             author: "Alex Rivera",
             role: "Marketing Director",
-            avatar: imagePlaceholders[77],
+            avatar: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           },
         },
       ]}
@@ -98,12 +97,12 @@ export default function Demo() {
         },
       ]}
       ctaImages={[
-        imagePlaceholders[12],
-        imagePlaceholders[23],
-        imagePlaceholders[34],
-        imagePlaceholders[45],
-        imagePlaceholders[56],
-        imagePlaceholders[67],
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
       ]}
       background="dark"
       pattern="dashedGridFadeTopRight"
