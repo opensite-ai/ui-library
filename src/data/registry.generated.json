@@ -2,7 +2,7 @@
   "metadata": {
     "version": "3.5.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T06:23:59.738Z",
+    "syncedAt": "2026-05-17T06:38:45.908Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -66276,8 +66276,8 @@
       "categorySlug": "hero",
       "description": "A split-layout hero for mentorship platforms with video preview. Features career growth messaging and video CTA.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290318/h9p4m076wb9e0hkukoedkfalcc7o/cleanshot-2026-02-18-at-08-16-27.png",
-        "mobile": "https://cdn.ing/assets/i/r/290317/tr2jb7z8o6c4hjwoqlikm9hk6jsw/cleanshot-2026-02-18-at-08-16-51.png"
+        "desktop": "https://cdn.ing/assets/i/r/308206/ouhz733qne0ysdb9kq7y2tx0iv3l/mentorship-landing-page-hero-with-cta-and-lifestyle-photo.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308207/myv2jvb1i39eo91ge86dgu5q2ora/mentorship-hero-lifestyle-portrait-in-bar-setting.jpg"
       },
       "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
       "code": "import { HeroMentorshipVideoSplit } from \"@opensite/ui/blocks/hero/hero-mentorship-video-split\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroMentorshipVideoSplit\n      heading=\"Learn from industry experts\"\n      description=\"Get personalized guidance from experienced professionals who have walked the path before you. Accelerate your growth with 1-on-1 mentorship.\"\n      action={{\n        label: \"Find a Mentor\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      videoLabel=\"Watch success stories\"\n      videoTitle=\"Mentorship Success Stories\"\n      modalVideo={{\n        image: {\n          src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n          alt: \"Mentorship video\",\n        },\n        video: {\n          src: \"https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1\",\n        },\n      }}\n      image={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"Video Showcase\",\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",

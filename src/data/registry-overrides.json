@@ -1057,8 +1057,8 @@
       "title": "Hero Mentorship Video Split",
       "componentPath": "blocks/hero/hero-mentorship-video-split.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290318/h9p4m076wb9e0hkukoedkfalcc7o/cleanshot-2026-02-18-at-08-16-27.png",
-        "mobile": "https://cdn.ing/assets/i/r/290317/tr2jb7z8o6c4hjwoqlikm9hk6jsw/cleanshot-2026-02-18-at-08-16-51.png"
+        "desktop": "https://cdn.ing/assets/i/r/308206/ouhz733qne0ysdb9kq7y2tx0iv3l/mentorship-landing-page-hero-with-cta-and-lifestyle-photo.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308207/myv2jvb1i39eo91ge86dgu5q2ora/mentorship-hero-lifestyle-portrait-in-bar-setting.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-mentorship-video-split"
