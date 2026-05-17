@@ -11,6 +11,8 @@
  *     distinguish image-only vs video-only media slots, exampleProps with
  *     absolute URLs for both image and video, and the enriched propsSchema
  *     projection.
+ *   - about and article category blocks: generated API code must not contain
+ *     placeholder media variables or relative image paths.
  *   - Schema-wide invariants: the renamed `exampleProps` key replaces the
  *     legacy `defaultProps` key — neither block should still emit
  *     `defaultProps`.
@@ -80,6 +82,18 @@ const ABOUT_BLOCK_IDS_WITH_MEDIA = new Set([
   "community-initiatives",
   "about-culture-tabs",
 ]);
+
+const ARTICLE_BLOCK_IDS = [
+  "article-hero-prose",
+  "article-sidebar-sticky",
+  "article-toc-sidebar",
+  "article-breadcrumb-social",
+  "article-compact-toc",
+  "article-chapters-author",
+  "article-split-animated",
+];
+
+const ARTICLE_BLOCK_IDS_WITH_MEDIA = new Set(ARTICLE_BLOCK_IDS);
 
 function topLevelPropFromPath(p) {
   return p.split(/[.[]/)[0] || p;
@@ -176,6 +190,62 @@ for (const id of ABOUT_BLOCK_IDS) {
       id,
       Object.keys(block.usageRequirements?.mediaSlots || {}).length > 0,
       "mediaSlots missing for media-capable about block",
+    );
+  }
+}
+
+// ---------- article category code field safety ----------
+for (const id of ARTICLE_BLOCK_IDS) {
+  const block = findBlock(id);
+  if (!block) continue;
+
+  const code = block.code || "";
+
+  check(id, !!block.usageRequirements, "usageRequirements missing");
+  check(id, !!block.exampleProps, "exampleProps missing");
+  check(
+    id,
+    !("defaultProps" in block),
+    "legacy defaultProps key must not be present",
+  );
+  check(
+    id,
+    !/imagePlaceholders/.test(code),
+    "code must not import/use 'imagePlaceholders'",
+  );
+  check(
+    id,
+    !/videoPlaceholders/.test(code),
+    "code must not import/use 'videoPlaceholders'",
+  );
+  check(
+    id,
+    !/["']\/images\//.test(code),
+    "code must not use relative '/images/' paths",
+  );
+  check(
+    id,
+    !/\bshareUrls=/.test(code),
+    "code must not use unsupported 'shareUrls' prop",
+  );
+  check(
+    id,
+    !/\bctaButtonText=/.test(code),
+    "code must not use unsupported 'ctaButtonText' prop",
+  );
+  check(id, !/\bctaText=/.test(code), "code must not use 'ctaText' prop");
+  check(id, !/\bctaHref=/.test(code), "code must not use 'ctaHref' prop");
+
+  if (ARTICLE_BLOCK_IDS_WITH_MEDIA.has(id)) {
+    check(
+      id,
+      /https?:\/\//.test(code),
+      "code must reference absolute media URLs",
+    );
+    check(
+      id,
+      Object.keys(block.usageRequirements?.mediaSlots || {}).length > 0,
+      "mediaSlots missing for media-capable article block",
     );
   }
 }
@@ -563,5 +633,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  "registry contract verification OK (about generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
+  "registry contract verification OK (about/article generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
 );
