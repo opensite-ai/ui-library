@@ -2,7 +2,7 @@
   "metadata": {
     "version": "3.6.4",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T17:00:43.425Z",
+    "syncedAt": "2026-05-17T17:06:13.708Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -58492,7 +58492,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
-      "code": "import { videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://cdn.ing/assets/video/uploads/283390/hls/38857/master.m3u8\",\n          fallbackSrc:\n            \"https://toastability-production.s3.amazonaws.com/eliix1g2jzj7gp9pe2srfquuyt0d\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n\n// https://octane.cdn.ing/api/v1/video/5ae48b81-2a69-5108-aeaa-4fa947f8d48d/master_playlist\n// https://octane.cdn.ing/api/v1/video/df6f71fe-2fd9-51ef-b147-2902b6af60d9/master_playlist\n",
+      "code": "import { videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://cdn.ing/assets/video/uploads/283390/hls/38857/master.m3u8\",\n          fallbackSrc:\n            \"https://toastability-production.s3.amazonaws.com/eliix1g2jzj7gp9pe2srfquuyt0d\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
