@@ -24,6 +24,18 @@ export interface PropSchema {
   default?: unknown;
   items?: PropSchema;
   fields?: Record<string, PropSchema>;
+  /**
+   * Optional constraint hints derived from the block's structured
+   * usageRequirements.propConstraints. Surfaced here so existing
+   * propsSchema consumers can render validation hints without having
+   * to inspect usageRequirements separately.
+   */
+  maxLength?: number;
+  minItems?: number;
+  maxItems?: number;
+  count?: number;
+  pinnedValues?: Record<string, unknown>;
+  mediaHints?: BlockMediaSlot;
 }
 
 /**
@@ -39,6 +51,66 @@ export interface PropsSchema {
 export interface BlockPerformance {
   bundleSize?: string;
   renderTime?: string;
+}
+
+/**
+ * Media slot semantic hints from the @opensite/ui registry contract.
+ * Describes what kind of media is allowed/expected in a given prop path
+ * so consumers (AI agents, builders) can pick appropriate media.
+ */
+export type MediaRole =
+  | "feature"
+  | "hero"
+  | "thumbnail"
+  | "profile"
+  | "avatar"
+  | "logo"
+  | "favicon"
+  | "background"
+  | string;
+
+export type MediaPixelClass = "tiny" | "small" | "medium" | "large" | string;
+
+export interface BlockMediaSlot {
+  path: string;
+  roles?: MediaRole[];
+  disallowedRoles?: MediaRole[];
+  minPixelClass?: MediaPixelClass;
+  preferredAspect?: string;
+  required?: boolean;
+  note?: string;
+}
+
+/**
+ * Per-prop constraints from the @opensite/ui registry contract.
+ * Additive to propsSchema — propsSchema describes the *type* of a prop,
+ * BlockPropConstraint describes runtime validation/semantic rules.
+ */
+export interface BlockPropConstraint {
+  required?: boolean;
+  maxLength?: number;
+  count?: number;
+  minItems?: number;
+  maxItems?: number;
+  pinnedValues?: Record<string, unknown>;
+  note?: string;
+}
+
+export type SiteCapability =
+  | "reviews_or_testimonials"
+  | "media_library"
+  | string;
+
+/**
+ * Structured usage requirements for a block. Mirrors the
+ * `usageRequirements` contract emitted by @opensite/ui's BlockRegistryEntry.
+ * Additive to (and intended to coexist with) the prose `importantUsageNotes`.
+ */
+export interface BlockUsageRequirements {
+  requiredProps?: string[];
+  propConstraints?: Record<string, BlockPropConstraint>;
+  mediaSlots?: Record<string, BlockMediaSlot>;
+  requiresSiteCapabilities?: SiteCapability[];
 }
 
 /**
@@ -60,6 +132,12 @@ export interface Block {
   tags?: string[];
   performance?: BlockPerformance;
   importantUsageNotes?: string;
+  /**
+   * Structured usage requirements from @opensite/ui registry contract.
+   * Sibling to importantUsageNotes prose. Additive — older consumers
+   * can ignore this field.
+   */
+  usageRequirements?: BlockUsageRequirements;
 }
 
 /**

@@ -3,7 +3,13 @@
  * Loads blocks from @opensite/ui and provides utility functions
  */
 
-import type { Block, Category, BlocksRegistry } from "@/types/blocks";
+import type {
+  Block,
+  Category,
+  BlocksRegistry,
+  BlockUsageRequirements,
+  PropsSchema,
+} from "@/types/blocks";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 import { geometricPlaceholderImgs } from "./media";
@@ -156,12 +162,90 @@ function cleanCodeString(raw: string | undefined): string {
 }
 
 /**
+ * Resolve a top-level prop name from a usageRequirements media-slot path.
+ * Supports the path shapes emitted by @opensite/ui: `prop`, `prop[]`,
+ * `prop.nested`, `prop[].nested`. Returns the first segment so we can
+ * attach the media hint to the matching propsSchema entry.
+ */
+function topLevelPropFromPath(path: string): string {
+  return path.split(/[.[]/)[0] || path;
+}
+
+/**
+ * Merge structured constraint and media-slot metadata into propsSchema so
+ * existing API consumers that only read propsSchema still see required /
+ * minItems / maxItems / maxLength / mediaHints without needing to look at
+ * the new usageRequirements field. usageRequirements remains the canonical
+ * source — this is a convenience projection.
+ */
+function enrichPropsSchemaWithConstraints(
+  propsSchema: PropsSchema,
+  usageRequirements: BlockUsageRequirements | undefined,
+): PropsSchema {
+  if (!usageRequirements) return propsSchema;
+
+  const result: PropsSchema = { ...propsSchema };
+
+  const { propConstraints, mediaSlots, requiredProps } = usageRequirements;
+
+  if (requiredProps) {
+    for (const propName of requiredProps) {
+      const existing = result[propName];
+      if (existing) {
+        result[propName] = { ...existing, required: true };
+      }
+    }
+  }
+
+  if (propConstraints) {
+    for (const [propName, constraint] of Object.entries(propConstraints)) {
+      const existing = result[propName] || {
+        type: "object",
+        description: "",
+      };
+      result[propName] = {
+        ...existing,
+        ...(constraint.required !== undefined
+          ? { required: constraint.required }
+          : {}),
+        ...(constraint.maxLength !== undefined
+          ? { maxLength: constraint.maxLength }
+          : {}),
+        ...(constraint.count !== undefined ? { count: constraint.count } : {}),
+        ...(constraint.minItems !== undefined
+          ? { minItems: constraint.minItems }
+          : {}),
+        ...(constraint.maxItems !== undefined
+          ? { maxItems: constraint.maxItems }
+          : {}),
+        ...(constraint.pinnedValues !== undefined
+          ? { pinnedValues: constraint.pinnedValues }
+          : {}),
+      };
+    }
+  }
+
+  if (mediaSlots) {
+    for (const slot of Object.values(mediaSlots)) {
+      const propName = topLevelPropFromPath(slot.path);
+      const existing = result[propName];
+      if (!existing) continue;
+      result[propName] = { ...existing, mediaHints: slot };
+    }
+  }
+
+  return result;
+}
+
+/**
  * Normalize a block from the registry into our Block type.
  * Accepts any partial block shape from the registry JSON — all fields are optional
  * and will fall back to safe defaults. The `code` field is cleaned of HTML entities
  * and whitespace so callers always receive ready-to-render JSX.
  */
 function normalizeBlock(rawBlock: Partial<Block>): Block {
+  const propsSchema = rawBlock.propsSchema || {};
+  const usageRequirements = rawBlock.usageRequirements;
   return {
     id: rawBlock.id || rawBlock.name?.toLowerCase().replace(/\s+/g, "-") || "",
     name: rawBlock.name || rawBlock.title || "",
@@ -178,12 +262,13 @@ function normalizeBlock(rawBlock: Partial<Block>): Block {
     },
     componentPath: rawBlock.componentPath || "",
     code: cleanCodeString(rawBlock.code),
-    propsSchema: rawBlock.propsSchema || {},
+    propsSchema: enrichPropsSchemaWithConstraints(propsSchema, usageRequirements),
     defaultProps: rawBlock.defaultProps || {},
     dependencies: rawBlock.dependencies || [],
     tags: rawBlock.tags || [],
     performance: rawBlock.performance || {},
     importantUsageNotes: rawBlock.importantUsageNotes || undefined,
+    usageRequirements: usageRequirements || undefined,
   };
 }
 

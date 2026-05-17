@@ -430,14 +430,31 @@ const generatedBlocks = blocks.map((block) => {
     componentPath,
     code,
     propsSchema,
-    defaultProps: override.defaultProps || {},
+    // Prefer the canonical defaultProps from the upstream @opensite/ui
+    // registry contract; fall back to a local override only when the
+    // upstream entry doesn't provide one.
+    defaultProps:
+      block.defaultProps !== undefined
+        ? block.defaultProps
+        : override.defaultProps || {},
     dependencies: override.dependencies || [],
     tags: block.semanticTags || [],
     performance: override.performance || {},
+    // Prefer upstream importantUsageNotes (it's part of the registry
+    // contract now); fall back to a local override for blocks that
+    // haven't been migrated upstream yet.
     importantUsageNotes:
-      typeof override.importantUsageNotes === "string"
-        ? override.importantUsageNotes
-        : undefined,
+      typeof block.importantUsageNotes === "string"
+        ? block.importantUsageNotes
+        : typeof override.importantUsageNotes === "string"
+          ? override.importantUsageNotes
+          : undefined,
+    // Pass through structured usage requirements from the new
+    // BlockRegistryEntry contract. Older registry exports won't have
+    // this field — fall back to a local override so the API can serve
+    // contract data before the upstream package is republished.
+    usageRequirements:
+      block.usageRequirements || override.usageRequirements || undefined,
   };
 });
 
