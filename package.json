@@ -10,11 +10,12 @@
     "start": "next start",
     "lint": "eslint",
     "sync:registry": "node scripts/sync-registry.mjs",
-    "verify:registry-contract": "node scripts/verify-registry-contract.mjs"
+    "verify:registry-contract": "node scripts/verify-registry-contract.mjs",
+    "prepublishOnly": "pnpm sync:registry && pnpm verify:registry-contract"
   },
   "dependencies": {
     "@opensite/hooks": "2.1.0",
-    "@opensite/ui": "3.5.7",
+    "@opensite/ui": "3.5.8",
     "@page-speed/blocks": "0.1.5",
     "@page-speed/forms": "0.8.2",
     "@page-speed/hooks": "0.4.5",
