@@ -165,6 +165,7 @@ export const imagePlaceholders = [
   "https://cdn.ing/assets/i/r/289152/z4y87dyrnmglfxj4k4waw532u1mh/moody-whiskey-cocktail-with-cinnamon-dust-on-ice.jpg",
 ];
 
+// @deprecated replace with new videoRecords.fallbackSrc value
 export const videoPlaceholders = [
   "https://toastability-production.s3.amazonaws.com/urjamg8k59poainq262wz5aigdea",
   "https://toastability-production.s3.amazonaws.com/967hpd5j4k491suxfangl7e4y2m2",
@@ -297,6 +298,34 @@ export const geometricPlaceholderImgs = {
   },
 };
 
+export const videoRecords = [
+  {
+    masterPlaylistUrl:
+      "https://cdn.ing/assets/video/uploads/283393/hls/38865/master.m3u8",
+    fallbackSrc:
+      "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
+  },
+  {
+    masterPlaylistUrl:
+      "https://cdn.ing/assets/video/uploads/283391/hls/38861/master.m3u8",
+    fallbackSrc:
+      "https://toastability-production.s3.amazonaws.com/lvwp8x0nxf8xmarwganmvzvto3r5",
+  },
+  {
+    masterPlaylistUrl:
+      "https://cdn.ing/assets/video/uploads/283390/hls/38857/master.m3u8",
+    fallbackSrc:
+      "https://toastability-production.s3.amazonaws.com/eliix1g2jzj7gp9pe2srfquuyt0d",
+  },
+  {
+    masterPlaylistUrl:
+      "https://cdn.ing/assets/video/uploads/283723/hls/39292/master.m3u8",
+    fallbackSrc:
+      "https://toastability-production.s3.amazonaws.com/x09eh1w6ri7hr8gm6bq5rkc975qs",
+  },
+];
+
+// @deprecated replace with new videoRecords.masterPlaylistUrl value
 export const masterPlaylistUrls = [
   "https://octane.cdn.ing/api/v1/video/cc91c63d-7cdb-592e-bfff-73582a6f1ccd/master_playlist",
   "https://octane.cdn.ing/api/v1/video/e4198fa8-e471-5af0-8365-784d5bb88860/master_playlist",

@@ -1,4 +1,4 @@
-import { videoPlaceholders } from "@/lib/media";
+import { optixFlowApiKey } from "@/lib/media";
 import { HeroPresentationPlatformVideo } from "@opensite/ui/blocks/hero/hero-presentation-platform-video";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,7 +21,15 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      videoSrc={videoPlaceholders[38]}
+      backgroundVideo={{
+        video: {
+          masterPlaylistUrl:
+            "https://cdn.ing/assets/video/uploads/283393/hls/38865/master.m3u8",
+          fallbackSrc:
+            "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
+          optixFlowApiKey: optixFlowApiKey,
+        },
+      }}
       background="dark"
     />
   );
