@@ -1,5 +1,4 @@
 import { AboutVisionGallery } from "@opensite/ui/blocks/about/about-vision-gallery";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -8,15 +7,15 @@ export default function Demo() {
       subtitle="We combine creativity, technology, and strategy to build experiences that inspire and endure."
       images={[
         {
-          src: imagePlaceholders[12],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Team collaboration",
         },
         {
-          src: imagePlaceholders[45],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Modern workspace",
         },
         {
-          src: imagePlaceholders[27],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Creative session",
         },
       ]}

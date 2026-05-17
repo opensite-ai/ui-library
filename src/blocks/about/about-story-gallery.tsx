@@ -1,5 +1,4 @@
 import { AboutStoryGallery } from "@opensite/ui/blocks/about/about-story-gallery";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -8,27 +7,27 @@ export default function Demo() {
       description={`From our humble beginnings to where we are today, every milestone tells a story of growth, learning, and unwavering commitment to excellence.`}
       images={[
         {
-          src: imagePlaceholders[12],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Team collaboration session",
         },
         {
-          src: imagePlaceholders[27],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Office celebration",
         },
         {
-          src: imagePlaceholders[45],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Modern workspace",
         },
         {
-          src: imagePlaceholders[16],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Team workshop",
         },
         {
-          src: imagePlaceholders[63],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Conference presentation",
         },
         {
-          src: imagePlaceholders[94],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Team building event",
         },
       ]}

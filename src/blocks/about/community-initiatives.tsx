@@ -1,5 +1,4 @@
 import { CommunityInitiatives } from "@opensite/ui/blocks/about/community-initiatives";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -25,7 +24,7 @@ export default function Demo() {
                 { value: "60%", label: "Women in Tech" },
                 { value: "85%", label: "Retention Rate" },
               ],
-              image: imagePlaceholders[12],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
             {
               id: "growth",
@@ -38,7 +37,7 @@ export default function Demo() {
                 { value: "300+", label: "Mentorship Pairs" },
                 { value: "92%", label: "Satisfaction" },
               ],
-              image: imagePlaceholders[16],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
           ],
         },
@@ -59,7 +58,7 @@ export default function Demo() {
                 { value: "25", label: "School Partners" },
                 { value: "78%", label: "Career Placement" },
               ],
-              image: imagePlaceholders[29],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
             {
               id: "nonprofit",
@@ -72,7 +71,7 @@ export default function Demo() {
                 { value: "$5M", label: "Value Donated" },
                 { value: "2000+", label: "Volunteer Hours" },
               ],
-              image: imagePlaceholders[30],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
           ],
         },
@@ -93,7 +92,7 @@ export default function Demo() {
                 { value: "65%", label: "Employee Participation" },
                 { value: "40+", label: "Events/Year" },
               ],
-              image: imagePlaceholders[52],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
             {
               id: "learning",
@@ -126,7 +125,7 @@ export default function Demo() {
                 { value: "100%", label: "Keyboard Nav" },
                 { value: "98%", label: "Screen Reader" },
               ],
-              image: imagePlaceholders[34],
+              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             },
             {
               id: "workplace",

@@ -1,6 +1,5 @@
 import { AboutMissionDualImage } from "@opensite/ui/blocks/about/about-mission-dual-image";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -10,11 +9,11 @@ export default function Demo() {
       visionTitle="Our Vision"
       visionContent="A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact."
       primaryImage={{
-        src: imagePlaceholders[44],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Team collaboration",
       }}
       secondaryImage={{
-        src: imagePlaceholders[45],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Modern workspace",
       }}
       actions={[

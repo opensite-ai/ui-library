@@ -1,5 +1,4 @@
 import { AboutCompanyProfile } from "@opensite/ui/blocks/about/about-company-profile";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -7,11 +6,11 @@ export default function Demo() {
       title="Building the Future of Digital Experiences"
       description="We combine cutting-edge technology with human-centered design to create solutions that transform how businesses connect with their audiences. Our team of experts brings decades of combined experience across multiple industries."
       mainImage={{
-        src: imagePlaceholders[12],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Team collaboration in modern office",
       }}
       secondaryImage={{
-        src: imagePlaceholders[45],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Creative workspace",
       }}
       breakout={{

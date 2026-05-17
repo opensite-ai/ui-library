@@ -1,4 +1,3 @@
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 import { AboutDeveloperStory } from "@opensite/ui/blocks/about/about-developer-story";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -10,7 +9,7 @@ export default function Demo() {
       storyTitle="The Path Forward"
       storyContent="What started as tinkering with HTML in my teenage years evolved into a deep passion for creating meaningful technology. I've had the privilege of working with startups and Fortune 500 companies alike, learning that the best solutions come from understanding people first and technology second."
       storyImage={{
-        src: imagePlaceholders[12],
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
         alt: "Developer workspace",
       }}
       actions={[
@@ -28,15 +27,15 @@ export default function Demo() {
       ]}
       logos={[
         {
-          src: brandLogoPlaceholders.black[0],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Company logo",
         },
         {
-          src: brandLogoPlaceholders.black[1],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Company logo",
         },
         {
-          src: brandLogoPlaceholders.black[2],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Company logo",
         },
       ]}

@@ -1,4 +1,3 @@
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
 import { AboutStatsShowcase } from "@opensite/ui/blocks/about/about-stats-showcase";
 
 export default function Demo() {
@@ -8,11 +7,11 @@ export default function Demo() {
       description="We measure our success by the impact we create for our clients. Here's what the numbers say about our work."
       images={[
         {
-          src: imagePlaceholders[23],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Team collaboration",
         },
         {
-          src: imagePlaceholders[33],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Modern office",
         },
       ]}
@@ -28,17 +27,17 @@ export default function Demo() {
       logosTitle="Trusted by Leading Organizations"
       logos={[
         {
-          src: brandLogoPlaceholders.white[0],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Partner logo",
           name: "Acme",
         },
         {
-          src: brandLogoPlaceholders.white[2],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Partner logo",
           name: "Initech",
         },
         {
-          src: brandLogoPlaceholders.white[3],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Partner logo",
           name: "Umbrella",
         },
@@ -50,7 +49,7 @@ export default function Demo() {
       benefits={[
         {
           image: {
-            src: imagePlaceholders[44],
+            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             alt: "Growth analytics",
           },
         },
