@@ -1,5 +1,4 @@
 import { CarouselImageHero } from "@opensite/ui/blocks/carousel/carousel-image-hero";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -15,7 +14,7 @@ export default function Demo() {
           size: "lg",
         },
         {
-          label: "Watch Demo",
+          label: "View Services",
           href: "#",
           variant: "outline",
           size: "lg",
@@ -23,20 +22,20 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: imagePlaceholders[16],
+          src: "https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw",
+          alt: "Seamless integration ecosystem",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/f921uoblxbv8f9bmr4s2ik7xxugl",
           alt: "Advanced AI-powered workspace",
         },
         {
-          src: imagePlaceholders[44],
+          src: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08",
           alt: "Collaborative team environment",
         },
         {
-          src: imagePlaceholders[63],
+          src: "https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05",
           alt: "Real-time data visualization",
-        },
-        {
-          src: imagePlaceholders[87],
-          alt: "Seamless integration ecosystem",
         },
       ]}
       autoPlayInterval={5500}
