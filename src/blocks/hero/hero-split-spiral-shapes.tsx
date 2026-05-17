@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroSplitSpiralShapes } from "@opensite/ui/blocks/hero/hero-split-spiral-shapes";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -22,9 +21,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[120], alt: "Image 1" },
-        { src: imagePlaceholders[121], alt: "Image 2" },
-        { src: imagePlaceholders[122], alt: "Image 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 3" },
       ]}
       background="dark"
       pattern="spotlightRight"

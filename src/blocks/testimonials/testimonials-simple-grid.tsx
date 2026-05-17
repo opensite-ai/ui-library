@@ -1,5 +1,4 @@
 import { TestimonialsSimpleGrid } from "@opensite/ui/blocks/testimonials/testimonials-simple-grid";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -14,7 +13,7 @@ export default function Demo() {
           author: "Jennifer Martinez",
           role: "Director of Operations",
           company: "Streamline Solutions",
-          avatarSrc: imagePlaceholders[21],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/qghzqu1i99vaubyew9s5dxcbel9l",
         },
         {
           quote:
@@ -22,7 +21,7 @@ export default function Demo() {
           author: "Michael Chen",
           role: "CTO",
           company: "TechVision",
-          avatarSrc: imagePlaceholders[35],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/50y066ms7rb5sw62u9u08jzkk8rj",
         },
         {
           quote:
@@ -30,7 +29,7 @@ export default function Demo() {
           author: "Sarah Williams",
           role: "VP of Finance",
           company: "GrowthMetrics",
-          avatarSrc: imagePlaceholders[49],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/betxbx61fkijt0aygineplf489ze",
         },
         {
           quote:
@@ -38,7 +37,7 @@ export default function Demo() {
           author: "David Park",
           role: "Head of Analytics",
           company: "DataFirst",
-          avatarSrc: imagePlaceholders[63],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x",
         },
         {
           quote:
@@ -46,7 +45,7 @@ export default function Demo() {
           author: "Lisa Anderson",
           role: "CISO",
           company: "SecureCorp",
-          avatarSrc: imagePlaceholders[77],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/ms4s4zyqpmboh0slez1cwat9qhw4",
         },
         {
           quote:
@@ -54,7 +53,7 @@ export default function Demo() {
           author: "Robert Zhang",
           role: "Engineering Lead",
           company: "IntegrateTech",
-          avatarSrc: imagePlaceholders[91],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/97gctpna2hdozl1f8u5xq4ew8h0o",
         },
       ]}
       actions={[

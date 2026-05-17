@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroGradientAvatarsRating } from "@opensite/ui/blocks/hero/hero-gradient-avatars-rating";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -22,14 +21,14 @@ export default function Demo() {
         },
       ]}
       avatars={[
-        { src: imagePlaceholders[1], alt: "User 1" },
-        { src: imagePlaceholders[2], alt: "User 2" },
-        { src: imagePlaceholders[3], alt: "User 3" },
-        { src: imagePlaceholders[4], alt: "User 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 4" },
       ]}
       images={[
-        { src: imagePlaceholders[100], alt: "Hero 1" },
-        { src: imagePlaceholders[101], alt: "Hero 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Hero 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Hero 2" },
       ]}
       ratingValue="4.9"
       ratingLabel="10,000+ happy users"

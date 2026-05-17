@@ -1,5 +1,4 @@
 import { CarouselGradientText } from "@opensite/ui/blocks/gallery/carousel-gradient-text";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -9,7 +8,7 @@ export default function Demo() {
       tagline="Innovative solutions that drive results"
       items={[
         {
-          image: imagePlaceholders[50],
+          image: "https://toastability-production.s3.amazonaws.com/0o6d7z4mm9nzeufhv9kefrhihbip",
           imageAlt: "Project showcase 1",
           title: "Enterprise SaaS Platform",
           href: "#",
@@ -17,7 +16,7 @@ export default function Demo() {
             "Scalable multi-tenant platform serving 100,000+ users with 99.99% uptime and enterprise-grade security.",
         },
         {
-          image: imagePlaceholders[51],
+          image: "https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt",
           imageAlt: "Project showcase 2",
           title: "E-commerce Marketplace",
           href: "#",
@@ -25,7 +24,7 @@ export default function Demo() {
             "High-performance marketplace processing $50M+ in annual transactions with real-time inventory management.",
         },
         {
-          image: imagePlaceholders[52],
+          image: "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c",
           imageAlt: "Project showcase 3",
           title: "Healthcare Portal",
           href: "#",
@@ -33,7 +32,7 @@ export default function Demo() {
             "HIPAA-compliant patient portal enabling secure communication and appointment scheduling for 200+ clinics.",
         },
         {
-          image: imagePlaceholders[53],
+          image: "https://toastability-production.s3.amazonaws.com/n001o4pfpszmyw03ubctig7kvf0e",
           imageAlt: "Project showcase 4",
           title: "Fintech Dashboard",
           href: "#",
@@ -41,7 +40,7 @@ export default function Demo() {
             "Real-time financial analytics platform with customizable widgets and advanced reporting capabilities.",
         },
         {
-          image: imagePlaceholders[54],
+          image: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08",
           imageAlt: "Project showcase 5",
           title: "Education LMS",
           href: "#",
@@ -49,7 +48,7 @@ export default function Demo() {
             "Comprehensive learning management system supporting 50,000+ students with interactive content and assessments.",
         },
         {
-          image: imagePlaceholders[15],
+          image: "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc",
           imageAlt: "Project showcase 1",
           title: "Enterprise SaaS Platform",
           href: "#",
@@ -57,7 +56,7 @@ export default function Demo() {
             "Scalable multi-tenant platform serving 100,000+ users with 99.99% uptime and enterprise-grade security.",
         },
         {
-          image: imagePlaceholders[16],
+          image: "https://toastability-production.s3.amazonaws.com/t502cfynqso7ntkdvmcmfc87yjkt",
           imageAlt: "Project showcase 2",
           title: "E-commerce Marketplace",
           href: "#",
@@ -65,7 +64,7 @@ export default function Demo() {
             "High-performance marketplace processing $50M+ in annual transactions with real-time inventory management.",
         },
         {
-          image: imagePlaceholders[17],
+          image: "https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov",
           imageAlt: "Project showcase 3",
           title: "Healthcare Portal",
           href: "#",
@@ -73,7 +72,7 @@ export default function Demo() {
             "HIPAA-compliant patient portal enabling secure communication and appointment scheduling for 200+ clinics.",
         },
         {
-          image: imagePlaceholders[18],
+          image: "https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6",
           imageAlt: "Project showcase 4",
           title: "Fintech Dashboard",
           href: "#",
@@ -81,7 +80,7 @@ export default function Demo() {
             "Real-time financial analytics platform with customizable widgets and advanced reporting capabilities.",
         },
         {
-          image: imagePlaceholders[19],
+          image: "https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82",
           imageAlt: "Project showcase 5",
           title: "Education LMS",
           href: "#",

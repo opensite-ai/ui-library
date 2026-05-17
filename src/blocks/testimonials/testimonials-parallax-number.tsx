@@ -1,5 +1,4 @@
 import { TestimonialsParallaxNumber } from "@opensite/ui/blocks/testimonials/testimonials-parallax-number";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,7 +10,7 @@ export default function Demo() {
           author: "Victoria Chen",
           role: "CEO & Founder",
           company: "Innovation Dynamics",
-          avatarSrc: imagePlaceholders[33],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/102grjqg8aigxkj585s9x3xbxfv7",
           backgroundIcon: "lucide/rocket",
         },
         {
@@ -20,7 +19,7 @@ export default function Demo() {
           author: "Alexander Martinez",
           role: "CTO",
           company: "TechForward",
-          avatarSrc: imagePlaceholders[58],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/0kx9umbfmv881wt9dfqnohv8efgi",
           backgroundIcon: "mdi/graph",
         },
         {
@@ -29,7 +28,7 @@ export default function Demo() {
           author: "Dr. Rachel Foster",
           role: "VP of Operations",
           company: "CustomerFirst Inc",
-          avatarSrc: imagePlaceholders[83],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/67fnapqepn7f8vwt0x4nqho70hbz",
           backgroundIcon: "lucide/thumbs-up",
           backgroundLabel: "Yep",
         },

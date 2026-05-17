@@ -1,5 +1,4 @@
 import { LinkTreeBlock } from "@opensite/ui/blocks/link-page/link-tree-block";
-import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
@@ -8,7 +7,7 @@ export default function Demo() {
       brandName="Creative Studio"
       brandTagline="Award-winning design & branding agency"
       brandAvatar={{
-        src: logoPlaceholders.lightHorizontalLogo,
+        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Creative Studio",
       }}
       brandVerified={false}
@@ -78,42 +77,42 @@ export default function Demo() {
         {
           id: "1",
           type: "image",
-          src: imagePlaceholders[125],
+          src: "https://toastability-production.s3.amazonaws.com/yw5f7iwyypf4kctpr5ye5e495swt",
           alt: "Project showcase 1",
           href: "https://example.com/project1",
         },
         {
           id: "2",
           type: "image",
-          src: imagePlaceholders[126],
+          src: "https://toastability-production.s3.amazonaws.com/z37cidvud212bzqhhalrhvk7ipaa",
           alt: "Project showcase 2",
           href: "https://example.com/project2",
         },
         {
           id: "3",
           type: "image",
-          src: imagePlaceholders[127],
+          src: "https://toastability-production.s3.amazonaws.com/pfllskt7q7144l288lrnpc6gx606",
           alt: "Project showcase 3",
           href: "https://example.com/project3",
         },
         {
           id: "4",
           type: "image",
-          src: imagePlaceholders[128],
+          src: "https://toastability-production.s3.amazonaws.com/fokd3hxzvdtsomagbfhqooyvndyv",
           alt: "Project showcase 4",
           href: "https://example.com/project4",
         },
         {
           id: "5",
           type: "image",
-          src: imagePlaceholders[129],
+          src: "https://toastability-production.s3.amazonaws.com/6fffnb4phovtqkjhtzifs4rhb84u",
           alt: "Project showcase 5",
           href: "#",
         },
         {
           id: "6",
           type: "image",
-          src: imagePlaceholders[130],
+          src: "https://toastability-production.s3.amazonaws.com/mt87xjr79wxdhjy7496v3r6m2m9t",
           alt: "Project showcase 6",
           href: "#",
         },

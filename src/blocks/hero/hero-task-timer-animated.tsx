@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroTaskTimerAnimated } from "@opensite/ui/blocks/hero/hero-task-timer-animated";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,8 +20,8 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[15], alt: "Timer interface" },
-        { src: imagePlaceholders[16], alt: "Task tracking" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Timer interface" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Task tracking" },
       ]}
       background="dark"
       pattern="gridFadeTopLeft"

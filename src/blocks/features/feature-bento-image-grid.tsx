@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureBentoImageGrid } from "@opensite/ui/blocks/features/feature-bento-image-grid";
 
 export default function Demo() {
@@ -16,7 +15,7 @@ export default function Demo() {
           title: "AI-Powered Development",
           linkText: "Explore AI Features",
           link: "#",
-          imageSrc: imagePlaceholders[42],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y",
           imageAlt: "AI development tools",
           size: "large",
         },
@@ -26,7 +25,7 @@ export default function Demo() {
           title: "Enterprise Security",
           linkText: "View Security",
           link: "#",
-          imageSrc: imagePlaceholders[65],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/w41h7890eivogu3sr78vlwkpzz8g",
           imageAlt: "Security features",
           size: "small",
         },
@@ -36,7 +35,7 @@ export default function Demo() {
           title: "Real-Time Analytics",
           linkText: "See Analytics",
           link: "#",
-          imageSrc: imagePlaceholders[88],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr",
           imageAlt: "Analytics dashboard",
           size: "small",
         },
@@ -46,7 +45,7 @@ export default function Demo() {
           title: "Lightning Fast",
           linkText: "Check Performance",
           link: "#",
-          imageSrc: imagePlaceholders[106],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/3ghn8dz3g9qtt4pf4nwbriaydvzb",
           imageAlt: "Performance metrics",
           size: "large",
         },

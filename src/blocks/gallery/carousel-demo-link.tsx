@@ -1,5 +1,4 @@
 import { CarouselDemoLink } from "@opensite/ui/blocks/gallery/carousel-demo-link";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -16,7 +15,7 @@ export default function Demo() {
           summary:
             "Transform your data into actionable insights with our advanced machine learning platform. Real-time processing and predictive analytics.",
           url: "/solutions/analytics",
-          image: imagePlaceholders[30],
+          image: "https://toastability-production.s3.amazonaws.com/gxs6zevccphti0hdq5l9fwytprpr",
           imageAlt: "Analytics platform interface",
         },
         {
@@ -25,7 +24,7 @@ export default function Demo() {
           summary:
             "Scalable, secure, and reliable cloud infrastructure designed for enterprise workloads. Auto-scaling and 99.99% uptime SLA.",
           url: "/solutions/cloud",
-          image: imagePlaceholders[31],
+          image: "https://toastability-production.s3.amazonaws.com/s4vho0wfbjhf758oife8qfuekou8",
           imageAlt: "Cloud infrastructure dashboard",
         },
         {
@@ -34,7 +33,7 @@ export default function Demo() {
           summary:
             "Comprehensive security platform with real-time threat detection, compliance management, and zero-trust architecture.",
           url: "/solutions/security",
-          image: imagePlaceholders[32],
+          image: "https://toastability-production.s3.amazonaws.com/1b0gd8ul22q799d62dvm3sgyll85",
           imageAlt: "Security monitoring dashboard",
         },
         {
@@ -43,7 +42,7 @@ export default function Demo() {
           summary:
             "Seamlessly connect all your data sources with our universal integration platform. Support for 200+ enterprise applications.",
           url: "/solutions/integration",
-          image: imagePlaceholders[33],
+          image: "https://toastability-production.s3.amazonaws.com/102grjqg8aigxkj585s9x3xbxfv7",
           imageAlt: "Data integration workflow",
         },
         {
@@ -52,7 +51,7 @@ export default function Demo() {
           summary:
             "Interactive dashboards and real-time reporting tools that empower data-driven decision making across your organization.",
           url: "/solutions/bi",
-          image: imagePlaceholders[34],
+          image: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
           imageAlt: "Business intelligence dashboard",
         },
       ]}

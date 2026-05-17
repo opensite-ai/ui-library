@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureChecklistThreeColumn } from "@opensite/ui/blocks/features/feature-checklist-three-column";
 
 export default function Demo() {
@@ -22,7 +21,7 @@ export default function Demo() {
           title: "Responsive Components",
           description:
             "Every component is built mobile-first and scales beautifully across all device sizes.",
-          image: imagePlaceholders[34],
+          image: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
           imageAlt: "Responsive design showcase",
           badge: "Featured",
           checklistItems: [
@@ -37,7 +36,7 @@ export default function Demo() {
           title: "Performance Focused",
           description:
             "Optimized for speed with lazy loading, code splitting, and minimal bundle sizes.",
-          image: imagePlaceholders[78],
+          image: "https://toastability-production.s3.amazonaws.com/0g6t701zqr2r7najmdgftpeqnxmz",
           imageAlt: "Performance metrics",
           badge: "Popular",
           checklistItems: [
@@ -52,7 +51,7 @@ export default function Demo() {
           title: "Developer Experience",
           description:
             "Built with TypeScript, comprehensive docs, and examples that get you started fast.",
-          image: imagePlaceholders[91],
+          image: "https://toastability-production.s3.amazonaws.com/xjtepune0scj9yjkkqgaiwlq9hls",
           imageAlt: "Developer tools",
           badge: "New",
           checklistItems: [

@@ -1,5 +1,5 @@
 import { NavbarEducationPlatform } from "@opensite/ui/blocks/navbars/navbar-education-platform";
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
 import FeatureShowcase from "@/blocks/features/feature-showcase";
 import FaqSplitHelp from "@/blocks/faq/faq-split-help";
@@ -47,7 +47,7 @@ export default function Demo() {
                 },
               ],
               featuredImage: {
-                src: imagePlaceholders[10],
+                src: "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc",
                 alt: "Latest platform updates",
                 href: "#updates",
               },

@@ -1,5 +1,4 @@
 import { TestimonialsCenteredAvatars } from "@opensite/ui/blocks/testimonials/testimonials-centered-avatars";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           author: "Rachel Anderson",
           role: "CEO",
           company: "BuildRight Inc",
-          avatarSrc: imagePlaceholders[18],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6",
         },
         {
           quote:
@@ -21,7 +20,7 @@ export default function Demo() {
           author: "Kevin Patel",
           role: "Head of Analytics",
           company: "DataFirst",
-          avatarSrc: imagePlaceholders[36],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/9uxe0jw1zl1tujy0m5yalo7m2ht8",
         },
         {
           quote:
@@ -29,7 +28,7 @@ export default function Demo() {
           author: "Maria Santos",
           role: "Field Operations Manager",
           company: "ServiceMasters",
-          avatarSrc: imagePlaceholders[54],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08",
         },
         {
           quote:
@@ -37,7 +36,7 @@ export default function Demo() {
           author: "Thomas Wright",
           role: "Systems Administrator",
           company: "TechUnify",
-          avatarSrc: imagePlaceholders[72],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/x4scuzhsozrwrg703df5wbhygkgo",
         },
         {
           quote:
@@ -45,7 +44,7 @@ export default function Demo() {
           author: "Nicole Johnson",
           role: "Training Director",
           company: "LearnFast",
-          avatarSrc: imagePlaceholders[90],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/yrp5k5xszwpe26fquupey6a6g0uu",
         },
       ]}
       background="dark"

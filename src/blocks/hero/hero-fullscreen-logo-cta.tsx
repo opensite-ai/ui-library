@@ -1,11 +1,10 @@
-import { brandLogoPlaceholders } from "@/lib/media";
 import { HeroFullscreenLogoCta } from "@opensite/ui/blocks/hero/hero-fullscreen-logo-cta";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
     <HeroFullscreenLogoCta
-      logo={{ src: brandLogoPlaceholders.white[0], alt: "Company Logo" }}
+      logo={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company Logo" }}
       heading="Building the future of work"
       description="Join the companies already transforming how they operate with our innovative platform."
       action={{

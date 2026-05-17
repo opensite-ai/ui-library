@@ -1,5 +1,4 @@
 import { BlogFeaturedPopular } from "@opensite/ui/blocks/blog/blog-featured-popular";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           title: "The Complete Guide to Microservices Architecture",
           description:
             "An comprehensive exploration of microservices patterns, best practices, and real-world implementation strategies for building scalable distributed systems.",
-          image: imagePlaceholders[42],
+          image: "https://toastability-production.s3.amazonaws.com/gafgk4cwd845yo094665jsuq9e21",
           category: "Architecture",
           href: "/blog/microservices-guide",
         },
@@ -22,7 +21,7 @@ export default function Demo() {
           title: "GraphQL vs REST: Making the Right Choice",
           description:
             "A detailed comparison of GraphQL and REST APIs, helping you choose the best approach for your project.",
-          image: imagePlaceholders[83],
+          image: "https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u",
           category: "API Design",
           href: "/blog/graphql-vs-rest",
         },
@@ -31,7 +30,7 @@ export default function Demo() {
           title: "Advanced TypeScript Patterns and Techniques",
           description:
             "Master advanced TypeScript features to write more maintainable and type-safe code.",
-          image: imagePlaceholders[19],
+          image: "https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82",
           category: "Programming",
           href: "/blog/advanced-typescript",
         },
@@ -40,7 +39,7 @@ export default function Demo() {
           title: "Serverless Computing: When and Why",
           description:
             "Understanding serverless architectures and identifying the right use cases for your applications.",
-          image: imagePlaceholders[64],
+          image: "https://toastability-production.s3.amazonaws.com/5sm6wc4no8fyzxfki5njmnv6gql5",
           category: "Cloud",
           href: "/blog/serverless-computing",
         },

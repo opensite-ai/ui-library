@@ -1,5 +1,7 @@
 import { StatsCardGroup } from "@opensite/ui/blocks/stats/stats-card-group";
-import { imagePlaceholders } from "@/lib/media";
+
+const AVATAR_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 export default function Demo() {
   return (
@@ -23,26 +25,11 @@ export default function Demo() {
         },
       ]}
       avatars={[
-        {
-          src: imagePlaceholders[109],
-          alt: "Customer avatar",
-        },
-        {
-          src: imagePlaceholders[102],
-          alt: "Customer avatar",
-        },
-        {
-          src: imagePlaceholders[67],
-          alt: "Customer avatar",
-        },
-        {
-          src: imagePlaceholders[77],
-          alt: "Customer avatar",
-        },
-        {
-          src: imagePlaceholders[88],
-          alt: "Customer avatar",
-        },
+        { src: AVATAR_URL, alt: "Customer avatar" },
+        { src: AVATAR_URL, alt: "Customer avatar" },
+        { src: AVATAR_URL, alt: "Customer avatar" },
+        { src: AVATAR_URL, alt: "Customer avatar" },
+        { src: AVATAR_URL, alt: "Customer avatar" },
       ]}
       spacing="lg"
     />

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureIconTabsContent } from "@opensite/ui/blocks/features/feature-icon-tabs-content";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -17,7 +16,7 @@ export default function Demo() {
             title: "Built for Speed",
             description:
               "Our infrastructure is optimized for sub-100ms response times globally. Automatic caching, edge computing, and intelligent routing ensure your users get the fastest experience possible.",
-            imageSrc: imagePlaceholders[50],
+            imageSrc: "https://toastability-production.s3.amazonaws.com/betxbx61fkijt0aygineplf489ze",
             imageAlt: "Performance metrics",
             actions: [
               {
@@ -38,7 +37,7 @@ export default function Demo() {
             title: "Security First Architecture",
             description:
               "Bank-level encryption, SOC 2 Type II compliance, automated security scanning, and regular penetration testing. Your data is protected by industry-leading security practices.",
-            imageSrc: imagePlaceholders[74],
+            imageSrc: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh",
             imageAlt: "Security features",
             actions: [
               {
@@ -59,7 +58,7 @@ export default function Demo() {
             title: "Grows With Your Business",
             description:
               "From zero to millions of users, our platform automatically scales to meet demand. No configuration needed - we handle the complexity so you can focus on building.",
-            imageSrc: imagePlaceholders[97],
+            imageSrc: "https://toastability-production.s3.amazonaws.com/pfllskt7q7144l288lrnpc6gx606",
             imageAlt: "Scalability diagram",
             actions: [
               {

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroMobileAppDownload } from "@opensite/ui/blocks/hero/hero-mobile-app-download";
 
 export default function Demo() {
@@ -27,7 +26,7 @@ export default function Demo() {
       ratingValue="4.9"
       ratingLabel="from 50K+ reviews"
       starCount={5}
-      image={{ src: imagePlaceholders[110], alt: "Mobile app screenshot" }}
+      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Mobile app screenshot" }}
       background="gray"
       pattern="crossPattern"
       patternOpacity={0.15}

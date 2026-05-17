@@ -1,4 +1,3 @@
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroDesignCarouselPortfolio } from "@opensite/ui/blocks/hero/hero-design-carousel-portfolio";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -7,7 +6,7 @@ export default function Demo() {
     <HeroDesignCarouselPortfolio
       heading="Design portfolio that speaks volumes"
       description="Showcase your best work with beautiful, interactive carousels that captivate and engage your audience."
-      logo={{ src: brandLogoPlaceholders.black[0], alt: "Brand Logo" }}
+      logo={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Brand Logo" }}
       features={[
         {
           icon: (
@@ -56,10 +55,10 @@ export default function Demo() {
         },
       ]}
       carouselImages={[
-        { src: imagePlaceholders[88], alt: "Design 1" },
-        { src: imagePlaceholders[89], alt: "Design 2" },
-        { src: imagePlaceholders[90], alt: "Design 3" },
-        { src: imagePlaceholders[91], alt: "Design 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design 4" },
       ]}
       background="gray"
       pattern="circuitBoardFadeTop"

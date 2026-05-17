@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureChecklistImage } from "@opensite/ui/blocks/features/feature-checklist-image";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -7,7 +6,7 @@ export default function Demo() {
     <FeatureChecklistImage
       title="Everything You Need to Succeed"
       description="Our platform provides all the tools, integrations, and support you need to build and scale your applications with confidence."
-      imageSrc={imagePlaceholders[58]}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/0kx9umbfmv881wt9dfqnohv8efgi"}
       imageAlt="Platform features overview"
       actions={[
         {

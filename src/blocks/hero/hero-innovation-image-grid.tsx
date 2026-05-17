@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroInnovationImageGrid } from "@opensite/ui/blocks/hero/hero-innovation-image-grid";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -16,9 +15,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[27], alt: "Innovation 1" },
-        { src: imagePlaceholders[28], alt: "Innovation 2" },
-        { src: imagePlaceholders[29], alt: "Innovation 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 3" },
       ]}
       background="dark"
       pattern="gridFadeBottomLeft"

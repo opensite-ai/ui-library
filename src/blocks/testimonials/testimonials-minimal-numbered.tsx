@@ -1,5 +1,4 @@
 import { TestimonialsMinimalNumbered } from "@opensite/ui/blocks/testimonials/testimonials-minimal-numbered";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,7 +10,7 @@ export default function Demo() {
           author: "Dr. Catherine Foster",
           role: "CEO",
           company: "Innovation Labs",
-          avatarSrc: imagePlaceholders[34],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
         },
         {
           quote:
@@ -19,7 +18,7 @@ export default function Demo() {
           author: "Marcus Rodriguez",
           role: "VP of Engineering",
           company: "TechScale",
-          avatarSrc: imagePlaceholders[52],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c",
         },
         {
           quote:
@@ -27,7 +26,7 @@ export default function Demo() {
           author: "Jennifer Kim",
           role: "IT Director",
           company: "Enterprise Solutions",
-          avatarSrc: imagePlaceholders[70],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/rews5enr9ynu6izioj66s8ec90nc",
         },
         {
           quote:
@@ -35,7 +34,7 @@ export default function Demo() {
           author: "Robert Zhang",
           role: "Head of Data",
           company: "DataFirst Corp",
-          avatarSrc: imagePlaceholders[88],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/ytbyjrcvrghc7wl6w1g7g8fwka22",
         },
       ]}
       autoPlayInterval={10000}

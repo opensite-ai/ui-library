@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui";
 import { FeatureUtilityCardsGrid } from "@opensite/ui/blocks/features/feature-utility-cards-grid";
 
@@ -22,7 +21,7 @@ export default function Demo() {
           title: "API Explorer",
           description:
             "Interactive API documentation with live testing and code examples in multiple languages.",
-          image: imagePlaceholders[77],
+          image: "https://toastability-production.s3.amazonaws.com/5jsc0b4e3gxnjs81iotw2c3e6da3",
           imageAlt: "API explorer interface",
           href: "#",
         },
@@ -30,7 +29,7 @@ export default function Demo() {
           title: "Database Designer",
           description:
             "Visual schema builder with relationship mapping and automatic migration generation.",
-          image: imagePlaceholders[93],
+          image: "https://toastability-production.s3.amazonaws.com/g607vblaarqctl1cvgxffhx4pw6g",
           imageAlt: "Database designer interface",
           href: "#",
         },
@@ -38,7 +37,7 @@ export default function Demo() {
           title: "Asset Optimizer",
           description:
             "Compress and optimize images, fonts, and assets automatically during build.",
-          image: imagePlaceholders[44],
+          image: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k",
           imageAlt: "Asset optimizer interface",
           href: "#",
         },

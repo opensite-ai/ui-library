@@ -1,5 +1,4 @@
 import { TestimonialsQuoteCarousel } from "@opensite/ui/blocks/testimonials/testimonials-quote-carousel";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -13,7 +12,7 @@ export default function Demo() {
           author: "Christopher Williams",
           role: "Head of Product",
           company: "InnovateCo",
-          avatarSrc: imagePlaceholders[37],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/cyhcpla6me8vs936i3fw6wbhypi2",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -25,7 +24,7 @@ export default function Demo() {
           author: "Diana Martinez",
           role: "VP of Engineering",
           company: "ScaleUp Systems",
-          avatarSrc: imagePlaceholders[62],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -37,7 +36,7 @@ export default function Demo() {
           author: "Benjamin Lee",
           role: "Chief Information Officer",
           company: "Enterprise Solutions",
-          avatarSrc: imagePlaceholders[87],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw",
           linkConfig: {
             href: "#",
             label: "Read More",
@@ -49,7 +48,7 @@ export default function Demo() {
           author: "Amanda Foster",
           role: "CFO",
           company: "GrowthMetrics",
-          avatarSrc: imagePlaceholders[104],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/klr5tuvulkyqfb721txtu4hgzxdm",
           linkConfig: {
             href: "#",
             label: "Read More",

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroSplitGeometricShapes } from "@opensite/ui/blocks/hero/hero-split-geometric-shapes";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -22,19 +21,19 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: imagePlaceholders[28],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Modern design showcase",
         },
         {
-          src: imagePlaceholders[45],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Creative workspace",
         },
         {
-          src: imagePlaceholders[67],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Bold visual identity",
         },
         {
-          src: imagePlaceholders[89],
+          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
           alt: "Contemporary aesthetics",
         },
       ]}

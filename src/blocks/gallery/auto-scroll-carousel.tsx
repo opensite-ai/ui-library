@@ -1,5 +1,4 @@
 import { AutoScrollCarousel } from "@opensite/ui/blocks/gallery/auto-scroll-carousel";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,18 +10,18 @@ export default function Demo() {
         href: "#",
       }}
       images={[
-        { src: imagePlaceholders[0], alt: "Team collaboration" },
-        { src: imagePlaceholders[1], alt: "Data analytics dashboard" },
-        { src: imagePlaceholders[2], alt: "AI model training" },
-        { src: imagePlaceholders[3], alt: "Research and development" },
-        { src: imagePlaceholders[4], alt: "Innovation workshop" },
-        { src: imagePlaceholders[5], alt: "Technology showcase" },
-        { src: imagePlaceholders[6], alt: "Product demonstration" },
-        { src: imagePlaceholders[7], alt: "Client presentation" },
-        { src: imagePlaceholders[8], alt: "Team meeting" },
-        { src: imagePlaceholders[9], alt: "Office environment" },
-        { src: imagePlaceholders[10], alt: "Creative workspace" },
-        { src: imagePlaceholders[11], alt: "Team collaboration" },
+        { src: "https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn", alt: "Team collaboration" },
+        { src: "https://toastability-production.s3.amazonaws.com/g1iuifb3yzoofo9c7a00koyn6q1t", alt: "Data analytics dashboard" },
+        { src: "https://toastability-production.s3.amazonaws.com/z9u4sdrj2oq3eds0qyui0nxsus3j", alt: "AI model training" },
+        { src: "https://toastability-production.s3.amazonaws.com/63aotyt2pb4gqpccej2kkw8reson", alt: "Research and development" },
+        { src: "https://toastability-production.s3.amazonaws.com/pjgb223h1bjywdk15i3zi7pjhutg", alt: "Innovation workshop" },
+        { src: "https://toastability-production.s3.amazonaws.com/we9r4e711an6d0bd3dwbl9tb9z7q", alt: "Technology showcase" },
+        { src: "https://toastability-production.s3.amazonaws.com/f8rfrurzo743ym1s7m5xtbombunz", alt: "Product demonstration" },
+        { src: "https://toastability-production.s3.amazonaws.com/oe0y4bgiylx81fbfvsw31mhdgjzs", alt: "Client presentation" },
+        { src: "https://toastability-production.s3.amazonaws.com/sr370c2cnf7uk5k4f6znyshualv0", alt: "Team meeting" },
+        { src: "https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x", alt: "Office environment" },
+        { src: "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc", alt: "Creative workspace" },
+        { src: "https://toastability-production.s3.amazonaws.com/qhz2kawawq3bbh7nusz3bvahln3v", alt: "Team collaboration" },
       ]}
       autoScrollSpeed={0.5}
       background="gray"

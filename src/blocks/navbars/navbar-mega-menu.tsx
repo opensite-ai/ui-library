@@ -1,5 +1,5 @@
 import { NavbarMegaMenu } from "@opensite/ui/blocks/navbars/navbar-mega-menu";
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 import CarouselAnimatedSections from "@/blocks/carousel/carousel-animated-sections";
 import FeatureShowcase from "@/blocks/features/feature-showcase";
 import FaqSplitHelp from "@/blocks/faq/faq-split-help";

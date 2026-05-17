@@ -1,11 +1,10 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroOverlayCtaGrid } from "@opensite/ui/blocks/hero/hero-overlay-cta-grid";
 
 export default function Demo() {
   return (
     <HeroOverlayCtaGrid
       heading="Choose your path"
-      backgroundImage={imagePlaceholders[12]}
+      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
       description="Multiple ways to engage with our platform. Select the option that best fits your needs."
       spacing="none"
       cards={[

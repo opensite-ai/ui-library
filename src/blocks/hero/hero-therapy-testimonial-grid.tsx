@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroTherapyTestimonialGrid } from "@opensite/ui/blocks/hero/hero-therapy-testimonial-grid";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -11,12 +10,12 @@ export default function Demo() {
         quote:
           "Therapy changed my life. I finally feel understood and supported. Highly recommend to anyone seeking help. Also, the therapists are amazing!",
         author: "Anonymous Client",
-        avatar: { src: imagePlaceholders[27], alt: "Client testimonial" },
+        avatar: { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Client testimonial" },
       }}
       images={[
-        { src: imagePlaceholders[28], alt: "Therapy session 1" },
-        { src: imagePlaceholders[29], alt: "Therapy session 2" },
-        { src: imagePlaceholders[30], alt: "Therapy session 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 3" },
       ]}
       actions={[
         {

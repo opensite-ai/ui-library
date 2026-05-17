@@ -1,5 +1,4 @@
 import { TestimonialsStatsHeader } from "@opensite/ui/blocks/testimonials/testimonials-stats-header";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -42,7 +41,7 @@ export default function Demo() {
           author: "Katherine Reynolds",
           role: "CEO",
           company: "Global Enterprises",
-          avatarSrc: imagePlaceholders[53],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/n001o4pfpszmyw03ubctig7kvf0e",
           linkConfig: {
             href: "https://linkedin.com",
             label: "View Post",
@@ -54,7 +53,7 @@ export default function Demo() {
           author: "Daniel Kim",
           role: "VP of Operations",
           company: "TechForward Inc",
-          avatarSrc: imagePlaceholders[68],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/8qkikcd43paeqgvw9gc1032j3yup",
           linkConfig: {
             href: "https://linkedin.com",
             label: "View Post",
@@ -66,7 +65,7 @@ export default function Demo() {
           author: "Michelle Torres",
           role: "Chief Data Officer",
           company: "DataDriven Corp",
-          avatarSrc: imagePlaceholders[83],
+          avatarSrc: "https://toastability-production.s3.amazonaws.com/67fnapqepn7f8vwt0x4nqho70hbz",
           linkConfig: {
             href: "https://linkedin.com",
             label: "View Post",

@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroAgencyAnimatedImages } from "@opensite/ui/blocks/hero/hero-agency-animated-images";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -16,10 +15,10 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[15], alt: "Project 1" },
-        { src: imagePlaceholders[16], alt: "Project 2" },
-        { src: imagePlaceholders[17], alt: "Project 3" },
-        { src: imagePlaceholders[18], alt: "Project 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 4" },
       ]}
       background="gray"
     />

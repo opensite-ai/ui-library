@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroCenteredScreenshot } from "@opensite/ui/blocks/hero/hero-centered-screenshot";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -24,7 +23,7 @@ export default function Demo() {
           size: "lg",
         },
       ]}
-      imageSrc={imagePlaceholders[70]}
+      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
       imageAlt="Product interface screenshot"
       background="gray"
       pattern="gridBasic"

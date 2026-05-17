@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroDigitalAgencyFullscreen } from "@opensite/ui/blocks/hero/hero-digital-agency-fullscreen";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -20,7 +19,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      backgroundImage={imagePlaceholders[104]}
+      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
     />
   );
 }

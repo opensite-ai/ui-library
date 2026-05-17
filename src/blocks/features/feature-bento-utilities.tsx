@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureBentoUtilities } from "@opensite/ui/blocks/features/feature-bento-utilities";
 
 export default function Demo() {
@@ -13,7 +12,7 @@ export default function Demo() {
           title: "Code Generator",
           description:
             "Generate components, routes, and API endpoints from templates with smart variable replacement.",
-          imageSrc: imagePlaceholders[46],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/vh1aowwr93yz4qrzct2s4je0cxdo",
           imageAlt: "Code generator",
           showSparkle: true,
           href: "#",
@@ -39,7 +38,7 @@ export default function Demo() {
           title: "API Testing",
           description:
             "Interactive API explorer with live testing and code generation in multiple languages.",
-          imageSrc: imagePlaceholders[70],
+          imageSrc: "https://toastability-production.s3.amazonaws.com/6ku135fhv528eei3agnoc3zd7y75",
           imageAlt: "API testing",
           showSparkle: true,
           href: "#",

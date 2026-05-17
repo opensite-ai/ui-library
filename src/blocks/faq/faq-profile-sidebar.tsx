@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FaqProfileSidebar } from "@opensite/ui/blocks/faq/faq-profile-sidebar";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -51,7 +50,7 @@ export default function Demo() {
             "Yes, our mobile app is available on iOS and Android, allowing you to access your data and collaborate with your team on the go.",
         },
       ]}
-      profileImage={imagePlaceholders[18]}
+      profileImage="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
       profileName="Sarah Chen"
       profileRole="Customer Success Manager"
       profileDescription="With over 8 years of experience helping teams maximize their productivity, I'm here to ensure you get the most value from our platform."

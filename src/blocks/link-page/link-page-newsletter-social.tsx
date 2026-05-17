@@ -1,5 +1,4 @@
 import { LinkPageNewsletterSocial } from "@opensite/ui/blocks/link-page/link-page-newsletter-social";
-import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
@@ -21,7 +20,7 @@ export default function Demo() {
       name="Jamie Taylor"
       bio="Marketing Expert & Growth Strategist"
       avatar={{
-        src: logoPlaceholders.lightHorizontalLogo,
+        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Jamie Taylor",
       }}
       socialLinks={[

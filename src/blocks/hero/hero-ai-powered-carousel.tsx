@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroAiPoweredCarousel } from "@opensite/ui/blocks/hero/hero-ai-powered-carousel";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -24,20 +23,20 @@ export default function Demo() {
         },
       ]}
       carouselImages1={[
-        { src: imagePlaceholders[20], alt: "AI Feature 1" },
-        { src: imagePlaceholders[21], alt: "AI Feature 2" },
-        { src: imagePlaceholders[22], alt: "AI Feature 3" },
-        { src: imagePlaceholders[23], alt: "AI Feature 4" },
-        { src: imagePlaceholders[24], alt: "AI Feature 5" },
-        { src: imagePlaceholders[25], alt: "AI Feature 6" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 5" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 6" },
       ]}
       carouselImages2={[
-        { src: imagePlaceholders[26], alt: "AI Feature 7" },
-        { src: imagePlaceholders[27], alt: "AI Feature 8" },
-        { src: imagePlaceholders[28], alt: "AI Feature 9" },
-        { src: imagePlaceholders[29], alt: "AI Feature 10" },
-        { src: imagePlaceholders[30], alt: "AI Feature 11" },
-        { src: imagePlaceholders[31], alt: "AI Feature 12" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 7" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 8" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 9" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 10" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 11" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 12" },
       ]}
       background="gray"
     />

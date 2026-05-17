@@ -1,5 +1,4 @@
 import { LinkPageBentoLayout } from "@opensite/ui/blocks/link-page/link-page-bento-layout";
-import { imagePlaceholders, logoPlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
@@ -8,7 +7,7 @@ export default function Demo() {
       name="Sarah Mitchell"
       bio="Helping brands tell their story"
       avatar={{
-        src: logoPlaceholders.lightHorizontalLogo,
+        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Sarah Mitchell",
       }}
       socialLinks={[
@@ -38,7 +37,7 @@ export default function Demo() {
           iconName: "simple-icons/youtube",
           featured: true,
           image: {
-            src: imagePlaceholders[78],
+            src: "https://toastability-production.s3.amazonaws.com/9797jh6slgbf9oq6lzlimcdiuziv",
             alt: "Latest Video Series",
           },
         },
@@ -50,7 +49,7 @@ export default function Demo() {
           iconName: "lucide/download",
           featured: true,
           image: {
-            src: imagePlaceholders[92],
+            src: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19",
             alt: "Brand Playbook",
           },
         },
@@ -62,30 +61,30 @@ export default function Demo() {
           iconName: "lucide/rocket",
           featured: true,
           image: {
-            src: imagePlaceholders[93],
+            src: "https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x",
             alt: "Free Trial",
           },
         },
         {
-          id: "3",
+          id: "4",
           label: "Portfolio",
           href: "#",
           iconName: "lucide/briefcase",
         },
         {
-          id: "4",
+          id: "5",
           label: "Shop Presets",
           href: "#",
           iconName: "lucide/shopping-bag",
         },
         {
-          id: "5",
+          id: "6",
           label: "Book a Call",
           href: "#",
           iconName: "lucide/calendar",
         },
         {
-          id: "6",
+          id: "7",
           label: "Newsletter",
           href: "#",
           iconName: "lucide/mail",

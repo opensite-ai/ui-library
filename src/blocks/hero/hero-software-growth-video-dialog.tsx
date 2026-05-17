@@ -1,4 +1,3 @@
-import { imagePlaceholders, videoPlaceholders } from "@/lib/media";
 import { HeroSoftwareGrowthVideoDialog } from "@opensite/ui/blocks/hero/hero-software-growth-video-dialog";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,14 +20,14 @@ export default function Demo() {
         },
       ]}
       showcaseImages={[
-        { src: imagePlaceholders[1], alt: "Growth metric 1" },
-        { src: imagePlaceholders[2], alt: "Growth metric 2" },
-        { src: imagePlaceholders[3], alt: "Growth metric 3" },
-        { src: imagePlaceholders[4], alt: "Growth metric 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Growth metric 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Growth metric 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Growth metric 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Growth metric 4" },
       ]}
       modalVideo={{
         video: {
-          src: videoPlaceholders[25],
+          src: "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
           title: "See how it works",
         },
       }}

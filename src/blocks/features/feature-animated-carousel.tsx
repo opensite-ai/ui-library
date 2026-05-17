@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { FeatureAnimatedCarousel } from "@opensite/ui/blocks/features/feature-animated-carousel";
 
 export default function Demo() {
@@ -11,7 +10,7 @@ export default function Demo() {
           title: "Lightning Fast Performance",
           description:
             "Optimized for speed with sub-100ms response times globally. Edge computing and intelligent caching ensure your users get the best experience.",
-          image: imagePlaceholders[51],
+          image: "https://toastability-production.s3.amazonaws.com/0o6d7z4mm9nzeufhv9kefrhihbip",
           imageAlt: "Performance dashboard",
           href: "#",
         },
@@ -19,7 +18,7 @@ export default function Demo() {
           title: "Enterprise Security",
           description:
             "Bank-level encryption with SOC 2 Type II compliance. Automated security scanning and regular penetration testing keep your data safe.",
-          image: imagePlaceholders[75],
+          image: "https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u",
           imageAlt: "Security features",
           href: "#",
         },
@@ -27,7 +26,7 @@ export default function Demo() {
           title: "Seamless Scalability",
           description:
             "From zero to millions of users without configuration. Auto-scaling infrastructure handles demand spikes automatically.",
-          image: imagePlaceholders[99],
+          image: "https://toastability-production.s3.amazonaws.com/6fffnb4phovtqkjhtzifs4rhb84u",
           imageAlt: "Scalability metrics",
           href: "#",
         },
@@ -35,7 +34,7 @@ export default function Demo() {
           title: "Real-Time Collaboration",
           description:
             "Built-in tools for team communication, code review, and project management. Keep everyone aligned and productive.",
-          image: imagePlaceholders[36],
+          image: "https://toastability-production.s3.amazonaws.com/9uxe0jw1zl1tujy0m5yalo7m2ht8",
           imageAlt: "Collaboration tools",
           href: "#",
         },

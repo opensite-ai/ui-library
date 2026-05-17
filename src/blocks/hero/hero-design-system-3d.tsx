@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroDesignSystem3d } from "@opensite/ui/blocks/hero/hero-design-system-3d";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -23,9 +22,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: imagePlaceholders[100], alt: "Design system component 1" },
-        { src: imagePlaceholders[101], alt: "Design system component 2" },
-        { src: imagePlaceholders[102], alt: "Design system component 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 3" },
       ]}
       background="dark"
     />

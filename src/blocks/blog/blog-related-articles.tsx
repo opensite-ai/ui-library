@@ -1,5 +1,4 @@
 import { BlogRelatedArticles } from "@opensite/ui/blocks/blog/blog-related-articles";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (

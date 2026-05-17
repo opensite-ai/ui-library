@@ -3,7 +3,6 @@
 import { ContactPhotography } from "@opensite/ui/blocks/contact/contact-photography";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
-import { imagePlaceholders } from "@/lib/media";
 
 const formFields: FormFieldConfig[] = [
   {
@@ -115,7 +114,7 @@ export default function Demo() {
   return (
     <ContactPhotography
       image={{
-        src: imagePlaceholders[108],
+        src: "https://cdn.ing/assets/i/r/289100/qx79hnpbzbm229nfaeceafv6b3a8/cooking-citrus-and-pistachio-bundt-cake-on-rusty-t-2024-10-18-04-31-33-utc.webp",
         alt: "A person working at a desk",
       }}
       heading="Ready to Get Started?"

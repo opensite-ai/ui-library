@@ -1,4 +1,3 @@
-import { brandLogoPlaceholders, imagePlaceholders } from "@/lib/media";
 import { HeroEventRegistration } from "@opensite/ui/blocks/hero/hero-event-registration";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -58,8 +57,8 @@ export default function Demo() {
           ),
         },
       ]}
-      image={{ src: imagePlaceholders[108], alt: "Event venue" }}
-      logo={{ src: brandLogoPlaceholders.white[4], alt: "Event venue" }}
+      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Event venue" }}
+      logo={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Event venue" }}
       locationLabel="San Francisco, CA"
       locationSublabel="September 15-17, 2026"
       background="dark"

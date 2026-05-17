@@ -1,5 +1,4 @@
 import { CarouselAutoProgressSlides } from "@opensite/ui/blocks/carousel/carousel-auto-progress-slides";
-import { imagePlaceholders } from "@/lib/media";
 
 export default function Demo() {
   return (
@@ -11,23 +10,23 @@ export default function Demo() {
       background="gray"
       items={[
         {
-          src: imagePlaceholders[18],
+          src: "https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6",
           label: "Platform Launch - Q1 2024",
         },
         {
-          src: imagePlaceholders[35],
+          src: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
           label: "AI Integration - Q2 2024",
         },
         {
-          src: imagePlaceholders[52],
+          src: "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c",
           label: "Enterprise Features - Q3 2024",
         },
         {
-          src: imagePlaceholders[71],
+          src: "https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw",
           label: "Global Expansion - Q4 2024",
         },
         {
-          src: imagePlaceholders[88],
+          src: "https://toastability-production.s3.amazonaws.com/4u3pi66nga47kc1th8tyqd3lpj28",
           label: "Next Generation - 2025",
         },
       ]}

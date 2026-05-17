@@ -1,5 +1,4 @@
 import { CarouselFeatureBadge } from "@opensite/ui/blocks/carousel/carousel-feature-badge";
-import { imagePlaceholders } from "@/lib/media";
 import { DynamicIcon } from "@opensite/ui";
 
 export default function Demo() {
@@ -26,27 +25,27 @@ export default function Demo() {
       ]}
       items={[
         {
-          src: imagePlaceholders[23],
+          src: "https://toastability-production.s3.amazonaws.com/9ughnl9wnko2vdboib8n3wl3cxsy",
           alt: "Real-time Analytics Dashboard",
         },
         {
-          src: imagePlaceholders[47],
+          src: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k",
           alt: "Team Collaboration Tools",
         },
         {
-          src: imagePlaceholders[56],
+          src: "https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh",
           alt: "API Integration Hub",
         },
         {
-          src: imagePlaceholders[79],
+          src: "https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw",
           alt: "Customer Success Portal",
         },
         {
-          src: imagePlaceholders[92],
+          src: "https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05",
           alt: "Advanced Reporting Engine",
         },
         {
-          src: imagePlaceholders[105],
+          src: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh",
           alt: "Security & Compliance Center",
         },
       ]}

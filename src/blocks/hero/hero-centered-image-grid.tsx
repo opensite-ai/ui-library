@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroCenteredImageGrid } from "@opensite/ui/blocks/hero/hero-centered-image-grid";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -21,12 +20,12 @@ export default function Demo() {
         },
       ]}
       gridImages={[
-        { src: imagePlaceholders[62], alt: "Gallery 1" },
-        { src: imagePlaceholders[63], alt: "Gallery 2" },
-        { src: imagePlaceholders[64], alt: "Gallery 3" },
-        { src: imagePlaceholders[65], alt: "Gallery 4" },
-        { src: imagePlaceholders[66], alt: "Gallery 5" },
-        { src: imagePlaceholders[67], alt: "Gallery 6" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 5" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Gallery 6" },
       ]}
       background="dark"
       pattern="dashedGridFadeTop"

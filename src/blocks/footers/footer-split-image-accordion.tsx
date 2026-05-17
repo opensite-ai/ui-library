@@ -1,5 +1,5 @@
 import { FooterSplitImageAccordion } from "@opensite/ui/blocks/footers/footer-split-image-accordion";
-import { imagePlaceholders, brandLogoPlaceholders } from "@/lib/media";
+import { brandLogoPlaceholders } from "@/lib/media";
 import { demoFormEngineApi } from "@/lib/form-demo-data";
 import type { FormFieldConfig } from "@opensite/ui";
 
@@ -96,7 +96,7 @@ export default function Demo() {
       ]}
       footerData={{
         image: {
-          src: imagePlaceholders[45],
+          src: "https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa",
           alt: "Luxury champagne wall with ambient lighting",
         },
         logo: {

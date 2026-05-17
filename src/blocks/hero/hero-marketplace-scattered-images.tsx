@@ -1,4 +1,3 @@
-import { imagePlaceholders } from "@/lib/media";
 import { HeroMarketplaceScatteredImages } from "@opensite/ui/blocks/hero/hero-marketplace-scattered-images";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
@@ -14,12 +13,12 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       images={[
-        { src: imagePlaceholders[34], alt: "Product 1" },
-        { src: imagePlaceholders[36], alt: "Product 2" },
-        { src: imagePlaceholders[37], alt: "Product 3" },
-        { src: imagePlaceholders[38], alt: "Product 4" },
-        { src: imagePlaceholders[39], alt: "Product 5" },
-        { src: imagePlaceholders[40], alt: "Product 6" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 1" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 2" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 3" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 4" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 5" },
+        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 6" },
       ]}
       background="gray"
       pattern="gridDotsBasic"
