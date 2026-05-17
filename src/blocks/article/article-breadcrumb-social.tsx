@@ -1,5 +1,8 @@
 import { ArticleBreadcrumbSocial } from "@opensite/ui/blocks/article/article-breadcrumb-social";
-import { imagePlaceholders, LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+import { LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+
+const ARTICLE_IMAGE_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 export default function Demo() {
   return (
@@ -15,12 +18,12 @@ export default function Demo() {
       title="Building Scalable Web Applications in 2026"
       author={{
         name: "Sarah Mitchell",
-        image: imagePlaceholders[9],
+        image: ARTICLE_IMAGE_URL,
         role: "Senior Software Architect",
       }}
       publishDate="January 15, 2026"
       readTime="12 min read"
-      heroImageSrc={imagePlaceholders[42]}
+      heroImageSrc={ARTICLE_IMAGE_URL}
       heroImageAlt="Modern web application architecture"
       sections={[
         { id: "overview", title: "Overview" },

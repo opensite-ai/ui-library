@@ -1,5 +1,8 @@
 import { ArticleCompactToc } from "@opensite/ui/blocks/article/article-compact-toc";
-import { imagePlaceholders, LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+import { LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+
+const ARTICLE_IMAGE_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 /**
  * ArticleCompactToc Demo
@@ -28,7 +31,7 @@ export default function Demo() {
       authorHref="#"
       publishDate="January 22, 2026"
       readTime="8 min read"
-      heroImageSrc={imagePlaceholders[5]}
+      heroImageSrc={ARTICLE_IMAGE_URL}
       heroImageAlt="User behavior analytics visualization"
       sections={[
         { id: "introduction", title: "Introduction" },

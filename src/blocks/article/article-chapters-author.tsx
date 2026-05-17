@@ -1,5 +1,8 @@
 import { ArticleChaptersAuthor } from "@opensite/ui/blocks/article/article-chapters-author";
-import { imagePlaceholders, LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+import { LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+
+const ARTICLE_IMAGE_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 export default function Demo() {
   return (
@@ -14,7 +17,7 @@ export default function Demo() {
       currentPage="Design Patterns"
       title="The Complete Guide to Design Patterns"
       subtitle="Master the fundamental patterns that power modern software architecture"
-      heroImageSrc={imagePlaceholders[73]}
+      heroImageSrc={ARTICLE_IMAGE_URL}
       heroImageAlt="Software architecture visualization"
       chapters={[
         { id: "chapter-1", number: 1, title: "The Foundation" },
@@ -26,7 +29,7 @@ export default function Demo() {
       author={{
         name: "Dr. Marcus Chen",
         role: "Principal Engineer",
-        image: imagePlaceholders[88],
+        image: ARTICLE_IMAGE_URL,
         bio: "Marcus has over 15 years of experience designing large-scale distributed systems. He's the author of three books on software architecture and a frequent speaker at tech conferences.",
         socialLinks: [
           {

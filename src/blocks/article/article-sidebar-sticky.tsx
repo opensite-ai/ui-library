@@ -1,9 +1,8 @@
 import { ArticleSidebarSticky } from "@opensite/ui/blocks/article/article-sidebar-sticky";
-import {
-  imagePlaceholders,
-  LONG_FORM_MARKDOWN_STRING,
-  optixFlowApiKey,
-} from "@/lib/media";
+import { LONG_FORM_MARKDOWN_STRING, optixFlowApiKey } from "@/lib/media";
+
+const ARTICLE_IMAGE_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 export default function Demo() {
   return (
@@ -12,10 +11,10 @@ export default function Demo() {
       backText="Back to Blog"
       title="Mastering React Server Components: A Deep Dive"
       authorName="Emma Thompson"
-      authorImage={imagePlaceholders[2]}
+      authorImage={ARTICLE_IMAGE_URL}
       authorHref="#"
       publishDate="January 18, 2026"
-      heroImageSrc={imagePlaceholders[56]}
+      heroImageSrc={ARTICLE_IMAGE_URL}
       heroImageAlt="React Server Components architecture"
       background="white"
       pattern="dashedGridBasic"

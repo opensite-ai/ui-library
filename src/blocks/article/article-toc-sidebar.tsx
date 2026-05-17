@@ -1,5 +1,8 @@
 import { ArticleTocSidebar } from "@opensite/ui/blocks/article/article-toc-sidebar";
-import { imagePlaceholders, LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+import { LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
+
+const ARTICLE_IMAGE_URL =
+  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
 
 export default function Demo() {
   return (
@@ -8,11 +11,11 @@ export default function Demo() {
       title="Building Scalable Systems: A Comprehensive Guide"
       description="Learn the principles, patterns, and practices that enable applications to grow gracefully from prototype to production scale."
       authorName="Michael Zhang"
-      authorImage={imagePlaceholders[88]}
+      authorImage={ARTICLE_IMAGE_URL}
       authorHref="#"
       publishDate="January 12, 2026"
       readTime="20 min read"
-      heroImageSrc={imagePlaceholders[95]}
+      heroImageSrc={ARTICLE_IMAGE_URL}
       heroImageAlt="Scalable architecture diagram"
       sections={[
         { id: "introduction", title: "Introduction" },
