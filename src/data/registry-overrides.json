@@ -588,8 +588,8 @@
       "title": "Hero AI Powered Carousel",
       "componentPath": "blocks/hero/hero-ai-powered-carousel.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306285/r9exzks7m20y3bt8kli66cf8g149/hero-ai-powered-carousel-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306286/qfllp428tfcygv1qi1c1n7ajolhp/hero-ai-powered-carousel-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308467/2moisa3rc2c4uy4wvpf78jq8pmeb/hero-ai-powered-carousel-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308468/qu3jxkkf3xwd5nn3h0m6mm3miv80/hero-ai-powered-carousel-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-ai-powered-carousel",
@@ -632,8 +632,8 @@
       "title": "Hero Badge Shadow Overlay",
       "componentPath": "blocks/hero/hero-badge-shadow-overlay.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290232/xmhcvex2y66r8lcdsbkyb322f327/cleanshot-2026-02-18-at-02-58-39.png",
-        "mobile": "https://cdn.ing/assets/i/r/290231/izghatv8ulcqat2ubpcks550f6s1/cleanshot-2026-02-18-at-02-58-47.png"
+        "desktop": "https://cdn.ing/assets/i/r/308465/ofgbutdjijhz860e66xfdfg3faz3/hero-badge-shadow-overlay-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308466/z9pq3m5qpqw9eahq4tq50892z280/hero-badge-shadow-overlay-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-badge-shadow-overlay",
@@ -742,8 +742,8 @@
       "title": "Hero Conversion Video Play",
       "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290336/o2vr3twzbv2erfeoqnx55s4ntecv/cleanshot-2026-02-18-at-08-52-30.png",
-        "mobile": "https://cdn.ing/assets/i/r/290335/1nj6chywh9tgtlrh5dd1d6wkmui2/cleanshot-2026-02-18-at-08-52-41.png"
+        "desktop": "",
+        "mobile": ""
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversion-video-play",
@@ -753,8 +753,8 @@
       "title": "Hero Creative Studio Stacked",
       "componentPath": "blocks/hero/hero-creative-studio-stacked.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290405/ypcg7i83tx92yyjwnc8tx8syur76/cleanshot-2026-02-18-at-15-20-44.png",
-        "mobile": "https://cdn.ing/assets/i/r/290404/wa5mcypnvpc43f2929flo554pk9o/cleanshot-2026-02-18-at-15-20-58.png"
+        "desktop": "https://cdn.ing/assets/i/r/308461/60rkj6aj9hjsuiqwdioqfdzzrrbi/hero-creative-studio-stacked-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308462/wh7etgs81760f7w8f86vfjy80fcl/hero-creative-studio-stacked-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-creative-studio-stacked",
@@ -764,8 +764,8 @@
       "title": "Hero CRM Streamlined",
       "componentPath": "blocks/hero/hero-crm-streamlined.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290332/ohesfnbgakl4kf5mzwzg9ic1rmvk/cleanshot-2026-02-18-at-08-49-57.png",
-        "mobile": "https://cdn.ing/assets/i/r/290331/6lp3u8m86rimri4nyn3yb1n78k0s/cleanshot-2026-02-18-at-08-50-10.png"
+        "desktop": "https://cdn.ing/assets/i/r/308469/o6o4yangas1fc1ryenjpfw9kwlr6/hero-crm-streamlined-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308470/s68ri0txhcqvgp8dqk5f0thz1rh1/hero-crm-streamlined-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-crm-streamlined",
@@ -775,8 +775,8 @@
       "title": "Hero Customer Support Layered",
       "componentPath": "blocks/hero/hero-customer-support-layered.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290388/frahxbhlmrh8jvlqs9371zabwzj2/cleanshot-2026-02-18-at-13-24-37.png",
-        "mobile": "https://cdn.ing/assets/i/r/290389/7jd1ebdx3gqyrww2g647kncwq76s/cleanshot-2026-02-18-at-13-24-46.png"
+        "desktop": "https://cdn.ing/assets/i/r/308463/z9o41ngrycs7cwgkwegm1xd36qn8/hero-customer-support-layered-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308464/wvpr490jmwnrrjodlgu31rf1q3ub/hero-customer-support-layered-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-customer-support-layered",
@@ -915,8 +915,8 @@
       "title": "Hero Fullscreen Background Image",
       "componentPath": "blocks/hero/hero-fullscreen-background-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306291/v92gk0hbscn8uc44weranfwev4ri/hero-fullscreen-background-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306292/c1x6brpr0aozujg1kizwf1fmkxkm/hero-fullscreen-background-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308459/yopdur6guxws89die0c828hytqiq/hero-fullscreen-background-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308460/4n6pu25q0w616w8tr2evk7zrcwjf/hero-fullscreen-background-image-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-fullscreen-background-image",

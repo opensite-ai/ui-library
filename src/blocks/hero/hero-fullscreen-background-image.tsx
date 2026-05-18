@@ -6,6 +6,10 @@ export default function Demo() {
     <HeroFullscreenBackgroundImage
       heading="Experience the extraordinary"
       description="Immersive experiences that captivate and inspire. Make a bold statement with stunning visuals."
+      logo={{
+        src: "https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png",
+        alt: "Brand Logo",
+      }}
       actions={[
         {
           label: "Get Started",
@@ -20,7 +24,9 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/phone" size={16} />,
         },
       ]}
-      backgroundImage={"https://toastability-production.s3.amazonaws.com/w41h7890eivogu3sr78vlwkpzz8g"}
+      backgroundImage={
+        "https://toastability-production.s3.amazonaws.com/w41h7890eivogu3sr78vlwkpzz8g"
+      }
     />
   );
 }
