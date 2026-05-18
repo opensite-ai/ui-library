@@ -57,8 +57,14 @@ export default function Demo() {
           ),
         },
       ]}
-      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Event venue" }}
-      logo={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Event venue" }}
+      image={{
+        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        alt: "Event venue",
+      }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/288967/cn6z89c4c23ubohkz6kv3npdn672/ui-placeholder-logo-white-5.png",
+        alt: "Event venue",
+      }}
       locationLabel="San Francisco, CA"
       locationSublabel="September 15-17, 2026"
       background="dark"

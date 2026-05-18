@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <HeroUiLibraryShowcase
       logo={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png",
         alt: "StartupCo Logo",
       }}
       heading="Beautiful components for modern apps"

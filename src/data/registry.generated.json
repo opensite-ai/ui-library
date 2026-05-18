@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.6.9",
+    "version": "3.7.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-18T04:34:50.424Z",
+    "syncedAt": "2026-05-18T05:12:21.042Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -62094,46 +62094,51 @@
         "mobile": "https://cdn.ing/assets/i/r/290223/s8sx12gozl3sw5bgqgm9rlwcqr2o/cleanshot-2026-02-18-at-02-32-11.png"
       },
       "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
-      "code": "import { HeroLogoCenteredScreenshot } from \"@opensite/ui/blocks/hero/hero-logo-centered-screenshot\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroLogoCenteredScreenshot\n      logo={{ src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company Logo\" }}\n      heading=\"The platform that powers modern businesses\"\n      description=\"Trusted by thousands of companies worldwide to streamline operations and drive growth.\"\n      action={{\n        label: \"Get Started\",\n        href: \"/signup\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      image={{ src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Platform screenshot\" }}\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={0.15}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { HeroLogoCenteredScreenshot } from \"@opensite/ui/blocks/hero/hero-logo-centered-screenshot\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroLogoCenteredScreenshot\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png\",\n        alt: \"Company Logo\",\n      }}\n      heading=\"The platform that powers modern businesses\"\n      description=\"Trusted by thousands of companies worldwide to streamline operations and drive growth.\"\n      action={{\n        label: \"Get Started\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      image={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"Platform screenshot\",\n      }}\n      pattern=\"dashedGridFadeTop\"\n      patternOpacity={0.15}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "logo": {
           "type": "object",
-          "description": "Logo configuration",
+          "description": "Brand logo configuration — renders above the announcement badge.\nLOGO MEDIA ONLY. Do not use photos, hero images, or video assets.",
           "fields": {
+            "url": {
+              "type": "string",
+              "description": "URL to navigate to when logo is clicked",
+              "required": false
+            },
             "src": {
-              "type": "object",
-              "description": "Image source URL or light/dark mode variants",
-              "typeLabel": "string | { light: string; dark?: string; }",
-              "required": true
+              "type": "string",
+              "description": "Image source for the logo",
+              "required": false
             },
             "alt": {
               "type": "string",
-              "description": "Alt text for accessibility",
-              "required": true
+              "description": "Alt text for the logo image",
+              "required": false
             },
-            "href": {
-              "type": "string",
-              "description": "Optional link URL",
+            "title": {
+              "type": "object",
+              "description": "Text title to display (alternative to image)",
+              "typeLabel": "React.ReactNode",
               "required": false
             },
             "className": {
               "type": "string",
-              "description": "Additional CSS classes for the logo wrapper",
-              "required": false
-            },
-            "imgClassName": {
-              "type": "string",
-              "description": "Additional CSS classes for the img element",
+              "description": "Additional CSS classes for the logo",
               "required": false
             }
           },
-          "typeLabel": "LogoItem",
+          "typeLabel": "LogoConfig",
           "required": false
         },
         "logoSlot": {
           "type": "object",
           "description": "Custom slot for logo (overrides logo prop)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "logoClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the logo container",
           "required": false
         },
         "heading": {
@@ -68106,7 +68111,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290323/wjfj3i3e53fqspa0uj5ngry1tbkl/cleanshot-2026-02-18-at-08-35-20.png"
       },
       "componentPath": "blocks/hero/hero-ui-library-showcase.tsx",
-      "code": "import { HeroUiLibraryShowcase } from \"@opensite/ui/blocks/hero/hero-ui-library-showcase\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroUiLibraryShowcase\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"StartupCo Logo\",\n      }}\n      heading=\"Beautiful components for modern apps\"\n      description=\"A comprehensive UI library with 100+ components. Built with accessibility, performance, and developer experience in mind.\"\n      image={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"UI component showcase\",\n      }}\n      actions={[\n        {\n          label: \"Browse Components\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Docs\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/book-open\" size={16} />,\n        },\n      ]}\n      background=\"secondary\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
+      "code": "import { HeroUiLibraryShowcase } from \"@opensite/ui/blocks/hero/hero-ui-library-showcase\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroUiLibraryShowcase\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png\",\n        alt: \"StartupCo Logo\",\n      }}\n      heading=\"Beautiful components for modern apps\"\n      description=\"A comprehensive UI library with 100+ components. Built with accessibility, performance, and developer experience in mind.\"\n      image={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"UI component showcase\",\n      }}\n      actions={[\n        {\n          label: \"Browse Components\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Docs\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/book-open\" size={16} />,\n        },\n      ]}\n      background=\"secondary\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
       "propsSchema": {
         "logo": {
           "type": "object",
@@ -85533,7 +85538,7 @@
         "mobile": "https://cdn.ing/assets/i/r/306280/2l1smrwhw6zcm3nv52jcmvvb2j5w/hero-event-registration-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-event-registration.tsx",
-      "code": "import { HeroEventRegistration } from \"@opensite/ui/blocks/hero/hero-event-registration\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroEventRegistration\n      badgeText=\"Annual Conference\"\n      badgeIcon=\"lucide/calendar\"\n      heading=\"Join us for the event of the year\"\n      description=\"Three days of inspiring talks, hands-on workshops, and networking with industry leaders. September 15-17, 2026 in San Francisco.\"\n      actions={[\n        {\n          label: \"Register Now\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Agenda\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/calendar\" size={16} />,\n        },\n      ]}\n      stats={[\n        {\n          value: \"2k+\",\n          label: \"Attendees\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"50+\",\n          label: \"Speakers\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/mic-vocal\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"3 Days\",\n          label: \"Duration\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/timer\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n      ]}\n      image={{ src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Event venue\" }}\n      logo={{ src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Event venue\" }}\n      locationLabel=\"San Francisco, CA\"\n      locationSublabel=\"September 15-17, 2026\"\n      background=\"dark\"\n      pattern=\"gridFadeTopRight\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "import { HeroEventRegistration } from \"@opensite/ui/blocks/hero/hero-event-registration\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroEventRegistration\n      badgeText=\"Annual Conference\"\n      badgeIcon=\"lucide/calendar\"\n      heading=\"Join us for the event of the year\"\n      description=\"Three days of inspiring talks, hands-on workshops, and networking with industry leaders. September 15-17, 2026 in San Francisco.\"\n      actions={[\n        {\n          label: \"Register Now\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Agenda\",\n          href: \"#\",\n          variant: \"outline\",\n          icon: <DynamicIcon name=\"lucide/calendar\" size={16} />,\n        },\n      ]}\n      stats={[\n        {\n          value: \"2k+\",\n          label: \"Attendees\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/users\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"50+\",\n          label: \"Speakers\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/mic-vocal\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n        {\n          value: \"3 Days\",\n          label: \"Duration\",\n          icon: (\n            <DynamicIcon\n              name=\"lucide/timer\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n        },\n      ]}\n      image={{\n        src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n        alt: \"Event venue\",\n      }}\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/288967/cn6z89c4c23ubohkz6kv3npdn672/ui-placeholder-logo-white-5.png\",\n        alt: \"Event venue\",\n      }}\n      locationLabel=\"San Francisco, CA\"\n      locationSublabel=\"September 15-17, 2026\"\n      background=\"dark\"\n      pattern=\"gridFadeTopRight\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
