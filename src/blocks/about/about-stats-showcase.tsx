@@ -27,17 +27,17 @@ export default function Demo() {
       logosTitle="Trusted by Leading Organizations"
       logos={[
         {
-          src: "https://toastability-production.s3.amazonaws.com/9eddibiq5ovc9cvs3ekijkrjpahg",
+          src: "https://cdn.ing/assets/i/r/288963/4kq4loxmhh5lwc7scw7hhusu87km/ui-placeholder-logo-white-1.png",
           alt: "Partner logo",
           name: "Acme",
         },
         {
-          src: "https://toastability-production.s3.amazonaws.com/3ghn8dz3g9qtt4pf4nwbriaydvzb",
+          src: "https://cdn.ing/assets/i/r/288966/0ls9to9jqnrc4gcxty9rx2c4udjv/ui-placeholder-logo-white-2.png",
           alt: "Partner logo",
           name: "Initech",
         },
         {
-          src: "https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw",
+          src: "https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png",
           alt: "Partner logo",
           name: "Umbrella",
         },

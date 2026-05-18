@@ -20,12 +20,8 @@ export default function Demo() {
         },
       ]}
       gridImages={[
-        { src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z", alt: "Gallery 1" },
-        { src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9", alt: "Gallery 2" },
-        { src: "https://toastability-production.s3.amazonaws.com/uh2vd59np82h8sevbmfnsha89sf1", alt: "Gallery 3" },
-        { src: "https://toastability-production.s3.amazonaws.com/gxs6zevccphti0hdq5l9fwytprpr", alt: "Gallery 4" },
-        { src: "https://toastability-production.s3.amazonaws.com/s4vho0wfbjhf758oife8qfuekou8", alt: "Gallery 5" },
-        { src: "https://toastability-production.s3.amazonaws.com/1b0gd8ul22q799d62dvm3sgyll85", alt: "Gallery 6" },
+        { src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z", alt: "Project showcase" },
+        { src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9", alt: "Studio workspace" },
       ]}
       background="dark"
       pattern="dashedGridFadeTop"

@@ -9,7 +9,7 @@ export default function Demo() {
       heading="The future of startups starts here"
       description="Join the waitlist for early access to the platform that's changing how startups build, launch, and scale."
       badgeCard={{
-        logoSrc: "https://toastability-production.s3.amazonaws.com/50y066ms7rb5sw62u9u08jzkk8rj",
+        logoSrc: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         title: "OpenSite",
         subtitle: "Intelligent Automation",
       }}

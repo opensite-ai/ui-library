@@ -42,12 +42,12 @@ export default function Demo() {
       }}
       videoDialogTitle="Conversion Optimization Demo"
       logos={[
-        { src: "https://toastability-production.s3.amazonaws.com/y1aezpa78m2fhfvj8whcx337y9cb", alt: "Partner 1" },
-        { src: "https://toastability-production.s3.amazonaws.com/eoa76d31ynbg34urr6e4619la1f7", alt: "Partner 2" },
-        { src: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y", alt: "Partner 3" },
-        { src: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p", alt: "Partner 4" },
-        { src: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k", alt: "Partner 5" },
-        { src: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz", alt: "Partner 6" },
+        { src: "https://cdn.ing/assets/i/r/288963/4kq4loxmhh5lwc7scw7hhusu87km/ui-placeholder-logo-white-1.png", alt: "Partner 1" },
+        { src: "https://cdn.ing/assets/i/r/288966/0ls9to9jqnrc4gcxty9rx2c4udjv/ui-placeholder-logo-white-2.png", alt: "Partner 2" },
+        { src: "https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png", alt: "Partner 3" },
+        { src: "https://cdn.ing/assets/i/r/288969/h9k3b0ett73u3pouc2w15ibvl7tc/ui-placeholder-logo-white-4.png", alt: "Partner 4" },
+        { src: "https://cdn.ing/assets/i/r/288967/cn6z89c4c23ubohkz6kv3npdn672/ui-placeholder-logo-white-5.png", alt: "Partner 5" },
+        { src: "https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png", alt: "Partner 6" },
       ]}
       background="dark"
       pattern="grid1"

@@ -27,16 +27,16 @@ export default function Demo() {
       ]}
       logos={[
         {
-          src: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh",
-          alt: "Company logo",
+          src: "https://cdn.ing/assets/i/r/288964/4xdrg1wjc2knoy58ulqijicamar3/ui-placeholder-logo-dark-1.png",
+          alt: "Company 1",
         },
         {
-          src: "https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u",
-          alt: "Company logo",
+          src: "https://cdn.ing/assets/i/r/288965/aw0n8ithqntxtfweqrlmseqlcak7/ui-placeholder-logo-black-2.png",
+          alt: "Company 2",
         },
         {
-          src: "https://toastability-production.s3.amazonaws.com/ms4s4zyqpmboh0slez1cwat9qhw4",
-          alt: "Company logo",
+          src: "https://cdn.ing/assets/i/r/288972/kppvdeo8kgeweawxisqy9h9ybz6h/ui-placeholder-logo-black-3.png",
+          alt: "Company 3",
         },
       ]}
       stats={[
