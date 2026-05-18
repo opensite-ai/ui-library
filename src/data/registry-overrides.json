@@ -786,8 +786,8 @@
       "title": "Hero Dashed Border Features",
       "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290234/j44ri9v8uvlj52hvmxsxi9ie3zxc/cleanshot-2026-02-18-at-03-04-22.png",
-        "mobile": "https://cdn.ing/assets/i/r/290233/9tyimydps0l6dwejth0vhqb22lii/cleanshot-2026-02-18-at-03-04-48.png"
+        "desktop": "https://cdn.ing/assets/i/r/308451/n2zbjv5br0tdg1ggt3jj6sfd9y20/hero-dashed-border-features-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308452/7yn81hwai8ndl4tj8c9i08lbvucb/hero-dashed-border-features-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-dashed-border-features",
@@ -1025,8 +1025,8 @@
       "title": "Hero Logo Centered Screenshot",
       "componentPath": "blocks/hero/hero-logo-centered-screenshot.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290224/cg3a5bh0o4dzsg46rb5qjg8q9ho4/cleanshot-2026-02-18-at-02-31-51.png",
-        "mobile": "https://cdn.ing/assets/i/r/290223/s8sx12gozl3sw5bgqgm9rlwcqr2o/cleanshot-2026-02-18-at-02-32-11.png"
+        "desktop": "https://cdn.ing/assets/i/r/308457/pkv27loo4s37jfnj5w5s6sb0dsar/hero-logo-centered-screenshot-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308458/fhmibtn2e8z6twsyeapqbnydlm7z/hero-logo-centered-screenshot-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-logo-centered-screenshot",
@@ -1133,8 +1133,8 @@
       "title": "Hero Platform Features Grid",
       "componentPath": "blocks/hero/hero-platform-features-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290296/wvipb14wddxax1xjekblovwq3ji6/cleanshot-2026-02-18-at-04-10-52.png",
-        "mobile": "https://cdn.ing/assets/i/r/290295/1zrq2efvt9syeepxt4vs752q7g9p/cleanshot-2026-02-18-at-04-11-09.png"
+        "desktop": "https://cdn.ing/assets/i/r/308453/axhuo121s22zb4kuj8gvm7stua0c/hero-platform-features-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308454/sdtzm3tjsw2djmwh0rr0ttv99tqr/hero-platform-features-grid-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-platform-features-grid",
@@ -1342,8 +1342,8 @@
       "title": "Hero Multi-Panel Carousel",
       "componentPath": "blocks/hero/hero-tech-carousel.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306986/zo59nnooemltqmy2w5e9ik7urebv/hero-tech-carousel-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306987/vcz6x2ilfnx4y4h5vy734nhgb4z8/hero-tech-carousel-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308455/4nge942z2i8js1ph31q529ql885g/hero-tech-carousel-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308456/dd3ucl1quir9tbr89mvwc0fkny58/hero-tech-carousel-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-tech-carousel",

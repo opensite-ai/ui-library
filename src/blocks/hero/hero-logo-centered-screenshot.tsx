@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <HeroLogoCenteredScreenshot
       logo={{
-        src: "https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png",
+        src: "https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png",
         alt: "Company Logo",
       }}
       heading="The platform that powers modern businesses"
@@ -17,7 +17,7 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/6fffnb4phovtqkjhtzifs4rhb84u",
         alt: "Platform screenshot",
       }}
       pattern="dashedGridFadeTop"

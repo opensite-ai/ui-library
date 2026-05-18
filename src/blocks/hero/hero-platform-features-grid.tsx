@@ -4,7 +4,10 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroPlatformFeaturesGrid
-      logo={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Company Logo" }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/288965/aw0n8ithqntxtfweqrlmseqlcak7/ui-placeholder-logo-black-2.png",
+        alt: "Company Logo",
+      }}
       subtitle="Complete Platform"
       heading="A complete platform for modern teams"
       description="All-in-one solution that combines communication, collaboration, and project management tools in a single platform."
