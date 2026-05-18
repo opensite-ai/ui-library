@@ -14,7 +14,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/shopping-cart" size={16} />,
         },
       ]}
-      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn"}
       imageAlt="Product showcase"
       background="dark"
     />

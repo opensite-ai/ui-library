@@ -37,11 +37,11 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://cdn.ing/assets/i/r/289138/tlbtkr13i2nwu7kx80t5bnf9qwgg/manual-meat-slicer-on-wooden-counter-charcuterie-station.jpg",
           alt: "Office exterior",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://cdn.ing/assets/i/r/289144/9thob27iku9i72elwvz5j03z6482/glamorous-nightlife-portrait-woman-burgundy-dress-upscale-bar.jpg",
           alt: "Office interior",
         },
       ]}

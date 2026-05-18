@@ -9,7 +9,7 @@ export default function Demo() {
 
 We believe that great products come from understanding people first. That's why we invest deeply in research, collaborate closely with our clients, and never stop iterating until we get it right.`}
       heroImage={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/xwh1zzxgyd887thfm1j9lu9qnd6c",
         alt: "Team working together",
       }}
       teamInfo={{

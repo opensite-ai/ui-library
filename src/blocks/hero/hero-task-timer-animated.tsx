@@ -20,8 +20,8 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Timer interface" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Task tracking" },
+        { src: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y", alt: "Timer interface" },
+        { src: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p", alt: "Task tracking" },
       ]}
       background="dark"
       pattern="gridFadeTopLeft"

@@ -13,15 +13,15 @@ export default function Demo() {
         label: "Websites Powered",
         avatars: [
           {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/sr370c2cnf7uk5k4f6znyshualv0",
             alt: "User Avatar 1",
           },
           {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x",
             alt: "User Avatar 2",
           },
           {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc",
             alt: "User Avatar 3",
           },
         ],
@@ -47,7 +47,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      productImage={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product showcase" }}
+      productImage={{ src: "https://toastability-production.s3.amazonaws.com/qhz2kawawq3bbh7nusz3bvahln3v", alt: "Product showcase" }}
       background="dark"
       pattern="diagonalCrossFadeTopLeft"
       patternOpacity={0.15}

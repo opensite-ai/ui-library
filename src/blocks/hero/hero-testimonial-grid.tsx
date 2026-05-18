@@ -10,13 +10,13 @@ export default function Demo() {
         author: "Alex Thompson",
         role: "CTO",
         company: "TechVentures",
-        avatars: [{ image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "AT" }],
+        avatars: [{ image: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz", fallback: "AT" }],
       }}
       gridImages={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Customer 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/vh1aowwr93yz4qrzct2s4je0cxdo", alt: "Customer 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/ssgb7unxdwdqokfvhkp7cok2v79s", alt: "Customer 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/vvkma6b8whdkiq5nq8z4eyfe00vo", alt: "Customer 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/9797jh6slgbf9oq6lzlimcdiuziv", alt: "Customer 4" },
       ]}
       actions={[
         {

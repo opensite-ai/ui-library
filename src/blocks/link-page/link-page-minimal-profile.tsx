@@ -10,6 +10,10 @@ export default function Demo() {
         src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
         alt: "Alex Rivera",
       }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        alt: "Alex Rivera",
+      }}
       links={[
         {
           id: "1",

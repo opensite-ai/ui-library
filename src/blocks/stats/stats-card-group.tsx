@@ -1,7 +1,7 @@
 import { StatsCardGroup } from "@opensite/ui/blocks/stats/stats-card-group";
 
 const AVATAR_URL =
-  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
+  "https://toastability-production.s3.amazonaws.com/0kx9umbfmv881wt9dfqnohv8efgi";
 
 export default function Demo() {
   return (

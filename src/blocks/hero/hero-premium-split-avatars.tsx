@@ -8,7 +8,7 @@ export default function Demo() {
       brandSuffix="Community"
       heading="Join an exclusive community"
       description="Connect with like-minded professionals and gain access to premium resources, events, and networking opportunities."
-      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Community gathering" }}
+      image={{ src: "https://toastability-production.s3.amazonaws.com/we9r4e711an6d0bd3dwbl9tb9z7q", alt: "Community gathering" }}
       action={{
         label: "Join Now",
         href: "#",
@@ -16,9 +16,9 @@ export default function Demo() {
         iconAfter: <DynamicIcon name="lucide/arrow-right" />,
       }}
       avatars={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "M1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "M2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", fallback: "M3" },
+        { src: "https://toastability-production.s3.amazonaws.com/f8rfrurzo743ym1s7m5xtbombunz", fallback: "M1" },
+        { src: "https://toastability-production.s3.amazonaws.com/oe0y4bgiylx81fbfvsw31mhdgjzs", fallback: "M2" },
+        { src: "https://toastability-production.s3.amazonaws.com/sr370c2cnf7uk5k4f6znyshualv0", fallback: "M3" },
       ]}
       socialProofText="5,000+ active members"
       background="muted"

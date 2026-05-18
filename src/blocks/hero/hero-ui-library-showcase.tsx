@@ -11,7 +11,7 @@ export default function Demo() {
       heading="Beautiful components for modern apps"
       description="A comprehensive UI library with 100+ components. Built with accessibility, performance, and developer experience in mind."
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/n001o4pfpszmyw03ubctig7kvf0e",
         alt: "UI component showcase",
       }}
       actions={[

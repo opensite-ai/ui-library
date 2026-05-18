@@ -6,7 +6,7 @@ export default function Demo() {
     <HeroSimpleCenteredImage
       heading="Clean, simple, effective"
       description="Sometimes less is more. Focus on what matters with our streamlined approach to design and functionality."
-      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov"}
       imageAlt="Product showcase"
       actions={[
         {

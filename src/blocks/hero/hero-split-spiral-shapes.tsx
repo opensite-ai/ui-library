@@ -21,9 +21,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/1b0gd8ul22q799d62dvm3sgyll85", alt: "Image 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/102grjqg8aigxkj585s9x3xbxfv7", alt: "Image 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52", alt: "Image 3" },
       ]}
       background="dark"
       pattern="spotlightRight"

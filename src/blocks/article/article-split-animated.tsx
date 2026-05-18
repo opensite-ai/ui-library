@@ -1,7 +1,7 @@
 import { ArticleSplitAnimated } from "@opensite/ui/blocks/article/article-split-animated";
 
 const ARTICLE_IMAGE_URL =
-  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
+  "https://toastability-production.s3.amazonaws.com/2t36c7l0ywchaz4nys8yj2l5amae";
 
 export default function Demo() {
   return (

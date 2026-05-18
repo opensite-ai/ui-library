@@ -24,7 +24,7 @@ export default function Demo() {
                 { value: "60%", label: "Women in Tech" },
                 { value: "85%", label: "Retention Rate" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://toastability-production.s3.amazonaws.com/ri0dqx79spe6771np76mkmno5xfd",
             },
             {
               id: "growth",
@@ -37,7 +37,7 @@ export default function Demo() {
                 { value: "300+", label: "Mentorship Pairs" },
                 { value: "92%", label: "Satisfaction" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a",
             },
           ],
         },
@@ -58,7 +58,7 @@ export default function Demo() {
                 { value: "25", label: "School Partners" },
                 { value: "78%", label: "Career Placement" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://toastability-production.s3.amazonaws.com/w87w0fyjdol9yzwo7yywkgxidvzo",
             },
             {
               id: "nonprofit",
@@ -71,7 +71,7 @@ export default function Demo() {
                 { value: "$5M", label: "Value Donated" },
                 { value: "2000+", label: "Volunteer Hours" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://cdn.ing/assets/i/r/289134/pq7xx1m5piaai94v56e8kpt5rc7m/luxury-champagne-wall-with-ambient-sconce-lighting.jpg",
             },
           ],
         },
@@ -92,7 +92,7 @@ export default function Demo() {
                 { value: "65%", label: "Employee Participation" },
                 { value: "40+", label: "Events/Year" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://cdn.ing/assets/i/r/289135/r0s7nf2ywu133hpy6hcbt74i8htg/espresso-martini-served-at-moody-bar-with-coffee-beans.jpg",
             },
             {
               id: "learning",
@@ -125,7 +125,7 @@ export default function Demo() {
                 { value: "100%", label: "Keyboard Nav" },
                 { value: "98%", label: "Screen Reader" },
               ],
-              image: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              image: "https://cdn.ing/assets/i/r/289136/47lmzyqgma1ovg3oxw37x38oyx08/bartender-shaking-cocktail-in-lively-night-bar.jpg",
             },
             {
               id: "workplace",

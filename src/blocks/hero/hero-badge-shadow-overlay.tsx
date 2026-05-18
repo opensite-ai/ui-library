@@ -17,7 +17,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      backgroundImageUrl={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      backgroundImageUrl={"https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc"}
     />
   );
 }

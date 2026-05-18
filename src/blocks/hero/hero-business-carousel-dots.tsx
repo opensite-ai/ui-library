@@ -21,9 +21,9 @@ export default function Demo() {
         },
       ]}
       carouselImages={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Business feature 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Business feature 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Business feature 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/qghzqu1i99vaubyew9s5dxcbel9l", alt: "Business feature 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw", alt: "Business feature 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/2d4k8d5shwg82276hzj2ztbj7mxq", alt: "Business feature 3" },
       ]}
       background="gray"
     />

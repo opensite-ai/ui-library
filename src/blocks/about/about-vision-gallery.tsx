@@ -7,15 +7,15 @@ export default function Demo() {
       subtitle="We combine creativity, technology, and strategy to build experiences that inspire and endure."
       images={[
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/5jsc0b4e3gxnjs81iotw2c3e6da3",
           alt: "Team collaboration",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/0g6t701zqr2r7najmdgftpeqnxmz",
           alt: "Modern workspace",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/u3p1hlbm2c1vvkwlm8h668pe132z",
           alt: "Creative session",
         },
       ]}

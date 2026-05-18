@@ -10,6 +10,10 @@ export default function Demo() {
         src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Creative Studio",
       }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+        alt: "Creative Studio",
+      }}
       brandVerified={false}
       socialLinks={[
         {

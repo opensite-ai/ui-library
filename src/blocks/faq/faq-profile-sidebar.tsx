@@ -50,7 +50,7 @@ export default function Demo() {
             "Yes, our mobile app is available on iOS and Android, allowing you to access your data and collaborate with your team on the go.",
         },
       ]}
-      profileImage="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
+      profileImage="https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg"
       profileName="Sarah Chen"
       profileRole="Customer Success Manager"
       profileDescription="With over 8 years of experience helping teams maximize their productivity, I'm here to ensure you get the most value from our platform."

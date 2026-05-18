@@ -8,9 +8,9 @@ export default function Demo() {
       description="Deliver exceptional customer experiences with our multi-channel support platform. Fast, efficient, and always there when you need it."
       tagline="Customer Support"
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Support interface 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/9797jh6slgbf9oq6lzlimcdiuziv", alt: "Support interface 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/betxbx61fkijt0aygineplf489ze", alt: "Support interface 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/0o6d7z4mm9nzeufhv9kefrhihbip", alt: "Support interface 3" },
       ]}
       actions={[
         {

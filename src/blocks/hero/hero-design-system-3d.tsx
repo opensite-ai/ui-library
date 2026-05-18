@@ -22,9 +22,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Design system component 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/l080sx0lcx51x44dqrb8006nqf08", alt: "Design system component 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/2t36c7l0ywchaz4nys8yj2l5amae", alt: "Design system component 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh", alt: "Design system component 3" },
       ]}
       background="dark"
     />

@@ -19,9 +19,9 @@ export default function Demo() {
       pattern="gridDotsBasic"
       patternOpacity={0.1}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Image 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/2d4k8d5shwg82276hzj2ztbj7mxq", alt: "Image 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/op92dycs7w856e2jsvx20st0nyz9", alt: "Image 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/f921uoblxbv8f9bmr4s2ik7xxugl", alt: "Image 3" },
       ]}
     />
   );

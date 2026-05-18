@@ -24,9 +24,9 @@ export default function Demo() {
         title: "See how it works",
       }}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Project 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p", alt: "Project 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k", alt: "Project 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz", alt: "Project 3" },
       ]}
       background="dark"
       pattern="dashedGridFadeTopRight"

@@ -9,11 +9,11 @@ export default function Demo() {
       missionLabel="Our Mission"
       missionText="To empower businesses with technology that simplifies complexity, amplifies creativity, and accelerates success in an ever-evolving digital landscape."
       mainImage={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/g607vblaarqctl1cvgxffhx4pw6g",
         alt: "Team working together",
       }}
       missionBackgroundImage={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/4xpu1ljr9c8g6qzmfum5ygjzbzpb",
         alt: "Abstract background",
       }}
       featuresTitle="What Sets Us Apart"

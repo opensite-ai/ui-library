@@ -20,10 +20,10 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Feature 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/9z0sbfnskx70vse99e3dfhper7i1", alt: "Feature 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/9keidwrag6g7jtqr7rdwb1ryt6ht", alt: "Feature 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/zm88vf14geh1gh0frd3yrdlb6pl8", alt: "Feature 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19", alt: "Feature 4" },
       ]}
       background="dark"
       pattern="dashedGridFadeCenter"

@@ -15,9 +15,9 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Innovation 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw", alt: "Innovation 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/ytbyjrcvrghc7wl6w1g7g8fwka22", alt: "Innovation 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr", alt: "Innovation 3" },
       ]}
       background="dark"
       pattern="gridFadeBottomLeft"

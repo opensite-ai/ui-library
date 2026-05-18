@@ -35,7 +35,7 @@ export default function Demo() {
       successMessage="Thank you for subscribing! Check your inbox for a confirmation email."
       helperText="We respect your privacy. Unsubscribe at any time."
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/uh2vd59np82h8sevbmfnsha89sf1",
         alt: "Newsletter preview",
       }}
       background="gray"

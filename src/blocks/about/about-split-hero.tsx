@@ -13,7 +13,7 @@ export default function Demo() {
         variant: "default",
         size: "lg",
       }}
-      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/xjtepune0scj9yjkkqgaiwlq9hls"}
       imageAlt="Enterprise team collaboration"
       background="dark"
       pattern="gridDotsBasic"

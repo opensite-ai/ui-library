@@ -20,7 +20,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh",
         alt: "Platform demo preview",
       }}
       videoDialog={{

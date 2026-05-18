@@ -21,19 +21,19 @@ export default function Demo() {
       ]}
       images={[
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/gl7n7p6atndufbsm6q2ac5jeqttp",
           alt: "Modern design showcase",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z",
           alt: "Creative workspace",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
           alt: "Bold visual identity",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/uh2vd59np82h8sevbmfnsha89sf1",
           alt: "Contemporary aesthetics",
         },
       ]}

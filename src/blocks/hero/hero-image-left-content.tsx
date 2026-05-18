@@ -4,7 +4,7 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroImageLeftContent
-      imageSrc={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      imageSrc={"https://toastability-production.s3.amazonaws.com/ehgbcugs782765ke1l2dtbtzd918"}
       imageAlt="Product showcase"
       heading="Beautiful design meets powerful functionality"
       description="Create stunning experiences with our intuitive platform. Designed for professionals, built for everyone."

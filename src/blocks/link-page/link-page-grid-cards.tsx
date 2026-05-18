@@ -10,6 +10,10 @@ export default function Demo() {
         src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Marcus Chen",
       }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        alt: "Marcus Chen",
+      }}
       socialLinks={[
         {
           id: "1",

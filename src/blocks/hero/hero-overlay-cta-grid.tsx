@@ -4,7 +4,7 @@ export default function Demo() {
   return (
     <HeroOverlayCtaGrid
       heading="Choose your path"
-      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      backgroundImage={"https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030"}
       description="Multiple ways to engage with our platform. Select the option that best fits your needs."
       spacing="none"
       cards={[

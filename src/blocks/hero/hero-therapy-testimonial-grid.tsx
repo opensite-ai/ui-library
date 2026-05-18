@@ -10,12 +10,12 @@ export default function Demo() {
         quote:
           "Therapy changed my life. I finally feel understood and supported. Highly recommend to anyone seeking help. Also, the therapists are amazing!",
         author: "Anonymous Client",
-        avatar: { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Client testimonial" },
+        avatar: { src: "https://toastability-production.s3.amazonaws.com/0o6d7z4mm9nzeufhv9kefrhihbip", alt: "Client testimonial" },
       }}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Therapy session 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt", alt: "Therapy session 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c", alt: "Therapy session 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/n001o4pfpszmyw03ubctig7kvf0e", alt: "Therapy session 3" },
       ]}
       actions={[
         {

@@ -20,7 +20,11 @@ export default function Demo() {
       name="Jamie Taylor"
       bio="Marketing Expert & Growth Strategist"
       avatar={{
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        alt: "Jamie Taylor",
+      }}
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
         alt: "Jamie Taylor",
       }}
       socialLinks={[

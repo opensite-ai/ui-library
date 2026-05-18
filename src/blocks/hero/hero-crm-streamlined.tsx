@@ -15,7 +15,7 @@ export default function Demo() {
           iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
-      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "CRM Dashboard" }}
+      image={{ src: "https://toastability-production.s3.amazonaws.com/vh1aowwr93yz4qrzct2s4je0cxdo", alt: "CRM Dashboard" }}
       background="dark"
       pattern="crossPattern"
       patternOpacity={0.9}

@@ -14,7 +14,7 @@ export default function Demo() {
             description:
               "We begin by deeply understanding your business, goals, and challenges. Through stakeholder interviews, market research, and competitive analysis, we uncover insights that inform every decision.",
             image: {
-              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              src: "https://toastability-production.s3.amazonaws.com/rews5enr9ynu6izioj66s8ec90nc",
               alt: "Discovery phase workshop",
             },
           },
@@ -27,7 +27,7 @@ export default function Demo() {
             description:
               "Armed with insights, we craft solutions that balance aesthetics with functionality. Our iterative design process ensures every element serves a purpose and resonates with your audience.",
             image: {
-              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              src: "https://toastability-production.s3.amazonaws.com/6ku135fhv528eei3agnoc3zd7y75",
               alt: "Design process",
             },
           },
@@ -40,7 +40,7 @@ export default function Demo() {
             description:
               "Our engineering team brings designs to life using modern technologies and best practices. We prioritize performance, accessibility, and maintainability in every line of code.",
             image: {
-              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              src: "https://toastability-production.s3.amazonaws.com/x4scuzhsozrwrg703df5wbhygkgo",
               alt: "Development phase",
             },
           },
@@ -53,7 +53,7 @@ export default function Demo() {
             description:
               "Launch is just the beginning. We ensure smooth deployment, provide comprehensive training, and offer ongoing support to maximize the impact of your investment.",
             image: {
-              src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+              src: "https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55",
               alt: "Project delivery",
             },
           },

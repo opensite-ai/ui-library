@@ -21,7 +21,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/9uxe0jw1zl1tujy0m5yalo7m2ht8",
         alt: "Conversation intelligence dashboard",
       }}
       background="dark"

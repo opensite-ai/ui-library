@@ -17,7 +17,7 @@ export default function Demo() {
       videoTitle="Mentorship Success Stories"
       modalVideo={{
         image: {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/z37cidvud212bzqhhalrhvk7ipaa",
           alt: "Mentorship video",
         },
         video: {
@@ -25,7 +25,7 @@ export default function Demo() {
         },
       }}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/pfllskt7q7144l288lrnpc6gx606",
         alt: "Video Showcase",
       }}
       background="dark"

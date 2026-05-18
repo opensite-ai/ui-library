@@ -12,7 +12,7 @@ export default function Demo() {
         variant: "default",
         iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
       }}
-      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      backgroundImage={"https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x"}
     />
   );
 }

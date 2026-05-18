@@ -21,14 +21,14 @@ export default function Demo() {
         },
       ]}
       avatars={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "User 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/x4scuzhsozrwrg703df5wbhygkgo", alt: "User 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55", alt: "User 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05", alt: "User 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh", alt: "User 4" },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Hero 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Hero 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u", alt: "Hero 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/ms4s4zyqpmboh0slez1cwat9qhw4", alt: "Hero 2" },
       ]}
       ratingValue="4.9"
       ratingLabel="10,000+ happy users"

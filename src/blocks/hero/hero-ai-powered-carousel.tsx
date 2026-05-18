@@ -23,20 +23,20 @@ export default function Demo() {
         },
       ]}
       carouselImages1={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 4" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 5" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 6" },
+        { src: "https://toastability-production.s3.amazonaws.com/f8rfrurzo743ym1s7m5xtbombunz", alt: "AI Feature 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/oe0y4bgiylx81fbfvsw31mhdgjzs", alt: "AI Feature 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/sr370c2cnf7uk5k4f6znyshualv0", alt: "AI Feature 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x", alt: "AI Feature 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc", alt: "AI Feature 5" },
+        { src: "https://toastability-production.s3.amazonaws.com/qhz2kawawq3bbh7nusz3bvahln3v", alt: "AI Feature 6" },
       ]}
       carouselImages2={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 7" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 8" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 9" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 10" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 11" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "AI Feature 12" },
+        { src: "https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac", alt: "AI Feature 7" },
+        { src: "https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm", alt: "AI Feature 8" },
+        { src: "https://toastability-production.s3.amazonaws.com/8x62o6350p1ejm3pjrp1jwvcbh4v", alt: "AI Feature 9" },
+        { src: "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc", alt: "AI Feature 10" },
+        { src: "https://toastability-production.s3.amazonaws.com/t502cfynqso7ntkdvmcmfc87yjkt", alt: "AI Feature 11" },
+        { src: "https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov", alt: "AI Feature 12" },
       ]}
       background="gray"
     />

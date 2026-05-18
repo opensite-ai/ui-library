@@ -18,7 +18,7 @@ Today, we serve thousands of businesses worldwide, but our mission remains uncha
 
 Thank you for being part of our journey.`}
       featuredImage={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://cdn.ing/assets/i/r/289165/py905nlu0any8riaohkf5ervr3m8/gourmet-asparagus-crostini-on-white-plate-marble-table.jpg",
         alt: "Team collaboration",
       }}
     />

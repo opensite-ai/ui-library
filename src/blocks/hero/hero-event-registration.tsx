@@ -58,7 +58,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x",
         alt: "Event venue",
       }}
       logo={{

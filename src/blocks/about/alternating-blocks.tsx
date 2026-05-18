@@ -28,7 +28,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
+              src="https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw"
               alt="Early team collaboration"
               className="h-full w-full object-cover"
             />
@@ -54,7 +54,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
+              src="https://toastability-production.s3.amazonaws.com/ytbyjrcvrghc7wl6w1g7g8fwka22"
               alt="Office expansion"
               className="h-full w-full object-cover"
             />
@@ -80,7 +80,7 @@ export default function Demo() {
           ),
           media: (
             <img
-              src="https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"
+              src="https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr"
               alt="Modern workplace"
               className="h-full w-full object-cover"
             />

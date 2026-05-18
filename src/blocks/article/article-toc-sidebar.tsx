@@ -2,7 +2,7 @@ import { ArticleTocSidebar } from "@opensite/ui/blocks/article/article-toc-sideb
 import { LONG_FORM_MARKDOWN_STRING } from "@/lib/media";
 
 const ARTICLE_IMAGE_URL =
-  "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp";
+  "https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh";
 
 export default function Demo() {
   return (

@@ -57,10 +57,10 @@ export default function Demo() {
         },
       ]}
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Product 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/9keidwrag6g7jtqr7rdwb1ryt6ht", alt: "Product 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/zm88vf14geh1gh0frd3yrdlb6pl8", alt: "Product 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/0x7ktdk01jfaoysst0emzvqevu19", alt: "Product 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x", alt: "Product 4" },
       ]}
       background="gray"
     />

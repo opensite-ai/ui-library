@@ -25,7 +25,7 @@ export default function Demo() {
           variant: "outline",
         },
       ]}
-      backgroundImage={"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp"}
+      backgroundImage={"https://toastability-production.s3.amazonaws.com/5jsc0b4e3gxnjs81iotw2c3e6da3"}
     />
   );
 }

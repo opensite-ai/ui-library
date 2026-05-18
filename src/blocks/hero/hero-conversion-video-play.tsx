@@ -42,12 +42,12 @@ export default function Demo() {
       }}
       videoDialogTitle="Conversion Optimization Demo"
       logos={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 1" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 2" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 3" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 4" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 5" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Partner 6" },
+        { src: "https://toastability-production.s3.amazonaws.com/y1aezpa78m2fhfvj8whcx337y9cb", alt: "Partner 1" },
+        { src: "https://toastability-production.s3.amazonaws.com/eoa76d31ynbg34urr6e4619la1f7", alt: "Partner 2" },
+        { src: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y", alt: "Partner 3" },
+        { src: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p", alt: "Partner 4" },
+        { src: "https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k", alt: "Partner 5" },
+        { src: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz", alt: "Partner 6" },
       ]}
       background="dark"
       pattern="grid1"

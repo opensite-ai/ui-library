@@ -20,7 +20,7 @@ export default function Demo() {
           icon: <DynamicIcon name="lucide/phone" size={16} />,
         },
       ]}
-      image={{ src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "Client success" }}
+      image={{ src: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh", alt: "Client success" }}
       background="gradient"
     />
   );

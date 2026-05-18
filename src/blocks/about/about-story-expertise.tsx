@@ -25,7 +25,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://cdn.ing/assets/i/r/289137/aud3lp0mpweq0wdoke6vnxy3a5l7/nightlife-bar-friends-holding-martinis-celebration.jpg",
         alt: "Team collaboration",
       }}
       highlight={{

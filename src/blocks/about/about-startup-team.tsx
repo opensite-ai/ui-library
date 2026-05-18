@@ -18,7 +18,7 @@ export default function Demo() {
           name: "Sarah Chen",
           role: "CEO & Co-Founder",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/yw5f7iwyypf4kctpr5ye5e495swt",
             alt: "Sarah Chen",
           },
           tab: "leadership",
@@ -39,7 +39,7 @@ export default function Demo() {
           name: "Marcus Johnson",
           role: "CTO & Co-Founder",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/z37cidvud212bzqhhalrhvk7ipaa",
             alt: "Marcus Johnson",
           },
           tab: "leadership",
@@ -60,7 +60,7 @@ export default function Demo() {
           name: "Emily Rodriguez",
           role: "VP of Design",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/pfllskt7q7144l288lrnpc6gx606",
             alt: "Emily Rodriguez",
           },
           tab: "design",
@@ -81,7 +81,7 @@ export default function Demo() {
           name: "David Kim",
           role: "VP of Engineering",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/fokd3hxzvdtsomagbfhqooyvndyv",
             alt: "David Kim",
           },
           tab: "engineering",
@@ -102,7 +102,7 @@ export default function Demo() {
           name: "Lisa Thompson",
           role: "VP of Operations",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/6fffnb4phovtqkjhtzifs4rhb84u",
             alt: "Lisa Thompson",
           },
           tab: "operations",
@@ -118,7 +118,7 @@ export default function Demo() {
           name: "James Wilson",
           role: "VP of Sales",
           avatar: {
-            src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            src: "https://toastability-production.s3.amazonaws.com/mt87xjr79wxdhjy7496v3r6m2m9t",
             alt: "James Wilson",
           },
           tab: "operations",

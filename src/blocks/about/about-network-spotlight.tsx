@@ -27,7 +27,7 @@ export default function Demo() {
         },
       ]}
       image={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://cdn.ing/assets/i/r/289168/75lrz1yf8iarvpr4jgmco0fi3j9t/fine-dining-restaurant-dinner-with-gourmet-dishes-on-wood-table.jpg",
         alt: "Partner collaboration meeting",
       }}
       spotlightCard={{

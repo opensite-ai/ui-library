@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <AboutDeveloperProfile
       avatar={{
-        src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+        src: "https://cdn.ing/assets/i/r/289147/mc32ysna8zk8xtyt0oizs1cqwbqt/fine-dining-restaurant-table-gourmet-dishes-red-wine.webp",
         alt: "Alex Thompson",
       }}
       name="Alex Thompson"
