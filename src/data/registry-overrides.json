@@ -687,8 +687,8 @@
       "title": "Hero Centered Image Grid",
       "componentPath": "blocks/hero/hero-centered-image-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290222/cicdwh2mxwcgbazjgc2tcdj9lx74/cleanshot-2026-02-18-at-02-30-21.png",
-        "mobile": "https://cdn.ing/assets/i/r/290221/cye89vszposa91pet34gmi9ij2wu/cleanshot-2026-02-18-at-02-30-35.png"
+        "desktop": "https://cdn.ing/assets/i/r/308479/9hhqho86yu2mv4nwu5vked09hxiq/hero-centered-image-grid-dektop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308480/xp6o3ac7sqkco4kk9amfdkmh4dlm/hero-centered-image-grid-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-centered-image-grid",
@@ -1122,8 +1122,8 @@
       "title": "Hero Pattern Logo Tech Stack",
       "componentPath": "blocks/hero/hero-pattern-logo-tech-stack.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290226/voswkh09xl0fsefnpavwbpwd6rl5/cleanshot-2026-02-18-at-02-33-19.png",
-        "mobile": "https://cdn.ing/assets/i/r/290225/tde0mxqqulf7d8i8wjqvxblrycwx/cleanshot-2026-02-18-at-02-33-31.png"
+        "desktop": "https://cdn.ing/assets/i/r/308477/9yj1gctnycctopfo6o1ntdx2s551/hero-pattern-logo-tech-stack-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308478/smogfstw5lw47y2b7s9fu6ppsa79/hero-pattern-logo-tech-stack-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-pattern-logo-tech-stack",

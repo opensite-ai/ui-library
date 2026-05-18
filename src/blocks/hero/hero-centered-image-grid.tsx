@@ -25,11 +25,11 @@ export default function Demo() {
       ]}
       gridImages={[
         {
-          src: "https://cdn.ing/assets/i/r/289147/mc32ysna8zk8xtyt0oizs1cqwbqt/fine-dining-restaurant-table-gourmet-dishes-red-wine.webp",
+          src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z",
           alt: "Project showcase",
         },
         {
-          src: "https://cdn.ing/assets/i/r/289148/0p9g9lcxh9z50zhqww4athwg17bf/moody-orange-cocktail-in-coupe-glass-on-bar.jpg",
+          src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
           alt: "Studio workspace",
         },
       ]}
