@@ -643,8 +643,8 @@
       "title": "Hero Billing Platform Logos",
       "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290308/d4e1e26ctxd9qfqpwql8hikcq2dg/cleanshot-2026-02-18-at-05-05-58.png",
-        "mobile": "https://cdn.ing/assets/i/r/290307/unyo6thq4mxlffg3vl8f71reespo/cleanshot-2026-02-18-at-05-06-11.png"
+        "desktop": "https://cdn.ing/assets/i/r/308471/64i447u90ndubsle1an70gv2wgmm/hero-billing-platform-logos-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308472/uklxyvqyn3xzhk6k9ylargi3h3pm/hero-billing-platform-logos-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-billing-platform-logos",
@@ -742,8 +742,8 @@
       "title": "Hero Conversion Video Play",
       "componentPath": "blocks/hero/hero-conversion-video-play.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/308473/uqkc9wvusu3eu5pl8fr4w2bzw7ah/hero-conversion-video-play-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308474/acnabdqy2z5sw44jv353xj608myl/hero-conversion-video-play-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-conversion-video-play",
@@ -808,8 +808,8 @@
       "title": "Hero Design Showcase Logos",
       "componentPath": "blocks/hero/hero-design-showcase-logos.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290338/7jsrni9mxchzobjdjkvvrtuvs243/cleanshot-2026-02-18-at-08-53-23.png",
-        "mobile": "https://cdn.ing/assets/i/r/290337/gnpi56pqmr2v174g1zv17oe256id/cleanshot-2026-02-18-at-08-53-35.png"
+        "desktop": "https://cdn.ing/assets/i/r/308475/43zu0rnl5afqphw86x756sg82v40/hero-design-showcase-logos-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308476/aamy9a1lhgqs9w9uan16jlaap111/hero-design-showcase-logos-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-design-showcase-logos",

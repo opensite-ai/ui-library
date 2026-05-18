@@ -6,6 +6,10 @@ export default function Demo() {
     <HeroCenteredImageGrid
       heading="Visual storytelling at its finest"
       description="Showcase your work with beautiful grid layouts that capture attention and inspire action."
+      logo={{
+        src: "https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png",
+        alt: "Brand Logo",
+      }}
       actions={[
         {
           label: "View Gallery",
@@ -20,13 +24,19 @@ export default function Demo() {
         },
       ]}
       gridImages={[
-        { src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z", alt: "Project showcase" },
-        { src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9", alt: "Studio workspace" },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/sj8cs2gpbanaowqwxar1uhhwd23z",
+          alt: "Project showcase",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/hu4gmd93sp95wdyr9qijze0rgim9",
+          alt: "Studio workspace",
+        },
       ]}
       background="dark"
       pattern="dashedGridFadeTop"
       patternOpacity={0.1}
-      spacing="xl"
+      spacing="hero"
     />
   );
 }
