@@ -1144,8 +1144,8 @@
       "title": "Hero Portfolio Creative",
       "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290220/x14gg6zoc1rxtmuzs3uz4mqrelb9/cleanshot-2026-02-18-at-02-13-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290219/vwr1ing467t5pbidmdvdv52eoc81/cleanshot-2026-02-18-at-02-13-25.png"
+        "desktop": "https://cdn.ing/assets/i/r/308449/ldfi96gy3xu9xqtz8q18jcwzxuke/hero-portfolio-creative-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308450/0v9cv77yeh41svpnxeqml5eyz18x/hero-portfolio-creative-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-portfolio-creative",

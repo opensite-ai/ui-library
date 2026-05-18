@@ -6,13 +6,25 @@ export default function Demo() {
     <HeroGridPatternSolutions
       badgeText="New Version Launched"
       badgeHref="#"
-      heading="Complete solutions for every challenge"
+      heading="Trusted by Leaders"
       description="From startups to enterprises, we provide comprehensive solutions tailored to your unique needs and goals."
       images={[
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Business" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Developers" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Teams" },
-        { src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp", alt: "For Teams" },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030",
+          alt: "For Business",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw",
+          alt: "For Developers",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/klr5tuvulkyqfb721txtu4hgzxdm",
+          alt: "For Teams",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh",
+          alt: "For Teams",
+        },
       ]}
       actions={[
         {

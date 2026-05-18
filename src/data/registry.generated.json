@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.6.8",
+    "version": "3.6.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-18T03:36:44.845Z",
+    "syncedAt": "2026-05-18T04:34:50.424Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -61752,7 +61752,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290211/p8w7pxobvx7qtautaw4iigqheoot/cleanshot-2026-02-18-at-01-29-28.png"
       },
       "componentPath": "blocks/hero/hero-pattern-badge-logos.tsx",
-      "code": "import { HeroPatternBadgeLogos } from \"@opensite/ui/blocks/hero/hero-pattern-badge-logos\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroPatternBadgeLogos\n      badge=\"Trusted by Leaders\"\n      heading=\"Join the world's most innovative companies\"\n      description=\"Over 10,000 organizations trust our platform to power their operations and drive growth.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"/signup\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Customers\",\n          href: \"/customers\",\n          variant: \"outline\",\n        },\n      ]}\n      logos={[\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 1\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 2\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 3\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 4\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 5\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Company 6\" },\n      ]}\n      pattern=\"architect\"\n      patternOpacity={0.1}\n      background=\"muted\"\n    />\n  );\n}\n",
+      "code": "import { HeroPatternBadgeLogos } from \"@opensite/ui/blocks/hero/hero-pattern-badge-logos\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroPatternBadgeLogos\n      badge=\"Trusted by Leaders\"\n      heading=\"Join the world's most innovative companies\"\n      description=\"Over 10,000 organizations trust our platform to power their operations and drive growth.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Customers\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      logos={[\n        {\n          src: \"https://cdn.ing/assets/i/r/288963/4kq4loxmhh5lwc7scw7hhusu87km/ui-placeholder-logo-white-1.png\",\n          alt: \"Company 1\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288966/0ls9to9jqnrc4gcxty9rx2c4udjv/ui-placeholder-logo-white-2.png\",\n          alt: \"Company 2\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288971/sow5o2s8dp1cr159rxexm0yhov5w/ui-placeholder-logo-white-3.png\",\n          alt: \"Company 3\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288969/h9k3b0ett73u3pouc2w15ibvl7tc/ui-placeholder-logo-white-4.png\",\n          alt: \"Company 4\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288967/cn6z89c4c23ubohkz6kv3npdn672/ui-placeholder-logo-white-5.png\",\n          alt: \"Company 5\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288973/lxkmf98s3bmpytziacx1o0rwuun9/ui-placeholder-logo-white-6.png\",\n          alt: \"Company 6\",\n        },\n      ]}\n      pattern=\"architect\"\n      patternOpacity={0.33}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "badge": {
           "type": "object",
@@ -71107,7 +71107,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290329/tewu03d10ia26c0zhupp0w2aeycs/cleanshot-2026-02-18-at-08-49-03.png"
       },
       "componentPath": "blocks/hero/hero-grid-pattern-solutions.tsx",
-      "code": "import { HeroGridPatternSolutions } from \"@opensite/ui/blocks/hero/hero-grid-pattern-solutions\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroGridPatternSolutions\n      badgeText=\"New Version Launched\"\n      badgeHref=\"#\"\n      heading=\"Complete solutions for every challenge\"\n      description=\"From startups to enterprises, we provide comprehensive solutions tailored to your unique needs and goals.\"\n      images={[\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"For Business\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"For Developers\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"For Teams\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"For Teams\" },\n      ]}\n      actions={[\n        {\n          label: \"Explore Solutions\",\n          href: \"#\",\n          variant: \"outline\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" />,\n        },\n      ]}\n      pattern=\"grid1\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { HeroGridPatternSolutions } from \"@opensite/ui/blocks/hero/hero-grid-pattern-solutions\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroGridPatternSolutions\n      badgeText=\"New Version Launched\"\n      badgeHref=\"#\"\n      heading=\"Trusted by Leaders\"\n      description=\"From startups to enterprises, we provide comprehensive solutions tailored to your unique needs and goals.\"\n      images={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030\",\n          alt: \"For Business\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/hotlo54tsvl2k3eht9gg0460l9zw\",\n          alt: \"For Developers\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/klr5tuvulkyqfb721txtu4hgzxdm\",\n          alt: \"For Teams\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh\",\n          alt: \"For Teams\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Explore Solutions\",\n          href: \"#\",\n          variant: \"outline\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" />,\n        },\n      ]}\n      pattern=\"grid1\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",
@@ -85824,20 +85824,47 @@
         },
         "logo": {
           "type": "object",
-          "description": "Logo image configuration",
+          "description": "Brand logo configuration — renders centered above the heading.\nLOGO MEDIA ONLY. Do not use photos, hero images, or video assets.",
           "fields": {
+            "url": {
+              "type": "string",
+              "description": "URL to navigate to when logo is clicked",
+              "required": false
+            },
             "src": {
               "type": "string",
-              "description": "",
-              "required": true
+              "description": "Image source for the logo",
+              "required": false
             },
             "alt": {
               "type": "string",
-              "description": "",
-              "required": true
+              "description": "Alt text for the logo image",
+              "required": false
+            },
+            "title": {
+              "type": "object",
+              "description": "Text title to display (alternative to image)",
+              "typeLabel": "React.ReactNode",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the logo",
+              "required": false
             }
           },
-          "typeLabel": "{ src: string; alt: string; }",
+          "typeLabel": "LogoConfig",
+          "required": false
+        },
+        "logoSlot": {
+          "type": "object",
+          "description": "Custom slot for logo (overrides logo prop)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "logoClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the logo container",
           "required": false
         },
         "directionConfig": {
@@ -85979,8 +86006,8 @@
       "categorySlug": "hero",
       "description": "A hero for creative portfolios with profile and project grid. Features social links and personal branding.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290220/x14gg6zoc1rxtmuzs3uz4mqrelb9/cleanshot-2026-02-18-at-02-13-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290219/vwr1ing467t5pbidmdvdv52eoc81/cleanshot-2026-02-18-at-02-13-25.png"
+        "desktop": "https://cdn.ing/assets/i/r/308449/ldfi96gy3xu9xqtz8q18jcwzxuke/hero-portfolio-creative-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308450/0v9cv77yeh41svpnxeqml5eyz18x/hero-portfolio-creative-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
       "code": "import { HeroPortfolioCreative } from \"@opensite/ui/blocks/hero/hero-portfolio-creative\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroPortfolioCreative\n      heading=\"Creative work that stands out\"\n      description=\"Award-winning portfolio showcasing our best projects in design, branding, and digital experiences.\"\n      portfolioImages={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/vvkma6b8whdkiq5nq8z4eyfe00vo\",\n          alt: \"Brand Identity Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc\",\n          alt: \"Web Design Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n          alt: \"Mobile App Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x\",\n          alt: \"Mobile App Project\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"View All Work\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
