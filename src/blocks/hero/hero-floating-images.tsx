@@ -7,10 +7,14 @@ export default function Demo() {
       badge="Featured Work"
       heading="Build Stunning Websites with OpenSite UI"
       description="We design and build beautiful digital products that help brands connect with their audience. From concept to launch, we bring visions to life."
+      logo={{
+        src: "https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp",
+        alt: "Brand Logo",
+      }}
       actions={[
         {
           label: "View Portfolio",
-          href: "/portfolio",
+          href: "#",
           size: "lg",
           variant: "default",
           iconAfter: (
@@ -19,24 +23,24 @@ export default function Demo() {
         },
         {
           label: "Our Process",
-          href: "/process",
+          href: "#",
           size: "lg",
-          variant: "link",
+          variant: "outline",
         },
       ]}
       images={[
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/vrezhtksoqbw1nyo4hwnoqizrus5",
           alt: "Floating Image 1",
           className: "rounded-lg shadow-lg",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/z37cidvud212bzqhhalrhvk7ipaa",
           alt: "Floating Image 2",
           className: "rounded-lg shadow-lg",
         },
         {
-          src: "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+          src: "https://toastability-production.s3.amazonaws.com/w87w0fyjdol9yzwo7yywkgxidvzo",
           alt: "Floating Image 3",
           className: "rounded-lg shadow-lg",
         },

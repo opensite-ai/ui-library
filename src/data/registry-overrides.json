@@ -896,8 +896,8 @@
       "title": "Hero Floating Images",
       "componentPath": "blocks/hero/hero-floating-images.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308447/kfnh3v0cx1inkyeao6wwlersddwi/hero-floating-images-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308448/fohcugnky8vl4zysfhls8ffqeexy/hero-floating-images-mobile.jpg"
       },
       "dependencies": [
         "@opensite/ui",
@@ -1100,8 +1100,8 @@
       "title": "Hero Overlay CTA Grid",
       "componentPath": "blocks/hero/hero-overlay-cta-grid.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290198/9w6r9tiymfe2hbzxpb2rdlxfgp30/cleanshot-2026-02-18-at-00-15-20.png",
-        "mobile": "https://cdn.ing/assets/i/r/290197/ua6rgm50bitbekpbivi77znkthou/cleanshot-2026-02-18-at-00-15-39.png"
+        "desktop": "https://cdn.ing/assets/i/r/308442/5k7scwer42zsuh8nvmb39qj96fa4/hero-overlay-cta-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308443/vqoam07axrkku7h66s2h5uk2i7fa/hero-overlay-cta-grid-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-overlay-cta-grid",
@@ -1276,8 +1276,8 @@
       "title": "Hero Split Icon Cards",
       "componentPath": "blocks/hero/hero-split-icon-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290200/d6ohwrcvz5p0qo1fq07uhr0qfuny/cleanshot-2026-02-18-at-00-37-52.png",
-        "mobile": "https://cdn.ing/assets/i/r/290199/9whp93w7v5dh4m7dahvvuvn0cs2w/cleanshot-2026-02-18-at-00-38-08.png"
+        "desktop": "https://cdn.ing/assets/i/r/308444/027mimm3oqtpxgwz0hu9jaowshaf/hero-split-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308444/027mimm3oqtpxgwz0hu9jaowshaf/hero-split-icon-cards-desktop.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/hero/hero-split-icon-cards",

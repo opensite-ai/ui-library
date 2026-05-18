@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.6.5",
+    "version": "3.6.8",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-17T19:49:09.163Z",
+    "syncedAt": "2026-05-18T03:36:44.845Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -59014,8 +59014,8 @@
       "categorySlug": "hero",
       "description": "A background-image hero with a centered badge, headline, dual CTAs, and a grid of icon cards for quick navigation. Ideal for service-focused landing pages that need both narrative impact and fast access to top offerings.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290198/9w6r9tiymfe2hbzxpb2rdlxfgp30/cleanshot-2026-02-18-at-00-15-20.png",
-        "mobile": "https://cdn.ing/assets/i/r/290197/ua6rgm50bitbekpbivi77znkthou/cleanshot-2026-02-18-at-00-15-39.png"
+        "desktop": "https://cdn.ing/assets/i/r/308442/5k7scwer42zsuh8nvmb39qj96fa4/hero-overlay-cta-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308443/vqoam07axrkku7h66s2h5uk2i7fa/hero-overlay-cta-grid-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-overlay-cta-grid.tsx",
       "code": "import { HeroOverlayCtaGrid } from \"@opensite/ui/blocks/hero/hero-overlay-cta-grid\";\n\nexport default function Demo() {\n  return (\n    <HeroOverlayCtaGrid\n      heading=\"Choose your path\"\n      backgroundImage={\"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\"}\n      description=\"Multiple ways to engage with our platform. Select the option that best fits your needs.\"\n      spacing=\"none\"\n      cards={[\n        {\n          label: \"New Features\",\n          subtitle: \"New AI features to automate workflows\",\n          icon: \"lucide/bot\",\n          href: \"#\",\n        },\n        {\n          label: \"Automation\",\n          subtitle: \"Dedicated agents to help streamline tasks\",\n          icon: \"lucide/bell\",\n          href: \"#\",\n        },\n        {\n          label: \"Performance\",\n          subtitle: \"Enterprise speed for all business sizes\",\n          icon: \"lucide/bolt\",\n          href: \"#\",\n        },\n      ]}\n    />\n  );\n}\n",
@@ -59360,8 +59360,8 @@
       "categorySlug": "hero",
       "description": "A two-column hero with heading, description, and CTAs on the left, plus stacked icon cards on the right. Perfect for highlighting key benefits or service pillars in a quick, scannable layout.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290200/d6ohwrcvz5p0qo1fq07uhr0qfuny/cleanshot-2026-02-18-at-00-37-52.png",
-        "mobile": "https://cdn.ing/assets/i/r/290199/9whp93w7v5dh4m7dahvvuvn0cs2w/cleanshot-2026-02-18-at-00-38-08.png"
+        "desktop": "https://cdn.ing/assets/i/r/308444/027mimm3oqtpxgwz0hu9jaowshaf/hero-split-icon-cards-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308444/027mimm3oqtpxgwz0hu9jaowshaf/hero-split-icon-cards-desktop.jpg"
       },
       "componentPath": "blocks/hero/hero-split-icon-cards.tsx",
       "code": "import { HeroSplitIconCards } from \"@opensite/ui/blocks/hero/hero-split-icon-cards\";\n\nexport default function Demo() {\n  return (\n    <HeroSplitIconCards\n      eyebrow=\"For Developers\"\n      heading=\"Built for teams that ship fast\"\n      description=\"Powerful features designed for modern development teams. Ship better products, faster.\"\n      primaryCta={{\n        label: \"Get Started\",\n        href: \"#\",\n      }}\n      secondaryCta={{\n        label: \"View Demo\",\n        href: \"#\",\n      }}\n      cardItems={[\n        {\n          title: \"New Features\",\n          subtitle: \"New AI features to automate workflows\",\n          icon: \"lucide/bot\",\n          href: \"#\",\n        },\n        {\n          title: \"Automation\",\n          subtitle: \"Dedicated agents to help streamline tasks\",\n          icon: \"lucide/bell\",\n          href: \"#\",\n        },\n        {\n          title: \"Performance\",\n          subtitle: \"Enterprise speed for all business sizes\",\n          icon: \"lucide/bolt\",\n          href: \"#\",\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"circuitBoardBasic\"\n      patternOpacity={1}\n    />\n  );\n}\n",
@@ -59614,12 +59614,57 @@
       "categorySlug": "hero",
       "description": "A centered hero with decorative swirl lines and floating image accents around the headline. Great for lifestyle, hospitality, or brand-forward landing pages that need a playful visual tone.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/287651/iqa7polbmolw2cz1ykaxayyq437f/hero-preview-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/287652/5nuzgffs2qsop76mz7ckuvek9xp9/hero-preview-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/308447/kfnh3v0cx1inkyeao6wwlersddwi/hero-floating-images-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/308448/fohcugnky8vl4zysfhls8ffqeexy/hero-floating-images-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-floating-images.tsx",
-      "code": "import { HeroFloatingImages } from \"@opensite/ui/blocks/hero/hero-floating-images\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroFloatingImages\n      badge=\"Featured Work\"\n      heading=\"Build Stunning Websites with OpenSite UI\"\n      description=\"We design and build beautiful digital products that help brands connect with their audience. From concept to launch, we bring visions to life.\"\n      actions={[\n        {\n          label: \"View Portfolio\",\n          href: \"/portfolio\",\n          size: \"lg\",\n          variant: \"default\",\n          iconAfter: (\n            <DynamicIcon name=\"lucide/arrow-right\" className=\"h-4 w-4\" />\n          ),\n        },\n        {\n          label: \"Our Process\",\n          href: \"/process\",\n          size: \"lg\",\n          variant: \"link\",\n        },\n      ]}\n      images={[\n        {\n          src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n          alt: \"Floating Image 1\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n          alt: \"Floating Image 2\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n          alt: \"Floating Image 3\",\n          className: \"rounded-lg shadow-lg\",\n        },\n      ]}\n      optixFlowConfig={{ apiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\" }}\n      className=\"flex items-center justify-center\"\n      background=\"dark\"\n      pattern=\"gridFadeBottomLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
+      "code": "import { HeroFloatingImages } from \"@opensite/ui/blocks/hero/hero-floating-images\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroFloatingImages\n      badge=\"Featured Work\"\n      heading=\"Build Stunning Websites with OpenSite UI\"\n      description=\"We design and build beautiful digital products that help brands connect with their audience. From concept to launch, we bring visions to life.\"\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp\",\n        alt: \"Brand Logo\",\n      }}\n      actions={[\n        {\n          label: \"View Portfolio\",\n          href: \"#\",\n          size: \"lg\",\n          variant: \"default\",\n          iconAfter: (\n            <DynamicIcon name=\"lucide/arrow-right\" className=\"h-4 w-4\" />\n          ),\n        },\n        {\n          label: \"Our Process\",\n          href: \"#\",\n          size: \"lg\",\n          variant: \"outline\",\n        },\n      ]}\n      images={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/vrezhtksoqbw1nyo4hwnoqizrus5\",\n          alt: \"Floating Image 1\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/z37cidvud212bzqhhalrhvk7ipaa\",\n          alt: \"Floating Image 2\",\n          className: \"rounded-lg shadow-lg\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/w87w0fyjdol9yzwo7yywkgxidvzo\",\n          alt: \"Floating Image 3\",\n          className: \"rounded-lg shadow-lg\",\n        },\n      ]}\n      optixFlowConfig={{ apiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\" }}\n      className=\"flex items-center justify-center\"\n      background=\"dark\"\n      pattern=\"gridFadeBottomLeft\"\n      patternOpacity={0.15}\n    />\n  );\n}\n",
       "propsSchema": {
+        "logo": {
+          "type": "object",
+          "description": "Brand logo configuration — renders centered above the heading.\nLOGO MEDIA ONLY. Do not use photos, hero images, or video assets.",
+          "fields": {
+            "url": {
+              "type": "string",
+              "description": "URL to navigate to when logo is clicked",
+              "required": false
+            },
+            "src": {
+              "type": "string",
+              "description": "Image source for the logo",
+              "required": false
+            },
+            "alt": {
+              "type": "string",
+              "description": "Alt text for the logo image",
+              "required": false
+            },
+            "title": {
+              "type": "object",
+              "description": "Text title to display (alternative to image)",
+              "typeLabel": "React.ReactNode",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the logo",
+              "required": false
+            }
+          },
+          "typeLabel": "LogoConfig",
+          "required": false
+        },
+        "logoSlot": {
+          "type": "object",
+          "description": "Custom slot for logo (overrides logo prop)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "logoClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the logo container",
+          "required": false
+        },
         "badge": {
           "type": "object",
           "description": "Badge content displayed above the heading",
@@ -66545,8 +66590,53 @@
         "mobile": "https://cdn.ing/assets/i/r/290233/9tyimydps0l6dwejth0vhqb22lii/cleanshot-2026-02-18-at-03-04-48.png"
       },
       "componentPath": "blocks/hero/hero-dashed-border-features.tsx",
-      "code": "import { HeroDashedBorderFeatures } from \"@opensite/ui/blocks/hero/hero-dashed-border-features\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroDashedBorderFeatures\n      heading=\"Features that make a difference\"\n      description=\"Discover the powerful capabilities that set us apart. Every feature designed with your success in mind.\"\n      badgeText=\"New Features\"\n      announcementHref=\"#\"\n      announcementText=\"Latest innovations\"\n      features={[\n        {\n          icon: <DynamicIcon name=\"lucide/zap\" size={24} />,\n          title: \"Lightning Fast\",\n          description: \"Optimized for speed and performance\",\n          href: \"#\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/shield\" size={24} />,\n          title: \"Secure by Default\",\n          description: \"Enterprise-grade security built-in\",\n          href: \"#\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/sparkles\" size={24} />,\n          title: \"AI-Powered\",\n          description: \"Smart automation that learns\",\n          href: \"#\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Explore Features\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Contact Sales\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      background=\"white\"\n      // pattern=\"gridBasic\"\n      // patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { HeroDashedBorderFeatures } from \"@opensite/ui/blocks/hero/hero-dashed-border-features\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroDashedBorderFeatures\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png\",\n        alt: \"Brand Logo\",\n      }}\n      heading=\"Features that make a difference\"\n      description=\"Discover the powerful capabilities that set us apart. Every feature designed with your success in mind.\"\n      badgeText=\"New Features\"\n      announcementHref=\"#\"\n      announcementText=\"Latest innovations\"\n      features={[\n        {\n          icon: <DynamicIcon name=\"lucide/zap\" size={24} />,\n          title: \"Lightning Fast\",\n          description: \"Optimized for speed and performance\",\n          href: \"#\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/shield\" size={24} />,\n          title: \"Secure by Default\",\n          description: \"Enterprise-grade security built-in\",\n          href: \"#\",\n        },\n        {\n          icon: <DynamicIcon name=\"lucide/sparkles\" size={24} />,\n          title: \"AI-Powered\",\n          description: \"Smart automation that learns\",\n          href: \"#\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Explore Features\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Contact Sales\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"diagonalCrossFadeCenter\"\n      patternOpacity={1}\n    />\n  );\n}\n",
       "propsSchema": {
+        "logo": {
+          "type": "object",
+          "description": "Brand logo configuration — renders above the announcement badge.\nLOGO MEDIA ONLY. Do not use photos, hero images, or video assets.",
+          "fields": {
+            "url": {
+              "type": "string",
+              "description": "URL to navigate to when logo is clicked",
+              "required": false
+            },
+            "src": {
+              "type": "string",
+              "description": "Image source for the logo",
+              "required": false
+            },
+            "alt": {
+              "type": "string",
+              "description": "Alt text for the logo image",
+              "required": false
+            },
+            "title": {
+              "type": "object",
+              "description": "Text title to display (alternative to image)",
+              "typeLabel": "React.ReactNode",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the logo",
+              "required": false
+            }
+          },
+          "typeLabel": "LogoConfig",
+          "required": false
+        },
+        "logoSlot": {
+          "type": "object",
+          "description": "Custom slot for logo (overrides logo prop)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "logoClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the logo container",
+          "required": false
+        },
         "badgeText": {
           "type": "object",
           "description": "Badge text content",
@@ -66747,21 +66837,30 @@
         }
       },
       "exampleProps": {
+        "logo": {
+          "src": "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+          "alt": "Brand Logo"
+        },
         "heading": "Features that make a difference",
         "description": "Discover the powerful capabilities that set us apart.",
         "badgeText": "New Features",
+        "announcementText": "Latest innovations",
+        "announcementHref": "#",
         "features": [
           {
+            "iconName": "lucide/zap",
             "title": "Lightning Fast",
             "description": "Optimized for speed",
             "href": "#"
           },
           {
+            "iconName": "lucide/shield",
             "title": "Secure by Default",
             "description": "Enterprise-grade security",
             "href": "#"
           },
           {
+            "iconName": "lucide/sparkles",
             "title": "AI-Powered",
             "description": "Smart automation",
             "href": "#"
@@ -66793,7 +66892,7 @@
         "highlights"
       ],
       "performance": {},
-      "importantUsageNotes": "Supply exactly 3 'features' objects. Do not exceed 50 characters for 'heading'. Do not exceed 130 characters for 'description'. If you supply multiple 'actions', use 'default' for the first and 'outline' for the second. This is a text/icon hero — no images required.",
+      "importantUsageNotes": "The optional 'logo' prop accepts a LogoConfig object and renders via the BrandLogo component — it must be a brand logo image, NEVER a photo or hero image. Supply exactly 3 'features' objects. Do not exceed 50 characters for 'heading'. Do not exceed 130 characters for 'description'. If you supply multiple 'actions', use 'default' for the first and 'outline' for the second.",
       "usageRequirements": {
         "requiredProps": [
           "heading",
@@ -66819,9 +66918,29 @@
               "0.variant": "default",
               "1.variant": "outline"
             }
+          },
+          "logo.src": {
+            "note": "LOGO MEDIA ONLY. Must be a brand logo image (SVG, PNG, WebP). Never use a photo, hero image, or video asset."
           }
         },
-        "mediaSlots": {}
+        "mediaSlots": {
+          "logo.src": {
+            "path": "logo.src",
+            "roles": [
+              "logo"
+            ],
+            "disallowedRoles": [
+              "favicon",
+              "video-thumbnail"
+            ],
+            "minPixelClass": "small",
+            "required": false,
+            "note": "Brand logo rendered via BrandLogo component above the dashed border content. LOGO IMAGE ONLY. Do not use photos, favicons, or video assets."
+          }
+        },
+        "notes": [
+          "The logo prop is optional. When provided, the BrandLogo component renders it above the announcement badge with responsive sizing."
+        ]
       }
     },
     {
@@ -66836,7 +66955,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290303/b1zjc7oquywndi5knn9wmhh1c2bq/cleanshot-2026-02-18-at-04-27-29.png"
       },
       "componentPath": "blocks/hero/hero-design-carousel-portfolio.tsx",
-      "code": "import { HeroDesignCarouselPortfolio } from \"@opensite/ui/blocks/hero/hero-design-carousel-portfolio\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroDesignCarouselPortfolio\n      heading=\"Design portfolio that speaks volumes\"\n      description=\"Showcase your best work with beautiful, interactive carousels that captivate and engage your audience.\"\n      logo={{ src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Brand Logo\" }}\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/target\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Strategic Focus\",\n          description:\n            \"Every project begins with understanding your goals. We align our work with your business objectives to ensure measurable impact.\",\n        },\n        {\n          icon: (\n            <DynamicIcon name=\"lucide/zap\" size={24} className=\"text-primary\" />\n          ),\n          title: \"Rapid Execution\",\n          description:\n            \"Our agile methodology enables quick iterations and fast time-to-market without compromising on quality.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/heart\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Human-Centered\",\n          description:\n            \"We design for people first. Every decision is informed by user research and validated through testing.\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Schedule Chat\",\n          href: \"#\",\n          variant: \"default\",\n        },\n        {\n          label: \"View Portfolio\",\n          href: \"#\",\n          variant: \"outline\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      carouselImages={[\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Design 1\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Design 2\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Design 3\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Design 4\" },\n      ]}\n      background=\"gray\"\n      pattern=\"circuitBoardFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { HeroDesignCarouselPortfolio } from \"@opensite/ui/blocks/hero/hero-design-carousel-portfolio\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroDesignCarouselPortfolio\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png\",\n        alt: \"Brand Logo\",\n      }}\n      heading=\"Design portfolio that speaks volumes\"\n      description=\"Showcase your best work with beautiful, interactive carousels that captivate and engage your audience.\"\n      features={[\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/target\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Strategic Focus\",\n          description:\n            \"Every project begins with understanding your goals. We align our work with your business objectives to ensure measurable impact.\",\n        },\n        {\n          icon: (\n            <DynamicIcon name=\"lucide/zap\" size={24} className=\"text-primary\" />\n          ),\n          title: \"Rapid Execution\",\n          description:\n            \"Our agile methodology enables quick iterations and fast time-to-market without compromising on quality.\",\n        },\n        {\n          icon: (\n            <DynamicIcon\n              name=\"lucide/heart\"\n              size={24}\n              className=\"text-primary\"\n            />\n          ),\n          title: \"Human-Centered\",\n          description:\n            \"We design for people first. Every decision is informed by user research and validated through testing.\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"Schedule Chat\",\n          href: \"#\",\n          variant: \"default\",\n        },\n        {\n          label: \"View Portfolio\",\n          href: \"#\",\n          variant: \"outline\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      carouselImages={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/xlp46pzk3a4d73jgjx4s7xdafwpn\",\n          alt: \"Portfolio project one\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/g1iuifb3yzoofo9c7a00koyn6q1t\",\n          alt: \"Portfolio project two\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/z9u4sdrj2oq3eds0qyui0nxsus3j\",\n          alt: \"Portfolio project three\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/63aotyt2pb4gqpccej2kkw8reson\",\n          alt: \"Portfolio project four\",\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"circuitBoardFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "logo": {
           "type": "object",
@@ -67117,18 +67236,25 @@
         }
       },
       "exampleProps": {
+        "logo": {
+          "src": "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+          "alt": "Brand Logo"
+        },
         "heading": "Design portfolio that speaks volumes",
         "description": "Showcase your best work with beautiful, interactive carousels.",
         "features": [
           {
+            "iconName": "lucide/target",
             "title": "Strategic Focus",
             "description": "Aligning work with your goals."
           },
           {
+            "iconName": "lucide/zap",
             "title": "Rapid Execution",
             "description": "Agile methodology for fast delivery."
           },
           {
+            "iconName": "lucide/heart",
             "title": "Human-Centered",
             "description": "Design for people first."
           }
@@ -67178,7 +67304,7 @@
         "showcase"
       ],
       "performance": {},
-      "importantUsageNotes": "Supply exactly 4 carousel images. Supply exactly 3 'features' objects. Do not exceed 50 characters for 'heading'. Do not exceed 130 characters for 'description'. If you supply multiple 'actions', use 'default' for the first and 'outline' for the second.  All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
+      "importantUsageNotes": "The 'logo' prop renders via BrandLogo and must be a brand logo image (SVG, PNG, WebP) — NEVER a photo or hero image. The AI Agent must use a real brand logo asset here, not an image placeholder. Supply exactly 4 carousel images for the portfolio. Supply exactly 3 'features'. All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
       "usageRequirements": {
         "requiredProps": [
           "heading",
@@ -67211,6 +67337,9 @@
               "0.variant": "default",
               "1.variant": "outline"
             }
+          },
+          "logo.src": {
+            "note": "LOGO MEDIA ONLY. Must be a brand logo image. Never use a photo, hero image, or video asset."
           }
         },
         "mediaSlots": {
@@ -67240,7 +67369,7 @@
             ],
             "minPixelClass": "small",
             "required": false,
-            "note": "Optional brand or client logo. LOGO IMAGE ONLY. Do not use photos, favicons, or video assets."
+            "note": "Brand logo rendered via BrandLogo component above the features and heading. LOGO IMAGE ONLY. Do not use photos, favicons, or video assets."
           }
         },
         "requiresSiteCapabilities": [
@@ -73331,8 +73460,53 @@
         "mobile": "https://cdn.ing/assets/i/r/290339/869rctro6gur2nq38vdo48smt9v5/cleanshot-2026-02-18-at-08-57-21.png"
       },
       "componentPath": "blocks/hero/hero-video-overlay-stars.tsx",
-      "code": "import { HeroVideoOverlayStars } from \"@opensite/ui/blocks/hero/hero-video-overlay-stars\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoOverlayStars\n      heading=\"Testimonials\"\n      description=\"Our CRM solution is designed to streamline your business operations and improve efficiency.\"\n      actions={[\n        {\n          label: \"Try It Free\",\n          href: \"#\",\n          icon: \"lucide/arrow-right\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://octane.cdn.ing/api/v1/video/58e2b1e3-e1e2-50ee-81e3-62ff540b6115/master_playlist\",\n          fallbackSrc:\n            \"https://octane.cdn.ing/api/v1/video/58e2b1e3-e1e2-50ee-81e3-62ff540b6115/progressive.mp4\",\n          src: \"https://toastability-production.s3.amazonaws.com/7bjxoh95etcr699ztg0593d043gq\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      trust={{\n        starCount: 5,\n        message: \"Trusted by 2,500+ customers worldwide\",\n      }}\n    />\n  );\n}\n",
+      "code": "import { HeroVideoOverlayStars } from \"@opensite/ui/blocks/hero/hero-video-overlay-stars\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoOverlayStars\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png\",\n        alt: \"Brand Logo\",\n      }}\n      heading=\"Trusted by thousands\"\n      description=\"Our CRM solution is designed to streamline your business operations and improve efficiency.\"\n      actions={[\n        {\n          label: \"Try It Free\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://cdn.ing/assets/video/uploads/283393/hls/38865/master.m3u8\",\n          fallbackSrc:\n            \"https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1\",\n        },\n      }}\n      trust={{\n        starCount: 5,\n        message: \"Trusted by 2,500+ customers worldwide\",\n      }}\n    />\n  );\n}\n",
       "propsSchema": {
+        "logo": {
+          "type": "object",
+          "description": "Brand logo configuration — renders centered above the heading.\nLOGO MEDIA ONLY. Do not use photos, hero images, or video assets.",
+          "fields": {
+            "url": {
+              "type": "string",
+              "description": "URL to navigate to when logo is clicked",
+              "required": false
+            },
+            "src": {
+              "type": "string",
+              "description": "Image source for the logo",
+              "required": false
+            },
+            "alt": {
+              "type": "string",
+              "description": "Alt text for the logo image",
+              "required": false
+            },
+            "title": {
+              "type": "object",
+              "description": "Text title to display (alternative to image)",
+              "typeLabel": "React.ReactNode",
+              "required": false
+            },
+            "className": {
+              "type": "string",
+              "description": "Additional CSS classes for the logo",
+              "required": false
+            }
+          },
+          "typeLabel": "LogoConfig",
+          "required": false
+        },
+        "logoSlot": {
+          "type": "object",
+          "description": "Custom slot for logo (overrides logo prop)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "logoClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the logo container",
+          "required": false
+        },
         "heading": {
           "type": "object",
           "description": "Main heading text",
@@ -73548,6 +73722,10 @@
         }
       },
       "exampleProps": {
+        "logo": {
+          "src": "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+          "alt": "Brand Logo"
+        },
         "heading": "Trusted by thousands",
         "description": "Our solution is designed to streamline your business operations.",
         "backgroundVideo": {
@@ -73581,7 +73759,7 @@
         "reviews"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use when you have a real video asset. The 'backgroundVideo.video' prop requires masterPlaylistUrl and fallbackSrc. Only supply real 'trust.message' — do not fabricate review counts. Do not exceed 40 characters for 'heading'.  All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
+      "importantUsageNotes": "The optional 'logo' prop renders via BrandLogo centered above the heading — it must be a brand logo image, NEVER a photo. Only use when you have a real video asset. The 'backgroundVideo.video' prop requires masterPlaylistUrl and fallbackSrc. Only supply real 'trust.message' — do not fabricate review counts. All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
       "usageRequirements": {
         "requiredProps": [
           "heading",
@@ -73601,6 +73779,9 @@
           },
           "trust.message": {
             "note": "Must be real trust/review data. Do not fabricate."
+          },
+          "logo.src": {
+            "note": "LOGO MEDIA ONLY. Must be a brand logo image. Never use a photo, hero image, or video asset."
           }
         },
         "mediaSlots": {
@@ -73616,6 +73797,19 @@
               "thumbnail"
             ],
             "note": "VIDEO MEDIA ONLY. Must be an HLS playlist or MP4 URL, not an image URL."
+          },
+          "logo.src": {
+            "path": "logo.src",
+            "roles": [
+              "logo"
+            ],
+            "disallowedRoles": [
+              "favicon",
+              "video-thumbnail"
+            ],
+            "minPixelClass": "small",
+            "required": false,
+            "note": "Brand logo rendered via BrandLogo centered above the heading on the video overlay. LOGO IMAGE ONLY. Do not use photos, favicons, or video assets."
           }
         },
         "requiresSiteCapabilities": [
@@ -85789,7 +85983,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290219/vwr1ing467t5pbidmdvdv52eoc81/cleanshot-2026-02-18-at-02-13-25.png"
       },
       "componentPath": "blocks/hero/hero-portfolio-creative.tsx",
-      "code": "import { HeroPortfolioCreative } from \"@opensite/ui/blocks/hero/hero-portfolio-creative\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroPortfolioCreative\n      heading=\"Creative work that stands out\"\n      description=\"Award-winning portfolio showcasing our best projects in design, branding, and digital experiences.\"\n      portfolioImages={[\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Brand Identity Project\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Web Design Project\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Mobile App Project\" },\n        { src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\", alt: \"Mobile App Project\" },\n      ]}\n      actions={[\n        {\n          label: \"View All Work\",\n          href: \"/portfolio\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
+      "code": "import { HeroPortfolioCreative } from \"@opensite/ui/blocks/hero/hero-portfolio-creative\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroPortfolioCreative\n      heading=\"Creative work that stands out\"\n      description=\"Award-winning portfolio showcasing our best projects in design, branding, and digital experiences.\"\n      portfolioImages={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/vvkma6b8whdkiq5nq8z4eyfe00vo\",\n          alt: \"Brand Identity Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc\",\n          alt: \"Web Design Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n          alt: \"Mobile App Project\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/e83zsyvl0an0owzdmpwjnnty641x\",\n          alt: \"Mobile App Project\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"View All Work\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "profile": {
           "type": "object",

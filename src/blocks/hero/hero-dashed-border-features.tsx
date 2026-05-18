@@ -4,6 +4,10 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <HeroDashedBorderFeatures
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        alt: "Brand Logo",
+      }}
       heading="Features that make a difference"
       description="Discover the powerful capabilities that set us apart. Every feature designed with your success in mind."
       badgeText="New Features"
@@ -43,8 +47,8 @@ export default function Demo() {
         },
       ]}
       background="white"
-      // pattern="gridBasic"
-      // patternOpacity={0.9}
+      pattern="diagonalCrossFadeCenter"
+      patternOpacity={1}
     />
   );
 }

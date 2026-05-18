@@ -1,25 +1,29 @@
 import { HeroVideoOverlayStars } from "@opensite/ui/blocks/hero/hero-video-overlay-stars";
+import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
 export default function Demo() {
   return (
     <HeroVideoOverlayStars
-      heading="Testimonials"
+      logo={{
+        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+        alt: "Brand Logo",
+      }}
+      heading="Trusted by thousands"
       description="Our CRM solution is designed to streamline your business operations and improve efficiency."
       actions={[
         {
           label: "Try It Free",
           href: "#",
-          icon: "lucide/arrow-right",
+          variant: "default",
+          iconAfter: <DynamicIcon name="lucide/arrow-right" size={16} />,
         },
       ]}
       backgroundVideo={{
         video: {
           masterPlaylistUrl:
-            "https://octane.cdn.ing/api/v1/video/58e2b1e3-e1e2-50ee-81e3-62ff540b6115/master_playlist",
+            "https://cdn.ing/assets/video/uploads/283393/hls/38865/master.m3u8",
           fallbackSrc:
-            "https://octane.cdn.ing/api/v1/video/58e2b1e3-e1e2-50ee-81e3-62ff540b6115/progressive.mp4",
-          src: "https://toastability-production.s3.amazonaws.com/7bjxoh95etcr699ztg0593d043gq",
-          optixFlowApiKey: "os-bcf1c82f-0c47-49ec-a303-807eec0a25c6",
+            "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
         },
       }}
       trust={{
