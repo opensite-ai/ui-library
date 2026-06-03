@@ -10,9 +10,10 @@ export default function Demo() {
           title: "Building the Future of AI",
           description:
             "Explore groundbreaking innovations that transform how businesses harness artificial intelligence to solve complex challenges and unlock new opportunities.",
-          image: "https://toastability-production.s3.amazonaws.com/0uv0c0b0wkud7ul98fnhzpowmwlj",
+          image:
+            "https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg",
           ctaText: "Discover Our Platform",
-          ctaHref: "#platform",
+          ctaHref: "#",
         },
         {
           id: "design",
@@ -20,9 +21,10 @@ export default function Demo() {
           title: "Design That Inspires Action",
           description:
             "Experience stunning visual narratives crafted with precision and purpose. Our design philosophy merges aesthetics with functionality to create memorable digital experiences.",
-          image: "https://toastability-production.s3.amazonaws.com/rka4y4l9ihtuho5wjylbbaiyan5t",
+          image:
+            "https://toastability-production.s3.amazonaws.com/rews5enr9ynu6izioj66s8ec90nc",
           ctaText: "View Our Work",
-          ctaHref: "#portfolio",
+          ctaHref: "#",
         },
         {
           id: "performance",
@@ -30,9 +32,10 @@ export default function Demo() {
           title: "Lightning-Fast Performance",
           description:
             "Built on cutting-edge infrastructure that delivers millisecond response times. Every interaction is optimized for speed, reliability, and seamless user experience.",
-          image: "https://toastability-production.s3.amazonaws.com/s45m6e1h7aeq23z9oiiquqjycl34",
+          image:
+            "https://toastability-production.s3.amazonaws.com/kka8f550on7acx1lf82xleu6zhzo",
           ctaText: "See Benchmarks",
-          ctaHref: "#performance",
+          ctaHref: "#",
         },
         {
           id: "security",
@@ -40,9 +43,10 @@ export default function Demo() {
           title: "Fort Knox-Level Protection",
           description:
             "Your data is protected by military-grade encryption and multi-layered security protocols. We meet the highest compliance standards across all major industries.",
-          image: "https://toastability-production.s3.amazonaws.com/4u3pi66nga47kc1th8tyqd3lpj28",
+          image:
+            "https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030",
           ctaText: "Security Details",
-          ctaHref: "#security",
+          ctaHref: "#",
         },
       ]}
     />

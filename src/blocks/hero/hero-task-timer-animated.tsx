@@ -6,6 +6,13 @@ export default function Demo() {
     <HeroTaskTimerAnimated
       heading="Track time, boost productivity"
       description="Stay focused and manage your time effectively with our intuitive task timer. Perfect for work, study, or any activity that requires dedicated focus."
+      taskItems={[
+        "Design mockups",
+        "Code review",
+        "Write documentation",
+        "Ship feature",
+      ]}
+      timerMinutes={25}
       actions={[
         {
           label: "Start Tracking",
@@ -18,10 +25,6 @@ export default function Demo() {
           href: "#",
           variant: "outline",
         },
-      ]}
-      images={[
-        { src: "https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y", alt: "Timer interface" },
-        { src: "https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p", alt: "Task tracking" },
       ]}
       background="dark"
       pattern="gridFadeTopLeft"

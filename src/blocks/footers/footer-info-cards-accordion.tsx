@@ -117,7 +117,7 @@ export default function Demo() {
       ]}
       footerDetails={{
         image: {
-          src: "https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa",
+          src: "https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr",
           alt: "LuxeMart luxury shopping experience",
         },
         logo: {

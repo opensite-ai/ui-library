@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.7.5",
+    "version": "3.7.8",
     "source": "@opensite/ui",
-    "syncedAt": "2026-05-18T09:50:06.623Z",
+    "syncedAt": "2026-06-03T19:19:35.648Z",
     "totalBlocks": 605
   },
   "blocks": [
@@ -19625,7 +19625,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289108/qgfrf5zsj38whcvv8d2dngx4cbgs/carousel-animated-sections-mobie.jpg"
       },
       "componentPath": "blocks/carousel/carousel-animated-sections.tsx",
-      "code": "import { CarouselAnimatedSections } from \"@opensite/ui/blocks/carousel/carousel-animated-sections\";\n\nexport default function Demo() {\n  return (\n    <CarouselAnimatedSections\n      sections={[\n        {\n          id: \"innovation\",\n          subtitle: \"Technology Leadership\",\n          title: \"Building the Future of AI\",\n          description:\n            \"Explore groundbreaking innovations that transform how businesses harness artificial intelligence to solve complex challenges and unlock new opportunities.\",\n          image: \"https://toastability-production.s3.amazonaws.com/0uv0c0b0wkud7ul98fnhzpowmwlj\",\n          ctaText: \"Discover Our Platform\",\n          ctaHref: \"#platform\",\n        },\n        {\n          id: \"design\",\n          subtitle: \"Creative Excellence\",\n          title: \"Design That Inspires Action\",\n          description:\n            \"Experience stunning visual narratives crafted with precision and purpose. Our design philosophy merges aesthetics with functionality to create memorable digital experiences.\",\n          image: \"https://toastability-production.s3.amazonaws.com/rka4y4l9ihtuho5wjylbbaiyan5t\",\n          ctaText: \"View Our Work\",\n          ctaHref: \"#portfolio\",\n        },\n        {\n          id: \"performance\",\n          subtitle: \"Speed & Efficiency\",\n          title: \"Lightning-Fast Performance\",\n          description:\n            \"Built on cutting-edge infrastructure that delivers millisecond response times. Every interaction is optimized for speed, reliability, and seamless user experience.\",\n          image: \"https://toastability-production.s3.amazonaws.com/s45m6e1h7aeq23z9oiiquqjycl34\",\n          ctaText: \"See Benchmarks\",\n          ctaHref: \"#performance\",\n        },\n        {\n          id: \"security\",\n          subtitle: \"Enterprise Security\",\n          title: \"Fort Knox-Level Protection\",\n          description:\n            \"Your data is protected by military-grade encryption and multi-layered security protocols. We meet the highest compliance standards across all major industries.\",\n          image: \"https://toastability-production.s3.amazonaws.com/4u3pi66nga47kc1th8tyqd3lpj28\",\n          ctaText: \"Security Details\",\n          ctaHref: \"#security\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { CarouselAnimatedSections } from \"@opensite/ui/blocks/carousel/carousel-animated-sections\";\n\nexport default function Demo() {\n  return (\n    <CarouselAnimatedSections\n      sections={[\n        {\n          id: \"innovation\",\n          subtitle: \"Technology Leadership\",\n          title: \"Building the Future of AI\",\n          description:\n            \"Explore groundbreaking innovations that transform how businesses harness artificial intelligence to solve complex challenges and unlock new opportunities.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg\",\n          ctaText: \"Discover Our Platform\",\n          ctaHref: \"#\",\n        },\n        {\n          id: \"design\",\n          subtitle: \"Creative Excellence\",\n          title: \"Design That Inspires Action\",\n          description:\n            \"Experience stunning visual narratives crafted with precision and purpose. Our design philosophy merges aesthetics with functionality to create memorable digital experiences.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/rews5enr9ynu6izioj66s8ec90nc\",\n          ctaText: \"View Our Work\",\n          ctaHref: \"#\",\n        },\n        {\n          id: \"performance\",\n          subtitle: \"Speed & Efficiency\",\n          title: \"Lightning-Fast Performance\",\n          description:\n            \"Built on cutting-edge infrastructure that delivers millisecond response times. Every interaction is optimized for speed, reliability, and seamless user experience.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/kka8f550on7acx1lf82xleu6zhzo\",\n          ctaText: \"See Benchmarks\",\n          ctaHref: \"#\",\n        },\n        {\n          id: \"security\",\n          subtitle: \"Enterprise Security\",\n          title: \"Fort Knox-Level Protection\",\n          description:\n            \"Your data is protected by military-grade encryption and multi-layered security protocols. We meet the highest compliance standards across all major industries.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/okf6fg4n9yv59up8ivgcdjy3w030\",\n          ctaText: \"Security Details\",\n          ctaHref: \"#\",\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "sections": {
           "type": "array",
@@ -22194,7 +22194,7 @@
         "mobile": "https://cdn.ing/assets/i/r/306770/e9qejt3lndse5dwh7gue4mc0ic64/carousel-portfolio-hero-mobile.jpg"
       },
       "componentPath": "blocks/carousel/carousel-portfolio-hero.tsx",
-      "code": "import { CarouselPortfolioHero } from \"@opensite/ui/blocks/carousel/carousel-portfolio-hero\";\n\nexport default function Demo() {\n  return (\n    <CarouselPortfolioHero\n      slides={[\n        {\n          id: 1,\n          image: \"https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82\",\n          title: \"Brand Identity Redesign\",\n          description:\n            \"Complete visual transformation for a global tech startup\",\n          tag: \"Branding\",\n        },\n        {\n          id: 2,\n          image: \"https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k\",\n          title: \"E-Commerce Platform\",\n          description:\n            \"Award-winning shopping experience with AI-powered recommendations\",\n          tag: \"Web Design\",\n        },\n        {\n          id: 3,\n          image: \"https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c\",\n          title: \"Mobile Banking App\",\n          description: \"Intuitive financial management for the modern consumer\",\n          tag: \"Mobile Design\",\n        },\n        {\n          id: 4,\n          image: \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n          title: \"Sustainability Campaign\",\n          description:\n            \"Multi-channel marketing initiative driving environmental change\",\n          tag: \"Marketing\",\n        },\n        {\n          id: 5,\n          image: \"https://toastability-production.s3.amazonaws.com/s45m6e1h7aeq23z9oiiquqjycl34\",\n          title: \"SaaS Dashboard\",\n          description:\n            \"Enterprise analytics platform serving Fortune 500 clients\",\n          tag: \"Product Design\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"View All Projects\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          asButton: true,\n        },\n      ]}\n      autoPlayInterval={6000}\n    />\n  );\n}\n",
+      "code": "import { CarouselPortfolioHero } from \"@opensite/ui/blocks/carousel/carousel-portfolio-hero\";\n\nexport default function Demo() {\n  return (\n    <CarouselPortfolioHero\n      slides={[\n        {\n          id: 1,\n          image:\n            \"https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82\",\n          title: \"Brand Identity Redesign\",\n          description:\n            \"Complete visual transformation for a global tech startup\",\n          tag: \"Branding\",\n        },\n        {\n          id: 2,\n          image:\n            \"https://toastability-production.s3.amazonaws.com/2rbqbw9778770i8izdeabx8v2w2k\",\n          title: \"E-Commerce Platform\",\n          description:\n            \"Award-winning shopping experience with AI-powered recommendations\",\n          tag: \"Web Design\",\n        },\n        {\n          id: 3,\n          image:\n            \"https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c\",\n          title: \"Mobile Banking App\",\n          description: \"Intuitive financial management for the modern consumer\",\n          tag: \"Mobile Design\",\n        },\n        {\n          id: 4,\n          image:\n            \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n          title: \"Sustainability Campaign\",\n          description:\n            \"Multi-channel marketing initiative driving environmental change\",\n          tag: \"Marketing\",\n        },\n        {\n          id: 5,\n          image:\n            \"https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg\",\n          title: \"SaaS Dashboard\",\n          description:\n            \"Enterprise analytics platform serving Fortune 500 clients\",\n          tag: \"Product Design\",\n        },\n      ]}\n      actions={[\n        {\n          label: \"View All Projects\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          asButton: true,\n        },\n      ]}\n      autoPlayInterval={6000}\n    />\n  );\n}\n",
       "propsSchema": {
         "slides": {
           "type": "array",
@@ -22879,7 +22879,7 @@
         "mobile": "https://cdn.ing/assets/i/r/295062/ua68ex7qytsihfe42qzq1cppyg2j/carousel-progress-slider-mobile.png"
       },
       "componentPath": "blocks/carousel/carousel-progress-slider.tsx",
-      "code": "import { CarouselProgressSlider } from \"@opensite/ui/blocks/carousel/carousel-progress-slider\";\n\nexport default function Demo() {\n  return (\n    <CarouselProgressSlider\n      heading=\"Platform Capabilities\"\n      subheading=\"Discover what makes our solution the industry leader\"\n      slides={[\n        {\n          id: \"analytics\",\n          title: \"Advanced Analytics\",\n          description:\n            \"Gain deep insights into your business performance with real-time dashboards, custom reports, and predictive analytics powered by machine learning algorithms.\",\n          image: \"https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac\",\n        },\n        {\n          id: \"automation\",\n          title: \"Intelligent Automation\",\n          description:\n            \"Streamline repetitive tasks and workflows with smart automation tools that learn from your patterns and optimize themselves over time.\",\n          image: \"https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm\",\n        },\n        {\n          id: \"collaboration\",\n          title: \"Team Collaboration\",\n          description:\n            \"Bring your entire team together with integrated chat, video conferencing, file sharing, and project management tools in one unified platform.\",\n          image: \"https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh\",\n        },\n        {\n          id: \"integrations\",\n          title: \"Seamless Integrations\",\n          description:\n            \"Connect with 1,000+ apps and services through our robust API and pre-built integrations. Your tools work better together.\",\n          image: \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n        },\n        {\n          id: \"security\",\n          title: \"Enterprise Security\",\n          description:\n            \"Rest easy with SOC 2 Type II compliance, end-to-end encryption, SSO, and advanced access controls that protect your sensitive data.\",\n          image: \"https://toastability-production.s3.amazonaws.com/4u3pi66nga47kc1th8tyqd3lpj28\",\n        },\n      ]}\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.8}\n      background=\"gray\"\n      spacing=\"hero\"\n    />\n  );\n}\n",
+      "code": "import { CarouselProgressSlider } from \"@opensite/ui/blocks/carousel/carousel-progress-slider\";\n\nexport default function Demo() {\n  return (\n    <CarouselProgressSlider\n      heading=\"Platform Capabilities\"\n      subheading=\"Discover what makes our solution the industry leader\"\n      slides={[\n        {\n          id: \"analytics\",\n          title: \"Advanced Analytics\",\n          description:\n            \"Gain deep insights into your business performance with real-time dashboards, custom reports, and predictive analytics powered by machine learning algorithms.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac\",\n        },\n        {\n          id: \"automation\",\n          title: \"Intelligent Automation\",\n          description:\n            \"Streamline repetitive tasks and workflows with smart automation tools that learn from your patterns and optimize themselves over time.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm\",\n        },\n        {\n          id: \"collaboration\",\n          title: \"Team Collaboration\",\n          description:\n            \"Bring your entire team together with integrated chat, video conferencing, file sharing, and project management tools in one unified platform.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/gg5qnvb4nsl2k3g4dw4ls8bsllwh\",\n        },\n        {\n          id: \"integrations\",\n          title: \"Seamless Integrations\",\n          description:\n            \"Connect with 1,000+ apps and services through our robust API and pre-built integrations. Your tools work better together.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n        },\n        {\n          id: \"security\",\n          title: \"Enterprise Security\",\n          description:\n            \"Rest easy with SOC 2 Type II compliance, end-to-end encryption, SSO, and advanced access controls that protect your sensitive data.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/4xjcgtlwseruezhoh3o1ga4umhj4\",\n        },\n      ]}\n      pattern=\"diagonalCrossBasic\"\n      patternOpacity={0.8}\n      background=\"gray\"\n      spacing=\"hero\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "string",
@@ -42315,6 +42315,11 @@
           "typeLabel": "SectionSpacing",
           "required": false
         },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
         "pattern": {
           "type": "object",
           "description": "Optional background pattern name or URL",
@@ -42439,11 +42444,11 @@
       "categorySlug": "gallery",
       "description": "A carousel with icon-based tab navigation and animated indicator. Features icon tabs that sync with carousel slides, animated underline indicator, and slide counter. Ideal for feature showcases, product tours, or any content that benefits from categorized visual navigation.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290119/3b914t38n1z6jol2gokq0y90j6g6/carousel-icon-tabs-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290118/57te7kp7yp4p5ykrwfkrx2p7iq65/carousel-icon-tabs-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/309641/q91xry8qvp8kmj6utc1faz4slvu7/carousel-icon-tabs-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/309642/n60pj7bqnhvswfr9wxyypwddvo8e/carousel-icon-tabs-mobile.jpg"
       },
       "componentPath": "blocks/gallery/carousel-icon-tabs.tsx",
-      "code": "import { CarouselIconTabs } from \"@opensite/ui/blocks/gallery/carousel-icon-tabs\";\n\nexport default function Demo() {\n  return (\n    <CarouselIconTabs\n      heading=\"Platform Features\"\n      badge=\"Enterprise Ready\"\n      sections={[\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/6ku135fhv528eei3agnoc3zd7y75\",\n          alt: \"Analytics Dashboard\",\n          title: \"Advanced Analytics\",\n          text: \"Comprehensive analytics dashboard with real-time data visualization, custom reports, and predictive insights. Track KPIs, user behavior, and business metrics in one unified platform.\",\n          icon: \"lucide/bar-chart-3\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/x4scuzhsozrwrg703df5wbhygkgo\",\n          alt: \"Team Collaboration\",\n          title: \"Team Collaboration\",\n          text: \"Built-in collaboration tools including real-time messaging, file sharing, and project management. Keep your team aligned and productive with seamless communication.\",\n          icon: \"lucide/users\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55\",\n          alt: \"API Integration\",\n          title: \"API Integration\",\n          text: \"Extensive REST API with comprehensive documentation and SDKs for all major languages. Connect with your existing tools and build custom integrations effortlessly.\",\n          icon: \"lucide/plug\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05\",\n          alt: \"Automation Engine\",\n          title: \"Automation Engine\",\n          text: \"Powerful workflow automation with visual builder and pre-built templates. Automate repetitive tasks and create complex workflows without writing code.\",\n          icon: \"lucide/workflow\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh\",\n          alt: \"Custom Reports\",\n          title: \"Custom Reports\",\n          text: \"Flexible reporting engine with drag-and-drop builder, scheduled exports, and white-label options. Create professional reports tailored to your specific needs.\",\n          icon: \"lucide/file-bar-chart\",\n        },\n      ]}\n      background=\"white\"\n      spacing=\"lg\"\n      pattern=\"gridFadeBottomLeft\"\n      patternOpacity={0.7}\n    />\n  );\n}\n",
+      "code": "import { CarouselIconTabs } from \"@opensite/ui/blocks/gallery/carousel-icon-tabs\";\n\nexport default function Demo() {\n  return (\n    <CarouselIconTabs\n      heading=\"Platform Features\"\n      badge=\"Enterprise Ready\"\n      sections={[\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/6ku135fhv528eei3agnoc3zd7y75\",\n          alt: \"Analytics Dashboard\",\n          title: \"Advanced Analytics\",\n          text: \"Comprehensive analytics dashboard with real-time data visualization, custom reports, and predictive insights. Track KPIs, user behavior, and business metrics in one unified platform.\",\n          icon: \"lucide/bar-chart-3\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/x4scuzhsozrwrg703df5wbhygkgo\",\n          alt: \"Team Collaboration\",\n          title: \"Team Collaboration\",\n          text: \"Built-in collaboration tools including real-time messaging, file sharing, and project management. Keep your team aligned and productive with seamless communication.\",\n          icon: \"lucide/users\",\n        },\n        {\n          img: \"https://toastability-production.s3.amazonaws.com/73e0s79u4crdu7cmjfp99j1l2v55\",\n          alt: \"API Integration\",\n          title: \"API Integration\",\n          text: \"Extensive REST API with comprehensive documentation and SDKs for all major languages. Connect with your existing tools and build custom integrations effortlessly.\",\n          icon: \"lucide/plug\",\n        },\n      ]}\n      background=\"white\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.9}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -42575,6 +42580,11 @@
           "typeLabel": "SectionBackground",
           "required": false
         },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
         "spacing": {
           "type": "object",
           "description": "Vertical spacing for the section",
@@ -42624,31 +42634,32 @@
         }
       },
       "exampleProps": {
-        "heading": "Cut the time it takes to close your books",
-        "badge": "Streamline your workflow",
+        "heading": "Platform Features",
+        "badge": "Enterprise Ready",
         "background": "white",
-        "spacing": "lg",
+        "pattern": "gridFadeTop",
+        "patternOpacity": 0.9,
         "sections": [
           {
             "img": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "alt": "Advanced Analytics",
+            "alt": "Analytics Dashboard",
             "title": "Advanced Analytics",
-            "text": "Comprehensive analytics dashboard with real-time data visualization and predictive insights.",
+            "text": "Comprehensive analytics dashboard with real-time data visualization, custom reports, and predictive insights. Track KPIs, user behavior, and business metrics in one unified platform.",
             "icon": "lucide/bar-chart-3"
           },
           {
             "img": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
             "alt": "Team Collaboration",
             "title": "Team Collaboration",
-            "text": "Built-in tools including real-time messaging, file sharing, and project management.",
+            "text": "Built-in collaboration tools including real-time messaging, file sharing, and project management. Keep your team aligned and productive with seamless communication.",
             "icon": "lucide/users"
           },
           {
             "img": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "alt": "Automation Engine",
-            "title": "Automation Engine",
-            "text": "Powerful workflow automation with a visual builder and pre-built templates.",
-            "icon": "lucide/workflow"
+            "alt": "API Integration",
+            "title": "API Integration",
+            "text": "Extensive REST API with comprehensive documentation and SDKs for all major languages. Connect with your existing tools and build custom integrations effortlessly.",
+            "icon": "lucide/plug"
           }
         ]
       },
@@ -42666,16 +42677,20 @@
         "indicator"
       ],
       "performance": {},
-      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. title text The 'badge' prop appears below the heading as a secondary badge – keep it short (2–4 words). Tabs are only visible on 'md' and above; on mobile the description appears inline below each slide image. Clicking a slide image opens a built-in lightbox – no extra configuration needed. Provide 3–6 sections; more than 6 makes the tab row too crowded on desktop.",
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. title text The 'badge' prop appears below the heading as a secondary badge – keep it short (2–4 words). Tabs are only visible on 'md' and above; on mobile the description appears inline below each slide image. Clicking a slide image opens a built-in lightbox – no extra configuration needed. Provide exactly 3 sections for ideal layout balance; fewer looks sparse, more crowds the tab row on desktop.",
       "usageRequirements": {
-        "requiredProps": [],
+        "requiredProps": [
+          "sections"
+        ],
         "requiresSiteCapabilities": [
           "media_library"
         ],
         "propConstraints": {
           "sections": {
+            "required": true,
+            "count": 3,
             "minItems": 3,
-            "maxItems": 6
+            "maxItems": 3
           }
         },
         "mediaSlots": {
@@ -42685,7 +42700,7 @@
               "gallery",
               "feature"
             ],
-            "required": false
+            "required": true
           }
         }
       }
@@ -48576,7 +48591,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289044/mtjoojrd0sa8qlp0tk8rei5hn1kv/blog-featured-popular-mobile.jpg"
       },
       "componentPath": "blocks/blog/blog-featured-popular.tsx",
-      "code": "import { BlogFeaturedPopular } from \"@opensite/ui/blocks/blog/blog-featured-popular\";\n\nexport default function Demo() {\n  return (\n    <BlogFeaturedPopular\n      heading=\"Top Reads This Month\"\n      description=\"Discover the most engaging and insightful articles from our community of experts and thought leaders.\"\n      popularHeading=\"Popular Articles\"\n      posts={[\n        {\n          id: \"featured\",\n          title: \"The Complete Guide to Microservices Architecture\",\n          description:\n            \"An comprehensive exploration of microservices patterns, best practices, and real-world implementation strategies for building scalable distributed systems.\",\n          image: \"https://toastability-production.s3.amazonaws.com/gafgk4cwd845yo094665jsuq9e21\",\n          category: \"Architecture\",\n          href: \"/blog/microservices-guide\",\n        },\n        {\n          id: \"1\",\n          title: \"GraphQL vs REST: Making the Right Choice\",\n          description:\n            \"A detailed comparison of GraphQL and REST APIs, helping you choose the best approach for your project.\",\n          image: \"https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u\",\n          category: \"API Design\",\n          href: \"/blog/graphql-vs-rest\",\n        },\n        {\n          id: \"2\",\n          title: \"Advanced TypeScript Patterns and Techniques\",\n          description:\n            \"Master advanced TypeScript features to write more maintainable and type-safe code.\",\n          image: \"https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82\",\n          category: \"Programming\",\n          href: \"/blog/advanced-typescript\",\n        },\n        {\n          id: \"3\",\n          title: \"Serverless Computing: When and Why\",\n          description:\n            \"Understanding serverless architectures and identifying the right use cases for your applications.\",\n          image: \"https://toastability-production.s3.amazonaws.com/5sm6wc4no8fyzxfki5njmnv6gql5\",\n          category: \"Cloud\",\n          href: \"/blog/serverless-computing\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { BlogFeaturedPopular } from \"@opensite/ui/blocks/blog/blog-featured-popular\";\n\nexport default function Demo() {\n  return (\n    <BlogFeaturedPopular\n      heading=\"Top Reads This Month\"\n      description=\"Discover the most engaging and insightful articles from our community of experts and thought leaders.\"\n      popularHeading=\"Popular Articles\"\n      posts={[\n        {\n          id: \"featured\",\n          title: \"The Complete Guide to Microservices Architecture\",\n          description:\n            \"An comprehensive exploration of microservices patterns, best practices, and real-world implementation strategies for building scalable distributed systems.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/mt87xjr79wxdhjy7496v3r6m2m9t\",\n          category: \"Architecture\",\n          href: \"#\",\n        },\n        {\n          id: \"1\",\n          title: \"GraphQL vs REST: Making the Right Choice\",\n          description:\n            \"A detailed comparison of GraphQL and REST APIs, helping you choose the best approach for your project.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u\",\n          category: \"API Design\",\n          href: \"#\",\n        },\n        {\n          id: \"2\",\n          title: \"Advanced TypeScript Patterns and Techniques\",\n          description:\n            \"Master advanced TypeScript features to write more maintainable and type-safe code.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82\",\n          category: \"Programming\",\n          href: \"#\",\n        },\n        {\n          id: \"3\",\n          title: \"Serverless Computing: When and Why\",\n          description:\n            \"Understanding serverless architectures and identifying the right use cases for your applications.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/5sm6wc4no8fyzxfki5njmnv6gql5\",\n          category: \"Cloud\",\n          href: \"#\",\n        },\n      ]}\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -48922,7 +48937,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289046/j4qywhvjzr01shl917ff2vrt3up6/blog-related-articles-mobile.jpg"
       },
       "componentPath": "blocks/blog/blog-related-articles.tsx",
-      "code": "import { BlogRelatedArticles } from \"@opensite/ui/blocks/blog/blog-related-articles\";\n\nexport default function Demo() {\n  return (\n    <BlogRelatedArticles\n      heading=\"Related Articles\"\n      seeAllAction={{\n        label: \"See All\",\n        href: \"/blog\",\n        variant: \"ghost\",\n      }}\n      articles={[\n        {\n          id: \"1\",\n          title: \"Authentication Best Practices for Modern Apps\",\n          description: \"Implementing secure authentication with OAuth 2.0, JWT tokens, and multi-factor authentication strategies.\",\n          category: \"Security\",\n          date: \"April 18, 2024\",\n          href: \"/blog/authentication-best-practices\",\n        },\n        {\n          id: \"2\",\n          title: \"Optimizing Database Queries for Performance\",\n          description: \"Techniques for writing efficient SQL, understanding query plans, and leveraging indexes effectively.\",\n          category: \"Databases\",\n          date: \"April 15, 2024\",\n          href: \"/blog/database-query-optimization\",\n        },\n        {\n          id: \"3\",\n          title: \"Introduction to Service Mesh with Istio\",\n          description: \"Understanding service mesh architecture and implementing Istio for microservices communication.\",\n          category: \"Infrastructure\",\n          date: \"April 12, 2024\",\n          href: \"/blog/istio-service-mesh\",\n        },\n        {\n          id: \"4\",\n          title: \"Building Responsive Images with Srcset\",\n          description: \"Delivering optimized images for different screen sizes and pixel densities using modern HTML features.\",\n          category: \"Web Development\",\n          date: \"April 9, 2024\",\n          href: \"/blog/responsive-images-srcset\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { BlogRelatedArticles } from \"@opensite/ui/blocks/blog/blog-related-articles\";\n\nexport default function Demo() {\n  return (\n    <BlogRelatedArticles\n      heading=\"Related Articles\"\n      seeAllAction={{\n        label: \"See All\",\n        href: \"/blog\",\n        variant: \"ghost\",\n      }}\n      articles={[\n        {\n          id: \"1\",\n          title: \"Authentication Best Practices for Modern Apps\",\n          description:\n            \"Implementing secure authentication with OAuth 2.0, JWT tokens, and multi-factor authentication strategies.\",\n          category: \"Security\",\n          date: \"April 18, 2024\",\n          href: \"/blog/authentication-best-practices\",\n        },\n        {\n          id: \"2\",\n          title: \"Optimizing Database Queries for Performance\",\n          description:\n            \"Techniques for writing efficient SQL, understanding query plans, and leveraging indexes effectively.\",\n          category: \"Databases\",\n          date: \"April 15, 2024\",\n          href: \"/blog/database-query-optimization\",\n        },\n        {\n          id: \"3\",\n          title: \"Introduction to Service Mesh with Istio\",\n          description:\n            \"Understanding service mesh architecture and implementing Istio for microservices communication.\",\n          category: \"Infrastructure\",\n          date: \"April 12, 2024\",\n          href: \"/blog/istio-service-mesh\",\n        },\n        {\n          id: \"4\",\n          title: \"Building Responsive Images with Srcset\",\n          description:\n            \"Delivering optimized images for different screen sizes and pixel densities using modern HTML features.\",\n          category: \"Web Development\",\n          date: \"April 9, 2024\",\n          href: \"/blog/responsive-images-srcset\",\n        },\n      ]}\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -49306,7 +49321,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289112/m5w7spzo74nbjccxzu1z73bvmb5u/blocks-blog-tech-insights-mobile.jpg"
       },
       "componentPath": "blocks/blog/blog-tech-insights.tsx",
-      "code": "import { BlogTechInsights } from \"@opensite/ui/blocks/blog/blog-tech-insights\";\n\nexport default function Demo() {\n  return (\n    <BlogTechInsights\n      heading=\"Tech Insights\"\n      description=\"Latest developments in technology. Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\"\n      readMoreAction={{\n        label: \"View All\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        size: \"lg\",\n      }}\n      featuredPost={{\n        id: \"featured\",\n        title: \"The Rise of Edge Computing in Modern Applications\",\n        image: \"https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt\",\n        author: \"Dr. Emily Chang\",\n        authorAvatar: \"https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u\",\n        authorRole: \"Principal Architect\",\n        href: \"/blog/edge-computing-rise\",\n      }}\n      secondaryPosts={[\n        {\n          id: \"1\",\n          title: \"WebAssembly: Transforming Web Performance\",\n          description:\n            \"How WebAssembly is transforming browser-based applications and enabling near-native performance for web apps.\",\n          image: \"https://toastability-production.s3.amazonaws.com/pjgb223h1bjywdk15i3zi7pjhutg\",\n          href: \"/blog/webassembly-transformation\",\n        },\n        {\n          id: \"2\",\n          title: \"Blockchain in Supply Chain Management\",\n          description:\n            \"Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\",\n          image: \"https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov\",\n          href: \"/blog/blockchain-supply-chain\",\n        },\n        {\n          id: \"3\",\n          title: \"Quantum-Resistant Cryptography: Preparing for the Future\",\n          description:\n            \"Deep dive into quantum-resistant cryptography and preparing systems for the post-quantum computing era.\",\n          image: \"https://toastability-production.s3.amazonaws.com/6ntdz6xwid3fswjz8y0otdxmzs40\",\n          href: \"/blog/quantum-resistant-crypto\",\n        },\n      ]}\n    />\n  );\n}\n",
+      "code": "import { BlogTechInsights } from \"@opensite/ui/blocks/blog/blog-tech-insights\";\n\nexport default function Demo() {\n  return (\n    <BlogTechInsights\n      heading=\"Tech Insights\"\n      description=\"Latest developments in technology. Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\"\n      readMoreAction={{\n        label: \"View All\",\n        href: \"#\",\n        variant: \"default\",\n        asButton: true,\n        size: \"lg\",\n      }}\n      featuredPost={{\n        id: \"featured\",\n        title: \"The Rise of Edge Computing in Modern Applications\",\n        image:\n          \"https://toastability-production.s3.amazonaws.com/1xdx70c7gp9l883soyh5d3exesvt\",\n        author: \"Dr. Emily Chang\",\n        authorAvatar:\n          \"https://toastability-production.s3.amazonaws.com/3vwfdbekbkskxj2mvlvu85fz787u\",\n        authorRole: \"Principal Architect\",\n        href: \"/blog/edge-computing-rise\",\n      }}\n      secondaryPosts={[\n        {\n          id: \"1\",\n          title: \"WebAssembly: Transforming Web Performance\",\n          description:\n            \"How WebAssembly is transforming browser-based applications and enabling near-native performance for web apps.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/pjgb223h1bjywdk15i3zi7pjhutg\",\n          href: \"/blog/webassembly-transformation\",\n        },\n        {\n          id: \"2\",\n          title: \"Blockchain in Supply Chain Management\",\n          description:\n            \"Exploring the intersection of blockchain technology and supply chain management for transparency and traceability.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov\",\n          href: \"/blog/blockchain-supply-chain\",\n        },\n        {\n          id: \"3\",\n          title: \"Quantum-Resistant Cryptography: Preparing for the Future\",\n          description:\n            \"Deep dive into quantum-resistant cryptography and preparing systems for the post-quantum computing era.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/6ntdz6xwid3fswjz8y0otdxmzs40\",\n          href: \"/blog/quantum-resistant-crypto\",\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -49849,7 +49864,7 @@
         "mobile": "https://cdn.ing/assets/i/r/289048/h3f88g2g1hddrul4usnh38nkqmbo/blog-horizontal-cards-mobile.jpg"
       },
       "componentPath": "blocks/blog/blog-horizontal-cards.tsx",
-      "code": "import { BlogHorizontalCards } from \"@opensite/ui/blocks/blog/blog-horizontal-cards\";\n\nexport default function Demo() {\n  return (\n    <BlogHorizontalCards\n      badge=\"Featured Content\"\n      heading=\"Deep Dives and Tutorials\"\n      description=\"Comprehensive guides and detailed analyses to help you master complex topics and advance your skills.\"\n      ctaAction={{\n        label: \"Explore All Tutorials\",\n        href: \"/tutorials\",\n        variant: \"default\",\n      }}\n      posts={[\n        {\n          id: \"1\",\n          title: \"Building a Design System from Scratch\",\n          summary:\n            \"A step-by-step guide to creating a scalable design system that grows with your product and team. Learn about component libraries, design tokens, documentation, and governance.\",\n          image: \"https://toastability-production.s3.amazonaws.com/50y066ms7rb5sw62u9u08jzkk8rj\",\n          category: \"Design Systems\",\n          author: \"Maya Chen\",\n          date: \"April 20, 2024\",\n          href: \"#\",\n        },\n        {\n          id: \"2\",\n          title: \"Advanced React Patterns: Compound Components\",\n          summary:\n            \"Master the compound component pattern to create flexible and reusable React components with implicit state sharing and elegant APIs.\",\n          image: \"https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw\",\n          category: \"React\",\n          author: \"Jake Morrison\",\n          date: \"April 17, 2024\",\n          href: \"#\",\n        },\n        {\n          id: \"3\",\n          title: \"PostgreSQL Performance Tuning Guide\",\n          summary:\n            \"Deep dive into PostgreSQL optimization techniques including indexing strategies, query optimization, connection pooling, and configuration tuning for production workloads.\",\n          image: \"https://toastability-production.s3.amazonaws.com/f921uoblxbv8f9bmr4s2ik7xxugl\",\n          category: \"Databases\",\n          author: \"Dmitri Volkov\",\n          date: \"April 14, 2024\",\n          href: \"#\",\n        },\n      ]}\n      readMoreText=\"Read Full Article\"\n    />\n  );\n}\n",
+      "code": "import { BlogHorizontalCards } from \"@opensite/ui/blocks/blog/blog-horizontal-cards\";\n\nexport default function Demo() {\n  return (\n    <BlogHorizontalCards\n      badge=\"Featured Content\"\n      heading=\"Deep Dives and Tutorials\"\n      description=\"Comprehensive guides and detailed analyses to help you master complex topics and advance your skills.\"\n      ctaAction={{\n        label: \"Explore All Tutorials\",\n        href: \"/tutorials\",\n        variant: \"default\",\n      }}\n      posts={[\n        {\n          id: \"1\",\n          title: \"Building a Design System from Scratch\",\n          summary:\n            \"A step-by-step guide to creating a scalable design system that grows with your product and team. Learn about component libraries, design tokens, documentation, and governance.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/50y066ms7rb5sw62u9u08jzkk8rj\",\n          category: \"Design Systems\",\n          author: \"Maya Chen\",\n          date: \"April 20, 2024\",\n          href: \"#\",\n        },\n        {\n          id: \"2\",\n          title: \"Advanced React Patterns: Compound Components\",\n          summary:\n            \"Master the compound component pattern to create flexible and reusable React components with implicit state sharing and elegant APIs.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/82ykd8s8boiqaxypkulb0v0s2qiw\",\n          category: \"React\",\n          author: \"Jake Morrison\",\n          date: \"April 17, 2024\",\n          href: \"#\",\n        },\n        {\n          id: \"3\",\n          title: \"PostgreSQL Performance Tuning Guide\",\n          summary:\n            \"Deep dive into PostgreSQL optimization techniques including indexing strategies, query optimization, connection pooling, and configuration tuning for production workloads.\",\n          image:\n            \"https://toastability-production.s3.amazonaws.com/f921uoblxbv8f9bmr4s2ik7xxugl\",\n          category: \"Databases\",\n          author: \"Dmitri Volkov\",\n          date: \"April 14, 2024\",\n          href: \"#\",\n        },\n      ]}\n      readMoreText=\"Read Full Article\"\n      background=\"dark\"\n      pattern=\"dashedGridFadeTopRight\"\n      patternOpacity={0.25}\n    />\n  );\n}\n",
       "propsSchema": {
         "badge": {
           "type": "object",
@@ -57479,8 +57494,8 @@
       "categorySlug": "faq",
       "description": "A visually striking FAQ section with a gradient background container housing categorized accordion groups in a two-column grid. The gradient styling adds depth and visual interest while categories keep content organized. Perfect for SaaS products or modern web applications.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/293125/dy3r8envgeeflgyygu6ltbvpdxoy/cleanshot-2026-03-04-at-04-14-22.png",
-        "mobile": "https://cdn.ing/assets/i/r/293124/m5o8y60ju1sk2ry9cfswz1cbnpzr/cleanshot-2026-03-04-at-04-14-35.png"
+        "desktop": "https://cdn.ing/assets/i/r/309640/pxd5xqurc9dtnl3b2lrwbyvmdosd/faq-gradient-categories-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/309639/1782tss3jlsw2tjj3mjf6q8egn6i/faq-gradient-categories-mobile.jpg"
       },
       "componentPath": "blocks/faq/faq-gradient-categories.tsx",
       "code": "import { FaqGradientCategories } from \"@opensite/ui/blocks/faq/faq-gradient-categories\";\n\nexport default function Demo() {\n  return (\n    <FaqGradientCategories\n      heading=\"Browse by Topic\"\n      description=\"Select a category to explore relevant questions and detailed answers.\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.2}\n      background=\"gradient\"\n      spacing=\"py-6 md:py-32\"\n      categories={[\n        {\n          title: \"Product Features\",\n          items: [\n            {\n              id: \"dashboards\",\n              question: \"Can I customize my dashboard?\",\n              answer:\n                \"Yes, create multiple custom dashboards with widgets for tasks, charts, calendars, and metrics. Save different layouts for different use cases.\",\n            },\n            {\n              id: \"permissions\",\n              question: \"How do permissions work?\",\n              answer:\n                \"Set granular permissions at the workspace, project, and task levels. Control who can view, edit, comment, or manage content with role-based access.\",\n            },\n          ],\n        },\n        {\n          title: \"Integration & API\",\n          items: [\n            {\n              id: \"zapier\",\n              question: \"Do you integrate with Zapier?\",\n              answer:\n                \"Yes, our Zapier integration enables connections with 5,000+ apps. Automate workflows between your tools without writing code.\",\n            },\n            {\n              id: \"webhooks-setup\",\n              question: \"How do I set up webhooks?\",\n              answer:\n                \"Navigate to Settings > Integrations > Webhooks. Add your endpoint URL, select events to monitor, and save. Test webhooks before going live.\",\n            },\n          ],\n        },\n        {\n          title: \"Support & Resources\",\n          items: [\n            {\n              id: \"documentation\",\n              question: \"Where can I find documentation?\",\n              answer:\n                \"Our knowledge base at docs.example.com includes guides, tutorials, API references, and best practices. Search by topic or browse by category.\",\n            },\n            {\n              id: \"community\",\n              question: \"Is there a user community?\",\n              answer:\n                \"Join our community forum with 50,000+ active users. Share tips, ask questions, vote on feature requests, and connect with other power users.\",\n            },\n          ],\n        },\n      ]}\n    />\n  );\n}\n",
@@ -63901,7 +63916,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290293/60psymwja5zqlpgpil8zgoqp2i1a/cleanshot-2026-02-18-at-04-09-50.png"
       },
       "componentPath": "blocks/hero/hero-simple-centered-image.tsx",
-      "code": "import { HeroSimpleCenteredImage } from \"@opensite/ui/blocks/hero/hero-simple-centered-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroSimpleCenteredImage\n      heading=\"Clean, simple, effective\"\n      description=\"Sometimes less is more. Focus on what matters with our streamlined approach to design and functionality.\"\n      imageSrc={\"https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov\"}\n      imageAlt=\"Product showcase\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
+      "code": "import { HeroSimpleCenteredImage } from \"@opensite/ui/blocks/hero/hero-simple-centered-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroSimpleCenteredImage\n      heading=\"Clean, simple, effective\"\n      description=\"Sometimes less is more. Focus on what matters with our streamlined approach to design and functionality.\"\n      imageSrc={\n        \"https://toastability-production.s3.amazonaws.com/ihgx63s5nfzp2e93e3ccljjnnrov\"\n      }\n      imageAlt=\"Product showcase\"\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/288967/cn6z89c4c23ubohkz6kv3npdn672/ui-placeholder-logo-white-5.png\",\n        alt: \"Brand Logo\",\n      }}\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTop\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -70490,15 +70505,27 @@
       "categorySlug": "hero",
       "description": "An animated hero featuring a task timer or countdown element. Dynamic and engaging for productivity apps.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290316/fz9jc5okvgifz1pkckk7jvkzo7fa/cleanshot-2026-02-18-at-07-05-13.png",
-        "mobile": "https://cdn.ing/assets/i/r/290315/xqxw9bhctr8t1lwbwsv574ye3zbz/cleanshot-2026-02-18-at-07-05-23.png"
+        "desktop": "https://cdn.ing/assets/i/r/309643/n7nvlajhxzjc5ms7pqj5zmtxuxrs/hero-task-timer-animated-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/309644/gi13f5dx2xti6s4b43967s03s1fc/hero-task-timer-animated-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-task-timer-animated.tsx",
-      "code": "import { HeroTaskTimerAnimated } from \"@opensite/ui/blocks/hero/hero-task-timer-animated\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroTaskTimerAnimated\n      heading=\"Track time, boost productivity\"\n      description=\"Stay focused and manage your time effectively with our intuitive task timer. Perfect for work, study, or any activity that requires dedicated focus.\"\n      actions={[\n        {\n          label: \"Start Tracking\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Features\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      images={[\n        { src: \"https://toastability-production.s3.amazonaws.com/0mh8a1dg7ftcqnyzgv303u501c8y\", alt: \"Timer interface\" },\n        { src: \"https://toastability-production.s3.amazonaws.com/vvucxqs128w2d0z3n4s2z131rq7p\", alt: \"Task tracking\" },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
+      "code": "import { HeroTaskTimerAnimated } from \"@opensite/ui/blocks/hero/hero-task-timer-animated\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroTaskTimerAnimated\n      heading=\"Track time, boost productivity\"\n      description=\"Stay focused and manage your time effectively with our intuitive task timer. Perfect for work, study, or any activity that requires dedicated focus.\"\n      taskItems={[\n        \"Design mockups\",\n        \"Code review\",\n        \"Write documentation\",\n        \"Ship feature\",\n      ]}\n      timerMinutes={25}\n      actions={[\n        {\n          label: \"Start Tracking\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"View Features\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
           "description": "Main heading content",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingSlot": {
+          "type": "object",
+          "description": "Custom slot for heading (overrides heading prop)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "description": {
+          "type": "object",
+          "description": "Description text below heading",
           "typeLabel": "React.ReactNode",
           "required": false
         },
@@ -70588,48 +70615,28 @@
           "description": "Additional CSS classes for the actions container",
           "required": false
         },
-        "images": {
+        "taskItems": {
           "type": "array",
-          "description": "Array of showcase images (expects 2 images)",
+          "description": "Array of task labels that cycle through with animation",
           "items": {
-            "type": "object",
-            "description": "",
-            "fields": {
-              "src": {
-                "type": "string",
-                "description": "Image source URL",
-                "required": true
-              },
-              "alt": {
-                "type": "string",
-                "description": "Alt text for accessibility",
-                "required": true
-              },
-              "href": {
-                "type": "string",
-                "description": "Optional link URL",
-                "required": false
-              },
-              "className": {
-                "type": "string",
-                "description": "Additional CSS classes for the image",
-                "required": false
-              }
-            },
-            "typeLabel": "ImageItem"
+            "type": "string",
+            "description": ""
           },
-          "typeLabel": "ImageItem[]",
           "required": false
         },
-        "imagesSlot": {
-          "type": "object",
-          "description": "Custom slot for images (overrides images array)",
-          "typeLabel": "React.ReactNode",
+        "timerMinutes": {
+          "type": "number",
+          "description": "Starting minutes for the animated countdown display (default: 25 — Pomodoro style)",
+          "required": false
+        },
+        "timerSeconds": {
+          "type": "number",
+          "description": "Starting seconds for the animated countdown display (default: 0)",
           "required": false
         },
         "background": {
           "type": "string",
-          "description": "",
+          "description": "Background style for the section",
           "typeLabel": "SectionBackground",
           "required": false
         },
@@ -70670,35 +70677,6 @@
         "headingClassName": {
           "type": "string",
           "description": "Additional CSS classes for the heading",
-          "required": false
-        },
-        "imagesClassName": {
-          "type": "string",
-          "description": "Additional CSS classes for the images area",
-          "required": false
-        },
-        "optixFlowConfig": {
-          "type": "object",
-          "description": "OptixFlow image optimization configuration",
-          "fields": {
-            "apiKey": {
-              "type": "string",
-              "description": "API key for OptixFlow service",
-              "required": true
-            },
-            "compression": {
-              "type": "number",
-              "description": "Compression level (0-100)",
-              "required": false
-            }
-          },
-          "typeLabel": "OptixFlowConfig",
-          "required": false
-        },
-        "description": {
-          "type": "object",
-          "description": "Description text below heading",
-          "typeLabel": "React.ReactNode",
           "required": false
         },
         "descriptionClassName": {
@@ -70764,16 +70742,14 @@
         },
         "heading": "Track time, boost productivity",
         "description": "Stay focused and manage your time effectively.",
-        "images": [
-          {
-            "src": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "alt": "Timer interface"
-          },
-          {
-            "src": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "alt": "Task tracking"
-          }
+        "taskItems": [
+          "Design mockups",
+          "Code review",
+          "Write documentation",
+          "Ship feature"
         ],
+        "timerMinutes": 25,
+        "timerSeconds": 0,
         "background": "dark",
         "actions": [
           {
@@ -70802,11 +70778,11 @@
         "engaging"
       ],
       "performance": {},
-      "importantUsageNotes": "Supply exactly 2 images. Do not exceed 40 characters for 'heading'. Do not exceed 130 characters for 'description'. If you supply multiple 'actions', use 'default' for the first and 'outline' for the second.  All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
+      "importantUsageNotes": "Supply 2-6 taskItems for cycling animation. Do not exceed 40 characters for 'heading'. Do not exceed 130 characters for 'description'. If you supply multiple 'actions', use 'default' for the first and 'outline' for the second. timerMinutes defaults to 25 (Pomodoro style). No images required — the animated countdown timer and task list provide the visual element.",
       "usageRequirements": {
         "requiredProps": [
           "heading",
-          "images"
+          "taskItems"
         ],
         "propConstraints": {
           "heading": {
@@ -70816,11 +70792,13 @@
           "description": {
             "maxLength": 130
           },
-          "images": {
+          "taskItems": {
             "required": true,
-            "count": 2,
             "minItems": 2,
-            "maxItems": 2
+            "maxItems": 6
+          },
+          "timerMinutes": {
+            "note": "Defaults to 25 (Pomodoro style)."
           },
           "actions": {
             "maxItems": 2,
@@ -70830,26 +70808,8 @@
             }
           }
         },
-        "mediaSlots": {
-          "images[]": {
-            "path": "images[]",
-            "roles": [
-              "feature",
-              "hero"
-            ],
-            "disallowedRoles": [
-              "logo",
-              "favicon",
-              "video-thumbnail"
-            ],
-            "minPixelClass": "medium",
-            "required": true,
-            "note": "Animated product screenshot images. IMAGE MEDIA ONLY. Do not use logos, favicons, or video assets."
-          }
-        },
-        "requiresSiteCapabilities": [
-          "media_library"
-        ]
+        "mediaSlots": {},
+        "requiresSiteCapabilities": []
       }
     },
     {
@@ -73171,7 +73131,7 @@
         "mobile": "https://cdn.ing/assets/i/r/308472/uklxyvqyn3xzhk6k9ylargi3h3pm/hero-billing-platform-logos-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-billing-platform-logos.tsx",
-      "code": "import { HeroBillingPlatformLogos } from \"@opensite/ui/blocks/hero/hero-billing-platform-logos\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroBillingPlatformLogos\n      heading=\"Modern Billing\"\n      description=\"Accept payments, subscriptions, and invoices with ease. A powerful billing platform for businesses of all sizes.\"\n      actions={[\n        {\n          label: \"Start Free Trial\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      mainImage={{\n        src: \"https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6\",\n        alt: \"Billing dashboard\",\n      }}\n      logos={[\n        {\n          src: \"https://cdn.ing/assets/i/r/288964/4xdrg1wjc2knoy58ulqijicamar3/ui-placeholder-logo-dark-1.png\",\n          alt: \"Partner 1\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288965/aw0n8ithqntxtfweqrlmseqlcak7/ui-placeholder-logo-black-2.png\",\n          alt: \"Partner 2\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288972/kppvdeo8kgeweawxisqy9h9ybz6h/ui-placeholder-logo-black-3.png\",\n          alt: \"Partner 3\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288970/op9ys0gsyi7len3w742n0os7ebu6/ui-placeholder-logo-black-4.png\",\n          alt: \"Partner 4\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288968/nn5xpkit7idgr7i6fa46ez3g9kwn/ui-placeholder-logo-black-5.png\",\n          alt: \"Partner 5\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288974/dlb4c51kvgv6ncasqpgr2kvuma7y/ui-placeholder-logo-black-6.png\",\n          alt: \"Partner 6\",\n        },\n      ]}\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { HeroBillingPlatformLogos } from \"@opensite/ui/blocks/hero/hero-billing-platform-logos\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroBillingPlatformLogos\n      heading=\"Modern Billing\"\n      description=\"Accept payments, subscriptions, and invoices with ease. A powerful billing platform for businesses of all sizes.\"\n      actions={[\n        {\n          label: \"Start Free Trial\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n      ]}\n      mainImage={{\n        src: \"https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6\",\n        alt: \"Billing dashboard\",\n      }}\n      overlayImages={[\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw\",\n          alt: \"Feature 1\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg\",\n          alt: \"Feature 2\",\n        },\n        {\n          src: \"https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz\",\n          alt: \"Feature 3\",\n        },\n      ]}\n      logos={[\n        {\n          src: \"https://cdn.ing/assets/i/r/288964/4xdrg1wjc2knoy58ulqijicamar3/ui-placeholder-logo-dark-1.png\",\n          alt: \"Partner 1\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288965/aw0n8ithqntxtfweqrlmseqlcak7/ui-placeholder-logo-black-2.png\",\n          alt: \"Partner 2\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288972/kppvdeo8kgeweawxisqy9h9ybz6h/ui-placeholder-logo-black-3.png\",\n          alt: \"Partner 3\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288970/op9ys0gsyi7len3w742n0os7ebu6/ui-placeholder-logo-black-4.png\",\n          alt: \"Partner 4\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288968/nn5xpkit7idgr7i6fa46ez3g9kwn/ui-placeholder-logo-black-5.png\",\n          alt: \"Partner 5\",\n        },\n        {\n          src: \"https://cdn.ing/assets/i/r/288974/dlb4c51kvgv6ncasqpgr2kvuma7y/ui-placeholder-logo-black-6.png\",\n          alt: \"Partner 6\",\n        },\n      ]}\n      background=\"gray\"\n      pattern=\"crossPattern\"\n      patternOpacity={0.2}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -78326,7 +78286,7 @@
         "mobile": "https://cdn.ing/assets/i/r/306284/r41vm5wnq705shv4n0xe8jlxzjxx/hero-architecture-fullscreen-mobile.jpg"
       },
       "componentPath": "blocks/hero/hero-architecture-fullscreen.tsx",
-      "code": "import { HeroArchitectureFullscreen } from \"@opensite/ui/blocks/hero/hero-architecture-fullscreen\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroArchitectureFullscreen\n      heading=\"Designing spaces that inspire\"\n      description=\"Award-winning architecture firm specializing in sustainable, innovative designs that blend form and function seamlessly.\"\n      action={{\n        label: \"View Projects\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      backgroundImage={\"https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x\"}\n    />\n  );\n}\n",
+      "code": "import { HeroArchitectureFullscreen } from \"@opensite/ui/blocks/hero/hero-architecture-fullscreen\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <HeroArchitectureFullscreen\n      logo={{\n        url: \"/\",\n        src: brandLogoPlaceholders.white[0],\n        title: \"StartupCo\",\n        alt: \"StartupCo Logo\",\n      }}\n      heading=\"Designing spaces that inspire\"\n      description=\"Award-winning architecture firm specializing in sustainable, innovative designs that blend form and function seamlessly.\"\n      action={{\n        label: \"View Projects\",\n        href: \"#\",\n        variant: \"default\",\n        iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n      }}\n      backgroundImage={\n        \"https://toastability-production.s3.amazonaws.com/cen5x90p3kbdafb80liq1a5j222x\"\n      }\n    />\n  );\n}\n",
       "propsSchema": {
         "tagline": {
           "type": "object",
@@ -95015,6 +94975,7 @@
                 "icon": "lucide/code"
               }
             ],
+            "platformTitle": "Developer Platform",
             "featuredHeroCard": {
               "title": "New Platform Release",
               "description": "Experience the next generation platform",
@@ -95080,7 +95041,7 @@
         "corporate"
       ],
       "performance": {},
-      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. Each menuLink requires a 'layout' field to determine the dropdown panel type. For 'solutions-with-platform': provide 'solutionCards' (with subpages) and 'platformItems'. For 'products-categorized': provide 'productCategories' with 'products' arrays; each product may have an 'image' URL. For 'resources-with-topics': provide 'resourceItems' and 'topicGroups'. All 'featuredHeroCard.image' values must be absolute URLs.",
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. Each menuLink requires a 'layout' field to determine the dropdown panel type. For 'solutions-with-platform': provide 'solutionCards' (with subpages), 'platformItems', and optionally 'platformTitle' (defaults to \"Platform\"). For 'products-categorized': provide 'productCategories' with 'products' arrays; each product may have an 'image' URL. For 'features-with-locations': provide 'featureCategories', 'regions', and optionally 'locationsTitle' (defaults to \"Locations\"). For 'resources-with-topics': provide 'resourceItems', 'topicGroups', and optionally 'resourcesTitle' (defaults to \"Resources\"). All 'featuredHeroCard.image' values must be absolute URLs.",
       "usageRequirements": {
         "requiredProps": [
           "logo",
@@ -113398,11 +113359,11 @@
       "categorySlug": "process",
       "description": "A vertical timeline with colored icon badges and alternating left/right card layout. Each step features a customizable colored badge with icon, title, description, and optional highlight tags. The timeline line connects all steps visually. Perfect for detailed process flows, project phases, or methodology explanations.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/290540/66xs8ag76ntbs8jdiihfp25u4ymw/process-icon-timeline-desktop.png",
-        "mobile": "https://cdn.ing/assets/i/r/290541/thew7w1cvf7ac02gox128kdnclpv/process-icon-timeline-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/309637/i3m7gqqz9lso2emvz1bzx86ude5x/process-icon-timeline-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/309638/n4h67uxyy5rm17ojy6otedpt3piv/process-icon-timeline-mobile.jpg"
       },
       "componentPath": "blocks/process/process-icon-timeline.tsx",
-      "code": "import { ProcessIconTimeline } from \"@opensite/ui/blocks/process/process-icon-timeline\";\n\nexport default function Demo() {\n  return (\n    <ProcessIconTimeline\n      heading=\"Product Development Timeline\"\n      description=\"From concept to launch, our proven process ensures success at every milestone.\"\n      steps={[\n        {\n          icon: \"lucide/lightbulb\",\n          title: \"Concept & Validation\",\n          description: \"Validate your idea through market research, competitive analysis, and user interviews. Define the value proposition and identify target markets.\",\n          highlights: [\"Market Research\", \"User Surveys\", \"Competitive Analysis\"],\n          badgeColor: \"bg-blue-500\",\n        },\n        {\n          icon: \"lucide/layout\",\n          title: \"Design & Wireframing\",\n          description: \"Create detailed wireframes and user flows. Develop a cohesive design system that scales across your product.\",\n          highlights: [\"Wireframes\", \"Design System\", \"User Flows\"],\n          badgeColor: \"bg-purple-500\",\n        },\n        {\n          icon: \"lucide/code\",\n          title: \"Development Sprint\",\n          description: \"Build the MVP with agile methodology. Implement core features with clean, maintainable code and automated testing.\",\n          highlights: [\"Agile Sprints\", \"Code Reviews\", \"Automated Tests\"],\n          badgeColor: \"bg-green-500\",\n        },\n        {\n          icon: \"lucide/users\",\n          title: \"Beta Testing\",\n          description: \"Launch beta program with early adopters. Gather feedback, fix bugs, and refine features based on real user behavior.\",\n          highlights: [\"User Feedback\", \"Bug Fixes\", \"Feature Refinement\"],\n          badgeColor: \"bg-orange-500\",\n        },\n        {\n          icon: \"lucide/rocket\",\n          title: \"Production Launch\",\n          description: \"Deploy to production with comprehensive monitoring. Execute go-to-market strategy and provide ongoing customer support.\",\n          highlights: [\"Production Deploy\", \"Marketing Launch\", \"Customer Support\"],\n          badgeColor: \"bg-red-500\",\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"gray\"\n    />\n  );\n}\n",
+      "code": "import { ProcessIconTimeline } from \"@opensite/ui/blocks/process/process-icon-timeline\";\n\nexport default function Demo() {\n  return (\n    <ProcessIconTimeline\n      heading=\"Product Development Timeline\"\n      description=\"From concept to launch, our proven process ensures success at every milestone.\"\n      background=\"dark\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.1}\n      steps={[\n        {\n          icon: \"lucide/lightbulb\",\n          title: \"Concept & Validation\",\n          description:\n            \"Validate your idea through market research, competitive analysis, and user interviews. Define the value proposition and identify target markets.\",\n          highlights: [\n            \"Market Research\",\n            \"User Surveys\",\n            \"Competitive Analysis\",\n          ],\n        },\n        {\n          icon: \"lucide/layout\",\n          title: \"Design & Wireframing\",\n          description:\n            \"Create detailed wireframes and user flows. Develop a cohesive design system that scales across your product.\",\n          highlights: [\"Wireframes\", \"Design System\", \"User Flows\"],\n        },\n        {\n          icon: \"lucide/code\",\n          title: \"Development Sprint\",\n          description:\n            \"Build the MVP with agile methodology. Implement core features with clean, maintainable code and automated testing.\",\n          highlights: [\"Agile Sprints\", \"Code Reviews\", \"Automated Tests\"],\n        },\n        {\n          icon: \"lucide/users\",\n          title: \"Beta Testing\",\n          description:\n            \"Launch beta program with early adopters. Gather feedback, fix bugs, and refine features based on real user behavior.\",\n          highlights: [\"User Feedback\", \"Bug Fixes\", \"Feature Refinement\"],\n        },\n        {\n          icon: \"lucide/rocket\",\n          title: \"Production Launch\",\n          description:\n            \"Deploy to production with comprehensive monitoring. Execute go-to-market strategy and provide ongoing customer support.\",\n          highlights: [\n            \"Production Deploy\",\n            \"Marketing Launch\",\n            \"Customer Support\",\n          ],\n        },\n      ]}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -113455,11 +113416,6 @@
                   "typeLabel": "React.ReactNode"
                 },
                 "typeLabel": "React.ReactNode[]",
-                "required": false
-              },
-              "badgeColor": {
-                "type": "string",
-                "description": "Badge background color class (e.g., \"bg-blue-500\")",
                 "required": false
               },
               "className": {
@@ -113590,8 +113546,7 @@
               "Market Research",
               "User Surveys",
               "Competitive Analysis"
-            ],
-            "badgeColor": "bg-blue-500"
+            ]
           },
           {
             "icon": "lucide/layout",
@@ -113601,8 +113556,7 @@
               "Wireframes",
               "Design System",
               "User Flows"
-            ],
-            "badgeColor": "bg-purple-500"
+            ]
           },
           {
             "icon": "lucide/code",
@@ -113612,8 +113566,7 @@
               "Agile Sprints",
               "Code Reviews",
               "Automated Tests"
-            ],
-            "badgeColor": "bg-green-500"
+            ]
           },
           {
             "icon": "lucide/rocket",
@@ -113623,8 +113576,7 @@
               "Production Deploy",
               "Marketing Launch",
               "Customer Support"
-            ],
-            "badgeColor": "bg-red-500"
+            ]
           }
         ],
         "spacing": "xl",
@@ -113645,7 +113597,7 @@
         "highlights"
       ],
       "performance": {},
-      "importantUsageNotes": "Renders a zigzag icon-badge timeline. icon must be a Lucide icon identifier string (e.g. 'lucide/rocket'). badgeColor is a Tailwind background class (e.g. 'bg-blue-500'). highlights are small pill badges shown under the description. No image props — this block is icon/text only.",
+      "importantUsageNotes": "Renders a zigzag icon-badge timeline. icon must be a Lucide icon identifier string (e.g. 'lucide/rocket'). Icon badges use bg-primary/text-primary-foreground automatically. highlights are small pill badges shown under the description. No image props — this block is icon/text only.",
       "usageRequirements": {
         "requiredProps": [
           "steps"
@@ -113676,9 +113628,6 @@
           "steps[].highlights": {
             "maxItems": 5,
             "note": "Short tag strings shown as pills."
-          },
-          "steps[].badgeColor": {
-            "note": "Tailwind bg class, e.g. 'bg-blue-500'. Defaults to bg-primary."
           }
         },
         "mediaSlots": {}
@@ -159130,7 +159079,7 @@
         "mobile": "https://cdn.ing/assets/i/r/306301/1d7yggc1mwxv5zimmkz5ql1vu39a/link-page-grid-cards-mobile.jpg"
       },
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
-      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      avatar={{\n        src: \"https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png\",\n        alt: \"Marcus Chen\",\n      }}\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png\",\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { LinkPageGridCards } from \"@opensite/ui/blocks/link-page/link-page-grid-cards\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <LinkPageGridCards\n      name=\"Marcus Chen\"\n      bio=\"Product Designer & Digital Artist\"\n      logo={{\n        src: \"https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp\",\n        alt: \"Marcus Chen\",\n      }}\n      socialLinks={[\n        {\n          id: \"1\",\n          href: \"https://instagram.com\",\n        },\n        {\n          id: \"2\",\n          href: \"https://twitter.com\",\n        },\n        {\n          id: \"3\",\n          href: \"https://linkedin.com\",\n        },\n        {\n          id: \"4\",\n          href: \"https://youtube.com\",\n        },\n      ]}\n      links={[\n        {\n          id: \"1\",\n          label: \"Design Work\",\n          description: \"View my portfolio\",\n          href: \"https://example.com/portfolio\",\n          iconName: \"lucide/palette\",\n        },\n        {\n          id: \"2\",\n          label: \"Case Studies\",\n          description: \"Deep dives into projects\",\n          href: \"https://example.com/case-studies\",\n          iconName: \"lucide/file-text\",\n        },\n        {\n          id: \"3\",\n          label: \"NFT Collection\",\n          description: \"Digital art drops\",\n          href: \"https://example.com/nft\",\n          iconName: \"lucide/sparkles\",\n        },\n        {\n          id: \"4\",\n          label: \"Design System\",\n          description: \"Open source toolkit\",\n          href: \"https://example.com/design-system\",\n          iconName: \"lucide/layers\",\n        },\n        {\n          id: \"5\",\n          label: \"Figma Templates\",\n          description: \"UI kits & resources\",\n          href: \"https://example.com/templates\",\n          iconName: \"lucide/layout-template\",\n        },\n        {\n          id: \"6\",\n          label: \"Contact\",\n          description: \"Let's collaborate\",\n          href: \"https://example.com/contact\",\n          iconName: \"lucide/send\",\n        },\n      ]}\n      columns={3}\n      footerAction={{\n        label: \"Built with OpenSite\",\n        href: \"https://opensite.ai\",\n        iconAfter: <DynamicIcon name=\"lucide/code-2\" size={16} />,\n      }}\n      spacing=\"xl\"\n      pattern=\"diagonalCrossFadeTop\"\n      patternOpacity={0.08}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "name": {
           "type": "object",
@@ -163225,7 +163174,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290856/9tay8ecufqlkkrodysn5ebszvddq/cleanshot-2026-02-25-at-09-32-43.png"
       },
       "componentPath": "blocks/footers/footer-split-image-accordion.tsx",
-      "code": "import { FooterSplitImageAccordion } from \"@opensite/ui/blocks/footers/footer-split-image-accordion\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterSplitImageAccordion\n      newsletterTitle=\"Join our community and save 20% on your first order\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      footerLinks={[\n        {\n          title: \"Collections\",\n          id: \"collections\",\n          items: [\n            { text: \"New Arrivals\", link: \"#\" },\n            { text: \"Best Sellers\", link: \"#\" },\n            { text: \"Limited Edition\", link: \"#\" },\n            { text: \"Sale Items\", link: \"#\" },\n            { text: \"Gift Cards\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          id: \"customer-care\",\n          items: [\n            { text: \"Contact Us\", link: \"#\" },\n            { text: \"Shipping Info\", link: \"#\" },\n            { text: \"Returns & Exchanges\", link: \"#\" },\n            { text: \"Size Guide\", link: \"#\" },\n            { text: \"FAQ\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"About Us\",\n          id: \"about\",\n          items: [\n            { text: \"Our Story\", link: \"#\" },\n            { text: \"Sustainability\", link: \"#\" },\n            { text: \"Careers\", link: \"#\" },\n            { text: \"Press\", link: \"#\" },\n            { text: \"Store Locations\", link: \"#\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      paymentPlatforms={[\n        \"contactless\",\n        \"bitcoin\",\n        \"amazon\",\n        \"samsung\",\n        \"afterpay\",\n        \"cashapp\",\n      ]}\n      submenuLinks={[\n        { text: \"Terms of Service\", link: \"#\" },\n        { text: \"Privacy Policy\", link: \"#\" },\n        { text: \"Accessibility\", link: \"#\" },\n      ]}\n      footerData={{\n        image: {\n          src: \"https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa\",\n          alt: \"Luxury champagne wall with ambient lighting\",\n        },\n        logo: {\n          src: brandLogoPlaceholders.black[5],\n          url: \"/\",\n          alt: \"Footer Logo\",\n        },\n        heading: \"Elevate Your Style\",\n        description:\n          \"Discover curated collections of premium fashion and lifestyle products. Quality craftsmanship meets timeless design.\",\n      }}\n      copyright=\"Elevate Brand\"\n      background=\"white\"\n      spacing=\"none\"\n    />\n  );\n}\n",
+      "code": "import { FooterSplitImageAccordion } from \"@opensite/ui/blocks/footers/footer-split-image-accordion\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\nimport { demoFormEngineApi } from \"@/lib/form-demo-data\";\nimport type { FormFieldConfig } from \"@opensite/ui\";\n\nconst formFields: FormFieldConfig[] = [\n  {\n    name: \"email\",\n    type: \"email\",\n    className: \"w-full\",\n    placeholder: \"Enter your email\",\n    required: true,\n    columnSpan: 12,\n  },\n];\n\nexport default function Demo() {\n  return (\n    <FooterSplitImageAccordion\n      newsletterTitle=\"Join our community and save 20% on your first order\"\n      formEngineSetup={{\n        api: demoFormEngineApi,\n        fields: formFields,\n        successMessage:\n          \"Thank you for subscribing! Check your inbox for a confirmation email.\",\n      }}\n      footerLinks={[\n        {\n          title: \"Collections\",\n          id: \"collections\",\n          items: [\n            { text: \"New Arrivals\", link: \"#\" },\n            { text: \"Best Sellers\", link: \"#\" },\n            { text: \"Limited Edition\", link: \"#\" },\n            { text: \"Sale Items\", link: \"#\" },\n            { text: \"Gift Cards\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          id: \"customer-care\",\n          items: [\n            { text: \"Contact Us\", link: \"#\" },\n            { text: \"Shipping Info\", link: \"#\" },\n            { text: \"Returns & Exchanges\", link: \"#\" },\n            { text: \"Size Guide\", link: \"#\" },\n            { text: \"FAQ\", link: \"#\" },\n          ],\n        },\n        {\n          title: \"About Us\",\n          id: \"about\",\n          items: [\n            { text: \"Our Story\", link: \"#\" },\n            { text: \"Sustainability\", link: \"#\" },\n            { text: \"Careers\", link: \"#\" },\n            { text: \"Press\", link: \"#\" },\n            { text: \"Store Locations\", link: \"#\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://linkedin.com/company/innovatetech\",\n          label: \"Connect with InnovateTech on LinkedIn\",\n        },\n        {\n          href: \"https://twitter.com/innovatetech\",\n          label: \"Follow InnovateTech on Twitter\",\n        },\n        {\n          href: \"https://facebook.com/innovatetech\",\n          label: \"Like InnovateTech on Facebook\",\n        },\n        {\n          href: \"https://instagram.com/innovatetech\",\n          label: \"Follow InnovateTech on Instagram\",\n        },\n        {\n          href: \"https://youtube.com/@innovatetech\",\n          label: \"Subscribe to InnovateTech on YouTube\",\n        },\n      ]}\n      paymentPlatforms={[\n        \"contactless\",\n        \"bitcoin\",\n        \"amazon\",\n        \"samsung\",\n        \"afterpay\",\n        \"cashapp\",\n      ]}\n      submenuLinks={[\n        { text: \"Terms of Service\", link: \"#\" },\n        { text: \"Privacy Policy\", link: \"#\" },\n        { text: \"Accessibility\", link: \"#\" },\n      ]}\n      footerData={{\n        image: {\n          src: \"https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a\",\n          alt: \"Luxury champagne wall with ambient lighting\",\n        },\n        logo: {\n          src: brandLogoPlaceholders.black[5],\n          url: \"/\",\n          alt: \"Footer Logo\",\n        },\n        heading: \"Elevate Your Style\",\n        description:\n          \"Discover curated collections of premium fashion and lifestyle products. Quality craftsmanship meets timeless design.\",\n      }}\n      copyright=\"Elevate Brand\"\n      background=\"white\"\n      spacing=\"none\"\n    />\n  );\n}\n",
       "propsSchema": {
         "newsletterTitle": {
           "type": "object",
@@ -164056,7 +164005,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290479/bbg7ijdl4pcam8fybob759irdb4t/footer-info-cards-accordion-mobile.png"
       },
       "componentPath": "blocks/footers/footer-info-cards-accordion.tsx",
-      "code": "import { FooterInfoCardsAccordion } from \"@opensite/ui/blocks/footers/footer-info-cards-accordion\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <FooterInfoCardsAccordion\n      newsletterTitle=\"Join our community\"\n      newsletterDescription=\"Get exclusive access to special offers, product launches, and expert tips delivered straight to your inbox every week.\"\n      emailPlaceholder=\"Enter your email address\"\n      subscribeText=\"Subscribe Now\"\n      termsText=\"By subscribing, you agree to our\"\n      termsLinkText=\"Terms of Service\"\n      termsLinkUrl=\"/terms\"\n      privacyLinkText=\"Privacy Policy\"\n      privacyLinkUrl=\"/privacy\"\n      infoItems={[\n        {\n          icon: \"lucide/phone\",\n          title: \"Call Us Anytime\",\n          text: \"+1 (800) 555-0123\",\n          link: \"tel:+18005550123\",\n        },\n        {\n          icon: \"lucide/mail\",\n          title: \"Email Support\",\n          text: \"support@luxemart.com\",\n          link: \"mailto:support@luxemart.com\",\n        },\n        {\n          icon: \"lucide/map-pin\",\n          title: \"Visit Our Showroom\",\n          text: \"789 Luxury Avenue, Beverly Hills, CA 90210\",\n          link: \"https://maps.google.com/?q=789+Luxury+Avenue+Beverly+Hills+CA+90210\",\n        },\n        {\n          icon: \"lucide/clock\",\n          title: \"Business Hours\",\n          text: \"Mon-Sat: 9AM-8PM, Sun: 10AM-6PM\",\n        },\n      ]}\n      footerLinks={[\n        {\n          title: \"Shop\",\n          id: \"shop\",\n          items: [\n            { text: \"New Arrivals\", link: \"/new-arrivals\" },\n            { text: \"Best Sellers\", link: \"/best-sellers\" },\n            { text: \"Sale Items\", link: \"/sale\" },\n            { text: \"Men's Collection\", link: \"/mens\" },\n            { text: \"Women's Collection\", link: \"/womens\" },\n            { text: \"Accessories\", link: \"/accessories\" },\n            { text: \"Gift Cards\", link: \"/gift-cards\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          id: \"customer-care\",\n          items: [\n            { text: \"Track Your Order\", link: \"/track-order\" },\n            { text: \"Shipping Info\", link: \"/shipping\" },\n            { text: \"Returns & Exchanges\", link: \"/returns\" },\n            { text: \"Size Guide\", link: \"/size-guide\" },\n            { text: \"Product Care\", link: \"/product-care\" },\n            { text: \"FAQ\", link: \"/faq\" },\n            { text: \"Contact Us\", link: \"/contact\" },\n          ],\n        },\n        {\n          title: \"About Us\",\n          id: \"about\",\n          items: [\n            { text: \"Our Story\", link: \"/story\" },\n            { text: \"Sustainability\", link: \"/sustainability\" },\n            { text: \"Careers\", link: \"/careers\" },\n            { text: \"Press Room\", link: \"/press\" },\n            { text: \"Store Locator\", link: \"/stores\" },\n            { text: \"Affiliate Program\", link: \"/affiliates\" },\n            { text: \"Partnership Opportunities\", link: \"/partnerships\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://instagram.com/luxemart\",\n          label: \"Follow LuxeMart on Instagram\",\n        },\n        {\n          href: \"https://facebook.com/luxemart\",\n          label: \"Like LuxeMart on Facebook\",\n        },\n        {\n          href: \"https://twitter.com/luxemart\",\n          label: \"Follow LuxeMart on Twitter\",\n        },\n        {\n          href: \"https://pinterest.com/luxemart\",\n          label: \"Follow LuxeMart on Pinterest\",\n        },\n        {\n          href: \"https://youtube.com/@luxemart\",\n          label: \"Subscribe to LuxeMart on YouTube\",\n        },\n      ]}\n      paymentPlatforms={[\n        \"visa\",\n        \"mastercard\",\n        \"venmo\",\n        \"apple\",\n        \"google\",\n        \"paypal\",\n      ]}\n      submenuLinks={[\n        { text: \"Accessibility\", link: \"/accessibility\" },\n        { text: \"Security\", link: \"/security\" },\n        { text: \"Cookie Preferences\", link: \"/cookies\" },\n        { text: \"Do Not Sell My Info\", link: \"/privacy-rights\" },\n      ]}\n      footerDetails={{\n        image: {\n          src: \"https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa\",\n          alt: \"LuxeMart luxury shopping experience\",\n        },\n        logo: {\n          light: brandLogoPlaceholders.black[3],\n          dark: brandLogoPlaceholders.white[3],\n        },\n        logoUrl: \"/\",\n        description:\n          \"LuxeMart is your premier destination for curated luxury goods and timeless fashion. We partner with the world's most prestigious brands to bring you exceptional quality, craftsmanship, and style. Every purchase is backed by our 30-day satisfaction guarantee and white-glove customer service.\",\n      }}\n      copyright=\"LuxeMart Corporation\"\n      patternOpacity={0.05}\n    />\n  );\n}\n",
+      "code": "import { FooterInfoCardsAccordion } from \"@opensite/ui/blocks/footers/footer-info-cards-accordion\";\nimport { brandLogoPlaceholders } from \"@/lib/media\";\n\nexport default function Demo() {\n  return (\n    <FooterInfoCardsAccordion\n      newsletterTitle=\"Join our community\"\n      newsletterDescription=\"Get exclusive access to special offers, product launches, and expert tips delivered straight to your inbox every week.\"\n      emailPlaceholder=\"Enter your email address\"\n      subscribeText=\"Subscribe Now\"\n      termsText=\"By subscribing, you agree to our\"\n      termsLinkText=\"Terms of Service\"\n      termsLinkUrl=\"/terms\"\n      privacyLinkText=\"Privacy Policy\"\n      privacyLinkUrl=\"/privacy\"\n      infoItems={[\n        {\n          icon: \"lucide/phone\",\n          title: \"Call Us Anytime\",\n          text: \"+1 (800) 555-0123\",\n          link: \"tel:+18005550123\",\n        },\n        {\n          icon: \"lucide/mail\",\n          title: \"Email Support\",\n          text: \"support@luxemart.com\",\n          link: \"mailto:support@luxemart.com\",\n        },\n        {\n          icon: \"lucide/map-pin\",\n          title: \"Visit Our Showroom\",\n          text: \"789 Luxury Avenue, Beverly Hills, CA 90210\",\n          link: \"https://maps.google.com/?q=789+Luxury+Avenue+Beverly+Hills+CA+90210\",\n        },\n        {\n          icon: \"lucide/clock\",\n          title: \"Business Hours\",\n          text: \"Mon-Sat: 9AM-8PM, Sun: 10AM-6PM\",\n        },\n      ]}\n      footerLinks={[\n        {\n          title: \"Shop\",\n          id: \"shop\",\n          items: [\n            { text: \"New Arrivals\", link: \"/new-arrivals\" },\n            { text: \"Best Sellers\", link: \"/best-sellers\" },\n            { text: \"Sale Items\", link: \"/sale\" },\n            { text: \"Men's Collection\", link: \"/mens\" },\n            { text: \"Women's Collection\", link: \"/womens\" },\n            { text: \"Accessories\", link: \"/accessories\" },\n            { text: \"Gift Cards\", link: \"/gift-cards\" },\n          ],\n        },\n        {\n          title: \"Customer Care\",\n          id: \"customer-care\",\n          items: [\n            { text: \"Track Your Order\", link: \"/track-order\" },\n            { text: \"Shipping Info\", link: \"/shipping\" },\n            { text: \"Returns & Exchanges\", link: \"/returns\" },\n            { text: \"Size Guide\", link: \"/size-guide\" },\n            { text: \"Product Care\", link: \"/product-care\" },\n            { text: \"FAQ\", link: \"/faq\" },\n            { text: \"Contact Us\", link: \"/contact\" },\n          ],\n        },\n        {\n          title: \"About Us\",\n          id: \"about\",\n          items: [\n            { text: \"Our Story\", link: \"/story\" },\n            { text: \"Sustainability\", link: \"/sustainability\" },\n            { text: \"Careers\", link: \"/careers\" },\n            { text: \"Press Room\", link: \"/press\" },\n            { text: \"Store Locator\", link: \"/stores\" },\n            { text: \"Affiliate Program\", link: \"/affiliates\" },\n            { text: \"Partnership Opportunities\", link: \"/partnerships\" },\n          ],\n        },\n      ]}\n      socialLinks={[\n        {\n          href: \"https://instagram.com/luxemart\",\n          label: \"Follow LuxeMart on Instagram\",\n        },\n        {\n          href: \"https://facebook.com/luxemart\",\n          label: \"Like LuxeMart on Facebook\",\n        },\n        {\n          href: \"https://twitter.com/luxemart\",\n          label: \"Follow LuxeMart on Twitter\",\n        },\n        {\n          href: \"https://pinterest.com/luxemart\",\n          label: \"Follow LuxeMart on Pinterest\",\n        },\n        {\n          href: \"https://youtube.com/@luxemart\",\n          label: \"Subscribe to LuxeMart on YouTube\",\n        },\n      ]}\n      paymentPlatforms={[\n        \"visa\",\n        \"mastercard\",\n        \"venmo\",\n        \"apple\",\n        \"google\",\n        \"paypal\",\n      ]}\n      submenuLinks={[\n        { text: \"Accessibility\", link: \"/accessibility\" },\n        { text: \"Security\", link: \"/security\" },\n        { text: \"Cookie Preferences\", link: \"/cookies\" },\n        { text: \"Do Not Sell My Info\", link: \"/privacy-rights\" },\n      ]}\n      footerDetails={{\n        image: {\n          src: \"https://toastability-production.s3.amazonaws.com/uv0g605yf5mz106nrm1uspt9l0rr\",\n          alt: \"LuxeMart luxury shopping experience\",\n        },\n        logo: {\n          light: brandLogoPlaceholders.black[3],\n          dark: brandLogoPlaceholders.white[3],\n        },\n        logoUrl: \"/\",\n        description:\n          \"LuxeMart is your premier destination for curated luxury goods and timeless fashion. We partner with the world's most prestigious brands to bring you exceptional quality, craftsmanship, and style. Every purchase is backed by our 30-day satisfaction guarantee and white-glove customer service.\",\n      }}\n      copyright=\"LuxeMart Corporation\"\n      patternOpacity={0.05}\n    />\n  );\n}\n",
       "propsSchema": {
         "newsletterTitle": {
           "type": "object",

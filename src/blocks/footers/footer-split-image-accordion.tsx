@@ -96,7 +96,7 @@ export default function Demo() {
       ]}
       footerData={{
         image: {
-          src: "https://toastability-production.s3.amazonaws.com/vw5ko0uzj6tcbusxkzntyqkls7xa",
+          src: "https://toastability-production.s3.amazonaws.com/e13qu3083lkhdg7th64vb628172a",
           alt: "Luxury champagne wall with ambient lighting",
         },
         logo: {

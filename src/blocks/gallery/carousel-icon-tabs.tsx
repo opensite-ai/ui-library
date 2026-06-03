@@ -27,25 +27,10 @@ export default function Demo() {
           text: "Extensive REST API with comprehensive documentation and SDKs for all major languages. Connect with your existing tools and build custom integrations effortlessly.",
           icon: "lucide/plug",
         },
-        {
-          img: "https://toastability-production.s3.amazonaws.com/rddfyzvfpdlbzwhgep2myppwxn05",
-          alt: "Automation Engine",
-          title: "Automation Engine",
-          text: "Powerful workflow automation with visual builder and pre-built templates. Automate repetitive tasks and create complex workflows without writing code.",
-          icon: "lucide/workflow",
-        },
-        {
-          img: "https://toastability-production.s3.amazonaws.com/mat88x8zzdek7wpgtocjrehfivsh",
-          alt: "Custom Reports",
-          title: "Custom Reports",
-          text: "Flexible reporting engine with drag-and-drop builder, scheduled exports, and white-label options. Create professional reports tailored to your specific needs.",
-          icon: "lucide/file-bar-chart",
-        },
       ]}
       background="white"
-      spacing="lg"
-      pattern="gridFadeBottomLeft"
-      patternOpacity={0.7}
+      pattern="gridFadeTop"
+      patternOpacity={0.9}
     />
   );
 }

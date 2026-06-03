@@ -18,6 +18,20 @@ export default function Demo() {
         src: "https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6",
         alt: "Billing dashboard",
       }}
+      overlayImages={[
+        {
+          src: "https://toastability-production.s3.amazonaws.com/9covpitzpuuobkg1m4mfokpi0enw",
+          alt: "Feature 1",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/3nqc7xvjy3e8d7jo1gdvbzty0oqg",
+          alt: "Feature 2",
+        },
+        {
+          src: "https://toastability-production.s3.amazonaws.com/90rcw2mljzpeuxlac8q77mor15xz",
+          alt: "Feature 3",
+        },
+      ]}
       logos={[
         {
           src: "https://cdn.ing/assets/i/r/288964/4xdrg1wjc2knoy58ulqijicamar3/ui-placeholder-logo-dark-1.png",
@@ -45,6 +59,8 @@ export default function Demo() {
         },
       ]}
       background="gray"
+      pattern="crossPattern"
+      patternOpacity={0.2}
     />
   );
 }

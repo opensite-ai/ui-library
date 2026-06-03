@@ -6,12 +6,8 @@ export default function Demo() {
     <LinkPageGridCards
       name="Marcus Chen"
       bio="Product Designer & Digital Artist"
-      avatar={{
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
-        alt: "Marcus Chen",
-      }}
       logo={{
-        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        src: "https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp",
         alt: "Marcus Chen",
       }}
       socialLinks={[
