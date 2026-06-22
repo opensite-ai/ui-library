@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@opensite/ui':
-        specifier: 3.8.1
-        version: 3.8.1(@page-speed/pressable@0.0.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
+        specifier: 3.8.2
+        version: 3.8.2(@page-speed/pressable@0.0.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       '@page-speed/blocks':
         specifier: 0.1.5
         version: 0.1.5(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -710,8 +710,8 @@ packages:
       '@tailwindcss/typography':
         optional: true
 
-  '@opensite/ui@3.8.1':
-    resolution: {integrity: sha512-WdXCzr838mai5iWrt870N+fEhd5eG1T5bsPK4sdFUTU5yxh7OJg+9xijIeGhhHh++mEcNTMcwbWoNd0gFPmK/A==}
+  '@opensite/ui@3.8.2':
+    resolution: {integrity: sha512-4I262E0iUoHJD6wBaM7OlPlD91aupmCqrB/2U2/Qg2dJDrvHM41EyhOETDoNmfJZZQaNIeNww2O3RgBN6ApIPg==}
     engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@page-speed/pressable': '>=0.0.9'
@@ -4335,7 +4335,7 @@ snapshots:
       - mapbox-gl
       - typescript
 
-  '@opensite/ui@3.8.1(@page-speed/pressable@0.0.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
+  '@opensite/ui@3.8.2(@page-speed/pressable@0.0.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@page-speed/router@1.0.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tailwindcss/typography@0.5.19(tailwindcss@4.1.18))(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(embla-carousel@8.6.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)':
     dependencies:
       '@opensite/hooks': 2.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@page-speed/forms': 0.8.2(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
@@ -6105,7 +6105,7 @@ snapshots:
       '@next/eslint-plugin-next': 16.1.4
       eslint: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-react: 7.37.5(eslint@9.39.2(jiti@2.6.1))
@@ -6128,7 +6128,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1)):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.2(jiti@2.6.1)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.3
@@ -6143,14 +6143,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1)):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2(jiti@2.6.1)):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.2(jiti@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -6165,7 +6165,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2(jiti@2.6.1))
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
