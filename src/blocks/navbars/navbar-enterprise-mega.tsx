@@ -102,7 +102,8 @@ export default function Demo() {
               description:
                 "Experience the next generation of our enterprise platform with advanced features",
               href: "#",
-              image: "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc",
+              image:
+                "https://toastability-production.s3.amazonaws.com/ygob90kp07hxmi5jj4sned76dnmc",
             },
           },
           {
@@ -117,14 +118,16 @@ export default function Demo() {
                     title: "Business Intelligence",
                     description: "Advanced analytics and reporting tools",
                     href: "#",
-                    image: "https://toastability-production.s3.amazonaws.com/qhz2kawawq3bbh7nusz3bvahln3v",
+                    image:
+                      "https://toastability-production.s3.amazonaws.com/qhz2kawawq3bbh7nusz3bvahln3v",
                   },
                   {
                     id: "warehouse",
                     title: "Data Warehouse",
                     description: "Centralized data storage and management",
                     href: "#",
-                    image: "https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac",
+                    image:
+                      "https://toastability-production.s3.amazonaws.com/zykfhuapdqzu94ee1535gsgnvyac",
                   },
                 ],
               },
@@ -136,14 +139,16 @@ export default function Demo() {
                     title: "Email Campaigns",
                     description: "Automated email marketing platform",
                     href: "#",
-                    image: "https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm",
+                    image:
+                      "https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm",
                   },
                   {
                     id: "social",
                     title: "Social Media",
                     description: "Social media management suite",
                     href: "#",
-                    image: "https://toastability-production.s3.amazonaws.com/8x62o6350p1ejm3pjrp1jwvcbh4v",
+                    image:
+                      "https://toastability-production.s3.amazonaws.com/8x62o6350p1ejm3pjrp1jwvcbh4v",
                   },
                 ],
               },
@@ -153,7 +158,8 @@ export default function Demo() {
               description:
                 "Check out our latest product launch with cutting-edge features",
               href: "#",
-              image: "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc",
+              image:
+                "https://toastability-production.s3.amazonaws.com/vvixyoo7ybq3h04q2q0kact0s5wc",
             },
           },
           {
@@ -219,7 +225,8 @@ export default function Demo() {
               description:
                 "Explore our comprehensive learning resources and documentation",
               href: "#",
-              image: "https://toastability-production.s3.amazonaws.com/t502cfynqso7ntkdvmcmfc87yjkt",
+              image:
+                "https://toastability-production.s3.amazonaws.com/t502cfynqso7ntkdvmcmfc87yjkt",
             },
           },
           {
