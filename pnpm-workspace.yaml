@@ -1,0 +1,22 @@
+# pnpm settings for the Agent Everywhere playground (a single-app project; the
+# empty `packages` list just keeps pnpm in non-workspace mode).
+packages: []
+
+# pnpm (v10+) blocks dependency build/postinstall scripts by default and prints
+# ERR_PNPM_IGNORED_BUILDS, auto-adding each unbuilt package to this `allowBuilds`
+# map with a true/false placeholder for review. In pnpm v11
+# `allowBuilds` REPLACES the deprecated onlyBuiltDependencies/
+# ignoredBuiltDependencies lists. Setting these to `true` (what
+# `pnpm approve-builds` writes) runs the scripts and removes the warning. Both
+# are legit native deps: `sharp` links libvips for Next.js image optimization,
+# and `unrs-resolver` builds its native resolver binding.
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+
+# Exempt our first-party package from the registry minimum-release-age supply-
+# chain policy. Matched against the bare package NAME (globs supported) — a
+# version-pinned entry like "@page-speed/agent-everywhere@1.1.1" does NOT match,
+# so this covers every version we publish.
+minimumReleaseAgeExclude:
+  - "@opensite/ui"
