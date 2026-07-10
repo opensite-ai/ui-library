@@ -453,6 +453,7 @@ export const componentLoaders: Record<string, ComponentLoader> = {
   "carousel-sidebar-resources": () => import("@/blocks/gallery/carousel-sidebar-resources"),
   "carousel-tabs-content": () => import("@/blocks/gallery/carousel-tabs-content"),
   "expandable-case-study-cards": () => import("@/blocks/gallery/expandable-case-study-cards"),
+  "instagram-post-grid": () => import("@/blocks/gallery/instagram-post-grid"),
   "interior-carousel": () => import("@/blocks/gallery/interior-carousel"),
   "masonry-motion-grid": () => import("@/blocks/gallery/masonry-motion-grid"),
   "service-hover-carousel": () => import("@/blocks/gallery/service-hover-carousel"),

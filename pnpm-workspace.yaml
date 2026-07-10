@@ -20,5 +20,5 @@ allowBuilds:
 # so this covers every version we publish.
 minimumReleaseAgeExclude:
   - "@opensite/ui"
-  - '@page-speed/blocks@0.2.0'
-  - '@page-speed/router@1.2.0'
+  - "@page-speed/blocks"
+  - "@page-speed/router"

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "version": "3.9.0",
+    "version": "3.10.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-10T08:37:36.713Z",
-    "totalBlocks": 605
+    "syncedAt": "2026-07-10T13:52:49.140Z",
+    "totalBlocks": 606
   },
   "blocks": [
     {
@@ -45150,6 +45150,293 @@
             "roles": [
               "gallery",
               "feature"
+            ],
+            "required": false
+          }
+        }
+      }
+    },
+    {
+      "id": "instagram-post-grid",
+      "name": "Instagram Post Grid",
+      "title": "Instagram Post Grid",
+      "category": "Gallery",
+      "categorySlug": "gallery",
+      "description": "A responsive grid of square tiles rendering a website's Instagram feed. Each tile links out to the post's instagram.com permalink in a new tab, reveals the caption, date, and like/comment/view counts on hover, and plays video posts muted on hover. Content is hydrated dynamically from the connected Instagram profile. Ideal for social proof sections, footers, and community pages that showcase a live Instagram presence.",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/287646/ob4iqx5aibk1tdym49ybx2swtppo/isometric-data-stack-layers-dark-tech-illustration.png",
+        "mobile": "https://cdn.ing/assets/i/r/287650/oj637ssn1crip2uhna398g3eud94/placeholder-mobile.png"
+      },
+      "componentPath": "blocks/gallery/instagram-post-grid.tsx",
+      "code": "",
+      "propsSchema": {
+        "heading": {
+          "type": "object",
+          "description": "Main heading content",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "subheading": {
+          "type": "object",
+          "description": "Subheading/intro content below the heading",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "items": {
+          "type": "array",
+          "description": "Array of Instagram posts to display",
+          "items": {
+            "type": "object",
+            "description": "",
+            "fields": {
+              "id": {
+                "type": "string",
+                "description": "Unique identifier for the post",
+                "required": true
+              },
+              "href": {
+                "type": "string",
+                "description": "External Instagram permalink (opens instagram.com in a new tab)",
+                "required": true
+              },
+              "image": {
+                "type": "string",
+                "description": "Image / poster source URL (required — items without it are skipped)",
+                "required": true
+              },
+              "imageAlt": {
+                "type": "string",
+                "description": "Alt text for the image (falls back to \"Instagram post\")",
+                "required": false
+              },
+              "caption": {
+                "type": "object",
+                "description": "Post caption (truncated for display)",
+                "typeLabel": "React.ReactNode",
+                "required": false
+              },
+              "isVideo": {
+                "type": "boolean",
+                "description": "Whether this post is a video/reel",
+                "required": false
+              },
+              "videoUrl": {
+                "type": "string",
+                "description": "Video source URL (only used when `isVideo` is true)",
+                "required": false
+              },
+              "date": {
+                "type": "object",
+                "description": "Formatted post date",
+                "typeLabel": "React.ReactNode",
+                "required": false
+              },
+              "likeCount": {
+                "type": "number",
+                "description": "Number of likes (badge is only rendered when present)",
+                "required": false
+              },
+              "commentCount": {
+                "type": "number",
+                "description": "Number of comments (badge is only rendered when present)",
+                "required": false
+              },
+              "viewCount": {
+                "type": "number",
+                "description": "Number of views (badge is only rendered when present)",
+                "required": false
+              },
+              "className": {
+                "type": "string",
+                "description": "Additional CSS classes for the tile",
+                "required": false
+              }
+            },
+            "typeLabel": "InstagramPostItem"
+          },
+          "typeLabel": "InstagramPostItem[]",
+          "required": false
+        },
+        "itemsSlot": {
+          "type": "object",
+          "description": "Custom slot for rendering items (overrides items array)",
+          "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "Additional CSS classes for the section",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the header container",
+          "required": false
+        },
+        "headingClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the heading",
+          "required": false
+        },
+        "subheadingClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the subheading",
+          "required": false
+        },
+        "gridClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the grid container",
+          "required": false
+        },
+        "itemClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for each tile",
+          "required": false
+        },
+        "imageClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for each media element",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Background style for the section",
+          "typeLabel": "SectionBackground",
+          "required": false
+        },
+        "spacing": {
+          "type": "object",
+          "description": "Vertical spacing for the section",
+          "fields": {},
+          "typeLabel": "SectionSpacing",
+          "required": false
+        },
+        "pattern": {
+          "type": "object",
+          "description": "Optional background pattern name or URL",
+          "fields": {},
+          "typeLabel": "PatternName",
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern overlay opacity (0-1)",
+          "required": false
+        },
+        "patternClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the pattern overlay",
+          "required": false
+        },
+        "optixFlowConfig": {
+          "type": "object",
+          "description": "OptixFlow image optimization configuration",
+          "fields": {
+            "apiKey": {
+              "type": "string",
+              "description": "API key for OptixFlow service",
+              "required": true
+            },
+            "compression": {
+              "type": "number",
+              "description": "Compression level (0-100)",
+              "required": false
+            }
+          },
+          "typeLabel": "OptixFlowConfig",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Optional Section ID",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "heading": "Follow us on Instagram",
+        "subheading": "The latest from our feed.",
+        "background": "white",
+        "spacing": "lg",
+        "items": [
+          {
+            "id": "1",
+            "href": "https://www.instagram.com/p/CxAmpLe001/",
+            "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "imageAlt": "Espresso being poured at the counter",
+            "caption": "Morning pours before the rush ☕️",
+            "date": "Jul 1, 2026",
+            "likeCount": 128,
+            "commentCount": 12
+          },
+          {
+            "id": "2",
+            "href": "https://www.instagram.com/p/CxAmpLe002/",
+            "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "imageAlt": "Behind the scenes reel",
+            "caption": "Behind the scenes of today's bake #freshbread",
+            "date": "Jun 28, 2026",
+            "isVideo": true,
+            "videoUrl": "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
+            "likeCount": 342,
+            "commentCount": 21,
+            "viewCount": 4820
+          },
+          {
+            "id": "3",
+            "href": "https://www.instagram.com/p/CxAmpLe003/",
+            "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+            "imageAlt": "Weekend brunch spread",
+            "caption": "Weekend brunch is back on the menu",
+            "date": "Jun 24, 2026",
+            "likeCount": 96
+          }
+        ]
+      },
+      "dependencies": [],
+      "tags": [
+        "gallery",
+        "instagram",
+        "social",
+        "feed",
+        "grid",
+        "photos",
+        "video",
+        "dynamic",
+        "community"
+      ],
+      "performance": {},
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. This is a DYNAMIC feed block: its 'items' are hydrated at routing-build time from the connected Instagram profile — do NOT hand-author post content. 'items[].image' and 'items[].videoUrl' MUST be the re-hosted MediaRecord CDN URLs served by the feed; expiring Instagram CDN URLs must never be used. Engagement counts ('likeCount', 'commentCount', 'viewCount') render only when the value is present — never fabricate a zero for a missing metric. Each 'items[].href' is an external instagram.com permalink and opens in a new tab. Items without an 'image' are skipped; an empty or missing 'items' array renders nothing. Requires the site to have a connected, fully-imported Instagram profile ('instagram_media' capability).",
+      "usageRequirements": {
+        "requiredProps": [
+          "items"
+        ],
+        "requiresSiteCapabilities": [
+          "instagram_media",
+          "media_library"
+        ],
+        "propConstraints": {
+          "items": {
+            "minItems": 3,
+            "maxItems": 24
+          }
+        },
+        "mediaSlots": {
+          "items[].image": {
+            "path": "items[].image",
+            "roles": [
+              "gallery"
+            ],
+            "required": true
+          },
+          "items[].videoUrl": {
+            "path": "items[].videoUrl",
+            "roles": [
+              "gallery"
             ],
             "required": false
           }
