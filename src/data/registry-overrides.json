@@ -3186,6 +3186,17 @@
       "demoPath": "blocks/gallery/interior-carousel",
       "importantUsageNotes": "DO NOT USE this block unless you have at least 4 real images from the site's media library. Provide 4-8 images in the 'images' array; the demo uses 8. All image values must be real URLs from the media library — do not use placeholder or invented URLs. Follow the example props closely for this block."
     },
+    "instagram-post-grid": {
+      "title": "Instagram Post Grid",
+      "componentPath": "blocks/gallery/instagram-post-grid.tsx",
+      "thumbnail": {
+        "desktop": "https://cdn.ing/assets/i/r/314072/jim3eofsxo547mn9uqmtgbnby4j5/instagram-post-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/314073/okz82gdbnj1iygkst10ecxi8xnlj/instagram-post-grid-mobile.jpg"
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/gallery/instagram-post-grid",
+      "importantUsageNotes": "DO NOT USE this block unless the website has an instagram account and the account has at least 4 instagram posts. Provide 4-8 image or video posts in the 'items' prop; the demo uses 8. All media values must be real URLs from the connected instagram account — do not use placeholder or invented URLs. Follow the example props closely for this block."
+    },
     "masonry-motion-grid": {
       "title": "Masonry Motion Grid",
       "componentPath": "blocks/gallery/masonry-motion-grid.tsx",

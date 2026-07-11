@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.10.0",
+    "version": "3.12.1",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-10T13:52:49.140Z",
+    "syncedAt": "2026-07-11T01:40:12.948Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -45162,13 +45162,13 @@
       "title": "Instagram Post Grid",
       "category": "Gallery",
       "categorySlug": "gallery",
-      "description": "A responsive grid of square tiles rendering a website's Instagram feed. Each tile links out to the post's instagram.com permalink in a new tab, reveals the caption, date, and like/comment/view counts on hover, and plays video posts muted on hover. Content is hydrated dynamically from the connected Instagram profile. Ideal for social proof sections, footers, and community pages that showcase a live Instagram presence.",
+      "description": "A responsive grid of vertical (9:16) tiles rendering a website's Instagram feed. Tapping a tile opens a fullscreen, swipeable immersive viewer (TikTok/Reels-style) with a clickable @username profile badge, the post title, and a single Instagram-glyph link to the post. Photos and reels are both first-class media; tiles use a hover-only center glyph (play for reels, expand for photos), with like-count pills hidden by default. Content is hydrated dynamically from the connected Instagram profile. Ideal for social proof sections, footers, and community pages that showcase a live Instagram presence.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/287646/ob4iqx5aibk1tdym49ybx2swtppo/isometric-data-stack-layers-dark-tech-illustration.png",
-        "mobile": "https://cdn.ing/assets/i/r/287650/oj637ssn1crip2uhna398g3eud94/placeholder-mobile.png"
+        "desktop": "https://cdn.ing/assets/i/r/314072/jim3eofsxo547mn9uqmtgbnby4j5/instagram-post-grid-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/314073/okz82gdbnj1iygkst10ecxi8xnlj/instagram-post-grid-mobile.jpg"
       },
       "componentPath": "blocks/gallery/instagram-post-grid.tsx",
-      "code": "",
+      "code": "import { InstagramPostGrid } from \"@opensite/ui/blocks/gallery/instagram-post-grid\";\nimport { igPosts } from \"@/lib/media\";\n\n/**\n * Instagram post grid fed from the shared `igPosts` library in `@/lib/media`\n * (21 re-hosted production posts: 8 reels with poster thumbnails + 13 photos).\n * The explicit selection includes six videos and two images while filling the\n * desktop 4-column grid cleanly.\n */\nexport default function Demo() {\n  return (\n    <InstagramPostGrid\n      heading=\"Follow us on Instagram\"\n      subheading=\"The latest from the kitchen, the counter, and everywhere in between.\"\n      username=\"acmecafe\"\n      items={[\n        igPosts[0],\n        igPosts[8],\n        igPosts[1],\n        igPosts[2],\n        igPosts[3],\n        igPosts[9],\n        igPosts[4],\n        igPosts[5],\n      ]}\n      background=\"dark\"\n      pattern=\"gridFadeTopLeft\"\n      patternOpacity={0.1}\n    />\n  );\n}\n",
       "propsSchema": {
         "heading": {
           "type": "object",
@@ -45211,7 +45211,7 @@
               },
               "caption": {
                 "type": "object",
-                "description": "Post caption (truncated for display)",
+                "description": "Post caption (truncated for display).\n\nNOTE: For immersive rendering the caption must be a **string** — the\nlibrary's `MediaItem.title`/`caption` are string-typed, so a caption is\nflowed through as text. A rich `ReactNode` caption (hand-authored markup,\nonly ever used by the legacy pre-immersive block) cannot be threaded into\nthe immersive card/viewer; when supplied it is dropped and the tile/viewer\ntitle falls back to `imageAlt` (then `\"Instagram post\"`). Hydrated feeds\nalways send plain strings, so this only affects hand-authored usage.",
                 "typeLabel": "React.ReactNode",
                 "required": false
               },
@@ -45351,6 +45351,16 @@
           "typeLabel": "OptixFlowConfig",
           "required": false
         },
+        "username": {
+          "type": "string",
+          "description": "Instagram account username (leading `@` tolerated). Renders as a\nprominent, semi-transparent, clickable `@username` badge in the fullscreen\nviewer's caption card that opens the account's profile\n(`https://www.instagram.com/<username>/`) in a new tab. When omitted the\nbadge degrades to a non-clickable \"Instagram\" chip — a handle is never\nfabricated.",
+          "required": false
+        },
+        "showLikeBadges": {
+          "type": "boolean",
+          "description": "Show the like-count pill on grid tiles. Defaults to `false`: clients with\nlow like counts don't want them visible, so the pills stay hidden until\nper-client dynamic visibility ships. The pill implementation is retained\nintentionally — flip this prop to bring it back.",
+          "required": false
+        },
         "sectionId": {
           "type": "string",
           "description": "Optional Section ID",
@@ -45360,6 +45370,7 @@
       "exampleProps": {
         "heading": "Follow us on Instagram",
         "subheading": "The latest from our feed.",
+        "username": "acmecafe",
         "background": "white",
         "spacing": "lg",
         "items": [
@@ -45367,37 +45378,96 @@
             "id": "1",
             "href": "https://www.instagram.com/p/CxAmpLe001/",
             "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "imageAlt": "Espresso being poured at the counter",
+            "imageAlt": "Espresso being pulled at the counter",
             "caption": "Morning pours before the rush ☕️",
-            "date": "Jul 1, 2026",
-            "likeCount": 128,
-            "commentCount": 12
+            "date": "Jul 6, 2026",
+            "likeCount": 428,
+            "commentCount": 34
           },
           {
             "id": "2",
             "href": "https://www.instagram.com/p/CxAmpLe002/",
-            "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "imageAlt": "Behind the scenes reel",
-            "caption": "Behind the scenes of today's bake #freshbread",
-            "date": "Jun 28, 2026",
+            "image": "https://toastability-production.s3.amazonaws.com/z9u4sdrj2oq3eds0qyui0nxsus3j",
+            "imageAlt": "Line cook plating on a busy Friday service",
+            "caption": "Behind the pass on a Friday night service 🔥",
+            "date": "Jul 4, 2026",
             "isVideo": true,
-            "videoUrl": "https://toastability-production.s3.amazonaws.com/4kox2ux0ye1wlqkdwg03s08a67i1",
-            "likeCount": 342,
-            "commentCount": 21,
-            "viewCount": 4820
+            "videoUrl": "https://toastability-production.s3.amazonaws.com/b555hwjt7ltr81et05v5254q1ak6",
+            "likeCount": 1203,
+            "commentCount": 88,
+            "viewCount": 12840
           },
           {
             "id": "3",
             "href": "https://www.instagram.com/p/CxAmpLe003/",
+            "image": "https://toastability-production.s3.amazonaws.com/63aotyt2pb4gqpccej2kkw8reson",
+            "imageAlt": "House pancakes with maple butter",
+            "caption": "Weekend brunch is back — house pancakes + maple butter",
+            "date": "Jul 2, 2026",
+            "likeCount": 356,
+            "commentCount": 27
+          },
+          {
+            "id": "4",
+            "href": "https://www.instagram.com/p/CxAmpLe004/",
+            "image": "https://toastability-production.s3.amazonaws.com/we9r4e711an6d0bd3dwbl9tb9z7q",
+            "imageAlt": "Barista finishing latte art",
+            "caption": "60 seconds of latte art, no cuts ✨",
+            "date": "Jun 29, 2026",
+            "isVideo": true,
+            "videoUrl": "https://toastability-production.s3.amazonaws.com/dvz0441h9fxjhh88lzqbwdoyxv52",
+            "likeCount": 942,
+            "commentCount": 61,
+            "viewCount": 8675
+          },
+          {
+            "id": "5",
+            "href": "https://www.instagram.com/p/CxAmpLe005/",
             "image": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
-            "imageAlt": "Weekend brunch spread",
-            "caption": "Weekend brunch is back on the menu",
+            "imageAlt": "Fresh sourdough loaves out of the oven",
+            "caption": "Fresh sourdough out of the oven at 6am 🥖",
+            "date": "Jun 27, 2026",
+            "likeCount": 512,
+            "commentCount": 41
+          },
+          {
+            "id": "6",
+            "href": "https://www.instagram.com/p/CxAmpLe006/",
+            "image": "https://toastability-production.s3.amazonaws.com/c4sgsy0g7o2rrjmvm9x7evxems82",
+            "imageAlt": "Chef plating a summer heirloom tomato salad",
+            "caption": "Plating the summer heirloom tomato salad 🍅",
             "date": "Jun 24, 2026",
-            "likeCount": 96
+            "isVideo": true,
+            "videoUrl": "https://toastability-production.s3.amazonaws.com/jhjfvkmdzktacyijd9fh6acc7o2c",
+            "likeCount": 731,
+            "commentCount": 45,
+            "viewCount": 6390
+          },
+          {
+            "id": "7",
+            "href": "https://www.instagram.com/p/CxAmpLe007/",
+            "image": "https://toastability-production.s3.amazonaws.com/kh1p8y15v55ctp5ulobm4pd77etm",
+            "imageAlt": "Sunny patio seating with fresh flowers",
+            "caption": "Patio season is officially open ☀️",
+            "date": "Jun 21, 2026",
+            "likeCount": 289,
+            "commentCount": 19
+          },
+          {
+            "id": "8",
+            "href": "https://www.instagram.com/p/CxAmpLe008/",
+            "image": "https://toastability-production.s3.amazonaws.com/2d4k8d5shwg82276hzj2ztbj7mxq",
+            "imageAlt": "Charred corn elote on a plate",
+            "caption": "New on the menu: charred corn elote, our way 🌽",
+            "date": "Jun 18, 2026",
+            "likeCount": 634,
+            "commentCount": 52
           }
         ]
       },
-      "dependencies": [],
+      "dependencies": [
+        "@opensite/ui"
+      ],
       "tags": [
         "gallery",
         "instagram",
@@ -45410,7 +45480,7 @@
         "community"
       ],
       "performance": {},
-      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. This is a DYNAMIC feed block: its 'items' are hydrated at routing-build time from the connected Instagram profile — do NOT hand-author post content. 'items[].image' and 'items[].videoUrl' MUST be the re-hosted MediaRecord CDN URLs served by the feed; expiring Instagram CDN URLs must never be used. Engagement counts ('likeCount', 'commentCount', 'viewCount') render only when the value is present — never fabricate a zero for a missing metric. Each 'items[].href' is an external instagram.com permalink and opens in a new tab. Items without an 'image' are skipped; an empty or missing 'items' array renders nothing. Requires the site to have a connected, fully-imported Instagram profile ('instagram_media' capability).",
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. This is a DYNAMIC feed block: its 'items' are hydrated at routing-build time from the connected Instagram profile — do NOT hand-author post content. 'items[].image' and 'items[].videoUrl' MUST be the re-hosted MediaRecord CDN URLs served by the feed; expiring Instagram CDN URLs must never be used. Tiles are VERTICAL (9:16) and render both photos and reels; a post is treated as a reel only when 'isVideo' is true AND 'videoUrl' is present. Engagement counts ('likeCount', 'commentCount', 'viewCount') are carried in the data but NOT currently displayed: the tile like-count pill is hidden by default ('showLikeBadges' opts back in; never fabricate a zero for a missing metric) and the viewer's engagement rail was removed per design review. Set 'username' to the account's handle (leading '@' tolerated) — it renders as the viewer caption's prominent clickable '@username' badge linking to the profile in a new tab; when omitted the badge degrades to a non-clickable 'Instagram' chip (a handle is never fabricated). Tapping a tile OPENS THE FULLSCREEN VIEWER (the whole-tile link-out was replaced); the instagram.com permalink ('items[].href') opens from the viewer's single Instagram-glyph egress, which is rendered as a REAL anchor (target=_blank, rel=noopener noreferrer) — a crawlable, affordance-correct link, not a scripted window.open button. 'items[].caption' should be a plain STRING when rendered immersively — it flows through as the tile/viewer title text; a rich ReactNode caption cannot be threaded through the immersive card/viewer and falls back to 'items[].imageAlt' (then a generic label). Consumer image styling is honored: 'imageClassName' and 'optixFlowConfig' are forwarded onto each tile's poster image. Items without an 'image' are skipped; an empty or missing 'items' array renders nothing. Requires the site to have a connected, fully-imported Instagram profile ('instagram_media' capability).",
       "usageRequirements": {
         "requiredProps": [
           "items"
@@ -45420,9 +45490,14 @@
           "media_library"
         ],
         "propConstraints": {
+          "heading": {
+            "maxLength": 60
+          },
           "items": {
-            "minItems": 3,
-            "maxItems": 24
+            "required": true,
+            "minItems": 4,
+            "maxItems": 16,
+            "note": "Use multiples of the 4-column desktop grid (8 or 12) so rows fill cleanly. Every item must carry a re-hosted CDN image URL — imageless items are skipped at render (dev builds warn)."
           }
         },
         "mediaSlots": {

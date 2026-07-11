@@ -269,6 +269,314 @@ export const architectureShowcase = {
   ],
 };
 
+/**
+ * A single Instagram-shaped media record for showcase demos. Field names match
+ * the `InstagramPostItem` prop shape consumed by `@opensite/ui`'s
+ * `instagram-post-grid` block (and any future media-immersive-based IG blocks),
+ * so entries can be passed through untouched.
+ *
+ * Media URLs are re-hosted production CDN assets (the platform's MediaRecord
+ * pipeline) — for videos, `image` is the poster/thumbnail and `videoUrl` the
+ * playable source; for images, `image` is the asset itself.
+ */
+export interface IgPost {
+  id: string;
+  href: string;
+  image: string;
+  imageAlt: string;
+  caption: string;
+  date: string;
+  likeCount: number;
+  commentCount: number;
+  isVideo?: boolean;
+  videoUrl?: string;
+  viewCount?: number;
+}
+
+/**
+ * 21 real re-hosted posts (8 videos with poster thumbnails + 13 images) pulled
+ * from a production restaurant/bar Instagram account. Import from any block
+ * demo that needs realistic IG media; prefer `sampleIgPosts()` for a mixed
+ * subset.
+ */
+export const igPosts: IgPost[] = [
+  {
+    id: "ig-reel-01",
+    href: "https://www.instagram.com/reel/DKq1xAmp001/",
+    image:
+      "https://cdn.ing/assets/i/r/313758/variants/cnirr5tbifd1gvdxmx2ldkajubnw/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/outdoor-dining-teaser-craft-cocktails-plated-food-lifestyle.webp",
+    imageAlt: "Craft cocktails and plated dishes on the outdoor patio at golden hour",
+    caption:
+      "Golden hour on the patio. Craft cocktails, plates made for sharing, and zero reasons to leave early 🍸✨",
+    date: "Jul 8, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/d6k2c8cy0ezmrqq9lsxzo6uv3aya",
+    likeCount: 2841,
+    commentCount: 96,
+    viewCount: 38420,
+  },
+  {
+    id: "ig-reel-02",
+    href: "https://www.instagram.com/reel/DKq1xAmp002/",
+    image:
+      "https://cdn.ing/assets/i/r/313759/variants/vdn6fionqsbz1hb0l6e7kvupwsp2/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/valley-girl-dinner-series-industry-standard-26-deal-bubbles-or-martini-caesar-salad-small-pasta.webp",
+    imageAlt: "Valley Girl Dinner spread with bubbles, caesar salad, and pasta",
+    caption:
+      "Valley Girl Dinner, round two 💅 $26 gets you bubbles or a martini, our caesar, and a small pasta. Every Thursday.",
+    date: "Jul 3, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/ibtxw4n0s4yk43cc4w13syqqnk5d",
+    likeCount: 4519,
+    commentCount: 187,
+    viewCount: 61230,
+  },
+  {
+    id: "ig-reel-03",
+    href: "https://www.instagram.com/reel/DKq1xAmp003/",
+    image:
+      "https://cdn.ing/assets/i/r/313760/variants/s2iqwt31qtqiu971te4ow11xq6hc/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/outdoor-dining-broll-plated-meal-cocktail-dessert-platter.webp",
+    imageAlt: "Plated meal, cocktail, and dessert platter from dinner service",
+    caption:
+      "A little b-roll from Friday's dinner service — mains, a spritz, and the dessert platter that never survives the table.",
+    date: "Jun 27, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/nlouue8lzhyiwaibskyiatku5qvx",
+    likeCount: 1976,
+    commentCount: 54,
+    viewCount: 27810,
+  },
+  {
+    id: "ig-reel-04",
+    href: "https://www.instagram.com/reel/DKq1xAmp004/",
+    image:
+      "https://cdn.ing/assets/i/r/313761/variants/ufun9znbm075aflgez0xpvbwoai5/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/industry-standard-cocktail-16-dollar-price-restaurant-indoor-dining.webp",
+    imageAlt: "Bartender presenting a sixteen-dollar house cocktail in the dining room",
+    caption:
+      "Sixteen dollars. Zero notes. Our bartenders would like a word with whoever said cocktails peaked in the '20s 🥃",
+    date: "Jun 21, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/h0ka5ect04kdjwtdcli73g1e8sj2",
+    likeCount: 3204,
+    commentCount: 121,
+    viewCount: 45090,
+  },
+  {
+    id: "ig-reel-05",
+    href: "https://www.instagram.com/reel/DKq1xAmp005/",
+    image:
+      "https://cdn.ing/assets/i/r/313762/variants/z8tt5mr9633ewsff134pgj80ixdd/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/intimate-love-confession-romantic-wine-date-joyful-couple.webp",
+    imageAlt: "Couple sharing a bottle of wine on a candlelit date night",
+    caption:
+      "Overheard at table 12: “this is where I knew.” Date night reservations are open for the weekend ❤️🍷",
+    date: "Jun 14, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/5f0lavhd8x27eeayaev8nzodlrvi",
+    likeCount: 6873,
+    commentCount: 243,
+    viewCount: 88410,
+  },
+  {
+    id: "ig-reel-06",
+    href: "https://www.instagram.com/reel/DKq1xAmp006/",
+    image:
+      "https://cdn.ing/assets/i/r/313763/variants/5m1iy1y3mittf1uyix6fkbqell6u/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/industry-standard-drinks-cocktails-and-wines-bar-promo.webp",
+    imageAlt: "Back bar lined with cocktails and natural wines",
+    caption:
+      "The back bar, briefly. Natural wines on the left, house cocktails on the right, happy hour 4–6 daily.",
+    date: "Jun 9, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/cy6v5s63xv18xkqbxdfmy07kgtvc",
+    likeCount: 2310,
+    commentCount: 71,
+    viewCount: 33260,
+  },
+  {
+    id: "ig-reel-07",
+    href: "https://www.instagram.com/reel/DKq1xAmp007/",
+    image:
+      "https://cdn.ing/assets/i/r/313764/variants/5tx5dxdaawbv1dmcxfgchb5ed3c1/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/quick-cut-food-and-cocktail-montage-noodles-meat-plate-tabletop.webp",
+    imageAlt: "Quick-cut montage of noodles, a meat plate, and a cocktail",
+    caption:
+      "60 seconds of tonight's menu — hand-pulled noodles, the short rib, and a negroni that photographs better than we do.",
+    date: "Jun 2, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/8zseqnt6squp9o44twcuxh9dkj8j",
+    likeCount: 3987,
+    commentCount: 142,
+    viewCount: 52970,
+  },
+  {
+    id: "ig-reel-08",
+    href: "https://www.instagram.com/reel/DKq1xAmp008/",
+    image:
+      "https://cdn.ing/assets/i/r/313765/variants/5qdmi33xc1a7o57jx6e9kmx8k2op/ffa771bd373b30a1a63111797ef5dd88627acefa289ede100f7c545462724c63/pixel-stretch-trend-on-food-using-generative-fill-remove-deselect.webp",
+    imageAlt: "Pixel-stretch editing trend applied to a plated dish",
+    caption:
+      "We tried the pixel-stretch trend on the tasting menu 👨‍🍳 The content team said “trust the process.” Verdict below ⬇️",
+    date: "May 27, 2026",
+    isVideo: true,
+    videoUrl: "https://toastability-production.s3.amazonaws.com/97btxqx36qpyzxrah892ibwgewuq",
+    likeCount: 1543,
+    commentCount: 88,
+    viewCount: 19840,
+  },
+  {
+    id: "ig-post-01",
+    href: "https://www.instagram.com/p/DKq1xAmp101/",
+    image: "https://cdn.ing/assets/i/r/313766/a934nl73n5ce25nqs6rx7cx6uf6i/ig-img-1.jpg",
+    imageAlt: "First pour of the evening at the bar",
+    caption: "First pour of the evening 🥂",
+    date: "Jul 7, 2026",
+    likeCount: 1128,
+    commentCount: 34,
+  },
+  {
+    id: "ig-post-02",
+    href: "https://www.instagram.com/p/DKq1xAmp102/",
+    image: "https://cdn.ing/assets/i/r/313767/3pw7anix8mia3ds7xxtfy06pqsdm/ig-img-10.jpg",
+    imageAlt: "Corner booth set for dinner service",
+    caption: "The corner booth — reserved for people who order dessert first.",
+    date: "Jul 5, 2026",
+    likeCount: 954,
+    commentCount: 28,
+  },
+  {
+    id: "ig-post-03",
+    href: "https://www.instagram.com/p/DKq1xAmp103/",
+    image: "https://cdn.ing/assets/i/r/313768/vk17oi6jku3pc7fw4n4kjvmz1o7e/ig-img-13.jpg",
+    imageAlt: "Chef's counter minutes before service",
+    caption: "Chef's counter, five minutes to service.",
+    date: "Jul 1, 2026",
+    likeCount: 1489,
+    commentCount: 47,
+  },
+  {
+    id: "ig-post-04",
+    href: "https://www.instagram.com/p/DKq1xAmp104/",
+    image: "https://cdn.ing/assets/i/r/313769/2xxi4dss1qpnp9qaq9v1x6cge83a/ig-img-12.jpg",
+    imageAlt: "Weekend brunch spread across the table",
+    caption: "Saturday brunch spread — come hungry.",
+    date: "Jun 28, 2026",
+    likeCount: 2216,
+    commentCount: 83,
+  },
+  {
+    id: "ig-post-05",
+    href: "https://www.instagram.com/p/DKq1xAmp105/",
+    image: "https://cdn.ing/assets/i/r/313770/c6x02u7wy93pismm5tp7b6yy27s2/ig-img-11.jpg",
+    imageAlt: "House-made pasta on the prep counter",
+    caption: "House-made everything. Yes, including that.",
+    date: "Jun 24, 2026",
+    likeCount: 876,
+    commentCount: 19,
+  },
+  {
+    id: "ig-post-06",
+    href: "https://www.instagram.com/p/DKq1xAmp106/",
+    image: "https://cdn.ing/assets/i/r/313771/q218ix0kf3re488t83w1jtyvg3wj/ig-img-6.jpg",
+    imageAlt: "New menu item plated for its debut",
+    caption: "New on the menu this week.",
+    date: "Jun 19, 2026",
+    likeCount: 1690,
+    commentCount: 52,
+  },
+  {
+    id: "ig-post-07",
+    href: "https://www.instagram.com/p/DKq1xAmp107/",
+    image: "https://cdn.ing/assets/i/r/313772/8w6b9sl56a4u5hbypq3z347g0n92/ig-img-9.jpg",
+    imageAlt: "Golden hour light across the patio tables",
+    caption: "Golden hour hits different from the patio.",
+    date: "Jun 15, 2026",
+    likeCount: 2445,
+    commentCount: 91,
+  },
+  {
+    id: "ig-post-08",
+    href: "https://www.instagram.com/p/DKq1xAmp108/",
+    image: "https://cdn.ing/assets/i/r/313773/rw4s7v8guuclnn9zqk1e86bv0nl3/ig-img-8.jpg",
+    imageAlt: "The kitchen pass during Friday night service",
+    caption: "Behind the pass on a Friday night.",
+    date: "Jun 11, 2026",
+    likeCount: 1102,
+    commentCount: 37,
+  },
+  {
+    id: "ig-post-09",
+    href: "https://www.instagram.com/p/DKq1xAmp109/",
+    image: "https://cdn.ing/assets/i/r/313774/o0eucneostmsk7hn9mfal8qwuxx6/ig-img-7.jpg",
+    imageAlt: "Heirloom tomatoes from the season's first delivery",
+    caption: "Season's first heirloom tomatoes 🍅",
+    date: "Jun 6, 2026",
+    likeCount: 1327,
+    commentCount: 44,
+  },
+  {
+    id: "ig-post-10",
+    href: "https://www.instagram.com/p/DKq1xAmp110/",
+    image: "https://cdn.ing/assets/i/r/313775/o9mqcs0dl33eacc394t0ayxord1z/ig-img-2.jpg",
+    imageAlt: "The bartender's newest cocktail experiment",
+    caption: "Our bartender's latest experiment — ask for it by name.",
+    date: "May 31, 2026",
+    likeCount: 1874,
+    commentCount: 66,
+  },
+  {
+    id: "ig-post-11",
+    href: "https://www.instagram.com/p/DKq1xAmp111/",
+    image: "https://cdn.ing/assets/i/r/313776/xa7wjvojt3lag0rb535eaney3ir2/ig-img-5.jpg",
+    imageAlt: "Candlelit table for two by the window",
+    caption: "Table for two, candles included.",
+    date: "May 25, 2026",
+    likeCount: 1560,
+    commentCount: 49,
+  },
+  {
+    id: "ig-post-12",
+    href: "https://www.instagram.com/p/DKq1xAmp112/",
+    image: "https://cdn.ing/assets/i/r/313777/kdm78l7euy9vcvnhti6fwyxcepq0/ig-img-4.jpg",
+    imageAlt: "Dough proofing racks during weekend prep",
+    caption: "Weekend prep: two hundred pounds of dough, zero shortcuts.",
+    date: "May 19, 2026",
+    likeCount: 998,
+    commentCount: 31,
+  },
+  {
+    id: "ig-post-13",
+    href: "https://www.instagram.com/p/DKq1xAmp113/",
+    image: "https://cdn.ing/assets/i/r/313778/fo4t8iieaypu0xpmxq97nb48hkne/ig-img-3.jpg",
+    imageAlt: "Regulars raising a toast at the bar",
+    caption: "Cheers to the regulars who became family 🥂",
+    date: "May 12, 2026",
+    likeCount: 2731,
+    commentCount: 104,
+  },
+];
+
+/**
+ * Deterministic, seeded sample of `count` posts from {@link igPosts} — a
+ * shuffled mix of videos and images that is STABLE across server render and
+ * client hydration. (A `Math.random()` sample here would produce a different
+ * set on the server and the client, triggering a React hydration mismatch;
+ * pass a different `seed` to get a different — still deterministic — mix.)
+ */
+export function sampleIgPosts(count = 8, seed = 20260710): IgPost[] {
+  // mulberry32 — tiny seeded PRNG, plenty for demo shuffling.
+  let a = seed >>> 0;
+  const rand = () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const shuffled = [...igPosts];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
 export const optixFlowApiKey = process.env.OPTIX_FLOW_API_KEY;
 
 export const openGraphImgUrl =

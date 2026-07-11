@@ -22,3 +22,4 @@ minimumReleaseAgeExclude:
   - "@opensite/ui"
   - "@page-speed/blocks"
   - "@page-speed/router"
+  - "@page-speed/media-immersive"
