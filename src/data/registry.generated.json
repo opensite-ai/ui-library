@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.12.1",
+    "version": "3.14.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-11T01:40:12.948Z",
+    "syncedAt": "2026-07-11T23:43:39.219Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -89304,7 +89304,7 @@
         "date"
       ],
       "performance": {},
-      "importantUsageNotes": "Only use if you have real event details. Only supply real stats and location data — do not fabricate. Requires a real 'image'. Do not exceed 50 characters for 'heading'. Do not exceed 130 characters for 'description'.  All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed.",
+      "importantUsageNotes": "Only use if you have real event details. Only supply real stats and location data — do not fabricate. Image strongly preferred; omit when none exists — never use a stock/unrelated image. Do not exceed 50 characters for 'heading'. Do not exceed 130 characters for 'description'.  All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. Dynamic feeds (Phase 4): this block can carry a block-level dataSource of type 'events_feed' (expands: true) — ONE symbolic block hydrates at routing-build time into N hero-event-registration instances, one per event occurrence (dataSource.limit default 6, hard cap 12). Wire mapping (§4.1d; never fabricate — omit any field with no real data): title -> heading, description -> description (omitted when blank), starts_at -> badgeText (short date badge, e.g. 'JUL 18'), starts_at in the event timezone -> locationLabel, location_name or custom_address -> locationSublabel (whichever is real; omitted when neither), image_url -> image ({src, alt: title}, only when an image exists), price_from -> stats[{value: '$X', label: 'From'}], recurring_summary -> stats[{value, label: 'Schedule'}], registration_url -> actions[{label: 'Register', href}]. stats, actions, and image are OMITTED entirely when no real data exists (the block null-guards every region; the propConstraints minItems/maxItems are AI-authoring constraints, not runtime requirements). The 'events' capability is SOFT: hero-event-registration is dual-use and remains legitimate for authored single-event / catering usage, so octane must NOT hard-drop the block on the capability alone — only feed-driven usage is gated.",
       "usageRequirements": {
         "requiredProps": [
           "heading"
@@ -133004,7 +133004,7 @@
         "social-proof"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each review needs a rating (1–5), a title, content, and an author. The verified flag should only be set when the review platform actually verifies purchases. avatarSrc must be an absolute image URL.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each review needs a rating (1–5), a title, content, and an author. The verified flag should only be set when the review platform actually verifies purchases. avatarSrc must be an absolute image URL. The verified indicator renders ONLY when verifiedPurchaseLabel is supplied — there is NO fallback wording; choose a label that fits the client's industry (e.g. 'Verified' / 'Verified Diner' / 'Verified Guest') or omit the prop to hide the indicator entirely. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "reviews"
@@ -133272,7 +133272,7 @@
       },
       "exampleProps": {
         "heading": "Customer Reviews",
-        "verifiedPurchaseLabel": "Verified Purchase",
+        "verifiedPurchaseLabel": "Verified",
         "reviews": [
           {
             "rating": 5,
@@ -133315,7 +133315,7 @@
         "user-generated-content"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The images[] array holds supplementary review photos from the reviewer — these must be real product/experience photos, not stock imagery. helpful counts must reflect actual platform data.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The images[] array holds supplementary review photos from the reviewer — these must be real product/experience photos, not stock imagery. helpful counts must reflect actual platform data. The verified indicator renders ONLY when verifiedPurchaseLabel is supplied — there is NO fallback wording; choose a label that fits the client's industry (e.g. 'Verified' / 'Verified Diner' / 'Verified Guest') or omit the prop to hide the indicator entirely. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "reviews"
@@ -133655,7 +133655,7 @@
         "cards"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Mark at most one testimonial as featured=true to receive the larger card slot. Provide 4–6 items for a balanced bento layout.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Mark at most one testimonial as featured=true to receive the larger card slot. Provide 4–6 items for a balanced bento layout. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -134010,7 +134010,7 @@
         "multi-platform"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item's linkConfig.href must be a real, resolvable post URL — do not use placeholder '#' hrefs for social post links. handle values should match the real platform username.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item's linkConfig.href must be a real, resolvable post URL — do not use placeholder '#' hrefs for social post links. handle values should match the real platform username. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -134353,7 +134353,7 @@
         "background-image"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item's backgroundImage is a full-bleed slide background — use large, high-quality landscape photography with sufficient contrast for overlaid text. Do not use logo or avatar images as backgroundImage.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item's backgroundImage is a full-bleed slide background — use large, high-quality landscape photography with sufficient contrast for overlaid text. Do not use logo or avatar images as backgroundImage. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -134665,7 +134665,7 @@
         "rotating"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Avatars are displayed prominently as navigation; each item should have an avatarSrc for best visual results. Quote text should be concise — typically 1–3 sentences.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Avatars are displayed prominently as navigation; each item should have an avatarSrc for best visual results. Quote text should be concise — typically 1–3 sentences. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -134969,7 +134969,7 @@
         "corporate"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. companyLogo must be the actual company's logo — do not use generic imagery. imageSrc is a large feature photograph displayed beside the testimonial; use high-quality business/workspace photography.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. companyLogo must be the actual company's logo — do not use generic imagery. imageSrc is a large feature photograph displayed beside the testimonial; use high-quality business/workspace photography. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonial"
@@ -135412,7 +135412,7 @@
         "engagement"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This block includes a call-to-action card prompting users to add a review — ensure addReviewText and the CTA action link to a real review submission page, not a placeholder.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This block includes a call-to-action card prompting users to add a review — ensure addReviewText and the CTA action link to a real review submission page, not a placeholder. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "reviews"
@@ -135750,7 +135750,7 @@
         "cards"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The marquee loops continuously so provide at least 6 items to avoid visible repetition. Keep quotes short (1–2 sentences) for best readability while scrolling.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The marquee loops continuously so provide at least 6 items to avoid visible repetition. Keep quotes short (1–2 sentences) for best readability while scrolling. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -136174,7 +136174,7 @@
         "responsive"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The columns prop controls layout density (2, 3, or 4 columns). Provide a number of testimonials divisible by the columns value for a clean grid — or add an extra row intentionally.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. The columns prop controls layout density (2, 3, or 4 columns). Provide a number of testimonials divisible by the columns value for a clean grid — or add an extra row intentionally. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -136477,7 +136477,7 @@
         "clean"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This is a minimal single-item slider — keep quotes concise (2–4 sentences). Each testimonial should include an avatarSrc to display the author photo.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This is a minimal single-item slider — keep quotes concise (2–4 sentences). Each testimonial should include an avatarSrc to display the author photo. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -136773,7 +136773,7 @@
         "impactful"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. imageSrc is a large feature photograph occupying half the layout — use professional business/workspace photography. imagePosition controls whether the photo is left or right of the quote.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. imageSrc is a large feature photograph occupying half the layout — use professional business/workspace photography. imagePosition controls whether the photo is left or right of the quote. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonial",
@@ -137259,7 +137259,7 @@
         "credibility"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Stats must be sourced from actual business data — do not fabricate metrics. Each stat requires id, value, and label. Stats without real backing numbers should not be used.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Stats must be sourced from actual business data — do not fabricate metrics. Each stat requires id, value, and label. Stats without real backing numbers should not be used. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "stats",
@@ -137689,7 +137689,7 @@
         "badges"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. handle values should be real social media usernames when available. badge values (e.g., 'Verified', 'Featured') should only be applied when justified by source platform status. Provide 6–12 items for a visually full wall layout.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. handle values should be real social media usernames when available. badge values (e.g., 'Verified', 'Featured') should only be applied when justified by source platform status. Provide 6–12 items for a visually full wall layout. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -137991,7 +137991,7 @@
         "professional"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout uses horizontal dividers between items — keep quotes brief (1–2 sentences) to maintain visual balance. Ratings are optional but should reflect actual review data when provided.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout uses horizontal dividers between items — keep quotes brief (1–2 sentences) to maintain visual balance. Ratings are optional but should reflect actual review data when provided. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -138337,7 +138337,7 @@
         "corporate"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each card displays a company logo prominently — companyLogo must be the actual company's logo at an absolute URL. Do not use placeholder images as company logos.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each card displays a company logo prominently — companyLogo must be the actual company's logo at an absolute URL. Do not use placeholder images as company logos. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -138660,7 +138660,7 @@
         "compact"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout features large quote typography — quotes should be impactful and 2–4 sentences in length. Include author avatars for credibility.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout features large quote typography — quotes should be impactful and 2–4 sentences in length. Include author avatars for credibility. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -138965,7 +138965,7 @@
         "auto-play"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each testimonial has an animated full-panel image (image prop) alongside the quote — use high-quality feature photography. The image changes with each testimonial transition. Do not use avatars or logos as the image prop.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each testimonial has an animated full-panel image (image prop) alongside the quote — use high-quality feature photography. The image changes with each testimonial transition. Do not use avatars or logos as the image prop. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -139314,7 +139314,7 @@
         "viewport"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item supports an optional imageSrc (feature photo on the card) and logoSrc (company logo). Both must be absolute URLs when provided. Use high-quality imagery that pairs well on dark backgrounds.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Each item supports an optional imageSrc (feature photo on the card) and logoSrc (company logo). Both must be absolute URLs when provided. Use high-quality imagery that pairs well on dark backgrounds. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -139619,7 +139619,7 @@
         "distinctive"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This minimal layout displays a large numbered counter alongside the active quote — quotes should be detailed enough to fill the space (3–5 sentences). Author avatars are prominent in this layout.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This minimal layout displays a large numbered counter alongside the active quote — quotes should be detailed enough to fill the space (3–5 sentences). Author avatars are prominent in this layout. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -139924,7 +139924,7 @@
         "high-end"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. backgroundIcon is a decorative Iconify icon ID (e.g., 'lucide/rocket') rendered as a large watermark behind the testimonial number — use icons that complement the testimonial theme. backgroundLabel is optional decorative text.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. backgroundIcon is a decorative Iconify icon ID (e.g., 'lucide/rocket') rendered as a large watermark behind the testimonial number — use icons that complement the testimonial theme. backgroundLabel is optional decorative text. The vertical side label renders ONLY when verticalLabel is supplied — there is NO fallback wording; choose industry-appropriate text or omit the prop to hide it. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -140332,7 +140332,7 @@
         "layout"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Masonry layout renders items at varying heights — mix shorter and longer quotes for visual variety. Provide at least 6 items for the masonry effect to read well.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. Masonry layout renders items at varying heights — mix shorter and longer quotes for visual variety. Provide at least 6 items for the masonry effect to read well. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonials"
@@ -140582,7 +140582,7 @@
         "typography"
       ],
       "performance": {},
-      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout renders a single testimonial in large display typography — choose the most impactful, well-articulated quote available. Quote length of 2–4 sentences works best at display size.",
+      "importantUsageNotes": "Testimonials must come from real, sourced reviews or testimonials. Do not fabricate quotes, names, or company affiliations. This layout renders a single testimonial in large display typography — choose the most impactful, well-articulated quote available. Quote length of 2–4 sentences works best at display size. Dynamic feeds (Phase 2): this block can carry a block-level dataSource of type 'testimonials_feed', hydrated at routing-build time into TestimonialItem[]. Bind target (dataSource.bindTo) defaults to 'testimonials'; use 'reviews' for testimonials-list-verified, testimonials-images-helpful, and testimonials-grid-add-review; single-item 'testimonial' (an object — the hydrator binds items[0]) for testimonials-company-logo, testimonials-large-quote, and testimonials-split-image. Wire mapping: content -> quote, reviewer_name -> author, rating -> rating (only when numeric; never fabricate), profile_url + platform -> linkConfig. Avatars are intentionally NOT mapped in Phase 2 because review avatar URLs are hotlinked and rot-prone. The reviews_or_testimonials capability is satisfied by live reviews OR authored static quotes, so octane does not hard-drop testimonials blocks on the capability alone.",
       "usageRequirements": {
         "requiredProps": [
           "testimonial"
