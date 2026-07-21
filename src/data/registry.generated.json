@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.14.1",
+    "version": "3.14.2",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-17T07:22:32.358Z",
+    "syncedAt": "2026-07-21T15:20:57.071Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -161635,8 +161635,9 @@
               },
               "icon": {
                 "type": "object",
-                "description": "Icon element or icon name",
-                "typeLabel": "React$1.ReactNode",
+                "description": "Dynamic icon name (e.g., \"lucide/shield\") or custom icon element",
+                "fields": {},
+                "typeLabel": "DynamicIconName",
                 "required": false
               },
               "title": {
