@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.14.4",
+    "version": "3.14.6",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-25T04:27:29.152Z",
+    "syncedAt": "2026-07-25T05:08:36.116Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -67219,7 +67219,7 @@
         "mobile": "https://cdn.ing/assets/i/r/290808/y8jlh0itmk601kw8lf9w4k879fc9/cleanshot-2026-02-25-at-01-49-25.png"
       },
       "componentPath": "blocks/hero/hero-video-background-dark.tsx",
-      "code": "import { videoPlaceholders } from \"@/lib/media\";\nimport { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://cdn.ing/assets/video/uploads/283390/hls/38857/master.m3u8\",\n          fallbackSrc:\n            \"https://toastability-production.s3.amazonaws.com/eliix1g2jzj7gp9pe2srfquuyt0d\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",
+      "code": "import { HeroVideoBackgroundDark } from \"@opensite/ui/blocks/hero/hero-video-background-dark\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <HeroVideoBackgroundDark\n      badgeText=\"Immersive Experience\"\n      heading=\"Make an unforgettable first impression\"\n      description=\"Captivate your audience with stunning video backgrounds that tell your story in motion.\"\n      actions={[\n        {\n          label: \"Get Started\",\n          href: \"#\",\n          variant: \"default\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Explore\",\n          href: \"#\",\n          variant: \"outline\",\n        },\n      ]}\n      backgroundVideo={{\n        video: {\n          masterPlaylistUrl:\n            \"https://cdn.ing/assets/video/uploads/283390/hls/38857/master.m3u8\",\n          fallbackSrc:\n            \"https://toastability-production.s3.amazonaws.com/eliix1g2jzj7gp9pe2srfquuyt0d\",\n          optixFlowApiKey: \"os-bcf1c82f-0c47-49ec-a303-807eec0a25c6\",\n        },\n      }}\n      background=\"dark\"\n    />\n  );\n}\n",
       "propsSchema": {
         "badgeText": {
           "type": "object",

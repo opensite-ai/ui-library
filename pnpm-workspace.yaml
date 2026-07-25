@@ -24,3 +24,4 @@ minimumReleaseAgeExclude:
   - "@page-speed/router"
   - "@page-speed/media-immersive"
   - '@page-speed/pressable@0.1.1'
+  - '@page-speed/video@0.0.8 || 0.0.9'

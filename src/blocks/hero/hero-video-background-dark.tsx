@@ -1,4 +1,3 @@
-import { videoPlaceholders } from "@/lib/media";
 import { HeroVideoBackgroundDark } from "@opensite/ui/blocks/hero/hero-video-background-dark";
 import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 
