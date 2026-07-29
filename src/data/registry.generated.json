@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.14.8",
+    "version": "3.14.9",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-29T03:07:28.143Z",
+    "syncedAt": "2026-07-29T11:45:12.029Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -31414,8 +31414,8 @@
               },
               "icon": {
                 "type": "object",
-                "description": "Icon element (overrides iconName)",
-                "typeLabel": "React.ReactNode",
+                "description": "Icon element or icon name (overrides iconName)",
+                "typeLabel": "React.ReactNode | string",
                 "required": false
               },
               "iconName": {
