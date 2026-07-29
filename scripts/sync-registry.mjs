@@ -236,6 +236,98 @@ const buildTypeIndex = (sourceFiles) => {
   return { checker, interfaces, typeAliases };
 };
 
+/**
+ * String-literal values of a union type NODE, or null when the node is not a
+ * string-literal union. Tolerates two idioms:
+ *  - `undefined`/`null` members (optional props) are skipped;
+ *  - the `"a" | "b" | (string & {})` "keep autocomplete but allow any string"
+ *    idiom — the widening member adds no value, so it is skipped rather than
+ *    disqualifying the union (this is what `SectionSpacing` uses, and why it
+ *    previously degraded to `{type:"object", fields:{}}`).
+ * The emitted enum is the CLOSED set of known values: a consumer offering only
+ * these cannot splice an unvalidated string into a className or `url(...)`.
+ */
+const literalUnionFromNode = (typeNode) => {
+  if (!typeNode || !ts.isUnionTypeNode(typeNode)) return null;
+  const values = [];
+  let type = null;
+  const claim = (next) => {
+    if (type && type !== next) return false;
+    type = next;
+    return true;
+  };
+  for (const member of typeNode.types) {
+    const inner = ts.isParenthesizedTypeNode(member) ? member.type : member;
+    if (
+      inner.kind === ts.SyntaxKind.UndefinedKeyword ||
+      inner.kind === ts.SyntaxKind.NullKeyword
+    ) {
+      continue;
+    }
+    if (ts.isLiteralTypeNode(inner)) {
+      const literal = inner.literal;
+      if (ts.isStringLiteral(literal)) {
+        if (!claim("string")) return null;
+        values.push(literal.text);
+        continue;
+      }
+      // `columns?: 2 | 3 | 4` — a NUMERIC union. Emitting `type:"string"` for
+      // these (the previous behavior) mistyped the control.
+      if (ts.isNumericLiteral(literal)) {
+        if (!claim("number")) return null;
+        values.push(Number(literal.text));
+        continue;
+      }
+      return null;
+    }
+    if (
+      ts.isIntersectionTypeNode(inner) &&
+      inner.types.some((part) => part.kind === ts.SyntaxKind.StringKeyword)
+    ) {
+      if (!claim("string")) return null;
+      continue;
+    }
+    return null;
+  }
+  return values.length ? { type, values: [...new Set(values)] } : null;
+};
+
+/** Same contract as [`literalUnionFromNode`], over resolved checker types. */
+const literalUnionFromCheckerTypes = (members) => {
+  if (!Array.isArray(members) || members.length < 2) return null;
+  const values = [];
+  let type = null;
+  for (const member of members) {
+    const next = member.isStringLiteral?.()
+      ? "string"
+      : member.isNumberLiteral?.()
+        ? "number"
+        : null;
+    if (!next || (type && type !== next)) return null;
+    type = next;
+    values.push(member.value);
+  }
+  return values.length ? { type, values: [...new Set(values)] } : null;
+};
+
+/**
+ * Checker fallback for aliases whose values are not syntactically literal —
+ * `keyof typeof patternSvgs` resolves to the real pattern-name union, which no
+ * amount of AST walking can enumerate.
+ */
+const literalUnionFromCheckerNode = (typeNode, checker) => {
+  if (!checker || !typeNode) return null;
+  let resolved;
+  try {
+    resolved = checker.getTypeAtLocation(typeNode);
+  } catch {
+    return null;
+  }
+  return resolved?.isUnion?.()
+    ? literalUnionFromCheckerTypes(resolved.types)
+    : null;
+};
+
 const schemaCache = new Map();
 
 const buildSchemaFromCheckerType = (type, checker) => {
@@ -259,11 +351,15 @@ const buildSchemaFromCheckerType = (type, checker) => {
     return schema;
   };
 
-  if (
-    unionTypes.length > 1 &&
-    unionTypes.every((member) => member.isStringLiteral?.())
-  ) {
-    return { type: "string", description: "", typeLabel };
+  const literalUnion =
+    unionTypes.length > 1 ? literalUnionFromCheckerTypes(unionTypes) : null;
+  if (literalUnion) {
+    return {
+      type: literalUnion.type,
+      description: "",
+      typeLabel,
+      enum: literalUnion.values,
+    };
   }
   if (normalizedType.flags & ts.TypeFlags.StringLike) {
     return { type: "string", description: "" };
@@ -332,8 +428,19 @@ const buildSchemaFromTypeNode = (typeNode, context, index, stack = new Set()) =>
     }
     if (index.typeAliases.has(name)) {
       const alias = index.typeAliases.get(name);
-      if (alias.kind === "stringUnion") {
-        return { type: "string", description: "", typeLabel: name };
+      // Emit the allowed VALUES, not just the alias name. `kind` is not
+      // consulted: it only flags PURE literal unions, which misses the
+      // `(string & {})` widening idiom and `keyof typeof …` aliases.
+      const aliasUnion =
+        literalUnionFromNode(alias.node.type) ??
+        literalUnionFromCheckerNode(alias.node.type, index.checker);
+      if (aliasUnion) {
+        return {
+          type: aliasUnion.type,
+          description: "",
+          typeLabel: name,
+          enum: aliasUnion.values,
+        };
       }
     }
     if (index.interfaces.has(name) || index.typeAliases.has(name)) {
@@ -371,9 +478,14 @@ const buildSchemaFromTypeNode = (typeNode, context, index, stack = new Set()) =>
     if (filtered.length === 1) {
       return buildSchemaFromTypeNode(filtered[0], context, index, stack);
     }
-    const allStringLiterals = filtered.every((t) => ts.isLiteralTypeNode(t));
-    if (allStringLiterals) {
-      return { type: "string", description: "", typeLabel: typeText };
+    const inlineUnion = literalUnionFromNode(typeNode);
+    if (inlineUnion) {
+      return {
+        type: inlineUnion.type,
+        description: "",
+        typeLabel: typeText,
+        enum: inlineUnion.values,
+      };
     }
     return { type: "object", description: "", typeLabel: typeText };
   }

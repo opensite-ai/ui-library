@@ -19,6 +19,16 @@ export interface BlockThumbnail {
 export interface PropSchema {
   type: "string" | "number" | "boolean" | "array" | "object";
   typeLabel?: string;
+  /**
+   * The CLOSED set of allowed values, when the prop's type resolves to a
+   * literal union — whether declared inline (`"sm" | "lg"`), behind an alias
+   * (`SectionBackground`), widened with the `(string & {})` autocomplete idiom
+   * (`SectionSpacing`), or computed (`keyof typeof patternSvgs` → PatternName).
+   * Absent when the values are not statically enumerable (e.g. the open
+   * Iconify namespace behind `DynamicIconName`). Values match `type`, so a
+   * numeric union such as `2 | 3 | 4` yields `type: "number"`.
+   */
+  enum?: (string | number)[];
   description: string;
   required?: boolean;
   default?: unknown;
