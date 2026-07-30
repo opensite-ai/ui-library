@@ -2,7 +2,7 @@
   "metadata": {
     "version": "3.14.10",
     "source": "@opensite/ui",
-    "syncedAt": "2026-07-30T21:36:01.522Z",
+    "syncedAt": "2026-07-30T22:44:53.863Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -5933,11 +5933,11 @@
       "categorySlug": "about",
       "description": "A mission/vision section with content and CTA buttons beside a responsive image or video panel. Ideal for companies that want focused messaging with flexible visual media.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/308389/9oq326qg42j5zkulegwzmzwo96z5/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/308390/iy45mua9rkuxdnvjlnb6b9togzh3/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/314972/fq6d9oea9gqr3pd2xjyrrwdau9ii/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/314973/l0v0cqu788cvrgu8nkdlgxv6xta5/about-mission-dual-image-mobile.jpg"
       },
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
-      "code": "import { AboutMissionDualImage } from \"@opensite/ui/blocks/about/about-mission-dual-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionDualImage\n      missionTitle=\"Our Mission\"\n      missionContent=\"To democratize access to powerful technology by creating intuitive tools that help businesses of all sizes compete and thrive in the digital economy.\"\n      visionTitle=\"Our Vision\"\n      visionContent=\"A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact.\"\n      primaryImage={{\n        src: \"https://toastability-production.s3.amazonaws.com/9ughnl9wnko2vdboib8n3wl3cxsy\",\n        alt: \"Team collaboration\",\n      }}\n      secondaryImage={{\n        src: \"https://toastability-production.s3.amazonaws.com/4xjcgtlwseruezhoh3o1ga4umhj4\",\n        alt: \"Modern workspace\",\n      }}\n      actions={[\n        {\n          label: \"Learn Our Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/users\" size={16} />,\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={0.33}\n    />\n  );\n}\n",
+      "code": "import { AboutMissionDualImage } from \"@opensite/ui/blocks/about/about-mission-dual-image\";\nimport { DynamicIcon } from \"@opensite/ui/components/dynamic-icon\";\n\nexport default function Demo() {\n  return (\n    <AboutMissionDualImage\n      missionTitle=\"Our Mission\"\n      missionContent=\"To democratize access to powerful technology by creating intuitive tools that help businesses of all sizes compete and thrive in the digital economy.\"\n      visionTitle=\"Our Vision\"\n      visionContent=\"A world where every entrepreneur and organization has the digital capabilities they need to bring their ideas to life and make a meaningful impact.\"\n      mediaItem={{\n        image: {\n          src: \"https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp\",\n          alt: \"Team mission planning\",\n        },\n      }}\n      actions={[\n        {\n          label: \"Learn Our Story\",\n          href: \"#\",\n          variant: \"default\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/arrow-right\" size={16} />,\n        },\n        {\n          label: \"Meet the Team\",\n          href: \"#\",\n          variant: \"outline\",\n          size: \"lg\",\n          iconAfter: <DynamicIcon name=\"lucide/users\" size={16} />,\n        },\n      ]}\n      spacing=\"xl\"\n      background=\"dark\"\n      pattern=\"architect\"\n      patternOpacity={0.33}\n    />\n  );\n}\n",
       "propsSchema": {
         "missionTitle": {
           "type": "object",

@@ -1628,12 +1628,11 @@
       "title": "About Mission Dual Image",
       "componentPath": "blocks/about/about-mission-dual-image.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/308389/9oq326qg42j5zkulegwzmzwo96z5/about-mission-dual-image-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/308390/iy45mua9rkuxdnvjlnb6b9togzh3/about-mission-dual-image-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/314972/fq6d9oea9gqr3pd2xjyrrwdau9ii/about-mission-dual-image-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/314973/l0v0cqu788cvrgu8nkdlgxv6xta5/about-mission-dual-image-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
-      "demoPath": "src/blocks/about/about-mission-dual-image.tsx",
-      "importantUsageNotes": "If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+      "demoPath": "src/blocks/about/about-mission-dual-image.tsx"
     },
     "about-mission-features": {
       "title": "About Mission Features",
