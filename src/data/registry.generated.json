@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.14.11",
+    "version": "3.14.12",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-06T08:56:53.068Z",
+    "syncedAt": "2026-08-13T02:30:00.362Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -70546,8 +70546,8 @@
       "id": "article-split-animated",
       "name": "Article Split Animated",
       "title": "Article Split Animated",
-      "category": "Article",
-      "categorySlug": "article",
+      "category": "Blog",
+      "categorySlug": "blog",
       "description": "A visually striking split-layout article preview with Framer Motion animations. Features a large image on one side with a gradient overlay and category badge, and article details on the other side including title, description, author info, and CTA button. Ideal for featured article sections, hero posts, and content that needs to make a strong visual impact.",
       "thumbnail": {
         "desktop": "https://cdn.ing/assets/i/r/308418/gsryhfv3acwx0q9swvs9xtqp812w/article-split-animated-desktop.jpg",
