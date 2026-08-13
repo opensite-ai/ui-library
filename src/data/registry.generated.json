@@ -2,7 +2,7 @@
   "metadata": {
     "version": "3.14.13",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-13T12:24:02.576Z",
+    "syncedAt": "2026-08-13T21:16:26.421Z",
     "totalBlocks": 606
   },
   "blocks": [
@@ -68884,7 +68884,7 @@
       "categorySlug": "article",
       "description": "A comprehensive article layout featuring breadcrumb navigation, social sharing buttons, a sticky table of contents sidebar, and a floating back-to-top button. Includes author information with role, read time, and IntersectionObserver-based section tracking. Perfect for content-heavy articles that need robust navigation and sharing capabilities.",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/308375/3r23eff3qqdkxbrslswj69thjhbn/article-breadcrumb-social-desktop.jpg",
+        "desktop": "https://cdn.ing/assets/i/r/315794/w9lekutuqfeg0gnu960v21oigwdq/article-breadcrumb-social-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/308376/xazzewaq4iigv2q56le093rqrj2j/article-breadcrumb-social-mobile.jpg"
       },
       "componentPath": "blocks/article/article-breadcrumb-social.tsx",

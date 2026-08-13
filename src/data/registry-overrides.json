@@ -1814,7 +1814,7 @@
       "title": "Article Breadcrumb Social",
       "componentPath": "blocks/article/article-breadcrumb-social.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/308375/3r23eff3qqdkxbrslswj69thjhbn/article-breadcrumb-social-desktop.jpg",
+        "desktop": "https://cdn.ing/assets/i/r/315794/w9lekutuqfeg0gnu960v21oigwdq/article-breadcrumb-social-desktop.jpg",
         "mobile": "https://cdn.ing/assets/i/r/308376/xazzewaq4iigv2q56le093rqrj2j/article-breadcrumb-social-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
