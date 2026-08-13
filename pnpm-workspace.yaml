@@ -23,9 +23,10 @@ minimumReleaseAgeExclude:
   - "@page-speed/blocks"
   - "@page-speed/router"
   - "@page-speed/media-immersive"
-  - '@page-speed/pressable@0.1.1'
+  - '@page-speed/pressable@0.1.1 || 0.1.2'
   - '@page-speed/video@0.0.8 || 0.0.9'
   - '@page-speed/forms@0.8.3'
   - '@page-speed/img@0.4.10'
-  - '@page-speed/markdown-to-jsx@0.0.8'
+  - '@page-speed/markdown-to-jsx@0.0.8 || 0.0.9'
   - '@page-speed/skins@0.1.3'
+  - '@page-speed/social-share@0.1.8'
