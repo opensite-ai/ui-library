@@ -27,6 +27,6 @@ minimumReleaseAgeExclude:
   - '@page-speed/video@0.0.8 || 0.0.9'
   - '@page-speed/forms@0.8.3'
   - '@page-speed/img@0.4.10'
-  - '@page-speed/markdown-to-jsx@0.0.8 || 0.0.9'
+  - '@page-speed/markdown-to-jsx@0.0.8 || 0.0.9 || 0.0.10'
   - '@page-speed/skins@0.1.3'
   - '@page-speed/social-share@0.1.8'
