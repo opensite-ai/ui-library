@@ -20,6 +20,11 @@
  *     propsSchema/exampleProps/importantUsageNotes with no legacy
  *     defaultProps, and — for free-form-design — carry a complete className
  *     manifest covering designTree plus sectionClassName/containerClassName.
+ *     The manifest may be an inline `className="…"` literal or a single
+ *     static string const referenced as `className={IDENT}` (needed because
+ *     rich demos exceed octane's 1400-char example_code cap when the full
+ *     manifest is inlined in the JSX); either way it is resolved statically
+ *     and checked for exact token-set equality.
  *   - componentLoaders keys must all resolve to a registry block id.
  *   - Schema-wide invariants: the renamed `exampleProps` key replaces the
  *     legacy `defaultProps` key — neither block should still emit
@@ -771,14 +776,32 @@ for (const [id, expectedCategory] of Object.entries(EMBED_BLOCK_CATEGORIES)) {
 const freeForm = findBlock("free-form-design");
 if (freeForm) {
   const code = freeForm.code || "";
-  const manifestMatch = /\n\s+className="([^"]*)"/.exec(code);
+  // The manifest is either an inline string literal on the className prop, or
+  // a `className={IDENT}` reference to a single static string const declared
+  // in the demo (rich demos can't inline 1500+ manifest chars inside the JSX
+  // without blowing octane's 1400-char example_code cap checked above). Both
+  // forms resolve statically — dynamic expressions still fail the check.
+  let manifestValue = null;
+  const inlineMatch = /\n\s+className="([^"]*)"/.exec(code);
+  if (inlineMatch) {
+    manifestValue = inlineMatch[1];
+  } else {
+    const refMatch = /\n\s+className=\{([A-Za-z_$][\w$]*)\}/.exec(code);
+    if (refMatch) {
+      const constMatch = new RegExp(
+        `const\\s+${refMatch[1]}\\s*=\\s*"([^"]*)";`,
+      ).exec(code);
+      if (constMatch) manifestValue = constMatch[1];
+    }
+  }
   check(
     "free-form-design",
-    !!manifestMatch,
-    "demo must set the className manifest prop",
+    manifestValue !== null,
+    "demo must set the className manifest prop (inline literal, or a static " +
+      "string const referenced as className={IDENT})",
   );
-  if (manifestMatch) {
-    const manifest = classTokens(manifestMatch[1]);
+  if (manifestValue !== null) {
+    const manifest = classTokens(manifestValue);
     const section = (/sectionClassName="([^"]*)"/.exec(code) || ["", ""])[1];
     const container = (/containerClassName="([^"]*)"/.exec(code) || ["", ""])[1];
     const tree = [...code.matchAll(/className:\s*"([^"]*)"/g)]
