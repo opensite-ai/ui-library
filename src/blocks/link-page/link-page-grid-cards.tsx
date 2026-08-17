@@ -7,9 +7,11 @@ export default function Demo() {
       name="Marcus Chen"
       bio="Product Designer & Digital Artist"
       logo={{
+        url: "/",
         src: "https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp",
         alt: "Marcus Chen",
       }}
+      logoAspect="horizontal"
       socialLinks={[
         {
           id: "1",

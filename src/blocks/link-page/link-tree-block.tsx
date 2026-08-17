@@ -11,9 +11,11 @@ export default function Demo() {
         alt: "Creative Studio",
       }}
       logo={{
+        url: "/",
         src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
         alt: "Creative Studio",
       }}
+      logoAspect="horizontal"
       brandVerified={false}
       socialLinks={[
         {
