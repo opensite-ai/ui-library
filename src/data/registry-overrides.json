@@ -3695,8 +3695,8 @@
       "title": "Iframe Embed",
       "componentPath": "blocks/advanced/iframe-embed.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316266/ave5ucg3kc44zijjcb9ssh3rhpoc/iframe-embed-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316271/1qxs9nslqutvl1cudh4qyc0ne39y/iframe-embed-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/advanced/iframe-embed"
@@ -3705,8 +3705,8 @@
       "title": "Script Embed",
       "componentPath": "blocks/advanced/script-embed.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316267/xinz5cepqms1q6zryqukvzs0r5e3/script-embed-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316270/bzmwycxy85y9u529cdsdojr67k53/script-embed-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/advanced/script-embed"
@@ -3715,8 +3715,8 @@
       "title": "Free Form Design",
       "componentPath": "blocks/advanced/free-form-design.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316268/swkmya2orau3umgr8e4nl6i4ykio/free-form-design-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316269/vwkn8qfgzkbsgrucykhj21rscj94/free-form-design-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/advanced/free-form-design"
@@ -3725,8 +3725,8 @@
       "title": "Tripleseat Form",
       "componentPath": "blocks/integrations/tripleseat-form.tsx",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316265/o9yvfal1drb59lt1o7l7i4066cmg/tripleseat-form-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316264/z5bygxcpfnjbsd27ayn2l53lhn5p/tripleseat-form-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/integrations/tripleseat-form"

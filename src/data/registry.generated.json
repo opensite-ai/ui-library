@@ -2,7 +2,7 @@
   "metadata": {
     "version": "3.15.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-17T04:39:05.763Z",
+    "syncedAt": "2026-08-17T10:12:51.917Z",
     "totalBlocks": 610
   },
   "blocks": [
@@ -14,8 +14,8 @@
       "categorySlug": "advanced",
       "description": "Embeds a third-party page the site owner supplied — a map, reservation or booking widget, event calendar, ticketing page, online ordering storefront, or an externally hosted video — inside the standard section chrome. Lazy-loads by default and offers aspect-ratio, fixed-height, or full-screen containment. Only use it when the user actually pasted embed code or an embed URL.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316266/ave5ucg3kc44zijjcb9ssh3rhpoc/iframe-embed-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316271/1qxs9nslqutvl1cudh4qyc0ne39y/iframe-embed-mobile.jpg"
       },
       "componentPath": "blocks/advanced/iframe-embed.tsx",
       "code": "import { IframeEmbed } from \"@opensite/ui/blocks/advanced/iframe-embed\";\n\n// Parsed form: take the `src` out of the owner's embed code and put it in\n// `embedUrl` verbatim. `embedTitle` is the frame's accessible name (required\n// whenever `embedUrl` is set).\nexport default function Demo() {\n  return (\n    // Showcase-only: `loadingStrategy=\"eager\"` is set so this static preview\n    // paints the frame without waiting on the viewport observer. On a real page\n    // omit the prop — it defaults to \"lazy\" — and use \"eager\" only when the\n    // embed is above the fold.\n    <IframeEmbed\n      title=\"Find Us\"\n      subtitle=\"Visit\"\n      embedUrl=\"https://www.openstreetmap.org/export/embed.html?bbox=-87.6360%2C41.8760%2C-87.6120%2C41.8900&layer=mapnik\"\n      embedTitle=\"Map showing the restaurant location\"\n      loadingStrategy=\"eager\"\n      containMode=\"aspect-ratio\"\n      aspectRatio=\"16:9\"\n      referrerPolicy=\"strict-origin-when-cross-origin\"\n      iframeClassName=\"rounded-2xl border border-border\"\n    />\n  );\n}\n",
@@ -328,8 +328,8 @@
       "categorySlug": "advanced",
       "description": "Runs a third-party JavaScript widget snippet the site owner supplied — chat widget, menu embed, booking engine, review or loyalty widget — inside the standard section chrome. Guarantees load order (companion markup, then stylesheets, then scripts, then inline code), deduplicates across re-mounts, and can contain legacy document.write output. Only use it when the user actually pasted a script snippet.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316267/xinz5cepqms1q6zryqukvzs0r5e3/script-embed-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316270/bzmwycxy85y9u529cdsdojr67k53/script-embed-mobile.jpg"
       },
       "componentPath": "blocks/advanced/script-embed.tsx",
       "code": "import { ScriptEmbed } from \"@opensite/ui/blocks/advanced/script-embed\";\n\n// Self-contained demo of the load-order contract: `companionHtml` is in the DOM\n// before anything executes, so the inline script always finds its mount point.\n// A real embed splits the owner's snippet across the props — `<script src>` goes\n// in `scriptUrl` (further ones in `additionalScriptUrls`), and the body of an\n// inline `<script>` goes in `inlineScriptHtml` WITHOUT the surrounding tags.\n//\n// EXTRACTOR CONSTRAINT (enforced by scripts/verify-registry-contract.mjs):\n// the registry `code` below is republished as the canonical example, sliced\n// from the returned JSX and cut at the FIRST close-paren-then-semicolon pair.\n// The inline script therefore relies on automatic semicolon insertion instead\n// of ending a statement immediately after a closing parenthesis.\nexport default function Demo() {\n  return (\n    <ScriptEmbed\n      title=\"Our Menu\"\n      subtitle=\"Script Embed\"\n      companionHtml={\n        '<div id=\"os-script-embed-demo\" class=\"rounded-xl border border-border p-8 text-center text-muted-foreground\">Companion markup rendered. Waiting for the script…</div>'\n      }\n      inlineScriptHtml={\n        'var el = document.getElementById(\"os-script-embed-demo\")\\n' +\n        'if (el) { el.textContent = \"The inline script ran and found its container.\" }'\n      }\n      scriptKey=\"opensite-showcase-script-embed-demo\"\n      loadStrategy=\"afterInteractive\"\n      containMode=\"auto\"\n    />\n  );\n}\n",
@@ -627,8 +627,8 @@
       "categorySlug": "advanced",
       "description": "Renders a fully custom, AI-authored design from a constrained JSON node tree inside a standard Section wrapper. LAST RESORT — use only when the user explicitly asks for a bespoke or cloned layout that no existing block can express. Supports allowlisted HTML/SVG structure plus Pressable/Img/Video component nodes, styled entirely with Tailwind classes.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316268/swkmya2orau3umgr8e4nl6i4ykio/free-form-design-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316269/vwkn8qfgzkbsgrucykhj21rscj94/free-form-design-mobile.jpg"
       },
       "componentPath": "blocks/advanced/free-form-design.tsx",
       "code": "import { FreeFormDesign } from \"@opensite/ui/blocks/advanced/free-form-design\";\n\n// `className` is the CLASS MANIFEST (applied to nothing): it must list every\n// Tailwind token used anywhere in this block — every `className` inside\n// `designTree` PLUS every token in `sectionClassName`/`containerClassName`,\n// because the live-site safelist compiler only scans this one prop. Style the\n// Section via `sectionClassName`. Links = Pressable nodes, images = Img nodes\n// (https only).\nexport default function Demo() {\n  return (\n    <FreeFormDesign\n      sectionId=\"events\"\n      sectionClassName=\"bg-secondary text-secondary-foreground\"\n      className=\"bg-secondary text-secondary-foreground grid gap-10 md:grid-cols-2 items-center space-y-4 text-4xl font-bold text-lg opacity-90 w-full rounded-2xl object-cover\"\n      designTree={{\n        tag: \"div\",\n        className: \"grid gap-10 md:grid-cols-2 items-center\",\n        children: [\n          {\n            tag: \"div\",\n            className: \"space-y-4\",\n            children: [\n              { tag: \"h2\", className: \"text-4xl font-bold\", children: [\"Private Events\"] },\n              { tag: \"p\", className: \"text-lg opacity-90\", children: [\"Book the room for up to 60 guests.\"] },\n              { tag: \"Pressable\", attrs: { href: \"/contact\", variant: \"default\", size: \"lg\" }, children: [\"Request a date\"] },\n            ],\n          },\n          { tag: \"Img\", className: \"w-full rounded-2xl object-cover\", attrs: { src: \"https://cdn.ing/assets/i/r/289165/py905nlu0any8riaohkf5ervr3m8/gourmet-asparagus-crostini-on-white-plate-marble-table.jpg\", alt: \"Dining room\" } },\n        ],\n      }}\n    />\n  );\n}\n",
@@ -954,8 +954,8 @@
       "categorySlug": "integrations",
       "description": "Embeds the client's own TripleSeat lead/inquiry form, branded to match the site. Use only when the client has supplied their TripleSeat embed script; the block extracts lead_form_id and public_key from that script URL. Includes a bounded wait with a visible fallback (business phone/email plus a retry) so a form that fails to load never silently costs the client a booking.",
       "thumbnail": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "https://cdn.ing/assets/i/r/316265/o9yvfal1drb59lt1o7l7i4066cmg/tripleseat-form-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316264/z5bygxcpfnjbsd27ayn2l53lhn5p/tripleseat-form-mobile.jpg"
       },
       "componentPath": "blocks/integrations/tripleseat-form.tsx",
       "code": "import { TripleseatForm } from \"@opensite/ui/blocks/integrations/tripleseat-form\";\n\n// `leadFormId` and `publicKey` are the two query-parameter values from the\n// client's own TripleSeat script tag —\n// https://api.tripleseat.com/v1/leads/ts_script.js?lead_form_id=…&public_key=…\n// Copy them verbatim; the values below are fake placeholders that match the\n// library's own example props.\nexport default function Demo() {\n  return (\n    // Showcase-only: `recaptchaTimeoutSeconds={5}` lets this public demo settle\n    // into the honest degraded state instead of spinning on a form whose fake\n    // credentials can never load. Real sites omit the prop — the default is 30\n    // seconds, and a shorter deadline shows visitors a false failure banner\n    // while the third-party script is still loading.\n    <TripleseatForm\n      title=\"Plan Your Private Event\"\n      subtitle=\"Inquiries\"\n      leadFormId=\"12345\"\n      publicKey=\"your-tripleseat-public-key\"\n      recaptchaTimeoutSeconds={5}\n      degradedTitle=\"The booking form isn't loading\"\n      degradedMessage=\"Reach our events team directly and we'll get straight back to you.\"\n      contactPhone=\"(555) 010-4477\"\n      contactEmail=\"events@example.com\"\n      retryLabel=\"Try loading the form again\"\n      successTitle=\"Request received\"\n      successMessage=\"Our events team will follow up within one business day.\"\n    />\n  );\n}\n",
