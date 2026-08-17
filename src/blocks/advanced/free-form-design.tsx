@@ -22,10 +22,9 @@ import { igPosts } from "@/lib/media";
 //   tokens, so each class gets a compiled CSS rule on live customer sites. It
 //   is kept as the static CLASS_MANIFEST literal below so the registry
 //   contract can verify completeness (scripts/verify-registry-contract.mjs
-//   recomputes the expected set on every sync). To regenerate after editing
-//   the tree: collectFreeFormClassNames(designTree, { extraClassNames:
-//   [sectionClassName, containerClassName] }).join(" ") from
-//   @opensite/ui/blocks/advanced/free-form-design.
+//   recomputes the expected set on every sync). After ANY edit to the tree,
+//   sectionClassName or containerClassName, regenerate it with:
+//   `pnpm sync:free-form-manifest` (then review the added tokens).
 // - Edge-to-edge layout = `spacing="none"` + `containerMaxWidth="full"` +
 //   zeroed container gutters (mirrored into the manifest automatically here).
 // ---------------------------------------------------------------------------
@@ -79,8 +78,7 @@ const stat = (value: string, label: string): FreeFormNode => ({
     },
     {
       tag: "p",
-      className:
-        "mt-1 text-[11px] uppercase tracking-[0.2em] text-white/50",
+      className: "mt-1 text-[11px] uppercase tracking-[0.2em] text-white/50",
       children: [label],
     },
   ],
@@ -93,7 +91,7 @@ const editorialCard = (
 ): FreeFormNode => ({
   tag: "Pressable",
   className:
-    "group flex items-center justify-between gap-6 px-6 py-6 text-left transition-colors hover:bg-white/5 lg:px-10",
+    "group flex items-center justify-between gap-6 px-6 py-6 text-left transition-colors hover:bg-white/5 lg:px-10 border border-white/30",
   attrs: { href },
   children: [
     {
@@ -281,63 +279,11 @@ const designTree: FreeFormNode = {
             },
             {
               tag: "div",
-              className:
-                "mt-10 flex flex-wrap items-center gap-x-12 gap-y-6",
+              className: "mt-10 flex flex-wrap items-center gap-x-12 gap-y-6",
               children: [
                 stat("7", "Courses, chef's pace"),
                 stat("60", "Seats in the cellar"),
                 stat("2 AM", "Last nightcap poured"),
-              ],
-            },
-          ],
-        },
-        {
-          tag: "div",
-          className: "flex flex-col gap-7 lg:col-span-5 lg:items-end",
-          children: [
-            {
-              tag: "p",
-              className:
-                "max-w-md text-base leading-relaxed text-white/80 sm:text-lg lg:text-right",
-              children: [
-                "A subterranean tasting counter, a vaulted cellar for private dinners, and a bar that keeps pouring long after the kitchen takes its bow.",
-              ],
-            },
-            {
-              tag: "div",
-              className: "flex flex-wrap gap-3 lg:justify-end",
-              children: [
-                {
-                  tag: "Pressable",
-                  className: "rounded-full px-8",
-                  attrs: {
-                    href: "/reservations",
-                    variant: "default",
-                    size: "lg",
-                  },
-                  children: ["Reserve a table"],
-                },
-                {
-                  tag: "Pressable",
-                  className:
-                    "rounded-full border-white/25 bg-white/5 px-8 text-white backdrop-blur hover:bg-white/10 hover:text-white",
-                  attrs: { href: "/menu", variant: "outline", size: "lg" },
-                  children: ["Explore the menu"],
-                },
-              ],
-            },
-            {
-              tag: "p",
-              className: "text-xs text-white/50 lg:text-right",
-              children: [
-                "Walk-ins welcome at the bar · Parties of 8+, ",
-                {
-                  tag: "Pressable",
-                  className:
-                    "underline underline-offset-4 transition-colors hover:text-amber-300",
-                  attrs: { href: "events@hearthandember.com" },
-                  children: ["email the events team"],
-                },
               ],
             },
           ],
@@ -348,7 +294,7 @@ const designTree: FreeFormNode = {
     {
       tag: "nav",
       className:
-        "relative z-10 border-t border-white/10 bg-zinc-950/60 backdrop-blur-md",
+        "relative z-10 border-t border-white/30 bg-zinc-950/60 backdrop-blur-md",
       attrs: { "aria-label": "Featured experiences" },
       children: [
         {
@@ -380,10 +326,10 @@ const designTree: FreeFormNode = {
 
 // Class manifest — verified against the tree + section/container tokens by
 // scripts/verify-registry-contract.mjs. Regenerate with
-// collectFreeFormClassNames (see header comment) whenever classes change.
+// `pnpm sync:free-form-manifest` whenever classes change.
 // prettier-ignore
 const CLASS_MANIFEST =
-  "-mt-14 -rotate-6 absolute animate-pulse aspect-[3/4] aspect-[4/5] backdrop-blur backdrop-blur-md bg-amber-400 bg-black/60 bg-gradient-to-r bg-gradient-to-t bg-red-400 bg-white/5 bg-zinc-900 bg-zinc-950 bg-zinc-950/60 border border-t border-white/10 border-white/15 border-white/25 divide-white/10 divide-y flex flex-1 flex-col flex-wrap font-black font-medium font-semibold font-serif from-zinc-950 from-zinc-950/80 gap-12 gap-2 gap-2.5 gap-3 gap-6 gap-7 gap-x-12 gap-y-6 grid group group-hover:text-amber-300 group-hover:translate-x-1 h-1.5 h-4 h-5 h-full hidden hover:bg-white/10 hover:bg-white/5 hover:text-amber-300 hover:text-white inline-flex inset-0 inset-x-0 italic items-center justify-between leading-[0.95] leading-none leading-relaxed left-4 lg:col-span-5 lg:col-span-7 lg:gap-8 lg:grid-cols-12 lg:items-end lg:justify-end lg:pt-12 lg:px-0 lg:px-10 lg:px-14 lg:text-right max-w-md mb-6 md:block min-h-[100svh] ml-auto mr-56 mt-1 mt-10 object-center object-cover overflow-hidden pb-14 pointer-events-none pt-24 pt-8 px-0 px-3 px-4 px-6 px-8 py-1 py-2 py-6 relative right-12 rotate-2 rounded-2xl rounded-3xl rounded-full select-none shadow-2xl shadow-black/50 shadow-black/60 shadow-xl shrink-0 sm:block sm:divide-x sm:divide-y-0 sm:grid-cols-3 sm:px-0 sm:text-3xl sm:text-7xl sm:text-lg text-2xl text-5xl text-[10px] text-[11px] text-[17vw] text-amber-200 text-amber-300 text-amber-300/90 text-base text-center text-left text-sm text-white text-white/40 text-white/50 text-white/55 text-white/60 text-white/80 text-white/90 text-white/[0.04] text-xs to-zinc-950/25 to-zinc-950/50 top-16 top-28 top-4 tracking-[0.18em] tracking-[0.2em] tracking-[0.3em] tracking-tight tracking-tighter transition-all transition-colors underline underline-offset-4 uppercase via-transparent via-zinc-950/55 w-1.5 w-4 w-44 w-5 w-72 w-full xl:block xl:text-8xl z-10";
+  "-mt-14 -rotate-6 absolute animate-pulse aspect-[3/4] aspect-[4/5] backdrop-blur backdrop-blur-md bg-amber-400 bg-black/60 bg-gradient-to-r bg-gradient-to-t bg-red-400 bg-white/5 bg-zinc-900 bg-zinc-950 bg-zinc-950/60 border border-t border-white/15 border-white/30 divide-white/10 divide-y flex flex-1 flex-col flex-wrap font-black font-medium font-semibold font-serif from-zinc-950 from-zinc-950/80 gap-12 gap-2 gap-2.5 gap-3 gap-6 gap-x-12 gap-y-6 grid group group-hover:text-amber-300 group-hover:translate-x-1 h-1.5 h-4 h-5 h-full hidden hover:bg-white/5 inline-flex inset-0 inset-x-0 italic items-center justify-between leading-[0.95] leading-none leading-relaxed left-4 lg:col-span-7 lg:gap-8 lg:grid-cols-12 lg:items-end lg:pt-12 lg:px-0 lg:px-10 lg:px-14 mb-6 md:block min-h-[100svh] ml-auto mr-56 mt-1 mt-10 object-center object-cover overflow-hidden pb-14 pointer-events-none pt-24 pt-8 px-0 px-3 px-4 px-6 py-1 py-2 py-6 relative right-12 rotate-2 rounded-2xl rounded-3xl rounded-full select-none shadow-2xl shadow-black/50 shadow-black/60 shadow-xl shrink-0 sm:block sm:divide-x sm:divide-y-0 sm:grid-cols-3 sm:px-0 sm:text-3xl sm:text-7xl text-2xl text-5xl text-[10px] text-[11px] text-[17vw] text-amber-200 text-amber-300 text-amber-300/90 text-center text-left text-sm text-white text-white/40 text-white/50 text-white/55 text-white/60 text-white/90 text-white/[0.04] text-xs to-zinc-950/25 to-zinc-950/50 top-16 top-28 top-4 tracking-[0.18em] tracking-[0.2em] tracking-[0.3em] tracking-tight tracking-tighter transition-all transition-colors uppercase via-transparent via-zinc-950/55 w-1.5 w-4 w-44 w-5 w-72 w-full xl:block xl:text-8xl z-10";
 
 export default function Demo() {
   return (

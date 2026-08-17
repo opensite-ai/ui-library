@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "eslint",
     "sync:registry": "node scripts/sync-registry.mjs",
+    "sync:free-form-manifest": "node scripts/sync-free-form-manifest.mjs",
     "verify:registry-contract": "node scripts/verify-registry-contract.mjs",
     "prepublishOnly": "pnpm sync:registry && pnpm verify:registry-contract"
   },
