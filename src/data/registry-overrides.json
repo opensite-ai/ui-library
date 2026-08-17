@@ -3690,6 +3690,46 @@
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/testimonials/testimonials-wall-compact",
       "importantUsageNotes": "DO NOT generate or guess testimonials, reviews, ratings, customer names, company logos, or any review content — only use real, verified testimonials and customer data from the system. If the site has no real testimonials in the system, DO NOT use this block. This is a dense wall-of-love layout; supply 9-12 testimonials in the 'testimonials' array (the demo uses 12) to achieve the full wall effect. Each item supports 'handle' (social media handle, e.g. '@username') and 'badge' (a label like 'Featured' or 'Verified') — only include real handles and only mark items as 'Verified' if they are genuinely verified in the system. All 'quote', 'author', and 'avatarSrc' values must be real, verified data. If you supply multiple 'actions', ensure to use a variant of 'default' for the first action, and 'outline' for the second action to ensure proper visual distinction between the two CTAs. Follow the example props closely for this block."
+    },
+    "iframe-embed": {
+      "title": "Iframe Embed",
+      "componentPath": "blocks/advanced/iframe-embed.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/advanced/iframe-embed"
+    },
+    "script-embed": {
+      "title": "Script Embed",
+      "componentPath": "blocks/advanced/script-embed.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/advanced/script-embed"
+    },
+    "free-form-design": {
+      "title": "Free Form Design",
+      "componentPath": "blocks/advanced/free-form-design.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/advanced/free-form-design"
+    },
+    "tripleseat-form": {
+      "title": "Tripleseat Form",
+      "componentPath": "blocks/integrations/tripleseat-form.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/integrations/tripleseat-form"
     }
   }
 }

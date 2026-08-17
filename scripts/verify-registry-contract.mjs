@@ -13,6 +13,14 @@
  *     projection.
  *   - about and article category blocks: generated API code must not contain
  *     placeholder media variables or relative image paths.
+ *   - iframe-embed, script-embed, free-form-design, tripleseat-form: the
+ *     generated `code` must survive octane's example_code extractor intact
+ *     (single `return (` marker, no early `);` sever, under the 1400-char
+ *     cap, no dropped props), reference https media only, ship a non-empty
+ *     propsSchema/exampleProps/importantUsageNotes with no legacy
+ *     defaultProps, and — for free-form-design — carry a complete className
+ *     manifest covering designTree plus sectionClassName/containerClassName.
+ *   - componentLoaders keys must all resolve to a registry block id.
  *   - Schema-wide invariants: the renamed `exampleProps` key replaces the
  *     legacy `defaultProps` key — neither block should still emit
  *     `defaultProps`.
@@ -613,6 +621,207 @@ if (hmvs) {
   );
 }
 
+// ---------- advanced + integrations embed blocks ----------
+// These four blocks are republished by octane as the AI agent's canonical
+// worked example (context_adapters.example_code), so the generated `code`
+// field has to survive octane's extractor intact. The assertions below mirror
+// octane/src/services/component_registry.rs:
+//   - sanitize_showcase_example_code(): slice after the FIRST "return (",
+//     cut at the FIRST ");" pair, cap at MAX_EXAMPLE_CODE_CHARS = 1400.
+//   - example_code_has_unsafe_media_markers(): drop the field entirely when
+//     demo-only placeholder media is referenced.
+const MAX_EXAMPLE_CODE_CHARS = 1400;
+const RETURN_MARKER = "return (";
+const EXAMPLE_CUT_MARKER = ");";
+
+const EMBED_BLOCK_CATEGORIES = {
+  "iframe-embed": "advanced",
+  "script-embed": "advanced",
+  "free-form-design": "advanced",
+  "tripleseat-form": "integrations",
+};
+
+/** Mirror of octane's sanitize_showcase_example_code. */
+function sanitizeExampleCode(code) {
+  const raw = (code || "").trim();
+  if (!raw) return null;
+  const markerIndex = raw.indexOf(RETURN_MARKER);
+  let body =
+    markerIndex === -1 ? raw : raw.slice(markerIndex + RETURN_MARKER.length);
+  const cutIndex = body.indexOf(EXAMPLE_CUT_MARKER);
+  if (cutIndex !== -1) body = body.slice(0, cutIndex);
+  const trimmed = body.trim();
+  if (!trimmed) return null;
+  const chars = [...trimmed];
+  if (chars.length <= MAX_EXAMPLE_CODE_CHARS) {
+    return { excerpt: trimmed, chars: chars.length, truncated: false };
+  }
+  return {
+    excerpt: chars.slice(0, MAX_EXAMPLE_CODE_CHARS).join(""),
+    chars: chars.length,
+    truncated: true,
+  };
+}
+
+/** Mirror of octane's example_code_has_unsafe_media_markers. */
+function hasUnsafeMediaMarkers(code) {
+  if (/imagePlaceholders|videoPlaceholders|brandLogoPlaceholders/.test(code)) {
+    return true;
+  }
+  return /["'](?:\/images\/|\/videos\/|\/img\/|\/media\/)/.test(code);
+}
+
+/** Top-level JSX prop names written on their own line in the demo source. */
+function jsxPropNames(code) {
+  return [...code.matchAll(/\n\s+([A-Za-z][A-Za-z0-9]*)=[{"]/g)].map(
+    (m) => m[1],
+  );
+}
+
+function classTokens(value) {
+  return new Set((value || "").split(/\s+/).filter(Boolean));
+}
+
+for (const [id, expectedCategory] of Object.entries(EMBED_BLOCK_CATEGORIES)) {
+  const block = findBlock(id);
+  if (!block) continue;
+
+  const code = block.code || "";
+
+  check(
+    id,
+    block.categorySlug === expectedCategory,
+    `categorySlug should be '${expectedCategory}', got '${block.categorySlug}'`,
+  );
+  check(id, code.trim().length > 0, "generated 'code' must not be empty");
+  check(
+    id,
+    !!block.propsSchema && Object.keys(block.propsSchema).length > 0,
+    "propsSchema missing or empty",
+  );
+  check(
+    id,
+    !!block.exampleProps && Object.keys(block.exampleProps).length > 0,
+    "exampleProps missing or empty",
+  );
+  check(
+    id,
+    !("defaultProps" in block),
+    "legacy defaultProps key must not be present",
+  );
+  check(
+    id,
+    typeof block.importantUsageNotes === "string" &&
+      block.importantUsageNotes.trim().length > 0,
+    "importantUsageNotes missing or empty",
+  );
+  check(
+    id,
+    !hasUnsafeMediaMarkers(code),
+    "code contains demo-only media markers — octane would drop example_code",
+  );
+  check(
+    id,
+    !/["']http:\/\//.test(code),
+    "code must only reference https:// URLs",
+  );
+
+  // The extraction marker must appear exactly once, otherwise the excerpt
+  // starts inside a comment that merely mentions it.
+  check(
+    id,
+    code.split(RETURN_MARKER).length === 2,
+    `code must contain the '${RETURN_MARKER}' extraction marker exactly once`,
+  );
+
+  const sanitized = sanitizeExampleCode(code);
+  check(id, !!sanitized, "sanitized example excerpt is empty");
+  if (!sanitized) continue;
+
+  check(
+    id,
+    !sanitized.truncated,
+    `sanitized example excerpt is ${sanitized.chars} chars, over octane's ${MAX_EXAMPLE_CODE_CHARS}-char cap`,
+  );
+  check(
+    id,
+    sanitized.excerpt.includes("/>"),
+    "sanitized example excerpt is severed before the component's closing '/>' " +
+      `(a '${EXAMPLE_CUT_MARKER}' pair appears inside the demo JSX)`,
+  );
+  check(
+    id,
+    (sanitized.excerpt.match(/\{/g) || []).length ===
+      (sanitized.excerpt.match(/\}/g) || []).length,
+    "sanitized example excerpt has unbalanced braces — it was cut mid-prop",
+  );
+
+  for (const propName of jsxPropNames(code)) {
+    check(
+      id,
+      sanitized.excerpt.includes(`${propName}=`),
+      `prop '${propName}' is dropped from the sanitized example excerpt`,
+    );
+  }
+}
+
+// free-form-design: `className` is a class MANIFEST, and the live-site safelist
+// compiler only scans that one prop. It must therefore list every token used in
+// designTree plus sectionClassName/containerClassName.
+const freeForm = findBlock("free-form-design");
+if (freeForm) {
+  const code = freeForm.code || "";
+  const manifestMatch = /\n\s+className="([^"]*)"/.exec(code);
+  check(
+    "free-form-design",
+    !!manifestMatch,
+    "demo must set the className manifest prop",
+  );
+  if (manifestMatch) {
+    const manifest = classTokens(manifestMatch[1]);
+    const section = (/sectionClassName="([^"]*)"/.exec(code) || ["", ""])[1];
+    const container = (/containerClassName="([^"]*)"/.exec(code) || ["", ""])[1];
+    const tree = [...code.matchAll(/className:\s*"([^"]*)"/g)]
+      .map((m) => m[1])
+      .join(" ");
+    const expected = classTokens(`${section} ${container} ${tree}`);
+
+    const missing = [...expected].filter((t) => !manifest.has(t));
+    const extra = [...manifest].filter((t) => !expected.has(t));
+    check(
+      "free-form-design",
+      missing.length === 0,
+      `className manifest is missing tokens used in the tree/section: ${missing.join(", ")}`,
+    );
+    check(
+      "free-form-design",
+      extra.length === 0,
+      `className manifest lists tokens used nowhere in the block: ${extra.join(", ")}`,
+    );
+  }
+}
+
+// ---------- componentLoaders <-> block id agreement ----------
+const componentRegistrySource = fs.readFileSync(
+  path.join(repoRoot, "src", "lib", "component-registry.ts"),
+  "utf-8",
+);
+const loaderKeys = [
+  ...componentRegistrySource.matchAll(
+    /^\s{2}"([A-Za-z0-9-]+)":\s*\(\)\s*=>/gm,
+  ),
+].map((m) => m[1]);
+const registryIds = new Set(registry.blocks.map((b) => b.id));
+const orphanLoaders = loaderKeys.filter((k) => !registryIds.has(k));
+if (orphanLoaders.length > 0) {
+  record(
+    `componentLoaders has ${orphanLoaders.length} key(s) with no matching block id (loadComponent would silently return null): ${orphanLoaders.slice(0, 5).join(", ")}`,
+  );
+}
+for (const id of Object.keys(EMBED_BLOCK_CATEGORIES)) {
+  check(id, loaderKeys.includes(id), "missing a componentLoaders entry");
+}
+
 // ---------- Schema-wide invariants ----------
 const stillUsingDefaultProps = registry.blocks.filter(
   (b) => "defaultProps" in b,
@@ -633,5 +842,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  "registry contract verification OK (about/article generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; no legacy defaultProps remain).",
+  "registry contract verification OK (about/article generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; iframe-embed/script-embed/free-form-design/tripleseat-form example-code extraction survival, https-only media, propsSchema + exampleProps present, free-form className manifest completeness; componentLoaders/block-id agreement; no legacy defaultProps remain).",
 );

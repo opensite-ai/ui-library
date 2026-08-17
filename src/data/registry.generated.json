@@ -1,11 +1,1242 @@
 {
   "metadata": {
-    "version": "3.14.15",
+    "version": "3.15.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-16T10:46:42.431Z",
-    "totalBlocks": 606
+    "syncedAt": "2026-08-17T04:39:05.763Z",
+    "totalBlocks": 610
   },
   "blocks": [
+    {
+      "id": "iframe-embed",
+      "name": "Iframe Embed",
+      "title": "Iframe Embed",
+      "category": "Advanced",
+      "categorySlug": "advanced",
+      "description": "Embeds a third-party page the site owner supplied — a map, reservation or booking widget, event calendar, ticketing page, online ordering storefront, or an externally hosted video — inside the standard section chrome. Lazy-loads by default and offers aspect-ratio, fixed-height, or full-screen containment. Only use it when the user actually pasted embed code or an embed URL.",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "componentPath": "blocks/advanced/iframe-embed.tsx",
+      "code": "import { IframeEmbed } from \"@opensite/ui/blocks/advanced/iframe-embed\";\n\n// Parsed form: take the `src` out of the owner's embed code and put it in\n// `embedUrl` verbatim. `embedTitle` is the frame's accessible name (required\n// whenever `embedUrl` is set).\nexport default function Demo() {\n  return (\n    // Showcase-only: `loadingStrategy=\"eager\"` is set so this static preview\n    // paints the frame without waiting on the viewport observer. On a real page\n    // omit the prop — it defaults to \"lazy\" — and use \"eager\" only when the\n    // embed is above the fold.\n    <IframeEmbed\n      title=\"Find Us\"\n      subtitle=\"Visit\"\n      embedUrl=\"https://www.openstreetmap.org/export/embed.html?bbox=-87.6360%2C41.8760%2C-87.6120%2C41.8900&layer=mapnik\"\n      embedTitle=\"Map showing the restaurant location\"\n      loadingStrategy=\"eager\"\n      containMode=\"aspect-ratio\"\n      aspectRatio=\"16:9\"\n      referrerPolicy=\"strict-origin-when-cross-origin\"\n      iframeClassName=\"rounded-2xl border border-border\"\n    />\n  );\n}\n",
+      "propsSchema": {
+        "embedUrl": {
+          "type": "string",
+          "description": "URL of the page to embed in an iframe. Copy the `src` value out of the\nembed code the site owner supplied, EXACTLY as given. Must be an absolute\nhttps URL. Never invent, shorten, or \"correct\" this URL.\n\nOnly `http:` and `https:` URLs are rendered — anything else (`javascript:`,\n`data:`, protocol-relative, relative) is treated as if no URL were supplied,\nbecause an iframe `src` executes in this document's origin.",
+          "required": false
+        },
+        "embedHtml": {
+          "type": "string",
+          "description": "Raw embed markup escape hatch, used only when the third party's snippet\ncannot be expressed as a single iframe URL. Paste the owner's markup\nverbatim.\n\nSECURITY: this markup is inserted verbatim and CAN execute. Bare `<script>`\ntags do not run (innerHTML semantics), which is why script-based widgets\nstill belong in `advanced/script-embed` — but inline event handlers\n(`onerror`, `onload`) and `<iframe srcdoc>` DO run, same-origin. Treat this\nprop as owner-trusted code, the same trust class as\n`script-embed`'s `inlineScriptHtml`; never populate it from scraped,\nmodel-authored, or otherwise non-owner content.\n\nWhen `embedUrl` is also present, `embedUrl` wins and this value is ignored.",
+          "required": false
+        },
+        "embedTitle": {
+          "type": "string",
+          "description": "Accessible name for the iframe (rendered as the `title` attribute).\nRequired whenever `embedUrl` is set — screen readers announce it as the\nframe's label. Describe the embedded content, e.g. \"Online reservation form\".",
+          "required": false
+        },
+        "allowAttributes": {
+          "type": "string",
+          "description": "Value for the iframe `allow` attribute (feature policy), copied from the\nowner's embed code, e.g. \"accelerometer; encrypted-media; picture-in-picture\".\nOmit when the embed code did not include one.",
+          "required": false
+        },
+        "sandboxAttributes": {
+          "type": "string",
+          "description": "Value for the iframe `sandbox` attribute, e.g.\n\"allow-scripts allow-same-origin allow-forms\". When omitted the attribute is\nnot rendered at all (an empty sandbox attribute blocks nearly everything).",
+          "required": false
+        },
+        "referrerPolicy": {
+          "type": "string",
+          "description": "Value for the iframe `referrerpolicy` attribute.",
+          "typeLabel": "\"no-referrer\" | \"no-referrer-when-downgrade\" | \"origin\" | \"origin-when-cross-origin\" | \"same-origin\" | \"strict-origin\" | \"strict-origin-when-cross-origin\" | \"unsafe-url\"",
+          "enum": [
+            "no-referrer",
+            "no-referrer-when-downgrade",
+            "origin",
+            "origin-when-cross-origin",
+            "same-origin",
+            "strict-origin",
+            "strict-origin-when-cross-origin",
+            "unsafe-url"
+          ],
+          "required": false
+        },
+        "loadingStrategy": {
+          "type": "string",
+          "description": "\"lazy\" (default) defers mounting the embed until it is within 200px of the\nviewport and also sets the native `loading=\"lazy\"` attribute. Use \"eager\"\nonly for an embed that is above the fold on first paint.",
+          "typeLabel": "\"lazy\" | \"eager\"",
+          "enum": [
+            "lazy",
+            "eager"
+          ],
+          "required": false
+        },
+        "containMode": {
+          "type": "string",
+          "description": "How the embed is sized. \"aspect-ratio\" (default) keeps a responsive ratio,\n\"fixed-height\" pins a pixel height (use for forms and calendars that scroll\ninternally), \"full-screen\" fills the viewport edge to edge.",
+          "typeLabel": "\"aspect-ratio\" | \"fixed-height\" | \"full-screen\"",
+          "enum": [
+            "aspect-ratio",
+            "fixed-height",
+            "full-screen"
+          ],
+          "required": false
+        },
+        "aspectRatio": {
+          "type": "string",
+          "description": "Ratio used when `containMode=\"aspect-ratio\"`. Use \"custom\" together with\n`customAspectRatio` for anything not in this list. A value outside this\nlist falls back to \"16:9\" rather than collapsing the frame.",
+          "typeLabel": "\"16:9\" | \"4:3\" | \"1:1\" | \"9:16\" | \"21:9\" | \"custom\"",
+          "enum": [
+            "16:9",
+            "4:3",
+            "1:1",
+            "9:16",
+            "21:9",
+            "custom"
+          ],
+          "required": false
+        },
+        "customAspectRatio": {
+          "type": "string",
+          "description": "CSS aspect-ratio value used when `aspectRatio=\"custom\"`, e.g. \"5 / 4\".\nBlank or missing falls back to 16:9.",
+          "required": false
+        },
+        "fixedHeight": {
+          "type": "string",
+          "description": "CSS height used when `containMode=\"fixed-height\"`, e.g. \"640px\".\nDefaults to \"600px\". A unitless value (\"640\") is read as pixels.",
+          "required": false
+        },
+        "iframeClassName": {
+          "type": "string",
+          "description": "Additional CSS classes applied to the iframe element (parsed `embedUrl`\npath) or to the wrapper around the pasted markup (`embedHtml` path).\n\nKeep these to utilities the library already uses: live-site CSS is\nsafelist-compiled from `className`-keyed block props plus the class strings\nshipped in `dist`, so a one-off utility written only into this prop can be\nmissing from the customer stylesheet. Mirror anything exotic into\n`className` (which IS collected) instead.",
+          "required": false
+        },
+        "emptyStateLabel": {
+          "type": "string",
+          "description": "Short line shown in place of the embed when no `embedUrl`/`embedHtml` is\nconfigured yet. With no embed and no label the block renders no content at\nall — it never fabricates a placeholder frame.",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Optional Section ID.",
+          "required": false
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional heading rendered above the embed by the Section.",
+          "required": false
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Optional kicker rendered above the heading by the Section.",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Section background variant.",
+          "typeLabel": "SectionBackground",
+          "enum": [
+            "default",
+            "white",
+            "gray",
+            "dark",
+            "gradient",
+            "primary",
+            "secondary",
+            "transparent",
+            "muted"
+          ],
+          "required": false
+        },
+        "spacing": {
+          "type": "string",
+          "description": "Section spacing variant. Defaults to \"none\" when\n`containMode=\"full-screen\"` so the embed reaches the viewport edges.",
+          "typeLabel": "SectionSpacing",
+          "enum": [
+            "none",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "hero"
+          ],
+          "required": false
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Pattern background key.",
+          "typeLabel": "PatternName",
+          "enum": [
+            "squareAltGrid",
+            "grid1",
+            "noise",
+            "dots",
+            "dotPattern",
+            "dotPattern2",
+            "circles",
+            "waves",
+            "crossPattern",
+            "architect",
+            "tinyCheckers",
+            "p6",
+            "circuitBoardBasic",
+            "circuitBoardFadeTop",
+            "circuitBoardFadeBottom",
+            "circuitBoardFadeCenter",
+            "circuitBoardFadeTopLeft",
+            "circuitBoardFadeTopRight",
+            "circuitBoardFadeBottomLeft",
+            "circuitBoardFadeBottomRight",
+            "dashedGridBasic",
+            "dashedGridFadeTop",
+            "dashedGridFadeBottom",
+            "dashedGridFadeCenter",
+            "dashedGridFadeTopLeft",
+            "dashedGridFadeTopRight",
+            "dashedGridFadeBottomLeft",
+            "dashedGridFadeBottomRight",
+            "diagonalCrossBasic",
+            "diagonalCrossFadeTop",
+            "diagonalCrossFadeBottom",
+            "diagonalCrossFadeCenter",
+            "diagonalCrossFadeTopLeft",
+            "diagonalCrossFadeTopRight",
+            "diagonalCrossFadeBottomLeft",
+            "diagonalCrossFadeBottomRight",
+            "gridBasic",
+            "gridFadeTop",
+            "gridFadeBottom",
+            "gridFadeCenter",
+            "gridFadeTopLeft",
+            "gridFadeTopRight",
+            "gridFadeBottomLeft",
+            "gridFadeBottomRight",
+            "gridDotsBasic",
+            "gridDotsFadeCenter",
+            "gradientGlowTop",
+            "gradientGlowBottom",
+            "spotlightLeft",
+            "spotlightRight",
+            "radialGradientTop",
+            "radialGradientBottom"
+          ],
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern opacity (0-1).",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "Additional CSS classes for the section.",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container.",
+          "required": false
+        },
+        "style": {
+          "type": "object",
+          "description": "Inline styles for the section element.",
+          "typeLabel": "React.CSSProperties",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "title": "Find us",
+        "embedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=-87.6360%2C41.8760%2C-87.6120%2C41.8900&layer=mapnik",
+        "embedTitle": "Map showing the restaurant location",
+        "aspectRatio": "16:9",
+        "loadingStrategy": "lazy",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "dependencies": [
+        "@opensite/ui"
+      ],
+      "tags": [
+        "iframe",
+        "embed",
+        "widget",
+        "third-party",
+        "calendar",
+        "map",
+        "video-embed",
+        "shop",
+        "booking",
+        "reservation",
+        "ticketing",
+        "external-content",
+        "integration",
+        "advanced"
+      ],
+      "performance": {},
+      "importantUsageNotes": "Use ONLY when the site owner supplied an iframe embed (map, reservation widget, calendar, storefront, ticketing, or a third-party video host). VERBATIM CODE ONLY: copy the embed code, URL, and ids EXACTLY as the site owner supplied them — never invent, guess, shorten, complete, or 'correct' them. Never use this block unless the user actually supplied the embed. If no embed code was provided, choose a different block or leave the section out. Prefer the parsed form: put the embed's src into embedUrl and leave embedHtml empty — embedUrl is lazy-loadable, containment-controllable and auditable. embedUrl must be an absolute http(s) URL; any other scheme is ignored and the block renders its empty state. Use embedHtml only when the owner's snippet cannot be reduced to one iframe URL, and treat it as owner-trusted CODE, not inert markup: bare <script> tags do not run, but inline event handlers and <iframe srcdoc> do execute same-origin — script-based widgets still belong in advanced/script-embed. embedTitle is required whenever embedUrl is set (screen readers announce it as the frame's name). Leave sandboxAttributes unset unless the owner's code included one — an empty sandbox attribute blocks almost everything. Choose containMode=\"fixed-height\" for forms and calendars that scroll internally, \"full-screen\" only for a page whose entire purpose is the embed. This block renders third-party content, not media-library assets. It declares no media slots; do not route images, logos, or videos into its props.",
+      "usageRequirements": {
+        "requiredProps": [],
+        "propConstraints": {
+          "embedUrl": {
+            "note": "Absolute http(s) URL taken verbatim from the owner's embed code. Wins over embedHtml when both are present. Any other scheme (javascript:, data:, protocol-relative, relative) is ignored and the block falls back to embedHtml or its empty state."
+          },
+          "embedHtml": {
+            "note": "Raw markup escape hatch, pasted verbatim from the owner. It is owner-trusted CODE, not inert markup: bare <script> tags do not run, but inline event handlers and <iframe srcdoc> execute same-origin — never build this value from scraped or generated content. Only use when the embed cannot be expressed as a single embedUrl."
+          },
+          "embedTitle": {
+            "maxLength": 120,
+            "note": "REQUIRED whenever embedUrl is set. Accessible name for the frame, e.g. 'Map showing the restaurant location'."
+          },
+          "aspectRatio": {
+            "note": "One of \"16:9\", \"4:3\", \"1:1\", \"9:16\", \"21:9\", or \"custom\" (with customAspectRatio). Any other value is ignored and the block renders 16:9."
+          },
+          "iframeClassName": {
+            "note": "Optional utility classes for the embed element (or, on the embedHtml path, its wrapper). Live-site CSS is safelist-compiled, and this key is NOT scanned for class tokens — stick to utilities the library already ships, or put the classes in className instead, which IS collected."
+          },
+          "allowAttributes": {
+            "note": "Copy the `allow` attribute from the owner's embed code, or omit."
+          },
+          "sandboxAttributes": {
+            "note": "Copy the `sandbox` attribute from the owner's embed code, or omit entirely. Never emit an empty string."
+          },
+          "customAspectRatio": {
+            "note": "Only meaningful when aspectRatio=\"custom\". A CSS aspect-ratio value such as \"5 / 4\"."
+          },
+          "fixedHeight": {
+            "note": "Only meaningful when containMode=\"fixed-height\". A CSS length such as \"640px\"; a unitless value like \"640\" is read as pixels. Defaults to \"600px\"."
+          },
+          "emptyStateLabel": {
+            "maxWords": 12,
+            "note": "Short honest line shown when no embed is configured. Omit it and the block renders nothing rather than a fake frame."
+          }
+        },
+        "mediaSlots": {},
+        "requiresSiteCapabilities": [],
+        "notes": [
+          "VERBATIM CODE ONLY: copy the embed code, URL, and ids EXACTLY as the site owner supplied them — never invent, guess, shorten, complete, or 'correct' them. Never use this block unless the user actually supplied the embed. If no embed code was provided, choose a different block or leave the section out.",
+          "This block renders third-party content, not media-library assets. It declares no media slots; do not route images, logos, or videos into its props.",
+          "Supply either embedUrl or embedHtml. With neither, the block renders no embed.",
+          "Set embedTitle whenever embedUrl is set; an untitled iframe is an accessibility failure.",
+          "embedUrl must be an absolute http(s) URL; other schemes are ignored and no frame is rendered."
+        ]
+      }
+    },
+    {
+      "id": "script-embed",
+      "name": "Script Embed",
+      "title": "Script Embed",
+      "category": "Advanced",
+      "categorySlug": "advanced",
+      "description": "Runs a third-party JavaScript widget snippet the site owner supplied — chat widget, menu embed, booking engine, review or loyalty widget — inside the standard section chrome. Guarantees load order (companion markup, then stylesheets, then scripts, then inline code), deduplicates across re-mounts, and can contain legacy document.write output. Only use it when the user actually pasted a script snippet.",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "componentPath": "blocks/advanced/script-embed.tsx",
+      "code": "import { ScriptEmbed } from \"@opensite/ui/blocks/advanced/script-embed\";\n\n// Self-contained demo of the load-order contract: `companionHtml` is in the DOM\n// before anything executes, so the inline script always finds its mount point.\n// A real embed splits the owner's snippet across the props — `<script src>` goes\n// in `scriptUrl` (further ones in `additionalScriptUrls`), and the body of an\n// inline `<script>` goes in `inlineScriptHtml` WITHOUT the surrounding tags.\n//\n// EXTRACTOR CONSTRAINT (enforced by scripts/verify-registry-contract.mjs):\n// the registry `code` below is republished as the canonical example, sliced\n// from the returned JSX and cut at the FIRST close-paren-then-semicolon pair.\n// The inline script therefore relies on automatic semicolon insertion instead\n// of ending a statement immediately after a closing parenthesis.\nexport default function Demo() {\n  return (\n    <ScriptEmbed\n      title=\"Our Menu\"\n      subtitle=\"Script Embed\"\n      companionHtml={\n        '<div id=\"os-script-embed-demo\" class=\"rounded-xl border border-border p-8 text-center text-muted-foreground\">Companion markup rendered. Waiting for the script…</div>'\n      }\n      inlineScriptHtml={\n        'var el = document.getElementById(\"os-script-embed-demo\")\\n' +\n        'if (el) { el.textContent = \"The inline script ran and found its container.\" }'\n      }\n      scriptKey=\"opensite-showcase-script-embed-demo\"\n      loadStrategy=\"afterInteractive\"\n      containMode=\"auto\"\n    />\n  );\n}\n",
+      "propsSchema": {
+        "scriptUrl": {
+          "type": "string",
+          "description": "URL of the third-party script to load. Copy the `src` value out of the\nsnippet the site owner supplied, EXACTLY as given. Never invent a script\nURL and never use this block unless the owner provided the code.",
+          "required": false
+        },
+        "additionalScriptUrls": {
+          "type": "array",
+          "description": "Additional script URLs, loaded strictly one at a time AFTER `scriptUrl`\nfinishes. Use when the owner's snippet contains several `<script src>` tags\nthat must run in order.",
+          "items": {
+            "type": "string",
+            "description": ""
+          },
+          "required": false
+        },
+        "inlineScriptHtml": {
+          "type": "string",
+          "description": "Inline JavaScript from the owner's snippet (the contents of a `<script>`\ntag with no `src`). Runs after every URL script has loaded. Paste the code\nverbatim, without the surrounding `<script>` tags.",
+          "required": false
+        },
+        "companionHtml": {
+          "type": "string",
+          "description": "Companion markup from the owner's snippet — the `<div>`/`<span>` mount\npoint the widget looks for. It is placed in the DOM BEFORE any script runs,\nso widgets that search for their container at start-up find it.",
+          "required": false
+        },
+        "stylesheetUrls": {
+          "type": "array",
+          "description": "Stylesheet URLs from the owner's snippet. Loaded before any script runs.",
+          "items": {
+            "type": "string",
+            "description": ""
+          },
+          "required": false
+        },
+        "loadStrategy": {
+          "type": "string",
+          "description": "\"afterInteractive\" (default) starts the chain as soon as the block mounts.\n\"lazyOnload\" waits for browser idle time — use it for chat widgets, social\nfeeds and anything else that is not needed for the first interaction.",
+          "typeLabel": "\"afterInteractive\" | \"lazyOnload\"",
+          "enum": [
+            "afterInteractive",
+            "lazyOnload"
+          ],
+          "required": false
+        },
+        "allowDocumentWrite": {
+          "type": "boolean",
+          "description": "Set true ONLY for legacy widgets that call `document.write`. It redirects\nthose writes into this block's container instead of letting them wipe the\npage. Default false.",
+          "required": false
+        },
+        "scriptKey": {
+          "type": "string",
+          "description": "Explicit dedupe key for the EXTERNAL script. Defaults to `scriptUrl`, or a\nstable hash of `inlineScriptHtml` when there is no URL. Set it when the\nsame widget is embedded on several pages with slightly different URLs and\nmust only initialise once. Inline code is always additionally keyed by a\nhash of itself, so two blocks sharing one loader URL (or one `scriptKey`)\nstill each run their own init.",
+          "required": false
+        },
+        "runOnEveryMount": {
+          "type": "boolean",
+          "description": "When false (default) the inline script runs once per page load, and after\nclient-side navigation back to this block the widget's existing DOM is\nre-attached to the fresh container so it repaints without re-running.\nSet true for widgets that must genuinely re-initialise on every mount:\nthe container is rebuilt from `companionHtml` and the inline code runs\nagain. External script URLs are loaded only once either way.",
+          "required": false
+        },
+        "containMode": {
+          "type": "string",
+          "description": "How the embed area is sized. \"auto\" (default) lets the widget size itself,\n\"fixed-height\" reserves a pixel height (prevents layout shift), and\n\"full-screen\" fills the viewport edge to edge.",
+          "typeLabel": "\"auto\" | \"fixed-height\" | \"full-screen\"",
+          "enum": [
+            "auto",
+            "fixed-height",
+            "full-screen"
+          ],
+          "required": false
+        },
+        "fixedHeight": {
+          "type": "string",
+          "description": "CSS height used when `containMode=\"fixed-height\"`, e.g. \"480px\".\nDefaults to \"600px\".",
+          "required": false
+        },
+        "embedClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container the widget renders into.",
+          "required": false
+        },
+        "emptyStateLabel": {
+          "type": "string",
+          "description": "Short line shown when no script, inline code, or companion markup is\nconfigured yet. With nothing configured and no label the block renders no\ncontent at all — it never fabricates a placeholder widget.",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Optional Section ID.",
+          "required": false
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional heading rendered above the embed by the Section.",
+          "required": false
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Optional kicker rendered above the heading by the Section.",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Section background variant.",
+          "typeLabel": "SectionBackground",
+          "enum": [
+            "default",
+            "white",
+            "gray",
+            "dark",
+            "gradient",
+            "primary",
+            "secondary",
+            "transparent",
+            "muted"
+          ],
+          "required": false
+        },
+        "spacing": {
+          "type": "string",
+          "description": "Section spacing variant. Defaults to \"none\" when\n`containMode=\"full-screen\"`.",
+          "typeLabel": "SectionSpacing",
+          "enum": [
+            "none",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "hero"
+          ],
+          "required": false
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Pattern background key.",
+          "typeLabel": "PatternName",
+          "enum": [
+            "squareAltGrid",
+            "grid1",
+            "noise",
+            "dots",
+            "dotPattern",
+            "dotPattern2",
+            "circles",
+            "waves",
+            "crossPattern",
+            "architect",
+            "tinyCheckers",
+            "p6",
+            "circuitBoardBasic",
+            "circuitBoardFadeTop",
+            "circuitBoardFadeBottom",
+            "circuitBoardFadeCenter",
+            "circuitBoardFadeTopLeft",
+            "circuitBoardFadeTopRight",
+            "circuitBoardFadeBottomLeft",
+            "circuitBoardFadeBottomRight",
+            "dashedGridBasic",
+            "dashedGridFadeTop",
+            "dashedGridFadeBottom",
+            "dashedGridFadeCenter",
+            "dashedGridFadeTopLeft",
+            "dashedGridFadeTopRight",
+            "dashedGridFadeBottomLeft",
+            "dashedGridFadeBottomRight",
+            "diagonalCrossBasic",
+            "diagonalCrossFadeTop",
+            "diagonalCrossFadeBottom",
+            "diagonalCrossFadeCenter",
+            "diagonalCrossFadeTopLeft",
+            "diagonalCrossFadeTopRight",
+            "diagonalCrossFadeBottomLeft",
+            "diagonalCrossFadeBottomRight",
+            "gridBasic",
+            "gridFadeTop",
+            "gridFadeBottom",
+            "gridFadeCenter",
+            "gridFadeTopLeft",
+            "gridFadeTopRight",
+            "gridFadeBottomLeft",
+            "gridFadeBottomRight",
+            "gridDotsBasic",
+            "gridDotsFadeCenter",
+            "gradientGlowTop",
+            "gradientGlowBottom",
+            "spotlightLeft",
+            "spotlightRight",
+            "radialGradientTop",
+            "radialGradientBottom"
+          ],
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern opacity (0-1).",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "Additional CSS classes for the section.",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container.",
+          "required": false
+        },
+        "style": {
+          "type": "object",
+          "description": "Inline styles for the section element.",
+          "typeLabel": "React.CSSProperties",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "title": "Our menu",
+        "scriptUrl": "https://embed-menu-preloader.untappdapi.com/embed-menu-preloader.min.js",
+        "companionHtml": "<div id=\"untappd-menu-container\"></div>",
+        "inlineScriptHtml": "PreloadEmbedMenu('untappd-menu-container', 12345, 678);",
+        "loadStrategy": "lazyOnload"
+      },
+      "dependencies": [
+        "@opensite/ui"
+      ],
+      "tags": [
+        "script",
+        "embed",
+        "widget",
+        "third-party",
+        "javascript",
+        "chat",
+        "menu",
+        "booking",
+        "integration",
+        "external-content",
+        "snippet",
+        "advanced"
+      ],
+      "performance": {},
+      "importantUsageNotes": "Use ONLY when the site owner supplied a <script>-based widget snippet (chat widget, menu embed, booking engine, review widget). VERBATIM CODE ONLY: copy the embed code, URL, and ids EXACTLY as the site owner supplied them — never invent, guess, shorten, complete, or 'correct' them. Never use this block unless the user actually supplied the embed. If no embed code was provided, choose a different block or leave the section out. Split the owner's snippet across the props instead of pasting it as one blob: <script src> becomes scriptUrl (further ones go in additionalScriptUrls, in the original order), the contents of an inline <script> becomes inlineScriptHtml WITHOUT the surrounding tags, any <div>/<span> mount point becomes companionHtml, and <link rel=\"stylesheet\"> hrefs go in stylesheetUrls. Load order is guaranteed: companionHtml is in the DOM first, then stylesheets, then scriptUrl, then additionalScriptUrls one at a time, then inlineScriptHtml. Use loadStrategy=\"lazyOnload\" for anything below the fold. Set allowDocumentWrite only for legacy widgets that actually call document.write. Two script-embed blocks may share one scriptUrl (e.g. a food menu and a drinks menu from the same loader): give each its own companionHtml mount point and its own inlineScriptHtml — the loader runs the shared script once and each block's init separately. After client-side navigation back to the page the widget's DOM is re-attached automatically; set runOnEveryMount only when the widget must genuinely re-initialise from scratch on every mount. If the embed is a plain iframe, use advanced/iframe-embed instead. This block renders third-party content, not media-library assets. It declares no media slots; do not route images, logos, or videos into its props.",
+      "usageRequirements": {
+        "requiredProps": [],
+        "propConstraints": {
+          "scriptUrl": {
+            "note": "Absolute https URL taken verbatim from the owner's <script src>. Loaded first."
+          },
+          "additionalScriptUrls": {
+            "maxItems": 6,
+            "note": "Further <script src> URLs in their original order. Loaded strictly one at a time AFTER scriptUrl."
+          },
+          "inlineScriptHtml": {
+            "note": "Body of the owner's inline <script>, without the surrounding tags. Runs after every URL script has loaded."
+          },
+          "companionHtml": {
+            "note": "The mount-point markup from the owner's snippet. Guaranteed to be in the DOM before any script runs."
+          },
+          "stylesheetUrls": {
+            "maxItems": 4,
+            "note": "Stylesheet hrefs from the owner's snippet. Loaded before any script runs."
+          },
+          "allowDocumentWrite": {
+            "note": "Set true ONLY for legacy widgets that call document.write; it redirects those writes into this block instead of wiping the page."
+          },
+          "scriptKey": {
+            "note": "Explicit dedupe key. Defaults to scriptUrl, or a stable hash of inlineScriptHtml. inlineScriptHtml is ALWAYS additionally keyed by a hash of its own source, so two blocks sharing one scriptUrl each still run their own init. Set it when the same widget appears with slightly different URLs and must initialise once."
+          },
+          "runOnEveryMount": {
+            "note": "Leave false unless the widget must genuinely re-initialise from scratch. On client-side navigation back to this block the previous mount's widget DOM is re-attached automatically, so a blank widget is not a reason to set this."
+          },
+          "fixedHeight": {
+            "note": "Only meaningful when containMode=\"fixed-height\". A CSS length such as \"480px\"; a unitless value like \"480\" is read as pixels. Reserves space and prevents layout shift. Defaults to \"600px\"."
+          },
+          "emptyStateLabel": {
+            "maxWords": 12,
+            "note": "Short honest line shown when no snippet is configured. Omit it and the block renders nothing rather than a fake widget."
+          }
+        },
+        "mediaSlots": {},
+        "requiresSiteCapabilities": [],
+        "notes": [
+          "VERBATIM CODE ONLY: copy the embed code, URL, and ids EXACTLY as the site owner supplied them — never invent, guess, shorten, complete, or 'correct' them. Never use this block unless the user actually supplied the embed. If no embed code was provided, choose a different block or leave the section out.",
+          "This block renders third-party content, not media-library assets. It declares no media slots; do not route images, logos, or videos into its props.",
+          "Supply scriptUrl and/or inlineScriptHtml. companionHtml alone renders markup but runs nothing.",
+          "Never wrap inlineScriptHtml in <script> tags — pass only the JavaScript body."
+        ]
+      }
+    },
+    {
+      "id": "free-form-design",
+      "name": "Free-Form Design",
+      "title": "Free Form Design",
+      "category": "Advanced",
+      "categorySlug": "advanced",
+      "description": "Renders a fully custom, AI-authored design from a constrained JSON node tree inside a standard Section wrapper. LAST RESORT — use only when the user explicitly asks for a bespoke or cloned layout that no existing block can express. Supports allowlisted HTML/SVG structure plus Pressable/Img/Video component nodes, styled entirely with Tailwind classes.",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "componentPath": "blocks/advanced/free-form-design.tsx",
+      "code": "import { FreeFormDesign } from \"@opensite/ui/blocks/advanced/free-form-design\";\n\n// `className` is the CLASS MANIFEST (applied to nothing): it must list every\n// Tailwind token used anywhere in this block — every `className` inside\n// `designTree` PLUS every token in `sectionClassName`/`containerClassName`,\n// because the live-site safelist compiler only scans this one prop. Style the\n// Section via `sectionClassName`. Links = Pressable nodes, images = Img nodes\n// (https only).\nexport default function Demo() {\n  return (\n    <FreeFormDesign\n      sectionId=\"events\"\n      sectionClassName=\"bg-secondary text-secondary-foreground\"\n      className=\"bg-secondary text-secondary-foreground grid gap-10 md:grid-cols-2 items-center space-y-4 text-4xl font-bold text-lg opacity-90 w-full rounded-2xl object-cover\"\n      designTree={{\n        tag: \"div\",\n        className: \"grid gap-10 md:grid-cols-2 items-center\",\n        children: [\n          {\n            tag: \"div\",\n            className: \"space-y-4\",\n            children: [\n              { tag: \"h2\", className: \"text-4xl font-bold\", children: [\"Private Events\"] },\n              { tag: \"p\", className: \"text-lg opacity-90\", children: [\"Book the room for up to 60 guests.\"] },\n              { tag: \"Pressable\", attrs: { href: \"/contact\", variant: \"default\", size: \"lg\" }, children: [\"Request a date\"] },\n            ],\n          },\n          { tag: \"Img\", className: \"w-full rounded-2xl object-cover\", attrs: { src: \"https://cdn.ing/assets/i/r/289165/py905nlu0any8riaohkf5ervr3m8/gourmet-asparagus-crostini-on-white-plate-marble-table.jpg\", alt: \"Dining room\" } },\n        ],\n      }}\n    />\n  );\n}\n",
+      "propsSchema": {
+        "designTree": {
+          "type": "object",
+          "description": "Root node of the custom design tree.\n\nShape: `{ tag, className?, attrs?, children? }`, recursive. `children` may hold\nfurther nodes or plain strings (strings render as escaped TEXT — markup inside a\nstring is never parsed).\n\n`tag` must be an allowlisted HTML/SVG tag or one of the component names\n`\"Pressable\"` (links/buttons), `\"Img\"` (images) or `\"Video\"` (video). Raw `a`,\n`img` and `video` tags are NOT allowlisted and degrade to a plain `div`.\n`script`, `style`, `iframe`, `link`, `meta` and other executable or\ndocument-level tags are dropped entirely.\n\n`attrs` accepts scalar values only. Event handlers (`onClick`, `onerror`, any\n`on*`), the `style` attribute, and `javascript:`/`data:` URLs are stripped.\nStyle the design with Tailwind classes via each node's `className`.\n\n`Img.attrs.src` and `Video.attrs.src` MUST be absolute `https://` media-library\nURLs; nodes with a missing or relative src are dropped.\n\nA string child that begins with `<` (e.g. `\"<b>not bold</b>\"`) renders as\nliteral, escaped text — it is never parsed as markup. Put real emphasis in a\nchild NODE (`{ tag: \"strong\", … }`) instead.\n\nTrees are capped at  nesting levels (the root node is\nlevel 1) and  rendered nodes; anything beyond either\ncap is dropped and the Section is marked `data-free-form-truncated`.",
+          "fields": {
+            "tag": {
+              "type": "string",
+              "description": "Allowlisted HTML/SVG tag, or `\"Pressable\" | \"Img\" | \"Video\"`.",
+              "required": true
+            },
+            "className": {
+              "type": "string",
+              "description": "Tailwind classes for this node. Mirrored into the block's class manifest.",
+              "required": false
+            },
+            "attrs": {
+              "type": "object",
+              "description": "Scalar attributes. Filtered — see module docs.",
+              "typeLabel": "Record",
+              "required": false
+            },
+            "children": {
+              "type": "array",
+              "description": "Child nodes; plain strings become escaped text nodes.",
+              "items": {
+                "type": "object",
+                "description": "",
+                "typeLabel": "FreeFormNode | string"
+              },
+              "typeLabel": "FreeFormNode | string[]",
+              "required": false
+            }
+          },
+          "typeLabel": "FreeFormNode",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "⚠️ CLASS MANIFEST — NOT a styling prop. This deviates from every other block.\n\nSpace-separated list of EVERY Tailwind class this block uses anywhere: every\n`className` inside `designTree` **plus** the tokens of\n and\n. It is deliberately **not applied\nto any element**.\n\nWhy it exists: live customer sites are served a safelist-COMPILED Tailwind\nstylesheet, and the toastability extractor only scans `blockProps.className`.\nClasses that live inside a nested tree — or under any other prop name, including\n`sectionClassName`/`containerClassName` — are never seen by the compiler, so they\nwould have no CSS rule at all on the live site. Mirroring them here makes them\nvisible to the extractor.\n\nOctane derives this automatically (tree + `sectionClassName` +\n`containerClassName`); authors may omit it. Hand-authored payloads should build\nit with `collectFreeFormClassNames(designTree, { extraClassNames: [sectionClassName,\ncontainerClassName] })` from `lib/free-form-tree`.",
+          "required": false
+        },
+        "sectionClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the Section element.\n\nThis is what every other block calls `className` — on this block `className` is\nthe class manifest (see above), so section styling moved here.\n\n⚠️ These tokens MUST also appear in , or they\nget no compiled CSS rule on a live customer site.",
+          "required": false
+        },
+        "emptyStateLabel": {
+          "type": "string",
+          "description": "Text shown when `designTree` is missing or renders nothing.\nOmit it and the block renders no content rather than inventing copy.",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Section DOM id, for anchor links.",
+          "required": false
+        },
+        "title": {
+          "type": "string",
+          "description": "Optional Section heading rendered above the custom design.",
+          "required": false
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Optional Section eyebrow rendered above the title.",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Section background variant.",
+          "typeLabel": "SectionBackground",
+          "enum": [
+            "default",
+            "white",
+            "gray",
+            "dark",
+            "gradient",
+            "primary",
+            "secondary",
+            "transparent",
+            "muted"
+          ],
+          "required": false
+        },
+        "spacing": {
+          "type": "string",
+          "description": "Section vertical spacing variant.",
+          "typeLabel": "SectionSpacing",
+          "enum": [
+            "none",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "hero"
+          ],
+          "required": false
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Background pattern overlay name.",
+          "typeLabel": "PatternName",
+          "enum": [
+            "squareAltGrid",
+            "grid1",
+            "noise",
+            "dots",
+            "dotPattern",
+            "dotPattern2",
+            "circles",
+            "waves",
+            "crossPattern",
+            "architect",
+            "tinyCheckers",
+            "p6",
+            "circuitBoardBasic",
+            "circuitBoardFadeTop",
+            "circuitBoardFadeBottom",
+            "circuitBoardFadeCenter",
+            "circuitBoardFadeTopLeft",
+            "circuitBoardFadeTopRight",
+            "circuitBoardFadeBottomLeft",
+            "circuitBoardFadeBottomRight",
+            "dashedGridBasic",
+            "dashedGridFadeTop",
+            "dashedGridFadeBottom",
+            "dashedGridFadeCenter",
+            "dashedGridFadeTopLeft",
+            "dashedGridFadeTopRight",
+            "dashedGridFadeBottomLeft",
+            "dashedGridFadeBottomRight",
+            "diagonalCrossBasic",
+            "diagonalCrossFadeTop",
+            "diagonalCrossFadeBottom",
+            "diagonalCrossFadeCenter",
+            "diagonalCrossFadeTopLeft",
+            "diagonalCrossFadeTopRight",
+            "diagonalCrossFadeBottomLeft",
+            "diagonalCrossFadeBottomRight",
+            "gridBasic",
+            "gridFadeTop",
+            "gridFadeBottom",
+            "gridFadeCenter",
+            "gridFadeTopLeft",
+            "gridFadeTopRight",
+            "gridFadeBottomLeft",
+            "gridFadeBottomRight",
+            "gridDotsBasic",
+            "gridDotsFadeCenter",
+            "gradientGlowTop",
+            "gradientGlowBottom",
+            "spotlightLeft",
+            "spotlightRight",
+            "radialGradientTop",
+            "radialGradientBottom"
+          ],
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern overlay opacity (0-1).",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the Section's inner container.\n\n⚠️ Like `sectionClassName`, these tokens MUST also appear in\n to be compiled on a live site.",
+          "required": false
+        },
+        "containerMaxWidth": {
+          "type": "string",
+          "description": "Max width of the Section's inner container. Defaults to the house `\"xl\"`\n(`max-w-7xl`), so an omitted value boxes the whole design at 1280px.\n\nEDGE-TO-EDGE CLONE: set `spacing=\"none\"`, `containerMaxWidth=\"full\"` and\n`containerClassName=\"px-0 sm:px-0 lg:px-0\"` (and mirror those three padding\ntokens into `className`). `containerMaxWidth` alone removes the width clamp\nbut leaves the container's default `px-2 sm:px-4 lg:px-8` gutters.",
+          "typeLabel": "ContainerMaxWidth",
+          "enum": [
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "2xl",
+            "4xl",
+            "full"
+          ],
+          "required": false
+        },
+        "style": {
+          "type": "object",
+          "description": "Inline styles for the Section element.",
+          "typeLabel": "React.CSSProperties",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "sectionId": "private-events-clone",
+        "spacing": "none",
+        "sectionClassName": "bg-secondary text-secondary-foreground",
+        "className": "bg-secondary text-secondary-foreground grid gap-8 md:grid-cols-2 items-center text-4xl font-bold tracking-tight text-lg opacity-90 w-full rounded-2xl object-cover",
+        "designTree": {
+          "tag": "div",
+          "className": "grid gap-8 md:grid-cols-2 items-center",
+          "children": [
+            {
+              "tag": "div",
+              "children": [
+                {
+                  "tag": "h2",
+                  "className": "text-4xl font-bold tracking-tight",
+                  "children": [
+                    "Private Events"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "className": "text-lg opacity-90",
+                  "children": [
+                    "Book the whole room for up to 60 guests."
+                  ]
+                },
+                {
+                  "tag": "Pressable",
+                  "attrs": {
+                    "href": "/contact",
+                    "variant": "default",
+                    "size": "lg"
+                  },
+                  "children": [
+                    "Request a date"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Img",
+              "className": "w-full rounded-2xl object-cover",
+              "attrs": {
+                "src": "https://cdn.ing/assets/i/r/308196/g6bbn73f7gxal82uu49m9prfd0u8/workplace-in-cafe.webp",
+                "alt": "Private dining room set for an event"
+              }
+            }
+          ]
+        }
+      },
+      "dependencies": [
+        "@opensite/ui"
+      ],
+      "tags": [
+        "custom",
+        "custom-design",
+        "free-form",
+        "freeform",
+        "bespoke",
+        "clone",
+        "site-clone",
+        "replicate",
+        "arbitrary-layout",
+        "advanced",
+        "html",
+        "markup",
+        "one-off",
+        "escape-hatch"
+      ],
+      "performance": {},
+      "importantUsageNotes": "LAST RESORT ONLY. Use this block only when the user explicitly asks for a fully custom or cloned design that no existing block can express — never as a substitute for a real block, and never to 'improve' a layout on your own initiative. designTree grammar: every node is {tag, className?, attrs?, children?}; children may be further nodes or PLAIN STRINGS, and strings render as literal escaped TEXT — never put HTML markup inside a string, it will display as visible angle brackets. Allowed tags: div, section, article, aside, header, footer, nav, figure, figcaption, blockquote, address, hr, br, h1-h6, p, span, strong, em, b, i, u, s, small, mark, sub, sup, code, pre, abbr, cite, q, time, del, ins, ul, ol, li, dl, dt, dd, table, caption, colgroup, col, thead, tbody, tfoot, tr, th, td, and the decorative SVG subset svg, g, defs, path, circle, ellipse, rect, line, polyline, polygon, linearGradient, radialGradient, stop, clipPath, mask, text, tspan. Any other tag is rendered as a plain div. LINKS AND MEDIA ARE COMPONENTS, NOT TAGS: use {tag:'Pressable', attrs:{href, variant, size}} for every link or button, {tag:'Img', attrs:{src, alt}} for every image, and {tag:'Video', attrs:{src}} for every video. Raw a, img and video tags are NOT rendered as links or media. Img and Video src values MUST be absolute https:// media-library URLs or the node is dropped entirely — never invent a URL and never use a relative path. script, style, iframe, link, meta and other executable or document-level tags are discarded. Event handlers (onClick, onerror, any on* attribute), the style attribute, and javascript:/data: URLs are stripped — style EVERYTHING with Tailwind classes via each node's className. The className prop on this block is a CLASS MANIFEST, not styling: it is never applied to any element, and it must list every Tailwind class the block uses anywhere — every className inside designTree PLUS every token you put in sectionClassName and containerClassName. Classes under any other prop name are never compiled on a live site. The server derives this manifest for you, so you may omit it. To style the surrounding section use sectionClassName. The design is centered inside the standard 1280px container by default. For an edge-to-edge clone set spacing=\"none\", containerMaxWidth=\"full\" and containerClassName=\"px-0 sm:px-0 lg:px-0\". Trees are capped at 40 levels deep and 1500 nodes; anything beyond is truncated. Set emptyStateLabel only if the design genuinely cannot be produced — do not invent placeholder copy.",
+      "usageRequirements": {
+        "requiredProps": [
+          "designTree"
+        ],
+        "propConstraints": {
+          "designTree": {
+            "required": true,
+            "note": "Root node object {tag, className?, attrs?, children?}. Recursive. Max depth 40, max 1500 nodes. Strings in children are literal text, never markup."
+          },
+          "className": {
+            "note": "CLASS MANIFEST ONLY — space-separated list of every Tailwind class used anywhere in designTree PLUS every token in sectionClassName and containerClassName. It is NOT applied to any element and is derived server-side; omit it if unsure. Use sectionClassName for section styling."
+          },
+          "sectionClassName": {
+            "note": "Tailwind classes applied to the wrapping Section element. This is what other blocks call className. Every token you use here MUST also appear in the className manifest or it gets no compiled CSS on the live site."
+          },
+          "containerClassName": {
+            "note": "Tailwind classes on the Section's inner container. Use \"px-0 sm:px-0 lg:px-0\" together with containerMaxWidth=\"full\" for an edge-to-edge design. Tokens used here MUST also appear in the className manifest."
+          },
+          "containerMaxWidth": {
+            "note": "Width of the Section's inner container. Defaults to \"xl\" (max-w-7xl), which boxes the design at 1280px. Set \"full\" for a full-bleed clone."
+          },
+          "emptyStateLabel": {
+            "maxWords": 12,
+            "note": "Shown only when designTree is absent or renders nothing. Omit rather than invent copy."
+          }
+        },
+        "mediaSlots": {
+          "designTree.Img.attrs.src": {
+            "path": "designTree.Img.attrs.src",
+            "roles": [
+              "feature",
+              "hero",
+              "gallery",
+              "background"
+            ],
+            "disallowedRoles": [
+              "logo",
+              "favicon",
+              "video-thumbnail"
+            ],
+            "minPixelClass": "large",
+            "required": false,
+            "note": "Any {tag:'Img'} node inside the design tree. IMAGE MEDIA ONLY. Do not use logos, favicons, or video assets."
+          }
+        },
+        "requiresSiteCapabilities": [],
+        "notes": [
+          "Only use this block when the user explicitly requests a custom or cloned design that no catalog block can express.",
+          "All media src values must be absolute https URLs to real assets; relative paths and placeholder media variables are not allowed.",
+          "Never emit raw a/img/video tags — use the Pressable/Img/Video component nodes.",
+          "Never place HTML markup inside a string child or an attribute value; strings are rendered as literal text and markup-shaped attribute values are discarded."
+        ]
+      }
+    },
+    {
+      "id": "tripleseat-form",
+      "name": "TripleSeat Lead Form",
+      "title": "Tripleseat Form",
+      "category": "Integrations",
+      "categorySlug": "integrations",
+      "description": "Embeds the client's own TripleSeat lead/inquiry form, branded to match the site. Use only when the client has supplied their TripleSeat embed script; the block extracts lead_form_id and public_key from that script URL. Includes a bounded wait with a visible fallback (business phone/email plus a retry) so a form that fails to load never silently costs the client a booking.",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "componentPath": "blocks/integrations/tripleseat-form.tsx",
+      "code": "import { TripleseatForm } from \"@opensite/ui/blocks/integrations/tripleseat-form\";\n\n// `leadFormId` and `publicKey` are the two query-parameter values from the\n// client's own TripleSeat script tag —\n// https://api.tripleseat.com/v1/leads/ts_script.js?lead_form_id=…&public_key=…\n// Copy them verbatim; the values below are fake placeholders that match the\n// library's own example props.\nexport default function Demo() {\n  return (\n    // Showcase-only: `recaptchaTimeoutSeconds={5}` lets this public demo settle\n    // into the honest degraded state instead of spinning on a form whose fake\n    // credentials can never load. Real sites omit the prop — the default is 30\n    // seconds, and a shorter deadline shows visitors a false failure banner\n    // while the third-party script is still loading.\n    <TripleseatForm\n      title=\"Plan Your Private Event\"\n      subtitle=\"Inquiries\"\n      leadFormId=\"12345\"\n      publicKey=\"your-tripleseat-public-key\"\n      recaptchaTimeoutSeconds={5}\n      degradedTitle=\"The booking form isn't loading\"\n      degradedMessage=\"Reach our events team directly and we'll get straight back to you.\"\n      contactPhone=\"(555) 010-4477\"\n      contactEmail=\"events@example.com\"\n      retryLabel=\"Try loading the form again\"\n      successTitle=\"Request received\"\n      successMessage=\"Our events team will follow up within one business day.\"\n    />\n  );\n}\n",
+      "propsSchema": {
+        "leadFormId": {
+          "type": "string",
+          "description": "The `lead_form_id` query parameter from the client's TripleSeat script tag.\nCopy it verbatim out of the URL the client supplied — never invent one.",
+          "required": false
+        },
+        "publicKey": {
+          "type": "string",
+          "description": "The `public_key` query parameter from the client's TripleSeat script tag.\nCopy it verbatim out of the URL the client supplied — never invent one.",
+          "required": false
+        },
+        "successRedirectPath": {
+          "type": "string",
+          "description": "Internal site path to send the visitor to after a successful submission\n(for example \"/thank-you\"). Must start with a single \"/\" — it is navigated\nin-app via the client-side router. Absolute URLs, protocol-relative \"//host\"\nvalues and any other scheme are REFUSED (the confirmation stays in place),\nso this block never navigates off-site. Leave empty to show the confirmation\nin place instead.",
+          "required": false
+        },
+        "successTitle": {
+          "type": "string",
+          "description": "Heading shown in place of the form after a successful submission.",
+          "required": false
+        },
+        "successMessage": {
+          "type": "string",
+          "description": "Body copy shown in place of the form after a successful submission.",
+          "required": false
+        },
+        "degradedTitle": {
+          "type": "string",
+          "description": "Heading for the degraded state shown when the form cannot become usable.",
+          "required": false
+        },
+        "degradedMessage": {
+          "type": "string",
+          "description": "Body copy for the degraded state. Required: a form that silently fails to\nload must always tell the visitor how else to reach the business.",
+          "required": false
+        },
+        "contactPhone": {
+          "type": "string",
+          "description": "Real business phone number offered as a fallback in the degraded state.",
+          "required": false
+        },
+        "contactEmail": {
+          "type": "string",
+          "description": "Real business email address offered as a fallback in the degraded state.",
+          "required": false
+        },
+        "retryLabel": {
+          "type": "string",
+          "description": "Label for the button that re-attempts loading the form. Required.",
+          "required": false
+        },
+        "recaptchaTimeoutSeconds": {
+          "type": "number",
+          "description": "Seconds to wait for the form's reCAPTCHA before degrading. Default 30.",
+          "required": false
+        },
+        "formMinHeight": {
+          "type": "string",
+          "description": "Reserved height for the embed while it loads. Default \"400px\".",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Optional Section ID",
+          "required": false
+        },
+        "title": {
+          "type": "string",
+          "description": "Section heading rendered above the form",
+          "required": false
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Section eyebrow rendered above the heading",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Section background variant",
+          "typeLabel": "SectionBackground",
+          "enum": [
+            "default",
+            "white",
+            "gray",
+            "dark",
+            "gradient",
+            "primary",
+            "secondary",
+            "transparent",
+            "muted"
+          ],
+          "required": false
+        },
+        "spacing": {
+          "type": "string",
+          "description": "Section spacing variant",
+          "typeLabel": "SectionSpacing",
+          "enum": [
+            "none",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "hero"
+          ],
+          "required": false
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Pattern background key or URL",
+          "typeLabel": "PatternName",
+          "enum": [
+            "squareAltGrid",
+            "grid1",
+            "noise",
+            "dots",
+            "dotPattern",
+            "dotPattern2",
+            "circles",
+            "waves",
+            "crossPattern",
+            "architect",
+            "tinyCheckers",
+            "p6",
+            "circuitBoardBasic",
+            "circuitBoardFadeTop",
+            "circuitBoardFadeBottom",
+            "circuitBoardFadeCenter",
+            "circuitBoardFadeTopLeft",
+            "circuitBoardFadeTopRight",
+            "circuitBoardFadeBottomLeft",
+            "circuitBoardFadeBottomRight",
+            "dashedGridBasic",
+            "dashedGridFadeTop",
+            "dashedGridFadeBottom",
+            "dashedGridFadeCenter",
+            "dashedGridFadeTopLeft",
+            "dashedGridFadeTopRight",
+            "dashedGridFadeBottomLeft",
+            "dashedGridFadeBottomRight",
+            "diagonalCrossBasic",
+            "diagonalCrossFadeTop",
+            "diagonalCrossFadeBottom",
+            "diagonalCrossFadeCenter",
+            "diagonalCrossFadeTopLeft",
+            "diagonalCrossFadeTopRight",
+            "diagonalCrossFadeBottomLeft",
+            "diagonalCrossFadeBottomRight",
+            "gridBasic",
+            "gridFadeTop",
+            "gridFadeBottom",
+            "gridFadeCenter",
+            "gridFadeTopLeft",
+            "gridFadeTopRight",
+            "gridFadeBottomLeft",
+            "gridFadeBottomRight",
+            "gridDotsBasic",
+            "gridDotsFadeCenter",
+            "gradientGlowTop",
+            "gradientGlowBottom",
+            "spotlightLeft",
+            "spotlightRight",
+            "radialGradientTop",
+            "radialGradientBottom"
+          ],
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern opacity (0-1)",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "Additional CSS classes for the section",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "style": {
+          "type": "object",
+          "description": "Inline styles for the section",
+          "typeLabel": "React.CSSProperties",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "title": "Plan Your Private Event",
+        "subtitle": "Inquiries",
+        "leadFormId": "12345",
+        "publicKey": "your-tripleseat-public-key",
+        "degradedTitle": "The booking form isn't loading",
+        "degradedMessage": "Reach our events team directly and we'll get straight back to you.",
+        "contactPhone": "(555) 010-4477",
+        "contactEmail": "events@example.com",
+        "retryLabel": "Try loading the form again",
+        "successTitle": "Request received",
+        "successMessage": "Our events team will follow up within one business day."
+      },
+      "dependencies": [
+        "@opensite/ui"
+      ],
+      "tags": [
+        "tripleseat",
+        "lead-form",
+        "private-events",
+        "booking",
+        "restaurant",
+        "catering",
+        "event-inquiry",
+        "form",
+        "integration",
+        "third-party",
+        "embed"
+      ],
+      "performance": {},
+      "importantUsageNotes": "NEVER use this block unless the client supplied their own TripleSeat embed script. Extract leadFormId and publicKey VERBATIM from the script URL they provided (https://api.tripleseat.com/v1/leads/ts_script.js?lead_form_id=<leadFormId>&public_key=<publicKey>) — copy the two query-parameter values exactly, character for character, and never invent, guess, complete, reformat, or reuse credentials from another site. If the user did not supply the script URL, do not emit this block. degradedMessage and retryLabel are required: when the third-party form cannot load, the visitor must still be told how to reach the business, so supply the client's real contactPhone/contactEmail whenever they are known. successRedirectPath must be an internal path on this site (for example \"/thank-you\") and that page must exist; leave it empty to show the confirmation in place. All copy must be the client's own — do not fabricate confirmation or fallback wording.",
+      "usageRequirements": {
+        "requiredProps": [
+          "leadFormId",
+          "publicKey",
+          "degradedMessage",
+          "retryLabel"
+        ],
+        "propConstraints": {
+          "leadFormId": {
+            "required": true,
+            "note": "VERBATIM lead_form_id query-parameter value from the client's own ts_script.js URL. Never invented."
+          },
+          "publicKey": {
+            "required": true,
+            "note": "VERBATIM public_key query-parameter value from the client's own ts_script.js URL. Never invented."
+          },
+          "degradedMessage": {
+            "required": true,
+            "maxLength": 200,
+            "note": "Shown when the form cannot become usable. Must point the visitor at another way to reach the business."
+          },
+          "retryLabel": {
+            "required": true,
+            "maxLength": 40,
+            "note": "Label for the button that re-attempts loading the form."
+          },
+          "degradedTitle": {
+            "maxLength": 60
+          },
+          "contactPhone": {
+            "note": "Real business phone number only, from site contact data. Rendered as a tel: link."
+          },
+          "contactEmail": {
+            "note": "Real business email address only, from site contact data. Rendered as a mailto: link."
+          },
+          "successTitle": {
+            "maxLength": 60
+          },
+          "successMessage": {
+            "maxLength": 200
+          },
+          "successRedirectPath": {
+            "note": "Internal site path only — must start with a single \"/\" (for example \"/thank-you\") and that page must exist. Absolute URLs, protocol-relative \"//host\" values and any other scheme are REFUSED at runtime: the block logs a breadcrumb and shows the confirmation in place instead. Omit to show the confirmation in place."
+          },
+          "recaptchaTimeoutSeconds": {
+            "note": "Seconds to wait before showing the fallback. Defaults to 30; only change with a reason."
+          }
+        },
+        "mediaSlots": {},
+        "requiresSiteCapabilities": [
+          "contact_info"
+        ],
+        "notes": [
+          "Third-party embed: renders nothing at all unless both leadFormId and publicKey are present.",
+          "One instance per page — TripleSeat's markup uses global element ids."
+        ]
+      }
+    },
     {
       "id": "alternating-blocks",
       "name": "Alternating Content Blocks",

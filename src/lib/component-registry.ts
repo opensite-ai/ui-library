@@ -698,6 +698,18 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/testimonials/testimonials-twitter-cards"),
   "testimonials-wall-compact": () =>
     import("@/blocks/testimonials/testimonials-wall-compact"),
+
+  // Advanced blocks (owner-supplied embeds + custom design trees)
+  "iframe-embed": () =>
+    import("@/blocks/advanced/iframe-embed"),
+  "script-embed": () =>
+    import("@/blocks/advanced/script-embed"),
+  "free-form-design": () =>
+    import("@/blocks/advanced/free-form-design"),
+
+  // Integrations blocks (third-party SaaS embeds)
+  "tripleseat-form": () =>
+    import("@/blocks/integrations/tripleseat-form"),
 };
 
 export const componentRegistry = Object.fromEntries(
