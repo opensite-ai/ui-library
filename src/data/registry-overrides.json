@@ -2760,8 +2760,8 @@
       "title": "Link Page Bento Layout",
       "componentPath": "blocks/link-page/link-page-bento-layout.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306303/zl5j4j1jiot8c5bko9jtn7fipiys/link-page-bento-layout-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306304/rzwk5bwuejcatcts867h6no5rdcn/link-page-bento-layout-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/316350/ykusw756ezmcsiru7yg5rbxhsalf/link-page-bento-layout-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/316351/kmy26rvjcoeby5egb6p7863tu5xv/link-page-bento-layout-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-bento-layout",
@@ -2771,8 +2771,8 @@
       "title": "Link Page Grid Cards",
       "componentPath": "blocks/link-page/link-page-grid-cards.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306302/i0804qdw0ei2xc6248ueejiobc5q/link-page-grid-cards-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306301/1d7yggc1mwxv5zimmkz5ql1vu39a/link-page-grid-cards-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/316362/u1byhb7pk2ejo9vfzjp0x0f3g69g/link-page-grid-cards-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/316363/tm6rfz7s1v0ze5z1fkr2qkyz4iie/link-page-grid-cards-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-grid-cards",
@@ -2793,8 +2793,8 @@
       "title": "Link Page Newsletter Social",
       "componentPath": "blocks/link-page/link-page-newsletter-social.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306299/zn56kyieakiz6mjs98miedwwjptd/link-page-newsletter-social-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306300/qjwaaz6acrwqn72ir3kdwer4h0w1/link-page-newsletter-social-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/316352/svxrjfofpvunfe1bwevu7bdt8a7j/link-page-newsletter-social-desktop.png",
+        "mobile": "https://cdn.ing/assets/i/r/316353/zpf4wphz0azp9kwvjffvnmwin5e9/link-page-newsletter-social-mobile.png"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-page-newsletter-social",

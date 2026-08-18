@@ -4,18 +4,13 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <LinkPageBentoLayout
-      name="Sarah Mitchell"
-      bio="Helping brands tell their story"
-      avatar={{
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
-        alt: "Sarah Mitchell",
-      }}
+      name="Your Business. Your AI."
       logo={{
         url: "/",
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+        src: "https://cdn.ing/assets/i/r/316349/185c7s1wll47echo73skn5y4ptkn/logo-vertical-light.png",
         alt: "Sarah Mitchell",
       }}
-      logoAspect="horizontal"
+      logoAspect="square"
       socialLinks={[
         {
           id: "1",

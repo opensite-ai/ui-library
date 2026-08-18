@@ -4,14 +4,12 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <LinkPageGridCards
-      name="Marcus Chen"
-      bio="Product Designer & Digital Artist"
       logo={{
-        url: "/",
-        src: "https://cdn.ing/assets/i/r/308446/g4ykz8o4phw84yo9ly1lxhv0hqsd/logo-light.webp",
-        alt: "Marcus Chen",
+        src: "https://cdn.ing/assets/i/r/316361/p1nnyy9j0iuxyo8q53ij8aqygb4q/mark.png",
+        alt: "Creative Studio",
       }}
-      logoAspect="horizontal"
+      logoAspect="square"
+      name="BECOME THE SIGNAL IN THE NOISE"
       socialLinks={[
         {
           id: "1",
@@ -80,9 +78,8 @@ export default function Demo() {
         href: "https://opensite.ai",
         iconAfter: <DynamicIcon name="lucide/code-2" size={16} />,
       }}
-      spacing="xl"
-      pattern="diagonalCrossFadeTop"
-      patternOpacity={0.08}
+      pattern="waves"
+      patternOpacity={0.25}
       background="dark"
     />
   );

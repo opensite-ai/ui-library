@@ -4,18 +4,13 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <LinkTreeBlock
-      brandName="Creative Studio"
-      brandTagline="Award-winning design & branding agency"
-      brandAvatar={{
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
+      brandName="The Operating Layer for Modern Hospitality"
+      logoBannerImage={{
+        src: "https://cdn.ing/assets/i/r/316354/ckxhgbft1f9s8ocwfsntipr89p00/open-graph.jpg",
         alt: "Creative Studio",
       }}
-      logo={{
-        url: "/",
-        src: "https://cdn.ing/assets/i/r/287634/e4cmvu8nbwoqy2qer90t4gpap0ed/logo-light.png",
-        alt: "Creative Studio",
-      }}
-      logoAspect="horizontal"
+      logoAspect="banner"
+      logoBannerAspect="ultrawide"
       brandVerified={false}
       socialLinks={[
         {
@@ -131,7 +126,7 @@ export default function Demo() {
       spacing="xl"
       patternOpacity={0.33}
       pattern="diagonalCrossFadeCenter"
-      background="dark"
+      background="gradient"
     />
   );
 }

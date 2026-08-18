@@ -4,12 +4,6 @@ import { DynamicIcon } from "@opensite/ui/components/dynamic-icon";
 export default function Demo() {
   return (
     <LinkPageMinimalProfile
-      name="Alex Rivera"
-      bio="Software Engineer & Open Source Contributor"
-      avatar={{
-        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
-        alt: "Alex Rivera",
-      }}
       logo={{
         url: "/",
         src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",

@@ -19,16 +19,12 @@ export default function Demo() {
     <LinkPageNewsletterSocial
       name="Jamie Taylor"
       bio="Marketing Expert & Growth Strategist"
-      avatar={{
-        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
-        alt: "Jamie Taylor",
-      }}
       logo={{
         url: "/",
-        src: "https://cdn.ing/assets/i/r/287635/1tmeh86afyxszfz7hbmvcc0oct8w/logo-dark.png",
+        src: "https://cdn.ing/assets/i/r/316347/owqhkuzeluk5ltlfq6lb93yqc6ap/logo-circle.png",
         alt: "Jamie Taylor",
       }}
-      logoAspect="horizontal"
+      logoAspect="square"
       socialLinks={[
         {
           id: "1",
