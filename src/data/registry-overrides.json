@@ -2804,8 +2804,8 @@
       "title": "Link Tree Block",
       "componentPath": "blocks/link-page/link-tree-block.tsx",
       "thumbnail": {
-        "desktop": "https://cdn.ing/assets/i/r/306295/an5cx8unhvpjs0mzy927rhe6mcxj/link-tree-block-desktop.jpg",
-        "mobile": "https://cdn.ing/assets/i/r/306296/9q68brz8mc8bl62ist21jicdwcvn/link-tree-block-mobile.jpg"
+        "desktop": "https://cdn.ing/assets/i/r/316364/n2ae0etw48hwld0846ub98u4fs8j/link-tree-block-desktop.jpg",
+        "mobile": "https://cdn.ing/assets/i/r/316365/uo3ty7rj2l2c8drdbs3083xt0jcp/link-tree-block-mobile.jpg"
       },
       "dependencies": ["@opensite/ui"],
       "demoPath": "blocks/link-page/link-tree-block",
