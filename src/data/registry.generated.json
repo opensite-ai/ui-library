@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.15.6",
+    "version": "3.15.7",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-18T08:45:48.082Z",
+    "syncedAt": "2026-08-18T21:15:11.083Z",
     "totalBlocks": 610
   },
   "blocks": [
@@ -124077,7 +124077,7 @@
         "propConstraints": {
           "menuLinks": {
             "minItems": 2,
-            "maxItems": 7
+            "maxItems": 5
           },
           "menuLinks[].links": {
             "minItems": 1,
