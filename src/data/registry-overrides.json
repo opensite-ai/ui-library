@@ -1854,6 +1854,16 @@
       "demoPath": "src/blocks/article/article-hero-prose.tsx",
       "importantUsageNotes": "ONLY use a valid markdown string for the content, supplied to the `markdownString` prop. Ensure to only use the post.authorName, post.authorImage, post.authorHref, and post.authorImage fields if you have actual data to populate those fields, using empty/fake data is not acceptable!"
     },
+    "article-legal-prose": {
+      "title": "Article Legal Prose",
+      "componentPath": "blocks/article/article-legal-prose.tsx",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "dependencies": ["@opensite/ui"],
+      "demoPath": "blocks/article/article-legal-prose"
+    },
     "article-sidebar-sticky": {
       "title": "Article Sidebar Sticky",
       "componentPath": "blocks/article/article-sidebar-sticky.tsx",

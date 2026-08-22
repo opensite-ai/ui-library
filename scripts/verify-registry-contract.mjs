@@ -104,9 +104,15 @@ const ARTICLE_BLOCK_IDS = [
   "article-compact-toc",
   "article-chapters-author",
   "article-split-animated",
+  "article-legal-prose",
 ];
 
-const ARTICLE_BLOCK_IDS_WITH_MEDIA = new Set(ARTICLE_BLOCK_IDS);
+// article-legal-prose renders no media by design (legal documents carry no
+// hero image or byline avatar), so it is excluded from the media-slot and
+// absolute-media-URL checks that apply to the byline-bearing article family.
+const ARTICLE_BLOCK_IDS_WITH_MEDIA = new Set(
+  ARTICLE_BLOCK_IDS.filter((id) => id !== "article-legal-prose"),
+);
 
 function topLevelPropFromPath(p) {
   return p.split(/[.[]/)[0] || p;
@@ -646,6 +652,14 @@ const EMBED_BLOCK_CATEGORIES = {
   "tripleseat-form": "integrations",
 };
 
+// Blocks whose canonical demo must survive octane's example_code extraction
+// intact: the four embed blocks plus article-legal-prose (the block the
+// semantic agent is steered at for every legal/policy page).
+const EXTRACTION_CRITICAL_BLOCK_CATEGORIES = {
+  ...EMBED_BLOCK_CATEGORIES,
+  "article-legal-prose": "article",
+};
+
 /** Mirror of octane's sanitize_showcase_example_code. */
 function sanitizeExampleCode(code) {
   const raw = (code || "").trim();
@@ -687,7 +701,9 @@ function classTokens(value) {
   return new Set((value || "").split(/\s+/).filter(Boolean));
 }
 
-for (const [id, expectedCategory] of Object.entries(EMBED_BLOCK_CATEGORIES)) {
+for (const [id, expectedCategory] of Object.entries(
+  EXTRACTION_CRITICAL_BLOCK_CATEGORIES,
+)) {
   const block = findBlock(id);
   if (!block) continue;
 
@@ -841,7 +857,7 @@ if (orphanLoaders.length > 0) {
     `componentLoaders has ${orphanLoaders.length} key(s) with no matching block id (loadComponent would silently return null): ${orphanLoaders.slice(0, 5).join(", ")}`,
   );
 }
-for (const id of Object.keys(EMBED_BLOCK_CATEGORIES)) {
+for (const id of Object.keys(EXTRACTION_CRITICAL_BLOCK_CATEGORIES)) {
   check(id, loaderKeys.includes(id), "missing a componentLoaders entry");
 }
 
@@ -865,5 +881,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  "registry contract verification OK (about/article generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; iframe-embed/script-embed/free-form-design/tripleseat-form example-code extraction survival, https-only media, propsSchema + exampleProps present, free-form className manifest completeness; componentLoaders/block-id agreement; no legacy defaultProps remain).",
+  "registry contract verification OK (about/article generated code safety; hero-mental-health-team + hero-mentorship-video-split usageRequirements, mediaSlots, exampleProps absolute URLs, propsSchema projection; iframe-embed/script-embed/free-form-design/tripleseat-form/article-legal-prose example-code extraction survival, https-only media, propsSchema + exampleProps present, free-form className manifest completeness; componentLoaders/block-id agreement; no legacy defaultProps remain).",
 );

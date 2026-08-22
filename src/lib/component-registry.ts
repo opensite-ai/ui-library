@@ -253,6 +253,8 @@ export const componentLoaders: Record<string, ComponentLoader> = {
     import("@/blocks/article/article-compact-toc"),
   "article-hero-prose": () =>
     import("@/blocks/article/article-hero-prose"),
+  "article-legal-prose": () =>
+    import("@/blocks/article/article-legal-prose"),
   "article-sidebar-sticky": () =>
     import("@/blocks/article/article-sidebar-sticky"),
   "article-split-animated": () =>

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "version": "3.15.7",
+    "version": "3.16.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-18T21:15:11.083Z",
-    "totalBlocks": 610
+    "syncedAt": "2026-08-22T15:01:58.243Z",
+    "totalBlocks": 611
   },
   "blocks": [
     {
@@ -72283,6 +72283,251 @@
       }
     },
     {
+      "id": "article-legal-prose",
+      "name": "Article Legal Prose",
+      "title": "Article Legal Prose",
+      "category": "Article",
+      "categorySlug": "article",
+      "description": "A clean single-column long-form prose layout for legal and policy documents: privacy policies, terms of use, terms of service, EULAs, cookie policies, disclaimers, and accessibility statements. Renders a document title, an optional last-updated line, and the entire document body as sectioned markdown prose. The standard block for legal pages — one block carries the whole document with no byline, publication date, or hero image.",
+      "thumbnail": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "componentPath": "blocks/article/article-legal-prose.tsx",
+      "code": "import { ArticleLegalProse } from \"@opensite/ui/blocks/article/article-legal-prose\";\n\nexport default function Demo() {\n  return (\n    // The ENTIRE legal document lives in ONE block: full sectioned markdown in\n    // markdownString with ## headings. Supply lastUpdatedLabel/lastUpdatedDate\n    // only when a real revision date is known — omit both rather than invent one.\n    <ArticleLegalProse\n      title=\"Privacy Policy\"\n      lastUpdatedLabel=\"Last updated\"\n      lastUpdatedDate=\"March 12, 2026\"\n      markdownString={`## Overview\nThis policy explains what information this website collects and how that information is used.\n\n## Information We Collect\nContact details you submit through forms on this site, plus standard usage analytics.\n\n## How We Use Information\nWe use submitted information to respond to inquiries, operate the website, and improve our services.\n\n## Your Rights\nYou may request a copy of your personal data or ask for it to be deleted at any time.\n\n## Contact\nQuestions about this policy can be sent through this website's contact page.`}\n    />\n  );\n}\n",
+      "propsSchema": {
+        "title": {
+          "type": "string",
+          "description": "Document title rendered as the page heading, e.g. \"Privacy Policy\" or\n\"Terms of Use\".",
+          "required": false
+        },
+        "lastUpdatedLabel": {
+          "type": "string",
+          "description": "Optional short label prefixing the revision line, e.g. \"Last updated\".\nRendered only when lastUpdatedDate is also supplied.",
+          "required": false
+        },
+        "lastUpdatedDate": {
+          "type": "string",
+          "description": "Optional human-readable revision date string, e.g. \"March 12, 2026\".\nSupply a real date only; omit entirely when the revision date is unknown.",
+          "required": false
+        },
+        "markdownString": {
+          "type": "string",
+          "description": "The complete legal document body as markdown. Use ## headings for the\ndocument's sections (e.g. \"## Information We Collect\").",
+          "required": false
+        },
+        "markdownStyles": {
+          "type": "object",
+          "description": "Custom className mappings for markdown elements",
+          "typeLabel": "MarkdownStylesMap",
+          "required": false
+        },
+        "optixFlowConfig": {
+          "type": "object",
+          "description": "OptixFlow image optimization configuration for images in markdown",
+          "fields": {
+            "apiKey": {
+              "type": "string",
+              "description": "API key for OptixFlow service",
+              "required": true
+            },
+            "compression": {
+              "type": "number",
+              "description": "Compression level (0-100)",
+              "required": false
+            }
+          },
+          "typeLabel": "OptixFlowConfig",
+          "required": false
+        },
+        "headerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the document header (title + revision line)",
+          "required": false
+        },
+        "titleClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the title",
+          "required": false
+        },
+        "proseClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the prose content wrapper",
+          "required": false
+        },
+        "background": {
+          "type": "string",
+          "description": "Background style for the section",
+          "typeLabel": "SectionBackground",
+          "enum": [
+            "default",
+            "white",
+            "gray",
+            "dark",
+            "gradient",
+            "primary",
+            "secondary",
+            "transparent",
+            "muted"
+          ],
+          "required": false
+        },
+        "spacing": {
+          "type": "string",
+          "description": "Vertical spacing for the section",
+          "typeLabel": "SectionSpacing",
+          "enum": [
+            "none",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+            "hero"
+          ],
+          "required": false
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Background pattern",
+          "typeLabel": "PatternName",
+          "enum": [
+            "squareAltGrid",
+            "grid1",
+            "noise",
+            "dots",
+            "dotPattern",
+            "dotPattern2",
+            "circles",
+            "waves",
+            "crossPattern",
+            "architect",
+            "tinyCheckers",
+            "p6",
+            "circuitBoardBasic",
+            "circuitBoardFadeTop",
+            "circuitBoardFadeBottom",
+            "circuitBoardFadeCenter",
+            "circuitBoardFadeTopLeft",
+            "circuitBoardFadeTopRight",
+            "circuitBoardFadeBottomLeft",
+            "circuitBoardFadeBottomRight",
+            "dashedGridBasic",
+            "dashedGridFadeTop",
+            "dashedGridFadeBottom",
+            "dashedGridFadeCenter",
+            "dashedGridFadeTopLeft",
+            "dashedGridFadeTopRight",
+            "dashedGridFadeBottomLeft",
+            "dashedGridFadeBottomRight",
+            "diagonalCrossBasic",
+            "diagonalCrossFadeTop",
+            "diagonalCrossFadeBottom",
+            "diagonalCrossFadeCenter",
+            "diagonalCrossFadeTopLeft",
+            "diagonalCrossFadeTopRight",
+            "diagonalCrossFadeBottomLeft",
+            "diagonalCrossFadeBottomRight",
+            "gridBasic",
+            "gridFadeTop",
+            "gridFadeBottom",
+            "gridFadeCenter",
+            "gridFadeTopLeft",
+            "gridFadeTopRight",
+            "gridFadeBottomLeft",
+            "gridFadeBottomRight",
+            "gridDotsBasic",
+            "gridDotsFadeCenter",
+            "gradientGlowTop",
+            "gradientGlowBottom",
+            "spotlightLeft",
+            "spotlightRight",
+            "radialGradientTop",
+            "radialGradientBottom"
+          ],
+          "required": false
+        },
+        "patternOpacity": {
+          "type": "number",
+          "description": "Pattern opacity (0-1)",
+          "required": false
+        },
+        "className": {
+          "type": "string",
+          "description": "Additional CSS classes for the section",
+          "required": false
+        },
+        "containerClassName": {
+          "type": "string",
+          "description": "Additional CSS classes for the container",
+          "required": false
+        },
+        "sectionId": {
+          "type": "string",
+          "description": "Optional Section ID",
+          "required": false
+        }
+      },
+      "exampleProps": {
+        "title": "Privacy Policy",
+        "lastUpdatedLabel": "Last updated",
+        "lastUpdatedDate": "March 12, 2026",
+        "markdownString": "## Overview\nThis policy explains what information this website collects and how that information is used.\n\n## Information We Collect\nContact details submitted through forms on this site, plus standard usage analytics.\n\n## How We Use Information\nTo respond to inquiries, operate the website, and improve our services.\n\n## Your Rights\nYou may request a copy of your personal data or ask for it to be deleted at any time."
+      },
+      "dependencies": [
+        "@opensite/ui"
+      ],
+      "tags": [
+        "article",
+        "legal",
+        "privacy-policy",
+        "terms-of-use",
+        "terms-of-service",
+        "eula",
+        "cookie-policy",
+        "disclaimer",
+        "policy",
+        "compliance",
+        "long-form",
+        "prose",
+        "document"
+      ],
+      "performance": {},
+      "importantUsageNotes": "THE block for legal and policy pages: privacy policies, terms of use, terms of service, EULAs, cookie policies, disclaimers, and accessibility statements. Compose the ENTIRE legal document as ONE block — put the complete sectioned document in markdownString using ## headings. Never split a legal document across FAQ accordions, feature grids, contact blocks, stats, or multiple blocks. This block has no byline, author, publication date, or hero image by design; supply lastUpdatedLabel and lastUpdatedDate only when a real revision date is known, otherwise omit both — never invent a date.",
+      "usageRequirements": {
+        "requiredProps": [
+          "title",
+          "markdownString"
+        ],
+        "propConstraints": {
+          "title": {
+            "required": true,
+            "maxLength": 90,
+            "note": "The document name, e.g. \"Privacy Policy\" or \"Terms of Use\"."
+          },
+          "lastUpdatedLabel": {
+            "required": false,
+            "maxLength": 40,
+            "note": "Short label such as \"Last updated\". Rendered only when lastUpdatedDate is also supplied."
+          },
+          "lastUpdatedDate": {
+            "required": false,
+            "maxLength": 40,
+            "note": "Real revision date only; omit when unknown. Never fabricate a date."
+          },
+          "markdownString": {
+            "required": true,
+            "maxLength": 16000,
+            "note": "The complete legal document body as markdown with ## section headings."
+          }
+        },
+        "mediaSlots": {},
+        "requiresSiteCapabilities": [],
+        "notes": [
+          "Use existing legal copy from source evidence when available; otherwise generate practical template legal copy grounded in the known business context. Never fabricate revision dates, bylines, company registration numbers, or regulator names."
+        ]
+      }
+    },
+    {
       "id": "faq-simple-accordion",
       "name": "Simple Accordion FAQ",
       "title": "FAQ Simple Accordion",
@@ -130798,7 +131043,7 @@
         "switchable"
       ],
       "performance": {},
-      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. title Each tab's 'featured' object with 'image' must use an absolute URL. Tabs without a 'featured' field show a simple link grid. The 'authActions' array renders on the right side of the navbar.",
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. title Each tab's 'featured' object with 'image' must use an absolute URL. Tabs without a 'featured' field show a simple link grid. The 'authActions' array renders on the right side of the navbar. SELECTION: choose this block ONLY when the menu groups genuinely have 2+ distinct sub-categories, i.e. multiple tabs inside a single dropdown. For single-category dropdowns prefer 'navbar-dropdown-menu' or 'navbar-centered-menu' — those are purpose-built for a flat link panel and this block gives you nothing extra. A group carrying a single tab stays VALID and renders as a plain panel with no tab strip (desktop) and no nested accordion level (mobile); the tab's title only appears, as a small non-interactive heading, when it differs from the group title. Never synthesize a one-tab group just to use this block: the tab strip is the entire reason it exists.",
       "usageRequirements": {
         "requiredProps": [
           "logo",
