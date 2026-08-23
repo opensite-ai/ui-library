@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.16.0",
+    "version": "3.17.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-22T15:01:58.243Z",
+    "syncedAt": "2026-08-23T00:04:38.948Z",
     "totalBlocks": 611
   },
   "blocks": [
@@ -66771,6 +66771,11 @@
                 "type": "string",
                 "description": "",
                 "required": true
+              },
+              "slug": {
+                "type": "string",
+                "description": "Category slug for the platform's `?category_slug=` URL filter\n(FEED_CONTRACT §2.4). Hydration-provided and optional — chips without one\nfilter client-side only and skip the URL write. The `All` chip never\ncarries one (selecting it removes the param).",
+                "required": false
               }
             },
             "typeLabel": "CategoryFilter"
