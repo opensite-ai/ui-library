@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.17.1",
+    "version": "3.17.2",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-25T03:08:33.079Z",
+    "syncedAt": "2026-08-25T16:30:07.616Z",
     "totalBlocks": 611
   },
   "blocks": [
@@ -29118,7 +29118,7 @@
       "title": "Carousel Fullscreen Scroll FX",
       "category": "Carousel",
       "categorySlug": "carousel",
-      "description": "A GSAP-powered fullscreen carousel with scroll-triggered animations, pinned sections, and smooth parallax effects. Features immersive full-viewport slides with overlay content and navigation indicators.",
+      "description": "A document-scroll-driven fullscreen carousel with a sticky viewport and animated vertical slide transitions. Features immersive full-viewport slides with overlay content and navigation indicators scoped to the active block.",
       "thumbnail": {
         "desktop": "https://cdn.ing/assets/i/r/295059/auiusd6ddgq17r2z6imi6bawl9ba/carousel-fullscreen-scroll-fx-desktop.png",
         "mobile": "https://cdn.ing/assets/i/r/295060/uzkicw5slkpz53y2wrahhmiokhd6/carousel-fullscreen-scroll-fx-mobile.png"
@@ -29276,7 +29276,7 @@
         },
         "slidesSlot": {
           "type": "object",
-          "description": "Custom slot for rendering slides (overrides slides array)",
+          "description": "Custom slot for rendering slides (overrides slides array). Each direct\nchild is treated as one full-viewport slide.",
           "typeLabel": "React.ReactNode",
           "required": false
         },
@@ -29502,15 +29502,15 @@
         "carousel",
         "fullscreen",
         "scroll",
-        "gsap",
-        "parallax",
+        "sticky",
+        "scroll-story",
         "immersive",
         "storytelling",
         "portfolio",
         "cinematic"
       ],
       "performance": {},
-      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. Each FullscreenSlide requires a unique 'id' string and an 'image' absolute URL. Supports 2–8 slides for effective scroll storytelling. 'overlayColor' accepts rgba strings to tint each slide background independently. Per-slide 'actions' array renders CTA buttons centered over the slide content. The component is intended as a full-page or hero-level section; do not nest inside constrained heights. Default background is 'dark' with a diagonal cross pattern.",
+      "importantUsageNotes": "All media src values must be absolute URLs to real assets; relative paths and placeholder media variables are not allowed. Each FullscreenSlide requires a unique 'id' string and an 'image' absolute URL. Supports 2–8 slides for effective scroll storytelling. 'overlayColor' accepts rgba strings to tint each slide background independently. Per-slide 'actions' array renders CTA buttons centered over the slide content. The component works as a hero or mid-page section by using the document scroll surface; do not place it inside a height-constrained or vertically scrolling wrapper. Default background is 'dark' with a diagonal cross pattern.",
       "usageRequirements": {
         "requiredProps": [],
         "propConstraints": {},
