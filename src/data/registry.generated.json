@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "3.17.2",
+    "version": "3.17.3",
     "source": "@opensite/ui",
-    "syncedAt": "2026-08-25T16:30:07.616Z",
+    "syncedAt": "2026-08-31T23:01:28.693Z",
     "totalBlocks": 611
   },
   "blocks": [
@@ -205455,8 +205455,8 @@
           }
         ],
         "footerAction": {
-          "label": "Powered by OpenSite",
-          "href": "https://opensite.ai"
+          "label": "Powered by Encapsa AI",
+          "href": "https://encapsa.ai"
         },
         "background": "dark",
         "pattern": "diagonalCrossFadeCenter",
@@ -206324,8 +206324,8 @@
           }
         ],
         "footerAction": {
-          "label": "Powered by OpenSite",
-          "href": "https://opensite.ai"
+          "label": "Powered by Encapsa AI",
+          "href": "https://encapsa.ai"
         },
         "background": "gray",
         "pattern": "architect",
