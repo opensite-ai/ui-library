@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "4.0.0",
+    "version": "4.1.0",
     "source": "@opensite/ui",
-    "syncedAt": "2026-10-13T11:40:17.923Z",
+    "syncedAt": "2026-10-13T18:33:03.666Z",
     "totalBlocks": 611
   },
   "blocks": [
@@ -1383,6 +1383,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Main description text",
@@ -1839,6 +1853,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -2411,6 +2439,20 @@
           "type": "object",
           "description": "Main heading/title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -3038,6 +3080,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "titleClassName": {
           "type": "string",
           "description": "Additional CSS classes for the title",
@@ -3489,6 +3545,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -4020,6 +4090,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "titleClassName": {
           "type": "string",
           "description": "Additional CSS classes for the title",
@@ -4302,6 +4386,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -5355,6 +5453,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "titleClassName": {
           "type": "string",
           "description": "Additional CSS classes for the title",
@@ -5772,6 +5884,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "content": {
           "type": "object",
           "description": "Story content/body text",
@@ -6104,6 +6230,20 @@
           "type": "object",
           "description": "Main heading/title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -6768,6 +6908,20 @@
           "type": "object",
           "description": "Main heading/title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -8685,6 +8839,20 @@
           "type": "object",
           "description": "Main headline text",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "headlineClassName": {
@@ -10891,6 +11059,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description content below the heading",
@@ -12726,6 +12908,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -18936,6 +19132,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -28143,6 +28353,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/description text",
@@ -30262,6 +30486,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -31405,6 +31643,20 @@
         "sectionId": {
           "type": "string",
           "description": "Optional Section ID",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         }
       },
@@ -38793,6 +39045,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Supporting description content",
@@ -45396,6 +45662,20 @@
           "type": "object",
           "description": "Section title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -63436,6 +63716,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -63929,6 +64223,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -64425,6 +64733,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -64840,6 +65162,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "seeAllAction": {
@@ -65312,6 +65648,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -66445,6 +66795,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -67194,6 +67558,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Slide description",
@@ -67584,6 +67962,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "posts": {
@@ -68998,6 +69390,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "exampleProps": {
@@ -69208,6 +69614,20 @@
           "type": "object",
           "description": "Article title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "authorName": {
@@ -69583,6 +70003,20 @@
           "type": "object",
           "description": "Article title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -70208,6 +70642,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "string",
           "description": "Article summary/description",
@@ -70742,6 +71190,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "string",
           "description": "Article summary/description",
@@ -71225,6 +71687,20 @@
           "type": "object",
           "description": "Article title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -71844,6 +72320,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Article description",
@@ -72304,6 +72794,20 @@
         "title": {
           "type": "string",
           "description": "Document title rendered as the page heading, e.g. \"Privacy Policy\" or\n\"Terms of Use\".",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "lastUpdatedLabel": {
@@ -77612,6 +78116,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Supporting description text",
@@ -78084,6 +78602,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Supporting description text",
@@ -78514,6 +79046,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -78976,6 +79522,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -79425,6 +79985,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -79856,6 +80430,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -80418,6 +81006,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -80977,6 +81579,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -81401,6 +82017,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -81876,6 +82506,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -82305,6 +82949,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "highlightedWord": {
@@ -82744,6 +83402,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -83365,6 +84037,20 @@
           "typeLabel": "HeroPanelItem[]",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the first panel's title. Defaults to 2; the other\npanels stay h2. Page renderers pass 1 for the block that leads the page\nand 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "backgroundAutoplayIntervalMs": {
           "type": "number",
           "description": "Default autoplay interval (ms) used when a panel has 2+ background media\nitems and does not specify its own `backgroundAutoplayIntervalMs`.",
@@ -83637,6 +84323,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -84105,6 +84805,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "action": {
           "type": "object",
           "description": "Action configuration for CTA button",
@@ -84474,6 +85188,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -84919,6 +85647,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -85382,6 +86124,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -85853,6 +86609,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -86395,6 +87165,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -86873,6 +87657,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "actions": {
           "type": "array",
           "description": "Array of action configurations for CTA buttons",
@@ -87287,6 +88085,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -87742,6 +88554,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -88155,6 +88981,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -88597,6 +89437,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -89064,6 +89918,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -89515,6 +90383,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -90108,6 +90990,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -90517,6 +91413,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -90965,6 +91875,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -91306,6 +92230,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -91846,6 +92784,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "headingSlot": {
           "type": "object",
           "description": "Custom slot for heading (overrides heading prop)",
@@ -92259,6 +93211,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -92823,6 +93789,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -93317,6 +94297,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -93739,6 +94733,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -94186,6 +95194,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -94644,6 +95666,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -95090,6 +96126,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -95632,6 +96682,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -96245,6 +97309,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -96750,6 +97828,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -97277,6 +98369,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "actions": {
           "type": "array",
           "description": "Action buttons configuration",
@@ -97688,6 +98794,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -98441,6 +99561,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "exampleProps": {
@@ -98543,6 +99677,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -99024,6 +100172,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "headingHighlight": {
           "type": "string",
           "description": "Highlighted text within heading (gradient styled)",
@@ -99475,6 +100637,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -100002,6 +101178,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -100410,6 +101600,20 @@
           "type": "object",
           "description": "Main heading text",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -100944,6 +102148,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -101418,6 +102636,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text",
@@ -101798,6 +103030,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -102248,6 +103494,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -102856,6 +104116,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "headingHighlight": {
           "type": "string",
           "description": "Highlighted text within heading (gradient styled)",
@@ -103272,6 +104546,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -103856,6 +105144,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -104339,6 +105641,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -104885,6 +106201,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "smallImages": {
           "type": "array",
           "description": "Array of 2 small images (expects 2 images)",
@@ -105388,6 +106718,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -105889,6 +107233,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -106350,6 +107708,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "descriptionClassName": {
           "type": "string",
           "description": "Additional CSS classes for the description",
@@ -106807,6 +108179,20 @@
           "type": "object",
           "description": "Main heading text",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -107276,6 +108662,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -107833,6 +109233,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -108266,6 +109680,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -108894,6 +110322,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -109304,6 +110746,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -109778,6 +111234,20 @@
           "type": "object",
           "description": "Main heading content (can include line breaks)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -110624,6 +112094,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "exampleProps": {
@@ -110748,6 +112232,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -111237,6 +112735,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -111690,6 +113202,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -112248,6 +113774,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -112778,6 +114318,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -113115,6 +114669,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -113544,6 +115112,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -114007,6 +115589,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -114619,6 +116215,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -116686,6 +118296,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "heroImageSrc": {
           "type": "string",
           "description": "Hero image URL",
@@ -117274,6 +118898,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle/description below the title",
@@ -117733,6 +119371,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -118002,6 +119654,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -132057,6 +133723,20 @@
           "type": "object",
           "description": "Main heading text",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "headingClassName": {
@@ -147222,6 +148902,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -147647,6 +149341,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -148441,6 +150149,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -149111,6 +150833,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description text below heading",
@@ -149718,6 +151454,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "exampleProps": {
@@ -149833,6 +151583,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -150155,6 +151919,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -150856,6 +152634,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/eyebrow content",
@@ -151117,6 +152909,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/eyebrow content",
@@ -151354,6 +153160,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subheading": {
@@ -151605,6 +153425,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading content",
@@ -151852,6 +153686,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "projects": {
@@ -153305,6 +155153,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "projects": {
           "type": "array",
           "description": "Array of project configurations",
@@ -154473,6 +156335,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "description": {
           "type": "object",
           "description": "Description content",
@@ -154687,6 +156563,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "projects": {
@@ -154910,6 +156800,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "projects": {
@@ -155822,6 +157726,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/label content",
@@ -156056,6 +157974,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/label content",
@@ -156283,6 +158215,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subheading": {
@@ -156519,6 +158465,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/label content",
@@ -156753,6 +158713,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subheading": {
           "type": "object",
           "description": "Subheading/label content",
@@ -156980,6 +158954,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subheading": {
@@ -157886,6 +159874,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "headingClassName": {
           "type": "string",
           "description": "Additional CSS classes for the heading",
@@ -158298,6 +160300,20 @@
           "type": "object",
           "description": "Main heading text (supports line breaks)",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "headingClassName": {
@@ -158998,6 +161014,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "headingClassName": {
@@ -160577,6 +162607,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle/role text",
@@ -160908,6 +162952,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -161208,6 +163266,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -161580,6 +163652,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -161949,6 +164035,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -162301,6 +164401,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -162690,6 +164804,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -163030,6 +165158,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -163445,6 +165587,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -163840,6 +165996,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -164180,6 +166350,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -164515,6 +166699,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -164879,6 +167077,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -165280,6 +167492,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -165658,6 +167884,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -166116,6 +168356,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -166498,6 +168752,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -166790,6 +169058,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -167205,6 +169487,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -167661,6 +169957,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -168029,6 +170339,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "subtitle": {
           "type": "object",
           "description": "Subtitle text",
@@ -168376,6 +170700,20 @@
           "type": "object",
           "description": "Main title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "subtitle": {
@@ -172870,6 +175208,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "dependencies": [],
@@ -172952,6 +175304,20 @@
           "type": "object",
           "description": "Page title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -183014,6 +185380,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "titleClassName": {
           "type": "string",
           "description": "",
@@ -183320,6 +185700,20 @@
           "type": "object",
           "description": "",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -183645,6 +186039,20 @@
           "type": "object",
           "description": "",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -184041,6 +186449,20 @@
           "type": "object",
           "description": "",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -184460,6 +186882,20 @@
           "type": "object",
           "description": "",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -184904,6 +187340,20 @@
           "type": "object",
           "description": "Main page title",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -185357,6 +187807,20 @@
           "type": "object",
           "description": "",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -194251,6 +196715,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "titleClassName": {
           "type": "string",
           "description": "Additional CSS classes for the title",
@@ -194602,6 +197080,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "titleClassName": {
@@ -200766,6 +203258,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "sections": {
           "type": "array",
           "description": "Array of timeline sections",
@@ -202258,6 +204764,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "steps": {
           "type": "array",
           "description": "Array of timeline steps",
@@ -202505,6 +205025,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "entries": {
@@ -202759,6 +205293,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "entries": {
           "type": "array",
           "description": "Array of timeline entries",
@@ -203002,6 +205550,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "currentPhase": {
@@ -203257,6 +205819,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "currentPhase": {
@@ -203522,6 +206098,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "phases": {
@@ -203891,6 +206481,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "description": {
@@ -204267,6 +206871,20 @@
           "type": "object",
           "description": "Main heading content",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 2. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "items": {
@@ -205369,6 +207987,20 @@
           "type": "string",
           "description": "Optional Section ID",
           "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
         }
       },
       "exampleProps": {
@@ -205648,6 +208280,20 @@
           "type": "object",
           "description": "Profile name displayed at the top",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "bio": {
@@ -206476,6 +209122,20 @@
           "type": "object",
           "description": "Profile name displayed at the top",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "bio": {
@@ -207490,6 +210150,20 @@
           "typeLabel": "React.ReactNode",
           "required": false
         },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "required": false
+        },
         "bio": {
           "type": "object",
           "description": "Optional bio or description",
@@ -208378,6 +211052,20 @@
           "type": "object",
           "description": "Profile name displayed at the top",
           "typeLabel": "React.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "bio": {
@@ -209393,6 +212081,20 @@
           "type": "object",
           "description": "Main heading text",
           "typeLabel": "React$1.ReactNode",
+          "required": false
+        },
+        "headingLevel": {
+          "type": "number",
+          "description": "Heading level for the primary title. Defaults to 1. Page renderers\npass 1 for the block that leads the page and 2 elsewhere.",
+          "typeLabel": "HeadingLevel",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
           "required": false
         },
         "headingClassName": {

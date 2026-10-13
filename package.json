@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@opensite/hooks": "2.1.0",
-    "@opensite/ui": "4.0.0",
-    "@page-speed/blocks": "0.6.14",
+    "@opensite/ui": "4.1.0",
+    "@page-speed/blocks": "0.6.15",
     "@page-speed/forms": "0.8.3",
     "@page-speed/hooks": "0.4.6",
     "@page-speed/img": "0.4.10",
